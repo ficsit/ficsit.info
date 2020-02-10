@@ -1,0 +1,26 @@
+{
+	"name": "Ficsit Employee Intranet Portal",
+	"short_name": "Ficsit",
+	"icons": [
+		{
+			"src": "./assets/site-icons/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "./assets/site-icons/android-chrome-256x256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		},
+		{
+			"purpose": "maskable",
+			"src": "./assets/site-icons/android-chrome-maskable-256x256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#f69e2c",
+	"background_color": "#374663",
+	"start_url": "%%APP_ORIGIN%%",
+	"display": "standalone"
+}

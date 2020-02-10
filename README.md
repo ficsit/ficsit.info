@@ -1,3 +1,3 @@
 # ficsit.info
 
-Ficsit Employee Intranet Portal
+Intranet portal for Ficsit employees (an unofficial Satisfactory fansite)
