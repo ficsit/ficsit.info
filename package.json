@@ -1,0 +1,7 @@
+{
+  "name": "ficsit.info",
+  "private": true,
+  "repository": "https://github.com/ficsit/ficsit.info",
+  "authors": "Ficsit.info Authors & Employees",
+  "license": "Apache-2.0"
+}
