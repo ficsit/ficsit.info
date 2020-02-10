@@ -4,5 +4,13 @@
   "private": true,
   "repository": "https://github.com/ficsit/ficsit.info",
   "authors": "Ficsit.info Authors & Employees",
-  "license": "Apache-2.0"
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "parcel build ./src/index.html",
+    "dev": "parcel serve ./src/index.html --open"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4",
+    "parcel-plugin-static-files-copy": "^2.3.1"
+  }
 }
