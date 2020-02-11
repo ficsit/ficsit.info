@@ -7,9 +7,11 @@
   "license": "Apache-2.0",
   "scripts": {
     "build": "parcel build ./src/index.html",
+    "deploy": "firebase deploy",
     "dev": "parcel serve ./src/index.html --open"
   },
   "devDependencies": {
+    "firebase-tools": "^7.12.1",
     "parcel": "^1.12.4",
     "parcel-plugin-static-files-copy": "^2.3.1"
   }
