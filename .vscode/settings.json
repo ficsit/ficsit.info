@@ -1,0 +1,13 @@
+{
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.insertFinalNewline": true,
+  "files.exclude": {
+    "**/.*": true,
+    "dist/": true,
+    "node_modules/": true,
+    "*LICENSE*": true,
+    "yarn.lock": true,
+    "firebase.json": true
+  }
+}
