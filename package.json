@@ -12,7 +12,7 @@
   },
   "devDependencies": {
     "firebase-tools": "^7.12.1",
-    "parcel": "^1.12.4",
+    "parcel-bundler": "^1.12.4",
     "parcel-plugin-static-files-copy": "^2.3.1"
   }
 }
