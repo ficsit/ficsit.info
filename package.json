@@ -6,9 +6,9 @@
   "authors": "Ficsit.info Authors & Employees",
   "license": "Apache-2.0",
   "scripts": {
-    "build": "parcel build ./src/index.html",
+    "build": "parcel build ./web/index.html",
     "deploy": "firebase deploy",
-    "dev": "parcel serve ./src/index.html --open"
+    "dev": "parcel serve ./web/index.html --open"
   },
   "devDependencies": {
     "firebase-tools": "^7.12.1",
