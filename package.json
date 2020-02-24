@@ -7,8 +7,10 @@
   "license": "Apache-2.0",
   "scripts": {
     "build": "parcel build ./web/index.html",
+    "checkout-resources": "./scripts/checkout-resources.sh",
     "deploy": "firebase deploy",
     "dev": "parcel serve ./web/index.html --open",
+    "extract": "./scripts/extract.ts",
     "test": "jest"
   },
   "devDependencies": {
@@ -30,6 +32,7 @@
     "parcel-plugin-static-files-copy": "^2.3.1",
     "sharp": "^0.24.1",
     "ts-jest": "^25.2.1",
+    "ts-node": "^8.6.2",
     "typescript": "^3.8.2"
   }
 }

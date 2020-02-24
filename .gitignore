@@ -1,6 +1,8 @@
 .cache/
+.community-resources/
 .firebase/
 dist/
 node_modules/
+static/data/*/debug
 .DS_Store
 *.log*
