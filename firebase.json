@@ -13,6 +13,12 @@
         "headers": [
           { "key": "Cache-Control", "value": "max-age=31536000" }
         ]
+      },
+      {
+        "source": "/items/quickwire",
+        "headers": [
+          { "key": "Link", "value": "</assets/images/7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8.256.png>;rel=preload;as=image" }
+        ]
       }
     ]
   }
