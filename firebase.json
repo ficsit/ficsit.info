@@ -7,30 +7,23 @@
         "destination": "/index.html"
       }
     ],
-    "redirects": [
-      {
-        "type": 307,
-        "source": "/data/stable/:path*",
-        "destination": "/data/v114480/:path"
-      }
-    ],
     "headers": [
       {
-        "source": "**/*.+([abcdef0123456789]).*",
+        "source": "assets/**",
         "headers": [
           { "key": "Cache-Control", "value": "max-age=31536000" }
         ]
       },
       {
-        "source": "/items/*",
+        "source": "/v114480/**!(.*)",
         "headers": [
-          { "key": "Link", "value": "</data/v114480/items.json>;rel=preload;as=fetch" }
+          { "key": "Link", "value": "</data/versions.json>;rel=preload;as=fetch,</data/v114480/buildings.json>;rel=preload;as=fetch,</data/v114480/index.json>;rel=preload;as=fetch,</data/v114480/items.json>;rel=preload;as=fetch,</data/v114480/recipes.json>;rel=preload;as=fetch,</data/v114480/schematics.json>;rel=preload;as=fetch" }
         ]
       },
       {
-        "source": "/items/quickwire",
+        "source": "/**!(.*)",
         "headers": [
-          { "key": "Link", "value": "</assets/images/7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8.256.png>;rel=preload;as=image" }
+          { "key": "Link", "value": "</data/versions.json>;rel=preload;as=fetch,</data/v114480/buildings.json>;rel=preload;as=fetch,</data/v114480/index.json>;rel=preload;as=fetch,</data/v114480/items.json>;rel=preload;as=fetch,</data/v114480/recipes.json>;rel=preload;as=fetch,</data/v114480/schematics.json>;rel=preload;as=fetch" }
         ]
       }
     ]
