@@ -8,8 +8,9 @@
     "node_modules/": true,
     "**/*.config.*": true,
     "**/tsconfig*.json": true,
+    "**/*.log*": true,
     "*LICENSE*": true,
     "yarn.lock": true,
-    "firebase.json": true,
+    "firebase.json": true
   }
 }

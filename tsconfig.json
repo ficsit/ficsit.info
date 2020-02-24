@@ -1,6 +1,7 @@
 {
   // https://www.typescriptlang.org/docs/handbook/compiler-options.html
   "compilerOptions": {
+    "downlevelIteration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
@@ -13,5 +14,5 @@
     "noUnusedParameters": true,
     "resolveJsonModule": true,
     "strict": true
-  }
+  },
 }
