@@ -1,0 +1,32 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "dev",
+      "type": "npm",
+      "script": "dev",
+      "isBackground": true,
+      "problemMatcher": {
+        "fileLocation": "absolute",
+        "pattern": {
+          "regexp": "🚨 (.+): (.+)",
+          "file": 1,
+          "message": 2
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "Building in",
+          "endsPattern": "Built in",
+        },
+      },
+      "presentation": {
+        "reveal": "always",
+        "focus": false,
+        "group": "dev",
+        "panel": "dedicated",
+        "showReuseMessage": false,
+        "clear": true
+      }
+    }
+  ]
+}

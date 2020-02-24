@@ -9,7 +9,7 @@
     "build": "parcel build ./web/index.html",
     "checkout-resources": "./scripts/checkout-resources.sh",
     "deploy": "firebase deploy",
-    "dev": "parcel serve ./web/index.html --open",
+    "dev": "parcel serve ./web/index.html",
     "extract": "./scripts/extract.ts",
     "test": "jest"
   },

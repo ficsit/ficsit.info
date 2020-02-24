@@ -1,5 +1,7 @@
 {
   "recommendations": [
-    "eamodio.toggle-excluded-files"
+    "eamodio.toggle-excluded-files",
+    "msjsdiag.debugger-for-chrome",
+    "philfontaine.autolaunch"
   ]
 }

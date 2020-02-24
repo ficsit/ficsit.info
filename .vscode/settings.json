@@ -12,5 +12,8 @@
     "*LICENSE*": true,
     "yarn.lock": true,
     "firebase.json": true
-  }
+  },
+  "npm.packageManager": "yarn",
+  "npm.autoDetect": "off",
+  "typescript.tsc.autoDetect": "off"
 }
