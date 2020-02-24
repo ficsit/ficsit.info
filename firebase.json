@@ -15,6 +15,12 @@
         ]
       },
       {
+        "source": "/items/*",
+        "headers": [
+          { "key": "Link", "value": "</data/v114480/items.json>;rel=preload;as=fetch" }
+        ]
+      },
+      {
         "source": "/items/quickwire",
         "headers": [
           { "key": "Link", "value": "</assets/images/7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8.256.png>;rel=preload;as=image" }
