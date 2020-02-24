@@ -8,6 +8,7 @@
     "node_modules/": true,
     "*LICENSE*": true,
     "yarn.lock": true,
-    "firebase.json": true
+    "firebase.json": true,
+    "tsconfig*.json": true
   }
 }
