@@ -1,0 +1,8612 @@
+{
+  "recipe-adaptive-control-unit": {
+    "kind": "recipe",
+    "name": "Adaptive Control Unit",
+    "ingredients": [
+      {
+        "item": "automated-wiring",
+        "count": 15
+      },
+      {
+        "item": "circuit-board",
+        "count": 10
+      },
+      {
+        "item": "heavy-modular-frame",
+        "count": 2
+      },
+      {
+        "item": "computer",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "adaptive-control-unit",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 120,
+    "manualMultiplier": 1,
+    "slug": "recipe-adaptive-control-unit"
+  },
+  "recipe-ai-limiter": {
+    "kind": "recipe",
+    "name": "A.I. Limiter",
+    "ingredients": [
+      {
+        "item": "copper-sheet",
+        "count": 5
+      },
+      {
+        "item": "quickwire",
+        "count": 20
+      }
+    ],
+    "products": [
+      {
+        "item": "ai-limiter",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "slug": "recipe-ai-limiter"
+  },
+  "recipe-alclad-aluminum-sheet": {
+    "kind": "recipe",
+    "name": "Alclad Aluminum Sheet",
+    "ingredients": [
+      {
+        "item": "aluminum-ingot",
+        "count": 8
+      },
+      {
+        "item": "copper-ingot",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "alclad-aluminum-sheet",
+        "count": 4
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 8,
+    "manualMultiplier": 1,
+    "icon": "images/7N41SFMSAMkagIwAmwaSUK5TY5sf7TH2cagIMuUAWG88.64.png",
+    "slug": "recipe-alclad-aluminum-sheet"
+  },
+  "recipe-alternate-adhered-iron-plate": {
+    "kind": "recipe",
+    "name": "Alternate: Adhered Iron Plate",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "rubber",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 16,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64.png",
+    "slug": "recipe-alternate-adhered-iron-plate"
+  },
+  "recipe-alternate-biomass-coal": {
+    "kind": "recipe",
+    "name": "Alternate: Biomass Coal",
+    "ingredients": [
+      {
+        "item": "biomass",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "coal",
+        "count": 6
+      }
+    ],
+    "producedIn": [
+      "constructor"
+    ],
+    "duration": 8,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU.64.png",
+    "slug": "recipe-alternate-biomass-coal"
+  },
+  "recipe-alternate-bolted-frame": {
+    "kind": "recipe",
+    "name": "Alternate: Bolted Frame",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 3
+      },
+      {
+        "item": "screw",
+        "count": 56
+      }
+    ],
+    "products": [
+      {
+        "item": "modular-frame",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 24,
+    "manualMultiplier": 1,
+    "icon": "images/7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu.64.png",
+    "slug": "recipe-alternate-bolted-frame"
+  },
+  "recipe-alternate-bolted-iron-plate": {
+    "kind": "recipe",
+    "name": "Alternate: Bolted Iron Plate",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 16
+      },
+      {
+        "item": "screw",
+        "count": 50
+      }
+    ],
+    "products": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64.png",
+    "slug": "recipe-alternate-bolted-iron-plate"
+  },
+  "recipe-alternate-casted-screw": {
+    "kind": "recipe",
+    "name": "Alternate: Casted Screw",
+    "ingredients": [
+      {
+        "item": "iron-ingot",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "screw",
+        "count": 20
+      }
+    ],
+    "producedIn": [
+      "constructor"
+    ],
+    "duration": 24,
+    "manualMultiplier": 1,
+    "icon": "images/7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck.64.png",
+    "slug": "recipe-alternate-casted-screw"
+  },
+  "recipe-alternate-caterium-circuit-board": {
+    "kind": "recipe",
+    "name": "Alternate: Caterium Circuit Board",
+    "ingredients": [
+      {
+        "item": "plastic",
+        "count": 10
+      },
+      {
+        "item": "quickwire",
+        "count": 30
+      }
+    ],
+    "products": [
+      {
+        "item": "circuit-board",
+        "count": 7
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 48,
+    "manualMultiplier": 1,
+    "icon": "images/7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64.png",
+    "slug": "recipe-alternate-caterium-circuit-board"
+  },
+  "recipe-alternate-caterium-computer": {
+    "kind": "recipe",
+    "name": "Alternate: Caterium Computer",
+    "ingredients": [
+      {
+        "item": "circuit-board",
+        "count": 7
+      },
+      {
+        "item": "quickwire",
+        "count": 28
+      },
+      {
+        "item": "rubber",
+        "count": 12
+      }
+    ],
+    "products": [
+      {
+        "item": "computer",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 16,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8.64.png",
+    "slug": "recipe-alternate-caterium-computer"
+  },
+  "recipe-alternate-caterium-wire": {
+    "kind": "recipe",
+    "name": "Alternate: Caterium Wire",
+    "ingredients": [
+      {
+        "item": "caterium-ingot",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "wire",
+        "count": 8
+      }
+    ],
+    "producedIn": [
+      "constructor"
+    ],
+    "duration": 4,
+    "manualMultiplier": 1,
+    "icon": "images/7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64.png",
+    "slug": "recipe-alternate-caterium-wire"
+  },
+  "recipe-alternate-cheap-silica": {
+    "kind": "recipe",
+    "name": "Alternate: Cheap Silica",
+    "ingredients": [
+      {
+        "item": "raw-quartz",
+        "count": 3
+      },
+      {
+        "item": "limestone",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "silica",
+        "count": 7
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 16,
+    "manualMultiplier": 1,
+    "icon": "images/7Ji1qa0TCwIsQCayegASKg3UpK7qz3Xag06YoiwgQQqC.64.png",
+    "slug": "recipe-alternate-cheap-silica"
+  },
+  "recipe-alternate-coated-cable": {
+    "kind": "recipe",
+    "name": "Alternate: Coated Cable",
+    "ingredients": [
+      {
+        "item": "wire",
+        "count": 7
+      },
+      {
+        "item": "heavy-oil-residue",
+        "count": 2000
+      }
+    ],
+    "products": [
+      {
+        "item": "cable",
+        "count": 9
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 8,
+    "manualMultiplier": 1,
+    "icon": "images/7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64.png",
+    "slug": "recipe-alternate-coated-cable"
+  },
+  "recipe-alternate-coated-iron-plate": {
+    "kind": "recipe",
+    "name": "Alternate: Coated Iron Plate",
+    "ingredients": [
+      {
+        "item": "iron-ingot",
+        "count": 10
+      },
+      {
+        "item": "plastic",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "iron-plate",
+        "count": 15
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo.64.png",
+    "slug": "recipe-alternate-coated-iron-plate"
+  },
+  "recipe-alternate-coke-steel-ingot": {
+    "kind": "recipe",
+    "name": "Alternate: Coke Steel Ingot",
+    "ingredients": [
+      {
+        "item": "iron-ore",
+        "count": 15
+      },
+      {
+        "item": "petroleum-coke",
+        "count": 15
+      }
+    ],
+    "products": [
+      {
+        "item": "steel-ingot",
+        "count": 20
+      }
+    ],
+    "producedIn": [
+      "foundry"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64.png",
+    "slug": "recipe-alternate-coke-steel-ingot"
+  },
+  "recipe-alternate-compacted-coal": {
+    "kind": "recipe",
+    "name": "Alternate: Compacted Coal",
+    "ingredients": [
+      {
+        "item": "coal",
+        "count": 5
+      },
+      {
+        "item": "sulfur",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "compacted-coal",
+        "count": 5
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N426C5PNeqMUYS40ACqy84oc5mrUUnKwiMw8MYwMeq2.64.png",
+    "slug": "recipe-alternate-compacted-coal"
+  },
+  "recipe-alternate-compacted-steel-ingot": {
+    "kind": "recipe",
+    "name": "Alternate: Compacted Steel Ingot",
+    "ingredients": [
+      {
+        "item": "iron-ore",
+        "count": 6
+      },
+      {
+        "item": "compacted-coal",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "steel-ingot",
+        "count": 10
+      }
+    ],
+    "producedIn": [
+      "foundry"
+    ],
+    "duration": 16,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64.png",
+    "slug": "recipe-alternate-compacted-steel-ingot"
+  },
+  "recipe-alternate-copper-alloy-ingot": {
+    "kind": "recipe",
+    "name": "Alternate: Copper Alloy Ingot",
+    "ingredients": [
+      {
+        "item": "copper-ore",
+        "count": 10
+      },
+      {
+        "item": "iron-ore",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "copper-ingot",
+        "count": 20
+      }
+    ],
+    "producedIn": [
+      "foundry"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W.64.png",
+    "slug": "recipe-alternate-copper-alloy-ingot"
+  },
+  "recipe-alternate-copper-rotor": {
+    "kind": "recipe",
+    "name": "Alternate: Copper Rotor",
+    "ingredients": [
+      {
+        "item": "copper-sheet",
+        "count": 6
+      },
+      {
+        "item": "screw",
+        "count": 52
+      }
+    ],
+    "products": [
+      {
+        "item": "rotor",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 16,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC.64.png",
+    "slug": "recipe-alternate-copper-rotor"
+  },
+  "recipe-alternate-crystal-beacon": {
+    "kind": "recipe",
+    "name": "Alternate: Crystal Beacon",
+    "ingredients": [
+      {
+        "item": "steel-beam",
+        "count": 4
+      },
+      {
+        "item": "steel-pipe",
+        "count": 16
+      },
+      {
+        "item": "crystal-oscillator",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "beacon",
+        "count": 20
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 120,
+    "manualMultiplier": 1,
+    "slug": "recipe-alternate-crystal-beacon"
+  },
+  "recipe-alternate-crystal-computer": {
+    "kind": "recipe",
+    "name": "Alternate: Crystal Computer",
+    "ingredients": [
+      {
+        "item": "circuit-board",
+        "count": 8
+      },
+      {
+        "item": "crystal-oscillator",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "computer",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 64,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8.64.png",
+    "slug": "recipe-alternate-crystal-computer"
+  },
+  "recipe-alternate-diluted-packaged-fuel": {
+    "kind": "recipe",
+    "name": "Alternate: Diluted Packaged Fuel",
+    "ingredients": [
+      {
+        "item": "packaged-heavy-oil-residue",
+        "count": 3
+      },
+      {
+        "item": "water",
+        "count": 3000
+      }
+    ],
+    "products": [
+      {
+        "item": "packaged-fuel",
+        "count": 4
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 4,
+    "manualMultiplier": 1,
+    "slug": "recipe-alternate-diluted-packaged-fuel"
+  },
+  "recipe-alternate-electrode-aluminum-scrap": {
+    "kind": "recipe",
+    "name": "Alternate: Electrode - Aluminum Scrap",
+    "ingredients": [
+      {
+        "item": "alumina-solution",
+        "count": 3000
+      },
+      {
+        "item": "coal",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "aluminum-scrap",
+        "count": 5
+      },
+      {
+        "item": "water",
+        "count": 1000
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7N41NpQ8NOOgWSE4Y626oA40n03SSxhSakCkIoKO68MA.64.png",
+    "slug": "recipe-alternate-electrode-aluminum-scrap"
+  },
+  "recipe-alternate-electrode-circuit-board": {
+    "kind": "recipe",
+    "name": "Alternate: Electrode Circuit Board",
+    "ingredients": [
+      {
+        "item": "rubber",
+        "count": 6
+      },
+      {
+        "item": "petroleum-coke",
+        "count": 9
+      }
+    ],
+    "products": [
+      {
+        "item": "circuit-board",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64.png",
+    "slug": "recipe-alternate-electrode-circuit-board"
+  },
+  "recipe-alternate-electromagnetic-connection-rod": {
+    "kind": "recipe",
+    "name": "Alternate: Electromagnetic Connection Rod",
+    "ingredients": [
+      {
+        "item": "stator",
+        "count": 6
+      },
+      {
+        "item": "high-speed-connector",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "electromagnetic-control-rod",
+        "count": 6
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 60,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dfyb1mOgWauaiGQOkS6OMFesktpYMeq4u6eqEuIa.64.png",
+    "slug": "recipe-alternate-electromagnetic-connection-rod"
+  },
+  "recipe-alternate-encased-industrial-pipe": {
+    "kind": "recipe",
+    "name": "Alternate: Encased Industrial Pipe",
+    "ingredients": [
+      {
+        "item": "steel-pipe",
+        "count": 7
+      },
+      {
+        "item": "concrete",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "encased-industrial-beam",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 15,
+    "manualMultiplier": 1,
+    "icon": "images/7N41ZE2KooGCKcMyO6KAqE3ERbIcQg80w0sOCuciCAIq.64.png",
+    "slug": "recipe-alternate-encased-industrial-pipe"
+  },
+  "recipe-alternate-fine-black-powder": {
+    "kind": "recipe",
+    "name": "Alternate: Fine Black Powder",
+    "ingredients": [
+      {
+        "item": "sulfur",
+        "count": 2
+      },
+      {
+        "item": "compacted-coal",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "black-powder",
+        "count": 4
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 16,
+    "manualMultiplier": 1,
+    "icon": "images/7ycGWFxPVKoKcIMMgcWaOA6OYviOGHJu0qYoU2GIoiWM.64.png",
+    "slug": "recipe-alternate-fine-black-powder"
+  },
+  "recipe-alternate-fine-concrete": {
+    "kind": "recipe",
+    "name": "Alternate: Fine Concrete",
+    "ingredients": [
+      {
+        "item": "silica",
+        "count": 5
+      },
+      {
+        "item": "limestone",
+        "count": 12
+      }
+    ],
+    "products": [
+      {
+        "item": "concrete",
+        "count": 10
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 24,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64.png",
+    "slug": "recipe-alternate-fine-concrete"
+  },
+  "recipe-alternate-flexible-framework": {
+    "kind": "recipe",
+    "name": "Alternate: Flexible Framework",
+    "ingredients": [
+      {
+        "item": "modular-frame",
+        "count": 1
+      },
+      {
+        "item": "steel-beam",
+        "count": 6
+      },
+      {
+        "item": "rubber",
+        "count": 8
+      }
+    ],
+    "products": [
+      {
+        "item": "versatile-framework",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 16,
+    "manualMultiplier": 1,
+    "slug": "recipe-alternate-flexible-framework"
+  },
+  "recipe-alternate-fused-quckwire": {
+    "kind": "recipe",
+    "name": "Alternate: Fused Quckwire",
+    "ingredients": [
+      {
+        "item": "caterium-ingot",
+        "count": 1
+      },
+      {
+        "item": "copper-ingot",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "quickwire",
+        "count": 12
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 8,
+    "manualMultiplier": 1,
+    "icon": "images/7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8.64.png",
+    "slug": "recipe-alternate-fused-quckwire"
+  },
+  "recipe-alternate-fused-wire": {
+    "kind": "recipe",
+    "name": "Alternate: Fused Wire",
+    "ingredients": [
+      {
+        "item": "copper-ingot",
+        "count": 4
+      },
+      {
+        "item": "caterium-ingot",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "wire",
+        "count": 30
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 20,
+    "manualMultiplier": 1,
+    "icon": "images/7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64.png",
+    "slug": "recipe-alternate-fused-wire"
+  },
+  "recipe-alternate-heat-exchanger": {
+    "kind": "recipe",
+    "name": "Alternate: Heat Exchanger",
+    "ingredients": [
+      {
+        "item": "alclad-aluminum-sheet",
+        "count": 20
+      },
+      {
+        "item": "copper-sheet",
+        "count": 30
+      }
+    ],
+    "products": [
+      {
+        "item": "heat-sink",
+        "count": 7
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 32,
+    "manualMultiplier": 1,
+    "slug": "recipe-alternate-heat-exchanger"
+  },
+  "recipe-alternate-heavy-encased-frame": {
+    "kind": "recipe",
+    "name": "Alternate: Heavy Encased Frame",
+    "ingredients": [
+      {
+        "item": "modular-frame",
+        "count": 8
+      },
+      {
+        "item": "encased-industrial-beam",
+        "count": 10
+      },
+      {
+        "item": "steel-pipe",
+        "count": 36
+      },
+      {
+        "item": "concrete",
+        "count": 22
+      }
+    ],
+    "products": [
+      {
+        "item": "heavy-modular-frame",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 64,
+    "manualMultiplier": 1,
+    "icon": "images/7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG.64.png",
+    "slug": "recipe-alternate-heavy-encased-frame"
+  },
+  "recipe-alternate-heavy-flexible-frame": {
+    "kind": "recipe",
+    "name": "Alternate: Heavy Flexible Frame",
+    "ingredients": [
+      {
+        "item": "modular-frame",
+        "count": 5
+      },
+      {
+        "item": "encased-industrial-beam",
+        "count": 3
+      },
+      {
+        "item": "rubber",
+        "count": 20
+      },
+      {
+        "item": "screw",
+        "count": 104
+      }
+    ],
+    "products": [
+      {
+        "item": "heavy-modular-frame",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 16,
+    "manualMultiplier": 1,
+    "icon": "images/7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG.64.png",
+    "slug": "recipe-alternate-heavy-flexible-frame"
+  },
+  "recipe-alternate-heavy-oil-residue": {
+    "kind": "recipe",
+    "name": "Alternate: Heavy Oil Residue",
+    "ingredients": [
+      {
+        "item": "crude-oil",
+        "count": 3000
+      }
+    ],
+    "products": [
+      {
+        "item": "heavy-oil-residue",
+        "count": 4000
+      },
+      {
+        "item": "polymer-resin",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-alternate-heavy-oil-residue"
+  },
+  "recipe-alternate-high-speed-wiring": {
+    "kind": "recipe",
+    "name": "Alternate: High-Speed Wiring",
+    "ingredients": [
+      {
+        "item": "stator",
+        "count": 2
+      },
+      {
+        "item": "cable",
+        "count": 40
+      },
+      {
+        "item": "high-speed-connector",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "automated-wiring",
+        "count": 4
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 32,
+    "manualMultiplier": 1,
+    "slug": "recipe-alternate-high-speed-wiring"
+  },
+  "recipe-alternate-infused-uranium-cell": {
+    "kind": "recipe",
+    "name": "Alternate: Infused Uranium Cell",
+    "ingredients": [
+      {
+        "item": "uranium-pellet",
+        "count": 40
+      },
+      {
+        "item": "sulfur",
+        "count": 45
+      },
+      {
+        "item": "silica",
+        "count": 45
+      },
+      {
+        "item": "quickwire",
+        "count": 75
+      }
+    ],
+    "products": [
+      {
+        "item": "encased-uranium-cell",
+        "count": 35
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 120,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YGwNVmM2K2G6KWGaSyy4723x3vj8c22MAKgMuKCOA.64.png",
+    "slug": "recipe-alternate-infused-uranium-cell"
+  },
+  "recipe-alternate-insulated-cable": {
+    "kind": "recipe",
+    "name": "Alternate: Insulated Cable",
+    "ingredients": [
+      {
+        "item": "wire",
+        "count": 9
+      },
+      {
+        "item": "rubber",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "cable",
+        "count": 20
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64.png",
+    "slug": "recipe-alternate-insulated-cable"
+  },
+  "recipe-alternate-insulated-crystal-oscillator": {
+    "kind": "recipe",
+    "name": "Alternate: Insulated Crystal Oscillator",
+    "ingredients": [
+      {
+        "item": "quartz-crystal",
+        "count": 10
+      },
+      {
+        "item": "rubber",
+        "count": 7
+      },
+      {
+        "item": "ai-limiter",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "crystal-oscillator",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 32,
+    "manualMultiplier": 1,
+    "icon": "images/7FZhJVM03S2UuEMIcwKuIe6S6iGjtXzywQ4QGewK0YMI.64.png",
+    "slug": "recipe-alternate-insulated-crystal-oscillator"
+  },
+  "recipe-alternate-iron-alloy-ingot": {
+    "kind": "recipe",
+    "name": "Alternate: Iron Alloy Ingot",
+    "ingredients": [
+      {
+        "item": "iron-ore",
+        "count": 2
+      },
+      {
+        "item": "copper-ore",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "iron-ingot",
+        "count": 5
+      }
+    ],
+    "producedIn": [
+      "foundry"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc.64.png",
+    "slug": "recipe-alternate-iron-alloy-ingot"
+  },
+  "recipe-alternate-iron-wire": {
+    "kind": "recipe",
+    "name": "Alternate: Iron Wire",
+    "ingredients": [
+      {
+        "item": "iron-ingot",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "wire",
+        "count": 9
+      }
+    ],
+    "producedIn": [
+      "constructor"
+    ],
+    "duration": 24,
+    "manualMultiplier": 1,
+    "icon": "images/7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64.png",
+    "slug": "recipe-alternate-iron-wire"
+  },
+  "recipe-alternate-nuclear-fuel-unit": {
+    "kind": "recipe",
+    "name": "Alternate: Nuclear Fuel Unit",
+    "ingredients": [
+      {
+        "item": "encased-uranium-cell",
+        "count": 50
+      },
+      {
+        "item": "electromagnetic-control-rod",
+        "count": 10
+      },
+      {
+        "item": "crystal-oscillator",
+        "count": 3
+      },
+      {
+        "item": "beacon",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "nuclear-fuel-rod",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 300,
+    "manualMultiplier": 1,
+    "icon": "images/7qTjLs4vn2wwUUaQmem6q27iZrpdTd5KssKC22sUOoMs.64.png",
+    "slug": "recipe-alternate-nuclear-fuel-unit"
+  },
+  "recipe-alternate-plastic-smart-plating": {
+    "kind": "recipe",
+    "name": "Alternate: Plastic Smart Plating",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 1
+      },
+      {
+        "item": "rotor",
+        "count": 2
+      },
+      {
+        "item": "plastic",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "smart-plating",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 24,
+    "manualMultiplier": 1,
+    "slug": "recipe-alternate-plastic-smart-plating"
+  },
+  "recipe-alternate-polyester-fabric": {
+    "kind": "recipe",
+    "name": "Alternate: Polyester Fabric",
+    "ingredients": [
+      {
+        "item": "polymer-resin",
+        "count": 16
+      },
+      {
+        "item": "water",
+        "count": 10000
+      }
+    ],
+    "products": [
+      {
+        "item": "fabric",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N42agcQEwSG4c2GuA6ygM5XH80xNhRKk4QM2mm28Ie2.64.png",
+    "slug": "recipe-alternate-polyester-fabric"
+  },
+  "recipe-alternate-polymer-resin": {
+    "kind": "recipe",
+    "name": "Alternate: Polymer Resin",
+    "ingredients": [
+      {
+        "item": "crude-oil",
+        "count": 6000
+      }
+    ],
+    "products": [
+      {
+        "item": "polymer-resin",
+        "count": 13
+      },
+      {
+        "item": "heavy-oil-residue",
+        "count": 2000
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7N42agarvy0WocuuWiEGGA5QFbR8cesgI82oyC6oWasY.64.png",
+    "slug": "recipe-alternate-polymer-resin"
+  },
+  "recipe-alternate-pure-aluminum-ingot": {
+    "kind": "recipe",
+    "name": "Alternate: Pure Aluminum Ingot",
+    "ingredients": [
+      {
+        "item": "aluminum-scrap",
+        "count": 12
+      }
+    ],
+    "products": [
+      {
+        "item": "aluminum-ingot",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "smelter"
+    ],
+    "duration": 5,
+    "manualMultiplier": 1,
+    "icon": "images/7N422Y4rJYiGMA24W8aKuG4xazv4dY9yKWwUiKqwoSgK.64.png",
+    "slug": "recipe-alternate-pure-aluminum-ingot"
+  },
+  "recipe-alternate-pure-caterium-ingot": {
+    "kind": "recipe",
+    "name": "Alternate: Pure Caterium Ingot",
+    "ingredients": [
+      {
+        "item": "caterium-ore",
+        "count": 2
+      },
+      {
+        "item": "water",
+        "count": 2000
+      }
+    ],
+    "products": [
+      {
+        "item": "caterium-ingot",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 5,
+    "manualMultiplier": 1,
+    "icon": "images/7N41MFvUxUGyoaquC4yqKy6vPa08mrmgaccyYkSiAuUq.64.png",
+    "slug": "recipe-alternate-pure-caterium-ingot"
+  },
+  "recipe-alternate-pure-copper-ingot": {
+    "kind": "recipe",
+    "name": "Alternate: Pure Copper Ingot",
+    "ingredients": [
+      {
+        "item": "copper-ore",
+        "count": 6
+      },
+      {
+        "item": "water",
+        "count": 4000
+      }
+    ],
+    "products": [
+      {
+        "item": "copper-ingot",
+        "count": 15
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 24,
+    "manualMultiplier": 1,
+    "icon": "images/7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W.64.png",
+    "slug": "recipe-alternate-pure-copper-ingot"
+  },
+  "recipe-alternate-pure-iron-ingot": {
+    "kind": "recipe",
+    "name": "Alternate: Pure Iron Ingot",
+    "ingredients": [
+      {
+        "item": "iron-ore",
+        "count": 7
+      },
+      {
+        "item": "water",
+        "count": 4000
+      }
+    ],
+    "products": [
+      {
+        "item": "iron-ingot",
+        "count": 13
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc.64.png",
+    "slug": "recipe-alternate-pure-iron-ingot"
+  },
+  "recipe-alternate-pure-quartz-crystal": {
+    "kind": "recipe",
+    "name": "Alternate: Pure Quartz Crystal",
+    "ingredients": [
+      {
+        "item": "raw-quartz",
+        "count": 9
+      },
+      {
+        "item": "water",
+        "count": 5000
+      }
+    ],
+    "products": [
+      {
+        "item": "quartz-crystal",
+        "count": 7
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 8,
+    "manualMultiplier": 1,
+    "icon": "images/7N41m4Z5XUiKCQYK0aUg4y639qr83ex2O2YoGww0ysAe.64.png",
+    "slug": "recipe-alternate-pure-quartz-crystal"
+  },
+  "recipe-alternate-quickwire-cable": {
+    "kind": "recipe",
+    "name": "Alternate: Quickwire Cable",
+    "ingredients": [
+      {
+        "item": "quickwire",
+        "count": 3
+      },
+      {
+        "item": "rubber",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "cable",
+        "count": 9
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 24,
+    "manualMultiplier": 1,
+    "icon": "images/7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64.png",
+    "slug": "recipe-alternate-quickwire-cable"
+  },
+  "recipe-alternate-quickwire-stator": {
+    "kind": "recipe",
+    "name": "Alternate: Quickwire Stator",
+    "ingredients": [
+      {
+        "item": "steel-pipe",
+        "count": 4
+      },
+      {
+        "item": "quickwire",
+        "count": 15
+      }
+    ],
+    "products": [
+      {
+        "item": "stator",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 15,
+    "manualMultiplier": 1,
+    "icon": "images/7N40tBeLRYs64cggasC4Kg4K5jpIgIo8emkQOMYmKaUq.64.png",
+    "slug": "recipe-alternate-quickwire-stator"
+  },
+  "recipe-alternate-radio-control-system": {
+    "kind": "recipe",
+    "name": "Alternate: Radio Control System",
+    "ingredients": [
+      {
+        "item": "heat-sink",
+        "count": 10
+      },
+      {
+        "item": "supercomputer",
+        "count": 1
+      },
+      {
+        "item": "quartz-crystal",
+        "count": 30
+      }
+    ],
+    "products": [
+      {
+        "item": "radio-control-unit",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 48,
+    "manualMultiplier": 1,
+    "slug": "recipe-alternate-radio-control-system"
+  },
+  "recipe-alternate-recycled-plastic": {
+    "kind": "recipe",
+    "name": "Alternate: Recycled Plastic",
+    "ingredients": [
+      {
+        "item": "rubber",
+        "count": 6
+      },
+      {
+        "item": "fuel",
+        "count": 5000
+      }
+    ],
+    "products": [
+      {
+        "item": "plastic",
+        "count": 12
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU.64.png",
+    "slug": "recipe-alternate-recycled-plastic"
+  },
+  "recipe-alternate-recycled-rubber": {
+    "kind": "recipe",
+    "name": "Alternate: Recycled Rubber",
+    "ingredients": [
+      {
+        "item": "plastic",
+        "count": 5
+      },
+      {
+        "item": "fuel",
+        "count": 6000
+      }
+    ],
+    "products": [
+      {
+        "item": "rubber",
+        "count": 12
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8.64.png",
+    "slug": "recipe-alternate-recycled-rubber"
+  },
+  "recipe-alternate-rigour-motor": {
+    "kind": "recipe",
+    "name": "Alternate: Rigour Motor",
+    "ingredients": [
+      {
+        "item": "rotor",
+        "count": 3
+      },
+      {
+        "item": "stator",
+        "count": 3
+      },
+      {
+        "item": "crystal-oscillator",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "motor",
+        "count": 5
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 40,
+    "manualMultiplier": 1,
+    "icon": "images/7kL2idF7XicEOsOWsaMQuG5lasWIQ4neoAg2COmaSOk6.64.png",
+    "slug": "recipe-alternate-rigour-motor"
+  },
+  "recipe-alternate-rubber-concrete": {
+    "kind": "recipe",
+    "name": "Alternate: Rubber Concrete",
+    "ingredients": [
+      {
+        "item": "limestone",
+        "count": 10
+      },
+      {
+        "item": "rubber",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "concrete",
+        "count": 9
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64.png",
+    "slug": "recipe-alternate-rubber-concrete"
+  },
+  "recipe-alternate-seismic-nobelisk": {
+    "kind": "recipe",
+    "name": "Alternate: Seismic Nobelisk",
+    "ingredients": [
+      {
+        "item": "black-powder",
+        "count": 8
+      },
+      {
+        "item": "steel-pipe",
+        "count": 8
+      },
+      {
+        "item": "crystal-oscillator",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "nobelisk",
+        "count": 4
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 40,
+    "manualMultiplier": 1,
+    "icon": "images/6Ss9vMKuR2OQcWgEwc6oqG7iVNCcHraMmIai6GmK2ac8.64.png",
+    "slug": "recipe-alternate-seismic-nobelisk"
+  },
+  "recipe-alternate-silicone-circuit-board": {
+    "kind": "recipe",
+    "name": "Alternate: Silicone Circuit Board",
+    "ingredients": [
+      {
+        "item": "copper-sheet",
+        "count": 11
+      },
+      {
+        "item": "silica",
+        "count": 11
+      }
+    ],
+    "products": [
+      {
+        "item": "circuit-board",
+        "count": 5
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 24,
+    "manualMultiplier": 1,
+    "icon": "images/7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64.png",
+    "slug": "recipe-alternate-silicone-circuit-board"
+  },
+  "recipe-alternate-silicone-high-speed-connector": {
+    "kind": "recipe",
+    "name": "Alternate: Silicone High-Speed Connector",
+    "ingredients": [
+      {
+        "item": "quickwire",
+        "count": 60
+      },
+      {
+        "item": "silica",
+        "count": 25
+      },
+      {
+        "item": "circuit-board",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "high-speed-connector",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 40,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dglnO0Ge2o0uekCySU7ch58bY3WEseIQQGoYas.64.png",
+    "slug": "recipe-alternate-silicone-high-speed-connector"
+  },
+  "recipe-alternate-solid-steel-ingot": {
+    "kind": "recipe",
+    "name": "Alternate: Solid Steel Ingot",
+    "ingredients": [
+      {
+        "item": "iron-ingot",
+        "count": 2
+      },
+      {
+        "item": "coal",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "steel-ingot",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "foundry"
+    ],
+    "duration": 3,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64.png",
+    "slug": "recipe-alternate-solid-steel-ingot"
+  },
+  "recipe-alternate-steamed-copper-sheet": {
+    "kind": "recipe",
+    "name": "Alternate: Steamed Copper Sheet",
+    "ingredients": [
+      {
+        "item": "copper-ingot",
+        "count": 3
+      },
+      {
+        "item": "water",
+        "count": 3000
+      }
+    ],
+    "products": [
+      {
+        "item": "copper-sheet",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 8,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dfzMNaQUSaaIqeYMY86QCTRQ6ctU6c6O44QIcmC0.64.png",
+    "slug": "recipe-alternate-steamed-copper-sheet"
+  },
+  "recipe-alternate-steel-coated-plate": {
+    "kind": "recipe",
+    "name": "Alternate: Steel Coated Plate",
+    "ingredients": [
+      {
+        "item": "steel-ingot",
+        "count": 4
+      },
+      {
+        "item": "plastic",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "iron-plate",
+        "count": 15
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 24,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo.64.png",
+    "slug": "recipe-alternate-steel-coated-plate"
+  },
+  "recipe-alternate-steel-rod": {
+    "kind": "recipe",
+    "name": "Alternate: Steel Rod",
+    "ingredients": [
+      {
+        "item": "steel-ingot",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "iron-rod",
+        "count": 4
+      }
+    ],
+    "producedIn": [
+      "constructor"
+    ],
+    "duration": 5,
+    "manualMultiplier": 1,
+    "icon": "images/7N0nvS2MJUs4yG0Ckk2G6Y7brhNWuC6A8Agykw8w2uwE.64.png",
+    "slug": "recipe-alternate-steel-rod"
+  },
+  "recipe-alternate-steel-rotor": {
+    "kind": "recipe",
+    "name": "Alternate: Steel Rotor",
+    "ingredients": [
+      {
+        "item": "steel-pipe",
+        "count": 2
+      },
+      {
+        "item": "wire",
+        "count": 12
+      }
+    ],
+    "products": [
+      {
+        "item": "rotor",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC.64.png",
+    "slug": "recipe-alternate-steel-rotor"
+  },
+  "recipe-alternate-steel-screw": {
+    "kind": "recipe",
+    "name": "Alternate: Steel Screw",
+    "ingredients": [
+      {
+        "item": "steel-beam",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "screw",
+        "count": 52
+      }
+    ],
+    "producedIn": [
+      "constructor"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck.64.png",
+    "slug": "recipe-alternate-steel-screw"
+  },
+  "recipe-alternate-steeled-frame": {
+    "kind": "recipe",
+    "name": "Alternate: Steeled Frame",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 2
+      },
+      {
+        "item": "steel-pipe",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "modular-frame",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 60,
+    "manualMultiplier": 1,
+    "icon": "images/7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu.64.png",
+    "slug": "recipe-alternate-steeled-frame"
+  },
+  "recipe-alternate-stitched-iron-plate": {
+    "kind": "recipe",
+    "name": "Alternate: Stitched Iron Plate",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 10
+      },
+      {
+        "item": "wire",
+        "count": 26
+      }
+    ],
+    "products": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 32,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64.png",
+    "slug": "recipe-alternate-stitched-iron-plate"
+  },
+  "recipe-alternate-turbo-heavy-fuel": {
+    "kind": "recipe",
+    "name": "Alternate: Turbo Heavy Fuel",
+    "ingredients": [
+      {
+        "item": "heavy-oil-residue",
+        "count": 5000
+      },
+      {
+        "item": "compacted-coal",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "turbofuel",
+        "count": 4000
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 8,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-alternate-turbo-heavy-fuel"
+  },
+  "recipe-alternate-turbo-rigour-motor": {
+    "kind": "recipe",
+    "name": "Alternate: Turbo Rigour Motor",
+    "ingredients": [
+      {
+        "item": "motor",
+        "count": 8
+      },
+      {
+        "item": "radio-control-unit",
+        "count": 4
+      },
+      {
+        "item": "ai-limiter",
+        "count": 8
+      },
+      {
+        "item": "stator",
+        "count": 8
+      }
+    ],
+    "products": [
+      {
+        "item": "turbo-motor",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 64,
+    "manualMultiplier": 1,
+    "icon": "images/7kL2idF7biM0Uq2YESIKmy5laVdzIN3yweagYEW6g0Ew.64.png",
+    "slug": "recipe-alternate-turbo-rigour-motor"
+  },
+  "recipe-alternate-wet-concrete": {
+    "kind": "recipe",
+    "name": "Alternate: Wet Concrete",
+    "ingredients": [
+      {
+        "item": "limestone",
+        "count": 12
+      },
+      {
+        "item": "water",
+        "count": 5000
+      }
+    ],
+    "products": [
+      {
+        "item": "concrete",
+        "count": 8
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64.png",
+    "slug": "recipe-alternate-wet-concrete"
+  },
+  "recipe-alternate-wood-coal": {
+    "kind": "recipe",
+    "name": "Alternate: Wood Coal",
+    "ingredients": [
+      {
+        "item": "wood",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "coal",
+        "count": 10
+      }
+    ],
+    "producedIn": [
+      "constructor"
+    ],
+    "duration": 4,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU.64.png",
+    "slug": "recipe-alternate-wood-coal"
+  },
+  "recipe-alumina-solution": {
+    "kind": "recipe",
+    "name": "Alumina Solution",
+    "ingredients": [
+      {
+        "item": "bauxite",
+        "count": 7
+      },
+      {
+        "item": "water",
+        "count": 10000
+      }
+    ],
+    "products": [
+      {
+        "item": "alumina-solution",
+        "count": 8000
+      },
+      {
+        "item": "silica",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-alumina-solution"
+  },
+  "recipe-aluminum-ingot": {
+    "kind": "recipe",
+    "name": "Aluminum Ingot",
+    "ingredients": [
+      {
+        "item": "aluminum-scrap",
+        "count": 12
+      },
+      {
+        "item": "silica",
+        "count": 7
+      }
+    ],
+    "products": [
+      {
+        "item": "aluminum-ingot",
+        "count": 4
+      }
+    ],
+    "producedIn": [
+      "foundry",
+      "craft-bench"
+    ],
+    "duration": 3,
+    "manualMultiplier": 1,
+    "icon": "images/7N422Y4rJYiGMA24W8aKuG4xazv4dY9yKWwUiKqwoSgK.64.png",
+    "slug": "recipe-aluminum-ingot"
+  },
+  "recipe-aluminum-scrap": {
+    "kind": "recipe",
+    "name": "Aluminum Scrap",
+    "ingredients": [
+      {
+        "item": "alumina-solution",
+        "count": 4000
+      },
+      {
+        "item": "petroleum-coke",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "aluminum-scrap",
+        "count": 6
+      },
+      {
+        "item": "water",
+        "count": 1000
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N41NpQ8NOOgWSE4Y626oA40n03SSxhSakCkIoKO68MA.64.png",
+    "slug": "recipe-aluminum-scrap"
+  },
+  "recipe-assembler": {
+    "kind": "recipe",
+    "name": "Assembler",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 8
+      },
+      {
+        "item": "rotor",
+        "count": 4
+      },
+      {
+        "item": "cable",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "assembler",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N4287eTBYkkOacWk4Kw6a7yHMXsd7os8a8GoEWK8wKi.64.png",
+    "slug": "recipe-assembler"
+  },
+  "recipe-automated-wiring": {
+    "kind": "recipe",
+    "name": "Automated Wiring",
+    "ingredients": [
+      {
+        "item": "stator",
+        "count": 3
+      },
+      {
+        "item": "cable",
+        "count": 60
+      }
+    ],
+    "products": [
+      {
+        "item": "automated-wiring",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 72,
+    "manualMultiplier": 1,
+    "slug": "recipe-automated-wiring"
+  },
+  "recipe-awesome-shop": {
+    "kind": "recipe",
+    "name": "AWESOME Shop",
+    "ingredients": [
+      {
+        "item": "screw",
+        "count": 200
+      },
+      {
+        "item": "iron-plate",
+        "count": 10
+      },
+      {
+        "item": "cable",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "awesome-shop",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7JwFqtuTwQGOi6KcaiYe4a6UwaOWdHpK6A8ouSymmWcy.64.png",
+    "slug": "recipe-awesome-shop"
+  },
+  "recipe-awesome-sink": {
+    "kind": "recipe",
+    "name": "AWESOME Sink",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 15
+      },
+      {
+        "item": "cable",
+        "count": 30
+      },
+      {
+        "item": "concrete",
+        "count": 45
+      }
+    ],
+    "products": [
+      {
+        "item": "awesome-sink",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7MErtJpMfCGSmAS66CawmC7E9WTLXmqkuqwY0QwuqCIO.64.png",
+    "slug": "recipe-awesome-sink"
+  },
+  "recipe-battery": {
+    "kind": "recipe",
+    "name": "Battery",
+    "ingredients": [
+      {
+        "item": "alclad-aluminum-sheet",
+        "count": 8
+      },
+      {
+        "item": "wire",
+        "count": 16
+      },
+      {
+        "item": "sulfur",
+        "count": 20
+      },
+      {
+        "item": "plastic",
+        "count": 8
+      }
+    ],
+    "products": [
+      {
+        "item": "battery",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "manufacturer",
+      "craft-bench"
+    ],
+    "duration": 32,
+    "manualMultiplier": 1,
+    "icon": "images/7Mm9HAuwZGaaMmiS6mKKES5Qldty9RUASQsIAScc4kEu.64.png",
+    "slug": "recipe-battery"
+  },
+  "recipe-bauxite": {
+    "kind": "recipe",
+    "name": "Bauxite",
+    "ingredients": [
+      {
+        "item": "bauxite",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "bauxite",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-converter-c"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7N42afPvOg4wqe06WEsQoE3U3HaDOGHYuWIGeU0aA0Mk.64.png",
+    "slug": "recipe-bauxite"
+  },
+  "recipe-beacon": {
+    "kind": "recipe",
+    "name": "Beacon",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "iron-rod",
+        "count": 1
+      },
+      {
+        "item": "wire",
+        "count": 15
+      },
+      {
+        "item": "cable",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "beacon",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop",
+      "manufacturer"
+    ],
+    "duration": 8,
+    "manualMultiplier": 1,
+    "slug": "recipe-beacon"
+  },
+  "recipe-biomass-alien-carapace": {
+    "kind": "recipe",
+    "name": "Biomass (Alien Carapace)",
+    "ingredients": [
+      {
+        "item": "alien-carapace",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "biomass",
+        "count": 100
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 4,
+    "manualMultiplier": 1,
+    "slug": "recipe-biomass-alien-carapace"
+  },
+  "recipe-biomass-alien-organs": {
+    "kind": "recipe",
+    "name": "Biomass (Alien Organs)",
+    "ingredients": [
+      {
+        "item": "alien-organs",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "biomass",
+        "count": 200
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 8,
+    "manualMultiplier": 1,
+    "slug": "recipe-biomass-alien-organs"
+  },
+  "recipe-biomass-burner": {
+    "kind": "recipe",
+    "name": "Biomass Burner",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 15
+      },
+      {
+        "item": "iron-rod",
+        "count": 15
+      },
+      {
+        "item": "wire",
+        "count": 25
+      }
+    ],
+    "products": [
+      {
+        "item": "biomass-burner",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7Ji2WwDaBayUwua6Kckcgo5UTAJ54MAoUcEqImIKoka4.64.png",
+    "slug": "recipe-biomass-burner"
+  },
+  "recipe-biomass-leaves": {
+    "kind": "recipe",
+    "name": "Biomass (Leaves)",
+    "ingredients": [
+      {
+        "item": "leaves",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "biomass",
+        "count": 5
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 5,
+    "manualMultiplier": 0.4,
+    "slug": "recipe-biomass-leaves"
+  },
+  "recipe-biomass-mycelia": {
+    "kind": "recipe",
+    "name": "Biomass (Mycelia)",
+    "ingredients": [
+      {
+        "item": "mycelia",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "biomass",
+        "count": 10
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 4,
+    "manualMultiplier": 0.5,
+    "slug": "recipe-biomass-mycelia"
+  },
+  "recipe-biomass-wood": {
+    "kind": "recipe",
+    "name": "Biomass (Wood)",
+    "ingredients": [
+      {
+        "item": "wood",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "biomass",
+        "count": 20
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 4,
+    "manualMultiplier": 1,
+    "slug": "recipe-biomass-wood"
+  },
+  "recipe-black-powder": {
+    "kind": "recipe",
+    "name": "Black Powder",
+    "ingredients": [
+      {
+        "item": "coal",
+        "count": 1
+      },
+      {
+        "item": "sulfur",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "black-powder",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench",
+      "equipment-workshop"
+    ],
+    "duration": 8,
+    "manualMultiplier": 0.5,
+    "icon": "images/7ycGWFxPVKoKcIMMgcWaOA6OYviOGHJu0qYoU2GIoiWM.64.png",
+    "slug": "recipe-black-powder"
+  },
+  "recipe-blade-runners": {
+    "kind": "recipe",
+    "name": "Blade Runners",
+    "ingredients": [
+      {
+        "item": "quickwire",
+        "count": 50
+      },
+      {
+        "item": "modular-frame",
+        "count": 3
+      },
+      {
+        "item": "rotor",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "blade-runners",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 80,
+    "manualMultiplier": 1,
+    "slug": "recipe-blade-runners"
+  },
+  "recipe-cable": {
+    "kind": "recipe",
+    "name": "Cable",
+    "ingredients": [
+      {
+        "item": "wire",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "cable",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64.png",
+    "slug": "recipe-cable"
+  },
+  "recipe-cartridge": {
+    "kind": "recipe",
+    "name": "Cartridge",
+    "ingredients": [
+      {
+        "item": "beacon",
+        "count": 1
+      },
+      {
+        "item": "steel-pipe",
+        "count": 10
+      },
+      {
+        "item": "black-powder",
+        "count": 10
+      },
+      {
+        "item": "rubber",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "cartridge",
+        "count": 5
+      }
+    ],
+    "producedIn": [
+      "manufacturer",
+      "craft-bench",
+      "equipment-workshop"
+    ],
+    "duration": 20,
+    "manualMultiplier": 1,
+    "icon": "images/414LfZyMPYGW6mYoSIqyUk7iVO3xRQDmQugk0UMYyMu2.64.png",
+    "slug": "recipe-cartridge"
+  },
+  "recipe-caterium-ingot": {
+    "kind": "recipe",
+    "name": "Caterium Ingot",
+    "ingredients": [
+      {
+        "item": "caterium-ore",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "caterium-ingot",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "smelter",
+      "craft-bench"
+    ],
+    "duration": 4,
+    "manualMultiplier": 2,
+    "icon": "images/7N41MFvUxUGyoaquC4yqKy6vPa08mrmgaccyYkSiAuUq.64.png",
+    "slug": "recipe-caterium-ingot"
+  },
+  "recipe-caterium-ore": {
+    "kind": "recipe",
+    "name": "Caterium Ore",
+    "ingredients": [
+      {
+        "item": "caterium-ore",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "caterium-ore",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-converter-c"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YKVmqqsCM88MwQoqMs05PmLDwWWDmSgqaMa2E2IMQ.64.png",
+    "slug": "recipe-caterium-ore"
+  },
+  "recipe-chainsaw": {
+    "kind": "recipe",
+    "name": "Chainsaw",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 5
+      },
+      {
+        "item": "iron-rod",
+        "count": 25
+      },
+      {
+        "item": "screw",
+        "count": 160
+      },
+      {
+        "item": "cable",
+        "count": 15
+      }
+    ],
+    "products": [
+      {
+        "item": "chainsaw",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 60,
+    "manualMultiplier": 1,
+    "icon": "images/3TwFR5iDTW8iwUgqAsKeK47xYxUvWLVCwmGawmmeYWa0.64.png",
+    "slug": "recipe-chainsaw"
+  },
+  "recipe-circuit-board": {
+    "kind": "recipe",
+    "name": "Circuit Board",
+    "ingredients": [
+      {
+        "item": "copper-sheet",
+        "count": 2
+      },
+      {
+        "item": "plastic",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "circuit-board",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 8,
+    "manualMultiplier": 1,
+    "icon": "images/7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64.png",
+    "slug": "recipe-circuit-board"
+  },
+  "recipe-coal": {
+    "kind": "recipe",
+    "name": "Coal",
+    "ingredients": [
+      {
+        "item": "coal",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "coal",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-converter-c"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU.64.png",
+    "slug": "recipe-coal"
+  },
+  "recipe-coal-generator": {
+    "kind": "recipe",
+    "name": "Coal Generator",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 20
+      },
+      {
+        "item": "rotor",
+        "count": 10
+      },
+      {
+        "item": "cable",
+        "count": 30
+      }
+    ],
+    "products": [
+      {
+        "item": "coal-generator",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/65omEHqS76uG0kAguSY4wO5U0JYzAn3UeWsiWM6A64kY.64.png",
+    "slug": "recipe-coal-generator"
+  },
+  "recipe-color-cartridge": {
+    "kind": "recipe",
+    "name": "Color Cartridge",
+    "ingredients": [
+      {
+        "item": "flower-petals",
+        "count": 25
+      }
+    ],
+    "products": [
+      {
+        "item": "color-cartridge",
+        "count": 50
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench",
+      "equipment-workshop"
+    ],
+    "duration": 40,
+    "manualMultiplier": 1,
+    "icon": "images/7JLgMvGRPO8c6wKO0Y6cMu6Q9Eu6zADm2kOGi4UA6igO.64.png",
+    "slug": "recipe-color-cartridge"
+  },
+  "recipe-color-gun": {
+    "kind": "recipe",
+    "name": "Color Gun",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 5
+      },
+      {
+        "item": "screw",
+        "count": 80
+      },
+      {
+        "item": "wire",
+        "count": 40
+      }
+    ],
+    "products": [
+      {
+        "item": "color-gun",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 80,
+    "manualMultiplier": 1,
+    "icon": "images/7JwFEcpbbiMGKkEmMcwY8G3TxSeTrOq4uoWusym4KKYa.64.png",
+    "slug": "recipe-color-gun"
+  },
+  "recipe-computer": {
+    "kind": "recipe",
+    "name": "Computer",
+    "ingredients": [
+      {
+        "item": "circuit-board",
+        "count": 10
+      },
+      {
+        "item": "cable",
+        "count": 9
+      },
+      {
+        "item": "plastic",
+        "count": 18
+      },
+      {
+        "item": "screw",
+        "count": 52
+      }
+    ],
+    "products": [
+      {
+        "item": "computer",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer",
+      "craft-bench"
+    ],
+    "duration": 24,
+    "manualMultiplier": 1.5,
+    "icon": "images/7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8.64.png",
+    "slug": "recipe-computer"
+  },
+  "recipe-concrete": {
+    "kind": "recipe",
+    "name": "Concrete",
+    "ingredients": [
+      {
+        "item": "limestone",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "concrete",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 4,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64.png",
+    "slug": "recipe-concrete"
+  },
+  "recipe-constructor": {
+    "kind": "recipe",
+    "name": "Constructor",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 2
+      },
+      {
+        "item": "cable",
+        "count": 8
+      }
+    ],
+    "products": [
+      {
+        "item": "constructor",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42bo1cIgSKqKGYYUCWSI7yjYDJvP20WM2mYQSCIECW.64.png",
+    "slug": "recipe-constructor"
+  },
+  "recipe-conveyor-belt": {
+    "kind": "recipe",
+    "name": "Conveyor Belt",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-belt",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dglGwwWmQucWomCcw07cgRZsyF20CggyIMsySE.64.png",
+    "slug": "recipe-conveyor-belt"
+  },
+  "recipe-conveyor-belt-mk2": {
+    "kind": "recipe",
+    "name": "Conveyor Belt Mk.2",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-belt-mk2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dglGwgqkMmWqmiuW0u7cgRWi2qycWuACIiq448.64.png",
+    "slug": "recipe-conveyor-belt-mk2"
+  },
+  "recipe-conveyor-belt-mk3": {
+    "kind": "recipe",
+    "name": "Conveyor Belt Mk.3",
+    "ingredients": [
+      {
+        "item": "steel-beam",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-belt-mk3",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgkSBO4kqEG4CaMiCI7ch5eA81qwCMMcAa0cc0.64.png",
+    "slug": "recipe-conveyor-belt-mk3"
+  },
+  "recipe-conveyor-belt-mk4": {
+    "kind": "recipe",
+    "name": "Conveyor Belt Mk.4",
+    "ingredients": [
+      {
+        "item": "encased-industrial-beam",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-belt-mk4",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N41SFWQjSe2awW6IC68Yo3U02lBQTTqIGQcCy862k0Y.64.png",
+    "slug": "recipe-conveyor-belt-mk4"
+  },
+  "recipe-conveyor-belt-mk5": {
+    "kind": "recipe",
+    "name": "Conveyor Belt Mk.5",
+    "ingredients": [
+      {
+        "item": "alclad-aluminum-sheet",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-belt-mk5",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N41SFTCFiKUGqo8K682Si3YIw9rwI0w6OuCkcIM4ewe.64.png",
+    "slug": "recipe-conveyor-belt-mk5"
+  },
+  "recipe-conveyor-lift": {
+    "kind": "recipe",
+    "name": "Conveyor Lift",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-lift",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.64.png",
+    "slug": "recipe-conveyor-lift"
+  },
+  "recipe-conveyor-lift-mk2": {
+    "kind": "recipe",
+    "name": "Conveyor Lift Mk.2",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-lift-mk2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.64.png",
+    "slug": "recipe-conveyor-lift-mk2"
+  },
+  "recipe-conveyor-lift-mk3": {
+    "kind": "recipe",
+    "name": "Conveyor Lift Mk.3",
+    "ingredients": [
+      {
+        "item": "steel-beam",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-lift-mk3",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7FKGn2ihwc44k8s0Au0mOi7iZrpdWqK4qw6s4YmeoYQu.64.png",
+    "slug": "recipe-conveyor-lift-mk3"
+  },
+  "recipe-conveyor-lift-mk4": {
+    "kind": "recipe",
+    "name": "Conveyor Lift Mk.4",
+    "ingredients": [
+      {
+        "item": "encased-industrial-beam",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-lift-mk4",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.64.png",
+    "slug": "recipe-conveyor-lift-mk4"
+  },
+  "recipe-conveyor-lift-mk5": {
+    "kind": "recipe",
+    "name": "Conveyor Lift Mk.5",
+    "ingredients": [
+      {
+        "item": "alclad-aluminum-sheet",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-lift-mk5",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.64.png",
+    "slug": "recipe-conveyor-lift-mk5"
+  },
+  "recipe-conveyor-merger": {
+    "kind": "recipe",
+    "name": "Conveyor Merger",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 2
+      },
+      {
+        "item": "iron-rod",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-merger",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7Ji2j4gHzU0iuQ6cOcKcmC5S9zRTAbfOKiuEIqGOewsM.64.png",
+    "slug": "recipe-conveyor-merger"
+  },
+  "recipe-conveyor-pole": {
+    "kind": "recipe",
+    "name": "Conveyor Pole",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 1
+      },
+      {
+        "item": "iron-plate",
+        "count": 1
+      },
+      {
+        "item": "concrete",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-pole",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42deHQQ0sGuygoaGM2gQ7jktFi3GpiuAIEa6GWUwoK.64.png",
+    "slug": "recipe-conveyor-pole"
+  },
+  "recipe-conveyor-pole-stackable": {
+    "kind": "recipe",
+    "name": "Conveyor Pole Stackable",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 2
+      },
+      {
+        "item": "iron-plate",
+        "count": 2
+      },
+      {
+        "item": "concrete",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-pole-stackable",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-conveyor-pole-stackable"
+  },
+  "recipe-conveyor-splitter": {
+    "kind": "recipe",
+    "name": "Conveyor Splitter",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 2
+      },
+      {
+        "item": "cable",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-splitter",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7Ji2j4gEq4IseaU8ksAwM06Sj4pKy8essyUie6e6YscI.64.png",
+    "slug": "recipe-conveyor-splitter"
+  },
+  "recipe-conveyor-wall-mount": {
+    "kind": "recipe",
+    "name": "Conveyor Wall Mount",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 2
+      },
+      {
+        "item": "iron-plate",
+        "count": 2
+      },
+      {
+        "item": "concrete",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "conveyor-wall-mount",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5tCCQsMcmemUoI831Kff8YTYAg44KY2K0.64.png",
+    "slug": "recipe-conveyor-wall-mount"
+  },
+  "recipe-copper-ingot": {
+    "kind": "recipe",
+    "name": "Copper Ingot",
+    "ingredients": [
+      {
+        "item": "copper-ore",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "copper-ingot",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "smelter",
+      "craft-bench"
+    ],
+    "duration": 2,
+    "manualMultiplier": 3,
+    "icon": "images/7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W.64.png",
+    "slug": "recipe-copper-ingot"
+  },
+  "recipe-copper-ore": {
+    "kind": "recipe",
+    "name": "Copper Ore",
+    "ingredients": [
+      {
+        "item": "copper-ore",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "copper-ore",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-converter-c"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5sk2G88UM42gmE06r5LGGbrEIoyyIWYAi0yYs.64.png",
+    "slug": "recipe-copper-ore"
+  },
+  "recipe-copper-sheet": {
+    "kind": "recipe",
+    "name": "Copper Sheet",
+    "ingredients": [
+      {
+        "item": "copper-ingot",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "copper-sheet",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dfzMNaQUSaaIqeYMY86QCTRQ6ctU6c6O44QIcmC0.64.png",
+    "slug": "recipe-copper-sheet"
+  },
+  "recipe-corner-ramp-down-8m-x-1m": {
+    "kind": "recipe",
+    "name": "Corner Ramp Down 8m x 1m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "corner-ramp-down-8m-x-1m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-corner-ramp-down-8m-x-1m"
+  },
+  "recipe-corner-ramp-down-8m-x-2m": {
+    "kind": "recipe",
+    "name": "Corner Ramp Down 8m x 2m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "corner-ramp-down-8m-x-2m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-corner-ramp-down-8m-x-2m"
+  },
+  "recipe-corner-ramp-down-8m-x-4m": {
+    "kind": "recipe",
+    "name": "Corner Ramp Down 8m x 4m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "corner-ramp-down-8m-x-4m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-corner-ramp-down-8m-x-4m"
+  },
+  "recipe-corner-ramp-up-8m-x-1m": {
+    "kind": "recipe",
+    "name": "Corner Ramp Up 8m x 1m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "corner-ramp-up-8m-x-1m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-corner-ramp-up-8m-x-1m"
+  },
+  "recipe-corner-ramp-up-8m-x-2m": {
+    "kind": "recipe",
+    "name": "Corner Ramp Up 8m x 2m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "corner-ramp-up-8m-x-2m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-corner-ramp-up-8m-x-2m"
+  },
+  "recipe-corner-ramp-up-8m-x-4m": {
+    "kind": "recipe",
+    "name": "Corner Ramp Up 8m x 4m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "corner-ramp-up-8m-x-4m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-corner-ramp-up-8m-x-4m"
+  },
+  "recipe-craft-bench": {
+    "kind": "recipe",
+    "name": "Craft Bench",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "iron-rod",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "craft-bench",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5tm6OoEWQciM8c66zZPLbCYaQCwYkUC0Wis0I.64.png",
+    "slug": "recipe-craft-bench"
+  },
+  "recipe-crude-oil": {
+    "kind": "recipe",
+    "name": "Crude Oil",
+    "ingredients": [
+      {
+        "item": "crude-oil",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "crude-oil",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-converter-c"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-crude-oil"
+  },
+  "recipe-crystal-oscillator": {
+    "kind": "recipe",
+    "name": "Crystal Oscillator",
+    "ingredients": [
+      {
+        "item": "quartz-crystal",
+        "count": 36
+      },
+      {
+        "item": "cable",
+        "count": 28
+      },
+      {
+        "item": "reinforced-iron-plate",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "crystal-oscillator",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "manufacturer",
+      "craft-bench"
+    ],
+    "duration": 120,
+    "manualMultiplier": 0.3,
+    "icon": "images/7FZhJVM03S2UuEMIcwKuIe6S6iGjtXzywQ4QGewK0YMI.64.png",
+    "slug": "recipe-crystal-oscillator"
+  },
+  "recipe-curved-corner-foundation": {
+    "kind": "recipe",
+    "name": "Curved Corner Foundation",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "curved-corner-foundation",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-curved-corner-foundation"
+  },
+  "recipe-curved-corner-inverted-foundation": {
+    "kind": "recipe",
+    "name": "Curved Corner Inverted Foundation",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "curved-corner-inverted-foundation",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-curved-corner-inverted-foundation"
+  },
+  "recipe-curved-foundation": {
+    "kind": "recipe",
+    "name": "Curved Foundation",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "curved-foundation",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-curved-foundation"
+  },
+  "recipe-curved-inverted-foundation": {
+    "kind": "recipe",
+    "name": "Curved Inverted Foundation",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "curved-inverted-foundation",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-curved-inverted-foundation"
+  },
+  "recipe-double-sided-wall-power-pole": {
+    "kind": "recipe",
+    "name": "Double-sided Wall Power Pole",
+    "ingredients": [
+      {
+        "item": "wire",
+        "count": 8
+      },
+      {
+        "item": "iron-rod",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "double-sided-wall-power-pole",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-double-sided-wall-power-pole"
+  },
+  "recipe-double-sided-wall-power-pole-mk2": {
+    "kind": "recipe",
+    "name": "Double-sided Wall Power Pole Mk.2",
+    "ingredients": [
+      {
+        "item": "quickwire",
+        "count": 8
+      },
+      {
+        "item": "iron-rod",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "--BAD REFERENCE: Desc_PowerPoleWallDoubleMk2_C--",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-double-sided-wall-power-pole-mk2"
+  },
+  "recipe-double-sided-wall-power-pole-mk3": {
+    "kind": "recipe",
+    "name": "Double-sided Wall Power Pole Mk.3",
+    "ingredients": [
+      {
+        "item": "high-speed-connector",
+        "count": 2
+      },
+      {
+        "item": "steel-pipe",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "--BAD REFERENCE: Desc_PowerPoleWallDoubleMk3_C--",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-double-sided-wall-power-pole-mk3"
+  },
+  "recipe-electromagnetic-control-rod": {
+    "kind": "recipe",
+    "name": "Electromagnetic Control Rod",
+    "ingredients": [
+      {
+        "item": "stator",
+        "count": 3
+      },
+      {
+        "item": "ai-limiter",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "electromagnetic-control-rod",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 30,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dfyb1mOgWauaiGQOkS6OMFesktpYMeq4u6eqEuIa.64.png",
+    "slug": "recipe-electromagnetic-control-rod"
+  },
+  "recipe-empty-canister": {
+    "kind": "recipe",
+    "name": "Empty Canister",
+    "ingredients": [
+      {
+        "item": "plastic",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "empty-canister",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7LaOy6tXLU0GO86yuyMCio4133cp7s9aWW8OmSUSUEs2.64.png",
+    "slug": "recipe-empty-canister"
+  },
+  "recipe-empty-platform": {
+    "kind": "recipe",
+    "name": "Empty Platform",
+    "ingredients": [
+      {
+        "item": "heavy-modular-frame",
+        "count": 6
+      },
+      {
+        "item": "concrete",
+        "count": 50
+      }
+    ],
+    "products": [
+      {
+        "item": "empty-platform",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-empty-platform"
+  },
+  "recipe-encased-industrial-beam": {
+    "kind": "recipe",
+    "name": "Encased Industrial Beam",
+    "ingredients": [
+      {
+        "item": "steel-beam",
+        "count": 4
+      },
+      {
+        "item": "concrete",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "encased-industrial-beam",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 10,
+    "manualMultiplier": 1,
+    "icon": "images/7N41ZE2KooGCKcMyO6KAqE3ERbIcQg80w0sOCuciCAIq.64.png",
+    "slug": "recipe-encased-industrial-beam"
+  },
+  "recipe-encased-uranium-cell": {
+    "kind": "recipe",
+    "name": "Encased Uranium Cell",
+    "ingredients": [
+      {
+        "item": "uranium-pellet",
+        "count": 40
+      },
+      {
+        "item": "concrete",
+        "count": 9
+      }
+    ],
+    "products": [
+      {
+        "item": "encased-uranium-cell",
+        "count": 10
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 60,
+    "manualMultiplier": 0.5,
+    "icon": "images/7N3YGwNVmM2K2G6KWGaSyy4723x3vj8c22MAKgMuKCOA.64.png",
+    "slug": "recipe-encased-uranium-cell"
+  },
+  "recipe-equipment-workshop": {
+    "kind": "recipe",
+    "name": "Equipment Workshop",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 5
+      },
+      {
+        "item": "iron-rod",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "equipment-workshop",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgiRYQeSaWUoeMGwyS5QLF0rX0eAMEoos8qaMIMo.64.png",
+    "slug": "recipe-equipment-workshop"
+  },
+  "recipe-fabric": {
+    "kind": "recipe",
+    "name": "Fabric",
+    "ingredients": [
+      {
+        "item": "mycelia",
+        "count": 1
+      },
+      {
+        "item": "biomass",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "fabric",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 4,
+    "manualMultiplier": 1,
+    "icon": "images/7N42agcQEwSG4c2GuA6ygM5XH80xNhRKk4QM2mm28Ie2.64.png",
+    "slug": "recipe-fabric"
+  },
+  "recipe-factory-cart": {
+    "kind": "recipe",
+    "name": "Factory Cart™",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 4
+      },
+      {
+        "item": "iron-rod",
+        "count": 4
+      },
+      {
+        "item": "rotor",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "factory-cart",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-factory-cart"
+  },
+  "recipe-fence-1": {
+    "kind": "recipe",
+    "name": "Fence 1",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "fence",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N1icBSSGIkkI80o6cCo0i7j6J07ivbUOoaYmAsiOkci.64.png",
+    "slug": "recipe-fence-1"
+  },
+  "recipe-filter": {
+    "kind": "recipe",
+    "name": "Filter",
+    "ingredients": [
+      {
+        "item": "coal",
+        "count": 5
+      },
+      {
+        "item": "rubber",
+        "count": 2
+      },
+      {
+        "item": "fabric",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "filter",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer",
+      "craft-bench",
+      "equipment-workshop"
+    ],
+    "duration": 8,
+    "manualMultiplier": 1,
+    "icon": "images/7N41MFCmhqi0ymKkioO0a87n9bUeC8yACcEU4mmA0q4y.64.png",
+    "slug": "recipe-filter"
+  },
+  "recipe-foundation-8m-x-1m": {
+    "kind": "recipe",
+    "name": "Foundation 8m x 1m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "foundation-8m-x-1m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-foundation-8m-x-1m"
+  },
+  "recipe-foundation-8m-x-2m": {
+    "kind": "recipe",
+    "name": "Foundation 8m x 2m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "foundation-8m-x-2m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-foundation-8m-x-2m"
+  },
+  "recipe-foundation-8m-x-4m": {
+    "kind": "recipe",
+    "name": "Foundation 8m x 4m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "foundation-8m-x-4m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-foundation-8m-x-4m"
+  },
+  "recipe-foundation-frame": {
+    "kind": "recipe",
+    "name": "Foundation Frame",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "foundation-frame",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-foundation-frame"
+  },
+  "recipe-foundation-glass": {
+    "kind": "recipe",
+    "name": "Foundation Glass",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "foundation-glass",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-foundation-glass"
+  },
+  "recipe-foundry": {
+    "kind": "recipe",
+    "name": "Foundry",
+    "ingredients": [
+      {
+        "item": "modular-frame",
+        "count": 10
+      },
+      {
+        "item": "rotor",
+        "count": 10
+      },
+      {
+        "item": "concrete",
+        "count": 20
+      }
+    ],
+    "products": [
+      {
+        "item": "foundry",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7LeGV48qdOMgaEmS0UMYeA6k24j9MNhYE6w2sK2e8SO6.64.png",
+    "slug": "recipe-foundry"
+  },
+  "recipe-freight-platform": {
+    "kind": "recipe",
+    "name": "Freight Platform",
+    "ingredients": [
+      {
+        "item": "heavy-modular-frame",
+        "count": 6
+      },
+      {
+        "item": "computer",
+        "count": 2
+      },
+      {
+        "item": "concrete",
+        "count": 50
+      },
+      {
+        "item": "cable",
+        "count": 25
+      },
+      {
+        "item": "motor",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "freight-platform",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-freight-platform"
+  },
+  "recipe-freight-platform-liquid": {
+    "kind": "recipe",
+    "name": "Freight Platform Liquid",
+    "ingredients": [
+      {
+        "item": "heavy-modular-frame",
+        "count": 6
+      },
+      {
+        "item": "computer",
+        "count": 2
+      },
+      {
+        "item": "concrete",
+        "count": 50
+      },
+      {
+        "item": "cable",
+        "count": 25
+      },
+      {
+        "item": "motor",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "freight-platform-liquid",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-freight-platform-liquid"
+  },
+  "recipe-fuel": {
+    "kind": "recipe",
+    "name": "Fuel",
+    "ingredients": [
+      {
+        "item": "crude-oil",
+        "count": 6000
+      }
+    ],
+    "products": [
+      {
+        "item": "fuel",
+        "count": 4000
+      },
+      {
+        "item": "polymer-resin",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-fuel"
+  },
+  "recipe-fuel-generator": {
+    "kind": "recipe",
+    "name": "Fuel Generator",
+    "ingredients": [
+      {
+        "item": "computer",
+        "count": 5
+      },
+      {
+        "item": "heavy-modular-frame",
+        "count": 10
+      },
+      {
+        "item": "motor",
+        "count": 15
+      },
+      {
+        "item": "rubber",
+        "count": 50
+      },
+      {
+        "item": "quickwire",
+        "count": 50
+      }
+    ],
+    "products": [
+      {
+        "item": "fuel-generator",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7KexLdcNXiusCMmKg8oMgM7nABRREvMke0ioSAsKGaSe.64.png",
+    "slug": "recipe-fuel-generator"
+  },
+  "recipe-gas-mask": {
+    "kind": "recipe",
+    "name": "Gas mask",
+    "ingredients": [
+      {
+        "item": "rubber",
+        "count": 100
+      },
+      {
+        "item": "plastic",
+        "count": 100
+      },
+      {
+        "item": "fabric",
+        "count": 100
+      }
+    ],
+    "products": [
+      {
+        "item": "gas-mask",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 80,
+    "manualMultiplier": 1,
+    "icon": "images/3TwFQk2g4U6KikWqaE8Ywc5ReXXKMkAoYeSoQCAGimce.64.png",
+    "slug": "recipe-gas-mask"
+  },
+  "recipe-gate-8m-x-4m": {
+    "kind": "recipe",
+    "name": "Gate 8m x 4m",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "gate-8m-x-4m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-gate-8m-x-4m"
+  },
+  "recipe-geo-thermal-generator": {
+    "kind": "recipe",
+    "name": "Geo Thermal Generator",
+    "ingredients": [
+      {
+        "item": "supercomputer",
+        "count": 8
+      },
+      {
+        "item": "heavy-modular-frame",
+        "count": 16
+      },
+      {
+        "item": "high-speed-connector",
+        "count": 16
+      },
+      {
+        "item": "copper-sheet",
+        "count": 40
+      },
+      {
+        "item": "rubber",
+        "count": 80
+      }
+    ],
+    "products": [
+      {
+        "item": "geo-thermal-generator",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7iZrpdTd5KssKC22sUOoMs7ycHPfhHvqgUqsim2w8QsE.64.png",
+    "slug": "recipe-geo-thermal-generator"
+  },
+  "recipe-hazmat-suit": {
+    "kind": "recipe",
+    "name": "Hazmat Suit",
+    "ingredients": [
+      {
+        "item": "rubber",
+        "count": 50
+      },
+      {
+        "item": "plastic",
+        "count": 50
+      },
+      {
+        "item": "alclad-aluminum-sheet",
+        "count": 50
+      },
+      {
+        "item": "fabric",
+        "count": 50
+      }
+    ],
+    "products": [
+      {
+        "item": "hazmat-suit",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 120,
+    "manualMultiplier": 1,
+    "slug": "recipe-hazmat-suit"
+  },
+  "recipe-heat-sink": {
+    "kind": "recipe",
+    "name": "Heat Sink",
+    "ingredients": [
+      {
+        "item": "alclad-aluminum-sheet",
+        "count": 8
+      },
+      {
+        "item": "rubber",
+        "count": 14
+      }
+    ],
+    "products": [
+      {
+        "item": "heat-sink",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "slug": "recipe-heat-sink"
+  },
+  "recipe-heavy-modular-frame": {
+    "kind": "recipe",
+    "name": "Heavy Modular Frame",
+    "ingredients": [
+      {
+        "item": "modular-frame",
+        "count": 5
+      },
+      {
+        "item": "steel-pipe",
+        "count": 15
+      },
+      {
+        "item": "encased-industrial-beam",
+        "count": 5
+      },
+      {
+        "item": "screw",
+        "count": 100
+      }
+    ],
+    "products": [
+      {
+        "item": "heavy-modular-frame",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer",
+      "craft-bench"
+    ],
+    "duration": 30,
+    "manualMultiplier": 0.6,
+    "icon": "images/7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG.64.png",
+    "slug": "recipe-heavy-modular-frame"
+  },
+  "recipe-high-speed-connector": {
+    "kind": "recipe",
+    "name": "High-Speed Connector",
+    "ingredients": [
+      {
+        "item": "quickwire",
+        "count": 56
+      },
+      {
+        "item": "cable",
+        "count": 10
+      },
+      {
+        "item": "circuit-board",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "high-speed-connector",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer",
+      "craft-bench"
+    ],
+    "duration": 16,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dglnO0Ge2o0uekCySU7ch58bY3WEseIQQGoYas.64.png",
+    "slug": "recipe-high-speed-connector"
+  },
+  "recipe-hyper-tube": {
+    "kind": "recipe",
+    "name": "Hyper Tube",
+    "ingredients": [
+      {
+        "item": "copper-sheet",
+        "count": 1
+      },
+      {
+        "item": "steel-pipe",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "hyper-tube",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5qgUsGemcUMKkAS5oWVg4mKicuSgWSmkOEceG.64.png",
+    "slug": "recipe-hyper-tube"
+  },
+  "recipe-hyper-tube-entrance": {
+    "kind": "recipe",
+    "name": "Hyper Tube Entrance",
+    "ingredients": [
+      {
+        "item": "encased-industrial-beam",
+        "count": 4
+      },
+      {
+        "item": "rotor",
+        "count": 4
+      },
+      {
+        "item": "steel-pipe",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "--BAD REFERENCE: Desc_PipeHyperStart_C--",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N40rTgGQM08Q8WCsKqwY44RzDDJybRKAcQ2uUIwCAM8.64.png",
+    "slug": "recipe-hyper-tube-entrance"
+  },
+  "recipe-hyper-tube-support": {
+    "kind": "recipe",
+    "name": "Hyper Tube Support",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 2
+      },
+      {
+        "item": "concrete",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "hyper-tube-support",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7yrjDtR0qI0g6kCo8QiSks6OJSzqPA4wkYeUcmGCYS4O.64.png",
+    "slug": "recipe-hyper-tube-support"
+  },
+  "recipe-industrial-fluid-buffer-1": {
+    "kind": "recipe",
+    "name": "Industrial Fluid Buffer",
+    "ingredients": [
+      {
+        "item": "copper-sheet",
+        "count": 10
+      },
+      {
+        "item": "modular-frame",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "industrial-fluid-buffer-1",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-industrial-fluid-buffer-1"
+  },
+  "recipe-industrial-fluid-buffer-2": {
+    "kind": "recipe",
+    "name": "Industrial Fluid Buffer",
+    "ingredients": [
+      {
+        "item": "plastic",
+        "count": 30
+      },
+      {
+        "item": "heavy-modular-frame",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "industrial-fluid-buffer-2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-industrial-fluid-buffer-2"
+  },
+  "recipe-industrial-storage-container": {
+    "kind": "recipe",
+    "name": "Industrial Storage Container",
+    "ingredients": [
+      {
+        "item": "steel-beam",
+        "count": 20
+      },
+      {
+        "item": "steel-pipe",
+        "count": 20
+      }
+    ],
+    "products": [
+      {
+        "item": "industrial-storage-container",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7Ket4d1BzGWCs26I0yCmiw6NLwqgH7Wg22og4UGiwkMS.64.png",
+    "slug": "recipe-industrial-storage-container"
+  },
+  "recipe-iodine-infused-filter": {
+    "kind": "recipe",
+    "name": "Iodine Infused Filter",
+    "ingredients": [
+      {
+        "item": "filter",
+        "count": 1
+      },
+      {
+        "item": "quickwire",
+        "count": 8
+      },
+      {
+        "item": "rubber",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "iodine-infused-filter",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer",
+      "craft-bench",
+      "equipment-workshop"
+    ],
+    "duration": 16,
+    "manualMultiplier": 1,
+    "icon": "images/7LEhbUCYAou04S0CqgosM06OOtm5CVlmqmEC8GUqqoes.64.png",
+    "slug": "recipe-iodine-infused-filter"
+  },
+  "recipe-iron-ingot": {
+    "kind": "recipe",
+    "name": "Iron Ingot",
+    "ingredients": [
+      {
+        "item": "iron-ore",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "iron-ingot",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "smelter",
+      "craft-bench"
+    ],
+    "duration": 2,
+    "manualMultiplier": 3,
+    "icon": "images/7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc.64.png",
+    "slug": "recipe-iron-ingot"
+  },
+  "recipe-iron-ore": {
+    "kind": "recipe",
+    "name": "Iron Ore",
+    "ingredients": [
+      {
+        "item": "iron-ore",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "iron-ore",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-converter-c"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgkzS0e2m2symWoSqw42WXpUhiViWoUOsmyc0OCg.64.png",
+    "slug": "recipe-iron-ore"
+  },
+  "recipe-iron-plate": {
+    "kind": "recipe",
+    "name": "Iron Plate",
+    "ingredients": [
+      {
+        "item": "iron-ingot",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "iron-plate",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo.64.png",
+    "slug": "recipe-iron-plate"
+  },
+  "recipe-iron-rod": {
+    "kind": "recipe",
+    "name": "Iron Rod",
+    "ingredients": [
+      {
+        "item": "iron-ingot",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "iron-rod",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 4,
+    "manualMultiplier": 0.5,
+    "icon": "images/7N0nvS2MJUs4yG0Ckk2G6Y7brhNWuC6A8Agykw8w2uwE.64.png",
+    "slug": "recipe-iron-rod"
+  },
+  "recipe-jetpack": {
+    "kind": "recipe",
+    "name": "Jetpack",
+    "ingredients": [
+      {
+        "item": "plastic",
+        "count": 50
+      },
+      {
+        "item": "circuit-board",
+        "count": 15
+      },
+      {
+        "item": "rubber",
+        "count": 50
+      },
+      {
+        "item": "cable",
+        "count": 25
+      }
+    ],
+    "products": [
+      {
+        "item": "jetpack",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 120,
+    "manualMultiplier": 1,
+    "icon": "images/7JwFDLPkdO6EcGgSEmassa7y1IVyJBJYoCMuUy2guwYW.64.png",
+    "slug": "recipe-jetpack"
+  },
+  "recipe-jump-pad": {
+    "kind": "recipe",
+    "name": "Jump Pad",
+    "ingredients": [
+      {
+        "item": "rotor",
+        "count": 2
+      },
+      {
+        "item": "iron-plate",
+        "count": 15
+      },
+      {
+        "item": "cable",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "jump-pad",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-jump-pad"
+  },
+  "recipe-limestone": {
+    "kind": "recipe",
+    "name": "Limestone",
+    "ingredients": [
+      {
+        "item": "limestone",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "limestone",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-converter-c"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dglMKAOCwquS0cEe2Y41z5IakevC2GkKuy4uSUsa.64.png",
+    "slug": "recipe-limestone"
+  },
+  "recipe-liquid-biofuel": {
+    "kind": "recipe",
+    "name": "Liquid Biofuel",
+    "ingredients": [
+      {
+        "item": "solid-biofuel",
+        "count": 6
+      },
+      {
+        "item": "water",
+        "count": 3000
+      }
+    ],
+    "products": [
+      {
+        "item": "liquid-biofuel",
+        "count": 4000
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 4,
+    "manualMultiplier": 1,
+    "icon": "images/7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.64.png",
+    "slug": "recipe-liquid-biofuel"
+  },
+  "recipe-lookout-tower": {
+    "kind": "recipe",
+    "name": "Lookout Tower",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 5
+      },
+      {
+        "item": "iron-rod",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "lookout-tower",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7ycGX6bIrYQMkUs42uAUWq7KexLdcNXiusCMmKg8oMgM.64.png",
+    "slug": "recipe-lookout-tower"
+  },
+  "recipe-mam": {
+    "kind": "recipe",
+    "name": "M.A.M.",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 5
+      },
+      {
+        "item": "cable",
+        "count": 15
+      },
+      {
+        "item": "wire",
+        "count": 45
+      }
+    ],
+    "products": [
+      {
+        "item": "mam",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N3W0YzzXioaQsQioy06CQ5BjS2Jqkc80MgkYciwiYo6.64.png",
+    "slug": "recipe-mam"
+  },
+  "recipe-manufacturer": {
+    "kind": "recipe",
+    "name": "Manufacturer",
+    "ingredients": [
+      {
+        "item": "motor",
+        "count": 5
+      },
+      {
+        "item": "heavy-modular-frame",
+        "count": 10
+      },
+      {
+        "item": "cable",
+        "count": 50
+      },
+      {
+        "item": "plastic",
+        "count": 50
+      }
+    ],
+    "products": [
+      {
+        "item": "manufacturer",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm4NiySQ44G0a2GQ07FxTp4Y7FmaAyq6A6GSOeY.64.png",
+    "slug": "recipe-manufacturer"
+  },
+  "recipe-medicinal-inhaler": {
+    "kind": "recipe",
+    "name": "Medicinal Inhaler",
+    "ingredients": [
+      {
+        "item": "bacon-agaric",
+        "count": 1
+      },
+      {
+        "item": "paleberry",
+        "count": 3
+      },
+      {
+        "item": "beryl-nut",
+        "count": 7
+      }
+    ],
+    "products": [
+      {
+        "item": "medicinal-inhaler",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 20,
+    "manualMultiplier": 1,
+    "icon": "images/7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay.64.png",
+    "slug": "recipe-medicinal-inhaler"
+  },
+  "recipe-medicinal-inhaler-alien-organs": {
+    "kind": "recipe",
+    "name": "Medicinal Inhaler: Alien Organs",
+    "ingredients": [
+      {
+        "item": "alien-organs",
+        "count": 3
+      },
+      {
+        "item": "mycelia",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "medicinal-inhaler",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 20,
+    "manualMultiplier": 1,
+    "icon": "images/7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay.64.png",
+    "slug": "recipe-medicinal-inhaler-alien-organs"
+  },
+  "recipe-miner-mk1": {
+    "kind": "recipe",
+    "name": "Miner Mk.1",
+    "ingredients": [
+      {
+        "item": "portable-miner",
+        "count": 1
+      },
+      {
+        "item": "iron-plate",
+        "count": 10
+      },
+      {
+        "item": "concrete",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "miner-mk1",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7Mma2ofk4gaoyOoKY4Ccic7FzIlI24KsY6Gkek8uUu8i.64.png",
+    "slug": "recipe-miner-mk1"
+  },
+  "recipe-miner-mk2": {
+    "kind": "recipe",
+    "name": "Miner Mk.2",
+    "ingredients": [
+      {
+        "item": "portable-miner",
+        "count": 2
+      },
+      {
+        "item": "encased-industrial-beam",
+        "count": 10
+      },
+      {
+        "item": "steel-pipe",
+        "count": 20
+      },
+      {
+        "item": "modular-frame",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "miner-mk2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7LeHfOuije02yCA6msaWc47FzIzqWmooyW4y80MssecO.64.png",
+    "slug": "recipe-miner-mk2"
+  },
+  "recipe-miner-mk3": {
+    "kind": "recipe",
+    "name": "Miner Mk.3",
+    "ingredients": [
+      {
+        "item": "portable-miner",
+        "count": 3
+      },
+      {
+        "item": "heavy-modular-frame",
+        "count": 4
+      },
+      {
+        "item": "steel-pipe",
+        "count": 20
+      },
+      {
+        "item": "turbo-motor",
+        "count": 5
+      },
+      {
+        "item": "computer",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "miner-mk3",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7LeHfHQ8vYoe4QIyC0QsSW7FzIlI6UcoA4uc0WqWMmYO.64.png",
+    "slug": "recipe-miner-mk3"
+  },
+  "recipe-modular-engine": {
+    "kind": "recipe",
+    "name": "Modular Engine",
+    "ingredients": [
+      {
+        "item": "motor",
+        "count": 2
+      },
+      {
+        "item": "rubber",
+        "count": 15
+      },
+      {
+        "item": "smart-plating",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "modular-engine",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 60,
+    "manualMultiplier": 1,
+    "slug": "recipe-modular-engine"
+  },
+  "recipe-modular-frame": {
+    "kind": "recipe",
+    "name": "Modular Frame",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 3
+      },
+      {
+        "item": "iron-rod",
+        "count": 12
+      }
+    ],
+    "products": [
+      {
+        "item": "modular-frame",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 60,
+    "manualMultiplier": 0.5,
+    "icon": "images/7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu.64.png",
+    "slug": "recipe-modular-frame"
+  },
+  "recipe-motor": {
+    "kind": "recipe",
+    "name": "Motor",
+    "ingredients": [
+      {
+        "item": "rotor",
+        "count": 2
+      },
+      {
+        "item": "stator",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "motor",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 12,
+    "manualMultiplier": 2,
+    "icon": "images/7kL2idF7XicEOsOWsaMQuG5lasWIQ4neoAg2COmaSOk6.64.png",
+    "slug": "recipe-motor"
+  },
+  "recipe-nobelisk": {
+    "kind": "recipe",
+    "name": "Nobelisk",
+    "ingredients": [
+      {
+        "item": "black-powder",
+        "count": 5
+      },
+      {
+        "item": "steel-pipe",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "nobelisk",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop",
+      "assembler"
+    ],
+    "duration": 20,
+    "manualMultiplier": 1,
+    "icon": "images/6Ss9vMKuR2OQcWgEwc6oqG7iVNCcHraMmIai6GmK2ac8.64.png",
+    "slug": "recipe-nobelisk"
+  },
+  "recipe-nobelisk-detonator": {
+    "kind": "recipe",
+    "name": "Nobelisk Detonator",
+    "ingredients": [
+      {
+        "item": "object-scanner",
+        "count": 5
+      },
+      {
+        "item": "encased-industrial-beam",
+        "count": 5
+      },
+      {
+        "item": "cable",
+        "count": 50
+      }
+    ],
+    "products": [
+      {
+        "item": "nobelisk-detonator",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 80,
+    "manualMultiplier": 1,
+    "icon": "images/7LeHfOuxxeaM8m0mOqCEgA7y5nBgl1DOa6SqOi0OoyGA.64.png",
+    "slug": "recipe-nobelisk-detonator"
+  },
+  "recipe-nuclear-fuel-rod": {
+    "kind": "recipe",
+    "name": "Nuclear Fuel Rod",
+    "ingredients": [
+      {
+        "item": "encased-uranium-cell",
+        "count": 25
+      },
+      {
+        "item": "encased-industrial-beam",
+        "count": 3
+      },
+      {
+        "item": "electromagnetic-control-rod",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "nuclear-fuel-rod",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "duration": 150,
+    "manualMultiplier": 1,
+    "icon": "images/7qTjLs4vn2wwUUaQmem6q27iZrpdTd5KssKC22sUOoMs.64.png",
+    "slug": "recipe-nuclear-fuel-rod"
+  },
+  "recipe-nuclear-power-plant": {
+    "kind": "recipe",
+    "name": "Nuclear Power Plant",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 150
+      },
+      {
+        "item": "heavy-modular-frame",
+        "count": 10
+      },
+      {
+        "item": "supercomputer",
+        "count": 5
+      },
+      {
+        "item": "cable",
+        "count": 50
+      },
+      {
+        "item": "high-speed-connector",
+        "count": 15
+      }
+    ],
+    "products": [
+      {
+        "item": "nuclear-power-plant",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7yUz46VajCcySAacOs62yG7BYFZG3kZy6AsYiIeMQAcq.64.png",
+    "slug": "recipe-nuclear-power-plant"
+  },
+  "recipe-nutritional-inhaler": {
+    "kind": "recipe",
+    "name": "Nutritional Inhaler",
+    "ingredients": [
+      {
+        "item": "bacon-agaric",
+        "count": 1
+      },
+      {
+        "item": "paleberry",
+        "count": 2
+      },
+      {
+        "item": "beryl-nut",
+        "count": 3
+      },
+      {
+        "item": "mycelia",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "medicinal-inhaler",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 20,
+    "manualMultiplier": 1,
+    "icon": "images/7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay.64.png",
+    "slug": "recipe-nutritional-inhaler"
+  },
+  "recipe-object-scanner": {
+    "kind": "recipe",
+    "name": "Object Scanner",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 4
+      },
+      {
+        "item": "beacon",
+        "count": 3
+      },
+      {
+        "item": "screw",
+        "count": 50
+      }
+    ],
+    "products": [
+      {
+        "item": "object-scanner",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 40,
+    "manualMultiplier": 1,
+    "icon": "images/1WL6jJkAhCa2iWwkMYeCWQ6OUQBbqkJUmaeQoKIqAgQM.64.png",
+    "slug": "recipe-object-scanner"
+  },
+  "recipe-oil-extractor": {
+    "kind": "recipe",
+    "name": "Oil Extractor",
+    "ingredients": [
+      {
+        "item": "motor",
+        "count": 15
+      },
+      {
+        "item": "encased-industrial-beam",
+        "count": 20
+      },
+      {
+        "item": "cable",
+        "count": 60
+      }
+    ],
+    "products": [
+      {
+        "item": "oil-extractor",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7y5oua3NAsYuEEcWy02MEu6ONz18ZA08AeCogyo4s4ec.64.png",
+    "slug": "recipe-oil-extractor"
+  },
+  "recipe-packaged-fuel": {
+    "kind": "recipe",
+    "name": "Packaged Fuel",
+    "ingredients": [
+      {
+        "item": "fuel",
+        "count": 1000
+      },
+      {
+        "item": "empty-canister",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "packaged-fuel",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 3,
+    "manualMultiplier": 1,
+    "slug": "recipe-packaged-fuel"
+  },
+  "recipe-packaged-heavy-oil-residue": {
+    "kind": "recipe",
+    "name": "Packaged Heavy Oil Residue",
+    "ingredients": [
+      {
+        "item": "heavy-oil-residue",
+        "count": 1000
+      },
+      {
+        "item": "empty-canister",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "packaged-heavy-oil-residue",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-packaged-heavy-oil-residue"
+  },
+  "recipe-packaged-liquid-biofuel": {
+    "kind": "recipe",
+    "name": "Packaged Liquid Biofuel",
+    "ingredients": [
+      {
+        "item": "liquid-biofuel",
+        "count": 1000
+      },
+      {
+        "item": "empty-canister",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "packaged-liquid-biofuel",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 4,
+    "manualMultiplier": 1,
+    "slug": "recipe-packaged-liquid-biofuel"
+  },
+  "recipe-packaged-oil": {
+    "kind": "recipe",
+    "name": "Packaged Oil",
+    "ingredients": [
+      {
+        "item": "crude-oil",
+        "count": 1000
+      },
+      {
+        "item": "empty-canister",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "packaged-oil",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 5,
+    "manualMultiplier": 1,
+    "slug": "recipe-packaged-oil"
+  },
+  "recipe-packaged-turbofuel": {
+    "kind": "recipe",
+    "name": "Packaged Turbofuel",
+    "ingredients": [
+      {
+        "item": "turbofuel",
+        "count": 1000
+      },
+      {
+        "item": "empty-canister",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "packaged-turbofuel",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "slug": "recipe-packaged-turbofuel"
+  },
+  "recipe-packaged-water": {
+    "kind": "recipe",
+    "name": "Packaged Water",
+    "ingredients": [
+      {
+        "item": "water",
+        "count": 1000
+      },
+      {
+        "item": "empty-canister",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "packaged-water",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-packaged-water"
+  },
+  "recipe-parachute": {
+    "kind": "recipe",
+    "name": "Parachute",
+    "ingredients": [
+      {
+        "item": "fabric",
+        "count": 10
+      },
+      {
+        "item": "cable",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "parachute",
+        "count": 5
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 40,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YHnmzCgGu0sS6USuasa5XJADJfPkAcke6kwAqWgIa.64.png",
+    "slug": "recipe-parachute"
+  },
+  "recipe-personal-storage-box": {
+    "kind": "recipe",
+    "name": "Personal Storage Box",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 6
+      },
+      {
+        "item": "iron-rod",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "personal-storage-box",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YTnUuYg66UMykymwsEq6OHbdJXU0oEaSuOMy8ogcE.64.png",
+    "slug": "recipe-personal-storage-box"
+  },
+  "recipe-petroleum-coke": {
+    "kind": "recipe",
+    "name": "Petroleum Coke",
+    "ingredients": [
+      {
+        "item": "heavy-oil-residue",
+        "count": 2000
+      }
+    ],
+    "products": [
+      {
+        "item": "petroleum-coke",
+        "count": 6
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7N41Mf4WekCyAQ4GCWOASA5Qm4DAXGTeEmo0kCAykeOi.64.png",
+    "slug": "recipe-petroleum-coke"
+  },
+  "recipe-pillar-base": {
+    "kind": "recipe",
+    "name": "Pillar Base",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "pillar-base",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-pillar-base"
+  },
+  "recipe-pillar-middle": {
+    "kind": "recipe",
+    "name": "Pillar Middle",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "pillar-middle",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-pillar-middle"
+  },
+  "recipe-pillar-top": {
+    "kind": "recipe",
+    "name": "Pillar Top",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 6
+      }
+    ],
+    "products": [
+      {
+        "item": "pillar-top",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-pillar-top"
+  },
+  "recipe-pipeline": {
+    "kind": "recipe",
+    "name": "Pipeline",
+    "ingredients": [
+      {
+        "item": "copper-sheet",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "pipeline",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dfWqzYYOy8KkCa0YCE42wkXTa3CMyy2eaieKcQuI.64.png",
+    "slug": "recipe-pipeline"
+  },
+  "recipe-pipeline-junction-cross": {
+    "kind": "recipe",
+    "name": "Pipeline Junction Cross",
+    "ingredients": [
+      {
+        "item": "copper-sheet",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "pipeline-junction-cross",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N426BNjry8CAO22OyweoW3U07E8cmwwMeqQgkiwWso4.64.png",
+    "slug": "recipe-pipeline-junction-cross"
+  },
+  "recipe-pipeline-pump": {
+    "kind": "recipe",
+    "name": "Pipeline Pump",
+    "ingredients": [
+      {
+        "item": "copper-sheet",
+        "count": 2
+      },
+      {
+        "item": "rotor",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "pipeline-pump",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N3BEjMvv2Cowq0kKG00Qa6mmoBzL1Ju2g6C8M62EKSI.64.png",
+    "slug": "recipe-pipeline-pump"
+  },
+  "recipe-pipeline-support": {
+    "kind": "recipe",
+    "name": "Pipeline Support",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 2
+      },
+      {
+        "item": "concrete",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "pipeline-support",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-pipeline-support"
+  },
+  "recipe-pipeline-wall-support": {
+    "kind": "recipe",
+    "name": "Pipeline Wall Support",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 2
+      },
+      {
+        "item": "iron-plate",
+        "count": 1
+      },
+      {
+        "item": "concrete",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "pipeline-wall-support",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N41Mf4WeA8AEYkcE0WQoC7pZ8R8hfFu2amC6WGIgywG.64.png",
+    "slug": "recipe-pipeline-wall-support"
+  },
+  "recipe-pipeline-wall-through-hole": {
+    "kind": "recipe",
+    "name": "Pipeline Wall Through Hole",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 2
+      },
+      {
+        "item": "iron-plate",
+        "count": 1
+      },
+      {
+        "item": "concrete",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "pipeline-wall-through-hole",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N3YG60pJCwGkgOqCU4oA44RvVa8EanuEIqkOKG6ceWg.64.png",
+    "slug": "recipe-pipeline-wall-through-hole"
+  },
+  "recipe-plastic": {
+    "kind": "recipe",
+    "name": "Plastic",
+    "ingredients": [
+      {
+        "item": "crude-oil",
+        "count": 3000
+      }
+    ],
+    "products": [
+      {
+        "item": "plastic",
+        "count": 2
+      },
+      {
+        "item": "heavy-oil-residue",
+        "count": 2000
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU.64.png",
+    "slug": "recipe-plastic"
+  },
+  "recipe-portable-miner": {
+    "kind": "recipe",
+    "name": "Portable Miner",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "iron-rod",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "portable-miner",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 40,
+    "manualMultiplier": 1,
+    "slug": "recipe-portable-miner"
+  },
+  "recipe-power-line": {
+    "kind": "recipe",
+    "name": "Power Line",
+    "ingredients": [
+      {
+        "item": "cable",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "power-line",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7yrkxFpTxewKSMQmuI2YEE7nABS4QnMki4U6uIWCocCq.64.png",
+    "slug": "recipe-power-line"
+  },
+  "recipe-power-pole": {
+    "kind": "recipe",
+    "name": "Power Pole",
+    "ingredients": [
+      {
+        "item": "wire",
+        "count": 3
+      },
+      {
+        "item": "iron-rod",
+        "count": 1
+      },
+      {
+        "item": "concrete",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "power-pole",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7FZjkzLBG84eo0QswKyCwC7KexLdcNXiusCMmKg8oMgM.64.png",
+    "slug": "recipe-power-pole"
+  },
+  "recipe-power-pole-mk2": {
+    "kind": "recipe",
+    "name": "Power Pole Mk.2",
+    "ingredients": [
+      {
+        "item": "quickwire",
+        "count": 6
+      },
+      {
+        "item": "iron-rod",
+        "count": 2
+      },
+      {
+        "item": "concrete",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "power-pole-mk2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.64.png",
+    "slug": "recipe-power-pole-mk2"
+  },
+  "recipe-power-pole-mk3": {
+    "kind": "recipe",
+    "name": "Power Pole Mk.3",
+    "ingredients": [
+      {
+        "item": "high-speed-connector",
+        "count": 2
+      },
+      {
+        "item": "steel-pipe",
+        "count": 2
+      },
+      {
+        "item": "rubber",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "power-pole-mk3",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.64.png",
+    "slug": "recipe-power-pole-mk3"
+  },
+  "recipe-power-shard-1": {
+    "kind": "recipe",
+    "name": "Power Shard (1)",
+    "ingredients": [
+      {
+        "item": "green-power-slug",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "power-shard",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 10,
+    "manualMultiplier": 1,
+    "slug": "recipe-power-shard-1"
+  },
+  "recipe-power-shard-2": {
+    "kind": "recipe",
+    "name": "Power Shard (2)",
+    "ingredients": [
+      {
+        "item": "yellow-power-slug",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "power-shard",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 15,
+    "manualMultiplier": 1.2,
+    "slug": "recipe-power-shard-2"
+  },
+  "recipe-power-shard-5": {
+    "kind": "recipe",
+    "name": "Power Shard (5)",
+    "ingredients": [
+      {
+        "item": "purple-power-slug",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "power-shard",
+        "count": 5
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 20,
+    "manualMultiplier": 1.2,
+    "slug": "recipe-power-shard-5"
+  },
+  "recipe-programmable-splitter": {
+    "kind": "recipe",
+    "name": "Programmable Splitter",
+    "ingredients": [
+      {
+        "item": "heavy-modular-frame",
+        "count": 1
+      },
+      {
+        "item": "motor",
+        "count": 1
+      },
+      {
+        "item": "supercomputer",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "programmable-splitter",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N41ldHl5KsMuISGsw6ueK6RX8pFtjfqwwGCkWE0geA0.64.png",
+    "slug": "recipe-programmable-splitter"
+  },
+  "recipe-quartz-crystal": {
+    "kind": "recipe",
+    "name": "Quartz Crystal",
+    "ingredients": [
+      {
+        "item": "raw-quartz",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "quartz-crystal",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 8,
+    "manualMultiplier": 2,
+    "icon": "images/7N41m4Z5XUiKCQYK0aUg4y639qr83ex2O2YoGww0ysAe.64.png",
+    "slug": "recipe-quartz-crystal"
+  },
+  "recipe-quickwire": {
+    "kind": "recipe",
+    "name": "Quickwire",
+    "ingredients": [
+      {
+        "item": "caterium-ingot",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "quickwire",
+        "count": 5
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 5,
+    "manualMultiplier": 2,
+    "icon": "images/7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8.64.png",
+    "slug": "recipe-quickwire"
+  },
+  "recipe-radar-tower": {
+    "kind": "recipe",
+    "name": "Radar Tower",
+    "ingredients": [
+      {
+        "item": "heavy-modular-frame",
+        "count": 30
+      },
+      {
+        "item": "crystal-oscillator",
+        "count": 30
+      },
+      {
+        "item": "beacon",
+        "count": 20
+      },
+      {
+        "item": "cable",
+        "count": 100
+      }
+    ],
+    "products": [
+      {
+        "item": "--BAD REFERENCE: Desc_RadarTower_C--",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7JLilS07sscSOmSw0Muw2i7FKGnsSWoo8aiKSowAk2UC.64.png",
+    "slug": "recipe-radar-tower"
+  },
+  "recipe-radio-control-unit": {
+    "kind": "recipe",
+    "name": "Radio Control Unit",
+    "ingredients": [
+      {
+        "item": "heat-sink",
+        "count": 4
+      },
+      {
+        "item": "rubber",
+        "count": 16
+      },
+      {
+        "item": "crystal-oscillator",
+        "count": 1
+      },
+      {
+        "item": "computer",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "radio-control-unit",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer",
+      "craft-bench"
+    ],
+    "duration": 24,
+    "manualMultiplier": 1.5,
+    "slug": "recipe-radio-control-unit"
+  },
+  "recipe-railway": {
+    "kind": "recipe",
+    "name": "Railway",
+    "ingredients": [
+      {
+        "item": "steel-pipe",
+        "count": 1
+      },
+      {
+        "item": "steel-beam",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "railway",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5tCCQsMcmemUoI83clQnzgVDiGUUakEyioq.64.png",
+    "slug": "recipe-railway"
+  },
+  "recipe-ramp-8m-x-1m": {
+    "kind": "recipe",
+    "name": "Ramp 8m x 1m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "ramp-8m-x-1m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-ramp-8m-x-1m"
+  },
+  "recipe-ramp-8m-x-2m": {
+    "kind": "recipe",
+    "name": "Ramp 8m x 2m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "ramp-8m-x-2m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-ramp-8m-x-2m"
+  },
+  "recipe-ramp-8m-x-4m": {
+    "kind": "recipe",
+    "name": "Ramp 8m x 4m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "ramp-8m-x-4m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-ramp-8m-x-4m"
+  },
+  "recipe-ramp-double-8m-x-8m": {
+    "kind": "recipe",
+    "name": "Ramp Double 8m x 8m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "ramp-double-8m-x-8m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-ramp-double-8m-x-8m"
+  },
+  "recipe-ramp-inverted-8m-x-4m": {
+    "kind": "recipe",
+    "name": "Ramp Inverted 8m x 4m",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 5
+      }
+    ],
+    "products": [
+      {
+        "item": "ramp-inverted-8m-x-4m",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-ramp-inverted-8m-x-4m"
+  },
+  "recipe-raw-quartz": {
+    "kind": "recipe",
+    "name": "Raw Quartz",
+    "ingredients": [
+      {
+        "item": "raw-quartz",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "raw-quartz",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-converter-c"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "slug": "recipe-raw-quartz"
+  },
+  "recipe-rebar-gun": {
+    "kind": "recipe",
+    "name": "Rebar Gun",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 6
+      },
+      {
+        "item": "iron-rod",
+        "count": 16
+      },
+      {
+        "item": "screw",
+        "count": 100
+      }
+    ],
+    "products": [
+      {
+        "item": "rebar-gun",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 100,
+    "manualMultiplier": 1,
+    "icon": "images/7Lb2gMX2RagqyAqOGCyIq61OsnJC2hNGWY8cocC42k.64.png",
+    "slug": "recipe-rebar-gun"
+  },
+  "recipe-refinery": {
+    "kind": "recipe",
+    "name": "Refinery",
+    "ingredients": [
+      {
+        "item": "motor",
+        "count": 10
+      },
+      {
+        "item": "encased-industrial-beam",
+        "count": 10
+      },
+      {
+        "item": "steel-pipe",
+        "count": 30
+      },
+      {
+        "item": "copper-sheet",
+        "count": 20
+      }
+    ],
+    "products": [
+      {
+        "item": "refinery",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7Mma6fzgB2I0KMukuyKuYi7y5ouAC2IwUsqK4IgI602Y.64.png",
+    "slug": "recipe-refinery"
+  },
+  "recipe-reinforced-iron-plate": {
+    "kind": "recipe",
+    "name": "Reinforced Iron Plate",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 6
+      },
+      {
+        "item": "screw",
+        "count": 12
+      }
+    ],
+    "products": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64.png",
+    "slug": "recipe-reinforced-iron-plate"
+  },
+  "recipe-residual-fuel": {
+    "kind": "recipe",
+    "name": "Residual Fuel",
+    "ingredients": [
+      {
+        "item": "heavy-oil-residue",
+        "count": 3000
+      }
+    ],
+    "products": [
+      {
+        "item": "fuel",
+        "count": 2000
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-residual-fuel"
+  },
+  "recipe-residual-plastic": {
+    "kind": "recipe",
+    "name": "Residual Plastic",
+    "ingredients": [
+      {
+        "item": "polymer-resin",
+        "count": 3
+      },
+      {
+        "item": "water",
+        "count": 2000
+      }
+    ],
+    "products": [
+      {
+        "item": "plastic",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU.64.png",
+    "slug": "recipe-residual-plastic"
+  },
+  "recipe-residual-rubber": {
+    "kind": "recipe",
+    "name": "Residual Rubber",
+    "ingredients": [
+      {
+        "item": "polymer-resin",
+        "count": 2
+      },
+      {
+        "item": "water",
+        "count": 4000
+      }
+    ],
+    "products": [
+      {
+        "item": "rubber",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8.64.png",
+    "slug": "recipe-residual-rubber"
+  },
+  "recipe-rifle": {
+    "kind": "recipe",
+    "name": "Rifle",
+    "ingredients": [
+      {
+        "item": "steel-pipe",
+        "count": 25
+      },
+      {
+        "item": "heavy-modular-frame",
+        "count": 3
+      },
+      {
+        "item": "circuit-board",
+        "count": 20
+      },
+      {
+        "item": "screw",
+        "count": 250
+      }
+    ],
+    "products": [
+      {
+        "item": "rifle",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 120,
+    "manualMultiplier": 1,
+    "slug": "recipe-rifle"
+  },
+  "recipe-rotor": {
+    "kind": "recipe",
+    "name": "Rotor",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 5
+      },
+      {
+        "item": "screw",
+        "count": 25
+      }
+    ],
+    "products": [
+      {
+        "item": "rotor",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 15,
+    "manualMultiplier": 0.8,
+    "icon": "images/7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC.64.png",
+    "slug": "recipe-rotor"
+  },
+  "recipe-rubber": {
+    "kind": "recipe",
+    "name": "Rubber",
+    "ingredients": [
+      {
+        "item": "crude-oil",
+        "count": 3000
+      }
+    ],
+    "products": [
+      {
+        "item": "rubber",
+        "count": 2
+      },
+      {
+        "item": "heavy-oil-residue",
+        "count": 1000
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8.64.png",
+    "slug": "recipe-rubber"
+  },
+  "recipe-screw": {
+    "kind": "recipe",
+    "name": "Screw",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "screw",
+        "count": 4
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck.64.png",
+    "slug": "recipe-screw"
+  },
+  "recipe-silica": {
+    "kind": "recipe",
+    "name": "Silica",
+    "ingredients": [
+      {
+        "item": "raw-quartz",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "silica",
+        "count": 5
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 8,
+    "manualMultiplier": 2,
+    "icon": "images/7Ji1qa0TCwIsQCayegASKg3UpK7qz3Xag06YoiwgQQqC.64.png",
+    "slug": "recipe-silica"
+  },
+  "recipe-smart-plating": {
+    "kind": "recipe",
+    "name": "Smart Plating",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 1
+      },
+      {
+        "item": "rotor",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "smart-plating",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 30,
+    "manualMultiplier": 1,
+    "slug": "recipe-smart-plating"
+  },
+  "recipe-smart-splitter": {
+    "kind": "recipe",
+    "name": "Smart Splitter",
+    "ingredients": [
+      {
+        "item": "reinforced-iron-plate",
+        "count": 2
+      },
+      {
+        "item": "rotor",
+        "count": 2
+      },
+      {
+        "item": "ai-limiter",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "smart-splitter",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N41MeVh5YsOqgmaw8o02g6RmzEuu6QwScC6U8WI4oOo.64.png",
+    "slug": "recipe-smart-splitter"
+  },
+  "recipe-smelter": {
+    "kind": "recipe",
+    "name": "Smelter",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 5
+      },
+      {
+        "item": "wire",
+        "count": 8
+      }
+    ],
+    "products": [
+      {
+        "item": "smelter",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/6OUQBbqkJUmaeQoKIqAgQM7j37bkJI1GsYm84qi6UO6a.64.png",
+    "slug": "recipe-smelter"
+  },
+  "recipe-solid-biofuel": {
+    "kind": "recipe",
+    "name": "Solid Biofuel",
+    "ingredients": [
+      {
+        "item": "biomass",
+        "count": 8
+      }
+    ],
+    "products": [
+      {
+        "item": "solid-biofuel",
+        "count": 4
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench",
+      "--BAD REFERENCE: Build_AutomatedWorkBench_C--"
+    ],
+    "duration": 4,
+    "manualMultiplier": 5,
+    "icon": "images/7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.64.png",
+    "slug": "recipe-solid-biofuel"
+  },
+  "recipe-space-elevator": {
+    "kind": "recipe",
+    "name": "Space Elevator",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 500
+      },
+      {
+        "item": "iron-plate",
+        "count": 250
+      },
+      {
+        "item": "iron-rod",
+        "count": 400
+      },
+      {
+        "item": "wire",
+        "count": 1500
+      }
+    ],
+    "products": [
+      {
+        "item": "space-elevator",
+        "count": 1
+      }
+    ],
+    "producedIn": [],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7JLi895PP2E6ywuSqW42uM7FZhJv4UjCEKGAegYyqs4U.64.png",
+    "slug": "recipe-space-elevator"
+  },
+  "recipe-spiked-rebar": {
+    "kind": "recipe",
+    "name": "Spiked Rebar",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "spiked-rebar",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench",
+      "equipment-workshop"
+    ],
+    "duration": 4,
+    "manualMultiplier": 1,
+    "icon": "images/7MPpc3WoSsiYMEmEOSOeSw4OqSMG8bYIWkYcqaw4KYmO.64.png",
+    "slug": "recipe-spiked-rebar"
+  },
+  "recipe-stackable-pipeline-support": {
+    "kind": "recipe",
+    "name": "Stackable Pipeline Support",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 4
+      },
+      {
+        "item": "iron-rod",
+        "count": 2
+      },
+      {
+        "item": "concrete",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "stackable-pipeline-support",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-stackable-pipeline-support"
+  },
+  "recipe-stairs": {
+    "kind": "recipe",
+    "name": "Stairs",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 4
+      },
+      {
+        "item": "iron-plate",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "stairs",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-stairs"
+  },
+  "recipe-stairs-left": {
+    "kind": "recipe",
+    "name": "Stairs Left",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 5
+      },
+      {
+        "item": "iron-plate",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "stairs-left",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-stairs-left"
+  },
+  "recipe-stairs-right": {
+    "kind": "recipe",
+    "name": "Stairs Right",
+    "ingredients": [
+      {
+        "item": "concrete",
+        "count": 5
+      },
+      {
+        "item": "iron-plate",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "stairs-right",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-stairs-right"
+  },
+  "recipe-stator": {
+    "kind": "recipe",
+    "name": "Stator",
+    "ingredients": [
+      {
+        "item": "steel-pipe",
+        "count": 3
+      },
+      {
+        "item": "wire",
+        "count": 8
+      }
+    ],
+    "products": [
+      {
+        "item": "stator",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "assembler",
+      "craft-bench"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1.5,
+    "icon": "images/7N40tBeLRYs64cggasC4Kg4K5jpIgIo8emkQOMYmKaUq.64.png",
+    "slug": "recipe-stator"
+  },
+  "recipe-steel-beam": {
+    "kind": "recipe",
+    "name": "Steel Beam",
+    "ingredients": [
+      {
+        "item": "steel-ingot",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "steel-beam",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 4,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgj7puE6EeaOYg2MIy416HwbmPYAO4mgOiqUqQYI.64.png",
+    "slug": "recipe-steel-beam"
+  },
+  "recipe-steel-ingot": {
+    "kind": "recipe",
+    "name": "Steel Ingot",
+    "ingredients": [
+      {
+        "item": "iron-ore",
+        "count": 3
+      },
+      {
+        "item": "coal",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "steel-ingot",
+        "count": 3
+      }
+    ],
+    "producedIn": [
+      "foundry",
+      "craft-bench"
+    ],
+    "duration": 4,
+    "manualMultiplier": 6,
+    "icon": "images/7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64.png",
+    "slug": "recipe-steel-ingot"
+  },
+  "recipe-steel-pipe": {
+    "kind": "recipe",
+    "name": "Steel Pipe",
+    "ingredients": [
+      {
+        "item": "steel-ingot",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "steel-pipe",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7EGPa1foM8M2uuYEUKiCYO7iVMJwhNXq8GG6GikIYAsW.64.png",
+    "slug": "recipe-steel-pipe"
+  },
+  "recipe-storage-container": {
+    "kind": "recipe",
+    "name": "Storage Container",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 10
+      },
+      {
+        "item": "iron-rod",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "storage-container",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgiRQkISe4qWm2cOE63Y9MN5j9q08mQqmyC0cK8w.64.png",
+    "slug": "recipe-storage-container"
+  },
+  "recipe-sulfur": {
+    "kind": "recipe",
+    "name": "Sulfur",
+    "ingredients": [
+      {
+        "item": "sulfur",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "sulfur",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-converter-c"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5tm6OoEWQciM8c66zJtHEm3wAMcWM8Euc84mM.64.png",
+    "slug": "recipe-sulfur"
+  },
+  "recipe-sulfuric-acid": {
+    "kind": "recipe",
+    "name": "Sulfuric Acid",
+    "ingredients": [
+      {
+        "item": "sulfur",
+        "count": 5
+      },
+      {
+        "item": "water",
+        "count": 5000
+      }
+    ],
+    "products": [
+      {
+        "item": "sulfuric-acid",
+        "count": 10000
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-sulfuric-acid"
+  },
+  "recipe-supercomputer": {
+    "kind": "recipe",
+    "name": "Supercomputer",
+    "ingredients": [
+      {
+        "item": "computer",
+        "count": 2
+      },
+      {
+        "item": "ai-limiter",
+        "count": 2
+      },
+      {
+        "item": "high-speed-connector",
+        "count": 3
+      },
+      {
+        "item": "plastic",
+        "count": 28
+      }
+    ],
+    "products": [
+      {
+        "item": "supercomputer",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer",
+      "craft-bench"
+    ],
+    "duration": 32,
+    "manualMultiplier": 1.5,
+    "icon": "images/7Hp07RRp4scWOocogWEQC86OJSzE1tZYAYOSe86EAS4I.64.png",
+    "slug": "recipe-supercomputer"
+  },
+  "recipe-the-hub": {
+    "kind": "recipe",
+    "name": "The HUB",
+    "ingredients": [
+      {
+        "item": "hub-parts",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "the-hub",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N41SFY3zGeoGe6EKwoiaU7IsLFQj1WESsk8eAwaUe8A.64.png",
+    "slug": "recipe-the-hub"
+  },
+  "recipe-tilted-jump-pad": {
+    "kind": "recipe",
+    "name": "Tilted Jump Pad",
+    "ingredients": [
+      {
+        "item": "rotor",
+        "count": 2
+      },
+      {
+        "item": "iron-plate",
+        "count": 15
+      },
+      {
+        "item": "cable",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "tilted-jump-pad",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/1WLaiLRMvym4CygqykQIGs40RXTPV1FmsqMIY0EwSCIG.64.png",
+    "slug": "recipe-tilted-jump-pad"
+  },
+  "recipe-train-station": {
+    "kind": "recipe",
+    "name": "Train Station",
+    "ingredients": [
+      {
+        "item": "heavy-modular-frame",
+        "count": 4
+      },
+      {
+        "item": "computer",
+        "count": 8
+      },
+      {
+        "item": "concrete",
+        "count": 50
+      },
+      {
+        "item": "cable",
+        "count": 25
+      }
+    ],
+    "products": [
+      {
+        "item": "train-station",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N420oqc2kKqUEmKuu8usq5Nw7sTbtp6ewo44SGmw0cU.64.png",
+    "slug": "recipe-train-station"
+  },
+  "recipe-truck-station": {
+    "kind": "recipe",
+    "name": "Truck Station",
+    "ingredients": [
+      {
+        "item": "modular-frame",
+        "count": 15
+      },
+      {
+        "item": "rotor",
+        "count": 20
+      },
+      {
+        "item": "cable",
+        "count": 50
+      }
+    ],
+    "products": [
+      {
+        "item": "truck-station",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgm5tCCQsMcmemUoI87M9m4mB6b68iqAqUEG4wgy.64.png",
+    "slug": "recipe-truck-station"
+  },
+  "recipe-turbo-motor": {
+    "kind": "recipe",
+    "name": "Turbo Motor",
+    "ingredients": [
+      {
+        "item": "heat-sink",
+        "count": 4
+      },
+      {
+        "item": "radio-control-unit",
+        "count": 2
+      },
+      {
+        "item": "motor",
+        "count": 4
+      },
+      {
+        "item": "rubber",
+        "count": 24
+      }
+    ],
+    "products": [
+      {
+        "item": "turbo-motor",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "manufacturer",
+      "craft-bench"
+    ],
+    "duration": 32,
+    "manualMultiplier": 1,
+    "icon": "images/7kL2idF7biM0Uq2YESIKmy5laVdzIN3yweagYEW6g0Ew.64.png",
+    "slug": "recipe-turbo-motor"
+  },
+  "recipe-turbofuel": {
+    "kind": "recipe",
+    "name": "Turbofuel",
+    "ingredients": [
+      {
+        "item": "fuel",
+        "count": 6000
+      },
+      {
+        "item": "compacted-coal",
+        "count": 4
+      }
+    ],
+    "products": [
+      {
+        "item": "turbofuel",
+        "count": 5000
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 16,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-turbofuel"
+  },
+  "recipe-u-jelly-landing-pad": {
+    "kind": "recipe",
+    "name": "U-Jelly Landing Pad",
+    "ingredients": [
+      {
+        "item": "rotor",
+        "count": 2
+      },
+      {
+        "item": "cable",
+        "count": 20
+      },
+      {
+        "item": "biomass",
+        "count": 200
+      }
+    ],
+    "products": [
+      {
+        "item": "u-jelly-landing-pad",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42deTVv2mQu4Sg22UeaM7xZTAkFlLyo2M6CoIkOYOK.64.png",
+    "slug": "recipe-u-jelly-landing-pad"
+  },
+  "recipe-unpackage-fuel": {
+    "kind": "recipe",
+    "name": "Unpackage Fuel",
+    "ingredients": [
+      {
+        "item": "packaged-fuel",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "fuel",
+        "count": 1000
+      },
+      {
+        "item": "empty-canister",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-unpackage-fuel"
+  },
+  "recipe-unpackage-heavy-oil-residue": {
+    "kind": "recipe",
+    "name": "Unpackage Heavy Oil Residue",
+    "ingredients": [
+      {
+        "item": "packaged-heavy-oil-residue",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "heavy-oil-residue",
+        "count": 1000
+      },
+      {
+        "item": "empty-canister",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-unpackage-heavy-oil-residue"
+  },
+  "recipe-unpackage-liquid-biofuel": {
+    "kind": "recipe",
+    "name": "Unpackage Liquid Biofuel",
+    "ingredients": [
+      {
+        "item": "packaged-liquid-biofuel",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "liquid-biofuel",
+        "count": 1000
+      },
+      {
+        "item": "empty-canister",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.64.png",
+    "slug": "recipe-unpackage-liquid-biofuel"
+  },
+  "recipe-unpackage-oil": {
+    "kind": "recipe",
+    "name": "Unpackage Oil",
+    "ingredients": [
+      {
+        "item": "packaged-oil",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "crude-oil",
+        "count": 1000
+      },
+      {
+        "item": "empty-canister",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-unpackage-oil"
+  },
+  "recipe-unpackage-turbo-fuel": {
+    "kind": "recipe",
+    "name": "Unpackage Turbo Fuel",
+    "ingredients": [
+      {
+        "item": "packaged-turbofuel",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "turbofuel",
+        "count": 1000
+      },
+      {
+        "item": "empty-canister",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 12,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-unpackage-turbo-fuel"
+  },
+  "recipe-unpackage-water": {
+    "kind": "recipe",
+    "name": "Unpackage Water",
+    "ingredients": [
+      {
+        "item": "packaged-water",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "water",
+        "count": 2000
+      },
+      {
+        "item": "empty-canister",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak.64.png",
+    "slug": "recipe-unpackage-water"
+  },
+  "recipe-uranium": {
+    "kind": "recipe",
+    "name": "Uranium",
+    "ingredients": [
+      {
+        "item": "uranium",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "uranium",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-converter-c"
+    ],
+    "duration": 2,
+    "manualMultiplier": 1,
+    "icon": "images/7N42afNTYAiqEGemso2i684otihDHebeeQK2m8KKaUyk.64.png",
+    "slug": "recipe-uranium"
+  },
+  "recipe-uranium-pellet": {
+    "kind": "recipe",
+    "name": "Uranium Pellet",
+    "ingredients": [
+      {
+        "item": "uranium",
+        "count": 5
+      },
+      {
+        "item": "sulfuric-acid",
+        "count": 8000
+      }
+    ],
+    "products": [
+      {
+        "item": "uranium-pellet",
+        "count": 5
+      },
+      {
+        "item": "sulfuric-acid",
+        "count": 2000
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "duration": 6,
+    "manualMultiplier": 1,
+    "icon": "images/7N40rTgHfiu0oQQSSss4286pHSADSATeigOgOYq6So0S.64.png",
+    "slug": "recipe-uranium-pellet"
+  },
+  "recipe-versatile-framework": {
+    "kind": "recipe",
+    "name": "Versatile Framework",
+    "ingredients": [
+      {
+        "item": "modular-frame",
+        "count": 1
+      },
+      {
+        "item": "steel-beam",
+        "count": 12
+      }
+    ],
+    "products": [
+      {
+        "item": "versatile-framework",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "assembler"
+    ],
+    "duration": 24,
+    "manualMultiplier": 1,
+    "slug": "recipe-versatile-framework"
+  },
+  "recipe-walkway-crossing": {
+    "kind": "recipe",
+    "name": "Walkway Crossing",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 2
+      },
+      {
+        "item": "iron-plate",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "walkway-crossing",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-walkway-crossing"
+  },
+  "recipe-walkway-ramp": {
+    "kind": "recipe",
+    "name": "Walkway Ramp",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 2
+      },
+      {
+        "item": "iron-plate",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "walkway-ramp",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7Hp2RId8yc2smoAEgaGmue6PgJ5nmyROuaAeOYk66kII.64.png",
+    "slug": "recipe-walkway-ramp"
+  },
+  "recipe-walkway-straight": {
+    "kind": "recipe",
+    "name": "Walkway Straight",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 2
+      },
+      {
+        "item": "iron-plate",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "walkway-straight",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dglUyI8sEIEou8AKSk5QpBSyAEesMiuOG0m8mcAC.64.png",
+    "slug": "recipe-walkway-straight"
+  },
+  "recipe-walkway-t-crossing": {
+    "kind": "recipe",
+    "name": "Walkway T-Crossing",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 2
+      },
+      {
+        "item": "iron-plate",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "walkway-t-crossing",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-walkway-t-crossing"
+  },
+  "recipe-walkway-turn": {
+    "kind": "recipe",
+    "name": "Walkway Turn",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 2
+      },
+      {
+        "item": "iron-plate",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "--BAD REFERENCE: Desc_WalkwayTurn_C--",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N42dgiUX6Su2Y4UEsIcEy3TBVKPCc9Oo0U2E2wYeCUu.64.png",
+    "slug": "recipe-walkway-turn"
+  },
+  "recipe-wall-8m-x-4m-1": {
+    "kind": "recipe",
+    "name": "Wall 8m x 4m",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-8m-x-4m-1",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.64.png",
+    "slug": "recipe-wall-8m-x-4m-1"
+  },
+  "recipe-wall-8m-x-4m-2": {
+    "kind": "recipe",
+    "name": "Wall 8m x 4m",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-8m-x-4m-2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.64.png",
+    "slug": "recipe-wall-8m-x-4m-2"
+  },
+  "recipe-wall-conveyor-perpendicular-1": {
+    "kind": "recipe",
+    "name": "Wall Conveyor Perpendicular",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-conveyor-perpendicular-1",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-conveyor-perpendicular-1"
+  },
+  "recipe-wall-conveyor-perpendicular-2": {
+    "kind": "recipe",
+    "name": "Wall Conveyor Perpendicular",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-conveyor-perpendicular-2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-conveyor-perpendicular-2"
+  },
+  "recipe-wall-conveyor-x1-1": {
+    "kind": "recipe",
+    "name": "Wall Conveyor x1",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-conveyor-x1-1",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-conveyor-x1-1"
+  },
+  "recipe-wall-conveyor-x1-2": {
+    "kind": "recipe",
+    "name": "Wall Conveyor x1",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-conveyor-x1-2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-conveyor-x1-2"
+  },
+  "recipe-wall-conveyor-x2-1": {
+    "kind": "recipe",
+    "name": "Wall Conveyor x2",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-conveyor-x2-1",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-conveyor-x2-1"
+  },
+  "recipe-wall-conveyor-x2-2": {
+    "kind": "recipe",
+    "name": "Wall Conveyor x2",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-conveyor-x2-2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-conveyor-x2-2"
+  },
+  "recipe-wall-conveyor-x3-1": {
+    "kind": "recipe",
+    "name": "Wall Conveyor x3",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-conveyor-x3-1",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-conveyor-x3-1"
+  },
+  "recipe-wall-conveyor-x3-2": {
+    "kind": "recipe",
+    "name": "Wall Conveyor x3",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-conveyor-x3-2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-conveyor-x3-2"
+  },
+  "recipe-wall-door-center-1": {
+    "kind": "recipe",
+    "name": "Wall Door Center",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-door-center-1",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-door-center-1"
+  },
+  "recipe-wall-door-center-2": {
+    "kind": "recipe",
+    "name": "Wall Door Center",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-door-center-2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-door-center-2"
+  },
+  "recipe-wall-door-left-1": {
+    "kind": "recipe",
+    "name": "Wall Door Left",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-door-left-1",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-door-left-1"
+  },
+  "recipe-wall-door-left-2": {
+    "kind": "recipe",
+    "name": "Wall Door Left",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-door-left-2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-door-left-2"
+  },
+  "recipe-wall-door-right-1": {
+    "kind": "recipe",
+    "name": "Wall Door Right",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-door-right-1",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-door-right-1"
+  },
+  "recipe-wall-door-right-2": {
+    "kind": "recipe",
+    "name": "Wall Door Right",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-door-right-2",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-door-right-2"
+  },
+  "recipe-wall-power-pole": {
+    "kind": "recipe",
+    "name": "Wall Power Pole",
+    "ingredients": [
+      {
+        "item": "wire",
+        "count": 4
+      },
+      {
+        "item": "iron-rod",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-power-pole",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-power-pole"
+  },
+  "recipe-wall-power-pole-mk2": {
+    "kind": "recipe",
+    "name": "Wall Power Pole Mk.2",
+    "ingredients": [
+      {
+        "item": "quickwire",
+        "count": 4
+      },
+      {
+        "item": "iron-rod",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "--BAD REFERENCE: Desc_PowerPoleWallMk2_C--",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-power-pole-mk2"
+  },
+  "recipe-wall-power-pole-mk3": {
+    "kind": "recipe",
+    "name": "Wall Power Pole Mk.3",
+    "ingredients": [
+      {
+        "item": "high-speed-connector",
+        "count": 4
+      },
+      {
+        "item": "steel-pipe",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "--BAD REFERENCE: Desc_PowerPoleWallMk3_C--",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-wall-power-pole-mk3"
+  },
+  "recipe-wall-window-8m-x-4m-01": {
+    "kind": "recipe",
+    "name": "Wall Window 8m x 4m 01",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-window-8m-x-4m-01",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.64.png",
+    "slug": "recipe-wall-window-8m-x-4m-01"
+  },
+  "recipe-wall-window-8m-x-4m-02": {
+    "kind": "recipe",
+    "name": "Wall Window 8m x 4m 02",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-window-8m-x-4m-02",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.64.png",
+    "slug": "recipe-wall-window-8m-x-4m-02"
+  },
+  "recipe-wall-window-8m-x-4m-04": {
+    "kind": "recipe",
+    "name": "Wall Window 8m x 4m 04",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "wall-window-8m-x-4m-04",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N3O9KSvdKe4soeW22OEgE48EJqCRJqUuSCM0yY4kCIK.64.png",
+    "slug": "recipe-wall-window-8m-x-4m-04"
+  },
+  "recipe-water-extractor": {
+    "kind": "recipe",
+    "name": "Water Extractor",
+    "ingredients": [
+      {
+        "item": "copper-sheet",
+        "count": 20
+      },
+      {
+        "item": "reinforced-iron-plate",
+        "count": 10
+      },
+      {
+        "item": "rotor",
+        "count": 10
+      }
+    ],
+    "products": [
+      {
+        "item": "water-extractor",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7G6BXO1jDUqiAWi2QsOCOQ6OUN3a6dQkyi2uCU8Ua4cu.64.png",
+    "slug": "recipe-water-extractor"
+  },
+  "recipe-window-8m-x-4m-03-1": {
+    "kind": "recipe",
+    "name": "Window 8m x 4m 03",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "window-8m-x-4m-03",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "icon": "images/7N3OgCkE2kKsyKi0Oqog2U4pShwtayTmqcOeo6OOYwgS.64.png",
+    "slug": "recipe-window-8m-x-4m-03-1"
+  },
+  "recipe-window-8m-x-4m-03-2": {
+    "kind": "recipe",
+    "name": "Window 8m x 4m 03",
+    "ingredients": [
+      {
+        "item": "iron-plate",
+        "count": 3
+      },
+      {
+        "item": "concrete",
+        "count": 3
+      }
+    ],
+    "products": [
+      {
+        "item": "--BAD REFERENCE: Desc_Wall_Window_8x4_03_Steel_C--",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "build-gun"
+    ],
+    "duration": 1,
+    "manualMultiplier": 1,
+    "slug": "recipe-window-8m-x-4m-03-2"
+  },
+  "recipe-wire": {
+    "kind": "recipe",
+    "name": "Wire",
+    "ingredients": [
+      {
+        "item": "copper-ingot",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "wire",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "constructor",
+      "craft-bench"
+    ],
+    "duration": 4,
+    "manualMultiplier": 1,
+    "icon": "images/7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64.png",
+    "slug": "recipe-wire"
+  },
+  "recipe-xeno-basher": {
+    "kind": "recipe",
+    "name": "Xeno-Basher",
+    "ingredients": [
+      {
+        "item": "modular-frame",
+        "count": 5
+      },
+      {
+        "item": "xeno-zapper",
+        "count": 2
+      },
+      {
+        "item": "cable",
+        "count": 25
+      },
+      {
+        "item": "wire",
+        "count": 500
+      }
+    ],
+    "products": [
+      {
+        "item": "xeno-basher",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 80,
+    "manualMultiplier": 1,
+    "icon": "images/ubrP8lF0B2k0gOGy4Go8s7FKGBbOplmoaIosQ4UCqiM.64.png",
+    "slug": "recipe-xeno-basher"
+  },
+  "recipe-xeno-zapper": {
+    "kind": "recipe",
+    "name": "Xeno-Zapper",
+    "ingredients": [
+      {
+        "item": "iron-rod",
+        "count": 10
+      },
+      {
+        "item": "reinforced-iron-plate",
+        "count": 2
+      },
+      {
+        "item": "cable",
+        "count": 15
+      },
+      {
+        "item": "wire",
+        "count": 50
+      }
+    ],
+    "products": [
+      {
+        "item": "xeno-zapper",
+        "count": 1
+      }
+    ],
+    "producedIn": [
+      "equipment-workshop"
+    ],
+    "duration": 40,
+    "manualMultiplier": 1,
+    "icon": "images/6kuipil1tYYCUWiSQCgiKM7iZsJzqwSWsUIi4Qemm2SE.64.png",
+    "slug": "recipe-xeno-zapper"
+  }
+}

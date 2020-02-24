@@ -1,0 +1,1566 @@
+{
+  "assembler": {
+    "kind": "building",
+    "name": "Assembler",
+    "description": "Crafts two parts into another part.\n\nCan be automated by feeding parts into it with a conveyor belt connected to the input. The produced parts can be automatically extracted by connecting a conveyor belt to the output.",
+    "categories": [
+      "Production",
+      "Manufacturers"
+    ],
+    "icon": "images/7N4287eTBYkkOacWk4Kw6a7yHMXsd7os8a8GoEWK8wKi.64.png",
+    "poster": "images/7N4287eTBYkkOacWk4Kw6a7yHMXsd7os8a8GoEWK8wKi.512.png",
+    "overclockable": true,
+    "powerConsumption": {
+      "amount": 15,
+      "exponent": 1.6
+    },
+    "slug": "assembler"
+  },
+  "awesome-shop": {
+    "kind": "building",
+    "name": "AWESOME Shop",
+    "description": "Redeem your FICSIT Coupons here! \nFor those employees going the extra kilometer we have set aside special bonus milestones and rewards! Get your Coupons in the AWESOME Sink program now!\n\n*No refunds possible.",
+    "categories": [
+      "Special",
+      "Special"
+    ],
+    "icon": "images/7JwFqtuTwQGOi6KcaiYe4a6UwaOWdHpK6A8ouSymmWcy.64.png",
+    "poster": "images/7JwFqtuTwQGOi6KcaiYe4a6UwaOWdHpK6A8ouSymmWcy.512.png",
+    "slug": "awesome-shop"
+  },
+  "awesome-sink": {
+    "kind": "building",
+    "name": "AWESOME Sink",
+    "description": "Got excess resources? Fear not, for FICSIT does not waste! The newly developed AWESOME Sink turns any useful part straight into research data, as fast as you can supply it! \nParticipating empolyees will be compensated with Coupons to be spend at the AWESOME Shop.",
+    "categories": [
+      "Special",
+      "Special"
+    ],
+    "icon": "images/7MErtJpMfCGSmAS66CawmC7E9WTLXmqkuqwY0QwuqCIO.64.png",
+    "poster": "images/7MErtJpMfCGSmAS66CawmC7E9WTLXmqkuqwY0QwuqCIO.512.png",
+    "slug": "awesome-sink"
+  },
+  "biomass-burner": {
+    "kind": "building",
+    "name": "Biomass Burner",
+    "description": "Burns various forms of biomass to generate electricity for the power grid.\nHas no input and must therefore be fed biomass manually.",
+    "categories": [
+      "Power",
+      "Generators"
+    ],
+    "icon": "images/7Ji2WwDaBayUwua6Kckcgo5UTAJ54MAoUcEqImIKoka4.64.png",
+    "poster": "images/7Ji2WwDaBayUwua6Kckcgo5UTAJ54MAoUcEqImIKoka4.512.png",
+    "overclockable": true,
+    "powerProduction": {
+      "amount": 30,
+      "exponent": 1.3,
+      "fuelForm": "solid",
+      "fuels": [
+        "solid-biofuel",
+        "biomass",
+        "leaves",
+        "wood",
+        "fabric",
+        "mycelia",
+        "liquid-biofuel",
+        "packaged-liquid-biofuel",
+        "alien-carapace",
+        "alien-organs",
+        "flower-petals"
+      ]
+    },
+    "slug": "biomass-burner"
+  },
+  "build-converter-c": {
+    "kind": "building",
+    "name": "--Build_Converter_C--",
+    "slug": "build-converter-c"
+  },
+  "coal-generator": {
+    "kind": "building",
+    "name": "Coal Generator",
+    "description": "Burns coal to generate electricity for your power grid.\nHas an input so feeding coal can be automated.",
+    "categories": [
+      "Power",
+      "Generators"
+    ],
+    "icon": "images/65omEHqS76uG0kAguSY4wO5U0JYzAn3UeWsiWM6A64kY.64.png",
+    "poster": "images/65omEHqS76uG0kAguSY4wO5U0JYzAn3UeWsiWM6A64kY.512.png",
+    "overclockable": true,
+    "powerProduction": {
+      "amount": 75,
+      "exponent": 1.3,
+      "fuelForm": "solid",
+      "fuels": [
+        "coal",
+        "compacted-coal",
+        "petroleum-coke"
+      ]
+    },
+    "slug": "coal-generator"
+  },
+  "constructor": {
+    "kind": "building",
+    "name": "Constructor",
+    "description": "Crafts one part into another part.\n\nCan be automated by feeding parts into it with a conveyor belt connected to the input. The produced parts can be automatically extracted by connecting a conveyor belt to the output.",
+    "categories": [
+      "Production",
+      "Manufacturers"
+    ],
+    "icon": "images/7N42bo1cIgSKqKGYYUCWSI7yjYDJvP20WM2mYQSCIECW.64.png",
+    "poster": "images/7N42bo1cIgSKqKGYYUCWSI7yjYDJvP20WM2mYQSCIECW.512.png",
+    "overclockable": true,
+    "powerConsumption": {
+      "amount": 4,
+      "exponent": 1.6
+    },
+    "slug": "constructor"
+  },
+  "conveyor-belt": {
+    "kind": "building",
+    "name": "Conveyor Belt",
+    "description": "Transports up to 60 resources per minute. Used to move resources between buildings.",
+    "categories": [
+      "Transport",
+      "ConveyorBelts"
+    ],
+    "icon": "images/7N42dglGwwWmQucWomCcw07cgRZsyF20CggyIMsySE.64.png",
+    "poster": "images/7N42dglGwwWmQucWomCcw07cgRZsyF20CggyIMsySE.512.png",
+    "conveyor": {
+      "speed": 120
+    },
+    "slug": "conveyor-belt"
+  },
+  "conveyor-belt-mk2": {
+    "kind": "building",
+    "name": "Conveyor Belt Mk.2",
+    "description": "Transports up to 120 resources per minute. Used to move resources between buildings.",
+    "categories": [
+      "Transport",
+      "ConveyorBelts"
+    ],
+    "icon": "images/7N42dglGwgqkMmWqmiuW0u7cgRWi2qycWuACIiq448.64.png",
+    "poster": "images/7N42dglGwgqkMmWqmiuW0u7cgRWi2qycWuACIiq448.512.png",
+    "conveyor": {
+      "speed": 240
+    },
+    "slug": "conveyor-belt-mk2"
+  },
+  "conveyor-belt-mk3": {
+    "kind": "building",
+    "name": "Conveyor Belt Mk.3",
+    "description": "Transports up to 270 resources per minute. Used to move resources between buildings.",
+    "categories": [
+      "Transport",
+      "ConveyorBelts"
+    ],
+    "icon": "images/7N42dgkSBO4kqEG4CaMiCI7ch5eA81qwCMMcAa0cc0.64.png",
+    "poster": "images/7N42dgkSBO4kqEG4CaMiCI7ch5eA81qwCMMcAa0cc0.512.png",
+    "conveyor": {
+      "speed": 540
+    },
+    "slug": "conveyor-belt-mk3"
+  },
+  "conveyor-belt-mk4": {
+    "kind": "building",
+    "name": "Conveyor Belt Mk.4",
+    "description": "Transports up to 480 resources per minute. Used to move resources between buildings.",
+    "categories": [
+      "Transport",
+      "ConveyorBelts"
+    ],
+    "icon": "images/7N41SFWQjSe2awW6IC68Yo3U02lBQTTqIGQcCy862k0Y.64.png",
+    "poster": "images/7N41SFWQjSe2awW6IC68Yo3U02lBQTTqIGQcCy862k0Y.512.png",
+    "conveyor": {
+      "speed": 960
+    },
+    "slug": "conveyor-belt-mk4"
+  },
+  "conveyor-belt-mk5": {
+    "kind": "building",
+    "name": "Conveyor Belt Mk.5",
+    "description": "Transports up to 780 resources per minute. Used to move resources between buildings.",
+    "categories": [
+      "Transport",
+      "ConveyorBelts"
+    ],
+    "icon": "images/7N41SFTCFiKUGqo8K682Si3YIw9rwI0w6OuCkcIM4ewe.64.png",
+    "poster": "images/7N41SFTCFiKUGqo8K682Si3YIw9rwI0w6OuCkcIM4ewe.512.png",
+    "conveyor": {
+      "speed": 1560
+    },
+    "slug": "conveyor-belt-mk5"
+  },
+  "conveyor-lift": {
+    "kind": "building",
+    "name": "Conveyor Lift",
+    "description": "Transports up to 60 resources per minute. Used to move resources between floors.",
+    "categories": [
+      "Transport",
+      "ConveyLift"
+    ],
+    "icon": "images/7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.64.png",
+    "poster": "images/7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.512.png",
+    "conveyor": {
+      "speed": 120
+    },
+    "slug": "conveyor-lift"
+  },
+  "conveyor-lift-mk2": {
+    "kind": "building",
+    "name": "Conveyor Lift Mk.2",
+    "description": "Transports up to 120 resources per minute. Used to move resources between floors.",
+    "categories": [
+      "Transport",
+      "ConveyLift"
+    ],
+    "icon": "images/7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.64.png",
+    "poster": "images/7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.512.png",
+    "conveyor": {
+      "speed": 240
+    },
+    "slug": "conveyor-lift-mk2"
+  },
+  "conveyor-lift-mk3": {
+    "kind": "building",
+    "name": "Conveyor Lift Mk.3",
+    "description": "Transports up to 270 resources per minute. Used to move resources between floors.",
+    "categories": [
+      "Transport",
+      "ConveyLift"
+    ],
+    "icon": "images/7FKGn2ihwc44k8s0Au0mOi7iZrpdWqK4qw6s4YmeoYQu.64.png",
+    "conveyor": {
+      "speed": 540
+    },
+    "slug": "conveyor-lift-mk3"
+  },
+  "conveyor-lift-mk4": {
+    "kind": "building",
+    "name": "Conveyor Lift Mk.4",
+    "description": "Transports up to 480 resources per minute. Used to move resources between floors.",
+    "categories": [
+      "Transport",
+      "ConveyLift"
+    ],
+    "icon": "images/7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.64.png",
+    "poster": "images/7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.512.png",
+    "conveyor": {
+      "speed": 960
+    },
+    "slug": "conveyor-lift-mk4"
+  },
+  "conveyor-lift-mk5": {
+    "kind": "building",
+    "name": "Conveyor Lift Mk.5",
+    "description": "Transports up to 780 resources per minute. Used to move resources between floors.",
+    "categories": [
+      "Transport",
+      "ConveyLift"
+    ],
+    "icon": "images/7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.64.png",
+    "poster": "images/7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.512.png",
+    "conveyor": {
+      "speed": 1560
+    },
+    "slug": "conveyor-lift-mk5"
+  },
+  "conveyor-merger": {
+    "kind": "building",
+    "name": "Conveyor Merger",
+    "description": "Merges up to three conveyor belts into one.",
+    "categories": [
+      "Transport",
+      "ConveyorAttachments"
+    ],
+    "icon": "images/7Ji2j4gHzU0iuQ6cOcKcmC5S9zRTAbfOKiuEIqGOewsM.64.png",
+    "poster": "images/7Ji2j4gHzU0iuQ6cOcKcmC5S9zRTAbfOKiuEIqGOewsM.512.png",
+    "slug": "conveyor-merger"
+  },
+  "conveyor-pole": {
+    "kind": "building",
+    "name": "Conveyor Pole",
+    "description": "Can be used as a connection for conveyor belts. The height of the pole can be adjusted.\nUseful to route conveyor belts in a more controlled manner and over long distances.",
+    "categories": [
+      "Transport",
+      "ConverPole"
+    ],
+    "icon": "images/7N42deHQQ0sGuygoaGM2gQ7jktFi3GpiuAIEa6GWUwoK.64.png",
+    "slug": "conveyor-pole"
+  },
+  "conveyor-pole-stackable": {
+    "kind": "building",
+    "name": "Conveyor Pole Stackable",
+    "description": "Conveyor pole with fixed size that is stackable",
+    "categories": [
+      "Transport",
+      "ConverPole"
+    ],
+    "slug": "conveyor-pole-stackable"
+  },
+  "conveyor-splitter": {
+    "kind": "building",
+    "name": "Conveyor Splitter",
+    "description": "Splits conveyor belts in three. \nUseful to move parts and resources from oversaturated conveyor belts.",
+    "categories": [
+      "Transport",
+      "ConveyorAttachments"
+    ],
+    "icon": "images/7Ji2j4gEq4IseaU8ksAwM06Sj4pKy8essyUie6e6YscI.64.png",
+    "poster": "images/7Ji2j4gEq4IseaU8ksAwM06Sj4pKy8essyUie6e6YscI.512.png",
+    "slug": "conveyor-splitter"
+  },
+  "conveyor-wall-mount": {
+    "kind": "building",
+    "name": "Conveyor Wall Mount",
+    "description": "PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE",
+    "categories": [
+      "Transport",
+      "ConverPole"
+    ],
+    "icon": "images/7N42dgm5tCCQsMcmemUoI831Kff8YTYAg44KY2K0.64.png",
+    "poster": "images/7N42dgm5tCCQsMcmemUoI831Kff8YTYAg44KY2K0.512.png",
+    "slug": "conveyor-wall-mount"
+  },
+  "corner-ramp-down-8m-x-1m": {
+    "kind": "building",
+    "name": "Corner Ramp Down 8m x 1m",
+    "description": "The Ramps exist to make it easier to get up on Floors, either for vehicles or you. Height: 2",
+    "categories": [
+      "Organisation",
+      "Ramps"
+    ],
+    "slug": "corner-ramp-down-8m-x-1m"
+  },
+  "corner-ramp-down-8m-x-2m": {
+    "kind": "building",
+    "name": "Corner Ramp Down 8m x 2m",
+    "description": "The Ramps exist to make it easier to get up on Floors, either for vehicles or you. Height: 2",
+    "categories": [
+      "Organisation",
+      "Ramps"
+    ],
+    "slug": "corner-ramp-down-8m-x-2m"
+  },
+  "corner-ramp-down-8m-x-4m": {
+    "kind": "building",
+    "name": "Corner Ramp Down 8m x 4m",
+    "description": "The Ramps exist to make it easier to get up on Floors, either for vehicles or you. Height: 4",
+    "categories": [
+      "Organisation",
+      "Ramps"
+    ],
+    "slug": "corner-ramp-down-8m-x-4m"
+  },
+  "corner-ramp-up-8m-x-1m": {
+    "kind": "building",
+    "name": "Corner Ramp Up 8m x 1m",
+    "description": "The Ramps exist to make it easier to get up on Floors, either for vehicles or you. Height: 2",
+    "categories": [
+      "Organisation",
+      "Ramps"
+    ],
+    "slug": "corner-ramp-up-8m-x-1m"
+  },
+  "corner-ramp-up-8m-x-2m": {
+    "kind": "building",
+    "name": "Corner Ramp Up 8m x 2m",
+    "description": "The Ramps exist to make it easier to get up on Floors, either for vehicles or you. Height: 2",
+    "categories": [
+      "Organisation",
+      "Ramps"
+    ],
+    "slug": "corner-ramp-up-8m-x-2m"
+  },
+  "corner-ramp-up-8m-x-4m": {
+    "kind": "building",
+    "name": "Corner Ramp Up 8m x 4m",
+    "description": "The Ramps exist to make it easier to get up on Floors, either for vehicles or you. Height: 2",
+    "categories": [
+      "Organisation",
+      "Ramps"
+    ],
+    "slug": "corner-ramp-up-8m-x-4m"
+  },
+  "craft-bench": {
+    "kind": "building",
+    "name": "Craft Bench",
+    "description": "Allows you to manually craft a large range of different parts. \nThese parts can then be used in construction of different factory buildings, vehicles and equipment.",
+    "categories": [
+      "Production",
+      "Workstations"
+    ],
+    "icon": "images/7N42dgm5tm6OoEWQciM8c66zZPLbCYaQCwYkUC0Wis0I.64.png",
+    "poster": "images/7N42dgm5tm6OoEWQciM8c66zZPLbCYaQCwYkUC0Wis0I.512.png",
+    "slug": "craft-bench"
+  },
+  "curved-corner-foundation": {
+    "kind": "building",
+    "name": "Curved Corner Foundation",
+    "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
+    "categories": [
+      "Organisation",
+      "Floors"
+    ],
+    "slug": "curved-corner-foundation"
+  },
+  "curved-corner-inverted-foundation": {
+    "kind": "building",
+    "name": "Curved Corner Inverted Foundation",
+    "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
+    "categories": [
+      "Organisation",
+      "Floors"
+    ],
+    "slug": "curved-corner-inverted-foundation"
+  },
+  "curved-foundation": {
+    "kind": "building",
+    "name": "Curved Foundation",
+    "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
+    "categories": [
+      "Organisation",
+      "Floors"
+    ],
+    "slug": "curved-foundation"
+  },
+  "curved-inverted-foundation": {
+    "kind": "building",
+    "name": "Curved Inverted Foundation",
+    "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
+    "categories": [
+      "Organisation",
+      "Floors"
+    ],
+    "slug": "curved-inverted-foundation"
+  },
+  "double-sided-wall-power-pole": {
+    "kind": "building",
+    "name": "Double-sided Wall Power Pole",
+    "description": "Power Pole that attaches to a wall. Has one connector on each side of the wall.\n\nCan handle up to 4 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "categories": [
+      "Power",
+      "WallPoles"
+    ],
+    "slug": "double-sided-wall-power-pole"
+  },
+  "double-sided-wall-power-pole-mk2": {
+    "kind": "building",
+    "name": "Double-sided Wall Power Pole Mk.2",
+    "description": "Power Pole that attaches to a wall. Has one connector on each side of the wall.\n\nCan handle up to 7 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "slug": "double-sided-wall-power-pole-mk2"
+  },
+  "double-sided-wall-power-pole-mk3": {
+    "kind": "building",
+    "name": "Double-sided Wall Power Pole Mk.3",
+    "description": "Power Pole that attaches to a wall. Has one connector on each side of the wall.\n\nCan handle up to 10 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "slug": "double-sided-wall-power-pole-mk3"
+  },
+  "empty-platform": {
+    "kind": "building",
+    "name": "Empty Platform",
+    "description": "An empty train platform for when you need to create some empty space.",
+    "categories": [
+      "Transport",
+      "Trains"
+    ],
+    "slug": "empty-platform"
+  },
+  "equipment-workshop": {
+    "kind": "building",
+    "name": "Equipment Workshop",
+    "description": "Used to manually craft equipment.",
+    "categories": [
+      "Production",
+      "Workstations"
+    ],
+    "icon": "images/7N42dgiRYQeSaWUoeMGwyS5QLF0rX0eAMEoos8qaMIMo.64.png",
+    "poster": "images/7N42dgiRYQeSaWUoeMGwyS5QLF0rX0eAMEoos8qaMIMo.512.png",
+    "slug": "equipment-workshop"
+  },
+  "fence": {
+    "kind": "building",
+    "name": "Fence",
+    "description": "The Fence can be built on the edges of floors to prevent you from falling off.",
+    "categories": [
+      "Walls",
+      "Walls"
+    ],
+    "icon": "images/7N1icBSSGIkkI80o6cCo0i7j6J07ivbUOoaYmAsiOkci.64.png",
+    "poster": "images/7N1icBSSGIkkI80o6cCo0i7j6J07ivbUOoaYmAsiOkci.512.png",
+    "slug": "fence"
+  },
+  "foundation-8m-x-1m": {
+    "kind": "building",
+    "name": "Foundation 8m x 1m",
+    "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
+    "categories": [
+      "Organisation",
+      "Floors"
+    ],
+    "slug": "foundation-8m-x-1m"
+  },
+  "foundation-8m-x-2m": {
+    "kind": "building",
+    "name": "Foundation 8m x 2m",
+    "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
+    "categories": [
+      "Organisation",
+      "Floors"
+    ],
+    "slug": "foundation-8m-x-2m"
+  },
+  "foundation-8m-x-4m": {
+    "kind": "building",
+    "name": "Foundation 8m x 4m",
+    "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
+    "categories": [
+      "Organisation",
+      "Floors"
+    ],
+    "slug": "foundation-8m-x-4m"
+  },
+  "foundation-frame": {
+    "kind": "building",
+    "name": "Foundation Frame",
+    "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
+    "categories": [
+      "Organisation",
+      "Floors"
+    ],
+    "slug": "foundation-frame"
+  },
+  "foundation-glass": {
+    "kind": "building",
+    "name": "Foundation Glass",
+    "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
+    "categories": [
+      "Organisation",
+      "Floors"
+    ],
+    "slug": "foundation-glass"
+  },
+  "foundry": {
+    "kind": "building",
+    "name": "Foundry",
+    "description": "Smelts two resources into alloy ingots.\n\nCan be automated by feeding ore into it with a conveyor belt connected to the inputs. The produced ingots can be automatically extracted by connecting a conveyor belt to the output.",
+    "categories": [
+      "Production",
+      "Smelters"
+    ],
+    "icon": "images/7LeGV48qdOMgaEmS0UMYeA6k24j9MNhYE6w2sK2e8SO6.64.png",
+    "poster": "images/7LeGV48qdOMgaEmS0UMYeA6k24j9MNhYE6w2sK2e8SO6.512.png",
+    "overclockable": true,
+    "powerConsumption": {
+      "amount": 16,
+      "exponent": 1.6
+    },
+    "slug": "foundry"
+  },
+  "freight-platform": {
+    "kind": "building",
+    "name": "Freight Platform",
+    "description": "As Freight Cars stop this they will either unload or load their goods, depending on what you've set it to.\nThe Freight Platform snaps to Railway, each other and Train Stations.",
+    "categories": [
+      "Transport",
+      "Trains"
+    ],
+    "powerConsumption": {
+      "amount": 50,
+      "exponent": 1.6
+    },
+    "slug": "freight-platform"
+  },
+  "freight-platform-liquid": {
+    "kind": "building",
+    "name": "Freight Platform Liquid",
+    "description": "As Freight Cars stop this they will either unload or load their goods, depending on what you've set it to.\nThe Freight Platform snaps to Railway, each other and Train Stations.",
+    "categories": [
+      "Transport",
+      "Trains"
+    ],
+    "powerConsumption": {
+      "amount": 50,
+      "exponent": 1.6
+    },
+    "slug": "freight-platform-liquid"
+  },
+  "fuel-generator": {
+    "kind": "building",
+    "name": "Fuel Generator",
+    "description": "Consumes Fuel to generate electricity for your power grid.\nHas an input so feeding Fuel can be automated.",
+    "categories": [
+      "Power",
+      "Generators"
+    ],
+    "icon": "images/7KexLdcNXiusCMmKg8oMgM7nABRREvMke0ioSAsKGaSe.64.png",
+    "poster": "images/7KexLdcNXiusCMmKg8oMgM7nABRREvMke0ioSAsKGaSe.512.png",
+    "overclockable": true,
+    "powerProduction": {
+      "amount": 150,
+      "exponent": 1.3,
+      "fuelForm": "liquid",
+      "fuels": [
+        "fuel",
+        "turbofuel",
+        "liquid-biofuel"
+      ]
+    },
+    "slug": "fuel-generator"
+  },
+  "gate-8m-x-4m": {
+    "kind": "building",
+    "name": "Gate 8m x 4m",
+    "description": "Snaps to foundations and other walls.\nAllows human beings to pass through walls.",
+    "categories": [
+      "Walls",
+      "Doors"
+    ],
+    "slug": "gate-8m-x-4m"
+  },
+  "geo-thermal-generator": {
+    "kind": "building",
+    "name": "Geo Thermal Generator",
+    "description": "Can only be built on geyser nodes.\nGenerates electricity for your power grid.\nDoes not require any resources to be input.",
+    "categories": [
+      "Power",
+      "Generators"
+    ],
+    "icon": "images/7iZrpdTd5KssKC22sUOoMs7ycHPfhHvqgUqsim2w8QsE.64.png",
+    "poster": "images/7iZrpdTd5KssKC22sUOoMs7ycHPfhHvqgUqsim2w8QsE.512.png",
+    "powerProduction": {
+      "amount": 200,
+      "exponent": 1.3
+    },
+    "slug": "geo-thermal-generator"
+  },
+  "hyper-tube": {
+    "kind": "building",
+    "name": "Hyper Tube",
+    "description": "Tubes for transporting Ficsit employees.\nRequire a Hyper Tube Entrance to function and be entered.",
+    "categories": [
+      "Transport",
+      "HyperTubes"
+    ],
+    "icon": "images/7N42dgm5qgUsGemcUMKkAS5oWVg4mKicuSgWSmkOEceG.64.png",
+    "poster": "images/7N42dgm5qgUsGemcUMKkAS5oWVg4mKicuSgWSmkOEceG.512.png",
+    "slug": "hyper-tube"
+  },
+  "hyper-tube-support": {
+    "kind": "building",
+    "name": "Hyper Tube Support",
+    "description": "Supports for Hyper Tubes to allow for longer distances.",
+    "categories": [
+      "Transport",
+      "HyperTubes"
+    ],
+    "icon": "images/7yrjDtR0qI0g6kCo8QiSks6OJSzqPA4wkYeUcmGCYS4O.64.png",
+    "poster": "images/7yrjDtR0qI0g6kCo8QiSks6OJSzqPA4wkYeUcmGCYS4O.512.png",
+    "slug": "hyper-tube-support"
+  },
+  "industrial-fluid-buffer-1": {
+    "kind": "building",
+    "name": "Industrial Fluid Buffer",
+    "description": "Can contain up to 300m³ of fluid.\nHas an in and output for pipes.",
+    "categories": [
+      "Organisation",
+      "Storage"
+    ],
+    "slug": "industrial-fluid-buffer-1"
+  },
+  "industrial-fluid-buffer-2": {
+    "kind": "building",
+    "name": "Industrial Fluid Buffer",
+    "description": "Can contain up to 1200m³ of fluid.\nHas an in and output for pipes.",
+    "categories": [
+      "Organisation",
+      "Storage"
+    ],
+    "slug": "industrial-fluid-buffer-2"
+  },
+  "industrial-storage-container": {
+    "kind": "building",
+    "name": "Industrial Storage Container",
+    "description": "Contains 48 slots for storing large amounts of items.\nHas two inputs and outputs for conveyor belts.",
+    "categories": [
+      "Organisation",
+      "Storage"
+    ],
+    "icon": "images/7Ket4d1BzGWCs26I0yCmiw6NLwqgH7Wg22og4UGiwkMS.64.png",
+    "poster": "images/7Ket4d1BzGWCs26I0yCmiw6NLwqgH7Wg22og4UGiwkMS.512.png",
+    "storage": {
+      "x": 8,
+      "y": 6
+    },
+    "slug": "industrial-storage-container"
+  },
+  "jump-pad": {
+    "kind": "building",
+    "name": "Jump Pad",
+    "description": "Propels you upwards through the air.\nMake sure you land softly.",
+    "categories": [
+      "Production",
+      "JumpPads"
+    ],
+    "powerConsumption": {
+      "amount": 2,
+      "exponent": 1.6
+    },
+    "slug": "jump-pad"
+  },
+  "lookout-tower": {
+    "kind": "building",
+    "name": "Lookout Tower",
+    "description": "Provides a good OVERVIEW useful for building.",
+    "categories": [
+      "Organisation",
+      "Towers"
+    ],
+    "icon": "images/7ycGX6bIrYQMkUs42uAUWq7KexLdcNXiusCMmKg8oMgM.64.png",
+    "poster": "images/7ycGX6bIrYQMkUs42uAUWq7KexLdcNXiusCMmKg8oMgM.512.png",
+    "slug": "lookout-tower"
+  },
+  "mam": {
+    "kind": "building",
+    "name": "M.A.M.",
+    "description": "The Molecular Analysis Machine is used to break down matter for analysis.\nR&D will assist Pioneers through the M.A.M to turn any valuable data into usable research options.",
+    "categories": [
+      "Special",
+      "Special"
+    ],
+    "icon": "images/7N3W0YzzXioaQsQioy06CQ5BjS2Jqkc80MgkYciwiYo6.64.png",
+    "poster": "images/7N3W0YzzXioaQsQioy06CQ5BjS2Jqkc80MgkYciwiYo6.512.png",
+    "slug": "mam"
+  },
+  "manufacturer": {
+    "kind": "building",
+    "name": "Manufacturer",
+    "description": "Crafts three or four parts into another part.\n\nCan be automated by feeding parts into it with a conveyor belt connected to the input. The produced parts can be automatically extracted by connecting a conveyor belt to the output.",
+    "categories": [
+      "Production",
+      "Manufacturers"
+    ],
+    "icon": "images/7N42dgm4NiySQ44G0a2GQ07FxTp4Y7FmaAyq6A6GSOeY.64.png",
+    "poster": "images/7N42dgm4NiySQ44G0a2GQ07FxTp4Y7FmaAyq6A6GSOeY.512.png",
+    "overclockable": true,
+    "powerConsumption": {
+      "amount": 55,
+      "exponent": 1.6
+    },
+    "slug": "manufacturer"
+  },
+  "miner-mk1": {
+    "kind": "building",
+    "name": "Miner Mk.1",
+    "description": "Extracts solid resources from the resource node it is built on. \nThe normal extraction rate is 60 resources per minute. \nThe extraction rate is modified depending on resource node purity. Outputs all extracted resources onto connected conveyor belts.",
+    "categories": [
+      "Production",
+      "Miners"
+    ],
+    "icon": "images/7Mma2ofk4gaoyOoKY4Ccic7FzIlI24KsY6Gkek8uUu8i.64.png",
+    "poster": "images/7Mma2ofk4gaoyOoKY4Ccic7FzIlI24KsY6Gkek8uUu8i.512.png",
+    "overclockable": true,
+    "powerConsumption": {
+      "amount": 5,
+      "exponent": 1.6
+    },
+    "slug": "miner-mk1"
+  },
+  "miner-mk2": {
+    "kind": "building",
+    "name": "Miner Mk.2",
+    "description": "Extracts solid resources from the resource node it is built on. \nThe normal extraction rate is 120 resources per minute. \nThe extraction rate is modified depending on resource node purity. Outputs all extracted resources onto connected conveyor belts.",
+    "categories": [
+      "Production",
+      "Miners"
+    ],
+    "icon": "images/7LeHfOuije02yCA6msaWc47FzIzqWmooyW4y80MssecO.64.png",
+    "poster": "images/7LeHfOuije02yCA6msaWc47FzIzqWmooyW4y80MssecO.512.png",
+    "overclockable": true,
+    "powerConsumption": {
+      "amount": 12,
+      "exponent": 1.6
+    },
+    "slug": "miner-mk2"
+  },
+  "miner-mk3": {
+    "kind": "building",
+    "name": "Miner Mk.3",
+    "description": "Extracts solid resources from the resource node it is built on. \nThe normal extraction rate is 240 resources per minute. \nThe extraction rate is modified depending on resource node purity. Outputs all extracted resources onto connected conveyor belts.",
+    "categories": [
+      "Production",
+      "Miners"
+    ],
+    "icon": "images/7LeHfHQ8vYoe4QIyC0QsSW7FzIlI6UcoA4uc0WqWMmYO.64.png",
+    "poster": "images/7LeHfHQ8vYoe4QIyC0QsSW7FzIlI6UcoA4uc0WqWMmYO.512.png",
+    "overclockable": true,
+    "powerConsumption": {
+      "amount": 30,
+      "exponent": 1.6
+    },
+    "slug": "miner-mk3"
+  },
+  "nuclear-power-plant": {
+    "kind": "building",
+    "name": "Nuclear Power Plant",
+    "description": "Consumes Nuclear Fuel Rods and Water to produce power.\nHas a conveyor belt and pipeline input so loading can be automated.  \nProduces Nuclear Waste, which is extracted from the conveyor belt output.",
+    "categories": [
+      "Power",
+      "Generators"
+    ],
+    "icon": "images/7yUz46VajCcySAacOs62yG7BYFZG3kZy6AsYiIeMQAcq.64.png",
+    "poster": "images/7yUz46VajCcySAacOs62yG7BYFZG3kZy6AsYiIeMQAcq.512.png",
+    "overclockable": true,
+    "powerProduction": {
+      "amount": 2500,
+      "exponent": 1.321928,
+      "fuelForm": "solid",
+      "fuels": [
+        "nuclear-fuel-rod"
+      ]
+    },
+    "slug": "nuclear-power-plant"
+  },
+  "oil-extractor": {
+    "kind": "building",
+    "name": "Oil Extractor",
+    "description": "Normal extraction rate: 120k liter per minute.\nDefault pressure: 10, allowing a 10 meter vertical rise of fluids.\n\nExtracts Crude Oil from a Crude Oil node it is build on. Extraction rates depend on node purity.\nOutputs all extracted Crude Oil from the pipe output connection.",
+    "categories": [
+      "Production",
+      "OilProduction"
+    ],
+    "icon": "images/7y5oua3NAsYuEEcWy02MEu6ONz18ZA08AeCogyo4s4ec.64.png",
+    "poster": "images/7y5oua3NAsYuEEcWy02MEu6ONz18ZA08AeCogyo4s4ec.512.png",
+    "overclockable": true,
+    "powerConsumption": {
+      "amount": 40,
+      "exponent": 1.6
+    },
+    "slug": "oil-extractor"
+  },
+  "personal-storage-box": {
+    "kind": "building",
+    "name": "Personal Storage Box",
+    "description": "Contains 25 slots for storing large amounts of items.",
+    "categories": [
+      "Organisation",
+      "Storage"
+    ],
+    "icon": "images/7N3YTnUuYg66UMykymwsEq6OHbdJXU0oEaSuOMy8ogcE.64.png",
+    "poster": "images/7N3YTnUuYg66UMykymwsEq6OHbdJXU0oEaSuOMy8ogcE.512.png",
+    "storage": {
+      "x": 5,
+      "y": 5
+    },
+    "slug": "personal-storage-box"
+  },
+  "pillar-base": {
+    "kind": "building",
+    "name": "Pillar Base",
+    "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
+    "categories": [
+      "Organisation",
+      "Floors"
+    ],
+    "slug": "pillar-base"
+  },
+  "pillar-middle": {
+    "kind": "building",
+    "name": "Pillar Middle",
+    "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
+    "categories": [
+      "Organisation",
+      "Floors"
+    ],
+    "slug": "pillar-middle"
+  },
+  "pillar-top": {
+    "kind": "building",
+    "name": "Pillar Top",
+    "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
+    "categories": [
+      "Organisation",
+      "Floors"
+    ],
+    "slug": "pillar-top"
+  },
+  "pipeline": {
+    "kind": "building",
+    "name": "Pipeline",
+    "description": "Outside indicators show volume, flow rate and direction.\nTransports up to 300m³ liters per minute.\nUsed to transport fluids.",
+    "categories": [
+      "Transport",
+      "Pipes"
+    ],
+    "icon": "images/7N42dfWqzYYOy8KkCa0YCE42wkXTa3CMyy2eaieKcQuI.64.png",
+    "poster": "images/7N42dfWqzYYOy8KkCa0YCE42wkXTa3CMyy2eaieKcQuI.512.png",
+    "slug": "pipeline"
+  },
+  "pipeline-junction-cross": {
+    "kind": "building",
+    "name": "Pipeline Junction Cross",
+    "description": "Can be attached to a pipeline to split it 4-way.",
+    "categories": [
+      "Transport",
+      "Pipes"
+    ],
+    "icon": "images/7N426BNjry8CAO22OyweoW3U07E8cmwwMeqQgkiwWso4.64.png",
+    "poster": "images/7N426BNjry8CAO22OyweoW3U07E8cmwwMeqQgkiwWso4.512.png",
+    "slug": "pipeline-junction-cross"
+  },
+  "pipeline-pump": {
+    "kind": "building",
+    "name": "Pipeline Pump",
+    "description": "Applies 20 pressure, allowing a 20 meter vertical rise of fluids.\nCan be attached to a pipeline to apply additional pressure.\nUseful for overcoming verticality and balancing out throughput.",
+    "categories": [
+      "Transport",
+      "Pipes"
+    ],
+    "icon": "images/7N3BEjMvv2Cowq0kKG00Qa6mmoBzL1Ju2g6C8M62EKSI.64.png",
+    "poster": "images/7N3BEjMvv2Cowq0kKG00Qa6mmoBzL1Ju2g6C8M62EKSI.512.png",
+    "slug": "pipeline-pump"
+  },
+  "pipeline-support": {
+    "kind": "building",
+    "name": "Pipeline Support",
+    "description": "Can be used as a connection for pipelines. The height of the support can be adjusted.\nUseful to route pipelines in a more controlled manner and over long distances.",
+    "categories": [
+      "Transport",
+      "PipeSupport"
+    ],
+    "slug": "pipeline-support"
+  },
+  "pipeline-wall-support": {
+    "kind": "building",
+    "name": "Pipeline Wall Support",
+    "description": "PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE",
+    "categories": [
+      "Transport",
+      "PipeSupport"
+    ],
+    "icon": "images/7N41Mf4WeA8AEYkcE0WQoC7pZ8R8hfFu2amC6WGIgywG.64.png",
+    "poster": "images/7N41Mf4WeA8AEYkcE0WQoC7pZ8R8hfFu2amC6WGIgywG.512.png",
+    "slug": "pipeline-wall-support"
+  },
+  "pipeline-wall-through-hole": {
+    "kind": "building",
+    "name": "Pipeline Wall Through Hole",
+    "description": "PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE PROTOTYPE",
+    "categories": [
+      "Transport",
+      "PipeSupport"
+    ],
+    "icon": "images/7N3YG60pJCwGkgOqCU4oA44RvVa8EanuEIqkOKG6ceWg.64.png",
+    "poster": "images/7N3YG60pJCwGkgOqCU4oA44RvVa8EanuEIqkOKG6ceWg.512.png",
+    "slug": "pipeline-wall-through-hole"
+  },
+  "power-line": {
+    "kind": "building",
+    "name": "Power Line",
+    "description": "Used to connect Power Poles, Power Generators and Factory buildings.",
+    "categories": [
+      "Power",
+      "PowerPoles"
+    ],
+    "icon": "images/7yrkxFpTxewKSMQmuI2YEE7nABS4QnMki4U6uIWCocCq.64.png",
+    "slug": "power-line"
+  },
+  "power-pole": {
+    "kind": "building",
+    "name": "Power Pole",
+    "description": "Can handle up to 4 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "categories": [
+      "Power",
+      "PowerPoles"
+    ],
+    "icon": "images/7FZjkzLBG84eo0QswKyCwC7KexLdcNXiusCMmKg8oMgM.64.png",
+    "poster": "images/7FZjkzLBG84eo0QswKyCwC7KexLdcNXiusCMmKg8oMgM.512.png",
+    "slug": "power-pole"
+  },
+  "power-pole-mk2": {
+    "kind": "building",
+    "name": "Power Pole Mk.2",
+    "description": "Can handle up to 7 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "categories": [
+      "Power",
+      "PowerPoles"
+    ],
+    "icon": "images/7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.64.png",
+    "poster": "images/7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.512.png",
+    "slug": "power-pole-mk2"
+  },
+  "power-pole-mk3": {
+    "kind": "building",
+    "name": "Power Pole Mk.3",
+    "description": "Can handle up to 10 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "categories": [
+      "Power",
+      "PowerPoles"
+    ],
+    "icon": "images/7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.64.png",
+    "poster": "images/7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.512.png",
+    "slug": "power-pole-mk3"
+  },
+  "programmable-splitter": {
+    "kind": "building",
+    "name": "Programmable Splitter",
+    "description": "Splits conveyor belts in three. \nYou can set rules for each output to decide exactly where each part should go.",
+    "categories": [
+      "Transport",
+      "ConveyorAttachments"
+    ],
+    "icon": "images/7N41ldHl5KsMuISGsw6ueK6RX8pFtjfqwwGCkWE0geA0.64.png",
+    "poster": "images/7N41ldHl5KsMuISGsw6ueK6RX8pFtjfqwwGCkWE0geA0.512.png",
+    "slug": "programmable-splitter"
+  },
+  "railway": {
+    "kind": "building",
+    "name": "Railway",
+    "description": "Used to transport trains in a reliable and fast manner.\nHas a wide turn angle so make sure to plan it out properly.",
+    "categories": [
+      "Transport",
+      "Trains"
+    ],
+    "icon": "images/7N42dgm5tCCQsMcmemUoI83clQnzgVDiGUUakEyioq.64.png",
+    "poster": "images/7N42dgm5tCCQsMcmemUoI83clQnzgVDiGUUakEyioq.512.png",
+    "slug": "railway"
+  },
+  "ramp-8m-x-1m": {
+    "kind": "building",
+    "name": "Ramp 8m x 1m",
+    "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
+    "categories": [
+      "Organisation",
+      "Ramps"
+    ],
+    "slug": "ramp-8m-x-1m"
+  },
+  "ramp-8m-x-2m": {
+    "kind": "building",
+    "name": "Ramp 8m x 2m",
+    "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
+    "categories": [
+      "Organisation",
+      "Ramps"
+    ],
+    "slug": "ramp-8m-x-2m"
+  },
+  "ramp-8m-x-4m": {
+    "kind": "building",
+    "name": "Ramp 8m x 4m",
+    "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
+    "categories": [
+      "Organisation",
+      "Ramps"
+    ],
+    "slug": "ramp-8m-x-4m"
+  },
+  "ramp-double-8m-x-8m": {
+    "kind": "building",
+    "name": "Ramp Double 8m x 8m",
+    "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
+    "categories": [
+      "Organisation",
+      "Ramps"
+    ],
+    "slug": "ramp-double-8m-x-8m"
+  },
+  "ramp-inverted-8m-x-4m": {
+    "kind": "building",
+    "name": "Ramp Inverted 8m x 4m",
+    "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
+    "categories": [
+      "Organisation",
+      "Ramps"
+    ],
+    "slug": "ramp-inverted-8m-x-4m"
+  },
+  "refinery": {
+    "kind": "building",
+    "name": "Refinery",
+    "description": "Refines fluids or solids into more usable parts.\n\nHas a pipe and conveyor belt output to handle potential by-products.",
+    "categories": [
+      "Production",
+      "OilProduction"
+    ],
+    "icon": "images/7Mma6fzgB2I0KMukuyKuYi7y5ouAC2IwUsqK4IgI602Y.64.png",
+    "poster": "images/7Mma6fzgB2I0KMukuyKuYi7y5ouAC2IwUsqK4IgI602Y.512.png",
+    "overclockable": true,
+    "powerConsumption": {
+      "amount": 50,
+      "exponent": 1.6
+    },
+    "slug": "refinery"
+  },
+  "smart-splitter": {
+    "kind": "building",
+    "name": "Smart Splitter",
+    "description": "Splits conveyor belts in three. \nYou can set a rule for which part should go to the left and which part should go to the right.",
+    "categories": [
+      "Transport",
+      "ConveyorAttachments"
+    ],
+    "icon": "images/7N41MeVh5YsOqgmaw8o02g6RmzEuu6QwScC6U8WI4oOo.64.png",
+    "poster": "images/7N41MeVh5YsOqgmaw8o02g6RmzEuu6QwScC6U8WI4oOo.512.png",
+    "slug": "smart-splitter"
+  },
+  "smelter": {
+    "kind": "building",
+    "name": "Smelter",
+    "description": "Smelts ore into ingots.\n\nCan be automated by feeding ore into it with a conveyor belt connected to the input. The produced ingots can be automatically extracted by connecting a conveyor belt to the output.",
+    "categories": [
+      "Production",
+      "Smelters"
+    ],
+    "icon": "images/6OUQBbqkJUmaeQoKIqAgQM7j37bkJI1GsYm84qi6UO6a.64.png",
+    "poster": "images/6OUQBbqkJUmaeQoKIqAgQM7j37bkJI1GsYm84qi6UO6a.512.png",
+    "overclockable": true,
+    "powerConsumption": {
+      "amount": 4,
+      "exponent": 1.6
+    },
+    "slug": "smelter"
+  },
+  "space-elevator": {
+    "kind": "building",
+    "name": "Space Elevator",
+    "description": "Funnel resources to complete Project Assembly.\nCompleting stages here allows you to unlock later tiers of milestones in the HUB.",
+    "categories": [
+      "Special",
+      "Special"
+    ],
+    "icon": "images/7JLi895PP2E6ywuSqW42uM7FZhJv4UjCEKGAegYyqs4U.64.png",
+    "poster": "images/7JLi895PP2E6ywuSqW42uM7FZhJv4UjCEKGAegYyqs4U.512.png",
+    "slug": "space-elevator"
+  },
+  "stackable-pipeline-support": {
+    "kind": "building",
+    "name": "Stackable Pipeline Support",
+    "description": "Support for pipelines. Can be stacked on other stackable supports.",
+    "categories": [
+      "Transport",
+      "PipeSupport"
+    ],
+    "slug": "stackable-pipeline-support"
+  },
+  "stairs": {
+    "kind": "building",
+    "name": "Stairs",
+    "description": "The Stairs allow you to move to the upper floors of your buildings. Height: 4",
+    "categories": [
+      "Organisation",
+      "Stair"
+    ],
+    "slug": "stairs"
+  },
+  "stairs-left": {
+    "kind": "building",
+    "name": "Stairs Left",
+    "description": "Snaps to foundations.\nMakes it easier to get to other floors of your structures.",
+    "categories": [
+      "Organisation",
+      "Stair"
+    ],
+    "slug": "stairs-left"
+  },
+  "stairs-right": {
+    "kind": "building",
+    "name": "Stairs Right",
+    "description": "Snaps to foundations.\nMakes it easier to get to other floors of your structures.",
+    "categories": [
+      "Organisation",
+      "Stair"
+    ],
+    "slug": "stairs-right"
+  },
+  "storage-container": {
+    "kind": "building",
+    "name": "Storage Container",
+    "description": "Contains 24 slots for storing large amounts of items.\nHas an input and output for conveyor belts.",
+    "categories": [
+      "Organisation",
+      "Storage"
+    ],
+    "icon": "images/7N42dgiRQkISe4qWm2cOE63Y9MN5j9q08mQqmyC0cK8w.64.png",
+    "poster": "images/7N42dgiRQkISe4qWm2cOE63Y9MN5j9q08mQqmyC0cK8w.512.png",
+    "storage": {
+      "x": 6,
+      "y": 4
+    },
+    "slug": "storage-container"
+  },
+  "the-hub": {
+    "kind": "building",
+    "name": "The HUB",
+    "description": "The heart of your factory. This is where you complete FICSIT milestones to unlock additional blueprints of buildings, vehicles, parts, equipment etc.",
+    "categories": [
+      "Special",
+      "Special"
+    ],
+    "icon": "images/7N41SFY3zGeoGe6EKwoiaU7IsLFQj1WESsk8eAwaUe8A.64.png",
+    "poster": "images/7N41SFY3zGeoGe6EKwoiaU7IsLFQj1WESsk8eAwaUe8A.512.png",
+    "slug": "the-hub"
+  },
+  "tilted-jump-pad": {
+    "kind": "building",
+    "name": "Tilted Jump Pad",
+    "description": "Propels you forwards through the air.\nMake sure you land softly.",
+    "categories": [
+      "Production",
+      "JumpPads"
+    ],
+    "icon": "images/1WLaiLRMvym4CygqykQIGs40RXTPV1FmsqMIY0EwSCIG.64.png",
+    "powerConsumption": {
+      "amount": 2,
+      "exponent": 1.6
+    },
+    "slug": "tilted-jump-pad"
+  },
+  "train-station": {
+    "kind": "building",
+    "name": "Train Station",
+    "description": "Locomotives can be set to drive to and stop at the Train Station.\nYou can connect power to the train station to power up the trains on the railway as well as transport the power to other stations.",
+    "categories": [
+      "Transport",
+      "Trains"
+    ],
+    "icon": "images/7N420oqc2kKqUEmKuu8usq5Nw7sTbtp6ewo44SGmw0cU.64.png",
+    "poster": "images/7N420oqc2kKqUEmKuu8usq5Nw7sTbtp6ewo44SGmw0cU.512.png",
+    "powerConsumption": {
+      "amount": 50,
+      "exponent": 1.6
+    },
+    "slug": "train-station"
+  },
+  "truck-station": {
+    "kind": "building",
+    "name": "Truck Station",
+    "description": "Either send or recieve resources to vehicles. Has an inventory with 48 slots.\nTransfers up to 120 stacks per minute to/from docked vehicle. \nAlways refuels vehicles if it has access to a matching fuel type..\n",
+    "categories": [
+      "Transport",
+      "Vehicles"
+    ],
+    "icon": "images/7N42dgm5tCCQsMcmemUoI87M9m4mB6b68iqAqUEG4wgy.64.png",
+    "poster": "images/7N42dgm5tCCQsMcmemUoI87M9m4mB6b68iqAqUEG4wgy.512.png",
+    "powerConsumption": {
+      "amount": 20,
+      "exponent": 1.6
+    },
+    "slug": "truck-station"
+  },
+  "u-jelly-landing-pad": {
+    "kind": "building",
+    "name": "U-Jelly Landing Pad",
+    "description": "Generates a speed dampening jelly.\nGuarantees a soft landing.",
+    "categories": [
+      "Production",
+      "JumpPads"
+    ],
+    "icon": "images/7N42deTVv2mQu4Sg22UeaM7xZTAkFlLyo2M6CoIkOYOK.64.png",
+    "poster": "images/7N42deTVv2mQu4Sg22UeaM7xZTAkFlLyo2M6CoIkOYOK.512.png",
+    "powerConsumption": {
+      "amount": 5,
+      "exponent": 1.6
+    },
+    "slug": "u-jelly-landing-pad"
+  },
+  "walkway-crossing": {
+    "kind": "building",
+    "name": "Walkway Crossing",
+    "description": "Snaps to foundations and other walkways.\nSpecifically made for humans to walk on.",
+    "categories": [
+      "Organisation",
+      "Walkways"
+    ],
+    "slug": "walkway-crossing"
+  },
+  "walkway-ramp": {
+    "kind": "building",
+    "name": "Walkway Ramp",
+    "description": "Snaps to foundations and other walkways.\nSpecifically made for humans to walk on.",
+    "categories": [
+      "Organisation",
+      "Walkways"
+    ],
+    "icon": "images/7Hp2RId8yc2smoAEgaGmue6PgJ5nmyROuaAeOYk66kII.64.png",
+    "slug": "walkway-ramp"
+  },
+  "walkway-straight": {
+    "kind": "building",
+    "name": "Walkway Straight",
+    "description": "Snaps to foundations and other walkways.\nSpecifically made for humans to walk on.",
+    "categories": [
+      "Organisation",
+      "Walkways"
+    ],
+    "icon": "images/7N42dglUyI8sEIEou8AKSk5QpBSyAEesMiuOG0m8mcAC.64.png",
+    "slug": "walkway-straight"
+  },
+  "walkway-t-crossing": {
+    "kind": "building",
+    "name": "Walkway T-Crossing",
+    "description": "Snaps to foundations and other walkways.\nSpecifically made for humans to walk on.",
+    "categories": [
+      "Organisation",
+      "Walkways"
+    ],
+    "slug": "walkway-t-crossing"
+  },
+  "walkway-turn": {
+    "kind": "building",
+    "name": "Walkway Turn",
+    "description": "Snaps to foundations and other walkways.\nSpecifically made for humans to walk on.",
+    "slug": "walkway-turn"
+  },
+  "wall-8m-x-4m-1": {
+    "kind": "building",
+    "name": "Wall 8m x 4m",
+    "description": "Snaps to foundations and other walls.\nUseful for building multi-floor structures.",
+    "categories": [
+      "Walls",
+      "Walls"
+    ],
+    "icon": "images/7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.64.png",
+    "poster": "images/7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.512.png",
+    "slug": "wall-8m-x-4m-1"
+  },
+  "wall-8m-x-4m-2": {
+    "kind": "building",
+    "name": "Wall 8m x 4m",
+    "description": "Snaps to foundations and other walls.\nUseful for building multi-floor structures.",
+    "categories": [
+      "Walls",
+      "Walls"
+    ],
+    "icon": "images/7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.64.png",
+    "poster": "images/7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.512.png",
+    "slug": "wall-8m-x-4m-2"
+  },
+  "wall-conveyor-perpendicular-1": {
+    "kind": "building",
+    "name": "Wall Conveyor Perpendicular",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 1 conveyor belt connection perpendicular to the wall.\nHeight: 4",
+    "categories": [
+      "Walls",
+      "ConveyorConnections"
+    ],
+    "slug": "wall-conveyor-perpendicular-1"
+  },
+  "wall-conveyor-perpendicular-2": {
+    "kind": "building",
+    "name": "Wall Conveyor Perpendicular",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 1 conveyor belt connection perpendicular to the wall.\nHeight: 4",
+    "categories": [
+      "Walls",
+      "ConveyorConnections"
+    ],
+    "slug": "wall-conveyor-perpendicular-2"
+  },
+  "wall-conveyor-x1-1": {
+    "kind": "building",
+    "name": "Wall Conveyor x1",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 1 conveyor belt connection.\nHeight: 4",
+    "categories": [
+      "Walls",
+      "ConveyorConnections"
+    ],
+    "slug": "wall-conveyor-x1-1"
+  },
+  "wall-conveyor-x1-2": {
+    "kind": "building",
+    "name": "Wall Conveyor x1",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 1 conveyor belt connection.\nHeight: 4",
+    "categories": [
+      "Walls",
+      "ConveyorConnections"
+    ],
+    "slug": "wall-conveyor-x1-2"
+  },
+  "wall-conveyor-x2-1": {
+    "kind": "building",
+    "name": "Wall Conveyor x2",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 2 conveyor belt connections.\nHeight: 4",
+    "categories": [
+      "Walls",
+      "ConveyorConnections"
+    ],
+    "slug": "wall-conveyor-x2-1"
+  },
+  "wall-conveyor-x2-2": {
+    "kind": "building",
+    "name": "Wall Conveyor x2",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 2 conveyor belt connections.\nHeight: 4",
+    "categories": [
+      "Walls",
+      "ConveyorConnections"
+    ],
+    "slug": "wall-conveyor-x2-2"
+  },
+  "wall-conveyor-x3-1": {
+    "kind": "building",
+    "name": "Wall Conveyor x3",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 3 conveyor belt connections.\nHeight: 4",
+    "categories": [
+      "Walls",
+      "ConveyorConnections"
+    ],
+    "slug": "wall-conveyor-x3-1"
+  },
+  "wall-conveyor-x3-2": {
+    "kind": "building",
+    "name": "Wall Conveyor x3",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 3 conveyor belt connections.\nHeight: 4",
+    "categories": [
+      "Walls",
+      "ConveyorConnections"
+    ],
+    "slug": "wall-conveyor-x3-2"
+  },
+  "wall-door-center-1": {
+    "kind": "building",
+    "name": "Wall Door Center",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
+    "categories": [
+      "Walls",
+      "Doors"
+    ],
+    "slug": "wall-door-center-1"
+  },
+  "wall-door-center-2": {
+    "kind": "building",
+    "name": "Wall Door Center",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
+    "categories": [
+      "Walls",
+      "Doors"
+    ],
+    "slug": "wall-door-center-2"
+  },
+  "wall-door-left-1": {
+    "kind": "building",
+    "name": "Wall Door Left",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
+    "categories": [
+      "Walls",
+      "Doors"
+    ],
+    "slug": "wall-door-left-1"
+  },
+  "wall-door-left-2": {
+    "kind": "building",
+    "name": "Wall Door Left",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
+    "categories": [
+      "Walls",
+      "Doors"
+    ],
+    "slug": "wall-door-left-2"
+  },
+  "wall-door-right-1": {
+    "kind": "building",
+    "name": "Wall Door Right",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
+    "categories": [
+      "Walls",
+      "Doors"
+    ],
+    "slug": "wall-door-right-1"
+  },
+  "wall-door-right-2": {
+    "kind": "building",
+    "name": "Wall Door Right",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
+    "categories": [
+      "Walls",
+      "Doors"
+    ],
+    "slug": "wall-door-right-2"
+  },
+  "wall-power-pole": {
+    "kind": "building",
+    "name": "Wall Power Pole",
+    "description": "Power Pole that attaches to a wall.\n\nCan handle up to 4 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "categories": [
+      "Power",
+      "WallPoles"
+    ],
+    "slug": "wall-power-pole"
+  },
+  "wall-power-pole-mk2": {
+    "kind": "building",
+    "name": "Wall Power Pole Mk.2",
+    "description": "Power Pole that attaches to a wall.\n\nCan handle up to 7 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "slug": "wall-power-pole-mk2"
+  },
+  "wall-power-pole-mk3": {
+    "kind": "building",
+    "name": "Wall Power Pole Mk.3",
+    "description": "Power Pole that attaches to a wall.\n\nCan handle up to 10 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "slug": "wall-power-pole-mk3"
+  },
+  "wall-window-8m-x-4m-01": {
+    "kind": "building",
+    "name": "Wall Window 8m x 4m 01",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
+    "categories": [
+      "Walls",
+      "Walls"
+    ],
+    "icon": "images/7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.64.png",
+    "poster": "images/7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.512.png",
+    "slug": "wall-window-8m-x-4m-01"
+  },
+  "wall-window-8m-x-4m-02": {
+    "kind": "building",
+    "name": "Wall Window 8m x 4m 02",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
+    "categories": [
+      "Walls",
+      "Walls"
+    ],
+    "icon": "images/7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.64.png",
+    "poster": "images/7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.512.png",
+    "slug": "wall-window-8m-x-4m-02"
+  },
+  "wall-window-8m-x-4m-04": {
+    "kind": "building",
+    "name": "Wall Window 8m x 4m 04",
+    "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
+    "categories": [
+      "Walls",
+      "Walls"
+    ],
+    "icon": "images/7N3O9KSvdKe4soeW22OEgE48EJqCRJqUuSCM0yY4kCIK.64.png",
+    "poster": "images/7N3O9KSvdKe4soeW22OEgE48EJqCRJqUuSCM0yY4kCIK.512.png",
+    "slug": "wall-window-8m-x-4m-04"
+  },
+  "water-extractor": {
+    "kind": "building",
+    "name": "Water Extractor",
+    "description": "Default extraction rate: 120k liter per minute.\nDefault pressure: 10, allowing a 10 meter vertical rise of fluids.\n\nExtracts water from the body of water it is build on.\nNote that the water needs to be deep enough and that rivesr do not commonly suffice.",
+    "categories": [
+      "Production",
+      "OilProduction"
+    ],
+    "icon": "images/7G6BXO1jDUqiAWi2QsOCOQ6OUN3a6dQkyi2uCU8Ua4cu.64.png",
+    "poster": "images/7G6BXO1jDUqiAWi2QsOCOQ6OUN3a6dQkyi2uCU8Ua4cu.512.png",
+    "overclockable": true,
+    "powerConsumption": {
+      "amount": 20,
+      "exponent": 1.6
+    },
+    "slug": "water-extractor"
+  },
+  "window-8m-x-4m-03": {
+    "kind": "building",
+    "name": "Window 8m x 4m 03",
+    "description": "Snaps to foundations and other walls.\nAllows human beings to see through walls.",
+    "categories": [
+      "Walls",
+      "Walls"
+    ],
+    "icon": "images/7N3OgCkE2kKsyKi0Oqog2U4pShwtayTmqcOeo6OOYwgS.64.png",
+    "poster": "images/7N3OgCkE2kKsyKi0Oqog2U4pShwtayTmqcOeo6OOYwgS.512.png",
+    "slug": "window-8m-x-4m-03"
+  }
+}
