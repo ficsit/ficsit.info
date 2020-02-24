@@ -1,5 +1,5 @@
 import { paramCase } from 'param-case';
-import { Entity, EntityKind, EntityByKind, Slug } from '@local/schema';
+import { Entity, EntityKind, EntityByKind, Slug, Indexable } from '@local/schema';
 
 import { normalizeClassName } from './HeaderDatabase';
 
@@ -44,6 +44,17 @@ export class OutputDatabase {
       .sort((a, b) => a[0].localeCompare(b[0]));
     
     return Object.fromEntries(entries);
+  }
+
+  getIndexable(): Indexable[] {
+    const indexable = [] as Indexable[];
+    for (const entities of this._entitiesByKind.values()) {
+      for (const { kind, slug, name, icon, categories } of entities) {
+        indexable.push({ kind, slug, name, icon, categories });
+      }
+    }
+
+    return indexable.sort((a, b) => a.slug.localeCompare(b.slug));
   }
 
   slugForEntityOrDie(className: string): Slug {

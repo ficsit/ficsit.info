@@ -10,12 +10,10 @@ const COMMUNITY_RESOURCES = path.resolve(__dirname, '..', '.community-resources'
 
 main(process.argv[2]);
 async function main(version: string) {
-  const destination = path.join(DATA_ROOT, version);
-  fs.rmdirSync(destination, { recursive: true });
-  fs.mkdirSync(destination, { recursive: true });
-  const debugDestination = path.join(destination, 'debug');
-  fs.mkdirSync(path.join(debugDestination), { recursive: true });
-
+  const destinationPath = path.join(DATA_ROOT, version);
+  fs.rmdirSync(destinationPath, { recursive: true });
+  
+  const destination = new parsing.FileSystem(destinationPath);
   const communityResources = new parsing.FileSystem(COMMUNITY_RESOURCES);
   const assets = new parsing.FileSystem(ASSETS)
 
@@ -36,12 +34,17 @@ async function main(version: string) {
   await parsing.fillStaticEntries(outputDb);
 
   // Debug data.
-  fs.writeFileSync(path.join(debugDestination, 'entityDb.json'), JSON.stringify(entityDb, null, 2));
-  fs.writeFileSync(path.join(debugDestination, 'outputDb.json'), JSON.stringify(outputDb, null, 2));
+  await Promise.all([
+    destination.writeJson(entityDb, 'debug', 'entityDb.json'),
+    destination.writeJson(outputDb, 'debug', 'outputDb.json'),
+  ]);
 
   // Final data
-  fs.writeFileSync(path.join(destination, `items.json`), JSON.stringify(outputDb.getAllByKind(EntityKind.Item), null, 2));
-  fs.writeFileSync(path.join(destination, `buildings.json`), JSON.stringify(outputDb.getAllByKind(EntityKind.Building), null, 2));
-  fs.writeFileSync(path.join(destination, `recipes.json`), JSON.stringify(outputDb.getAllByKind(EntityKind.Recipe), null, 2)); 
-  fs.writeFileSync(path.join(destination, `schematics.json`), JSON.stringify(outputDb.getAllByKind(EntityKind.Schematic), null, 2)); 
+  await Promise.all([
+    destination.writeJson(outputDb.getIndexable(), 'index.json'),
+    destination.writeJson(outputDb.getAllByKind(EntityKind.Item), 'items.json'),
+    destination.writeJson(outputDb.getAllByKind(EntityKind.Building), 'buildings.json'),
+    destination.writeJson(outputDb.getAllByKind(EntityKind.Recipe), 'recipes.json'),
+    destination.writeJson(outputDb.getAllByKind(EntityKind.Schematic), 'schematics.json'),
+  ]);  
 }

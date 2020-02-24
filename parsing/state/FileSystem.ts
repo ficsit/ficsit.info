@@ -45,9 +45,13 @@ export class FileSystem {
 
   async write(data: string, ...pathParts: string[]) {
     const fullPath = this.path(...pathParts);
+    await this.mkdirFor(...pathParts);
     return await writeFile(fullPath, data, 'utf-8');
   }
 
+  async writeJson(data: any, ...pathParts: string[]) {
+    return await this.write(JSON.stringify(data, null, 2), ...pathParts);
+  }
 
   async writeBuffer(data: Buffer, ...pathParts: string[]) {
     const fullPath = this.path(...pathParts);
