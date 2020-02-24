@@ -7,9 +7,16 @@
         "destination": "/index.html"
       }
     ],
+    "redirects": [
+      {
+        "type": 307,
+        "source": "/data/stable/:path*",
+        "destination": "/data/v114480/:path"
+      }
+    ],
     "headers": [
       {
-        "source": "**/*.[abcdef0123456789]*.*",
+        "source": "**/*.+([abcdef0123456789]).*",
         "headers": [
           { "key": "Cache-Control", "value": "max-age=31536000" }
         ]
