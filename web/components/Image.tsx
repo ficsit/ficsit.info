@@ -40,3 +40,11 @@ export interface ItemImageProps extends React.ImgHTMLAttributes<HTMLImageElement
 export function ItemImage({ item, ...props }: ItemImageProps) {
   return <Image {...props} hash={item.icon} maxWidth={256} alt={item.name} />;
 }
+
+export interface BuildingImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
+  building: Indexable;
+  width: number;
+}
+export function BuildingImage({ building, ...props }: BuildingImageProps) {
+  return <Image {...props} hash={building.icon} maxWidth={512} alt={building.name} />;
+}
