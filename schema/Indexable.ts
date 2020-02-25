@@ -1,4 +1,4 @@
-import { AssetPath, EntityKind, HumanReadableString, Slug } from './primitive';
+import { ImageId, EntityKind, HumanReadableString, Slug } from './primitive';
 
 /**
  * Any entity which should be indexed (e.g. for search, links, etc).
@@ -24,7 +24,7 @@ export interface Indexable {
   /**
    * Path to an icon of the entity, to be displayed along side its name.
    */
-  icon?: AssetPath;
+  icon?: ImageId;
 
   /**
    * Any categories (within its kind) this entity is contained within.

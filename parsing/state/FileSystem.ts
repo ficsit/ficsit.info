@@ -15,7 +15,7 @@ export class FileSystem {
   constructor(private _root: string) {}
 
   path(...pathParts: string[]) {
-    return path.join(this._root, ...pathParts);
+    return path.resolve(this._root, ...pathParts);
   }
 
   async readable(...pathParts: string[]) {

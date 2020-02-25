@@ -10,7 +10,7 @@ export type Slug = string;
  * A URI path pointing to some HTTP asset, relative to wherever this repository
  * is hosted.
  */
-export type AssetPath = string;
+export type ImageId = string;
 
 /**
  * A string, containing content displayable to humans, in English.

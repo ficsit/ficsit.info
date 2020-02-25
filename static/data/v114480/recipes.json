@@ -85,7 +85,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 1,
-    "icon": "images/7N41SFMSAMkagIwAmwaSUK5TY5sf7TH2cagIMuUAWG88.64.png",
+    "icon": "7N41SFMSAMkagIwAmwaSUK5TY5sf7TH2cagIMuUAWG88.64",
     "slug": "recipe-alclad-aluminum-sheet"
   },
   "recipe-alternate-adhered-iron-plate": {
@@ -112,7 +112,7 @@
     ],
     "duration": 16,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64.png",
+    "icon": "7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64",
     "slug": "recipe-alternate-adhered-iron-plate"
   },
   "recipe-alternate-biomass-coal": {
@@ -135,7 +135,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU.64.png",
+    "icon": "7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU.64",
     "slug": "recipe-alternate-biomass-coal"
   },
   "recipe-alternate-bolted-frame": {
@@ -162,7 +162,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1,
-    "icon": "images/7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu.64.png",
+    "icon": "7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu.64",
     "slug": "recipe-alternate-bolted-frame"
   },
   "recipe-alternate-bolted-iron-plate": {
@@ -189,7 +189,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64.png",
+    "icon": "7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64",
     "slug": "recipe-alternate-bolted-iron-plate"
   },
   "recipe-alternate-casted-screw": {
@@ -212,7 +212,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1,
-    "icon": "images/7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck.64.png",
+    "icon": "7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck.64",
     "slug": "recipe-alternate-casted-screw"
   },
   "recipe-alternate-caterium-circuit-board": {
@@ -239,7 +239,7 @@
     ],
     "duration": 48,
     "manualMultiplier": 1,
-    "icon": "images/7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64.png",
+    "icon": "7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64",
     "slug": "recipe-alternate-caterium-circuit-board"
   },
   "recipe-alternate-caterium-computer": {
@@ -270,7 +270,7 @@
     ],
     "duration": 16,
     "manualMultiplier": 1,
-    "icon": "images/7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8.64.png",
+    "icon": "7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8.64",
     "slug": "recipe-alternate-caterium-computer"
   },
   "recipe-alternate-caterium-wire": {
@@ -293,7 +293,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 1,
-    "icon": "images/7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64.png",
+    "icon": "7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64",
     "slug": "recipe-alternate-caterium-wire"
   },
   "recipe-alternate-cheap-silica": {
@@ -320,7 +320,7 @@
     ],
     "duration": 16,
     "manualMultiplier": 1,
-    "icon": "images/7Ji1qa0TCwIsQCayegASKg3UpK7qz3Xag06YoiwgQQqC.64.png",
+    "icon": "7Ji1qa0TCwIsQCayegASKg3UpK7qz3Xag06YoiwgQQqC.64",
     "slug": "recipe-alternate-cheap-silica"
   },
   "recipe-alternate-coated-cable": {
@@ -347,7 +347,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 1,
-    "icon": "images/7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64.png",
+    "icon": "7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64",
     "slug": "recipe-alternate-coated-cable"
   },
   "recipe-alternate-coated-iron-plate": {
@@ -374,7 +374,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo.64.png",
+    "icon": "7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo.64",
     "slug": "recipe-alternate-coated-iron-plate"
   },
   "recipe-alternate-coke-steel-ingot": {
@@ -401,7 +401,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64.png",
+    "icon": "7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64",
     "slug": "recipe-alternate-coke-steel-ingot"
   },
   "recipe-alternate-compacted-coal": {
@@ -428,7 +428,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N426C5PNeqMUYS40ACqy84oc5mrUUnKwiMw8MYwMeq2.64.png",
+    "icon": "7N426C5PNeqMUYS40ACqy84oc5mrUUnKwiMw8MYwMeq2.64",
     "slug": "recipe-alternate-compacted-coal"
   },
   "recipe-alternate-compacted-steel-ingot": {
@@ -455,7 +455,7 @@
     ],
     "duration": 16,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64.png",
+    "icon": "7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64",
     "slug": "recipe-alternate-compacted-steel-ingot"
   },
   "recipe-alternate-copper-alloy-ingot": {
@@ -482,7 +482,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W.64.png",
+    "icon": "7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W.64",
     "slug": "recipe-alternate-copper-alloy-ingot"
   },
   "recipe-alternate-copper-rotor": {
@@ -509,7 +509,7 @@
     ],
     "duration": 16,
     "manualMultiplier": 1,
-    "icon": "images/7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC.64.png",
+    "icon": "7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC.64",
     "slug": "recipe-alternate-copper-rotor"
   },
   "recipe-alternate-crystal-beacon": {
@@ -566,7 +566,7 @@
     ],
     "duration": 64,
     "manualMultiplier": 1,
-    "icon": "images/7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8.64.png",
+    "icon": "7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8.64",
     "slug": "recipe-alternate-crystal-computer"
   },
   "recipe-alternate-diluted-packaged-fuel": {
@@ -623,7 +623,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7N41NpQ8NOOgWSE4Y626oA40n03SSxhSakCkIoKO68MA.64.png",
+    "icon": "7N41NpQ8NOOgWSE4Y626oA40n03SSxhSakCkIoKO68MA.64",
     "slug": "recipe-alternate-electrode-aluminum-scrap"
   },
   "recipe-alternate-electrode-circuit-board": {
@@ -650,7 +650,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64.png",
+    "icon": "7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64",
     "slug": "recipe-alternate-electrode-circuit-board"
   },
   "recipe-alternate-electromagnetic-connection-rod": {
@@ -677,7 +677,7 @@
     ],
     "duration": 60,
     "manualMultiplier": 1,
-    "icon": "images/7N42dfyb1mOgWauaiGQOkS6OMFesktpYMeq4u6eqEuIa.64.png",
+    "icon": "7N42dfyb1mOgWauaiGQOkS6OMFesktpYMeq4u6eqEuIa.64",
     "slug": "recipe-alternate-electromagnetic-connection-rod"
   },
   "recipe-alternate-encased-industrial-pipe": {
@@ -704,7 +704,7 @@
     ],
     "duration": 15,
     "manualMultiplier": 1,
-    "icon": "images/7N41ZE2KooGCKcMyO6KAqE3ERbIcQg80w0sOCuciCAIq.64.png",
+    "icon": "7N41ZE2KooGCKcMyO6KAqE3ERbIcQg80w0sOCuciCAIq.64",
     "slug": "recipe-alternate-encased-industrial-pipe"
   },
   "recipe-alternate-fine-black-powder": {
@@ -731,7 +731,7 @@
     ],
     "duration": 16,
     "manualMultiplier": 1,
-    "icon": "images/7ycGWFxPVKoKcIMMgcWaOA6OYviOGHJu0qYoU2GIoiWM.64.png",
+    "icon": "7ycGWFxPVKoKcIMMgcWaOA6OYviOGHJu0qYoU2GIoiWM.64",
     "slug": "recipe-alternate-fine-black-powder"
   },
   "recipe-alternate-fine-concrete": {
@@ -758,7 +758,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1,
-    "icon": "images/7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64.png",
+    "icon": "7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64",
     "slug": "recipe-alternate-fine-concrete"
   },
   "recipe-alternate-flexible-framework": {
@@ -815,7 +815,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 1,
-    "icon": "images/7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8.64.png",
+    "icon": "7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8.64",
     "slug": "recipe-alternate-fused-quckwire"
   },
   "recipe-alternate-fused-wire": {
@@ -842,7 +842,7 @@
     ],
     "duration": 20,
     "manualMultiplier": 1,
-    "icon": "images/7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64.png",
+    "icon": "7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64",
     "slug": "recipe-alternate-fused-wire"
   },
   "recipe-alternate-heat-exchanger": {
@@ -903,7 +903,7 @@
     ],
     "duration": 64,
     "manualMultiplier": 1,
-    "icon": "images/7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG.64.png",
+    "icon": "7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG.64",
     "slug": "recipe-alternate-heavy-encased-frame"
   },
   "recipe-alternate-heavy-flexible-frame": {
@@ -938,7 +938,7 @@
     ],
     "duration": 16,
     "manualMultiplier": 1,
-    "icon": "images/7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG.64.png",
+    "icon": "7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG.64",
     "slug": "recipe-alternate-heavy-flexible-frame"
   },
   "recipe-alternate-heavy-oil-residue": {
@@ -965,7 +965,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-alternate-heavy-oil-residue"
   },
   "recipe-alternate-high-speed-wiring": {
@@ -1030,7 +1030,7 @@
     ],
     "duration": 120,
     "manualMultiplier": 1,
-    "icon": "images/7N3YGwNVmM2K2G6KWGaSyy4723x3vj8c22MAKgMuKCOA.64.png",
+    "icon": "7N3YGwNVmM2K2G6KWGaSyy4723x3vj8c22MAKgMuKCOA.64",
     "slug": "recipe-alternate-infused-uranium-cell"
   },
   "recipe-alternate-insulated-cable": {
@@ -1057,7 +1057,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64.png",
+    "icon": "7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64",
     "slug": "recipe-alternate-insulated-cable"
   },
   "recipe-alternate-insulated-crystal-oscillator": {
@@ -1088,7 +1088,7 @@
     ],
     "duration": 32,
     "manualMultiplier": 1,
-    "icon": "images/7FZhJVM03S2UuEMIcwKuIe6S6iGjtXzywQ4QGewK0YMI.64.png",
+    "icon": "7FZhJVM03S2UuEMIcwKuIe6S6iGjtXzywQ4QGewK0YMI.64",
     "slug": "recipe-alternate-insulated-crystal-oscillator"
   },
   "recipe-alternate-iron-alloy-ingot": {
@@ -1115,7 +1115,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc.64.png",
+    "icon": "7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc.64",
     "slug": "recipe-alternate-iron-alloy-ingot"
   },
   "recipe-alternate-iron-wire": {
@@ -1138,7 +1138,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1,
-    "icon": "images/7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64.png",
+    "icon": "7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64",
     "slug": "recipe-alternate-iron-wire"
   },
   "recipe-alternate-nuclear-fuel-unit": {
@@ -1173,7 +1173,7 @@
     ],
     "duration": 300,
     "manualMultiplier": 1,
-    "icon": "images/7qTjLs4vn2wwUUaQmem6q27iZrpdTd5KssKC22sUOoMs.64.png",
+    "icon": "7qTjLs4vn2wwUUaQmem6q27iZrpdTd5KssKC22sUOoMs.64",
     "slug": "recipe-alternate-nuclear-fuel-unit"
   },
   "recipe-alternate-plastic-smart-plating": {
@@ -1230,7 +1230,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N42agcQEwSG4c2GuA6ygM5XH80xNhRKk4QM2mm28Ie2.64.png",
+    "icon": "7N42agcQEwSG4c2GuA6ygM5XH80xNhRKk4QM2mm28Ie2.64",
     "slug": "recipe-alternate-polyester-fabric"
   },
   "recipe-alternate-polymer-resin": {
@@ -1257,7 +1257,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7N42agarvy0WocuuWiEGGA5QFbR8cesgI82oyC6oWasY.64.png",
+    "icon": "7N42agarvy0WocuuWiEGGA5QFbR8cesgI82oyC6oWasY.64",
     "slug": "recipe-alternate-polymer-resin"
   },
   "recipe-alternate-pure-aluminum-ingot": {
@@ -1280,7 +1280,7 @@
     ],
     "duration": 5,
     "manualMultiplier": 1,
-    "icon": "images/7N422Y4rJYiGMA24W8aKuG4xazv4dY9yKWwUiKqwoSgK.64.png",
+    "icon": "7N422Y4rJYiGMA24W8aKuG4xazv4dY9yKWwUiKqwoSgK.64",
     "slug": "recipe-alternate-pure-aluminum-ingot"
   },
   "recipe-alternate-pure-caterium-ingot": {
@@ -1307,7 +1307,7 @@
     ],
     "duration": 5,
     "manualMultiplier": 1,
-    "icon": "images/7N41MFvUxUGyoaquC4yqKy6vPa08mrmgaccyYkSiAuUq.64.png",
+    "icon": "7N41MFvUxUGyoaquC4yqKy6vPa08mrmgaccyYkSiAuUq.64",
     "slug": "recipe-alternate-pure-caterium-ingot"
   },
   "recipe-alternate-pure-copper-ingot": {
@@ -1334,7 +1334,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1,
-    "icon": "images/7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W.64.png",
+    "icon": "7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W.64",
     "slug": "recipe-alternate-pure-copper-ingot"
   },
   "recipe-alternate-pure-iron-ingot": {
@@ -1361,7 +1361,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc.64.png",
+    "icon": "7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc.64",
     "slug": "recipe-alternate-pure-iron-ingot"
   },
   "recipe-alternate-pure-quartz-crystal": {
@@ -1388,7 +1388,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 1,
-    "icon": "images/7N41m4Z5XUiKCQYK0aUg4y639qr83ex2O2YoGww0ysAe.64.png",
+    "icon": "7N41m4Z5XUiKCQYK0aUg4y639qr83ex2O2YoGww0ysAe.64",
     "slug": "recipe-alternate-pure-quartz-crystal"
   },
   "recipe-alternate-quickwire-cable": {
@@ -1415,7 +1415,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1,
-    "icon": "images/7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64.png",
+    "icon": "7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64",
     "slug": "recipe-alternate-quickwire-cable"
   },
   "recipe-alternate-quickwire-stator": {
@@ -1442,7 +1442,7 @@
     ],
     "duration": 15,
     "manualMultiplier": 1,
-    "icon": "images/7N40tBeLRYs64cggasC4Kg4K5jpIgIo8emkQOMYmKaUq.64.png",
+    "icon": "7N40tBeLRYs64cggasC4Kg4K5jpIgIo8emkQOMYmKaUq.64",
     "slug": "recipe-alternate-quickwire-stator"
   },
   "recipe-alternate-radio-control-system": {
@@ -1499,7 +1499,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU.64.png",
+    "icon": "7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU.64",
     "slug": "recipe-alternate-recycled-plastic"
   },
   "recipe-alternate-recycled-rubber": {
@@ -1526,7 +1526,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8.64.png",
+    "icon": "7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8.64",
     "slug": "recipe-alternate-recycled-rubber"
   },
   "recipe-alternate-rigour-motor": {
@@ -1557,7 +1557,7 @@
     ],
     "duration": 40,
     "manualMultiplier": 1,
-    "icon": "images/7kL2idF7XicEOsOWsaMQuG5lasWIQ4neoAg2COmaSOk6.64.png",
+    "icon": "7kL2idF7XicEOsOWsaMQuG5lasWIQ4neoAg2COmaSOk6.64",
     "slug": "recipe-alternate-rigour-motor"
   },
   "recipe-alternate-rubber-concrete": {
@@ -1584,7 +1584,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64.png",
+    "icon": "7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64",
     "slug": "recipe-alternate-rubber-concrete"
   },
   "recipe-alternate-seismic-nobelisk": {
@@ -1615,7 +1615,7 @@
     ],
     "duration": 40,
     "manualMultiplier": 1,
-    "icon": "images/6Ss9vMKuR2OQcWgEwc6oqG7iVNCcHraMmIai6GmK2ac8.64.png",
+    "icon": "6Ss9vMKuR2OQcWgEwc6oqG7iVNCcHraMmIai6GmK2ac8.64",
     "slug": "recipe-alternate-seismic-nobelisk"
   },
   "recipe-alternate-silicone-circuit-board": {
@@ -1642,7 +1642,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1,
-    "icon": "images/7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64.png",
+    "icon": "7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64",
     "slug": "recipe-alternate-silicone-circuit-board"
   },
   "recipe-alternate-silicone-high-speed-connector": {
@@ -1673,7 +1673,7 @@
     ],
     "duration": 40,
     "manualMultiplier": 1,
-    "icon": "images/7N42dglnO0Ge2o0uekCySU7ch58bY3WEseIQQGoYas.64.png",
+    "icon": "7N42dglnO0Ge2o0uekCySU7ch58bY3WEseIQQGoYas.64",
     "slug": "recipe-alternate-silicone-high-speed-connector"
   },
   "recipe-alternate-solid-steel-ingot": {
@@ -1700,7 +1700,7 @@
     ],
     "duration": 3,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64.png",
+    "icon": "7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64",
     "slug": "recipe-alternate-solid-steel-ingot"
   },
   "recipe-alternate-steamed-copper-sheet": {
@@ -1727,7 +1727,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 1,
-    "icon": "images/7N42dfzMNaQUSaaIqeYMY86QCTRQ6ctU6c6O44QIcmC0.64.png",
+    "icon": "7N42dfzMNaQUSaaIqeYMY86QCTRQ6ctU6c6O44QIcmC0.64",
     "slug": "recipe-alternate-steamed-copper-sheet"
   },
   "recipe-alternate-steel-coated-plate": {
@@ -1754,7 +1754,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1,
-    "icon": "images/7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo.64.png",
+    "icon": "7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo.64",
     "slug": "recipe-alternate-steel-coated-plate"
   },
   "recipe-alternate-steel-rod": {
@@ -1777,7 +1777,7 @@
     ],
     "duration": 5,
     "manualMultiplier": 1,
-    "icon": "images/7N0nvS2MJUs4yG0Ckk2G6Y7brhNWuC6A8Agykw8w2uwE.64.png",
+    "icon": "7N0nvS2MJUs4yG0Ckk2G6Y7brhNWuC6A8Agykw8w2uwE.64",
     "slug": "recipe-alternate-steel-rod"
   },
   "recipe-alternate-steel-rotor": {
@@ -1804,7 +1804,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC.64.png",
+    "icon": "7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC.64",
     "slug": "recipe-alternate-steel-rotor"
   },
   "recipe-alternate-steel-screw": {
@@ -1827,7 +1827,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck.64.png",
+    "icon": "7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck.64",
     "slug": "recipe-alternate-steel-screw"
   },
   "recipe-alternate-steeled-frame": {
@@ -1854,7 +1854,7 @@
     ],
     "duration": 60,
     "manualMultiplier": 1,
-    "icon": "images/7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu.64.png",
+    "icon": "7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu.64",
     "slug": "recipe-alternate-steeled-frame"
   },
   "recipe-alternate-stitched-iron-plate": {
@@ -1881,7 +1881,7 @@
     ],
     "duration": 32,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64.png",
+    "icon": "7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64",
     "slug": "recipe-alternate-stitched-iron-plate"
   },
   "recipe-alternate-turbo-heavy-fuel": {
@@ -1908,7 +1908,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-alternate-turbo-heavy-fuel"
   },
   "recipe-alternate-turbo-rigour-motor": {
@@ -1943,7 +1943,7 @@
     ],
     "duration": 64,
     "manualMultiplier": 1,
-    "icon": "images/7kL2idF7biM0Uq2YESIKmy5laVdzIN3yweagYEW6g0Ew.64.png",
+    "icon": "7kL2idF7biM0Uq2YESIKmy5laVdzIN3yweagYEW6g0Ew.64",
     "slug": "recipe-alternate-turbo-rigour-motor"
   },
   "recipe-alternate-wet-concrete": {
@@ -1970,7 +1970,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64.png",
+    "icon": "7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64",
     "slug": "recipe-alternate-wet-concrete"
   },
   "recipe-alternate-wood-coal": {
@@ -1993,7 +1993,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU.64.png",
+    "icon": "7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU.64",
     "slug": "recipe-alternate-wood-coal"
   },
   "recipe-alumina-solution": {
@@ -2024,7 +2024,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-alumina-solution"
   },
   "recipe-aluminum-ingot": {
@@ -2052,7 +2052,7 @@
     ],
     "duration": 3,
     "manualMultiplier": 1,
-    "icon": "images/7N422Y4rJYiGMA24W8aKuG4xazv4dY9yKWwUiKqwoSgK.64.png",
+    "icon": "7N422Y4rJYiGMA24W8aKuG4xazv4dY9yKWwUiKqwoSgK.64",
     "slug": "recipe-aluminum-ingot"
   },
   "recipe-aluminum-scrap": {
@@ -2083,7 +2083,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N41NpQ8NOOgWSE4Y626oA40n03SSxhSakCkIoKO68MA.64.png",
+    "icon": "7N41NpQ8NOOgWSE4Y626oA40n03SSxhSakCkIoKO68MA.64",
     "slug": "recipe-aluminum-scrap"
   },
   "recipe-assembler": {
@@ -2114,7 +2114,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N4287eTBYkkOacWk4Kw6a7yHMXsd7os8a8GoEWK8wKi.64.png",
+    "icon": "7N4287eTBYkkOacWk4Kw6a7yHMXsd7os8a8GoEWK8wKi.64",
     "slug": "recipe-assembler"
   },
   "recipe-automated-wiring": {
@@ -2171,7 +2171,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7JwFqtuTwQGOi6KcaiYe4a6UwaOWdHpK6A8ouSymmWcy.64.png",
+    "icon": "7JwFqtuTwQGOi6KcaiYe4a6UwaOWdHpK6A8ouSymmWcy.64",
     "slug": "recipe-awesome-shop"
   },
   "recipe-awesome-sink": {
@@ -2202,7 +2202,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7MErtJpMfCGSmAS66CawmC7E9WTLXmqkuqwY0QwuqCIO.64.png",
+    "icon": "7MErtJpMfCGSmAS66CawmC7E9WTLXmqkuqwY0QwuqCIO.64",
     "slug": "recipe-awesome-sink"
   },
   "recipe-battery": {
@@ -2238,7 +2238,7 @@
     ],
     "duration": 32,
     "manualMultiplier": 1,
-    "icon": "images/7Mm9HAuwZGaaMmiS6mKKES5Qldty9RUASQsIAScc4kEu.64.png",
+    "icon": "7Mm9HAuwZGaaMmiS6mKKES5Qldty9RUASQsIAScc4kEu.64",
     "slug": "recipe-battery"
   },
   "recipe-bauxite": {
@@ -2261,7 +2261,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7N42afPvOg4wqe06WEsQoE3U3HaDOGHYuWIGeU0aA0Mk.64.png",
+    "icon": "7N42afPvOg4wqe06WEsQoE3U3HaDOGHYuWIGeU0aA0Mk.64",
     "slug": "recipe-bauxite"
   },
   "recipe-beacon": {
@@ -2373,7 +2373,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7Ji2WwDaBayUwua6Kckcgo5UTAJ54MAoUcEqImIKoka4.64.png",
+    "icon": "7Ji2WwDaBayUwua6Kckcgo5UTAJ54MAoUcEqImIKoka4.64",
     "slug": "recipe-biomass-burner"
   },
   "recipe-biomass-leaves": {
@@ -2471,7 +2471,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 0.5,
-    "icon": "images/7ycGWFxPVKoKcIMMgcWaOA6OYviOGHJu0qYoU2GIoiWM.64.png",
+    "icon": "7ycGWFxPVKoKcIMMgcWaOA6OYviOGHJu0qYoU2GIoiWM.64",
     "slug": "recipe-black-powder"
   },
   "recipe-blade-runners": {
@@ -2525,7 +2525,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64.png",
+    "icon": "7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64",
     "slug": "recipe-cable"
   },
   "recipe-cartridge": {
@@ -2562,7 +2562,7 @@
     ],
     "duration": 20,
     "manualMultiplier": 1,
-    "icon": "images/414LfZyMPYGW6mYoSIqyUk7iVO3xRQDmQugk0UMYyMu2.64.png",
+    "icon": "414LfZyMPYGW6mYoSIqyUk7iVO3xRQDmQugk0UMYyMu2.64",
     "slug": "recipe-cartridge"
   },
   "recipe-caterium-ingot": {
@@ -2586,7 +2586,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 2,
-    "icon": "images/7N41MFvUxUGyoaquC4yqKy6vPa08mrmgaccyYkSiAuUq.64.png",
+    "icon": "7N41MFvUxUGyoaquC4yqKy6vPa08mrmgaccyYkSiAuUq.64",
     "slug": "recipe-caterium-ingot"
   },
   "recipe-caterium-ore": {
@@ -2609,7 +2609,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7N3YKVmqqsCM88MwQoqMs05PmLDwWWDmSgqaMa2E2IMQ.64.png",
+    "icon": "7N3YKVmqqsCM88MwQoqMs05PmLDwWWDmSgqaMa2E2IMQ.64",
     "slug": "recipe-caterium-ore"
   },
   "recipe-chainsaw": {
@@ -2644,7 +2644,7 @@
     ],
     "duration": 60,
     "manualMultiplier": 1,
-    "icon": "images/3TwFR5iDTW8iwUgqAsKeK47xYxUvWLVCwmGawmmeYWa0.64.png",
+    "icon": "3TwFR5iDTW8iwUgqAsKeK47xYxUvWLVCwmGawmmeYWa0.64",
     "slug": "recipe-chainsaw"
   },
   "recipe-circuit-board": {
@@ -2672,7 +2672,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 1,
-    "icon": "images/7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64.png",
+    "icon": "7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64",
     "slug": "recipe-circuit-board"
   },
   "recipe-coal": {
@@ -2695,7 +2695,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU.64.png",
+    "icon": "7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU.64",
     "slug": "recipe-coal"
   },
   "recipe-coal-generator": {
@@ -2726,7 +2726,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/65omEHqS76uG0kAguSY4wO5U0JYzAn3UeWsiWM6A64kY.64.png",
+    "icon": "65omEHqS76uG0kAguSY4wO5U0JYzAn3UeWsiWM6A64kY.64",
     "slug": "recipe-coal-generator"
   },
   "recipe-color-cartridge": {
@@ -2751,7 +2751,7 @@
     ],
     "duration": 40,
     "manualMultiplier": 1,
-    "icon": "images/7JLgMvGRPO8c6wKO0Y6cMu6Q9Eu6zADm2kOGi4UA6igO.64.png",
+    "icon": "7JLgMvGRPO8c6wKO0Y6cMu6Q9Eu6zADm2kOGi4UA6igO.64",
     "slug": "recipe-color-cartridge"
   },
   "recipe-color-gun": {
@@ -2782,7 +2782,7 @@
     ],
     "duration": 80,
     "manualMultiplier": 1,
-    "icon": "images/7JwFEcpbbiMGKkEmMcwY8G3TxSeTrOq4uoWusym4KKYa.64.png",
+    "icon": "7JwFEcpbbiMGKkEmMcwY8G3TxSeTrOq4uoWusym4KKYa.64",
     "slug": "recipe-color-gun"
   },
   "recipe-computer": {
@@ -2818,7 +2818,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1.5,
-    "icon": "images/7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8.64.png",
+    "icon": "7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8.64",
     "slug": "recipe-computer"
   },
   "recipe-concrete": {
@@ -2842,7 +2842,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 1,
-    "icon": "images/7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64.png",
+    "icon": "7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64",
     "slug": "recipe-concrete"
   },
   "recipe-constructor": {
@@ -2869,7 +2869,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42bo1cIgSKqKGYYUCWSI7yjYDJvP20WM2mYQSCIECW.64.png",
+    "icon": "7N42bo1cIgSKqKGYYUCWSI7yjYDJvP20WM2mYQSCIECW.64",
     "slug": "recipe-constructor"
   },
   "recipe-conveyor-belt": {
@@ -2892,7 +2892,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dglGwwWmQucWomCcw07cgRZsyF20CggyIMsySE.64.png",
+    "icon": "7N42dglGwwWmQucWomCcw07cgRZsyF20CggyIMsySE.64",
     "slug": "recipe-conveyor-belt"
   },
   "recipe-conveyor-belt-mk2": {
@@ -2915,7 +2915,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dglGwgqkMmWqmiuW0u7cgRWi2qycWuACIiq448.64.png",
+    "icon": "7N42dglGwgqkMmWqmiuW0u7cgRWi2qycWuACIiq448.64",
     "slug": "recipe-conveyor-belt-mk2"
   },
   "recipe-conveyor-belt-mk3": {
@@ -2938,7 +2938,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgkSBO4kqEG4CaMiCI7ch5eA81qwCMMcAa0cc0.64.png",
+    "icon": "7N42dgkSBO4kqEG4CaMiCI7ch5eA81qwCMMcAa0cc0.64",
     "slug": "recipe-conveyor-belt-mk3"
   },
   "recipe-conveyor-belt-mk4": {
@@ -2961,7 +2961,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N41SFWQjSe2awW6IC68Yo3U02lBQTTqIGQcCy862k0Y.64.png",
+    "icon": "7N41SFWQjSe2awW6IC68Yo3U02lBQTTqIGQcCy862k0Y.64",
     "slug": "recipe-conveyor-belt-mk4"
   },
   "recipe-conveyor-belt-mk5": {
@@ -2984,7 +2984,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N41SFTCFiKUGqo8K682Si3YIw9rwI0w6OuCkcIM4ewe.64.png",
+    "icon": "7N41SFTCFiKUGqo8K682Si3YIw9rwI0w6OuCkcIM4ewe.64",
     "slug": "recipe-conveyor-belt-mk5"
   },
   "recipe-conveyor-lift": {
@@ -3007,7 +3007,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.64.png",
+    "icon": "7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.64",
     "slug": "recipe-conveyor-lift"
   },
   "recipe-conveyor-lift-mk2": {
@@ -3030,7 +3030,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.64.png",
+    "icon": "7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.64",
     "slug": "recipe-conveyor-lift-mk2"
   },
   "recipe-conveyor-lift-mk3": {
@@ -3053,7 +3053,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7FKGn2ihwc44k8s0Au0mOi7iZrpdWqK4qw6s4YmeoYQu.64.png",
+    "icon": "7FKGn2ihwc44k8s0Au0mOi7iZrpdWqK4qw6s4YmeoYQu.64",
     "slug": "recipe-conveyor-lift-mk3"
   },
   "recipe-conveyor-lift-mk4": {
@@ -3076,7 +3076,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.64.png",
+    "icon": "7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.64",
     "slug": "recipe-conveyor-lift-mk4"
   },
   "recipe-conveyor-lift-mk5": {
@@ -3099,7 +3099,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.64.png",
+    "icon": "7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.64",
     "slug": "recipe-conveyor-lift-mk5"
   },
   "recipe-conveyor-merger": {
@@ -3126,7 +3126,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7Ji2j4gHzU0iuQ6cOcKcmC5S9zRTAbfOKiuEIqGOewsM.64.png",
+    "icon": "7Ji2j4gHzU0iuQ6cOcKcmC5S9zRTAbfOKiuEIqGOewsM.64",
     "slug": "recipe-conveyor-merger"
   },
   "recipe-conveyor-pole": {
@@ -3157,7 +3157,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42deHQQ0sGuygoaGM2gQ7jktFi3GpiuAIEa6GWUwoK.64.png",
+    "icon": "7N42deHQQ0sGuygoaGM2gQ7jktFi3GpiuAIEa6GWUwoK.64",
     "slug": "recipe-conveyor-pole"
   },
   "recipe-conveyor-pole-stackable": {
@@ -3214,7 +3214,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7Ji2j4gEq4IseaU8ksAwM06Sj4pKy8essyUie6e6YscI.64.png",
+    "icon": "7Ji2j4gEq4IseaU8ksAwM06Sj4pKy8essyUie6e6YscI.64",
     "slug": "recipe-conveyor-splitter"
   },
   "recipe-conveyor-wall-mount": {
@@ -3245,7 +3245,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5tCCQsMcmemUoI831Kff8YTYAg44KY2K0.64.png",
+    "icon": "7N42dgm5tCCQsMcmemUoI831Kff8YTYAg44KY2K0.64",
     "slug": "recipe-conveyor-wall-mount"
   },
   "recipe-copper-ingot": {
@@ -3269,7 +3269,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 3,
-    "icon": "images/7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W.64.png",
+    "icon": "7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W.64",
     "slug": "recipe-copper-ingot"
   },
   "recipe-copper-ore": {
@@ -3292,7 +3292,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5sk2G88UM42gmE06r5LGGbrEIoyyIWYAi0yYs.64.png",
+    "icon": "7N42dgm5sk2G88UM42gmE06r5LGGbrEIoyyIWYAi0yYs.64",
     "slug": "recipe-copper-ore"
   },
   "recipe-copper-sheet": {
@@ -3316,7 +3316,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7N42dfzMNaQUSaaIqeYMY86QCTRQ6ctU6c6O44QIcmC0.64.png",
+    "icon": "7N42dfzMNaQUSaaIqeYMY86QCTRQ6ctU6c6O44QIcmC0.64",
     "slug": "recipe-copper-sheet"
   },
   "recipe-corner-ramp-down-8m-x-1m": {
@@ -3475,7 +3475,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5tm6OoEWQciM8c66zZPLbCYaQCwYkUC0Wis0I.64.png",
+    "icon": "7N42dgm5tm6OoEWQciM8c66zZPLbCYaQCwYkUC0Wis0I.64",
     "slug": "recipe-craft-bench"
   },
   "recipe-crude-oil": {
@@ -3498,7 +3498,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-crude-oil"
   },
   "recipe-crystal-oscillator": {
@@ -3530,7 +3530,7 @@
     ],
     "duration": 120,
     "manualMultiplier": 0.3,
-    "icon": "images/7FZhJVM03S2UuEMIcwKuIe6S6iGjtXzywQ4QGewK0YMI.64.png",
+    "icon": "7FZhJVM03S2UuEMIcwKuIe6S6iGjtXzywQ4QGewK0YMI.64",
     "slug": "recipe-crystal-oscillator"
   },
   "recipe-curved-corner-foundation": {
@@ -3724,7 +3724,7 @@
     ],
     "duration": 30,
     "manualMultiplier": 1,
-    "icon": "images/7N42dfyb1mOgWauaiGQOkS6OMFesktpYMeq4u6eqEuIa.64.png",
+    "icon": "7N42dfyb1mOgWauaiGQOkS6OMFesktpYMeq4u6eqEuIa.64",
     "slug": "recipe-electromagnetic-control-rod"
   },
   "recipe-empty-canister": {
@@ -3748,7 +3748,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7LaOy6tXLU0GO86yuyMCio4133cp7s9aWW8OmSUSUEs2.64.png",
+    "icon": "7LaOy6tXLU0GO86yuyMCio4133cp7s9aWW8OmSUSUEs2.64",
     "slug": "recipe-empty-canister"
   },
   "recipe-empty-platform": {
@@ -3802,7 +3802,7 @@
     ],
     "duration": 10,
     "manualMultiplier": 1,
-    "icon": "images/7N41ZE2KooGCKcMyO6KAqE3ERbIcQg80w0sOCuciCAIq.64.png",
+    "icon": "7N41ZE2KooGCKcMyO6KAqE3ERbIcQg80w0sOCuciCAIq.64",
     "slug": "recipe-encased-industrial-beam"
   },
   "recipe-encased-uranium-cell": {
@@ -3830,7 +3830,7 @@
     ],
     "duration": 60,
     "manualMultiplier": 0.5,
-    "icon": "images/7N3YGwNVmM2K2G6KWGaSyy4723x3vj8c22MAKgMuKCOA.64.png",
+    "icon": "7N3YGwNVmM2K2G6KWGaSyy4723x3vj8c22MAKgMuKCOA.64",
     "slug": "recipe-encased-uranium-cell"
   },
   "recipe-equipment-workshop": {
@@ -3857,7 +3857,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgiRYQeSaWUoeMGwyS5QLF0rX0eAMEoos8qaMIMo.64.png",
+    "icon": "7N42dgiRYQeSaWUoeMGwyS5QLF0rX0eAMEoos8qaMIMo.64",
     "slug": "recipe-equipment-workshop"
   },
   "recipe-fabric": {
@@ -3885,7 +3885,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 1,
-    "icon": "images/7N42agcQEwSG4c2GuA6ygM5XH80xNhRKk4QM2mm28Ie2.64.png",
+    "icon": "7N42agcQEwSG4c2GuA6ygM5XH80xNhRKk4QM2mm28Ie2.64",
     "slug": "recipe-fabric"
   },
   "recipe-factory-cart": {
@@ -3938,7 +3938,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N1icBSSGIkkI80o6cCo0i7j6J07ivbUOoaYmAsiOkci.64.png",
+    "icon": "7N1icBSSGIkkI80o6cCo0i7j6J07ivbUOoaYmAsiOkci.64",
     "slug": "recipe-fence-1"
   },
   "recipe-filter": {
@@ -3971,7 +3971,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 1,
-    "icon": "images/7N41MFCmhqi0ymKkioO0a87n9bUeC8yACcEU4mmA0q4y.64.png",
+    "icon": "7N41MFCmhqi0ymKkioO0a87n9bUeC8yACcEU4mmA0q4y.64",
     "slug": "recipe-filter"
   },
   "recipe-foundation-8m-x-1m": {
@@ -4112,7 +4112,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7LeGV48qdOMgaEmS0UMYeA6k24j9MNhYE6w2sK2e8SO6.64.png",
+    "icon": "7LeGV48qdOMgaEmS0UMYeA6k24j9MNhYE6w2sK2e8SO6.64",
     "slug": "recipe-foundry"
   },
   "recipe-freight-platform": {
@@ -4215,7 +4215,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-fuel"
   },
   "recipe-fuel-generator": {
@@ -4254,7 +4254,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7KexLdcNXiusCMmKg8oMgM7nABRREvMke0ioSAsKGaSe.64.png",
+    "icon": "7KexLdcNXiusCMmKg8oMgM7nABRREvMke0ioSAsKGaSe.64",
     "slug": "recipe-fuel-generator"
   },
   "recipe-gas-mask": {
@@ -4285,7 +4285,7 @@
     ],
     "duration": 80,
     "manualMultiplier": 1,
-    "icon": "images/3TwFQk2g4U6KikWqaE8Ywc5ReXXKMkAoYeSoQCAGimce.64.png",
+    "icon": "3TwFQk2g4U6KikWqaE8Ywc5ReXXKMkAoYeSoQCAGimce.64",
     "slug": "recipe-gas-mask"
   },
   "recipe-gate-8m-x-4m": {
@@ -4350,7 +4350,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7iZrpdTd5KssKC22sUOoMs7ycHPfhHvqgUqsim2w8QsE.64.png",
+    "icon": "7iZrpdTd5KssKC22sUOoMs7ycHPfhHvqgUqsim2w8QsE.64",
     "slug": "recipe-geo-thermal-generator"
   },
   "recipe-hazmat-suit": {
@@ -4447,7 +4447,7 @@
     ],
     "duration": 30,
     "manualMultiplier": 0.6,
-    "icon": "images/7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG.64.png",
+    "icon": "7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG.64",
     "slug": "recipe-heavy-modular-frame"
   },
   "recipe-high-speed-connector": {
@@ -4479,7 +4479,7 @@
     ],
     "duration": 16,
     "manualMultiplier": 1,
-    "icon": "images/7N42dglnO0Ge2o0uekCySU7ch58bY3WEseIQQGoYas.64.png",
+    "icon": "7N42dglnO0Ge2o0uekCySU7ch58bY3WEseIQQGoYas.64",
     "slug": "recipe-high-speed-connector"
   },
   "recipe-hyper-tube": {
@@ -4506,7 +4506,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5qgUsGemcUMKkAS5oWVg4mKicuSgWSmkOEceG.64.png",
+    "icon": "7N42dgm5qgUsGemcUMKkAS5oWVg4mKicuSgWSmkOEceG.64",
     "slug": "recipe-hyper-tube"
   },
   "recipe-hyper-tube-entrance": {
@@ -4537,7 +4537,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N40rTgGQM08Q8WCsKqwY44RzDDJybRKAcQ2uUIwCAM8.64.png",
+    "icon": "7N40rTgGQM08Q8WCsKqwY44RzDDJybRKAcQ2uUIwCAM8.64",
     "slug": "recipe-hyper-tube-entrance"
   },
   "recipe-hyper-tube-support": {
@@ -4564,7 +4564,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7yrjDtR0qI0g6kCo8QiSks6OJSzqPA4wkYeUcmGCYS4O.64.png",
+    "icon": "7yrjDtR0qI0g6kCo8QiSks6OJSzqPA4wkYeUcmGCYS4O.64",
     "slug": "recipe-hyper-tube-support"
   },
   "recipe-industrial-fluid-buffer-1": {
@@ -4643,7 +4643,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7Ket4d1BzGWCs26I0yCmiw6NLwqgH7Wg22og4UGiwkMS.64.png",
+    "icon": "7Ket4d1BzGWCs26I0yCmiw6NLwqgH7Wg22og4UGiwkMS.64",
     "slug": "recipe-industrial-storage-container"
   },
   "recipe-iodine-infused-filter": {
@@ -4676,7 +4676,7 @@
     ],
     "duration": 16,
     "manualMultiplier": 1,
-    "icon": "images/7LEhbUCYAou04S0CqgosM06OOtm5CVlmqmEC8GUqqoes.64.png",
+    "icon": "7LEhbUCYAou04S0CqgosM06OOtm5CVlmqmEC8GUqqoes.64",
     "slug": "recipe-iodine-infused-filter"
   },
   "recipe-iron-ingot": {
@@ -4700,7 +4700,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 3,
-    "icon": "images/7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc.64.png",
+    "icon": "7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc.64",
     "slug": "recipe-iron-ingot"
   },
   "recipe-iron-ore": {
@@ -4723,7 +4723,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgkzS0e2m2symWoSqw42WXpUhiViWoUOsmyc0OCg.64.png",
+    "icon": "7N42dgkzS0e2m2symWoSqw42WXpUhiViWoUOsmyc0OCg.64",
     "slug": "recipe-iron-ore"
   },
   "recipe-iron-plate": {
@@ -4747,7 +4747,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo.64.png",
+    "icon": "7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo.64",
     "slug": "recipe-iron-plate"
   },
   "recipe-iron-rod": {
@@ -4771,7 +4771,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 0.5,
-    "icon": "images/7N0nvS2MJUs4yG0Ckk2G6Y7brhNWuC6A8Agykw8w2uwE.64.png",
+    "icon": "7N0nvS2MJUs4yG0Ckk2G6Y7brhNWuC6A8Agykw8w2uwE.64",
     "slug": "recipe-iron-rod"
   },
   "recipe-jetpack": {
@@ -4806,7 +4806,7 @@
     ],
     "duration": 120,
     "manualMultiplier": 1,
-    "icon": "images/7JwFDLPkdO6EcGgSEmassa7y1IVyJBJYoCMuUy2guwYW.64.png",
+    "icon": "7JwFDLPkdO6EcGgSEmassa7y1IVyJBJYoCMuUy2guwYW.64",
     "slug": "recipe-jetpack"
   },
   "recipe-jump-pad": {
@@ -4859,7 +4859,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7N42dglMKAOCwquS0cEe2Y41z5IakevC2GkKuy4uSUsa.64.png",
+    "icon": "7N42dglMKAOCwquS0cEe2Y41z5IakevC2GkKuy4uSUsa.64",
     "slug": "recipe-limestone"
   },
   "recipe-liquid-biofuel": {
@@ -4886,7 +4886,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 1,
-    "icon": "images/7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.64.png",
+    "icon": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.64",
     "slug": "recipe-liquid-biofuel"
   },
   "recipe-lookout-tower": {
@@ -4913,7 +4913,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7ycGX6bIrYQMkUs42uAUWq7KexLdcNXiusCMmKg8oMgM.64.png",
+    "icon": "7ycGX6bIrYQMkUs42uAUWq7KexLdcNXiusCMmKg8oMgM.64",
     "slug": "recipe-lookout-tower"
   },
   "recipe-mam": {
@@ -4944,7 +4944,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N3W0YzzXioaQsQioy06CQ5BjS2Jqkc80MgkYciwiYo6.64.png",
+    "icon": "7N3W0YzzXioaQsQioy06CQ5BjS2Jqkc80MgkYciwiYo6.64",
     "slug": "recipe-mam"
   },
   "recipe-manufacturer": {
@@ -4979,7 +4979,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm4NiySQ44G0a2GQ07FxTp4Y7FmaAyq6A6GSOeY.64.png",
+    "icon": "7N42dgm4NiySQ44G0a2GQ07FxTp4Y7FmaAyq6A6GSOeY.64",
     "slug": "recipe-manufacturer"
   },
   "recipe-medicinal-inhaler": {
@@ -5010,7 +5010,7 @@
     ],
     "duration": 20,
     "manualMultiplier": 1,
-    "icon": "images/7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay.64.png",
+    "icon": "7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay.64",
     "slug": "recipe-medicinal-inhaler"
   },
   "recipe-medicinal-inhaler-alien-organs": {
@@ -5037,7 +5037,7 @@
     ],
     "duration": 20,
     "manualMultiplier": 1,
-    "icon": "images/7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay.64.png",
+    "icon": "7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay.64",
     "slug": "recipe-medicinal-inhaler-alien-organs"
   },
   "recipe-miner-mk1": {
@@ -5068,7 +5068,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7Mma2ofk4gaoyOoKY4Ccic7FzIlI24KsY6Gkek8uUu8i.64.png",
+    "icon": "7Mma2ofk4gaoyOoKY4Ccic7FzIlI24KsY6Gkek8uUu8i.64",
     "slug": "recipe-miner-mk1"
   },
   "recipe-miner-mk2": {
@@ -5103,7 +5103,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7LeHfOuije02yCA6msaWc47FzIzqWmooyW4y80MssecO.64.png",
+    "icon": "7LeHfOuije02yCA6msaWc47FzIzqWmooyW4y80MssecO.64",
     "slug": "recipe-miner-mk2"
   },
   "recipe-miner-mk3": {
@@ -5142,7 +5142,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7LeHfHQ8vYoe4QIyC0QsSW7FzIlI6UcoA4uc0WqWMmYO.64.png",
+    "icon": "7LeHfHQ8vYoe4QIyC0QsSW7FzIlI6UcoA4uc0WqWMmYO.64",
     "slug": "recipe-miner-mk3"
   },
   "recipe-modular-engine": {
@@ -5200,7 +5200,7 @@
     ],
     "duration": 60,
     "manualMultiplier": 0.5,
-    "icon": "images/7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu.64.png",
+    "icon": "7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu.64",
     "slug": "recipe-modular-frame"
   },
   "recipe-motor": {
@@ -5228,7 +5228,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 2,
-    "icon": "images/7kL2idF7XicEOsOWsaMQuG5lasWIQ4neoAg2COmaSOk6.64.png",
+    "icon": "7kL2idF7XicEOsOWsaMQuG5lasWIQ4neoAg2COmaSOk6.64",
     "slug": "recipe-motor"
   },
   "recipe-nobelisk": {
@@ -5256,7 +5256,7 @@
     ],
     "duration": 20,
     "manualMultiplier": 1,
-    "icon": "images/6Ss9vMKuR2OQcWgEwc6oqG7iVNCcHraMmIai6GmK2ac8.64.png",
+    "icon": "6Ss9vMKuR2OQcWgEwc6oqG7iVNCcHraMmIai6GmK2ac8.64",
     "slug": "recipe-nobelisk"
   },
   "recipe-nobelisk-detonator": {
@@ -5287,7 +5287,7 @@
     ],
     "duration": 80,
     "manualMultiplier": 1,
-    "icon": "images/7LeHfOuxxeaM8m0mOqCEgA7y5nBgl1DOa6SqOi0OoyGA.64.png",
+    "icon": "7LeHfOuxxeaM8m0mOqCEgA7y5nBgl1DOa6SqOi0OoyGA.64",
     "slug": "recipe-nobelisk-detonator"
   },
   "recipe-nuclear-fuel-rod": {
@@ -5318,7 +5318,7 @@
     ],
     "duration": 150,
     "manualMultiplier": 1,
-    "icon": "images/7qTjLs4vn2wwUUaQmem6q27iZrpdTd5KssKC22sUOoMs.64.png",
+    "icon": "7qTjLs4vn2wwUUaQmem6q27iZrpdTd5KssKC22sUOoMs.64",
     "slug": "recipe-nuclear-fuel-rod"
   },
   "recipe-nuclear-power-plant": {
@@ -5357,7 +5357,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7yUz46VajCcySAacOs62yG7BYFZG3kZy6AsYiIeMQAcq.64.png",
+    "icon": "7yUz46VajCcySAacOs62yG7BYFZG3kZy6AsYiIeMQAcq.64",
     "slug": "recipe-nuclear-power-plant"
   },
   "recipe-nutritional-inhaler": {
@@ -5392,7 +5392,7 @@
     ],
     "duration": 20,
     "manualMultiplier": 1,
-    "icon": "images/7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay.64.png",
+    "icon": "7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay.64",
     "slug": "recipe-nutritional-inhaler"
   },
   "recipe-object-scanner": {
@@ -5423,7 +5423,7 @@
     ],
     "duration": 40,
     "manualMultiplier": 1,
-    "icon": "images/1WL6jJkAhCa2iWwkMYeCWQ6OUQBbqkJUmaeQoKIqAgQM.64.png",
+    "icon": "1WL6jJkAhCa2iWwkMYeCWQ6OUQBbqkJUmaeQoKIqAgQM.64",
     "slug": "recipe-object-scanner"
   },
   "recipe-oil-extractor": {
@@ -5454,7 +5454,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7y5oua3NAsYuEEcWy02MEu6ONz18ZA08AeCogyo4s4ec.64.png",
+    "icon": "7y5oua3NAsYuEEcWy02MEu6ONz18ZA08AeCogyo4s4ec.64",
     "slug": "recipe-oil-extractor"
   },
   "recipe-packaged-fuel": {
@@ -5507,7 +5507,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-packaged-heavy-oil-residue"
   },
   "recipe-packaged-liquid-biofuel": {
@@ -5612,7 +5612,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-packaged-water"
   },
   "recipe-parachute": {
@@ -5639,7 +5639,7 @@
     ],
     "duration": 40,
     "manualMultiplier": 1,
-    "icon": "images/7N3YHnmzCgGu0sS6USuasa5XJADJfPkAcke6kwAqWgIa.64.png",
+    "icon": "7N3YHnmzCgGu0sS6USuasa5XJADJfPkAcke6kwAqWgIa.64",
     "slug": "recipe-parachute"
   },
   "recipe-personal-storage-box": {
@@ -5666,7 +5666,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N3YTnUuYg66UMykymwsEq6OHbdJXU0oEaSuOMy8ogcE.64.png",
+    "icon": "7N3YTnUuYg66UMykymwsEq6OHbdJXU0oEaSuOMy8ogcE.64",
     "slug": "recipe-personal-storage-box"
   },
   "recipe-petroleum-coke": {
@@ -5689,7 +5689,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7N41Mf4WekCyAQ4GCWOASA5Qm4DAXGTeEmo0kCAykeOi.64.png",
+    "icon": "7N41Mf4WekCyAQ4GCWOASA5Qm4DAXGTeEmo0kCAykeOi.64",
     "slug": "recipe-petroleum-coke"
   },
   "recipe-pillar-base": {
@@ -5778,7 +5778,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dfWqzYYOy8KkCa0YCE42wkXTa3CMyy2eaieKcQuI.64.png",
+    "icon": "7N42dfWqzYYOy8KkCa0YCE42wkXTa3CMyy2eaieKcQuI.64",
     "slug": "recipe-pipeline"
   },
   "recipe-pipeline-junction-cross": {
@@ -5801,7 +5801,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N426BNjry8CAO22OyweoW3U07E8cmwwMeqQgkiwWso4.64.png",
+    "icon": "7N426BNjry8CAO22OyweoW3U07E8cmwwMeqQgkiwWso4.64",
     "slug": "recipe-pipeline-junction-cross"
   },
   "recipe-pipeline-pump": {
@@ -5828,7 +5828,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N3BEjMvv2Cowq0kKG00Qa6mmoBzL1Ju2g6C8M62EKSI.64.png",
+    "icon": "7N3BEjMvv2Cowq0kKG00Qa6mmoBzL1Ju2g6C8M62EKSI.64",
     "slug": "recipe-pipeline-pump"
   },
   "recipe-pipeline-support": {
@@ -5885,7 +5885,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N41Mf4WeA8AEYkcE0WQoC7pZ8R8hfFu2amC6WGIgywG.64.png",
+    "icon": "7N41Mf4WeA8AEYkcE0WQoC7pZ8R8hfFu2amC6WGIgywG.64",
     "slug": "recipe-pipeline-wall-support"
   },
   "recipe-pipeline-wall-through-hole": {
@@ -5916,7 +5916,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N3YG60pJCwGkgOqCU4oA44RvVa8EanuEIqkOKG6ceWg.64.png",
+    "icon": "7N3YG60pJCwGkgOqCU4oA44RvVa8EanuEIqkOKG6ceWg.64",
     "slug": "recipe-pipeline-wall-through-hole"
   },
   "recipe-plastic": {
@@ -5943,7 +5943,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU.64.png",
+    "icon": "7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU.64",
     "slug": "recipe-plastic"
   },
   "recipe-portable-miner": {
@@ -5992,7 +5992,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7yrkxFpTxewKSMQmuI2YEE7nABS4QnMki4U6uIWCocCq.64.png",
+    "icon": "7yrkxFpTxewKSMQmuI2YEE7nABS4QnMki4U6uIWCocCq.64",
     "slug": "recipe-power-line"
   },
   "recipe-power-pole": {
@@ -6023,7 +6023,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7FZjkzLBG84eo0QswKyCwC7KexLdcNXiusCMmKg8oMgM.64.png",
+    "icon": "7FZjkzLBG84eo0QswKyCwC7KexLdcNXiusCMmKg8oMgM.64",
     "slug": "recipe-power-pole"
   },
   "recipe-power-pole-mk2": {
@@ -6054,7 +6054,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.64.png",
+    "icon": "7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.64",
     "slug": "recipe-power-pole-mk2"
   },
   "recipe-power-pole-mk3": {
@@ -6085,7 +6085,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.64.png",
+    "icon": "7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.64",
     "slug": "recipe-power-pole-mk3"
   },
   "recipe-power-shard-1": {
@@ -6185,7 +6185,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N41ldHl5KsMuISGsw6ueK6RX8pFtjfqwwGCkWE0geA0.64.png",
+    "icon": "7N41ldHl5KsMuISGsw6ueK6RX8pFtjfqwwGCkWE0geA0.64",
     "slug": "recipe-programmable-splitter"
   },
   "recipe-quartz-crystal": {
@@ -6209,7 +6209,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 2,
-    "icon": "images/7N41m4Z5XUiKCQYK0aUg4y639qr83ex2O2YoGww0ysAe.64.png",
+    "icon": "7N41m4Z5XUiKCQYK0aUg4y639qr83ex2O2YoGww0ysAe.64",
     "slug": "recipe-quartz-crystal"
   },
   "recipe-quickwire": {
@@ -6233,7 +6233,7 @@
     ],
     "duration": 5,
     "manualMultiplier": 2,
-    "icon": "images/7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8.64.png",
+    "icon": "7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8.64",
     "slug": "recipe-quickwire"
   },
   "recipe-radar-tower": {
@@ -6268,7 +6268,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7JLilS07sscSOmSw0Muw2i7FKGnsSWoo8aiKSowAk2UC.64.png",
+    "icon": "7JLilS07sscSOmSw0Muw2i7FKGnsSWoo8aiKSowAk2UC.64",
     "slug": "recipe-radar-tower"
   },
   "recipe-radio-control-unit": {
@@ -6330,7 +6330,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5tCCQsMcmemUoI83clQnzgVDiGUUakEyioq.64.png",
+    "icon": "7N42dgm5tCCQsMcmemUoI83clQnzgVDiGUUakEyioq.64",
     "slug": "recipe-railway"
   },
   "recipe-ramp-8m-x-1m": {
@@ -6493,7 +6493,7 @@
     ],
     "duration": 100,
     "manualMultiplier": 1,
-    "icon": "images/7Lb2gMX2RagqyAqOGCyIq61OsnJC2hNGWY8cocC42k.64.png",
+    "icon": "7Lb2gMX2RagqyAqOGCyIq61OsnJC2hNGWY8cocC42k.64",
     "slug": "recipe-rebar-gun"
   },
   "recipe-refinery": {
@@ -6528,7 +6528,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7Mma6fzgB2I0KMukuyKuYi7y5ouAC2IwUsqK4IgI602Y.64.png",
+    "icon": "7Mma6fzgB2I0KMukuyKuYi7y5ouAC2IwUsqK4IgI602Y.64",
     "slug": "recipe-refinery"
   },
   "recipe-reinforced-iron-plate": {
@@ -6556,7 +6556,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64.png",
+    "icon": "7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64",
     "slug": "recipe-reinforced-iron-plate"
   },
   "recipe-residual-fuel": {
@@ -6579,7 +6579,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-residual-fuel"
   },
   "recipe-residual-plastic": {
@@ -6606,7 +6606,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU.64.png",
+    "icon": "7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU.64",
     "slug": "recipe-residual-plastic"
   },
   "recipe-residual-rubber": {
@@ -6633,7 +6633,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8.64.png",
+    "icon": "7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8.64",
     "slug": "recipe-residual-rubber"
   },
   "recipe-rifle": {
@@ -6695,7 +6695,7 @@
     ],
     "duration": 15,
     "manualMultiplier": 0.8,
-    "icon": "images/7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC.64.png",
+    "icon": "7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC.64",
     "slug": "recipe-rotor"
   },
   "recipe-rubber": {
@@ -6722,7 +6722,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8.64.png",
+    "icon": "7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8.64",
     "slug": "recipe-rubber"
   },
   "recipe-screw": {
@@ -6746,7 +6746,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck.64.png",
+    "icon": "7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck.64",
     "slug": "recipe-screw"
   },
   "recipe-silica": {
@@ -6770,7 +6770,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 2,
-    "icon": "images/7Ji1qa0TCwIsQCayegASKg3UpK7qz3Xag06YoiwgQQqC.64.png",
+    "icon": "7Ji1qa0TCwIsQCayegASKg3UpK7qz3Xag06YoiwgQQqC.64",
     "slug": "recipe-silica"
   },
   "recipe-smart-plating": {
@@ -6827,7 +6827,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N41MeVh5YsOqgmaw8o02g6RmzEuu6QwScC6U8WI4oOo.64.png",
+    "icon": "7N41MeVh5YsOqgmaw8o02g6RmzEuu6QwScC6U8WI4oOo.64",
     "slug": "recipe-smart-splitter"
   },
   "recipe-smelter": {
@@ -6854,7 +6854,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/6OUQBbqkJUmaeQoKIqAgQM7j37bkJI1GsYm84qi6UO6a.64.png",
+    "icon": "6OUQBbqkJUmaeQoKIqAgQM7j37bkJI1GsYm84qi6UO6a.64",
     "slug": "recipe-smelter"
   },
   "recipe-solid-biofuel": {
@@ -6879,7 +6879,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 5,
-    "icon": "images/7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.64.png",
+    "icon": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.64",
     "slug": "recipe-solid-biofuel"
   },
   "recipe-space-elevator": {
@@ -6912,7 +6912,7 @@
     "producedIn": [],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7JLi895PP2E6ywuSqW42uM7FZhJv4UjCEKGAegYyqs4U.64.png",
+    "icon": "7JLi895PP2E6ywuSqW42uM7FZhJv4UjCEKGAegYyqs4U.64",
     "slug": "recipe-space-elevator"
   },
   "recipe-spiked-rebar": {
@@ -6937,7 +6937,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 1,
-    "icon": "images/7MPpc3WoSsiYMEmEOSOeSw4OqSMG8bYIWkYcqaw4KYmO.64.png",
+    "icon": "7MPpc3WoSsiYMEmEOSOeSw4OqSMG8bYIWkYcqaw4KYmO.64",
     "slug": "recipe-spiked-rebar"
   },
   "recipe-stackable-pipeline-support": {
@@ -7073,7 +7073,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1.5,
-    "icon": "images/7N40tBeLRYs64cggasC4Kg4K5jpIgIo8emkQOMYmKaUq.64.png",
+    "icon": "7N40tBeLRYs64cggasC4Kg4K5jpIgIo8emkQOMYmKaUq.64",
     "slug": "recipe-stator"
   },
   "recipe-steel-beam": {
@@ -7097,7 +7097,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgj7puE6EeaOYg2MIy416HwbmPYAO4mgOiqUqQYI.64.png",
+    "icon": "7N42dgj7puE6EeaOYg2MIy416HwbmPYAO4mgOiqUqQYI.64",
     "slug": "recipe-steel-beam"
   },
   "recipe-steel-ingot": {
@@ -7125,7 +7125,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 6,
-    "icon": "images/7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64.png",
+    "icon": "7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64",
     "slug": "recipe-steel-ingot"
   },
   "recipe-steel-pipe": {
@@ -7149,7 +7149,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7EGPa1foM8M2uuYEUKiCYO7iVMJwhNXq8GG6GikIYAsW.64.png",
+    "icon": "7EGPa1foM8M2uuYEUKiCYO7iVMJwhNXq8GG6GikIYAsW.64",
     "slug": "recipe-steel-pipe"
   },
   "recipe-storage-container": {
@@ -7176,7 +7176,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgiRQkISe4qWm2cOE63Y9MN5j9q08mQqmyC0cK8w.64.png",
+    "icon": "7N42dgiRQkISe4qWm2cOE63Y9MN5j9q08mQqmyC0cK8w.64",
     "slug": "recipe-storage-container"
   },
   "recipe-sulfur": {
@@ -7199,7 +7199,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5tm6OoEWQciM8c66zJtHEm3wAMcWM8Euc84mM.64.png",
+    "icon": "7N42dgm5tm6OoEWQciM8c66zJtHEm3wAMcWM8Euc84mM.64",
     "slug": "recipe-sulfur"
   },
   "recipe-sulfuric-acid": {
@@ -7226,7 +7226,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-sulfuric-acid"
   },
   "recipe-supercomputer": {
@@ -7262,7 +7262,7 @@
     ],
     "duration": 32,
     "manualMultiplier": 1.5,
-    "icon": "images/7Hp07RRp4scWOocogWEQC86OJSzE1tZYAYOSe86EAS4I.64.png",
+    "icon": "7Hp07RRp4scWOocogWEQC86OJSzE1tZYAYOSe86EAS4I.64",
     "slug": "recipe-supercomputer"
   },
   "recipe-the-hub": {
@@ -7285,7 +7285,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N41SFY3zGeoGe6EKwoiaU7IsLFQj1WESsk8eAwaUe8A.64.png",
+    "icon": "7N41SFY3zGeoGe6EKwoiaU7IsLFQj1WESsk8eAwaUe8A.64",
     "slug": "recipe-the-hub"
   },
   "recipe-tilted-jump-pad": {
@@ -7316,7 +7316,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/1WLaiLRMvym4CygqykQIGs40RXTPV1FmsqMIY0EwSCIG.64.png",
+    "icon": "1WLaiLRMvym4CygqykQIGs40RXTPV1FmsqMIY0EwSCIG.64",
     "slug": "recipe-tilted-jump-pad"
   },
   "recipe-train-station": {
@@ -7351,7 +7351,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N420oqc2kKqUEmKuu8usq5Nw7sTbtp6ewo44SGmw0cU.64.png",
+    "icon": "7N420oqc2kKqUEmKuu8usq5Nw7sTbtp6ewo44SGmw0cU.64",
     "slug": "recipe-train-station"
   },
   "recipe-truck-station": {
@@ -7382,7 +7382,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgm5tCCQsMcmemUoI87M9m4mB6b68iqAqUEG4wgy.64.png",
+    "icon": "7N42dgm5tCCQsMcmemUoI87M9m4mB6b68iqAqUEG4wgy.64",
     "slug": "recipe-truck-station"
   },
   "recipe-turbo-motor": {
@@ -7418,7 +7418,7 @@
     ],
     "duration": 32,
     "manualMultiplier": 1,
-    "icon": "images/7kL2idF7biM0Uq2YESIKmy5laVdzIN3yweagYEW6g0Ew.64.png",
+    "icon": "7kL2idF7biM0Uq2YESIKmy5laVdzIN3yweagYEW6g0Ew.64",
     "slug": "recipe-turbo-motor"
   },
   "recipe-turbofuel": {
@@ -7445,7 +7445,7 @@
     ],
     "duration": 16,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-turbofuel"
   },
   "recipe-u-jelly-landing-pad": {
@@ -7476,7 +7476,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42deTVv2mQu4Sg22UeaM7xZTAkFlLyo2M6CoIkOYOK.64.png",
+    "icon": "7N42deTVv2mQu4Sg22UeaM7xZTAkFlLyo2M6CoIkOYOK.64",
     "slug": "recipe-u-jelly-landing-pad"
   },
   "recipe-unpackage-fuel": {
@@ -7503,7 +7503,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-unpackage-fuel"
   },
   "recipe-unpackage-heavy-oil-residue": {
@@ -7530,7 +7530,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-unpackage-heavy-oil-residue"
   },
   "recipe-unpackage-liquid-biofuel": {
@@ -7557,7 +7557,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.64.png",
+    "icon": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.64",
     "slug": "recipe-unpackage-liquid-biofuel"
   },
   "recipe-unpackage-oil": {
@@ -7584,7 +7584,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-unpackage-oil"
   },
   "recipe-unpackage-turbo-fuel": {
@@ -7611,7 +7611,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-unpackage-turbo-fuel"
   },
   "recipe-unpackage-water": {
@@ -7638,7 +7638,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak.64.png",
+    "icon": "7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak.64",
     "slug": "recipe-unpackage-water"
   },
   "recipe-uranium": {
@@ -7661,7 +7661,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
-    "icon": "images/7N42afNTYAiqEGemso2i684otihDHebeeQK2m8KKaUyk.64.png",
+    "icon": "7N42afNTYAiqEGemso2i684otihDHebeeQK2m8KKaUyk.64",
     "slug": "recipe-uranium"
   },
   "recipe-uranium-pellet": {
@@ -7692,7 +7692,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "images/7N40rTgHfiu0oQQSSss4286pHSADSATeigOgOYq6So0S.64.png",
+    "icon": "7N40rTgHfiu0oQQSSss4286pHSADSATeigOgOYq6So0S.64",
     "slug": "recipe-uranium-pellet"
   },
   "recipe-versatile-framework": {
@@ -7771,7 +7771,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7Hp2RId8yc2smoAEgaGmue6PgJ5nmyROuaAeOYk66kII.64.png",
+    "icon": "7Hp2RId8yc2smoAEgaGmue6PgJ5nmyROuaAeOYk66kII.64",
     "slug": "recipe-walkway-ramp"
   },
   "recipe-walkway-straight": {
@@ -7798,7 +7798,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dglUyI8sEIEou8AKSk5QpBSyAEesMiuOG0m8mcAC.64.png",
+    "icon": "7N42dglUyI8sEIEou8AKSk5QpBSyAEesMiuOG0m8mcAC.64",
     "slug": "recipe-walkway-straight"
   },
   "recipe-walkway-t-crossing": {
@@ -7851,7 +7851,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N42dgiUX6Su2Y4UEsIcEy3TBVKPCc9Oo0U2E2wYeCUu.64.png",
+    "icon": "7N42dgiUX6Su2Y4UEsIcEy3TBVKPCc9Oo0U2E2wYeCUu.64",
     "slug": "recipe-walkway-turn"
   },
   "recipe-wall-8m-x-4m-1": {
@@ -7878,7 +7878,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.64.png",
+    "icon": "7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.64",
     "slug": "recipe-wall-8m-x-4m-1"
   },
   "recipe-wall-8m-x-4m-2": {
@@ -7905,7 +7905,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.64.png",
+    "icon": "7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.64",
     "slug": "recipe-wall-8m-x-4m-2"
   },
   "recipe-wall-conveyor-perpendicular-1": {
@@ -8374,7 +8374,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.64.png",
+    "icon": "7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.64",
     "slug": "recipe-wall-window-8m-x-4m-01"
   },
   "recipe-wall-window-8m-x-4m-02": {
@@ -8401,7 +8401,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.64.png",
+    "icon": "7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.64",
     "slug": "recipe-wall-window-8m-x-4m-02"
   },
   "recipe-wall-window-8m-x-4m-04": {
@@ -8428,7 +8428,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N3O9KSvdKe4soeW22OEgE48EJqCRJqUuSCM0yY4kCIK.64.png",
+    "icon": "7N3O9KSvdKe4soeW22OEgE48EJqCRJqUuSCM0yY4kCIK.64",
     "slug": "recipe-wall-window-8m-x-4m-04"
   },
   "recipe-water-extractor": {
@@ -8459,7 +8459,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7G6BXO1jDUqiAWi2QsOCOQ6OUN3a6dQkyi2uCU8Ua4cu.64.png",
+    "icon": "7G6BXO1jDUqiAWi2QsOCOQ6OUN3a6dQkyi2uCU8Ua4cu.64",
     "slug": "recipe-water-extractor"
   },
   "recipe-window-8m-x-4m-03-1": {
@@ -8486,7 +8486,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
-    "icon": "images/7N3OgCkE2kKsyKi0Oqog2U4pShwtayTmqcOeo6OOYwgS.64.png",
+    "icon": "7N3OgCkE2kKsyKi0Oqog2U4pShwtayTmqcOeo6OOYwgS.64",
     "slug": "recipe-window-8m-x-4m-03-1"
   },
   "recipe-window-8m-x-4m-03-2": {
@@ -8536,7 +8536,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 1,
-    "icon": "images/7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64.png",
+    "icon": "7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64",
     "slug": "recipe-wire"
   },
   "recipe-xeno-basher": {
@@ -8571,7 +8571,7 @@
     ],
     "duration": 80,
     "manualMultiplier": 1,
-    "icon": "images/ubrP8lF0B2k0gOGy4Go8s7FKGBbOplmoaIosQ4UCqiM.64.png",
+    "icon": "ubrP8lF0B2k0gOGy4Go8s7FKGBbOplmoaIosQ4UCqiM.64",
     "slug": "recipe-xeno-basher"
   },
   "recipe-xeno-zapper": {
@@ -8606,7 +8606,7 @@
     ],
     "duration": 40,
     "manualMultiplier": 1,
-    "icon": "images/6kuipil1tYYCUWiSQCgiKM7iZsJzqwSWsUIi4Qemm2SE.64.png",
+    "icon": "6kuipil1tYYCUWiSQCgiKM7iZsJzqwSWsUIi4Qemm2SE.64",
     "slug": "recipe-xeno-zapper"
   }
 }

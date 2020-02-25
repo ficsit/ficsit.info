@@ -67,20 +67,35 @@ export class AssetDatabase {
     return await Promise.all(sizes.map(async size => {
       if (height! < size && width! < size) return undefined;
 
-      const fileName = `images/${hash}.${size}.png`;
-      if (await this._output.readable(fileName)) return fileName;
+      const baseName = `${hash}.${size}`;
+      const pngPath = this._output.path('images', `${baseName}.png`);
+      const webpPath = this._output.path('images', `${baseName}.webp`)
+      if (await this._output.readable(pngPath) && await this._output.readable(webpPath)) return baseName;
 
-      await this._output.mkdirFor(fileName);
-      await icon
+      const resized = icon.clone().resize(size, size, { fit: 'cover' });
+      await this._output.mkdirFor(pngPath);
+      await this._output.mkdirFor(webpPath);
+
+      const png = resized
         .clone()
-        .resize(size, size, { fit: 'cover' })
         .png({ 
           // We get a decent amount (~5%) of additional compression from this.
           adaptiveFiltering: true,
-         })
-        .toFile(this._output.path(fileName));
+        })
+        .toFile(this._output.path('images', `${baseName}.png`));
       
-      return fileName;
+      const webp = resized
+        .clone()
+        .webp({
+          quality: 60,
+          nearLossless: true,
+          reductionEffort: 6,
+        })
+        .toFile(this._output.path('images', `${baseName}.webp`));
+
+      await Promise.all([png, webp]);
+      
+      return baseName;
     }));
   }
 }
