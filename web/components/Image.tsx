@@ -25,7 +25,7 @@ export function Image({ hash, width, maxWidth, alt, ...props }: ImageProps) {
   const pngSrcSet = targets.map(({ image, density }) => `${image}.png ${density}`).join(', ');
 
   return (
-    <picture>
+    <picture key={hash}>
       <source type='image/webp' srcSet={webpSrcSet} />
       <source type='image/png' srcSet={pngSrcSet} />
       <img {...props} src={`${targets[0]?.image}.png`} alt={alt} width={width} />
@@ -37,14 +37,14 @@ export interface ItemImageProps extends React.ImgHTMLAttributes<HTMLImageElement
   item: Indexable;
   width: number;
 }
-export function ItemImage({ item, ...props }: ItemImageProps) {
-  return <Image {...props} hash={item.icon} maxWidth={256} alt={item.name} />;
+export function ItemImage({ item, width, ...props }: ItemImageProps) {
+  return <Image {...props} height={width} width={width} hash={item.icon} maxWidth={256} alt={item.name} />;
 }
 
 export interface BuildingImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   building: Indexable;
   width: number;
 }
-export function BuildingImage({ building, ...props }: BuildingImageProps) {
-  return <Image {...props} hash={building.icon} maxWidth={512} alt={building.name} />;
+export function BuildingImage({ building, width, ...props }: BuildingImageProps) {
+  return <Image {...props} height={width} width={width} hash={building.icon} maxWidth={512} alt={building.name} />;
 }
