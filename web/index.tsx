@@ -1,8 +1,13 @@
 import './global';
 
 import * as reactDom from 'react-dom';
+import { BrowserRouter } from 'react-router-dom';
 
-import { DefaultLayout } from './layout/DefaultLayout';
+import { App } from './App';
 
 const root = document.getElementById('react-root');
-reactDom.render(<DefaultLayout />, root);
+reactDom.render(
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>
+, root);

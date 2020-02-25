@@ -7,9 +7,9 @@ export const DefaultLayout = ({ children }: { children?: ReactNode }) => {
       <header>
         <nav>Ficsit Employee Intranet Portal</nav>
       </header>
-      <article>
+      <main>
         {children}
-      </article>
+      </main>
     </React.Fragment>
   );
 }
