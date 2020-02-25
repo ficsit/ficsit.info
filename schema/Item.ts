@@ -1,5 +1,5 @@
 import { Indexable } from './Indexable';
-import { Color, EntityKind, ItemAmount, ItemForm, ItemStackSize, HumanReadableString, EquipmentSlot, ImageId } from './primitive';
+import { Color, EntityKind, ItemAmount, ItemForm, ItemStackSize, HumanReadableString, EquipmentSlot } from './primitive';
 
 /**
  * Items that can be placed in inventories (resources, equipment, etc).
@@ -11,11 +11,6 @@ export interface Item extends Indexable {
    * A detailed description of the building.
    */
   description: HumanReadableString;
-
-  /**
-   * A larger icon of the item, for display in detail pages.
-   */
-  poster?: ImageId;
 
   /**
    * The form of the item.

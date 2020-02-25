@@ -7,8 +7,7 @@
       "Production",
       "Manufacturers"
     ],
-    "icon": "7N4287eTBYkkOacWk4Kw6a7yHMXsd7os8a8GoEWK8wKi.64",
-    "poster": "7N4287eTBYkkOacWk4Kw6a7yHMXsd7os8a8GoEWK8wKi.512",
+    "icon": "7N4287eTBYkkOacWk4Kw6a7yHMXsd7os8a8GoEWK8wKi",
     "overclockable": true,
     "powerConsumption": {
       "amount": 15,
@@ -24,8 +23,7 @@
       "Special",
       "Special"
     ],
-    "icon": "7JwFqtuTwQGOi6KcaiYe4a6UwaOWdHpK6A8ouSymmWcy.64",
-    "poster": "7JwFqtuTwQGOi6KcaiYe4a6UwaOWdHpK6A8ouSymmWcy.512",
+    "icon": "7JwFqtuTwQGOi6KcaiYe4a6UwaOWdHpK6A8ouSymmWcy",
     "slug": "awesome-shop"
   },
   "awesome-sink": {
@@ -36,8 +34,7 @@
       "Special",
       "Special"
     ],
-    "icon": "7MErtJpMfCGSmAS66CawmC7E9WTLXmqkuqwY0QwuqCIO.64",
-    "poster": "7MErtJpMfCGSmAS66CawmC7E9WTLXmqkuqwY0QwuqCIO.512",
+    "icon": "7MErtJpMfCGSmAS66CawmC7E9WTLXmqkuqwY0QwuqCIO",
     "slug": "awesome-sink"
   },
   "biomass-burner": {
@@ -48,8 +45,7 @@
       "Power",
       "Generators"
     ],
-    "icon": "7Ji2WwDaBayUwua6Kckcgo5UTAJ54MAoUcEqImIKoka4.64",
-    "poster": "7Ji2WwDaBayUwua6Kckcgo5UTAJ54MAoUcEqImIKoka4.512",
+    "icon": "7Ji2WwDaBayUwua6Kckcgo5UTAJ54MAoUcEqImIKoka4",
     "overclockable": true,
     "powerProduction": {
       "amount": 30,
@@ -84,8 +80,7 @@
       "Power",
       "Generators"
     ],
-    "icon": "65omEHqS76uG0kAguSY4wO5U0JYzAn3UeWsiWM6A64kY.64",
-    "poster": "65omEHqS76uG0kAguSY4wO5U0JYzAn3UeWsiWM6A64kY.512",
+    "icon": "65omEHqS76uG0kAguSY4wO5U0JYzAn3UeWsiWM6A64kY",
     "overclockable": true,
     "powerProduction": {
       "amount": 75,
@@ -107,8 +102,7 @@
       "Production",
       "Manufacturers"
     ],
-    "icon": "7N42bo1cIgSKqKGYYUCWSI7yjYDJvP20WM2mYQSCIECW.64",
-    "poster": "7N42bo1cIgSKqKGYYUCWSI7yjYDJvP20WM2mYQSCIECW.512",
+    "icon": "7N42bo1cIgSKqKGYYUCWSI7yjYDJvP20WM2mYQSCIECW",
     "overclockable": true,
     "powerConsumption": {
       "amount": 4,
@@ -124,8 +118,7 @@
       "Transport",
       "ConveyorBelts"
     ],
-    "icon": "7N42dglGwwWmQucWomCcw07cgRZsyF20CggyIMsySE.64",
-    "poster": "7N42dglGwwWmQucWomCcw07cgRZsyF20CggyIMsySE.512",
+    "icon": "7N42dglGwwWmQucWomCcw07cgRZsyF20CggyIMsySE",
     "conveyor": {
       "speed": 120
     },
@@ -139,8 +132,7 @@
       "Transport",
       "ConveyorBelts"
     ],
-    "icon": "7N42dglGwgqkMmWqmiuW0u7cgRWi2qycWuACIiq448.64",
-    "poster": "7N42dglGwgqkMmWqmiuW0u7cgRWi2qycWuACIiq448.512",
+    "icon": "7N42dglGwgqkMmWqmiuW0u7cgRWi2qycWuACIiq448",
     "conveyor": {
       "speed": 240
     },
@@ -154,8 +146,7 @@
       "Transport",
       "ConveyorBelts"
     ],
-    "icon": "7N42dgkSBO4kqEG4CaMiCI7ch5eA81qwCMMcAa0cc0.64",
-    "poster": "7N42dgkSBO4kqEG4CaMiCI7ch5eA81qwCMMcAa0cc0.512",
+    "icon": "7N42dgkSBO4kqEG4CaMiCI7ch5eA81qwCMMcAa0cc0",
     "conveyor": {
       "speed": 540
     },
@@ -169,8 +160,7 @@
       "Transport",
       "ConveyorBelts"
     ],
-    "icon": "7N41SFWQjSe2awW6IC68Yo3U02lBQTTqIGQcCy862k0Y.64",
-    "poster": "7N41SFWQjSe2awW6IC68Yo3U02lBQTTqIGQcCy862k0Y.512",
+    "icon": "7N41SFWQjSe2awW6IC68Yo3U02lBQTTqIGQcCy862k0Y",
     "conveyor": {
       "speed": 960
     },
@@ -184,8 +174,7 @@
       "Transport",
       "ConveyorBelts"
     ],
-    "icon": "7N41SFTCFiKUGqo8K682Si3YIw9rwI0w6OuCkcIM4ewe.64",
-    "poster": "7N41SFTCFiKUGqo8K682Si3YIw9rwI0w6OuCkcIM4ewe.512",
+    "icon": "7N41SFTCFiKUGqo8K682Si3YIw9rwI0w6OuCkcIM4ewe",
     "conveyor": {
       "speed": 1560
     },
@@ -199,8 +188,7 @@
       "Transport",
       "ConveyLift"
     ],
-    "icon": "7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.64",
-    "poster": "7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.512",
+    "icon": "7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk",
     "conveyor": {
       "speed": 120
     },
@@ -214,8 +202,7 @@
       "Transport",
       "ConveyLift"
     ],
-    "icon": "7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.64",
-    "poster": "7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk.512",
+    "icon": "7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk",
     "conveyor": {
       "speed": 240
     },
@@ -229,7 +216,7 @@
       "Transport",
       "ConveyLift"
     ],
-    "icon": "7FKGn2ihwc44k8s0Au0mOi7iZrpdWqK4qw6s4YmeoYQu.64",
+    "icon": "7FKGn2ihwc44k8s0Au0mOi7iZrpdWqK4qw6s4YmeoYQu",
     "conveyor": {
       "speed": 540
     },
@@ -243,8 +230,7 @@
       "Transport",
       "ConveyLift"
     ],
-    "icon": "7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.64",
-    "poster": "7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.512",
+    "icon": "7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I",
     "conveyor": {
       "speed": 960
     },
@@ -258,8 +244,7 @@
       "Transport",
       "ConveyLift"
     ],
-    "icon": "7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.64",
-    "poster": "7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I.512",
+    "icon": "7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I",
     "conveyor": {
       "speed": 1560
     },
@@ -273,8 +258,7 @@
       "Transport",
       "ConveyorAttachments"
     ],
-    "icon": "7Ji2j4gHzU0iuQ6cOcKcmC5S9zRTAbfOKiuEIqGOewsM.64",
-    "poster": "7Ji2j4gHzU0iuQ6cOcKcmC5S9zRTAbfOKiuEIqGOewsM.512",
+    "icon": "7Ji2j4gHzU0iuQ6cOcKcmC5S9zRTAbfOKiuEIqGOewsM",
     "slug": "conveyor-merger"
   },
   "conveyor-pole": {
@@ -285,7 +269,7 @@
       "Transport",
       "ConverPole"
     ],
-    "icon": "7N42deHQQ0sGuygoaGM2gQ7jktFi3GpiuAIEa6GWUwoK.64",
+    "icon": "7N42deHQQ0sGuygoaGM2gQ7jktFi3GpiuAIEa6GWUwoK",
     "slug": "conveyor-pole"
   },
   "conveyor-pole-stackable": {
@@ -306,8 +290,7 @@
       "Transport",
       "ConveyorAttachments"
     ],
-    "icon": "7Ji2j4gEq4IseaU8ksAwM06Sj4pKy8essyUie6e6YscI.64",
-    "poster": "7Ji2j4gEq4IseaU8ksAwM06Sj4pKy8essyUie6e6YscI.512",
+    "icon": "7Ji2j4gEq4IseaU8ksAwM06Sj4pKy8essyUie6e6YscI",
     "slug": "conveyor-splitter"
   },
   "conveyor-wall-mount": {
@@ -318,8 +301,7 @@
       "Transport",
       "ConverPole"
     ],
-    "icon": "7N42dgm5tCCQsMcmemUoI831Kff8YTYAg44KY2K0.64",
-    "poster": "7N42dgm5tCCQsMcmemUoI831Kff8YTYAg44KY2K0.512",
+    "icon": "7N42dgm5tCCQsMcmemUoI831Kff8YTYAg44KY2K0",
     "slug": "conveyor-wall-mount"
   },
   "corner-ramp-down-8m-x-1m": {
@@ -390,8 +372,7 @@
       "Production",
       "Workstations"
     ],
-    "icon": "7N42dgm5tm6OoEWQciM8c66zZPLbCYaQCwYkUC0Wis0I.64",
-    "poster": "7N42dgm5tm6OoEWQciM8c66zZPLbCYaQCwYkUC0Wis0I.512",
+    "icon": "7N42dgm5tm6OoEWQciM8c66zZPLbCYaQCwYkUC0Wis0I",
     "slug": "craft-bench"
   },
   "curved-corner-foundation": {
@@ -474,8 +455,7 @@
       "Production",
       "Workstations"
     ],
-    "icon": "7N42dgiRYQeSaWUoeMGwyS5QLF0rX0eAMEoos8qaMIMo.64",
-    "poster": "7N42dgiRYQeSaWUoeMGwyS5QLF0rX0eAMEoos8qaMIMo.512",
+    "icon": "7N42dgiRYQeSaWUoeMGwyS5QLF0rX0eAMEoos8qaMIMo",
     "slug": "equipment-workshop"
   },
   "fence": {
@@ -486,8 +466,7 @@
       "Walls",
       "Walls"
     ],
-    "icon": "7N1icBSSGIkkI80o6cCo0i7j6J07ivbUOoaYmAsiOkci.64",
-    "poster": "7N1icBSSGIkkI80o6cCo0i7j6J07ivbUOoaYmAsiOkci.512",
+    "icon": "7N1icBSSGIkkI80o6cCo0i7j6J07ivbUOoaYmAsiOkci",
     "slug": "fence"
   },
   "foundation-8m-x-1m": {
@@ -548,8 +527,7 @@
       "Production",
       "Smelters"
     ],
-    "icon": "7LeGV48qdOMgaEmS0UMYeA6k24j9MNhYE6w2sK2e8SO6.64",
-    "poster": "7LeGV48qdOMgaEmS0UMYeA6k24j9MNhYE6w2sK2e8SO6.512",
+    "icon": "7LeGV48qdOMgaEmS0UMYeA6k24j9MNhYE6w2sK2e8SO6",
     "overclockable": true,
     "powerConsumption": {
       "amount": 16,
@@ -593,8 +571,7 @@
       "Power",
       "Generators"
     ],
-    "icon": "7KexLdcNXiusCMmKg8oMgM7nABRREvMke0ioSAsKGaSe.64",
-    "poster": "7KexLdcNXiusCMmKg8oMgM7nABRREvMke0ioSAsKGaSe.512",
+    "icon": "7KexLdcNXiusCMmKg8oMgM7nABRREvMke0ioSAsKGaSe",
     "overclockable": true,
     "powerProduction": {
       "amount": 150,
@@ -626,8 +603,7 @@
       "Power",
       "Generators"
     ],
-    "icon": "7iZrpdTd5KssKC22sUOoMs7ycHPfhHvqgUqsim2w8QsE.64",
-    "poster": "7iZrpdTd5KssKC22sUOoMs7ycHPfhHvqgUqsim2w8QsE.512",
+    "icon": "7iZrpdTd5KssKC22sUOoMs7ycHPfhHvqgUqsim2w8QsE",
     "powerProduction": {
       "amount": 200,
       "exponent": 1.3
@@ -642,8 +618,7 @@
       "Transport",
       "HyperTubes"
     ],
-    "icon": "7N42dgm5qgUsGemcUMKkAS5oWVg4mKicuSgWSmkOEceG.64",
-    "poster": "7N42dgm5qgUsGemcUMKkAS5oWVg4mKicuSgWSmkOEceG.512",
+    "icon": "7N42dgm5qgUsGemcUMKkAS5oWVg4mKicuSgWSmkOEceG",
     "slug": "hyper-tube"
   },
   "hyper-tube-support": {
@@ -654,8 +629,7 @@
       "Transport",
       "HyperTubes"
     ],
-    "icon": "7yrjDtR0qI0g6kCo8QiSks6OJSzqPA4wkYeUcmGCYS4O.64",
-    "poster": "7yrjDtR0qI0g6kCo8QiSks6OJSzqPA4wkYeUcmGCYS4O.512",
+    "icon": "7yrjDtR0qI0g6kCo8QiSks6OJSzqPA4wkYeUcmGCYS4O",
     "slug": "hyper-tube-support"
   },
   "industrial-fluid-buffer-1": {
@@ -686,8 +660,7 @@
       "Organisation",
       "Storage"
     ],
-    "icon": "7Ket4d1BzGWCs26I0yCmiw6NLwqgH7Wg22og4UGiwkMS.64",
-    "poster": "7Ket4d1BzGWCs26I0yCmiw6NLwqgH7Wg22og4UGiwkMS.512",
+    "icon": "7Ket4d1BzGWCs26I0yCmiw6NLwqgH7Wg22og4UGiwkMS",
     "storage": {
       "x": 8,
       "y": 6
@@ -716,8 +689,7 @@
       "Organisation",
       "Towers"
     ],
-    "icon": "7ycGX6bIrYQMkUs42uAUWq7KexLdcNXiusCMmKg8oMgM.64",
-    "poster": "7ycGX6bIrYQMkUs42uAUWq7KexLdcNXiusCMmKg8oMgM.512",
+    "icon": "7ycGX6bIrYQMkUs42uAUWq7KexLdcNXiusCMmKg8oMgM",
     "slug": "lookout-tower"
   },
   "mam": {
@@ -728,8 +700,7 @@
       "Special",
       "Special"
     ],
-    "icon": "7N3W0YzzXioaQsQioy06CQ5BjS2Jqkc80MgkYciwiYo6.64",
-    "poster": "7N3W0YzzXioaQsQioy06CQ5BjS2Jqkc80MgkYciwiYo6.512",
+    "icon": "7N3W0YzzXioaQsQioy06CQ5BjS2Jqkc80MgkYciwiYo6",
     "slug": "mam"
   },
   "manufacturer": {
@@ -740,8 +711,7 @@
       "Production",
       "Manufacturers"
     ],
-    "icon": "7N42dgm4NiySQ44G0a2GQ07FxTp4Y7FmaAyq6A6GSOeY.64",
-    "poster": "7N42dgm4NiySQ44G0a2GQ07FxTp4Y7FmaAyq6A6GSOeY.512",
+    "icon": "7N42dgm4NiySQ44G0a2GQ07FxTp4Y7FmaAyq6A6GSOeY",
     "overclockable": true,
     "powerConsumption": {
       "amount": 55,
@@ -757,8 +727,7 @@
       "Production",
       "Miners"
     ],
-    "icon": "7Mma2ofk4gaoyOoKY4Ccic7FzIlI24KsY6Gkek8uUu8i.64",
-    "poster": "7Mma2ofk4gaoyOoKY4Ccic7FzIlI24KsY6Gkek8uUu8i.512",
+    "icon": "7Mma2ofk4gaoyOoKY4Ccic7FzIlI24KsY6Gkek8uUu8i",
     "overclockable": true,
     "powerConsumption": {
       "amount": 5,
@@ -774,8 +743,7 @@
       "Production",
       "Miners"
     ],
-    "icon": "7LeHfOuije02yCA6msaWc47FzIzqWmooyW4y80MssecO.64",
-    "poster": "7LeHfOuije02yCA6msaWc47FzIzqWmooyW4y80MssecO.512",
+    "icon": "7LeHfOuije02yCA6msaWc47FzIzqWmooyW4y80MssecO",
     "overclockable": true,
     "powerConsumption": {
       "amount": 12,
@@ -791,8 +759,7 @@
       "Production",
       "Miners"
     ],
-    "icon": "7LeHfHQ8vYoe4QIyC0QsSW7FzIlI6UcoA4uc0WqWMmYO.64",
-    "poster": "7LeHfHQ8vYoe4QIyC0QsSW7FzIlI6UcoA4uc0WqWMmYO.512",
+    "icon": "7LeHfHQ8vYoe4QIyC0QsSW7FzIlI6UcoA4uc0WqWMmYO",
     "overclockable": true,
     "powerConsumption": {
       "amount": 30,
@@ -808,8 +775,7 @@
       "Power",
       "Generators"
     ],
-    "icon": "7yUz46VajCcySAacOs62yG7BYFZG3kZy6AsYiIeMQAcq.64",
-    "poster": "7yUz46VajCcySAacOs62yG7BYFZG3kZy6AsYiIeMQAcq.512",
+    "icon": "7yUz46VajCcySAacOs62yG7BYFZG3kZy6AsYiIeMQAcq",
     "overclockable": true,
     "powerProduction": {
       "amount": 2500,
@@ -829,8 +795,7 @@
       "Production",
       "OilProduction"
     ],
-    "icon": "7y5oua3NAsYuEEcWy02MEu6ONz18ZA08AeCogyo4s4ec.64",
-    "poster": "7y5oua3NAsYuEEcWy02MEu6ONz18ZA08AeCogyo4s4ec.512",
+    "icon": "7y5oua3NAsYuEEcWy02MEu6ONz18ZA08AeCogyo4s4ec",
     "overclockable": true,
     "powerConsumption": {
       "amount": 40,
@@ -846,8 +811,7 @@
       "Organisation",
       "Storage"
     ],
-    "icon": "7N3YTnUuYg66UMykymwsEq6OHbdJXU0oEaSuOMy8ogcE.64",
-    "poster": "7N3YTnUuYg66UMykymwsEq6OHbdJXU0oEaSuOMy8ogcE.512",
+    "icon": "7N3YTnUuYg66UMykymwsEq6OHbdJXU0oEaSuOMy8ogcE",
     "storage": {
       "x": 5,
       "y": 5
@@ -892,8 +856,7 @@
       "Transport",
       "Pipes"
     ],
-    "icon": "7N42dfWqzYYOy8KkCa0YCE42wkXTa3CMyy2eaieKcQuI.64",
-    "poster": "7N42dfWqzYYOy8KkCa0YCE42wkXTa3CMyy2eaieKcQuI.512",
+    "icon": "7N42dfWqzYYOy8KkCa0YCE42wkXTa3CMyy2eaieKcQuI",
     "slug": "pipeline"
   },
   "pipeline-junction-cross": {
@@ -904,8 +867,7 @@
       "Transport",
       "Pipes"
     ],
-    "icon": "7N426BNjry8CAO22OyweoW3U07E8cmwwMeqQgkiwWso4.64",
-    "poster": "7N426BNjry8CAO22OyweoW3U07E8cmwwMeqQgkiwWso4.512",
+    "icon": "7N426BNjry8CAO22OyweoW3U07E8cmwwMeqQgkiwWso4",
     "slug": "pipeline-junction-cross"
   },
   "pipeline-pump": {
@@ -916,8 +878,7 @@
       "Transport",
       "Pipes"
     ],
-    "icon": "7N3BEjMvv2Cowq0kKG00Qa6mmoBzL1Ju2g6C8M62EKSI.64",
-    "poster": "7N3BEjMvv2Cowq0kKG00Qa6mmoBzL1Ju2g6C8M62EKSI.512",
+    "icon": "7N3BEjMvv2Cowq0kKG00Qa6mmoBzL1Ju2g6C8M62EKSI",
     "slug": "pipeline-pump"
   },
   "pipeline-support": {
@@ -938,8 +899,7 @@
       "Transport",
       "PipeSupport"
     ],
-    "icon": "7N41Mf4WeA8AEYkcE0WQoC7pZ8R8hfFu2amC6WGIgywG.64",
-    "poster": "7N41Mf4WeA8AEYkcE0WQoC7pZ8R8hfFu2amC6WGIgywG.512",
+    "icon": "7N41Mf4WeA8AEYkcE0WQoC7pZ8R8hfFu2amC6WGIgywG",
     "slug": "pipeline-wall-support"
   },
   "pipeline-wall-through-hole": {
@@ -950,8 +910,7 @@
       "Transport",
       "PipeSupport"
     ],
-    "icon": "7N3YG60pJCwGkgOqCU4oA44RvVa8EanuEIqkOKG6ceWg.64",
-    "poster": "7N3YG60pJCwGkgOqCU4oA44RvVa8EanuEIqkOKG6ceWg.512",
+    "icon": "7N3YG60pJCwGkgOqCU4oA44RvVa8EanuEIqkOKG6ceWg",
     "slug": "pipeline-wall-through-hole"
   },
   "power-line": {
@@ -962,7 +921,7 @@
       "Power",
       "PowerPoles"
     ],
-    "icon": "7yrkxFpTxewKSMQmuI2YEE7nABS4QnMki4U6uIWCocCq.64",
+    "icon": "7yrkxFpTxewKSMQmuI2YEE7nABS4QnMki4U6uIWCocCq",
     "slug": "power-line"
   },
   "power-pole": {
@@ -973,8 +932,7 @@
       "Power",
       "PowerPoles"
     ],
-    "icon": "7FZjkzLBG84eo0QswKyCwC7KexLdcNXiusCMmKg8oMgM.64",
-    "poster": "7FZjkzLBG84eo0QswKyCwC7KexLdcNXiusCMmKg8oMgM.512",
+    "icon": "7FZjkzLBG84eo0QswKyCwC7KexLdcNXiusCMmKg8oMgM",
     "slug": "power-pole"
   },
   "power-pole-mk2": {
@@ -985,8 +943,7 @@
       "Power",
       "PowerPoles"
     ],
-    "icon": "7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.64",
-    "poster": "7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.512",
+    "icon": "7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM",
     "slug": "power-pole-mk2"
   },
   "power-pole-mk3": {
@@ -997,8 +954,7 @@
       "Power",
       "PowerPoles"
     ],
-    "icon": "7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.64",
-    "poster": "7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM.512",
+    "icon": "7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM",
     "slug": "power-pole-mk3"
   },
   "programmable-splitter": {
@@ -1009,8 +965,7 @@
       "Transport",
       "ConveyorAttachments"
     ],
-    "icon": "7N41ldHl5KsMuISGsw6ueK6RX8pFtjfqwwGCkWE0geA0.64",
-    "poster": "7N41ldHl5KsMuISGsw6ueK6RX8pFtjfqwwGCkWE0geA0.512",
+    "icon": "7N41ldHl5KsMuISGsw6ueK6RX8pFtjfqwwGCkWE0geA0",
     "slug": "programmable-splitter"
   },
   "railway": {
@@ -1021,8 +976,7 @@
       "Transport",
       "Trains"
     ],
-    "icon": "7N42dgm5tCCQsMcmemUoI83clQnzgVDiGUUakEyioq.64",
-    "poster": "7N42dgm5tCCQsMcmemUoI83clQnzgVDiGUUakEyioq.512",
+    "icon": "7N42dgm5tCCQsMcmemUoI83clQnzgVDiGUUakEyioq",
     "slug": "railway"
   },
   "ramp-8m-x-1m": {
@@ -1083,8 +1037,7 @@
       "Production",
       "OilProduction"
     ],
-    "icon": "7Mma6fzgB2I0KMukuyKuYi7y5ouAC2IwUsqK4IgI602Y.64",
-    "poster": "7Mma6fzgB2I0KMukuyKuYi7y5ouAC2IwUsqK4IgI602Y.512",
+    "icon": "7Mma6fzgB2I0KMukuyKuYi7y5ouAC2IwUsqK4IgI602Y",
     "overclockable": true,
     "powerConsumption": {
       "amount": 50,
@@ -1100,8 +1053,7 @@
       "Transport",
       "ConveyorAttachments"
     ],
-    "icon": "7N41MeVh5YsOqgmaw8o02g6RmzEuu6QwScC6U8WI4oOo.64",
-    "poster": "7N41MeVh5YsOqgmaw8o02g6RmzEuu6QwScC6U8WI4oOo.512",
+    "icon": "7N41MeVh5YsOqgmaw8o02g6RmzEuu6QwScC6U8WI4oOo",
     "slug": "smart-splitter"
   },
   "smelter": {
@@ -1112,8 +1064,7 @@
       "Production",
       "Smelters"
     ],
-    "icon": "6OUQBbqkJUmaeQoKIqAgQM7j37bkJI1GsYm84qi6UO6a.64",
-    "poster": "6OUQBbqkJUmaeQoKIqAgQM7j37bkJI1GsYm84qi6UO6a.512",
+    "icon": "6OUQBbqkJUmaeQoKIqAgQM7j37bkJI1GsYm84qi6UO6a",
     "overclockable": true,
     "powerConsumption": {
       "amount": 4,
@@ -1129,8 +1080,7 @@
       "Special",
       "Special"
     ],
-    "icon": "7JLi895PP2E6ywuSqW42uM7FZhJv4UjCEKGAegYyqs4U.64",
-    "poster": "7JLi895PP2E6ywuSqW42uM7FZhJv4UjCEKGAegYyqs4U.512",
+    "icon": "7JLi895PP2E6ywuSqW42uM7FZhJv4UjCEKGAegYyqs4U",
     "slug": "space-elevator"
   },
   "stackable-pipeline-support": {
@@ -1181,8 +1131,7 @@
       "Organisation",
       "Storage"
     ],
-    "icon": "7N42dgiRQkISe4qWm2cOE63Y9MN5j9q08mQqmyC0cK8w.64",
-    "poster": "7N42dgiRQkISe4qWm2cOE63Y9MN5j9q08mQqmyC0cK8w.512",
+    "icon": "7N42dgiRQkISe4qWm2cOE63Y9MN5j9q08mQqmyC0cK8w",
     "storage": {
       "x": 6,
       "y": 4
@@ -1197,8 +1146,7 @@
       "Special",
       "Special"
     ],
-    "icon": "7N41SFY3zGeoGe6EKwoiaU7IsLFQj1WESsk8eAwaUe8A.64",
-    "poster": "7N41SFY3zGeoGe6EKwoiaU7IsLFQj1WESsk8eAwaUe8A.512",
+    "icon": "7N41SFY3zGeoGe6EKwoiaU7IsLFQj1WESsk8eAwaUe8A",
     "slug": "the-hub"
   },
   "tilted-jump-pad": {
@@ -1209,7 +1157,7 @@
       "Production",
       "JumpPads"
     ],
-    "icon": "1WLaiLRMvym4CygqykQIGs40RXTPV1FmsqMIY0EwSCIG.64",
+    "icon": "1WLaiLRMvym4CygqykQIGs40RXTPV1FmsqMIY0EwSCIG",
     "powerConsumption": {
       "amount": 2,
       "exponent": 1.6
@@ -1224,8 +1172,7 @@
       "Transport",
       "Trains"
     ],
-    "icon": "7N420oqc2kKqUEmKuu8usq5Nw7sTbtp6ewo44SGmw0cU.64",
-    "poster": "7N420oqc2kKqUEmKuu8usq5Nw7sTbtp6ewo44SGmw0cU.512",
+    "icon": "7N420oqc2kKqUEmKuu8usq5Nw7sTbtp6ewo44SGmw0cU",
     "powerConsumption": {
       "amount": 50,
       "exponent": 1.6
@@ -1240,8 +1187,7 @@
       "Transport",
       "Vehicles"
     ],
-    "icon": "7N42dgm5tCCQsMcmemUoI87M9m4mB6b68iqAqUEG4wgy.64",
-    "poster": "7N42dgm5tCCQsMcmemUoI87M9m4mB6b68iqAqUEG4wgy.512",
+    "icon": "7N42dgm5tCCQsMcmemUoI87M9m4mB6b68iqAqUEG4wgy",
     "powerConsumption": {
       "amount": 20,
       "exponent": 1.6
@@ -1256,8 +1202,7 @@
       "Production",
       "JumpPads"
     ],
-    "icon": "7N42deTVv2mQu4Sg22UeaM7xZTAkFlLyo2M6CoIkOYOK.64",
-    "poster": "7N42deTVv2mQu4Sg22UeaM7xZTAkFlLyo2M6CoIkOYOK.512",
+    "icon": "7N42deTVv2mQu4Sg22UeaM7xZTAkFlLyo2M6CoIkOYOK",
     "powerConsumption": {
       "amount": 5,
       "exponent": 1.6
@@ -1282,7 +1227,7 @@
       "Organisation",
       "Walkways"
     ],
-    "icon": "7Hp2RId8yc2smoAEgaGmue6PgJ5nmyROuaAeOYk66kII.64",
+    "icon": "7Hp2RId8yc2smoAEgaGmue6PgJ5nmyROuaAeOYk66kII",
     "slug": "walkway-ramp"
   },
   "walkway-straight": {
@@ -1293,7 +1238,7 @@
       "Organisation",
       "Walkways"
     ],
-    "icon": "7N42dglUyI8sEIEou8AKSk5QpBSyAEesMiuOG0m8mcAC.64",
+    "icon": "7N42dglUyI8sEIEou8AKSk5QpBSyAEesMiuOG0m8mcAC",
     "slug": "walkway-straight"
   },
   "walkway-t-crossing": {
@@ -1320,8 +1265,7 @@
       "Walls",
       "Walls"
     ],
-    "icon": "7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.64",
-    "poster": "7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.512",
+    "icon": "7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs",
     "slug": "wall-8m-x-4m-1"
   },
   "wall-8m-x-4m-2": {
@@ -1332,8 +1276,7 @@
       "Walls",
       "Walls"
     ],
-    "icon": "7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.64",
-    "poster": "7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.512",
+    "icon": "7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc",
     "slug": "wall-8m-x-4m-2"
   },
   "wall-conveyor-perpendicular-1": {
@@ -1506,8 +1449,7 @@
       "Walls",
       "Walls"
     ],
-    "icon": "7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.64",
-    "poster": "7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs.512",
+    "icon": "7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs",
     "slug": "wall-window-8m-x-4m-01"
   },
   "wall-window-8m-x-4m-02": {
@@ -1518,8 +1460,7 @@
       "Walls",
       "Walls"
     ],
-    "icon": "7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.64",
-    "poster": "7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc.512",
+    "icon": "7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc",
     "slug": "wall-window-8m-x-4m-02"
   },
   "wall-window-8m-x-4m-04": {
@@ -1530,8 +1471,7 @@
       "Walls",
       "Walls"
     ],
-    "icon": "7N3O9KSvdKe4soeW22OEgE48EJqCRJqUuSCM0yY4kCIK.64",
-    "poster": "7N3O9KSvdKe4soeW22OEgE48EJqCRJqUuSCM0yY4kCIK.512",
+    "icon": "7N3O9KSvdKe4soeW22OEgE48EJqCRJqUuSCM0yY4kCIK",
     "slug": "wall-window-8m-x-4m-04"
   },
   "water-extractor": {
@@ -1542,8 +1482,7 @@
       "Production",
       "OilProduction"
     ],
-    "icon": "7G6BXO1jDUqiAWi2QsOCOQ6OUN3a6dQkyi2uCU8Ua4cu.64",
-    "poster": "7G6BXO1jDUqiAWi2QsOCOQ6OUN3a6dQkyi2uCU8Ua4cu.512",
+    "icon": "7G6BXO1jDUqiAWi2QsOCOQ6OUN3a6dQkyi2uCU8Ua4cu",
     "overclockable": true,
     "powerConsumption": {
       "amount": 20,
@@ -1559,8 +1498,7 @@
       "Walls",
       "Walls"
     ],
-    "icon": "7N3OgCkE2kKsyKi0Oqog2U4pShwtayTmqcOeo6OOYwgS.64",
-    "poster": "7N3OgCkE2kKsyKi0Oqog2U4pShwtayTmqcOeo6OOYwgS.512",
+    "icon": "7N3OgCkE2kKsyKi0Oqog2U4pShwtayTmqcOeo6OOYwgS",
     "slug": "window-8m-x-4m-03"
   }
 }

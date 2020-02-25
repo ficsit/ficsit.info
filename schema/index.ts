@@ -1,3 +1,4 @@
+export * from './assets';
 export * from './Building';
 export * from './Entity';
 export * from './Indexable';

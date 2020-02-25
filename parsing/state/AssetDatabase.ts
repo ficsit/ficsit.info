@@ -1,3 +1,4 @@
+import { imageSizes } from '@local/schema';
 import { imageHash } from '@lolpants/image-hash';
 import * as base62 from 'base62';
 import sharp from 'sharp';
@@ -58,45 +59,47 @@ export class AssetDatabase {
     return paths.sort((a, b) => _iconSize(b) - _iconSize(a))[0];
   }
 
-  async saveIcon(sourcePath: string, sizes: number[]) {
+  async saveImage(sourcePath: string): Promise<string> {
     const source = await this._resources.readBuffer(sourcePath);
     const hash = _hashImage(source);
-    const icon = sharp(source);
-    const { height, width } = await icon.metadata();
+    const image = sharp(source);
+    const { height, width } = await image.metadata();
 
-    return await Promise.all(sizes.map(async size => {
-      if (height! < size && width! < size) return undefined;
-
-      const baseName = `${hash}.${size}`;
-      const pngPath = this._output.path('images', `${baseName}.png`);
-      const webpPath = this._output.path('images', `${baseName}.webp`)
-      if (await this._output.readable(pngPath) && await this._output.readable(webpPath)) return baseName;
-
-      const resized = icon.clone().resize(size, size, { fit: 'cover' });
-      await this._output.mkdirFor(pngPath);
-      await this._output.mkdirFor(webpPath);
-
-      const png = resized
-        .clone()
-        .png({ 
-          // We get a decent amount (~5%) of additional compression from this.
-          adaptiveFiltering: true,
-        })
-        .toFile(this._output.path('images', `${baseName}.png`));
-      
-      const webp = resized
-        .clone()
-        .webp({
-          quality: 60,
-          nearLossless: true,
-          reductionEffort: 6,
-        })
-        .toFile(this._output.path('images', `${baseName}.webp`));
-
-      await Promise.all([png, webp]);
-      
-      return baseName;
+    const targetSizes = imageSizes.filter(size => height! >= size || width! >= size);
+    await Promise.all(targetSizes.flatMap(size => {
+      const resized = image.clone().resize(size, size, { fit: 'cover' });
+      return [
+        this._writeImage(resized, `${hash}.${size}.png`),
+        this._writeImage(resized, `${hash}.${size}.webp`),
+      ];
     }));
+
+    return hash;
+  }
+
+  async _writeImage(image: sharp.Sharp, baseName: string) {
+    const path = this._output.path('images', baseName)
+    if (await this._output.readable(path)) return;
+
+    await this._output.mkdirFor(path);
+    image = image.clone();
+
+    if (baseName.endsWith('.png')) {
+      image = image.png({ 
+        // We get a decent amount (~5%) of additional compression from this.
+        adaptiveFiltering: true,
+      });
+    } else if (baseName.endsWith('.webp')) {
+      image = image.webp({
+        quality: 60,
+        nearLossless: true,
+        reductionEffort: 6,
+      });
+    } else {
+      throw new Error(`Unknown format ${baseName}`);
+    }
+
+    await image.toFile(path);
   }
 }
 

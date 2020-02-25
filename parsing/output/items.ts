@@ -29,10 +29,8 @@ async function _buildItem(entityDb: EntityDatabase, assetDb: AssetDatabase, raw:
 
   const icon = await assetDb.findLargestEntityIcon(raw);
   if (icon) {
-    const [small, poster] = await assetDb.saveIcon(icon, [64, 256]);
-
-    _assign(item, 'icon', small);
-    _assign(item, 'poster', poster);
+    const image = await assetDb.saveImage(icon);
+    _assign(item, 'icon', image);
   }
 
   if (raw.entity.mStackSize === 'SS_FLUID') {

@@ -1,6 +1,7 @@
 {
   "editor.insertSpaces": true,
   "editor.tabSize": 2,
+  "editor.rulers": [80, 110],
   "files.insertFinalNewline": true,
   "files.exclude": {
     "**/.*": true,

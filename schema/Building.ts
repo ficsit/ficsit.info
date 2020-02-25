@@ -1,5 +1,5 @@
 import { Indexable } from './Indexable';
-import { ImageId, EntityKind, HumanReadableString, Slug, ItemForm } from './primitive';
+import { EntityKind, HumanReadableString, Slug, ItemForm } from './primitive';
 
 /**
  * Any entity which can be built by the player (factory buildings, foundations,
@@ -12,11 +12,6 @@ export interface Building extends Indexable {
    * A detailed description of the building.
    */
   description: HumanReadableString;
-
-  /**
-   * A large image of the building, for display in detail pages.
-   */
-  poster?: ImageId;
 
   // Common collections of metadata.
 

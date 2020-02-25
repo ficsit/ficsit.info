@@ -42,10 +42,8 @@ async function _buildBuilding(outputDb: OutputDatabase, entityDb: EntityDatabase
 
   const icon = await assetDb.findLargestEntityIcon(descriptor || raw);
   if (icon) {
-    const [small, poster] = await assetDb.saveIcon(icon, [64, 512]);
-
-    _assign(building, 'icon', small);
-    _assign(building, 'poster', poster);
+    const image= await assetDb.saveImage(icon);
+    _assign(building, 'icon', image);
   }
 
   if (entityDb.isKind(raw, 'FGBuildableFactory')) {

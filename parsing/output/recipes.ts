@@ -33,9 +33,8 @@ async function _buildRecipe(outputDb: OutputDatabase, entityDb: EntityDatabase, 
 
   const icon = await assetDb.findLargestEntityIcon(firstProduct);
   if (icon) {
-    const [small] = await assetDb.saveIcon(icon, [64]);
-
-    _assign(recipe, 'icon', small);
+    const image = await assetDb.saveImage(icon);
+    _assign(recipe, 'icon', image);
   }
 
   return recipe;

@@ -22,7 +22,7 @@ export interface Indexable {
   name: HumanReadableString;
 
   /**
-   * Path to an icon of the entity, to be displayed along side its name.
+   * Path to an transparent image of the entity.
    */
   icon?: ImageId;
 

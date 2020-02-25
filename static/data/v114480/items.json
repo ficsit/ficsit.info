@@ -23,8 +23,7 @@
     "description": "Thin lightweight & highly durable sheet that is mainly used for products that need to be light or have high heat conduction.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N41SFMSAMkagIwAmwaSUK5TY5sf7TH2cagIMuUAWG88.64",
-    "poster": "7N41SFMSAMkagIwAmwaSUK5TY5sf7TH2cagIMuUAWG88.256",
+    "icon": "7N41SFMSAMkagIwAmwaSUK5TY5sf7TH2cagIMuUAWG88",
     "stackSize": "medium",
     "slug": "alclad-aluminum-sheet"
   },
@@ -58,8 +57,7 @@
     "description": "Dissolved Alumina, extracted from Bauxite. Can be further refined into pure Aluminum.",
     "form": "liquid",
     "sinkPoints": 1,
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
-    "poster": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.256",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak",
     "fluid": {
       "color": "#c1c1c1ff"
     },
@@ -71,8 +69,7 @@
     "description": "Aluminum Ingots are made from Aluminum Scrap. It is mostly used to produce specialized aluminum-based parts.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N422Y4rJYiGMA24W8aKuG4xazv4dY9yKWwUiKqwoSgK.64",
-    "poster": "7N422Y4rJYiGMA24W8aKuG4xazv4dY9yKWwUiKqwoSgK.256",
+    "icon": "7N422Y4rJYiGMA24W8aKuG4xazv4dY9yKWwUiKqwoSgK",
     "stackSize": "medium",
     "slug": "aluminum-ingot"
   },
@@ -82,8 +79,7 @@
     "description": "Aluminum Scrap is pure aluminum refined from Alumina. Can be smelted down to Aluminum Ingots for industrial usage.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N41NpQ8NOOgWSE4Y626oA40n03SSxhSakCkIoKO68MA.64",
-    "poster": "7N41NpQ8NOOgWSE4Y626oA40n03SSxhSakCkIoKO68MA.256",
+    "icon": "7N41NpQ8NOOgWSE4Y626oA40n03SSxhSakCkIoKO68MA",
     "stackSize": "huge",
     "slug": "aluminum-scrap"
   },
@@ -102,8 +98,7 @@
     "description": "Slot: Hands\nConsumable\n\nCan be eaten to restore two health segments.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7yrjDtR1deWW8KUoYcmIWw3TyPyNB4mseMCmkAIOQ0ye.64",
-    "poster": "7yrjDtR1deWW8KUoYcmIWw3TyPyNB4mseMCmkAIOQ0ye.256",
+    "icon": "7yrjDtR1deWW8KUoYcmIWw3TyPyNB4mseMCmkAIOQ0ye",
     "stackSize": "small",
     "slug": "bacon-agaric"
   },
@@ -113,8 +108,7 @@
     "description": "Batteries store an electrical charge. They are primarily used as a power source.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7Mm9HAuwZGaaMmiS6mKKES5Qldty9RUASQsIAScc4kEu.64",
-    "poster": "7Mm9HAuwZGaaMmiS6mKKES5Qldty9RUASQsIAScc4kEu.256",
+    "icon": "7Mm9HAuwZGaaMmiS6mKKES5Qldty9RUASQsIAScc4kEu",
     "stackSize": "medium",
     "fuel": {
       "energy": 6000
@@ -127,8 +121,7 @@
     "description": "Bauxite is turned into Aluminum Ingots via an advanced smelting process.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42afPvOg4wqe06WEsQoE3U3HaDOGHYuWIGeU0aA0Mk.64",
-    "poster": "7N42afPvOg4wqe06WEsQoE3U3HaDOGHYuWIGeU0aA0Mk.256",
+    "icon": "7N42afPvOg4wqe06WEsQoE3U3HaDOGHYuWIGeU0aA0Mk",
     "stackSize": "medium",
     "slug": "bauxite"
   },
@@ -168,8 +161,7 @@
     "description": "An explosive powder that is commonly used in explosives and cartridges.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7ycGWFxPVKoKcIMMgcWaOA6OYviOGHJu0qYoU2GIoiWM.64",
-    "poster": "7ycGWFxPVKoKcIMMgcWaOA6OYviOGHJu0qYoU2GIoiWM.256",
+    "icon": "7ycGWFxPVKoKcIMMgcWaOA6OYviOGHJu0qYoU2GIoiWM",
     "stackSize": "medium",
     "slug": "black-powder"
   },
@@ -193,8 +185,7 @@
     "description": "Used for crafting.\nPrimarily used to build power lines.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.64",
-    "poster": "7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA.256",
+    "icon": "7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA",
     "stackSize": "medium",
     "slug": "cable"
   },
@@ -204,8 +195,7 @@
     "description": "Ammo for the Rifle.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "414LfZyMPYGW6mYoSIqyUk7iVO3xRQDmQugk0UMYyMu2.64",
-    "poster": "414LfZyMPYGW6mYoSIqyUk7iVO3xRQDmQugk0UMYyMu2.256",
+    "icon": "414LfZyMPYGW6mYoSIqyUk7iVO3xRQDmQugk0UMYyMu2",
     "stackSize": "small",
     "slug": "cartridge"
   },
@@ -215,8 +205,7 @@
     "description": "Caterium Ingots are smelted from Caterium Ore. Caterium Ingots are mostly used for advanced electronics.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N41MFvUxUGyoaquC4yqKy6vPa08mrmgaccyYkSiAuUq.64",
-    "poster": "7N41MFvUxUGyoaquC4yqKy6vPa08mrmgaccyYkSiAuUq.256",
+    "icon": "7N41MFvUxUGyoaquC4yqKy6vPa08mrmgaccyYkSiAuUq",
     "stackSize": "medium",
     "slug": "caterium-ingot"
   },
@@ -226,8 +215,7 @@
     "description": "Caterium Ore is smelted into Caterium Ingots. Caterium Ingots are mostly used for advanced electronics.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N3YKVmqqsCM88MwQoqMs05PmLDwWWDmSgqaMa2E2IMQ.64",
-    "poster": "7N3YKVmqqsCM88MwQoqMs05PmLDwWWDmSgqaMa2E2IMQ.256",
+    "icon": "7N3YKVmqqsCM88MwQoqMs05PmLDwWWDmSgqaMa2E2IMQ",
     "stackSize": "medium",
     "slug": "caterium-ore"
   },
@@ -237,8 +225,7 @@
     "description": "Slot: Hands\nFuel: Biofuel\n\nUsed to clear an area of flora that is too difficult to remove by hand.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "3TwFR5iDTW8iwUgqAsKeK47xYxUvWLVCwmGawmmeYWa0.64",
-    "poster": "3TwFR5iDTW8iwUgqAsKeK47xYxUvWLVCwmGawmmeYWa0.256",
+    "icon": "3TwFR5iDTW8iwUgqAsKeK47xYxUvWLVCwmGawmmeYWa0",
     "stackSize": "one",
     "equipment": {
       "slot": "arms",
@@ -252,8 +239,7 @@
     "description": "Circuit Boards are advanced electronics that are used in a plethora of different ways.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.64",
-    "poster": "7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc.256",
+    "icon": "7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc",
     "stackSize": "big",
     "slug": "circuit-board"
   },
@@ -263,8 +249,7 @@
     "description": "Mainly used as fuel for vehicles & coal generators and for steel production.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU.64",
-    "poster": "7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU.256",
+    "icon": "7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU",
     "stackSize": "medium",
     "fuel": {
       "energy": 300
@@ -277,8 +262,7 @@
     "description": "Ammo for the Color Gun.\nNecessary to change the color of factory buildings and vehicles.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7JLgMvGRPO8c6wKO0Y6cMu6Q9Eu6zADm2kOGi4UA6igO.64",
-    "poster": "7JLgMvGRPO8c6wKO0Y6cMu6Q9Eu6zADm2kOGi4UA6igO.256",
+    "icon": "7JLgMvGRPO8c6wKO0Y6cMu6Q9Eu6zADm2kOGi4UA6igO",
     "stackSize": "big",
     "fuel": {
       "energy": 900
@@ -291,8 +275,7 @@
     "description": "Slot: Hands\nAmmo: Color Cartridge\n\nPaints factory buildings and vehicles. The color can be adjusted prior to painting.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7JwFEcpbbiMGKkEmMcwY8G3TxSeTrOq4uoWusym4KKYa.64",
-    "poster": "7JwFEcpbbiMGKkEmMcwY8G3TxSeTrOq4uoWusym4KKYa.256",
+    "icon": "7JwFEcpbbiMGKkEmMcwY8G3TxSeTrOq4uoWusym4KKYa",
     "stackSize": "one",
     "slug": "color-gun"
   },
@@ -302,8 +285,7 @@
     "description": "A much more efficient alternative for Coal. Used as fuel for vehicles & coal generators.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N426C5PNeqMUYS40ACqy84oc5mrUUnKwiMw8MYwMeq2.64",
-    "poster": "7N426C5PNeqMUYS40ACqy84oc5mrUUnKwiMw8MYwMeq2.256",
+    "icon": "7N426C5PNeqMUYS40ACqy84oc5mrUUnKwiMw8MYwMeq2",
     "stackSize": "medium",
     "fuel": {
       "energy": 630
@@ -316,8 +298,7 @@
     "description": "A Computer is a complex logic machine that is used to control advanced behaviour in machines.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8.64",
-    "poster": "7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8.256",
+    "icon": "7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8",
     "stackSize": "small",
     "slug": "computer"
   },
@@ -327,8 +308,7 @@
     "description": "Used for building.\nGood for stable foundations.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.64",
-    "poster": "7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge.256",
+    "icon": "7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge",
     "stackSize": "medium",
     "slug": "concrete"
   },
@@ -338,8 +318,7 @@
     "description": "Used for crafting.\nCrafted into the most basic parts.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W.64",
-    "poster": "7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W.256",
+    "icon": "7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W",
     "stackSize": "medium",
     "slug": "copper-ingot"
   },
@@ -349,8 +328,7 @@
     "description": "Used for crafting.\nBasic resource mainly used for electricity.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dgm5sk2G88UM42gmE06r5LGGbrEIoyyIWYAi0yYs.64",
-    "poster": "7N42dgm5sk2G88UM42gmE06r5LGGbrEIoyyIWYAi0yYs.256",
+    "icon": "7N42dgm5sk2G88UM42gmE06r5LGGbrEIoyyIWYAi0yYs",
     "stackSize": "medium",
     "slug": "copper-ore"
   },
@@ -360,8 +338,7 @@
     "description": "Used for crafting.\nPrimarily used for pipelines due to its high corrosion resistance.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dfzMNaQUSaaIqeYMY86QCTRQ6ctU6c6O44QIcmC0.64",
-    "poster": "7N42dfzMNaQUSaaIqeYMY86QCTRQ6ctU6c6O44QIcmC0.256",
+    "icon": "7N42dfzMNaQUSaaIqeYMY86QCTRQ6ctU6c6O44QIcmC0",
     "stackSize": "medium",
     "slug": "copper-sheet"
   },
@@ -371,8 +348,7 @@
     "description": "Crude Oil is refined into all kinds of Oil-based resources, like Fuel and Plastic.",
     "form": "liquid",
     "sinkPoints": 1,
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
-    "poster": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.256",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak",
     "fluid": {
       "color": "#19019ff"
     },
@@ -387,8 +363,7 @@
     "description": "A crystal oscillator is an electronic oscillator circuit that uses the mechanical resonance of a vibrating crystal to create an electrical signal with a precise frequency.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7FZhJVM03S2UuEMIcwKuIe6S6iGjtXzywQ4QGewK0YMI.64",
-    "poster": "7FZhJVM03S2UuEMIcwKuIe6S6iGjtXzywQ4QGewK0YMI.256",
+    "icon": "7FZhJVM03S2UuEMIcwKuIe6S6iGjtXzywQ4QGewK0YMI",
     "stackSize": "medium",
     "slug": "crystal-oscillator"
   },
@@ -398,8 +373,7 @@
     "description": "Control Rods regulate power expenditure via electromagnetism.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dfyb1mOgWauaiGQOkS6OMFesktpYMeq4u6eqEuIa.64",
-    "poster": "7N42dfyb1mOgWauaiGQOkS6OMFesktpYMeq4u6eqEuIa.256",
+    "icon": "7N42dfyb1mOgWauaiGQOkS6OMFesktpYMeq4u6eqEuIa",
     "stackSize": "medium",
     "slug": "electromagnetic-control-rod"
   },
@@ -409,8 +383,7 @@
     "description": "Used to package fluids for transportation. Can be recycled.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7LaOy6tXLU0GO86yuyMCio4133cp7s9aWW8OmSUSUEs2.64",
-    "poster": "7LaOy6tXLU0GO86yuyMCio4133cp7s9aWW8OmSUSUEs2.256",
+    "icon": "7LaOy6tXLU0GO86yuyMCio4133cp7s9aWW8OmSUSUEs2",
     "stackSize": "medium",
     "slug": "empty-canister"
   },
@@ -420,8 +393,7 @@
     "description": "Encased Industrial Beams utilizes the compressive strength of concrete and tensile strength of steel simultaneously.\nMostly used as a stable basis for constructing buildings.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N41ZE2KooGCKcMyO6KAqE3ERbIcQg80w0sOCuciCAIq.64",
-    "poster": "7N41ZE2KooGCKcMyO6KAqE3ERbIcQg80w0sOCuciCAIq.256",
+    "icon": "7N41ZE2KooGCKcMyO6KAqE3ERbIcQg80w0sOCuciCAIq",
     "stackSize": "medium",
     "slug": "encased-industrial-beam"
   },
@@ -431,8 +403,7 @@
     "description": "Uranium Cells are concrete encased uranium pellets. Primarily used to make Nuclear Fuel Rods\nModerately radioactive.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N3YGwNVmM2K2G6KWGaSyy4723x3vj8c22MAKgMuKCOA.64",
-    "poster": "7N3YGwNVmM2K2G6KWGaSyy4723x3vj8c22MAKgMuKCOA.256",
+    "icon": "7N3YGwNVmM2K2G6KWGaSyy4723x3vj8c22MAKgMuKCOA",
     "stackSize": "big",
     "radioactivity": {
       "decay": 7.5
@@ -445,8 +416,7 @@
     "description": "Used for equipment crafting.\nFlexible but durable fabric.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42agcQEwSG4c2GuA6ygM5XH80xNhRKk4QM2mm28Ie2.64",
-    "poster": "7N42agcQEwSG4c2GuA6ygM5XH80xNhRKk4QM2mm28Ie2.256",
+    "icon": "7N42agcQEwSG4c2GuA6ygM5XH80xNhRKk4QM2mm28Ie2",
     "stackSize": "medium",
     "fuel": {
       "energy": 15
@@ -468,8 +438,7 @@
     "description": "Used in gas masks to filter out pollutants in the air.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N41MFCmhqi0ymKkioO0a87n9bUeC8yACcEU4mmA0q4y.64",
-    "poster": "7N41MFCmhqi0ymKkioO0a87n9bUeC8yACcEU4mmA0q4y.256",
+    "icon": "7N41MFCmhqi0ymKkioO0a87n9bUeC8yACcEU4mmA0q4y",
     "stackSize": "small",
     "slug": "filter"
   },
@@ -479,8 +448,7 @@
     "description": "Used for crafting.\nColorful native flower petals.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dgiUW4OmQAimygkq6u5QkisDwXwkyIcQ4aeG846y.64",
-    "poster": "7N42dgiUW4OmQAimygkq6u5QkisDwXwkyIcQ4aeG846y.256",
+    "icon": "7N42dgiUW4OmQAimygkq6u5QkisDwXwkyIcQ4aeG846y",
     "stackSize": "big",
     "fuel": {
       "energy": 100
@@ -493,8 +461,7 @@
     "description": "Fuel is either converted into electricity or as fuel for vehicles.",
     "form": "liquid",
     "sinkPoints": 1,
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
-    "poster": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.256",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak",
     "fluid": {
       "color": "#f4837aff"
     },
@@ -509,8 +476,7 @@
     "description": "Slot: Body\n\nAllows you to breathe normally in poison gas. Consumes Filters from your inventory when you are in poison gas.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "3TwFQk2g4U6KikWqaE8Ywc5ReXXKMkAoYeSoQCAGimce.64",
-    "poster": "3TwFQk2g4U6KikWqaE8Ywc5ReXXKMkAoYeSoQCAGimce.256",
+    "icon": "3TwFQk2g4U6KikWqaE8Ywc5ReXXKMkAoYeSoQCAGimce",
     "stackSize": "one",
     "slug": "gas-mask"
   },
@@ -547,8 +513,7 @@
     "description": "A more robust multi-purpose frame.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG.64",
-    "poster": "7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG.256",
+    "icon": "7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG",
     "stackSize": "small",
     "slug": "heavy-modular-frame"
   },
@@ -558,8 +523,7 @@
     "description": "A by-product of Plastic and Rubber production. Can be further refined into Fuel and Petroleum Coke.",
     "form": "liquid",
     "sinkPoints": 1,
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
-    "poster": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.256",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak",
     "fluid": {
       "color": "#6d2d78ff"
     },
@@ -574,8 +538,7 @@
     "description": "The high-speed connector connects several cables and wires in a very efficient way. Uses a standard pattern so its applications are many and varied.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dglnO0Ge2o0uekCySU7ch58bY3WEseIQQGoYas.64",
-    "poster": "7N42dglnO0Ge2o0uekCySU7ch58bY3WEseIQQGoYas.256",
+    "icon": "7N42dglnO0Ge2o0uekCySU7ch58bY3WEseIQQGoYas",
     "stackSize": "medium",
     "slug": "high-speed-connector"
   },
@@ -585,8 +548,7 @@
     "description": "The parts required to build the basic structure of the HUB.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N3YHAEUjCWU8q8CYuESYY7qrUBt4mhq2kwaOoK8k8sS.64",
-    "poster": "7N3YHAEUjCWU8q8CYuESYY7qrUBt4mhq2kwaOoK8k8sS.256",
+    "icon": "7N3YHAEUjCWU8q8CYuESYY7qrUBt4mhq2kwaOoK8k8sS",
     "stackSize": "one",
     "slug": "hub-parts"
   },
@@ -596,8 +558,7 @@
     "description": "Used in hazmat suits to filter out radioactive particles in the air.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7LEhbUCYAou04S0CqgosM06OOtm5CVlmqmEC8GUqqoes.64",
-    "poster": "7LEhbUCYAou04S0CqgosM06OOtm5CVlmqmEC8GUqqoes.256",
+    "icon": "7LEhbUCYAou04S0CqgosM06OOtm5CVlmqmEC8GUqqoes",
     "stackSize": "small",
     "slug": "iodine-infused-filter"
   },
@@ -607,8 +568,7 @@
     "description": "Used for crafting.\nCrafted into the most basic parts.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc.64",
-    "poster": "7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc.256",
+    "icon": "7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc",
     "stackSize": "medium",
     "slug": "iron-ingot"
   },
@@ -618,8 +578,7 @@
     "description": "Used for crafting.\nThe most essential basic resource.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dgkzS0e2m2symWoSqw42WXpUhiViWoUOsmyc0OCg.64",
-    "poster": "7N42dgkzS0e2m2symWoSqw42WXpUhiViWoUOsmyc0OCg.256",
+    "icon": "7N42dgkzS0e2m2symWoSqw42WXpUhiViWoUOsmyc0OCg",
     "stackSize": "medium",
     "slug": "iron-ore"
   },
@@ -629,8 +588,7 @@
     "description": "Used for crafting.\nOne of the most basic parts.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo.64",
-    "poster": "7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo.256",
+    "icon": "7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo",
     "stackSize": "medium",
     "slug": "iron-plate"
   },
@@ -640,8 +598,7 @@
     "description": "Used for crafting.\nOne of the most basic parts.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N0nvS2MJUs4yG0Ckk2G6Y7brhNWuC6A8Agykw8w2uwE.64",
-    "poster": "7N0nvS2MJUs4yG0Ckk2G6Y7brhNWuC6A8Agykw8w2uwE.256",
+    "icon": "7N0nvS2MJUs4yG0Ckk2G6Y7brhNWuC6A8Agykw8w2uwE",
     "stackSize": "medium",
     "slug": "iron-rod"
   },
@@ -651,8 +608,7 @@
     "description": "Slot: Body\n\nAllows you to move more freely in the air. Consumes Fuel when used and refills with Fuel from your inventory when you're on the ground.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7JwFDLPkdO6EcGgSEmassa7y1IVyJBJYoCMuUy2guwYW.64",
-    "poster": "7JwFDLPkdO6EcGgSEmassa7y1IVyJBJYoCMuUy2guwYW.256",
+    "icon": "7JwFDLPkdO6EcGgSEmassa7y1IVyJBJYoCMuUy2guwYW",
     "stackSize": "one",
     "slug": "jetpack"
   },
@@ -662,7 +618,7 @@
     "description": "Primarily used as fuel.\nBiomass Burners and vehicles can use it for power.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42cpat2wkI2YsImwUqWY6QCS9myWXeKueamkM8Mewe.64",
+    "icon": "7N42cpat2wkI2YsImwUqWY6QCS9myWXeKueamkM8Mewe",
     "stackSize": "huge",
     "fuel": {
       "energy": 15
@@ -675,8 +631,7 @@
     "description": "Used for crafting.\nBasic resource mainly used for stable foundations.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dglMKAOCwquS0cEe2Y41z5IakevC2GkKuy4uSUsa.64",
-    "poster": "7N42dglMKAOCwquS0cEe2Y41z5IakevC2GkKuy4uSUsa.256",
+    "icon": "7N42dglMKAOCwquS0cEe2Y41z5IakevC2GkKuy4uSUsa",
     "stackSize": "medium",
     "slug": "limestone"
   },
@@ -686,8 +641,7 @@
     "description": "Fuel.\nThe most energy efficient form of biomass.",
     "form": "liquid",
     "sinkPoints": 1,
-    "icon": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.64",
-    "poster": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.256",
+    "icon": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys",
     "fluid": {
       "color": "#3b532cff"
     },
@@ -702,8 +656,7 @@
     "description": "Slot: Hands\nConsumable\n\nCan be inhaled to fully restore health.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay.64",
-    "poster": "7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay.256",
+    "icon": "7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay",
     "stackSize": "small",
     "slug": "medicinal-inhaler"
   },
@@ -722,8 +675,7 @@
     "description": "Used for crafting.\nMulti-purpose building block.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu.64",
-    "poster": "7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu.256",
+    "icon": "7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu",
     "stackSize": "small",
     "slug": "modular-frame"
   },
@@ -733,8 +685,7 @@
     "description": "The Motor creates a mechanical force that is used to move things from machines to vehicles.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7kL2idF7XicEOsOWsaMQuG5lasWIQ4neoAg2COmaSOk6.64",
-    "poster": "7kL2idF7XicEOsOWsaMQuG5lasWIQ4neoAg2COmaSOk6.256",
+    "icon": "7kL2idF7XicEOsOWsaMQuG5lasWIQ4neoAg2COmaSOk6",
     "stackSize": "small",
     "slug": "motor"
   },
@@ -744,8 +695,7 @@
     "description": "Used for crafting.\nBiomass Burners and vehicles can use it for power.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dgliI8yaeiAGC2UCsW5R8CloqVkQSike0WeUoqGu.64",
-    "poster": "7N42dgliI8yaeiAGC2UCsW5R8CloqVkQSike0WeUoqGu.256",
+    "icon": "7N42dgliI8yaeiAGC2UCsW5R8CloqVkQSike0WeUoqGu",
     "stackSize": "big",
     "fuel": {
       "energy": 20
@@ -758,8 +708,7 @@
     "description": "Can be used with the Nobelisk Detonator to blow up cracked boulders, vegetation or other vulnerable targets.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "6Ss9vMKuR2OQcWgEwc6oqG7iVNCcHraMmIai6GmK2ac8.64",
-    "poster": "6Ss9vMKuR2OQcWgEwc6oqG7iVNCcHraMmIai6GmK2ac8.256",
+    "icon": "6Ss9vMKuR2OQcWgEwc6oqG7iVNCcHraMmIai6GmK2ac8",
     "stackSize": "small",
     "slug": "nobelisk"
   },
@@ -769,8 +718,7 @@
     "description": "Slot: Hands\nAmmo: Nobelisk\n\nUsed to blow up cracked boulders, rocks and invasive vegetation.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7LeHfOuxxeaM8m0mOqCEgA7y5nBgl1DOa6SqOi0OoyGA.64",
-    "poster": "7LeHfOuxxeaM8m0mOqCEgA7y5nBgl1DOa6SqOi0OoyGA.256",
+    "icon": "7LeHfOuxxeaM8m0mOqCEgA7y5nBgl1DOa6SqOi0OoyGA",
     "stackSize": "one",
     "slug": "nobelisk-detonator"
   },
@@ -780,8 +728,7 @@
     "description": "Nuclear Fuel Rods are used as fuel in nuclear reactors.\nVERY RADIOACTIVE",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7qTjLs4vn2wwUUaQmem6q27iZrpdTd5KssKC22sUOoMs.64",
-    "poster": "7qTjLs4vn2wwUUaQmem6q27iZrpdTd5KssKC22sUOoMs.256",
+    "icon": "7qTjLs4vn2wwUUaQmem6q27iZrpdTd5KssKC22sUOoMs",
     "stackSize": "small",
     "radioactivity": {
       "decay": 60
@@ -797,8 +744,7 @@
     "description": "Slot: Hands\n\nScans the area for a set item. Beeps at a rate proportional to proximity and direction.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "1WL6jJkAhCa2iWwkMYeCWQ6OUQBbqkJUmaeQoKIqAgQM.64",
-    "poster": "1WL6jJkAhCa2iWwkMYeCWQ6OUQBbqkJUmaeQoKIqAgQM.256",
+    "icon": "1WL6jJkAhCa2iWwkMYeCWQ6OUQBbqkJUmaeQoKIqAgQM",
     "stackSize": "one",
     "slug": "object-scanner"
   },
@@ -820,8 +766,7 @@
     "description": "Heavy Oil Residue, packaged for alternative transport.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
-    "poster": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.256",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak",
     "stackSize": "medium",
     "fuel": {
       "energy": 400
@@ -870,8 +815,7 @@
     "description": "Water, packaged for alternative transport.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak.64",
-    "poster": "7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak.256",
+    "icon": "7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak",
     "stackSize": "medium",
     "slug": "packaged-water"
   },
@@ -881,8 +825,7 @@
     "description": "Slot: Hands\nConsumable\n\nCan be eaten to restore one health segment.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7JpkKi4rLiUWaOSQ4aMsuw4R6iFZrIQoGcyke4WamiaY.64",
-    "poster": "7JpkKi4rLiUWaOSQ4aMsuw4R6iFZrIQoGcyke4WamiaY.256",
+    "icon": "7JpkKi4rLiUWaOSQ4aMsuw4R6iFZrIQoGcyke4WamiaY",
     "stackSize": "small",
     "slug": "paleberry"
   },
@@ -892,8 +835,7 @@
     "description": "Slot: Body\nConsumable\n\nSlows down your fall when activated in mid-air.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N3YHnmzCgGu0sS6USuasa5XJADJfPkAcke6kwAqWgIa.64",
-    "poster": "7N3YHnmzCgGu0sS6USuasa5XJADJfPkAcke6kwAqWgIa.256",
+    "icon": "7N3YHnmzCgGu0sS6USuasa5XJADJfPkAcke6kwAqWgIa",
     "stackSize": "small",
     "equipment": {
       "slot": "body",
@@ -912,8 +854,7 @@
     "description": "Used for crafting.\nA carbon-rich material distilled from Heavy Oil Residue. \nUsed as a less efficient coal replacement or for aluminum refinement.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N41Mf4WekCyAQ4GCWOASA5Qm4DAXGTeEmo0kCAykeOi.64",
-    "poster": "7N41Mf4WekCyAQ4GCWOASA5Qm4DAXGTeEmo0kCAykeOi.256",
+    "icon": "7N41Mf4WekCyAQ4GCWOASA5Qm4DAXGTeEmo0kCAykeOi",
     "stackSize": "big",
     "fuel": {
       "energy": 180
@@ -926,8 +867,7 @@
     "description": "A versatile and easy to manufacture material that can be used for a lot of things.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU.64",
-    "poster": "7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU.256",
+    "icon": "7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU",
     "stackSize": "medium",
     "slug": "plastic"
   },
@@ -937,8 +877,7 @@
     "description": "Used for crafting.\nA by-product of oil refinement into fuel. Commonly used to manufacture plastics.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42agarvy0WocuuWiEGGA5QFbR8cesgI82oyC6oWasY.64",
-    "poster": "7N42agarvy0WocuuWiEGGA5QFbR8cesgI82oyC6oWasY.256",
+    "icon": "7N42agarvy0WocuuWiEGGA5QFbR8cesgI82oyC6oWasY",
     "stackSize": "big",
     "slug": "polymer-resin"
   },
@@ -975,8 +914,7 @@
     "description": "Used for radar and quantum technology.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N41m4Z5XUiKCQYK0aUg4y639qr83ex2O2YoGww0ysAe.64",
-    "poster": "7N41m4Z5XUiKCQYK0aUg4y639qr83ex2O2YoGww0ysAe.256",
+    "icon": "7N41m4Z5XUiKCQYK0aUg4y639qr83ex2O2YoGww0ysAe",
     "stackSize": "medium",
     "slug": "quartz-crystal"
   },
@@ -986,8 +924,7 @@
     "description": "Caterium's high conductivity and resistance to corrosion makes it ideal for small, advanced electronics.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8.64",
-    "poster": "7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8.256",
+    "icon": "7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8",
     "stackSize": "huge",
     "slug": "quickwire"
   },
@@ -1015,8 +952,7 @@
     "description": "Slot: Hands\nAmmo: Spiked Rebar\n\nImprovised ranged weapon for self defense. Has to be reloaded after each use.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7Lb2gMX2RagqyAqOGCyIq61OsnJC2hNGWY8cocC42k.64",
-    "poster": "7Lb2gMX2RagqyAqOGCyIq61OsnJC2hNGWY8cocC42k.256",
+    "icon": "7Lb2gMX2RagqyAqOGCyIq61OsnJC2hNGWY8cocC42k",
     "stackSize": "one",
     "slug": "rebar-gun"
   },
@@ -1026,8 +962,7 @@
     "description": "Used for crafting.\nA sturdier and more durable Iron Plate.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.64",
-    "poster": "7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc.256",
+    "icon": "7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc",
     "stackSize": "medium",
     "slug": "reinforced-iron-plate"
   },
@@ -1046,8 +981,7 @@
     "description": "Used for crafting.\nThe moving parts of a motor.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC.64",
-    "poster": "7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC.256",
+    "icon": "7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC",
     "stackSize": "medium",
     "slug": "rotor"
   },
@@ -1057,8 +991,7 @@
     "description": "Rubber is a material that is very flexible and has a lot of friction.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8.64",
-    "poster": "7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8.256",
+    "icon": "7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8",
     "stackSize": "medium",
     "slug": "rubber"
   },
@@ -1068,8 +1001,7 @@
     "description": "Used for crafting.\nOne of the most basic parts.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck.64",
-    "poster": "7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck.256",
+    "icon": "7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck",
     "stackSize": "huge",
     "slug": "screw"
   },
@@ -1079,8 +1011,7 @@
     "description": "Derived from quartz, commonly used in structural materials and microelectronics.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7Ji1qa0TCwIsQCayegASKg3UpK7qz3Xag06YoiwgQQqC.64",
-    "poster": "7Ji1qa0TCwIsQCayegASKg3UpK7qz3Xag06YoiwgQQqC.256",
+    "icon": "7Ji1qa0TCwIsQCayegASKg3UpK7qz3Xag06YoiwgQQqC",
     "stackSize": "medium",
     "slug": "silica"
   },
@@ -1099,8 +1030,7 @@
     "description": "Fuel.\nThe most energy efficient form of solid biomass.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.64",
-    "poster": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys.256",
+    "icon": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys",
     "stackSize": "big",
     "fuel": {
       "energy": 450
@@ -1113,8 +1043,7 @@
     "description": "Ammo for the Rebar Gun.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7MPpc3WoSsiYMEmEOSOeSw4OqSMG8bYIWkYcqaw4KYmO.64",
-    "poster": "7MPpc3WoSsiYMEmEOSOeSw4OqSMG8bYIWkYcqaw4KYmO.256",
+    "icon": "7MPpc3WoSsiYMEmEOSOeSw4OqSMG8bYIWkYcqaw4KYmO",
     "stackSize": "small",
     "slug": "spiked-rebar"
   },
@@ -1124,8 +1053,7 @@
     "description": "The static parts of a motor",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N40tBeLRYs64cggasC4Kg4K5jpIgIo8emkQOMYmKaUq.64",
-    "poster": "7N40tBeLRYs64cggasC4Kg4K5jpIgIo8emkQOMYmKaUq.256",
+    "icon": "7N40tBeLRYs64cggasC4Kg4K5jpIgIo8emkQOMYmKaUq",
     "stackSize": "medium",
     "slug": "stator"
   },
@@ -1135,8 +1063,7 @@
     "description": "Steel Beams are used most often when constructing a little more advanced buildings.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dgj7puE6EeaOYg2MIy416HwbmPYAO4mgOiqUqQYI.64",
-    "poster": "7N42dgj7puE6EeaOYg2MIy416HwbmPYAO4mgOiqUqQYI.256",
+    "icon": "7N42dgj7puE6EeaOYg2MIy416HwbmPYAO4mgOiqUqQYI",
     "stackSize": "medium",
     "slug": "steel-beam"
   },
@@ -1146,8 +1073,7 @@
     "description": "Steel Ingots are made from Iron Ore that's been smelted with Coal. They are made into several parts used in building construction.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.64",
-    "poster": "7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi.256",
+    "icon": "7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi",
     "stackSize": "medium",
     "slug": "steel-ingot"
   },
@@ -1157,8 +1083,7 @@
     "description": "Steel Pipes are used most often when constructing a little more advanced buildings.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7EGPa1foM8M2uuYEUKiCYO7iVMJwhNXq8GG6GikIYAsW.64",
-    "poster": "7EGPa1foM8M2uuYEUKiCYO7iVMJwhNXq8GG6GikIYAsW.256",
+    "icon": "7EGPa1foM8M2uuYEUKiCYO7iVMJwhNXq8GG6GikIYAsW",
     "stackSize": "medium",
     "slug": "steel-pipe"
   },
@@ -1168,8 +1093,7 @@
     "description": "Sulfur is primarily used for Gunpowder.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dgm5tm6OoEWQciM8c66zJtHEm3wAMcWM8Euc84mM.64",
-    "poster": "7N42dgm5tm6OoEWQciM8c66zJtHEm3wAMcWM8Euc84mM.256",
+    "icon": "7N42dgm5tm6OoEWQciM8c66zJtHEm3wAMcWM8Euc84mM",
     "stackSize": "medium",
     "slug": "sulfur"
   },
@@ -1179,8 +1103,7 @@
     "description": "A liquid mostly used to extract elements from ore.",
     "form": "liquid",
     "sinkPoints": 1,
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
-    "poster": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.256",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak",
     "fluid": {
       "color": "#ffff0ff"
     },
@@ -1192,8 +1115,7 @@
     "description": "The supercomputer is the next-gen version of the computer.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7Hp07RRp4scWOocogWEQC86OJSzE1tZYAYOSe86EAS4I.64",
-    "poster": "7Hp07RRp4scWOocogWEQC86OJSzE1tZYAYOSe86EAS4I.256",
+    "icon": "7Hp07RRp4scWOocogWEQC86OJSzE1tZYAYOSe86EAS4I",
     "stackSize": "small",
     "slug": "supercomputer"
   },
@@ -1203,8 +1125,7 @@
     "description": "The Turbo Motor is a more complex, and more powerful, version of the regular Motor.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7kL2idF7biM0Uq2YESIKmy5laVdzIN3yweagYEW6g0Ew.64",
-    "poster": "7kL2idF7biM0Uq2YESIKmy5laVdzIN3yweagYEW6g0Ew.256",
+    "icon": "7kL2idF7biM0Uq2YESIKmy5laVdzIN3yweagYEW6g0Ew",
     "stackSize": "small",
     "slug": "turbo-motor"
   },
@@ -1214,8 +1135,7 @@
     "description": "A more efficient alternative to Fuel. Used in Fuel Generators.",
     "form": "liquid",
     "sinkPoints": 1,
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.64",
-    "poster": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak.256",
+    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak",
     "fluid": {
       "color": "#d4292eff"
     },
@@ -1230,8 +1150,7 @@
     "description": "Uranium is radioactive. Mainly used in Nuclear Power Plants.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42afNTYAiqEGemso2i684otihDHebeeQK2m8KKaUyk.64",
-    "poster": "7N42afNTYAiqEGemso2i684otihDHebeeQK2m8KKaUyk.256",
+    "icon": "7N42afNTYAiqEGemso2i684otihDHebeeQK2m8KKaUyk",
     "stackSize": "medium",
     "radioactivity": {
       "decay": 15
@@ -1244,8 +1163,7 @@
     "description": "Uranium Pellets are purified and casted from Uranium Ore. Primarily used to make Uranium Cells.\nModerately radioactive.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N40rTgHfiu0oQQSSss4286pHSADSATeigOgOYq6So0S.64",
-    "poster": "7N40rTgHfiu0oQQSSss4286pHSADSATeigOgOYq6So0S.256",
+    "icon": "7N40rTgHfiu0oQQSSss4286pHSADSATeigOgOYq6So0S",
     "stackSize": "big",
     "radioactivity": {
       "decay": 7.5
@@ -1267,8 +1185,7 @@
     "description": "It's water.",
     "form": "liquid",
     "sinkPoints": 1,
-    "icon": "7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak.64",
-    "poster": "7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak.256",
+    "icon": "7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak",
     "fluid": {
       "color": "#7ab0d4ff"
     },
@@ -1280,8 +1197,7 @@
     "description": "Used for crafting.\nOne of the most basic parts.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.64",
-    "poster": "7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs.256",
+    "icon": "7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs",
     "stackSize": "huge",
     "slug": "wire"
   },
@@ -1291,8 +1207,7 @@
     "description": "Primarily used as fuel.\nBiomass Burners and vehicles can use it for power.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "7N42dglnMI64MSYq646wOM3TyJn9UeekYyMUcASUikKK.64",
-    "poster": "7N42dglnMI64MSYq646wOM3TyJn9UeekYyMUcASUikKK.256",
+    "icon": "7N42dglnMI64MSYq646wOM3TyJn9UeekYyMUcASUikKK",
     "stackSize": "medium",
     "fuel": {
       "energy": 100
@@ -1305,8 +1220,7 @@
     "description": "Slot: Hands\n\nHeavy electroshock self defense weapon for melee range.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "ubrP8lF0B2k0gOGy4Go8s7FKGBbOplmoaIosQ4UCqiM.64",
-    "poster": "ubrP8lF0B2k0gOGy4Go8s7FKGBbOplmoaIosQ4UCqiM.256",
+    "icon": "ubrP8lF0B2k0gOGy4Go8s7FKGBbOplmoaIosQ4UCqiM",
     "stackSize": "one",
     "slug": "xeno-basher"
   },
@@ -1316,8 +1230,7 @@
     "description": "Slot: Hands\n\nStandard issue electroshock self defense weapon for melee range.",
     "form": "solid",
     "sinkPoints": 1,
-    "icon": "6kuipil1tYYCUWiSQCgiKM7iZsJzqwSWsUIi4Qemm2SE.64",
-    "poster": "6kuipil1tYYCUWiSQCgiKM7iZsJzqwSWsUIi4Qemm2SE.256",
+    "icon": "6kuipil1tYYCUWiSQCgiKM7iZsJzqwSWsUIi4Qemm2SE",
     "stackSize": "one",
     "slug": "xeno-zapper"
   },
