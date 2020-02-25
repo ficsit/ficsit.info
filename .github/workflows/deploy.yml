@@ -30,12 +30,6 @@ jobs:
       env:
         NODE_ENV: production
 
-    - name: Upload Built Artifacts
-      uses: actions/upload-artifact@v1
-      with:
-        name: dist
-        path: dist
-
     - name: Deploy
       run: yarn deploy
       env:
