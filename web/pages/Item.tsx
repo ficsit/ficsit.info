@@ -2,7 +2,7 @@ import { useParams } from 'react-router';
 import { NavLink } from 'react-router-dom';
 import { Item } from '@local/schema';
 
-import { Image } from '../components/Image';
+import { ItemImage } from '../components/Image';
 import { useItems } from '../data';
 import { MasterDetailLayout } from '../layouts';
 
@@ -41,7 +41,7 @@ function _renderDetail(item?: Item) {
   return (
     <React.Fragment>
       <p>{item.description}</p>
-      <Image hash={item.icon} size={256} alt={item.name} />
+      <ItemImage item={item} width={128} />
     </React.Fragment>
   )
 }
