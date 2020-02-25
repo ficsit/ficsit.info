@@ -13,7 +13,7 @@
     "kind": "item",
     "slug": "alclad-aluminum-sheet",
     "name": "Alclad Aluminum Sheet",
-    "icon": "7N41SFMSAMkagIwAmwaSUK5TY5sf7TH2cagIMuUAWG88"
+    "icon": "5x1rFAdnYQgykUy6I00W807xHNK0X89qoGIS62C8yWMG"
   },
   {
     "kind": "item",
@@ -29,25 +29,25 @@
     "kind": "item",
     "slug": "alumina-solution",
     "name": "Alumina Solution",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "item",
     "slug": "aluminum-ingot",
     "name": "Aluminum Ingot",
-    "icon": "7N422Y4rJYiGMA24W8aKuG4xazv4dY9yKWwUiKqwoSgK"
+    "icon": "1dlvKyAE1wWCkCGkI2cs4I6A9VggMF5SAMawmKAQAIWq"
   },
   {
     "kind": "item",
     "slug": "aluminum-scrap",
     "name": "Aluminum Scrap",
-    "icon": "7N41NpQ8NOOgWSE4Y626oA40n03SSxhSakCkIoKO68MA"
+    "icon": "4aw8Ki6ocg8WUqmemQcAIU1bGANAb9dqmAGAgSYUqWGk"
   },
   {
     "kind": "building",
     "slug": "assembler",
     "name": "Assembler",
-    "icon": "7N4287eTBYkkOacWk4Kw6a7yHMXsd7os8a8GoEWK8wKi",
+    "icon": "77Sl2E79lY8icWES8cWIsQwnyM5Xvih2SymIOm2i6Ek",
     "categories": [
       "Production",
       "Manufacturers"
@@ -62,7 +62,7 @@
     "kind": "building",
     "slug": "awesome-shop",
     "name": "AWESOME Shop",
-    "icon": "7JwFqtuTwQGOi6KcaiYe4a6UwaOWdHpK6A8ouSymmWcy",
+    "icon": "VFqvxWEzyUwOUYcGIG8WKNSDNPpiFWKOygyauKCqIa",
     "categories": [
       "Special",
       "Special"
@@ -72,7 +72,7 @@
     "kind": "building",
     "slug": "awesome-sink",
     "name": "AWESOME Sink",
-    "icon": "7MErtJpMfCGSmAS66CawmC7E9WTLXmqkuqwY0QwuqCIO",
+    "icon": "6VRDvV3Hna2KSIoA6IwWysSBwVOizfEcekUCYuAE8Iw",
     "categories": [
       "Special",
       "Special"
@@ -82,19 +82,19 @@
     "kind": "item",
     "slug": "bacon-agaric",
     "name": "Bacon Agaric",
-    "icon": "7yrjDtR1deWW8KUoYcmIWw3TyPyNB4mseMCmkAIOQ0ye"
+    "icon": "7IkekZcEqQoeCIEUqgu8OY7fV0aZIJq0qi8cqAYcCyQS"
   },
   {
     "kind": "item",
     "slug": "battery",
     "name": "Battery",
-    "icon": "7Mm9HAuwZGaaMmiS6mKKES5Qldty9RUASQsIAScc4kEu"
+    "icon": "6Waajg40BGMCyWWMo4COqE25rSUil2CssoScg8IWMQK2"
   },
   {
     "kind": "item",
     "slug": "bauxite",
     "name": "Bauxite",
-    "icon": "7N42afPvOg4wqe06WEsQoE3U3HaDOGHYuWIGeU0aA0Mk"
+    "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG"
   },
   {
     "kind": "item",
@@ -115,7 +115,7 @@
     "kind": "building",
     "slug": "biomass-burner",
     "name": "Biomass Burner",
-    "icon": "7Ji2WwDaBayUwua6Kckcgo5UTAJ54MAoUcEqImIKoka4",
+    "icon": "6lCPcNNKzSiWaU4aK46oaK4yhgXDsxhuCyMgs4USCmwA",
     "categories": [
       "Power",
       "Generators"
@@ -125,7 +125,7 @@
     "kind": "item",
     "slug": "black-powder",
     "name": "Black Powder",
-    "icon": "7ycGWFxPVKoKcIMMgcWaOA6OYviOGHJu0qYoU2GIoiWM"
+    "icon": "XoMkHOPbkisYw0Os2CEC04arPLe5TAQYMYW4sMqUwCm"
   },
   {
     "kind": "item",
@@ -146,49 +146,49 @@
     "kind": "item",
     "slug": "cable",
     "name": "Cable",
-    "icon": "7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA"
+    "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ"
   },
   {
     "kind": "item",
     "slug": "cartridge",
     "name": "Cartridge",
-    "icon": "414LfZyMPYGW6mYoSIqyUk7iVO3xRQDmQugk0UMYyMu2"
+    "icon": "6ToL2rptqo4ScSK6QUGAWW1F90Gxysdqu2MoSkIcuASW"
   },
   {
     "kind": "item",
     "slug": "caterium-ingot",
     "name": "Caterium Ingot",
-    "icon": "7N41MFvUxUGyoaquC4yqKy6vPa08mrmgaccyYkSiAuUq"
+    "icon": "33qK1HmQ7mKkMWOyyqKSOU2ztL6NL6esyegAAm0IU22y"
   },
   {
     "kind": "item",
     "slug": "caterium-ore",
     "name": "Caterium Ore",
-    "icon": "7N3YKVmqqsCM88MwQoqMs05PmLDwWWDmSgqaMa2E2IMQ"
+    "icon": "1HaNxmuWXOCeYO2IMCOeAQ3W2kkcaLYsAQaC2GAWa080"
   },
   {
     "kind": "item",
     "slug": "chainsaw",
     "name": "Chainsaw",
-    "icon": "3TwFR5iDTW8iwUgqAsKeK47xYxUvWLVCwmGawmmeYWa0"
+    "icon": "5lo3jAvPlmaa4S220mmMCa7630RidToWOcQc6saUo6yc"
   },
   {
     "kind": "item",
     "slug": "circuit-board",
     "name": "Circuit Board",
-    "icon": "7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc"
+    "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE"
   },
   {
     "kind": "item",
     "slug": "coal",
     "name": "Coal",
-    "icon": "7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU"
+    "icon": "2eDXjI7cV2ek6ocKMo2QeC5ywsFHr1TiMee8EUm2KU4I"
   },
   {
     "kind": "building",
     "slug": "coal-generator",
     "name": "Coal Generator",
-    "icon": "65omEHqS76uG0kAguSY4wO5U0JYzAn3UeWsiWM6A64kY",
+    "icon": "1W1crDIzAkgaUW0KsI8IOu1iIousJUsWOWSgCKsWGuKa",
     "categories": [
       "Power",
       "Generators"
@@ -198,37 +198,37 @@
     "kind": "item",
     "slug": "color-cartridge",
     "name": "Color Cartridge",
-    "icon": "7JLgMvGRPO8c6wKO0Y6cMu6Q9Eu6zADm2kOGi4UA6igO"
+    "icon": "7pt99YvvUIayUEqGEScqsw31kOSGZso8WmkS8sasI0KO"
   },
   {
     "kind": "item",
     "slug": "color-gun",
     "name": "Color Gun",
-    "icon": "7JwFEcpbbiMGKkEmMcwY8G3TxSeTrOq4uoWusym4KKYa"
+    "icon": "498oVhXQLYkowyEG2O0s4I6O5ps1ZlM46wYWc8ymc2kS"
   },
   {
     "kind": "item",
     "slug": "compacted-coal",
     "name": "Compacted Coal",
-    "icon": "7N426C5PNeqMUYS40ACqy84oc5mrUUnKwiMw8MYwMeq2"
+    "icon": "3NLcDIsKRyyyQUWSM2u0aixkLYJW2jy8KG6eKgOy4AE"
   },
   {
     "kind": "item",
     "slug": "computer",
     "name": "Computer",
-    "icon": "7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8"
+    "icon": "6vZ32C2ZkA4qwAuQ0AQkwc1bn9l350L6we4iYUWigWoS"
   },
   {
     "kind": "item",
     "slug": "concrete",
     "name": "Concrete",
-    "icon": "7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge"
+    "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe"
   },
   {
     "kind": "building",
     "slug": "constructor",
     "name": "Constructor",
-    "icon": "7N42bo1cIgSKqKGYYUCWSI7yjYDJvP20WM2mYQSCIECW",
+    "icon": "6xsSeTNlEAIe48EE2SSwkm6VWOf4nszuyeI4KAwqyEM0",
     "categories": [
       "Production",
       "Manufacturers"
@@ -238,7 +238,7 @@
     "kind": "building",
     "slug": "conveyor-belt",
     "name": "Conveyor Belt",
-    "icon": "7N42dglGwwWmQucWomCcw07cgRZsyF20CggyIMsySE",
+    "icon": "2V1hjgBUbSKMAokugy6sgoq6SOlvypaKmus2qMwMEIa",
     "categories": [
       "Transport",
       "ConveyorBelts"
@@ -248,7 +248,7 @@
     "kind": "building",
     "slug": "conveyor-belt-mk2",
     "name": "Conveyor Belt Mk.2",
-    "icon": "7N42dglGwgqkMmWqmiuW0u7cgRWi2qycWuACIiq448",
+    "icon": "6TV6ZtUlOMwugIkQUQccI07zw7tB18BOq0SGIm4aGEgA",
     "categories": [
       "Transport",
       "ConveyorBelts"
@@ -258,7 +258,7 @@
     "kind": "building",
     "slug": "conveyor-belt-mk3",
     "name": "Conveyor Belt Mk.3",
-    "icon": "7N42dgkSBO4kqEG4CaMiCI7ch5eA81qwCMMcAa0cc0",
+    "icon": "471dp7kQnuukocKoSegkO86ihlcUOHkIYCwQ8Ku2kISk",
     "categories": [
       "Transport",
       "ConveyorBelts"
@@ -268,7 +268,7 @@
     "kind": "building",
     "slug": "conveyor-belt-mk4",
     "name": "Conveyor Belt Mk.4",
-    "icon": "7N41SFWQjSe2awW6IC68Yo3U02lBQTTqIGQcCy862k0Y",
+    "icon": "5OC2gFZnH2KoEggoGaYaoW3Ydw0zXZuM4c4ew4AMq8Sa",
     "categories": [
       "Transport",
       "ConveyorBelts"
@@ -278,7 +278,7 @@
     "kind": "building",
     "slug": "conveyor-belt-mk5",
     "name": "Conveyor Belt Mk.5",
-    "icon": "7N41SFTCFiKUGqo8K682Si3YIw9rwI0w6OuCkcIM4ewe",
+    "icon": "2L3QgqRVHiIkGI6s4WW6Cu2REJG0pdBKo0CcuicgCyeU",
     "categories": [
       "Transport",
       "ConveyorBelts"
@@ -288,7 +288,7 @@
     "kind": "building",
     "slug": "conveyor-lift",
     "name": "Conveyor Lift",
-    "icon": "7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk",
+    "icon": "3ulmz3RW2AqeKCieqC6IS02M0dNZNKzuGw0sqIY2gsyO",
     "categories": [
       "Transport",
       "ConveyLift"
@@ -298,7 +298,7 @@
     "kind": "building",
     "slug": "conveyor-lift-mk2",
     "name": "Conveyor Lift Mk.2",
-    "icon": "7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk",
+    "icon": "4a0DuPL7Bue4cEYMMwQooy3fXWD8Q0dq4ocEga0q4coG",
     "categories": [
       "Transport",
       "ConveyLift"
@@ -308,7 +308,7 @@
     "kind": "building",
     "slug": "conveyor-lift-mk3",
     "name": "Conveyor Lift Mk.3",
-    "icon": "7FKGn2ihwc44k8s0Au0mOi7iZrpdWqK4qw6s4YmeoYQu",
+    "icon": "7s6OtO2nMAwci8YYmkaQ2W2LjIrNXXmwGcgOAQ2I4Qu8",
     "categories": [
       "Transport",
       "ConveyLift"
@@ -318,7 +318,7 @@
     "kind": "building",
     "slug": "conveyor-lift-mk4",
     "name": "Conveyor Lift Mk.4",
-    "icon": "7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I",
+    "icon": "50grr0ea4M4aycmMwsSu4I4DLzTyrGLYqWO0Qq8SgI0k",
     "categories": [
       "Transport",
       "ConveyLift"
@@ -328,7 +328,7 @@
     "kind": "building",
     "slug": "conveyor-lift-mk5",
     "name": "Conveyor Lift Mk.5",
-    "icon": "7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I",
+    "icon": "4siB6bNmbCsmq8MggA2ouq2YziiquzReYQQakQ8osCCU",
     "categories": [
       "Transport",
       "ConveyLift"
@@ -338,7 +338,7 @@
     "kind": "building",
     "slug": "conveyor-merger",
     "name": "Conveyor Merger",
-    "icon": "7Ji2j4gHzU0iuQ6cOcKcmC5S9zRTAbfOKiuEIqGOewsM",
+    "icon": "4C3N4zne3eGseAKUsqEsoC2GQpuzr9JmKWO68yogmIiU",
     "categories": [
       "Transport",
       "ConveyorAttachments"
@@ -348,7 +348,7 @@
     "kind": "building",
     "slug": "conveyor-pole",
     "name": "Conveyor Pole",
-    "icon": "7N42deHQQ0sGuygoaGM2gQ7jktFi3GpiuAIEa6GWUwoK",
+    "icon": "69vfK30XIW4sqscQEWEOS01jwhyuEusYUgGc2C2kq0qy",
     "categories": [
       "Transport",
       "ConverPole"
@@ -367,7 +367,7 @@
     "kind": "building",
     "slug": "conveyor-splitter",
     "name": "Conveyor Splitter",
-    "icon": "7Ji2j4gEq4IseaU8ksAwM06Sj4pKy8essyUie6e6YscI",
+    "icon": "3ibPCrggV2WUAAIYCWyIiQ7pax6dIOgoqMyeEOqSIwYc",
     "categories": [
       "Transport",
       "ConveyorAttachments"
@@ -377,7 +377,7 @@
     "kind": "building",
     "slug": "conveyor-wall-mount",
     "name": "Conveyor Wall Mount",
-    "icon": "7N42dgm5tCCQsMcmemUoI831Kff8YTYAg44KY2K0",
+    "icon": "4yCJN0saasu24I0CmUec441poZhgrEFmmQ8wwAKAYCio",
     "categories": [
       "Transport",
       "ConverPole"
@@ -387,19 +387,19 @@
     "kind": "item",
     "slug": "copper-ingot",
     "name": "Copper Ingot",
-    "icon": "7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W"
+    "icon": "1RtTF6zT7a0qgEICmccgA26pFCZcwKKQyUo482W4sWCC"
   },
   {
     "kind": "item",
     "slug": "copper-ore",
     "name": "Copper Ore",
-    "icon": "7N42dgm5sk2G88UM42gmE06r5LGGbrEIoyyIWYAi0yYs"
+    "icon": "1KR1PnaA8UOUMW4mCcq6EU2IvxUOIGWssQSw86km0A6A"
   },
   {
     "kind": "item",
     "slug": "copper-sheet",
     "name": "Copper Sheet",
-    "icon": "7N42dfzMNaQUSaaIqeYMY86QCTRQ6ctU6c6O44QIcmC0"
+    "icon": "2Fsos2EEnK4EUsE84WGCSM6VLdqq8rny0u400MaCO8eO"
   },
   {
     "kind": "building",
@@ -459,7 +459,7 @@
     "kind": "building",
     "slug": "craft-bench",
     "name": "Craft Bench",
-    "icon": "7N42dgm5tm6OoEWQciM8c66zZPLbCYaQCwYkUC0Wis0I",
+    "icon": "4jY8GFQCCc86KaY8CeiayUIMK7eg6UucYMQWwwUeWwO",
     "categories": [
       "Production",
       "Workstations"
@@ -469,13 +469,13 @@
     "kind": "item",
     "slug": "crude-oil",
     "name": "Crude Oil",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "item",
     "slug": "crystal-oscillator",
     "name": "Crystal Oscillator",
-    "icon": "7FZhJVM03S2UuEMIcwKuIe6S6iGjtXzywQ4QGewK0YMI"
+    "icon": "7vNSzrF9PaEIyyIAq8YKmO43PgBPFVG0IueAKOsiyuS2"
   },
   {
     "kind": "building",
@@ -536,13 +536,13 @@
     "kind": "item",
     "slug": "electromagnetic-control-rod",
     "name": "Electromagnetic Control Rod",
-    "icon": "7N42dfyb1mOgWauaiGQOkS6OMFesktpYMeq4u6eqEuIa"
+    "icon": "51sSpGM7scCQUeWGyYme241GZGQI4xz220seAIww6UEY"
   },
   {
     "kind": "item",
     "slug": "empty-canister",
     "name": "Empty Canister",
-    "icon": "7LaOy6tXLU0GO86yuyMCio4133cp7s9aWW8OmSUSUEs2"
+    "icon": "3mMM4pq36oIMqU6Swyag0O7hmfEp4P5YiUqmuskGCsEi"
   },
   {
     "kind": "building",
@@ -557,19 +557,19 @@
     "kind": "item",
     "slug": "encased-industrial-beam",
     "name": "Encased Industrial Beam",
-    "icon": "7N41ZE2KooGCKcMyO6KAqE3ERbIcQg80w0sOCuciCAIq"
+    "icon": "15ixr0o43o4EI6KYIckyeQ43UEoxqSByyASwWKSU6Cmk"
   },
   {
     "kind": "item",
     "slug": "encased-uranium-cell",
     "name": "Encased Uranium Cell",
-    "icon": "7N3YGwNVmM2K2G6KWGaSyy4723x3vj8c22MAKgMuKCOA"
+    "icon": "218uoQZdKEImEUwIaU6q8sBhPxD96k3Q2MEesYQAmI0"
   },
   {
     "kind": "building",
     "slug": "equipment-workshop",
     "name": "Equipment Workshop",
-    "icon": "7N42dgiRYQeSaWUoeMGwyS5QLF0rX0eAMEoos8qaMIMo",
+    "icon": "1drkIPstYKOUcIQmiug6cC33um5Svc3mkekgam6gK6c8",
     "categories": [
       "Production",
       "Workstations"
@@ -579,7 +579,7 @@
     "kind": "item",
     "slug": "fabric",
     "name": "Fabric",
-    "icon": "7N42agcQEwSG4c2GuA6ygM5XH80xNhRKk4QM2mm28Ie2"
+    "icon": "37PmtqQwQ0SoaI0QKu2cw83iU9sou1u8UOUiCSo0q0OI"
   },
   {
     "kind": "item",
@@ -590,7 +590,7 @@
     "kind": "building",
     "slug": "fence",
     "name": "Fence",
-    "icon": "7N1icBSSGIkkI80o6cCo0i7j6J07ivbUOoaYmAsiOkci",
+    "icon": "73gqlchc3Ki8MGwsAeMe2I7l1BTyG1RSWo84ACUaISuA",
     "categories": [
       "Walls",
       "Walls"
@@ -600,13 +600,13 @@
     "kind": "item",
     "slug": "filter",
     "name": "Filter",
-    "icon": "7N41MFCmhqi0ymKkioO0a87n9bUeC8yACcEU4mmA0q4y"
+    "icon": "zWOQlGAFWK6gOqwKacekM18GXoXMsowwo4OCm6gkYou"
   },
   {
     "kind": "item",
     "slug": "flower-petals",
     "name": "Flower Petals",
-    "icon": "7N42dgiUW4OmQAimygkq6u5QkisDwXwkyIcQ4aeG846y"
+    "icon": "3ix2KKumruyG6KskooImim33vstxTcZ2yw0m2AC84Oqw"
   },
   {
     "kind": "building",
@@ -657,7 +657,7 @@
     "kind": "building",
     "slug": "foundry",
     "name": "Foundry",
-    "icon": "7LeGV48qdOMgaEmS0UMYeA6k24j9MNhYE6w2sK2e8SO6",
+    "icon": "1J8K0BwFo8k0AOmCiOWSaU1EyyZE61KouQKu0wEUWaWI",
     "categories": [
       "Production",
       "Smelters"
@@ -685,13 +685,13 @@
     "kind": "item",
     "slug": "fuel",
     "name": "Fuel",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "building",
     "slug": "fuel-generator",
     "name": "Fuel Generator",
-    "icon": "7KexLdcNXiusCMmKg8oMgM7nABRREvMke0ioSAsKGaSe",
+    "icon": "1KPbVy1G68QWaGigAIG0oG3VyxUYgy6koGIgeKOiCkIA",
     "categories": [
       "Power",
       "Generators"
@@ -701,7 +701,7 @@
     "kind": "item",
     "slug": "gas-mask",
     "name": "Gas mask",
-    "icon": "3TwFQk2g4U6KikWqaE8Ywc5ReXXKMkAoYeSoQCAGimce"
+    "icon": "6qblOzRtfOAsKeooc2a2GILPDhNWST8AUGi2UGeG6gc"
   },
   {
     "kind": "building",
@@ -716,7 +716,7 @@
     "kind": "building",
     "slug": "geo-thermal-generator",
     "name": "Geo Thermal Generator",
-    "icon": "7iZrpdTd5KssKC22sUOoMs7ycHPfhHvqgUqsim2w8QsE",
+    "icon": "65F37DhiwMSGSO8g2aCM2c8yq0JahfYkAOMWawqq4SG",
     "categories": [
       "Power",
       "Generators"
@@ -741,31 +741,31 @@
     "kind": "item",
     "slug": "heavy-modular-frame",
     "name": "Heavy Modular Frame",
-    "icon": "7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG"
+    "icon": "56Bx22YgogYaS2CGy2UkYe2OIVkU7yAECqCWmA8Uea2O"
   },
   {
     "kind": "item",
     "slug": "heavy-oil-residue",
     "name": "Heavy Oil Residue",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "HgXdRRk0a2uak0kUoo2Wk7k45bu16IooCi6SGKWcK4S"
   },
   {
     "kind": "item",
     "slug": "high-speed-connector",
     "name": "High-Speed Connector",
-    "icon": "7N42dglnO0Ge2o0uekCySU7ch58bY3WEseIQQGoYas"
+    "icon": "4XQHY1qNFe4sUqi0k2gU6w4WZYCTYXioqSOsSGUIaGCI"
   },
   {
     "kind": "item",
     "slug": "hub-parts",
     "name": "HUB Parts",
-    "icon": "7N3YHAEUjCWU8q8CYuESYY7qrUBt4mhq2kwaOoK8k8sS"
+    "icon": "2cS7QbXC7mKiS8mKck66uW4aom0uidZS0G8YQwyWGQmo"
   },
   {
     "kind": "building",
     "slug": "hyper-tube",
     "name": "Hyper Tube",
-    "icon": "7N42dgm5qgUsGemcUMKkAS5oWVg4mKicuSgWSmkOEceG",
+    "icon": "3WEoKVgVd66eGc2i0UeKGYbgN2SHTEt2eGcYWqECEGi",
     "categories": [
       "Transport",
       "HyperTubes"
@@ -775,7 +775,7 @@
     "kind": "building",
     "slug": "hyper-tube-support",
     "name": "Hyper Tube Support",
-    "icon": "7yrjDtR0qI0g6kCo8QiSks6OJSzqPA4wkYeUcmGCYS4O",
+    "icon": "2tvA1WLBMAYuw0o6QOyG041vIjlBLnbOyC4ogEYGiU4a",
     "categories": [
       "Transport",
       "HyperTubes"
@@ -803,7 +803,7 @@
     "kind": "building",
     "slug": "industrial-storage-container",
     "name": "Industrial Storage Container",
-    "icon": "7Ket4d1BzGWCs26I0yCmiw6NLwqgH7Wg22og4UGiwkMS",
+    "icon": "76Lcs5FqG4aM0K6yYG4WOA5WlOa7dWzCkw2O2qGgQEsq",
     "categories": [
       "Organisation",
       "Storage"
@@ -813,37 +813,37 @@
     "kind": "item",
     "slug": "iodine-infused-filter",
     "name": "Iodine Infused Filter",
-    "icon": "7LEhbUCYAou04S0CqgosM06OOtm5CVlmqmEC8GUqqoes"
+    "icon": "37hU2eM3R68o6oSOEmIqQ4nmxkLQfcsAmog2E2YUeWU"
   },
   {
     "kind": "item",
     "slug": "iron-ingot",
     "name": "Iron Ingot",
-    "icon": "7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc"
+    "icon": "2IEt6n1lD2yiGccaWqugeWcpaTd3u2ukGkeaQuaua0O"
   },
   {
     "kind": "item",
     "slug": "iron-ore",
     "name": "Iron Ore",
-    "icon": "7N42dgkzS0e2m2symWoSqw42WXpUhiViWoUOsmyc0OCg"
+    "icon": "432pDgu6ysY8cYW2cCYSGy4GY5eNxO7ewEQOQKq4sgSs"
   },
   {
     "kind": "item",
     "slug": "iron-plate",
     "name": "Iron Plate",
-    "icon": "7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo"
+    "icon": "654X5USXiokMei8s4CEI2E6c8bRT6gfuQeci02KweQim"
   },
   {
     "kind": "item",
     "slug": "iron-rod",
     "name": "Iron Rod",
-    "icon": "7N0nvS2MJUs4yG0Ckk2G6Y7brhNWuC6A8Agykw8w2uwE"
+    "icon": "22Iasy39jiIsO2Gq84ISoS7m9tRpEF1K8gKUoCwg4Ckq"
   },
   {
     "kind": "item",
     "slug": "jetpack",
     "name": "Jetpack",
-    "icon": "7JwFDLPkdO6EcGgSEmassa7y1IVyJBJYoCMuUy2guwYW"
+    "icon": "21Qx3W1JIM8kI2kAe4I6wc5lasmxZ1M4gka0yc8amQAU"
   },
   {
     "kind": "building",
@@ -858,25 +858,25 @@
     "kind": "item",
     "slug": "leaves",
     "name": "Leaves",
-    "icon": "7N42cpat2wkI2YsImwUqWY6QCS9myWXeKueamkM8Mewe"
+    "icon": "6O4ohuyjUQWqqmCEMcgc0A5mEFgO0StikOWc2sK8oiMc"
   },
   {
     "kind": "item",
     "slug": "limestone",
     "name": "Limestone",
-    "icon": "7N42dglMKAOCwquS0cEe2Y41z5IakevC2GkKuy4uSUsa"
+    "icon": "4pUKek4igwiKiMsCUm4i6u6JnyyM7PnaKM8gq8EmOUM6"
   },
   {
     "kind": "item",
     "slug": "liquid-biofuel",
     "name": "Liquid Biofuel",
-    "icon": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys"
+    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6"
   },
   {
     "kind": "building",
     "slug": "lookout-tower",
     "name": "Lookout Tower",
-    "icon": "7ycGX6bIrYQMkUs42uAUWq7KexLdcNXiusCMmKg8oMgM",
+    "icon": "2EYZvA1rMgGyY2a6IAOSOO2jiJfGao6UW2ieusKmaU0A",
     "categories": [
       "Organisation",
       "Towers"
@@ -886,7 +886,7 @@
     "kind": "building",
     "slug": "mam",
     "name": "M.A.M.",
-    "icon": "7N3W0YzzXioaQsQioy06CQ5BjS2Jqkc80MgkYciwiYo6",
+    "icon": "10EAEFxi3OSQIwOieIau4E40j2Sd5KL6gGsooGOmEyCg",
     "categories": [
       "Special",
       "Special"
@@ -896,7 +896,7 @@
     "kind": "building",
     "slug": "manufacturer",
     "name": "Manufacturer",
-    "icon": "7N42dgm4NiySQ44G0a2GQ07FxTp4Y7FmaAyq6A6GSOeY",
+    "icon": "rk3gGAFVvwC2COI4Ae8eW5MR9uhHGso4gegY8AykC6W",
     "categories": [
       "Production",
       "Manufacturers"
@@ -906,13 +906,13 @@
     "kind": "item",
     "slug": "medicinal-inhaler",
     "name": "Medicinal Inhaler",
-    "icon": "7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay"
+    "icon": "3Ke7eCDhRCmMOqIEkecsYq5bCtttlOvCOimAGQCMyOsU"
   },
   {
     "kind": "building",
     "slug": "miner-mk1",
     "name": "Miner Mk.1",
-    "icon": "7Mma2ofk4gaoyOoKY4Ccic7FzIlI24KsY6Gkek8uUu8i",
+    "icon": "h1pBcSmmRyygIW6CGuaww7FRyk9ZhaE0aWOCCiUkEoO",
     "categories": [
       "Production",
       "Miners"
@@ -922,7 +922,7 @@
     "kind": "building",
     "slug": "miner-mk2",
     "name": "Miner Mk.2",
-    "icon": "7LeHfOuije02yCA6msaWc47FzIzqWmooyW4y80MssecO",
+    "icon": "4qMhsyBnvyGqWgmyks4QmC5S70zB5lSgWQCSsgSi8GqA",
     "categories": [
       "Production",
       "Miners"
@@ -932,7 +932,7 @@
     "kind": "building",
     "slug": "miner-mk3",
     "name": "Miner Mk.3",
-    "icon": "7LeHfHQ8vYoe4QIyC0QsSW7FzIlI6UcoA4uc0WqWMmYO",
+    "icon": "2pwVt3UfhCwaCYQcgWqigG1F8FQzirMAwaMyGk00IOeu",
     "categories": [
       "Production",
       "Miners"
@@ -947,43 +947,43 @@
     "kind": "item",
     "slug": "modular-frame",
     "name": "Modular Frame",
-    "icon": "7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu"
+    "icon": "4uDYe7vAYg6AI0WIukEQUK1e0aP3ONog6YSIqe6Soqis"
   },
   {
     "kind": "item",
     "slug": "motor",
     "name": "Motor",
-    "icon": "7kL2idF7XicEOsOWsaMQuG5lasWIQ4neoAg2COmaSOk6"
+    "icon": "2rpGcwoyQcmQUCMuWuUmeo1NEMeEIafyksCOQ4kI0oCM"
   },
   {
     "kind": "item",
     "slug": "mycelia",
     "name": "Mycelia",
-    "icon": "7N42dgliI8yaeiAGC2UCsW5R8CloqVkQSike0WeUoqGu"
+    "icon": "2zFnD2f2iUaYcWqOIK2WEw3CyZfngOjeWiwgMsQmEucq"
   },
   {
     "kind": "item",
     "slug": "nobelisk",
     "name": "Nobelisk",
-    "icon": "6Ss9vMKuR2OQcWgEwc6oqG7iVNCcHraMmIai6GmK2ac8"
+    "icon": "4cb0G1DZO8yEoAI4AGq8uE2ZNmDrvFza0IMEkSeCG4SI"
   },
   {
     "kind": "item",
     "slug": "nobelisk-detonator",
     "name": "Nobelisk Detonator",
-    "icon": "7LeHfOuxxeaM8m0mOqCEgA7y5nBgl1DOa6SqOi0OoyGA"
+    "icon": "6rPFWhWvLycQamWU4YyycM6JIP5ghGucEmsGG4UCQeIu"
   },
   {
     "kind": "item",
     "slug": "nuclear-fuel-rod",
     "name": "Nuclear Fuel Rod",
-    "icon": "7qTjLs4vn2wwUUaQmem6q27iZrpdTd5KssKC22sUOoMs"
+    "icon": "1SAN10lvqMuQKsya2oAmya436a9ohrtKKwSSWgIeCiwU"
   },
   {
     "kind": "building",
     "slug": "nuclear-power-plant",
     "name": "Nuclear Power Plant",
-    "icon": "7yUz46VajCcySAacOs62yG7BYFZG3kZy6AsYiIeMQAcq",
+    "icon": "yZstkS3SsoqW26qcMq8WS27fc1MrFa82ka0oYUOMaOa",
     "categories": [
       "Power",
       "Generators"
@@ -993,13 +993,13 @@
     "kind": "item",
     "slug": "object-scanner",
     "name": "Object Scanner",
-    "icon": "1WL6jJkAhCa2iWwkMYeCWQ6OUQBbqkJUmaeQoKIqAgQM"
+    "icon": "7IpTg2MYaAQCyy2YgcYqcq1lbOBQkKdmCgsCceWSk8MM"
   },
   {
     "kind": "building",
     "slug": "oil-extractor",
     "name": "Oil Extractor",
-    "icon": "7y5oua3NAsYuEEcWy02MEu6ONz18ZA08AeCogyo4s4ec",
+    "icon": "7rjPk6AM3mECyqaMky4a6A6fM9IRgSSQGGU8wOIqGUcK",
     "categories": [
       "Production",
       "OilProduction"
@@ -1014,7 +1014,7 @@
     "kind": "item",
     "slug": "packaged-heavy-oil-residue",
     "name": "Packaged Heavy Oil Residue",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "HgXdRRk0a2uak0kUoo2Wk7k45bu16IooCi6SGKWcK4S"
   },
   {
     "kind": "item",
@@ -1035,25 +1035,25 @@
     "kind": "item",
     "slug": "packaged-water",
     "name": "Packaged Water",
-    "icon": "7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak"
+    "icon": "5U61Epnkd2oIIek8EO6KsgJ3TrZQxe4SciuEQeU8AaQ"
   },
   {
     "kind": "item",
     "slug": "paleberry",
     "name": "Paleberry",
-    "icon": "7JpkKi4rLiUWaOSQ4aMsuw4R6iFZrIQoGcyke4WamiaY"
+    "icon": "6APXAIsXyoege6GOQcm60Y4ZY4Kny1VSauu0uwouYyOQ"
   },
   {
     "kind": "item",
     "slug": "parachute",
     "name": "Parachute",
-    "icon": "7N3YHnmzCgGu0sS6USuasa5XJADJfPkAcke6kwAqWgIa"
+    "icon": "5Hi3Z4l17yEu02gI0wIsQo5XGiyW2BZm4gYqsEei6okc"
   },
   {
     "kind": "building",
     "slug": "personal-storage-box",
     "name": "Personal Storage Box",
-    "icon": "7N3YTnUuYg66UMykymwsEq6OHbdJXU0oEaSuOMy8ogcE",
+    "icon": "4BGYlx8WQocq8Igs2oywi84Pu64g39hKQE4EYuKmco6O",
     "categories": [
       "Organisation",
       "Storage"
@@ -1063,7 +1063,7 @@
     "kind": "item",
     "slug": "petroleum-coke",
     "name": "Petroleum Coke",
-    "icon": "7N41Mf4WekCyAQ4GCWOASA5Qm4DAXGTeEmo0kCAykeOi"
+    "icon": "4cERaoCUeQc6os2oeI2mug7t93CG5oYgKCmuEkSqc062"
   },
   {
     "kind": "building",
@@ -1096,7 +1096,7 @@
     "kind": "building",
     "slug": "pipeline",
     "name": "Pipeline",
-    "icon": "7N42dfWqzYYOy8KkCa0YCE42wkXTa3CMyy2eaieKcQuI",
+    "icon": "uW7VQig6iGkU8wggoG8Q6bgRdJBuRqG82W8gs4icWo",
     "categories": [
       "Transport",
       "Pipes"
@@ -1106,7 +1106,7 @@
     "kind": "building",
     "slug": "pipeline-junction-cross",
     "name": "Pipeline Junction Cross",
-    "icon": "7N426BNjry8CAO22OyweoW3U07E8cmwwMeqQgkiwWso4",
+    "icon": "7yKh71vLSEmIwi20Iq2ai21res3yoyGg4MgCuiwUIcU2",
     "categories": [
       "Transport",
       "Pipes"
@@ -1116,7 +1116,7 @@
     "kind": "building",
     "slug": "pipeline-pump",
     "name": "Pipeline Pump",
-    "icon": "7N3BEjMvv2Cowq0kKG00Qa6mmoBzL1Ju2g6C8M62EKSI",
+    "icon": "4QWEKkooA8Ymey82ci4SCm7aUeGVInvym84COw6uMUgQ",
     "categories": [
       "Transport",
       "Pipes"
@@ -1135,7 +1135,7 @@
     "kind": "building",
     "slug": "pipeline-wall-support",
     "name": "Pipeline Wall Support",
-    "icon": "7N41Mf4WeA8AEYkcE0WQoC7pZ8R8hfFu2amC6WGIgywG",
+    "icon": "2SmNwH7WTmge2kMIwaiII67xCa9niBYQEyOSWeEEEI6K",
     "categories": [
       "Transport",
       "PipeSupport"
@@ -1145,7 +1145,7 @@
     "kind": "building",
     "slug": "pipeline-wall-through-hole",
     "name": "Pipeline Wall Through Hole",
-    "icon": "7N3YG60pJCwGkgOqCU4oA44RvVa8EanuEIqkOKG6ceWg",
+    "icon": "58vxdHEst2gq8sMEuWmqOi6eQSDV8bzqqoKimq0uqo2s",
     "categories": [
       "Transport",
       "PipeSupport"
@@ -1155,13 +1155,13 @@
     "kind": "item",
     "slug": "plastic",
     "name": "Plastic",
-    "icon": "7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU"
+    "icon": "7l2rmHqYneCUkuAEUaSqMafvf1QGi7baMI8eWAgasMm"
   },
   {
     "kind": "item",
     "slug": "polymer-resin",
     "name": "Polymer Resin",
-    "icon": "7N42agarvy0WocuuWiEGGA5QFbR8cesgI82oyC6oWasY"
+    "icon": "6tssEAPIK48MwgkiW4cWck4dPG6Xpc1yGK2EiOcCyKCi"
   },
   {
     "kind": "item",
@@ -1172,7 +1172,7 @@
     "kind": "building",
     "slug": "power-line",
     "name": "Power Line",
-    "icon": "7yrkxFpTxewKSMQmuI2YEE7nABS4QnMki4U6uIWCocCq",
+    "icon": "5weaak4UfKwgQMKkeIoaiaJAx5Ne9Q88MYIeymsQ2G2",
     "categories": [
       "Power",
       "PowerPoles"
@@ -1182,7 +1182,7 @@
     "kind": "building",
     "slug": "power-pole",
     "name": "Power Pole",
-    "icon": "7FZjkzLBG84eo0QswKyCwC7KexLdcNXiusCMmKg8oMgM",
+    "icon": "7JEWsJaHmMqcMoSIWe6Eqa5jO8hqS6nKaug6UagWYyei",
     "categories": [
       "Power",
       "PowerPoles"
@@ -1192,7 +1192,7 @@
     "kind": "building",
     "slug": "power-pole-mk2",
     "name": "Power Pole Mk.2",
-    "icon": "7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM",
+    "icon": "7gCxGxWhYk2AY48eCYsaAW65fS2HG3PqUWWeUQ48iyaq",
     "categories": [
       "Power",
       "PowerPoles"
@@ -1202,7 +1202,7 @@
     "kind": "building",
     "slug": "power-pole-mk3",
     "name": "Power Pole Mk.3",
-    "icon": "7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM",
+    "icon": "bseWbpKWuO6QK4CygqAMGFfjdjtnoM8EiUGy6cU8SA",
     "categories": [
       "Power",
       "PowerPoles"
@@ -1217,7 +1217,7 @@
     "kind": "building",
     "slug": "programmable-splitter",
     "name": "Programmable Splitter",
-    "icon": "7N41ldHl5KsMuISGsw6ueK6RX8pFtjfqwwGCkWE0geA0",
+    "icon": "3bMFnVTn9SKOg4sySi4M6I2HS9NSRiYwcuMKe0I2eiau",
     "categories": [
       "Transport",
       "ConveyorAttachments"
@@ -1232,13 +1232,13 @@
     "kind": "item",
     "slug": "quartz-crystal",
     "name": "Quartz Crystal",
-    "icon": "7N41m4Z5XUiKCQYK0aUg4y639qr83ex2O2YoGww0ysAe"
+    "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km"
   },
   {
     "kind": "item",
     "slug": "quickwire",
     "name": "Quickwire",
-    "icon": "7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8"
+    "icon": "7xQWI9C0fegwYmmoS8Wkq26rdGoXXtgk4msi6AAUUkUY"
   },
   {
     "kind": "item",
@@ -1249,7 +1249,7 @@
     "kind": "building",
     "slug": "railway",
     "name": "Railway",
-    "icon": "7N42dgm5tCCQsMcmemUoI83clQnzgVDiGUUakEyioq",
+    "icon": "1QbWf3QlLKE4wAgu2IIiWY3WroqKppCM2AK2yw28AE2c",
     "categories": [
       "Transport",
       "Trains"
@@ -1309,7 +1309,7 @@
     "kind": "item",
     "slug": "rebar-gun",
     "name": "Rebar Gun",
-    "icon": "7Lb2gMX2RagqyAqOGCyIq61OsnJC2hNGWY8cocC42k"
+    "icon": "1zdxnOKlPacEuKmwqESmam4eACU8aO92aKyq0CyayqmG"
   },
   {
     "kind": "recipe",
@@ -1325,103 +1325,103 @@
     "kind": "recipe",
     "slug": "recipe-alclad-aluminum-sheet",
     "name": "Alclad Aluminum Sheet",
-    "icon": "7N41SFMSAMkagIwAmwaSUK5TY5sf7TH2cagIMuUAWG88"
+    "icon": "5x1rFAdnYQgykUy6I00W807xHNK0X89qoGIS62C8yWMG"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-adhered-iron-plate",
     "name": "Alternate: Adhered Iron Plate",
-    "icon": "7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc"
+    "icon": "22Gwoy8pswqK6WGIimIa0Y5wqLZDUp7aKkySMEG0qIU8"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-biomass-coal",
     "name": "Alternate: Biomass Coal",
-    "icon": "7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU"
+    "icon": "2eDXjI7cV2ek6ocKMo2QeC5ywsFHr1TiMee8EUm2KU4I"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-bolted-frame",
     "name": "Alternate: Bolted Frame",
-    "icon": "7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu"
+    "icon": "4uDYe7vAYg6AI0WIukEQUK1e0aP3ONog6YSIqe6Soqis"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-bolted-iron-plate",
     "name": "Alternate: Bolted Iron Plate",
-    "icon": "7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc"
+    "icon": "22Gwoy8pswqK6WGIimIa0Y5wqLZDUp7aKkySMEG0qIU8"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-casted-screw",
     "name": "Alternate: Casted Screw",
-    "icon": "7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck"
+    "icon": "7lkdGrq5zOUmM08AceY26U6v2kxhCGQ00cwk4AYkQwm"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-caterium-circuit-board",
     "name": "Alternate: Caterium Circuit Board",
-    "icon": "7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc"
+    "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-caterium-computer",
     "name": "Alternate: Caterium Computer",
-    "icon": "7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8"
+    "icon": "6vZ32C2ZkA4qwAuQ0AQkwc1bn9l350L6we4iYUWigWoS"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-caterium-wire",
     "name": "Alternate: Caterium Wire",
-    "icon": "7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs"
+    "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-cheap-silica",
     "name": "Alternate: Cheap Silica",
-    "icon": "7Ji1qa0TCwIsQCayegASKg3UpK7qz3Xag06YoiwgQQqC"
+    "icon": "1MA5DTcAxKqImsIQmwoy4u263hXLjnTmSWsmY8Uc66yU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-coated-cable",
     "name": "Alternate: Coated Cable",
-    "icon": "7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA"
+    "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-coated-iron-plate",
     "name": "Alternate: Coated Iron Plate",
-    "icon": "7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo"
+    "icon": "654X5USXiokMei8s4CEI2E6c8bRT6gfuQeci02KweQim"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-coke-steel-ingot",
     "name": "Alternate: Coke Steel Ingot",
-    "icon": "7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi"
+    "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-compacted-coal",
     "name": "Alternate: Compacted Coal",
-    "icon": "7N426C5PNeqMUYS40ACqy84oc5mrUUnKwiMw8MYwMeq2"
+    "icon": "3NLcDIsKRyyyQUWSM2u0aixkLYJW2jy8KG6eKgOy4AE"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-compacted-steel-ingot",
     "name": "Alternate: Compacted Steel Ingot",
-    "icon": "7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi"
+    "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-copper-alloy-ingot",
     "name": "Alternate: Copper Alloy Ingot",
-    "icon": "7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W"
+    "icon": "1RtTF6zT7a0qgEICmccgA26pFCZcwKKQyUo482W4sWCC"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-copper-rotor",
     "name": "Alternate: Copper Rotor",
-    "icon": "7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC"
+    "icon": "4q2KP0lfWoIqKKoa2ECEg8reDlnB64ko0wUeQGAseus"
   },
   {
     "kind": "recipe",
@@ -1432,7 +1432,7 @@
     "kind": "recipe",
     "slug": "recipe-alternate-crystal-computer",
     "name": "Alternate: Crystal Computer",
-    "icon": "7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8"
+    "icon": "6vZ32C2ZkA4qwAuQ0AQkwc1bn9l350L6we4iYUWigWoS"
   },
   {
     "kind": "recipe",
@@ -1443,37 +1443,37 @@
     "kind": "recipe",
     "slug": "recipe-alternate-electrode-aluminum-scrap",
     "name": "Alternate: Electrode - Aluminum Scrap",
-    "icon": "7N41NpQ8NOOgWSE4Y626oA40n03SSxhSakCkIoKO68MA"
+    "icon": "4aw8Ki6ocg8WUqmemQcAIU1bGANAb9dqmAGAgSYUqWGk"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-electrode-circuit-board",
     "name": "Alternate: Electrode Circuit Board",
-    "icon": "7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc"
+    "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-electromagnetic-connection-rod",
     "name": "Alternate: Electromagnetic Connection Rod",
-    "icon": "7N42dfyb1mOgWauaiGQOkS6OMFesktpYMeq4u6eqEuIa"
+    "icon": "51sSpGM7scCQUeWGyYme241GZGQI4xz220seAIww6UEY"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-encased-industrial-pipe",
     "name": "Alternate: Encased Industrial Pipe",
-    "icon": "7N41ZE2KooGCKcMyO6KAqE3ERbIcQg80w0sOCuciCAIq"
+    "icon": "15ixr0o43o4EI6KYIckyeQ43UEoxqSByyASwWKSU6Cmk"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-fine-black-powder",
     "name": "Alternate: Fine Black Powder",
-    "icon": "7ycGWFxPVKoKcIMMgcWaOA6OYviOGHJu0qYoU2GIoiWM"
+    "icon": "XoMkHOPbkisYw0Os2CEC04arPLe5TAQYMYW4sMqUwCm"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-fine-concrete",
     "name": "Alternate: Fine Concrete",
-    "icon": "7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge"
+    "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe"
   },
   {
     "kind": "recipe",
@@ -1484,13 +1484,13 @@
     "kind": "recipe",
     "slug": "recipe-alternate-fused-quckwire",
     "name": "Alternate: Fused Quckwire",
-    "icon": "7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8"
+    "icon": "7xQWI9C0fegwYmmoS8Wkq26rdGoXXtgk4msi6AAUUkUY"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-fused-wire",
     "name": "Alternate: Fused Wire",
-    "icon": "7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs"
+    "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS"
   },
   {
     "kind": "recipe",
@@ -1501,19 +1501,19 @@
     "kind": "recipe",
     "slug": "recipe-alternate-heavy-encased-frame",
     "name": "Alternate: Heavy Encased Frame",
-    "icon": "7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG"
+    "icon": "56Bx22YgogYaS2CGy2UkYe2OIVkU7yAECqCWmA8Uea2O"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-heavy-flexible-frame",
     "name": "Alternate: Heavy Flexible Frame",
-    "icon": "7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG"
+    "icon": "56Bx22YgogYaS2CGy2UkYe2OIVkU7yAECqCWmA8Uea2O"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-heavy-oil-residue",
     "name": "Alternate: Heavy Oil Residue",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "HgXdRRk0a2uak0kUoo2Wk7k45bu16IooCi6SGKWcK4S"
   },
   {
     "kind": "recipe",
@@ -1524,37 +1524,37 @@
     "kind": "recipe",
     "slug": "recipe-alternate-infused-uranium-cell",
     "name": "Alternate: Infused Uranium Cell",
-    "icon": "7N3YGwNVmM2K2G6KWGaSyy4723x3vj8c22MAKgMuKCOA"
+    "icon": "218uoQZdKEImEUwIaU6q8sBhPxD96k3Q2MEesYQAmI0"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-insulated-cable",
     "name": "Alternate: Insulated Cable",
-    "icon": "7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA"
+    "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-insulated-crystal-oscillator",
     "name": "Alternate: Insulated Crystal Oscillator",
-    "icon": "7FZhJVM03S2UuEMIcwKuIe6S6iGjtXzywQ4QGewK0YMI"
+    "icon": "7vNSzrF9PaEIyyIAq8YKmO43PgBPFVG0IueAKOsiyuS2"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-iron-alloy-ingot",
     "name": "Alternate: Iron Alloy Ingot",
-    "icon": "7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc"
+    "icon": "2IEt6n1lD2yiGccaWqugeWcpaTd3u2ukGkeaQuaua0O"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-iron-wire",
     "name": "Alternate: Iron Wire",
-    "icon": "7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs"
+    "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-nuclear-fuel-unit",
     "name": "Alternate: Nuclear Fuel Unit",
-    "icon": "7qTjLs4vn2wwUUaQmem6q27iZrpdTd5KssKC22sUOoMs"
+    "icon": "1SAN10lvqMuQKsya2oAmya436a9ohrtKKwSSWgIeCiwU"
   },
   {
     "kind": "recipe",
@@ -1565,55 +1565,55 @@
     "kind": "recipe",
     "slug": "recipe-alternate-polyester-fabric",
     "name": "Alternate: Polyester Fabric",
-    "icon": "7N42agcQEwSG4c2GuA6ygM5XH80xNhRKk4QM2mm28Ie2"
+    "icon": "37PmtqQwQ0SoaI0QKu2cw83iU9sou1u8UOUiCSo0q0OI"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-polymer-resin",
     "name": "Alternate: Polymer Resin",
-    "icon": "7N42agarvy0WocuuWiEGGA5QFbR8cesgI82oyC6oWasY"
+    "icon": "6tssEAPIK48MwgkiW4cWck4dPG6Xpc1yGK2EiOcCyKCi"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-pure-aluminum-ingot",
     "name": "Alternate: Pure Aluminum Ingot",
-    "icon": "7N422Y4rJYiGMA24W8aKuG4xazv4dY9yKWwUiKqwoSgK"
+    "icon": "1dlvKyAE1wWCkCGkI2cs4I6A9VggMF5SAMawmKAQAIWq"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-pure-caterium-ingot",
     "name": "Alternate: Pure Caterium Ingot",
-    "icon": "7N41MFvUxUGyoaquC4yqKy6vPa08mrmgaccyYkSiAuUq"
+    "icon": "33qK1HmQ7mKkMWOyyqKSOU2ztL6NL6esyegAAm0IU22y"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-pure-copper-ingot",
     "name": "Alternate: Pure Copper Ingot",
-    "icon": "7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W"
+    "icon": "1RtTF6zT7a0qgEICmccgA26pFCZcwKKQyUo482W4sWCC"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-pure-iron-ingot",
     "name": "Alternate: Pure Iron Ingot",
-    "icon": "7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc"
+    "icon": "2IEt6n1lD2yiGccaWqugeWcpaTd3u2ukGkeaQuaua0O"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-pure-quartz-crystal",
     "name": "Alternate: Pure Quartz Crystal",
-    "icon": "7N41m4Z5XUiKCQYK0aUg4y639qr83ex2O2YoGww0ysAe"
+    "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-quickwire-cable",
     "name": "Alternate: Quickwire Cable",
-    "icon": "7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA"
+    "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-quickwire-stator",
     "name": "Alternate: Quickwire Stator",
-    "icon": "7N40tBeLRYs64cggasC4Kg4K5jpIgIo8emkQOMYmKaUq"
+    "icon": "3dzGBM7in6g6oUACqEEu4s7KFIkQqTJYisYky4OSq600"
   },
   {
     "kind": "recipe",
@@ -1624,139 +1624,139 @@
     "kind": "recipe",
     "slug": "recipe-alternate-recycled-plastic",
     "name": "Alternate: Recycled Plastic",
-    "icon": "7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU"
+    "icon": "7l2rmHqYneCUkuAEUaSqMafvf1QGi7baMI8eWAgasMm"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-recycled-rubber",
     "name": "Alternate: Recycled Rubber",
-    "icon": "7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8"
+    "icon": "1VyrgwLHgUoKUQCssgcqEu1hrYGNAgsqA2OgGowgUkew"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-rigour-motor",
     "name": "Alternate: Rigour Motor",
-    "icon": "7kL2idF7XicEOsOWsaMQuG5lasWIQ4neoAg2COmaSOk6"
+    "icon": "2rpGcwoyQcmQUCMuWuUmeo1NEMeEIafyksCOQ4kI0oCM"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-rubber-concrete",
     "name": "Alternate: Rubber Concrete",
-    "icon": "7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge"
+    "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-seismic-nobelisk",
     "name": "Alternate: Seismic Nobelisk",
-    "icon": "6Ss9vMKuR2OQcWgEwc6oqG7iVNCcHraMmIai6GmK2ac8"
+    "icon": "4cb0G1DZO8yEoAI4AGq8uE2ZNmDrvFza0IMEkSeCG4SI"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-silicone-circuit-board",
     "name": "Alternate: Silicone Circuit Board",
-    "icon": "7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc"
+    "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-silicone-high-speed-connector",
     "name": "Alternate: Silicone High-Speed Connector",
-    "icon": "7N42dglnO0Ge2o0uekCySU7ch58bY3WEseIQQGoYas"
+    "icon": "4XQHY1qNFe4sUqi0k2gU6w4WZYCTYXioqSOsSGUIaGCI"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-solid-steel-ingot",
     "name": "Alternate: Solid Steel Ingot",
-    "icon": "7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi"
+    "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-steamed-copper-sheet",
     "name": "Alternate: Steamed Copper Sheet",
-    "icon": "7N42dfzMNaQUSaaIqeYMY86QCTRQ6ctU6c6O44QIcmC0"
+    "icon": "2Fsos2EEnK4EUsE84WGCSM6VLdqq8rny0u400MaCO8eO"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-steel-coated-plate",
     "name": "Alternate: Steel Coated Plate",
-    "icon": "7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo"
+    "icon": "654X5USXiokMei8s4CEI2E6c8bRT6gfuQeci02KweQim"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-steel-rod",
     "name": "Alternate: Steel Rod",
-    "icon": "7N0nvS2MJUs4yG0Ckk2G6Y7brhNWuC6A8Agykw8w2uwE"
+    "icon": "22Iasy39jiIsO2Gq84ISoS7m9tRpEF1K8gKUoCwg4Ckq"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-steel-rotor",
     "name": "Alternate: Steel Rotor",
-    "icon": "7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC"
+    "icon": "4q2KP0lfWoIqKKoa2ECEg8reDlnB64ko0wUeQGAseus"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-steel-screw",
     "name": "Alternate: Steel Screw",
-    "icon": "7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck"
+    "icon": "7lkdGrq5zOUmM08AceY26U6v2kxhCGQ00cwk4AYkQwm"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-steeled-frame",
     "name": "Alternate: Steeled Frame",
-    "icon": "7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu"
+    "icon": "4uDYe7vAYg6AI0WIukEQUK1e0aP3ONog6YSIqe6Soqis"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-stitched-iron-plate",
     "name": "Alternate: Stitched Iron Plate",
-    "icon": "7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc"
+    "icon": "22Gwoy8pswqK6WGIimIa0Y5wqLZDUp7aKkySMEG0qIU8"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-turbo-heavy-fuel",
     "name": "Alternate: Turbo Heavy Fuel",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-turbo-rigour-motor",
     "name": "Alternate: Turbo Rigour Motor",
-    "icon": "7kL2idF7biM0Uq2YESIKmy5laVdzIN3yweagYEW6g0Ew"
+    "icon": "3VDejjgSzSI2kUiesoCEcU3IMyjwZdH2I6siqQc6uWK6"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-wet-concrete",
     "name": "Alternate: Wet Concrete",
-    "icon": "7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge"
+    "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alternate-wood-coal",
     "name": "Alternate: Wood Coal",
-    "icon": "7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU"
+    "icon": "2eDXjI7cV2ek6ocKMo2QeC5ywsFHr1TiMee8EUm2KU4I"
   },
   {
     "kind": "recipe",
     "slug": "recipe-alumina-solution",
     "name": "Alumina Solution",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-aluminum-ingot",
     "name": "Aluminum Ingot",
-    "icon": "7N422Y4rJYiGMA24W8aKuG4xazv4dY9yKWwUiKqwoSgK"
+    "icon": "1dlvKyAE1wWCkCGkI2cs4I6A9VggMF5SAMawmKAQAIWq"
   },
   {
     "kind": "recipe",
     "slug": "recipe-aluminum-scrap",
     "name": "Aluminum Scrap",
-    "icon": "7N41NpQ8NOOgWSE4Y626oA40n03SSxhSakCkIoKO68MA"
+    "icon": "4aw8Ki6ocg8WUqmemQcAIU1bGANAb9dqmAGAgSYUqWGk"
   },
   {
     "kind": "recipe",
     "slug": "recipe-assembler",
     "name": "Assembler",
-    "icon": "7N4287eTBYkkOacWk4Kw6a7yHMXsd7os8a8GoEWK8wKi"
+    "icon": "77Sl2E79lY8icWES8cWIsQwnyM5Xvih2SymIOm2i6Ek"
   },
   {
     "kind": "recipe",
@@ -1767,25 +1767,25 @@
     "kind": "recipe",
     "slug": "recipe-awesome-shop",
     "name": "AWESOME Shop",
-    "icon": "7JwFqtuTwQGOi6KcaiYe4a6UwaOWdHpK6A8ouSymmWcy"
+    "icon": "VFqvxWEzyUwOUYcGIG8WKNSDNPpiFWKOygyauKCqIa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-awesome-sink",
     "name": "AWESOME Sink",
-    "icon": "7MErtJpMfCGSmAS66CawmC7E9WTLXmqkuqwY0QwuqCIO"
+    "icon": "6VRDvV3Hna2KSIoA6IwWysSBwVOizfEcekUCYuAE8Iw"
   },
   {
     "kind": "recipe",
     "slug": "recipe-battery",
     "name": "Battery",
-    "icon": "7Mm9HAuwZGaaMmiS6mKKES5Qldty9RUASQsIAScc4kEu"
+    "icon": "6Waajg40BGMCyWWMo4COqE25rSUil2CssoScg8IWMQK2"
   },
   {
     "kind": "recipe",
     "slug": "recipe-bauxite",
     "name": "Bauxite",
-    "icon": "7N42afPvOg4wqe06WEsQoE3U3HaDOGHYuWIGeU0aA0Mk"
+    "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG"
   },
   {
     "kind": "recipe",
@@ -1806,7 +1806,7 @@
     "kind": "recipe",
     "slug": "recipe-biomass-burner",
     "name": "Biomass Burner",
-    "icon": "7Ji2WwDaBayUwua6Kckcgo5UTAJ54MAoUcEqImIKoka4"
+    "icon": "6lCPcNNKzSiWaU4aK46oaK4yhgXDsxhuCyMgs4USCmwA"
   },
   {
     "kind": "recipe",
@@ -1827,7 +1827,7 @@
     "kind": "recipe",
     "slug": "recipe-black-powder",
     "name": "Black Powder",
-    "icon": "7ycGWFxPVKoKcIMMgcWaOA6OYviOGHJu0qYoU2GIoiWM"
+    "icon": "XoMkHOPbkisYw0Os2CEC04arPLe5TAQYMYW4sMqUwCm"
   },
   {
     "kind": "recipe",
@@ -1838,151 +1838,151 @@
     "kind": "recipe",
     "slug": "recipe-cable",
     "name": "Cable",
-    "icon": "7N40sjRkacISOaM0G0euMA6cVq4AZGHm0YE4CoGeiSyA"
+    "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ"
   },
   {
     "kind": "recipe",
     "slug": "recipe-cartridge",
     "name": "Cartridge",
-    "icon": "414LfZyMPYGW6mYoSIqyUk7iVO3xRQDmQugk0UMYyMu2"
+    "icon": "6ToL2rptqo4ScSK6QUGAWW1F90Gxysdqu2MoSkIcuASW"
   },
   {
     "kind": "recipe",
     "slug": "recipe-caterium-ingot",
     "name": "Caterium Ingot",
-    "icon": "7N41MFvUxUGyoaquC4yqKy6vPa08mrmgaccyYkSiAuUq"
+    "icon": "33qK1HmQ7mKkMWOyyqKSOU2ztL6NL6esyegAAm0IU22y"
   },
   {
     "kind": "recipe",
     "slug": "recipe-caterium-ore",
     "name": "Caterium Ore",
-    "icon": "7N3YKVmqqsCM88MwQoqMs05PmLDwWWDmSgqaMa2E2IMQ"
+    "icon": "1HaNxmuWXOCeYO2IMCOeAQ3W2kkcaLYsAQaC2GAWa080"
   },
   {
     "kind": "recipe",
     "slug": "recipe-chainsaw",
     "name": "Chainsaw",
-    "icon": "3TwFR5iDTW8iwUgqAsKeK47xYxUvWLVCwmGawmmeYWa0"
+    "icon": "5lo3jAvPlmaa4S220mmMCa7630RidToWOcQc6saUo6yc"
   },
   {
     "kind": "recipe",
     "slug": "recipe-circuit-board",
     "name": "Circuit Board",
-    "icon": "7Mm9g21NV6uQQ2aAiueAOU7bnKRY72fuGick0O4YcuCc"
+    "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE"
   },
   {
     "kind": "recipe",
     "slug": "recipe-coal",
     "name": "Coal",
-    "icon": "7N42dgm5tCCQsMcmemUoI85Qm4fTLgyWooMKUIAm08mU"
+    "icon": "2eDXjI7cV2ek6ocKMo2QeC5ywsFHr1TiMee8EUm2KU4I"
   },
   {
     "kind": "recipe",
     "slug": "recipe-coal-generator",
     "name": "Coal Generator",
-    "icon": "65omEHqS76uG0kAguSY4wO5U0JYzAn3UeWsiWM6A64kY"
+    "icon": "1W1crDIzAkgaUW0KsI8IOu1iIousJUsWOWSgCKsWGuKa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-color-cartridge",
     "name": "Color Cartridge",
-    "icon": "7JLgMvGRPO8c6wKO0Y6cMu6Q9Eu6zADm2kOGi4UA6igO"
+    "icon": "7pt99YvvUIayUEqGEScqsw31kOSGZso8WmkS8sasI0KO"
   },
   {
     "kind": "recipe",
     "slug": "recipe-color-gun",
     "name": "Color Gun",
-    "icon": "7JwFEcpbbiMGKkEmMcwY8G3TxSeTrOq4uoWusym4KKYa"
+    "icon": "498oVhXQLYkowyEG2O0s4I6O5ps1ZlM46wYWc8ymc2kS"
   },
   {
     "kind": "recipe",
     "slug": "recipe-computer",
     "name": "Computer",
-    "icon": "7N3YHmx3osmgyQekMwamqE3UVCvWjp6EiEoOM2Qg8ks8"
+    "icon": "6vZ32C2ZkA4qwAuQ0AQkwc1bn9l350L6we4iYUWigWoS"
   },
   {
     "kind": "recipe",
     "slug": "recipe-concrete",
     "name": "Concrete",
-    "icon": "7N3YHnmzCgGu0sS6USuasa5R3WLCO6B20Cm4miSEckge"
+    "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe"
   },
   {
     "kind": "recipe",
     "slug": "recipe-constructor",
     "name": "Constructor",
-    "icon": "7N42bo1cIgSKqKGYYUCWSI7yjYDJvP20WM2mYQSCIECW"
+    "icon": "6xsSeTNlEAIe48EE2SSwkm6VWOf4nszuyeI4KAwqyEM0"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-belt",
     "name": "Conveyor Belt",
-    "icon": "7N42dglGwwWmQucWomCcw07cgRZsyF20CggyIMsySE"
+    "icon": "2V1hjgBUbSKMAokugy6sgoq6SOlvypaKmus2qMwMEIa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-belt-mk2",
     "name": "Conveyor Belt Mk.2",
-    "icon": "7N42dglGwgqkMmWqmiuW0u7cgRWi2qycWuACIiq448"
+    "icon": "6TV6ZtUlOMwugIkQUQccI07zw7tB18BOq0SGIm4aGEgA"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-belt-mk3",
     "name": "Conveyor Belt Mk.3",
-    "icon": "7N42dgkSBO4kqEG4CaMiCI7ch5eA81qwCMMcAa0cc0"
+    "icon": "471dp7kQnuukocKoSegkO86ihlcUOHkIYCwQ8Ku2kISk"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-belt-mk4",
     "name": "Conveyor Belt Mk.4",
-    "icon": "7N41SFWQjSe2awW6IC68Yo3U02lBQTTqIGQcCy862k0Y"
+    "icon": "5OC2gFZnH2KoEggoGaYaoW3Ydw0zXZuM4c4ew4AMq8Sa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-belt-mk5",
     "name": "Conveyor Belt Mk.5",
-    "icon": "7N41SFTCFiKUGqo8K682Si3YIw9rwI0w6OuCkcIM4ewe"
+    "icon": "2L3QgqRVHiIkGI6s4WW6Cu2REJG0pdBKo0CcuicgCyeU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-lift",
     "name": "Conveyor Lift",
-    "icon": "7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk"
+    "icon": "3ulmz3RW2AqeKCieqC6IS02M0dNZNKzuGw0sqIY2gsyO"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-lift-mk2",
     "name": "Conveyor Lift Mk.2",
-    "icon": "7FZj3QHU5iukUIoY6gYA6m7iZsi7BcHeieeQ0kYK0iCk"
+    "icon": "4a0DuPL7Bue4cEYMMwQooy3fXWD8Q0dq4ocEga0q4coG"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-lift-mk3",
     "name": "Conveyor Lift Mk.3",
-    "icon": "7FKGn2ihwc44k8s0Au0mOi7iZrpdWqK4qw6s4YmeoYQu"
+    "icon": "7s6OtO2nMAwci8YYmkaQ2W2LjIrNXXmwGcgOAQ2I4Qu8"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-lift-mk4",
     "name": "Conveyor Lift Mk.4",
-    "icon": "7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I"
+    "icon": "50grr0ea4M4aycmMwsSu4I4DLzTyrGLYqWO0Qq8SgI0k"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-lift-mk5",
     "name": "Conveyor Lift Mk.5",
-    "icon": "7jlnredkiIiyeiakCUiSyg7iZrpdTeF2QQOkSyaG4I2I"
+    "icon": "4siB6bNmbCsmq8MggA2ouq2YziiquzReYQQakQ8osCCU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-merger",
     "name": "Conveyor Merger",
-    "icon": "7Ji2j4gHzU0iuQ6cOcKcmC5S9zRTAbfOKiuEIqGOewsM"
+    "icon": "4C3N4zne3eGseAKUsqEsoC2GQpuzr9JmKWO68yogmIiU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-pole",
     "name": "Conveyor Pole",
-    "icon": "7N42deHQQ0sGuygoaGM2gQ7jktFi3GpiuAIEa6GWUwoK"
+    "icon": "69vfK30XIW4sqscQEWEOS01jwhyuEusYUgGc2C2kq0qy"
   },
   {
     "kind": "recipe",
@@ -1993,31 +1993,31 @@
     "kind": "recipe",
     "slug": "recipe-conveyor-splitter",
     "name": "Conveyor Splitter",
-    "icon": "7Ji2j4gEq4IseaU8ksAwM06Sj4pKy8essyUie6e6YscI"
+    "icon": "3ibPCrggV2WUAAIYCWyIiQ7pax6dIOgoqMyeEOqSIwYc"
   },
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-wall-mount",
     "name": "Conveyor Wall Mount",
-    "icon": "7N42dgm5tCCQsMcmemUoI831Kff8YTYAg44KY2K0"
+    "icon": "4yCJN0saasu24I0CmUec441poZhgrEFmmQ8wwAKAYCio"
   },
   {
     "kind": "recipe",
     "slug": "recipe-copper-ingot",
     "name": "Copper Ingot",
-    "icon": "7N429PzOXCGMc4aysgEis65VYiVFZjfUKcgmaWCCoW6W"
+    "icon": "1RtTF6zT7a0qgEICmccgA26pFCZcwKKQyUo482W4sWCC"
   },
   {
     "kind": "recipe",
     "slug": "recipe-copper-ore",
     "name": "Copper Ore",
-    "icon": "7N42dgm5sk2G88UM42gmE06r5LGGbrEIoyyIWYAi0yYs"
+    "icon": "1KR1PnaA8UOUMW4mCcq6EU2IvxUOIGWssQSw86km0A6A"
   },
   {
     "kind": "recipe",
     "slug": "recipe-copper-sheet",
     "name": "Copper Sheet",
-    "icon": "7N42dfzMNaQUSaaIqeYMY86QCTRQ6ctU6c6O44QIcmC0"
+    "icon": "2Fsos2EEnK4EUsE84WGCSM6VLdqq8rny0u400MaCO8eO"
   },
   {
     "kind": "recipe",
@@ -2053,19 +2053,19 @@
     "kind": "recipe",
     "slug": "recipe-craft-bench",
     "name": "Craft Bench",
-    "icon": "7N42dgm5tm6OoEWQciM8c66zZPLbCYaQCwYkUC0Wis0I"
+    "icon": "4jY8GFQCCc86KaY8CeiayUIMK7eg6UucYMQWwwUeWwO"
   },
   {
     "kind": "recipe",
     "slug": "recipe-crude-oil",
     "name": "Crude Oil",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-crystal-oscillator",
     "name": "Crystal Oscillator",
-    "icon": "7FZhJVM03S2UuEMIcwKuIe6S6iGjtXzywQ4QGewK0YMI"
+    "icon": "7vNSzrF9PaEIyyIAq8YKmO43PgBPFVG0IueAKOsiyuS2"
   },
   {
     "kind": "recipe",
@@ -2106,13 +2106,13 @@
     "kind": "recipe",
     "slug": "recipe-electromagnetic-control-rod",
     "name": "Electromagnetic Control Rod",
-    "icon": "7N42dfyb1mOgWauaiGQOkS6OMFesktpYMeq4u6eqEuIa"
+    "icon": "51sSpGM7scCQUeWGyYme241GZGQI4xz220seAIww6UEY"
   },
   {
     "kind": "recipe",
     "slug": "recipe-empty-canister",
     "name": "Empty Canister",
-    "icon": "7LaOy6tXLU0GO86yuyMCio4133cp7s9aWW8OmSUSUEs2"
+    "icon": "3mMM4pq36oIMqU6Swyag0O7hmfEp4P5YiUqmuskGCsEi"
   },
   {
     "kind": "recipe",
@@ -2123,25 +2123,25 @@
     "kind": "recipe",
     "slug": "recipe-encased-industrial-beam",
     "name": "Encased Industrial Beam",
-    "icon": "7N41ZE2KooGCKcMyO6KAqE3ERbIcQg80w0sOCuciCAIq"
+    "icon": "15ixr0o43o4EI6KYIckyeQ43UEoxqSByyASwWKSU6Cmk"
   },
   {
     "kind": "recipe",
     "slug": "recipe-encased-uranium-cell",
     "name": "Encased Uranium Cell",
-    "icon": "7N3YGwNVmM2K2G6KWGaSyy4723x3vj8c22MAKgMuKCOA"
+    "icon": "218uoQZdKEImEUwIaU6q8sBhPxD96k3Q2MEesYQAmI0"
   },
   {
     "kind": "recipe",
     "slug": "recipe-equipment-workshop",
     "name": "Equipment Workshop",
-    "icon": "7N42dgiRYQeSaWUoeMGwyS5QLF0rX0eAMEoos8qaMIMo"
+    "icon": "1drkIPstYKOUcIQmiug6cC33um5Svc3mkekgam6gK6c8"
   },
   {
     "kind": "recipe",
     "slug": "recipe-fabric",
     "name": "Fabric",
-    "icon": "7N42agcQEwSG4c2GuA6ygM5XH80xNhRKk4QM2mm28Ie2"
+    "icon": "37PmtqQwQ0SoaI0QKu2cw83iU9sou1u8UOUiCSo0q0OI"
   },
   {
     "kind": "recipe",
@@ -2152,13 +2152,13 @@
     "kind": "recipe",
     "slug": "recipe-fence-1",
     "name": "Fence 1",
-    "icon": "7N1icBSSGIkkI80o6cCo0i7j6J07ivbUOoaYmAsiOkci"
+    "icon": "73gqlchc3Ki8MGwsAeMe2I7l1BTyG1RSWo84ACUaISuA"
   },
   {
     "kind": "recipe",
     "slug": "recipe-filter",
     "name": "Filter",
-    "icon": "7N41MFCmhqi0ymKkioO0a87n9bUeC8yACcEU4mmA0q4y"
+    "icon": "zWOQlGAFWK6gOqwKacekM18GXoXMsowwo4OCm6gkYou"
   },
   {
     "kind": "recipe",
@@ -2189,7 +2189,7 @@
     "kind": "recipe",
     "slug": "recipe-foundry",
     "name": "Foundry",
-    "icon": "7LeGV48qdOMgaEmS0UMYeA6k24j9MNhYE6w2sK2e8SO6"
+    "icon": "1J8K0BwFo8k0AOmCiOWSaU1EyyZE61KouQKu0wEUWaWI"
   },
   {
     "kind": "recipe",
@@ -2205,19 +2205,19 @@
     "kind": "recipe",
     "slug": "recipe-fuel",
     "name": "Fuel",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-fuel-generator",
     "name": "Fuel Generator",
-    "icon": "7KexLdcNXiusCMmKg8oMgM7nABRREvMke0ioSAsKGaSe"
+    "icon": "1KPbVy1G68QWaGigAIG0oG3VyxUYgy6koGIgeKOiCkIA"
   },
   {
     "kind": "recipe",
     "slug": "recipe-gas-mask",
     "name": "Gas mask",
-    "icon": "3TwFQk2g4U6KikWqaE8Ywc5ReXXKMkAoYeSoQCAGimce"
+    "icon": "6qblOzRtfOAsKeooc2a2GILPDhNWST8AUGi2UGeG6gc"
   },
   {
     "kind": "recipe",
@@ -2228,7 +2228,7 @@
     "kind": "recipe",
     "slug": "recipe-geo-thermal-generator",
     "name": "Geo Thermal Generator",
-    "icon": "7iZrpdTd5KssKC22sUOoMs7ycHPfhHvqgUqsim2w8QsE"
+    "icon": "65F37DhiwMSGSO8g2aCM2c8yq0JahfYkAOMWawqq4SG"
   },
   {
     "kind": "recipe",
@@ -2244,31 +2244,31 @@
     "kind": "recipe",
     "slug": "recipe-heavy-modular-frame",
     "name": "Heavy Modular Frame",
-    "icon": "7Keuo7lMf6Gu80wMOs6Eis4Df8FNys1O4GA6ymUWouYG"
+    "icon": "56Bx22YgogYaS2CGy2UkYe2OIVkU7yAECqCWmA8Uea2O"
   },
   {
     "kind": "recipe",
     "slug": "recipe-high-speed-connector",
     "name": "High-Speed Connector",
-    "icon": "7N42dglnO0Ge2o0uekCySU7ch58bY3WEseIQQGoYas"
+    "icon": "4XQHY1qNFe4sUqi0k2gU6w4WZYCTYXioqSOsSGUIaGCI"
   },
   {
     "kind": "recipe",
     "slug": "recipe-hyper-tube",
     "name": "Hyper Tube",
-    "icon": "7N42dgm5qgUsGemcUMKkAS5oWVg4mKicuSgWSmkOEceG"
+    "icon": "3WEoKVgVd66eGc2i0UeKGYbgN2SHTEt2eGcYWqECEGi"
   },
   {
     "kind": "recipe",
     "slug": "recipe-hyper-tube-entrance",
     "name": "Hyper Tube Entrance",
-    "icon": "7N40rTgGQM08Q8WCsKqwY44RzDDJybRKAcQ2uUIwCAM8"
+    "icon": "L5G0g8P16w4eQSsAKs8eE7H8VmqYlXOwCYM6acoWCI2"
   },
   {
     "kind": "recipe",
     "slug": "recipe-hyper-tube-support",
     "name": "Hyper Tube Support",
-    "icon": "7yrjDtR0qI0g6kCo8QiSks6OJSzqPA4wkYeUcmGCYS4O"
+    "icon": "2tvA1WLBMAYuw0o6QOyG041vIjlBLnbOyC4ogEYGiU4a"
   },
   {
     "kind": "recipe",
@@ -2284,43 +2284,43 @@
     "kind": "recipe",
     "slug": "recipe-industrial-storage-container",
     "name": "Industrial Storage Container",
-    "icon": "7Ket4d1BzGWCs26I0yCmiw6NLwqgH7Wg22og4UGiwkMS"
+    "icon": "76Lcs5FqG4aM0K6yYG4WOA5WlOa7dWzCkw2O2qGgQEsq"
   },
   {
     "kind": "recipe",
     "slug": "recipe-iodine-infused-filter",
     "name": "Iodine Infused Filter",
-    "icon": "7LEhbUCYAou04S0CqgosM06OOtm5CVlmqmEC8GUqqoes"
+    "icon": "37hU2eM3R68o6oSOEmIqQ4nmxkLQfcsAmog2E2YUeWU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-iron-ingot",
     "name": "Iron Ingot",
-    "icon": "7N42dgkvcWa0qiY4kGmw8K4lQANXTgdWSykqq0c6Egkc"
+    "icon": "2IEt6n1lD2yiGccaWqugeWcpaTd3u2ukGkeaQuaua0O"
   },
   {
     "kind": "recipe",
     "slug": "recipe-iron-ore",
     "name": "Iron Ore",
-    "icon": "7N42dgkzS0e2m2symWoSqw42WXpUhiViWoUOsmyc0OCg"
+    "icon": "432pDgu6ysY8cYW2cCYSGy4GY5eNxO7ewEQOQKq4sgSs"
   },
   {
     "kind": "recipe",
     "slug": "recipe-iron-plate",
     "name": "Iron Plate",
-    "icon": "7N42dglu2AAyUAOsUeMQUU3Vm7T7YdXi0kKsW6SwCcyo"
+    "icon": "654X5USXiokMei8s4CEI2E6c8bRT6gfuQeci02KweQim"
   },
   {
     "kind": "recipe",
     "slug": "recipe-iron-rod",
     "name": "Iron Rod",
-    "icon": "7N0nvS2MJUs4yG0Ckk2G6Y7brhNWuC6A8Agykw8w2uwE"
+    "icon": "22Iasy39jiIsO2Gq84ISoS7m9tRpEF1K8gKUoCwg4Ckq"
   },
   {
     "kind": "recipe",
     "slug": "recipe-jetpack",
     "name": "Jetpack",
-    "icon": "7JwFDLPkdO6EcGgSEmassa7y1IVyJBJYoCMuUy2guwYW"
+    "icon": "21Qx3W1JIM8kI2kAe4I6wc5lasmxZ1M4gka0yc8amQAU"
   },
   {
     "kind": "recipe",
@@ -2331,61 +2331,61 @@
     "kind": "recipe",
     "slug": "recipe-limestone",
     "name": "Limestone",
-    "icon": "7N42dglMKAOCwquS0cEe2Y41z5IakevC2GkKuy4uSUsa"
+    "icon": "4pUKek4igwiKiMsCUm4i6u6JnyyM7PnaKM8gq8EmOUM6"
   },
   {
     "kind": "recipe",
     "slug": "recipe-liquid-biofuel",
     "name": "Liquid Biofuel",
-    "icon": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys"
+    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6"
   },
   {
     "kind": "recipe",
     "slug": "recipe-lookout-tower",
     "name": "Lookout Tower",
-    "icon": "7ycGX6bIrYQMkUs42uAUWq7KexLdcNXiusCMmKg8oMgM"
+    "icon": "2EYZvA1rMgGyY2a6IAOSOO2jiJfGao6UW2ieusKmaU0A"
   },
   {
     "kind": "recipe",
     "slug": "recipe-mam",
     "name": "M.A.M.",
-    "icon": "7N3W0YzzXioaQsQioy06CQ5BjS2Jqkc80MgkYciwiYo6"
+    "icon": "10EAEFxi3OSQIwOieIau4E40j2Sd5KL6gGsooGOmEyCg"
   },
   {
     "kind": "recipe",
     "slug": "recipe-manufacturer",
     "name": "Manufacturer",
-    "icon": "7N42dgm4NiySQ44G0a2GQ07FxTp4Y7FmaAyq6A6GSOeY"
+    "icon": "rk3gGAFVvwC2COI4Ae8eW5MR9uhHGso4gegY8AykC6W"
   },
   {
     "kind": "recipe",
     "slug": "recipe-medicinal-inhaler",
     "name": "Medicinal Inhaler",
-    "icon": "7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay"
+    "icon": "3Ke7eCDhRCmMOqIEkecsYq5bCtttlOvCOimAGQCMyOsU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-medicinal-inhaler-alien-organs",
     "name": "Medicinal Inhaler: Alien Organs",
-    "icon": "7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay"
+    "icon": "3Ke7eCDhRCmMOqIEkecsYq5bCtttlOvCOimAGQCMyOsU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-miner-mk1",
     "name": "Miner Mk.1",
-    "icon": "7Mma2ofk4gaoyOoKY4Ccic7FzIlI24KsY6Gkek8uUu8i"
+    "icon": "h1pBcSmmRyygIW6CGuaww7FRyk9ZhaE0aWOCCiUkEoO"
   },
   {
     "kind": "recipe",
     "slug": "recipe-miner-mk2",
     "name": "Miner Mk.2",
-    "icon": "7LeHfOuije02yCA6msaWc47FzIzqWmooyW4y80MssecO"
+    "icon": "4qMhsyBnvyGqWgmyks4QmC5S70zB5lSgWQCSsgSi8GqA"
   },
   {
     "kind": "recipe",
     "slug": "recipe-miner-mk3",
     "name": "Miner Mk.3",
-    "icon": "7LeHfHQ8vYoe4QIyC0QsSW7FzIlI6UcoA4uc0WqWMmYO"
+    "icon": "2pwVt3UfhCwaCYQcgWqigG1F8FQzirMAwaMyGk00IOeu"
   },
   {
     "kind": "recipe",
@@ -2396,55 +2396,55 @@
     "kind": "recipe",
     "slug": "recipe-modular-frame",
     "name": "Modular Frame",
-    "icon": "7Gsvl6LtNSEKeoESssIyMa4Df8TZXGLKsYmCgw2yuwsu"
+    "icon": "4uDYe7vAYg6AI0WIukEQUK1e0aP3ONog6YSIqe6Soqis"
   },
   {
     "kind": "recipe",
     "slug": "recipe-motor",
     "name": "Motor",
-    "icon": "7kL2idF7XicEOsOWsaMQuG5lasWIQ4neoAg2COmaSOk6"
+    "icon": "2rpGcwoyQcmQUCMuWuUmeo1NEMeEIafyksCOQ4kI0oCM"
   },
   {
     "kind": "recipe",
     "slug": "recipe-nobelisk",
     "name": "Nobelisk",
-    "icon": "6Ss9vMKuR2OQcWgEwc6oqG7iVNCcHraMmIai6GmK2ac8"
+    "icon": "4cb0G1DZO8yEoAI4AGq8uE2ZNmDrvFza0IMEkSeCG4SI"
   },
   {
     "kind": "recipe",
     "slug": "recipe-nobelisk-detonator",
     "name": "Nobelisk Detonator",
-    "icon": "7LeHfOuxxeaM8m0mOqCEgA7y5nBgl1DOa6SqOi0OoyGA"
+    "icon": "6rPFWhWvLycQamWU4YyycM6JIP5ghGucEmsGG4UCQeIu"
   },
   {
     "kind": "recipe",
     "slug": "recipe-nuclear-fuel-rod",
     "name": "Nuclear Fuel Rod",
-    "icon": "7qTjLs4vn2wwUUaQmem6q27iZrpdTd5KssKC22sUOoMs"
+    "icon": "1SAN10lvqMuQKsya2oAmya436a9ohrtKKwSSWgIeCiwU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-nuclear-power-plant",
     "name": "Nuclear Power Plant",
-    "icon": "7yUz46VajCcySAacOs62yG7BYFZG3kZy6AsYiIeMQAcq"
+    "icon": "yZstkS3SsoqW26qcMq8WS27fc1MrFa82ka0oYUOMaOa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-nutritional-inhaler",
     "name": "Nutritional Inhaler",
-    "icon": "7jllGVUU6IIGCuUU2UY8iE7jOCP4kSjK6m204wwkcYay"
+    "icon": "3Ke7eCDhRCmMOqIEkecsYq5bCtttlOvCOimAGQCMyOsU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-object-scanner",
     "name": "Object Scanner",
-    "icon": "1WL6jJkAhCa2iWwkMYeCWQ6OUQBbqkJUmaeQoKIqAgQM"
+    "icon": "7IpTg2MYaAQCyy2YgcYqcq1lbOBQkKdmCgsCceWSk8MM"
   },
   {
     "kind": "recipe",
     "slug": "recipe-oil-extractor",
     "name": "Oil Extractor",
-    "icon": "7y5oua3NAsYuEEcWy02MEu6ONz18ZA08AeCogyo4s4ec"
+    "icon": "7rjPk6AM3mECyqaMky4a6A6fM9IRgSSQGGU8wOIqGUcK"
   },
   {
     "kind": "recipe",
@@ -2455,7 +2455,7 @@
     "kind": "recipe",
     "slug": "recipe-packaged-heavy-oil-residue",
     "name": "Packaged Heavy Oil Residue",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "HgXdRRk0a2uak0kUoo2Wk7k45bu16IooCi6SGKWcK4S"
   },
   {
     "kind": "recipe",
@@ -2476,25 +2476,25 @@
     "kind": "recipe",
     "slug": "recipe-packaged-water",
     "name": "Packaged Water",
-    "icon": "7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak"
+    "icon": "5U61Epnkd2oIIek8EO6KsgJ3TrZQxe4SciuEQeU8AaQ"
   },
   {
     "kind": "recipe",
     "slug": "recipe-parachute",
     "name": "Parachute",
-    "icon": "7N3YHnmzCgGu0sS6USuasa5XJADJfPkAcke6kwAqWgIa"
+    "icon": "5Hi3Z4l17yEu02gI0wIsQo5XGiyW2BZm4gYqsEei6okc"
   },
   {
     "kind": "recipe",
     "slug": "recipe-personal-storage-box",
     "name": "Personal Storage Box",
-    "icon": "7N3YTnUuYg66UMykymwsEq6OHbdJXU0oEaSuOMy8ogcE"
+    "icon": "4BGYlx8WQocq8Igs2oywi84Pu64g39hKQE4EYuKmco6O"
   },
   {
     "kind": "recipe",
     "slug": "recipe-petroleum-coke",
     "name": "Petroleum Coke",
-    "icon": "7N41Mf4WekCyAQ4GCWOASA5Qm4DAXGTeEmo0kCAykeOi"
+    "icon": "4cERaoCUeQc6os2oeI2mug7t93CG5oYgKCmuEkSqc062"
   },
   {
     "kind": "recipe",
@@ -2515,19 +2515,19 @@
     "kind": "recipe",
     "slug": "recipe-pipeline",
     "name": "Pipeline",
-    "icon": "7N42dfWqzYYOy8KkCa0YCE42wkXTa3CMyy2eaieKcQuI"
+    "icon": "uW7VQig6iGkU8wggoG8Q6bgRdJBuRqG82W8gs4icWo"
   },
   {
     "kind": "recipe",
     "slug": "recipe-pipeline-junction-cross",
     "name": "Pipeline Junction Cross",
-    "icon": "7N426BNjry8CAO22OyweoW3U07E8cmwwMeqQgkiwWso4"
+    "icon": "7yKh71vLSEmIwi20Iq2ai21res3yoyGg4MgCuiwUIcU2"
   },
   {
     "kind": "recipe",
     "slug": "recipe-pipeline-pump",
     "name": "Pipeline Pump",
-    "icon": "7N3BEjMvv2Cowq0kKG00Qa6mmoBzL1Ju2g6C8M62EKSI"
+    "icon": "4QWEKkooA8Ymey82ci4SCm7aUeGVInvym84COw6uMUgQ"
   },
   {
     "kind": "recipe",
@@ -2538,19 +2538,19 @@
     "kind": "recipe",
     "slug": "recipe-pipeline-wall-support",
     "name": "Pipeline Wall Support",
-    "icon": "7N41Mf4WeA8AEYkcE0WQoC7pZ8R8hfFu2amC6WGIgywG"
+    "icon": "2SmNwH7WTmge2kMIwaiII67xCa9niBYQEyOSWeEEEI6K"
   },
   {
     "kind": "recipe",
     "slug": "recipe-pipeline-wall-through-hole",
     "name": "Pipeline Wall Through Hole",
-    "icon": "7N3YG60pJCwGkgOqCU4oA44RvVa8EanuEIqkOKG6ceWg"
+    "icon": "58vxdHEst2gq8sMEuWmqOi6eQSDV8bzqqoKimq0uqo2s"
   },
   {
     "kind": "recipe",
     "slug": "recipe-plastic",
     "name": "Plastic",
-    "icon": "7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU"
+    "icon": "7l2rmHqYneCUkuAEUaSqMafvf1QGi7baMI8eWAgasMm"
   },
   {
     "kind": "recipe",
@@ -2561,25 +2561,25 @@
     "kind": "recipe",
     "slug": "recipe-power-line",
     "name": "Power Line",
-    "icon": "7yrkxFpTxewKSMQmuI2YEE7nABS4QnMki4U6uIWCocCq"
+    "icon": "5weaak4UfKwgQMKkeIoaiaJAx5Ne9Q88MYIeymsQ2G2"
   },
   {
     "kind": "recipe",
     "slug": "recipe-power-pole",
     "name": "Power Pole",
-    "icon": "7FZjkzLBG84eo0QswKyCwC7KexLdcNXiusCMmKg8oMgM"
+    "icon": "7JEWsJaHmMqcMoSIWe6Eqa5jO8hqS6nKaug6UagWYyei"
   },
   {
     "kind": "recipe",
     "slug": "recipe-power-pole-mk2",
     "name": "Power Pole Mk.2",
-    "icon": "7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM"
+    "icon": "7gCxGxWhYk2AY48eCYsaAW65fS2HG3PqUWWeUQ48iyaq"
   },
   {
     "kind": "recipe",
     "slug": "recipe-power-pole-mk3",
     "name": "Power Pole Mk.3",
-    "icon": "7KexLdcNXiusCMmKg8oMgM7KexLdcNXiusCMmKg8oMgM"
+    "icon": "bseWbpKWuO6QK4CygqAMGFfjdjtnoM8EiUGy6cU8SA"
   },
   {
     "kind": "recipe",
@@ -2600,25 +2600,25 @@
     "kind": "recipe",
     "slug": "recipe-programmable-splitter",
     "name": "Programmable Splitter",
-    "icon": "7N41ldHl5KsMuISGsw6ueK6RX8pFtjfqwwGCkWE0geA0"
+    "icon": "3bMFnVTn9SKOg4sySi4M6I2HS9NSRiYwcuMKe0I2eiau"
   },
   {
     "kind": "recipe",
     "slug": "recipe-quartz-crystal",
     "name": "Quartz Crystal",
-    "icon": "7N41m4Z5XUiKCQYK0aUg4y639qr83ex2O2YoGww0ysAe"
+    "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km"
   },
   {
     "kind": "recipe",
     "slug": "recipe-quickwire",
     "name": "Quickwire",
-    "icon": "7FZhKTi5u84wIYYIMecKwW7FzGzUP1dKekO0yqWwmoI8"
+    "icon": "7xQWI9C0fegwYmmoS8Wkq26rdGoXXtgk4msi6AAUUkUY"
   },
   {
     "kind": "recipe",
     "slug": "recipe-radar-tower",
     "name": "Radar Tower",
-    "icon": "7JLilS07sscSOmSw0Muw2i7FKGnsSWoo8aiKSowAk2UC"
+    "icon": "7ICGthZLvakWQsosGkasgg3Th58YVbbyqSQQKOWSYQWQ"
   },
   {
     "kind": "recipe",
@@ -2629,7 +2629,7 @@
     "kind": "recipe",
     "slug": "recipe-railway",
     "name": "Railway",
-    "icon": "7N42dgm5tCCQsMcmemUoI83clQnzgVDiGUUakEyioq"
+    "icon": "1QbWf3QlLKE4wAgu2IIiWY3WroqKppCM2AK2yw28AE2c"
   },
   {
     "kind": "recipe",
@@ -2665,37 +2665,37 @@
     "kind": "recipe",
     "slug": "recipe-rebar-gun",
     "name": "Rebar Gun",
-    "icon": "7Lb2gMX2RagqyAqOGCyIq61OsnJC2hNGWY8cocC42k"
+    "icon": "1zdxnOKlPacEuKmwqESmam4eACU8aO92aKyq0CyayqmG"
   },
   {
     "kind": "recipe",
     "slug": "recipe-refinery",
     "name": "Refinery",
-    "icon": "7Mma6fzgB2I0KMukuyKuYi7y5ouAC2IwUsqK4IgI602Y"
+    "icon": "5OBu6xgNtmGwmiUau2mOW83PZ7ecN1kIWGKQGGk0S0QI"
   },
   {
     "kind": "recipe",
     "slug": "recipe-reinforced-iron-plate",
     "name": "Reinforced Iron Plate",
-    "icon": "7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc"
+    "icon": "22Gwoy8pswqK6WGIimIa0Y5wqLZDUp7aKkySMEG0qIU8"
   },
   {
     "kind": "recipe",
     "slug": "recipe-residual-fuel",
     "name": "Residual Fuel",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-residual-plastic",
     "name": "Residual Plastic",
-    "icon": "7LEhQIeVLG8Q8C4GsKW4gK7M8k2xXdYsskS62AeO0aKU"
+    "icon": "7l2rmHqYneCUkuAEUaSqMafvf1QGi7baMI8eWAgasMm"
   },
   {
     "kind": "recipe",
     "slug": "recipe-residual-rubber",
     "name": "Residual Rubber",
-    "icon": "7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8"
+    "icon": "1VyrgwLHgUoKUQCssgcqEu1hrYGNAgsqA2OgGowgUkew"
   },
   {
     "kind": "recipe",
@@ -2706,25 +2706,25 @@
     "kind": "recipe",
     "slug": "recipe-rotor",
     "name": "Rotor",
-    "icon": "7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC"
+    "icon": "4q2KP0lfWoIqKKoa2ECEg8reDlnB64ko0wUeQGAseus"
   },
   {
     "kind": "recipe",
     "slug": "recipe-rubber",
     "name": "Rubber",
-    "icon": "7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8"
+    "icon": "1VyrgwLHgUoKUQCssgcqEu1hrYGNAgsqA2OgGowgUkew"
   },
   {
     "kind": "recipe",
     "slug": "recipe-screw",
     "name": "Screw",
-    "icon": "7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck"
+    "icon": "7lkdGrq5zOUmM08AceY26U6v2kxhCGQ00cwk4AYkQwm"
   },
   {
     "kind": "recipe",
     "slug": "recipe-silica",
     "name": "Silica",
-    "icon": "7Ji1qa0TCwIsQCayegASKg3UpK7qz3Xag06YoiwgQQqC"
+    "icon": "1MA5DTcAxKqImsIQmwoy4u263hXLjnTmSWsmY8Uc66yU"
   },
   {
     "kind": "recipe",
@@ -2735,31 +2735,31 @@
     "kind": "recipe",
     "slug": "recipe-smart-splitter",
     "name": "Smart Splitter",
-    "icon": "7N41MeVh5YsOqgmaw8o02g6RmzEuu6QwScC6U8WI4oOo"
+    "icon": "4Zy5Wm7niw064KCe6E4Gi27eWMUuIu6k8gA2uCQiskY6"
   },
   {
     "kind": "recipe",
     "slug": "recipe-smelter",
     "name": "Smelter",
-    "icon": "6OUQBbqkJUmaeQoKIqAgQM7j37bkJI1GsYm84qi6UO6a"
+    "icon": "2d5YnSQi6IccIgcmCgmmYK24AC5wzn3mCKy0cQEmgI8G"
   },
   {
     "kind": "recipe",
     "slug": "recipe-solid-biofuel",
     "name": "Solid Biofuel",
-    "icon": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys"
+    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6"
   },
   {
     "kind": "recipe",
     "slug": "recipe-space-elevator",
     "name": "Space Elevator",
-    "icon": "7JLi895PP2E6ywuSqW42uM7FZhJv4UjCEKGAegYyqs4U"
+    "icon": "12cLYp1tDi088Cu2cm4GgU3xTkGfacukmOWOuaIySWqI"
   },
   {
     "kind": "recipe",
     "slug": "recipe-spiked-rebar",
     "name": "Spiked Rebar",
-    "icon": "7MPpc3WoSsiYMEmEOSOeSw4OqSMG8bYIWkYcqaw4KYmO"
+    "icon": "1bWG8QbSVsiywqogMGweWi783FQZseekeGw2GomuOI2c"
   },
   {
     "kind": "recipe",
@@ -2785,139 +2785,139 @@
     "kind": "recipe",
     "slug": "recipe-stator",
     "name": "Stator",
-    "icon": "7N40tBeLRYs64cggasC4Kg4K5jpIgIo8emkQOMYmKaUq"
+    "icon": "3dzGBM7in6g6oUACqEEu4s7KFIkQqTJYisYky4OSq600"
   },
   {
     "kind": "recipe",
     "slug": "recipe-steel-beam",
     "name": "Steel Beam",
-    "icon": "7N42dgj7puE6EeaOYg2MIy416HwbmPYAO4mgOiqUqQYI"
+    "icon": "72rbdMX8IgakCYsMKcS2GM100ux7ugpocOQAMO8SyKcU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-steel-ingot",
     "name": "Steel Ingot",
-    "icon": "7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi"
+    "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0"
   },
   {
     "kind": "recipe",
     "slug": "recipe-steel-pipe",
     "name": "Steel Pipe",
-    "icon": "7EGPa1foM8M2uuYEUKiCYO7iVMJwhNXq8GG6GikIYAsW"
+    "icon": "2yJdFh2GbOaiWegyi6MMcg3h649gbq40eSGuOQCiE2UI"
   },
   {
     "kind": "recipe",
     "slug": "recipe-storage-container",
     "name": "Storage Container",
-    "icon": "7N42dgiRQkISe4qWm2cOE63Y9MN5j9q08mQqmyC0cK8w"
+    "icon": "6WexKKK4HmSs8W8sk8GYa86uNW7wfENU2IC2ymE6eAYE"
   },
   {
     "kind": "recipe",
     "slug": "recipe-sulfur",
     "name": "Sulfur",
-    "icon": "7N42dgm5tm6OoEWQciM8c66zJtHEm3wAMcWM8Euc84mM"
+    "icon": "zIWbiVBnnEsiQy4MSooAS7mVmxEg27SISYawA0AgUe0"
   },
   {
     "kind": "recipe",
     "slug": "recipe-sulfuric-acid",
     "name": "Sulfuric Acid",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-supercomputer",
     "name": "Supercomputer",
-    "icon": "7Hp07RRp4scWOocogWEQC86OJSzE1tZYAYOSe86EAS4I"
+    "icon": "2a9pmNYGikcOKyoeGGGmKq1IBF81BuKIuEKcaYMCMaIE"
   },
   {
     "kind": "recipe",
     "slug": "recipe-the-hub",
     "name": "The HUB",
-    "icon": "7N41SFY3zGeoGe6EKwoiaU7IsLFQj1WESsk8eAwaUe8A"
+    "icon": "2TfNtTT3RmsomOayuG8yOq1zF8YdRymgEMAEAcAkIQWW"
   },
   {
     "kind": "recipe",
     "slug": "recipe-tilted-jump-pad",
     "name": "Tilted Jump Pad",
-    "icon": "1WLaiLRMvym4CygqykQIGs40RXTPV1FmsqMIY0EwSCIG"
+    "icon": "2igjqdF3O8OWS2qkOauAIQ6A94qn2eFqeCKYikQ24Em6"
   },
   {
     "kind": "recipe",
     "slug": "recipe-train-station",
     "name": "Train Station",
-    "icon": "7N420oqc2kKqUEmKuu8usq5Nw7sTbtp6ewo44SGmw0cU"
+    "icon": "555hjT7Yg8CK8wUm4Ioa6Y12wEyn81WiA6U44eCgCkKE"
   },
   {
     "kind": "recipe",
     "slug": "recipe-truck-station",
     "name": "Truck Station",
-    "icon": "7N42dgm5tCCQsMcmemUoI87M9m4mB6b68iqAqUEG4wgy"
+    "icon": "m3nNxYkgHmociiuUYcGIs1MkZYRRKMUKWYsWoi2AOQK"
   },
   {
     "kind": "recipe",
     "slug": "recipe-turbo-motor",
     "name": "Turbo Motor",
-    "icon": "7kL2idF7biM0Uq2YESIKmy5laVdzIN3yweagYEW6g0Ew"
+    "icon": "3VDejjgSzSI2kUiesoCEcU3IMyjwZdH2I6siqQc6uWK6"
   },
   {
     "kind": "recipe",
     "slug": "recipe-turbofuel",
     "name": "Turbofuel",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-u-jelly-landing-pad",
     "name": "U-Jelly Landing Pad",
-    "icon": "7N42deTVv2mQu4Sg22UeaM7xZTAkFlLyo2M6CoIkOYOK"
+    "icon": "59RTzgzhOEAcQCSwYaUGiO28OtEU6a88yGW8QewMiWYm"
   },
   {
     "kind": "recipe",
     "slug": "recipe-unpackage-fuel",
     "name": "Unpackage Fuel",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-unpackage-heavy-oil-residue",
     "name": "Unpackage Heavy Oil Residue",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "HgXdRRk0a2uak0kUoo2Wk7k45bu16IooCi6SGKWcK4S"
   },
   {
     "kind": "recipe",
     "slug": "recipe-unpackage-liquid-biofuel",
     "name": "Unpackage Liquid Biofuel",
-    "icon": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys"
+    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6"
   },
   {
     "kind": "recipe",
     "slug": "recipe-unpackage-oil",
     "name": "Unpackage Oil",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-unpackage-turbo-fuel",
     "name": "Unpackage Turbo Fuel",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-unpackage-water",
     "name": "Unpackage Water",
-    "icon": "7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak"
+    "icon": "5U61Epnkd2oIIek8EO6KsgJ3TrZQxe4SciuEQeU8AaQ"
   },
   {
     "kind": "recipe",
     "slug": "recipe-uranium",
     "name": "Uranium",
-    "icon": "7N42afNTYAiqEGemso2i684otihDHebeeQK2m8KKaUyk"
+    "icon": "28IPqIuLRCgCQQmmA6wGI23GAVa0wZ6UU8OaskAOeqqo"
   },
   {
     "kind": "recipe",
     "slug": "recipe-uranium-pellet",
     "name": "Uranium Pellet",
-    "icon": "7N40rTgHfiu0oQQSSss4286pHSADSATeigOgOYq6So0S"
+    "icon": "7ILX0I6Swo8kg8AqyuWqmK5mSLVTw5H2oSsWaA2Gqmus"
   },
   {
     "kind": "recipe",
@@ -2933,13 +2933,13 @@
     "kind": "recipe",
     "slug": "recipe-walkway-ramp",
     "name": "Walkway Ramp",
-    "icon": "7Hp2RId8yc2smoAEgaGmue6PgJ5nmyROuaAeOYk66kII"
+    "icon": "5UxDFSgJhuKYSGAcqE2M6o2yIbGjxIvqCEg6UyUygGuM"
   },
   {
     "kind": "recipe",
     "slug": "recipe-walkway-straight",
     "name": "Walkway Straight",
-    "icon": "7N42dglUyI8sEIEou8AKSk5QpBSyAEesMiuOG0m8mcAC"
+    "icon": "3wL7iH43R6Skq0Y2ISgS6U3b1PAtLRdCO6s0WiIiqgcE"
   },
   {
     "kind": "recipe",
@@ -2950,19 +2950,19 @@
     "kind": "recipe",
     "slug": "recipe-walkway-turn",
     "name": "Walkway Turn",
-    "icon": "7N42dgiUX6Su2Y4UEsIcEy3TBVKPCc9Oo0U2E2wYeCUu"
+    "icon": "3tjMxVNwTC6SgyKus4YO825YSJOAEI48GOE4UscqSU8S"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-8m-x-4m-1",
     "name": "Wall 8m x 4m",
-    "icon": "7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs"
+    "icon": "41UBMktWQoyG8wco68sa4CP65uSAeG064s0A4GiuY2Y"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-8m-x-4m-2",
     "name": "Wall 8m x 4m",
-    "icon": "7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc"
+    "icon": "1jq99A3gWomqSwUaOyYSeEpAgWjoY8fYoOmGSIAeqO8"
   },
   {
     "kind": "recipe",
@@ -3053,31 +3053,31 @@
     "kind": "recipe",
     "slug": "recipe-wall-window-8m-x-4m-01",
     "name": "Wall Window 8m x 4m 01",
-    "icon": "7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs"
+    "icon": "41UBMktWQoyG8wco68sa4CP65uSAeG064s0A4GiuY2Y"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-window-8m-x-4m-02",
     "name": "Wall Window 8m x 4m 02",
-    "icon": "7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc"
+    "icon": "1jq99A3gWomqSwUaOyYSeEpAgWjoY8fYoOmGSIAeqO8"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-window-8m-x-4m-04",
     "name": "Wall Window 8m x 4m 04",
-    "icon": "7N3O9KSvdKe4soeW22OEgE48EJqCRJqUuSCM0yY4kCIK"
+    "icon": "1uGlPdc5n6Sgu4E6O6Io285mFK7sw2asCKWm8U8WMqOu"
   },
   {
     "kind": "recipe",
     "slug": "recipe-water-extractor",
     "name": "Water Extractor",
-    "icon": "7G6BXO1jDUqiAWi2QsOCOQ6OUN3a6dQkyi2uCU8Ua4cu"
+    "icon": "555uuMlfOogeAUOs4GGGOg4q4dI5kFzqayoWs4iEqgWi"
   },
   {
     "kind": "recipe",
     "slug": "recipe-window-8m-x-4m-03-1",
     "name": "Window 8m x 4m 03",
-    "icon": "7N3OgCkE2kKsyKi0Oqog2U4pShwtayTmqcOeo6OOYwgS"
+    "icon": "55xkfHk3hKg0g4kyoYyWc4s4VqTvNH8syWU8eyEyMoa"
   },
   {
     "kind": "recipe",
@@ -3088,25 +3088,25 @@
     "kind": "recipe",
     "slug": "recipe-wire",
     "name": "Wire",
-    "icon": "7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs"
+    "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS"
   },
   {
     "kind": "recipe",
     "slug": "recipe-xeno-basher",
     "name": "Xeno-Basher",
-    "icon": "ubrP8lF0B2k0gOGy4Go8s7FKGBbOplmoaIosQ4UCqiM"
+    "icon": "4Aw4CX94mk2WmWqGAogcqS6nh63wP2cE2qa2CqKig0I0"
   },
   {
     "kind": "recipe",
     "slug": "recipe-xeno-zapper",
     "name": "Xeno-Zapper",
-    "icon": "6kuipil1tYYCUWiSQCgiKM7iZsJzqwSWsUIi4Qemm2SE"
+    "icon": "3VrCWG0u0E0GQI82QiqOwc4KAHIq7gGsycw84OGSU4Wy"
   },
   {
     "kind": "building",
     "slug": "refinery",
     "name": "Refinery",
-    "icon": "7Mma6fzgB2I0KMukuyKuYi7y5ouAC2IwUsqK4IgI602Y",
+    "icon": "5OBu6xgNtmGwmiUau2mOW83PZ7ecN1kIWGKQGGk0S0QI",
     "categories": [
       "Production",
       "OilProduction"
@@ -3116,7 +3116,7 @@
     "kind": "item",
     "slug": "reinforced-iron-plate",
     "name": "Reinforced Iron Plate",
-    "icon": "7N42dgm5tm6OoEWQciM8c665nWZlVXtC0SMC0wo6SGYc"
+    "icon": "22Gwoy8pswqK6WGIimIa0Y5wqLZDUp7aKkySMEG0qIU8"
   },
   {
     "kind": "item",
@@ -3127,13 +3127,13 @@
     "kind": "item",
     "slug": "rotor",
     "name": "Rotor",
-    "icon": "7N3YFSI6tiEGowauswkI0S7yyCYT3PvUaAsa8ogE2QCC"
+    "icon": "4q2KP0lfWoIqKKoa2ECEg8reDlnB64ko0wUeQGAseus"
   },
   {
     "kind": "item",
     "slug": "rubber",
     "name": "Rubber",
-    "icon": "7N426vxiLuCKo2AEIKsoogikN2QLVN72MYWaOWA2aY8"
+    "icon": "1VyrgwLHgUoKUQCssgcqEu1hrYGNAgsqA2OgGowgUkew"
   },
   {
     "kind": "schematic",
@@ -4409,13 +4409,13 @@
     "kind": "item",
     "slug": "screw",
     "name": "Screw",
-    "icon": "7N41nMCwy4K8Ksaq6e0Skq5U5jphnVMQy4Ack0ae22ck"
+    "icon": "7lkdGrq5zOUmM08AceY26U6v2kxhCGQ00cwk4AYkQwm"
   },
   {
     "kind": "item",
     "slug": "silica",
     "name": "Silica",
-    "icon": "7Ji1qa0TCwIsQCayegASKg3UpK7qz3Xag06YoiwgQQqC"
+    "icon": "1MA5DTcAxKqImsIQmwoy4u263hXLjnTmSWsmY8Uc66yU"
   },
   {
     "kind": "item",
@@ -4426,7 +4426,7 @@
     "kind": "building",
     "slug": "smart-splitter",
     "name": "Smart Splitter",
-    "icon": "7N41MeVh5YsOqgmaw8o02g6RmzEuu6QwScC6U8WI4oOo",
+    "icon": "4Zy5Wm7niw064KCe6E4Gi27eWMUuIu6k8gA2uCQiskY6",
     "categories": [
       "Transport",
       "ConveyorAttachments"
@@ -4436,7 +4436,7 @@
     "kind": "building",
     "slug": "smelter",
     "name": "Smelter",
-    "icon": "6OUQBbqkJUmaeQoKIqAgQM7j37bkJI1GsYm84qi6UO6a",
+    "icon": "2d5YnSQi6IccIgcmCgmmYK24AC5wzn3mCKy0cQEmgI8G",
     "categories": [
       "Production",
       "Smelters"
@@ -4446,13 +4446,13 @@
     "kind": "item",
     "slug": "solid-biofuel",
     "name": "Solid Biofuel",
-    "icon": "7yUxgAZ5eg2KGmcU4WUauI7y5nBgoe7meEMoUuE8Suys"
+    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6"
   },
   {
     "kind": "building",
     "slug": "space-elevator",
     "name": "Space Elevator",
-    "icon": "7JLi895PP2E6ywuSqW42uM7FZhJv4UjCEKGAegYyqs4U",
+    "icon": "12cLYp1tDi088Cu2cm4GgU3xTkGfacukmOWOuaIySWqI",
     "categories": [
       "Special",
       "Special"
@@ -4462,7 +4462,7 @@
     "kind": "item",
     "slug": "spiked-rebar",
     "name": "Spiked Rebar",
-    "icon": "7MPpc3WoSsiYMEmEOSOeSw4OqSMG8bYIWkYcqaw4KYmO"
+    "icon": "1bWG8QbSVsiywqogMGweWi783FQZseekeGw2GomuOI2c"
   },
   {
     "kind": "building",
@@ -4504,31 +4504,31 @@
     "kind": "item",
     "slug": "stator",
     "name": "Stator",
-    "icon": "7N40tBeLRYs64cggasC4Kg4K5jpIgIo8emkQOMYmKaUq"
+    "icon": "3dzGBM7in6g6oUACqEEu4s7KFIkQqTJYisYky4OSq600"
   },
   {
     "kind": "item",
     "slug": "steel-beam",
     "name": "Steel Beam",
-    "icon": "7N42dgj7puE6EeaOYg2MIy416HwbmPYAO4mgOiqUqQYI"
+    "icon": "72rbdMX8IgakCYsMKcS2GM100ux7ugpocOQAMO8SyKcU"
   },
   {
     "kind": "item",
     "slug": "steel-ingot",
     "name": "Steel Ingot",
-    "icon": "7N42dgkwKIwmqSy40sKYo05Sderl12zCEuU8M4gOmaCi"
+    "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0"
   },
   {
     "kind": "item",
     "slug": "steel-pipe",
     "name": "Steel Pipe",
-    "icon": "7EGPa1foM8M2uuYEUKiCYO7iVMJwhNXq8GG6GikIYAsW"
+    "icon": "2yJdFh2GbOaiWegyi6MMcg3h649gbq40eSGuOQCiE2UI"
   },
   {
     "kind": "building",
     "slug": "storage-container",
     "name": "Storage Container",
-    "icon": "7N42dgiRQkISe4qWm2cOE63Y9MN5j9q08mQqmyC0cK8w",
+    "icon": "6WexKKK4HmSs8W8sk8GYa86uNW7wfENU2IC2ymE6eAYE",
     "categories": [
       "Organisation",
       "Storage"
@@ -4538,25 +4538,25 @@
     "kind": "item",
     "slug": "sulfur",
     "name": "Sulfur",
-    "icon": "7N42dgm5tm6OoEWQciM8c66zJtHEm3wAMcWM8Euc84mM"
+    "icon": "zIWbiVBnnEsiQy4MSooAS7mVmxEg27SISYawA0AgUe0"
   },
   {
     "kind": "item",
     "slug": "sulfuric-acid",
     "name": "Sulfuric Acid",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "item",
     "slug": "supercomputer",
     "name": "Supercomputer",
-    "icon": "7Hp07RRp4scWOocogWEQC86OJSzE1tZYAYOSe86EAS4I"
+    "icon": "2a9pmNYGikcOKyoeGGGmKq1IBF81BuKIuEKcaYMCMaIE"
   },
   {
     "kind": "building",
     "slug": "the-hub",
     "name": "The HUB",
-    "icon": "7N41SFY3zGeoGe6EKwoiaU7IsLFQj1WESsk8eAwaUe8A",
+    "icon": "2TfNtTT3RmsomOayuG8yOq1zF8YdRymgEMAEAcAkIQWW",
     "categories": [
       "Special",
       "Special"
@@ -4566,7 +4566,7 @@
     "kind": "building",
     "slug": "tilted-jump-pad",
     "name": "Tilted Jump Pad",
-    "icon": "1WLaiLRMvym4CygqykQIGs40RXTPV1FmsqMIY0EwSCIG",
+    "icon": "2igjqdF3O8OWS2qkOauAIQ6A94qn2eFqeCKYikQ24Em6",
     "categories": [
       "Production",
       "JumpPads"
@@ -4576,7 +4576,7 @@
     "kind": "building",
     "slug": "train-station",
     "name": "Train Station",
-    "icon": "7N420oqc2kKqUEmKuu8usq5Nw7sTbtp6ewo44SGmw0cU",
+    "icon": "555hjT7Yg8CK8wUm4Ioa6Y12wEyn81WiA6U44eCgCkKE",
     "categories": [
       "Transport",
       "Trains"
@@ -4586,7 +4586,7 @@
     "kind": "building",
     "slug": "truck-station",
     "name": "Truck Station",
-    "icon": "7N42dgm5tCCQsMcmemUoI87M9m4mB6b68iqAqUEG4wgy",
+    "icon": "m3nNxYkgHmociiuUYcGIs1MkZYRRKMUKWYsWoi2AOQK",
     "categories": [
       "Transport",
       "Vehicles"
@@ -4596,19 +4596,19 @@
     "kind": "item",
     "slug": "turbo-motor",
     "name": "Turbo Motor",
-    "icon": "7kL2idF7biM0Uq2YESIKmy5laVdzIN3yweagYEW6g0Ew"
+    "icon": "3VDejjgSzSI2kUiesoCEcU3IMyjwZdH2I6siqQc6uWK6"
   },
   {
     "kind": "item",
     "slug": "turbofuel",
     "name": "Turbofuel",
-    "icon": "7jOB4yxgDScQ2ESykEyQws7iZrpdWpzy22IIoK8eiAak"
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "building",
     "slug": "u-jelly-landing-pad",
     "name": "U-Jelly Landing Pad",
-    "icon": "7N42deTVv2mQu4Sg22UeaM7xZTAkFlLyo2M6CoIkOYOK",
+    "icon": "59RTzgzhOEAcQCSwYaUGiO28OtEU6a88yGW8QewMiWYm",
     "categories": [
       "Production",
       "JumpPads"
@@ -4618,13 +4618,13 @@
     "kind": "item",
     "slug": "uranium",
     "name": "Uranium",
-    "icon": "7N42afNTYAiqEGemso2i684otihDHebeeQK2m8KKaUyk"
+    "icon": "28IPqIuLRCgCQQmmA6wGI23GAVa0wZ6UU8OaskAOeqqo"
   },
   {
     "kind": "item",
     "slug": "uranium-pellet",
     "name": "Uranium Pellet",
-    "icon": "7N40rTgHfiu0oQQSSss4286pHSADSATeigOgOYq6So0S"
+    "icon": "7ILX0I6Swo8kg8AqyuWqmK5mSLVTw5H2oSsWaA2Gqmus"
   },
   {
     "kind": "item",
@@ -4644,7 +4644,7 @@
     "kind": "building",
     "slug": "walkway-ramp",
     "name": "Walkway Ramp",
-    "icon": "7Hp2RId8yc2smoAEgaGmue6PgJ5nmyROuaAeOYk66kII",
+    "icon": "5UxDFSgJhuKYSGAcqE2M6o2yIbGjxIvqCEg6UyUygGuM",
     "categories": [
       "Organisation",
       "Walkways"
@@ -4654,7 +4654,7 @@
     "kind": "building",
     "slug": "walkway-straight",
     "name": "Walkway Straight",
-    "icon": "7N42dglUyI8sEIEou8AKSk5QpBSyAEesMiuOG0m8mcAC",
+    "icon": "3wL7iH43R6Skq0Y2ISgS6U3b1PAtLRdCO6s0WiIiqgcE",
     "categories": [
       "Organisation",
       "Walkways"
@@ -4678,7 +4678,7 @@
     "kind": "building",
     "slug": "wall-8m-x-4m-1",
     "name": "Wall 8m x 4m",
-    "icon": "7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs",
+    "icon": "41UBMktWQoyG8wco68sa4CP65uSAeG064s0A4GiuY2Y",
     "categories": [
       "Walls",
       "Walls"
@@ -4688,7 +4688,7 @@
     "kind": "building",
     "slug": "wall-8m-x-4m-2",
     "name": "Wall 8m x 4m",
-    "icon": "7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc",
+    "icon": "1jq99A3gWomqSwUaOyYSeEpAgWjoY8fYoOmGSIAeqO8",
     "categories": [
       "Walls",
       "Walls"
@@ -4843,7 +4843,7 @@
     "kind": "building",
     "slug": "wall-window-8m-x-4m-01",
     "name": "Wall Window 8m x 4m 01",
-    "icon": "7N3QmZXuIouiKsqyuYK46O5QlfMuiqjeUyuO0ISQosOs",
+    "icon": "41UBMktWQoyG8wco68sa4CP65uSAeG064s0A4GiuY2Y",
     "categories": [
       "Walls",
       "Walls"
@@ -4853,7 +4853,7 @@
     "kind": "building",
     "slug": "wall-window-8m-x-4m-02",
     "name": "Wall Window 8m x 4m 02",
-    "icon": "7N3OgCkE2kKsyKi0Oqog2U4BfTxR0V1YoGG4em6yGAQc",
+    "icon": "1jq99A3gWomqSwUaOyYSeEpAgWjoY8fYoOmGSIAeqO8",
     "categories": [
       "Walls",
       "Walls"
@@ -4863,7 +4863,7 @@
     "kind": "building",
     "slug": "wall-window-8m-x-4m-04",
     "name": "Wall Window 8m x 4m 04",
-    "icon": "7N3O9KSvdKe4soeW22OEgE48EJqCRJqUuSCM0yY4kCIK",
+    "icon": "1uGlPdc5n6Sgu4E6O6Io285mFK7sw2asCKWm8U8WMqOu",
     "categories": [
       "Walls",
       "Walls"
@@ -4873,13 +4873,13 @@
     "kind": "item",
     "slug": "water",
     "name": "Water",
-    "icon": "7jOB4y7vxeiKUYGGi0oGKc7iZrpdWpzy22IIoK8eiAak"
+    "icon": "5U61Epnkd2oIIek8EO6KsgJ3TrZQxe4SciuEQeU8AaQ"
   },
   {
     "kind": "building",
     "slug": "water-extractor",
     "name": "Water Extractor",
-    "icon": "7G6BXO1jDUqiAWi2QsOCOQ6OUN3a6dQkyi2uCU8Ua4cu",
+    "icon": "555uuMlfOogeAUOs4GGGOg4q4dI5kFzqayoWs4iEqgWi",
     "categories": [
       "Production",
       "OilProduction"
@@ -4889,7 +4889,7 @@
     "kind": "building",
     "slug": "window-8m-x-4m-03",
     "name": "Window 8m x 4m 03",
-    "icon": "7N3OgCkE2kKsyKi0Oqog2U4pShwtayTmqcOeo6OOYwgS",
+    "icon": "55xkfHk3hKg0g4kyoYyWc4s4VqTvNH8syWU8eyEyMoa",
     "categories": [
       "Walls",
       "Walls"
@@ -4899,25 +4899,25 @@
     "kind": "item",
     "slug": "wire",
     "name": "Wire",
-    "icon": "7FZcpTMYTea88qm0yAuIQa7iZrpdTd5KssKC22sUOoMs"
+    "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS"
   },
   {
     "kind": "item",
     "slug": "wood",
     "name": "Wood",
-    "icon": "7N42dglnMI64MSYq646wOM3TyJn9UeekYyMUcASUikKK"
+    "icon": "3F2dJ9UtHyCYw2wAASsisM1hXHwsLidkka08ai6gc02U"
   },
   {
     "kind": "item",
     "slug": "xeno-basher",
     "name": "Xeno-Basher",
-    "icon": "ubrP8lF0B2k0gOGy4Go8s7FKGBbOplmoaIosQ4UCqiM"
+    "icon": "4Aw4CX94mk2WmWqGAogcqS6nh63wP2cE2qa2CqKig0I0"
   },
   {
     "kind": "item",
     "slug": "xeno-zapper",
     "name": "Xeno-Zapper",
-    "icon": "6kuipil1tYYCUWiSQCgiKM7iZsJzqwSWsUIi4Qemm2SE"
+    "icon": "3VrCWG0u0E0GQI82QiqOwc4KAHIq7gGsycw84OGSU4Wy"
   },
   {
     "kind": "item",

@@ -1,6 +1,7 @@
 import { imageSizes } from '@local/schema';
 import { imageHash } from '@lolpants/image-hash';
 import * as base62 from 'base62';
+import * as crypto from 'crypto';
 import sharp from 'sharp';
 
 
@@ -114,8 +115,13 @@ function _iconName(iconPath: string) {
 }
 
 function _hashImage(image: Buffer) {
-  const rawHash = imageHash(image);
-  return [rawHash.slice(0, 32), rawHash.slice(32)]
+  const hashBase16 = crypto
+    .createHash('sha256')
+    .update(imageHash(image, true, 32))
+    .digest('hex');
+
+  // crunch it down.
+  return [hashBase16.slice(0, 32), hashBase16.slice(32)]
     .map(p => parseInt(p, 16))
     .map(p => base62.encode(p))
     .join('');
