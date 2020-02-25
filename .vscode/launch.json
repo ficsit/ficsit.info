@@ -8,7 +8,8 @@
       "url": "http://localhost:1234",
       "webRoot": "${workspaceFolder}/web",
       "preLaunchTask": "dev",
-      "auto": true
+      "timeout": 30000,
+      "auto": true,
     } 
   ]
 }
