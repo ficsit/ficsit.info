@@ -5,7 +5,7 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
-    "jsx": "react",
+    "jsx": "preserve",
     "lib": ["es2020", "dom"],
     "module": "commonjs",
     "newLine": "lf",

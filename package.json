@@ -14,6 +14,10 @@
     "test": "jest"
   },
   "devDependencies": {
+    "@babel/core": "^7.0.0-0",
+    "@babel/preset-typescript": "^7.8.3",
+    "@emotion/babel-preset-css-prop": "^10.0.27",
+    "@emotion/core": "^10.0.27",
     "@local/game": "link:./game",
     "@local/parsing": "link:./parsing",
     "@local/schema": "link:./schema",
@@ -23,6 +27,9 @@
     "@types/react": "^16.9.22",
     "@types/react-dom": "^16.9.5",
     "@types/sharp": "^0.24.0",
+    "babel-plugin-emotion": "^10.0.27",
+    "babel-plugin-jsx-pragmatic": "^1.0.2",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
     "base62": "^2.0.1",
     "firebase-tools": "^7.12.1",
     "glob": "^7.1.6",
