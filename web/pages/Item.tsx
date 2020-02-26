@@ -1,20 +1,10 @@
 import { useParams } from 'react-router';
 import { Item } from '@local/schema';
-import { css } from '@emotion/core';
 
 import { ItemImage } from '../components/Image';
 import { useItems } from '../data';
 import { MasterDetailLayout } from '../layouts';
-import { EntityLink } from '../components/EntityLink';
-
-const listStyle = css({
-  margin: 0,
-  padding: 0,
-});
-
-const listItemStyle = css({
-  display: 'flex',
-});
+import { EntityList } from '../components/EntityList';
 
 export function Item() {
   const { slug } = useParams<{ slug?: string }>();
@@ -25,20 +15,10 @@ export function Item() {
 
   return (
     <MasterDetailLayout 
-      master={_renderMaster(Object.values(items))}
-      masterHeader='Items'
+      master={<EntityList entities={Object.values(items)} />}
       detail={_renderDetail(item)}
-      detailHeader={item?.name}
     />
   );
-}
-
-function _renderMaster(items: Item[]) {
-  return (
-    <ol css={listStyle}>
-      {items.map(item => <EntityLink key={item.slug} entity={item} css={listItemStyle} />)}
-    </ol>
-  )
 }
 
 function _renderDetail(item?: Item) {
@@ -46,6 +26,7 @@ function _renderDetail(item?: Item) {
 
   return (
     <React.Fragment>
+      <h2>{item.name}</h2>
       <ItemImage item={item} width={128} />
       <p>{item.description}</p>
     </React.Fragment>

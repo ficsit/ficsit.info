@@ -1,20 +1,10 @@
 import { useParams } from 'react-router';
 import { Building } from '@local/schema';
-import { css } from '@emotion/core';
 
 import { BuildingImage } from '../components/Image';
-import { EntityLink } from '../components/EntityLink';
 import { useBuildings } from '../data';
 import { MasterDetailLayout } from '../layouts';
-
-const listStyle = css({
-  margin: 0,
-  padding: 0,
-});
-
-const listItemStyle = css({
-  display: 'flex',
-});
+import { EntityList } from '../components/EntityList';
 
 export function Building() {
   const { slug } = useParams<{ slug?: string }>();
@@ -25,20 +15,10 @@ export function Building() {
 
   return (
     <MasterDetailLayout 
-      master={_renderMaster(Object.values(buildings))}
-      masterHeader='Buildings'
+      master={<EntityList entities={Object.values(buildings)} />}
       detail={_renderDetail(building)}
-      detailHeader={building?.name}
     />
   );
-}
-
-function _renderMaster(buildings: Building[]) {
-  return (
-    <ol css={listStyle}>
-      {buildings.map(building => <EntityLink key={building.slug} entity={building} css={listItemStyle} />)}
-    </ol>
-  )
 }
 
 function _renderDetail(building?: Building) {
@@ -46,6 +26,7 @@ function _renderDetail(building?: Building) {
 
   return (
     <React.Fragment>
+      <h2>{building.name}</h2>
       <BuildingImage building={building} width={256} />
       <p>{building.description}</p>
     </React.Fragment>

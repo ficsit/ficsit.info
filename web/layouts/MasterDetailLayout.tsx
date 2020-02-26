@@ -22,19 +22,15 @@ const detailStyles = css({
 
 export interface MasterDetailLayoutProps {
   master: ReactNode;
-  masterHeader: ReactNode;
   detail: ReactNode;
-  detailHeader: ReactNode;
 }
-export const MasterDetailLayout = ({ master, masterHeader, detail, detailHeader }: MasterDetailLayoutProps) => {
+export const MasterDetailLayout = ({ master, detail }: MasterDetailLayoutProps) => {
   return (
     <div css={containerStyles}>
-      <main aria-labelledby='detail' css={detailStyles}>
-        <h2 id='detail'>{detailHeader}</h2>
+      <main css={detailStyles}>
         {detail}
       </main>
-      <nav aria-labelledby='master' css={masterStyles}>
-        <h2 id='master'>{masterHeader}</h2>
+      <nav css={masterStyles}>
         {master}
       </nav>
     </div>

@@ -38,6 +38,7 @@ async function _buildBuilding(outputDb: OutputDatabase, entityDb: EntityDatabase
     name: raw.entity.mDisplayName,
     description: raw.entity.mDescription,
     categories: _extractCategories(descriptor),
+    listOrder: descriptor?.entity.mBuildMenuPriority,
   } as const;
 
   const icon = await assetDb.findLargestEntityIcon(descriptor || raw);

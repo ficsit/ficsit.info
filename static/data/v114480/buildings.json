@@ -7,6 +7,7 @@
       "Production",
       "Manufacturers"
     ],
+    "listOrder": 12,
     "icon": "77Sl2E79lY8icWES8cWIsQwnyM5Xvih2SymIOm2i6Ek",
     "overclockable": true,
     "powerConsumption": {
@@ -23,6 +24,7 @@
       "Special",
       "Special"
     ],
+    "listOrder": 40,
     "icon": "VFqvxWEzyUwOUYcGIG8WKNSDNPpiFWKOygyauKCqIa",
     "slug": "awesome-shop"
   },
@@ -34,6 +36,7 @@
       "Special",
       "Special"
     ],
+    "listOrder": 36,
     "icon": "6VRDvV3Hna2KSIoA6IwWysSBwVOizfEcekUCYuAE8Iw",
     "slug": "awesome-sink"
   },
@@ -45,6 +48,7 @@
       "Power",
       "Generators"
     ],
+    "listOrder": 20,
     "icon": "6lCPcNNKzSiWaU4aK46oaK4yhgXDsxhuCyMgs4USCmwA",
     "overclockable": true,
     "powerProduction": {
@@ -80,6 +84,7 @@
       "Power",
       "Generators"
     ],
+    "listOrder": 21,
     "icon": "1W1crDIzAkgaUW0KsI8IOu1iIousJUsWOWSgCKsWGuKa",
     "overclockable": true,
     "powerProduction": {
@@ -102,6 +107,7 @@
       "Production",
       "Manufacturers"
     ],
+    "listOrder": 10,
     "icon": "6xsSeTNlEAIe48EE2SSwkm6VWOf4nszuyeI4KAwqyEM0",
     "overclockable": true,
     "powerConsumption": {
@@ -118,6 +124,7 @@
       "Transport",
       "ConveyorBelts"
     ],
+    "listOrder": 31,
     "icon": "2V1hjgBUbSKMAokugy6sgoq6SOlvypaKmus2qMwMEIa",
     "conveyor": {
       "speed": 120
@@ -132,6 +139,7 @@
       "Transport",
       "ConveyorBelts"
     ],
+    "listOrder": 32,
     "icon": "6TV6ZtUlOMwugIkQUQccI07zw7tB18BOq0SGIm4aGEgA",
     "conveyor": {
       "speed": 240
@@ -146,6 +154,7 @@
       "Transport",
       "ConveyorBelts"
     ],
+    "listOrder": 33,
     "icon": "471dp7kQnuukocKoSegkO86ihlcUOHkIYCwQ8Ku2kISk",
     "conveyor": {
       "speed": 540
@@ -160,6 +169,7 @@
       "Transport",
       "ConveyorBelts"
     ],
+    "listOrder": 34,
     "icon": "5OC2gFZnH2KoEggoGaYaoW3Ydw0zXZuM4c4ew4AMq8Sa",
     "conveyor": {
       "speed": 960
@@ -174,6 +184,7 @@
       "Transport",
       "ConveyorBelts"
     ],
+    "listOrder": 35,
     "icon": "2L3QgqRVHiIkGI6s4WW6Cu2REJG0pdBKo0CcuicgCyeU",
     "conveyor": {
       "speed": 1560
@@ -188,6 +199,7 @@
       "Transport",
       "ConveyLift"
     ],
+    "listOrder": 31,
     "icon": "3ulmz3RW2AqeKCieqC6IS02M0dNZNKzuGw0sqIY2gsyO",
     "conveyor": {
       "speed": 120
@@ -202,6 +214,7 @@
       "Transport",
       "ConveyLift"
     ],
+    "listOrder": 31,
     "icon": "4a0DuPL7Bue4cEYMMwQooy3fXWD8Q0dq4ocEga0q4coG",
     "conveyor": {
       "speed": 240
@@ -216,6 +229,7 @@
       "Transport",
       "ConveyLift"
     ],
+    "listOrder": 31,
     "icon": "7s6OtO2nMAwci8YYmkaQ2W2LjIrNXXmwGcgOAQ2I4Qu8",
     "conveyor": {
       "speed": 540
@@ -230,6 +244,7 @@
       "Transport",
       "ConveyLift"
     ],
+    "listOrder": 31,
     "icon": "50grr0ea4M4aycmMwsSu4I4DLzTyrGLYqWO0Qq8SgI0k",
     "conveyor": {
       "speed": 960
@@ -244,6 +259,7 @@
       "Transport",
       "ConveyLift"
     ],
+    "listOrder": 31,
     "icon": "4siB6bNmbCsmq8MggA2ouq2YziiquzReYQQakQ8osCCU",
     "conveyor": {
       "speed": 1560
@@ -258,6 +274,7 @@
       "Transport",
       "ConveyorAttachments"
     ],
+    "listOrder": 38,
     "icon": "4C3N4zne3eGseAKUsqEsoC2GQpuzr9JmKWO68yogmIiU",
     "slug": "conveyor-merger"
   },
@@ -269,6 +286,7 @@
       "Transport",
       "ConverPole"
     ],
+    "listOrder": 30,
     "icon": "69vfK30XIW4sqscQEWEOS01jwhyuEusYUgGc2C2kq0qy",
     "slug": "conveyor-pole"
   },
@@ -280,6 +298,7 @@
       "Transport",
       "ConverPole"
     ],
+    "listOrder": 30,
     "slug": "conveyor-pole-stackable"
   },
   "conveyor-splitter": {
@@ -290,6 +309,7 @@
       "Transport",
       "ConveyorAttachments"
     ],
+    "listOrder": 37,
     "icon": "3ibPCrggV2WUAAIYCWyIiQ7pax6dIOgoqMyeEOqSIwYc",
     "slug": "conveyor-splitter"
   },
@@ -301,6 +321,7 @@
       "Transport",
       "ConverPole"
     ],
+    "listOrder": 31,
     "icon": "4yCJN0saasu24I0CmUec441poZhgrEFmmQ8wwAKAYCio",
     "slug": "conveyor-wall-mount"
   },
@@ -312,6 +333,7 @@
       "Organisation",
       "Ramps"
     ],
+    "listOrder": 94,
     "slug": "corner-ramp-down-8m-x-1m"
   },
   "corner-ramp-down-8m-x-2m": {
@@ -322,6 +344,7 @@
       "Organisation",
       "Ramps"
     ],
+    "listOrder": 94,
     "slug": "corner-ramp-down-8m-x-2m"
   },
   "corner-ramp-down-8m-x-4m": {
@@ -332,6 +355,7 @@
       "Organisation",
       "Ramps"
     ],
+    "listOrder": 94,
     "slug": "corner-ramp-down-8m-x-4m"
   },
   "corner-ramp-up-8m-x-1m": {
@@ -342,6 +366,7 @@
       "Organisation",
       "Ramps"
     ],
+    "listOrder": 94,
     "slug": "corner-ramp-up-8m-x-1m"
   },
   "corner-ramp-up-8m-x-2m": {
@@ -352,6 +377,7 @@
       "Organisation",
       "Ramps"
     ],
+    "listOrder": 94,
     "slug": "corner-ramp-up-8m-x-2m"
   },
   "corner-ramp-up-8m-x-4m": {
@@ -362,6 +388,7 @@
       "Organisation",
       "Ramps"
     ],
+    "listOrder": 94,
     "slug": "corner-ramp-up-8m-x-4m"
   },
   "craft-bench": {
@@ -372,6 +399,7 @@
       "Production",
       "Workstations"
     ],
+    "listOrder": 1,
     "icon": "4jY8GFQCCc86KaY8CeiayUIMK7eg6UucYMQWwwUeWwO",
     "slug": "craft-bench"
   },
@@ -383,6 +411,7 @@
       "Organisation",
       "Floors"
     ],
+    "listOrder": 72,
     "slug": "curved-corner-foundation"
   },
   "curved-corner-inverted-foundation": {
@@ -393,6 +422,7 @@
       "Organisation",
       "Floors"
     ],
+    "listOrder": 72,
     "slug": "curved-corner-inverted-foundation"
   },
   "curved-foundation": {
@@ -403,6 +433,7 @@
       "Organisation",
       "Floors"
     ],
+    "listOrder": 72,
     "slug": "curved-foundation"
   },
   "curved-inverted-foundation": {
@@ -413,6 +444,7 @@
       "Organisation",
       "Floors"
     ],
+    "listOrder": 72,
     "slug": "curved-inverted-foundation"
   },
   "double-sided-wall-power-pole": {
@@ -423,6 +455,7 @@
       "Power",
       "WallPoles"
     ],
+    "listOrder": 4,
     "slug": "double-sided-wall-power-pole"
   },
   "double-sided-wall-power-pole-mk2": {
@@ -445,6 +478,7 @@
       "Transport",
       "Trains"
     ],
+    "listOrder": 52,
     "slug": "empty-platform"
   },
   "equipment-workshop": {
@@ -455,6 +489,7 @@
       "Production",
       "Workstations"
     ],
+    "listOrder": 2,
     "icon": "1drkIPstYKOUcIQmiug6cC33um5Svc3mkekgam6gK6c8",
     "slug": "equipment-workshop"
   },
@@ -466,6 +501,7 @@
       "Walls",
       "Walls"
     ],
+    "listOrder": 93,
     "icon": "73gqlchc3Ki8MGwsAeMe2I7l1BTyG1RSWo84ACUaISuA",
     "slug": "fence"
   },
@@ -477,6 +513,7 @@
       "Organisation",
       "Floors"
     ],
+    "listOrder": 72,
     "slug": "foundation-8m-x-1m"
   },
   "foundation-8m-x-2m": {
@@ -487,6 +524,7 @@
       "Organisation",
       "Floors"
     ],
+    "listOrder": 72,
     "slug": "foundation-8m-x-2m"
   },
   "foundation-8m-x-4m": {
@@ -497,6 +535,7 @@
       "Organisation",
       "Floors"
     ],
+    "listOrder": 72,
     "slug": "foundation-8m-x-4m"
   },
   "foundation-frame": {
@@ -507,6 +546,7 @@
       "Organisation",
       "Floors"
     ],
+    "listOrder": 72,
     "slug": "foundation-frame"
   },
   "foundation-glass": {
@@ -517,6 +557,7 @@
       "Organisation",
       "Floors"
     ],
+    "listOrder": 72,
     "slug": "foundation-glass"
   },
   "foundry": {
@@ -527,6 +568,7 @@
       "Production",
       "Smelters"
     ],
+    "listOrder": 8,
     "icon": "1J8K0BwFo8k0AOmCiOWSaU1EyyZE61KouQKu0wEUWaWI",
     "overclockable": true,
     "powerConsumption": {
@@ -543,6 +585,7 @@
       "Transport",
       "Trains"
     ],
+    "listOrder": 52,
     "powerConsumption": {
       "amount": 50,
       "exponent": 1.6
@@ -557,6 +600,7 @@
       "Transport",
       "Trains"
     ],
+    "listOrder": 52,
     "powerConsumption": {
       "amount": 50,
       "exponent": 1.6
@@ -571,6 +615,7 @@
       "Power",
       "Generators"
     ],
+    "listOrder": 22,
     "icon": "1KPbVy1G68QWaGigAIG0oG3VyxUYgy6koGIgeKOiCkIA",
     "overclockable": true,
     "powerProduction": {
@@ -593,6 +638,7 @@
       "Walls",
       "Doors"
     ],
+    "listOrder": 85,
     "slug": "gate-8m-x-4m"
   },
   "geo-thermal-generator": {
@@ -603,6 +649,7 @@
       "Power",
       "Generators"
     ],
+    "listOrder": 24,
     "icon": "65F37DhiwMSGSO8g2aCM2c8yq0JahfYkAOMWawqq4SG",
     "powerProduction": {
       "amount": 200,
@@ -618,6 +665,7 @@
       "Transport",
       "HyperTubes"
     ],
+    "listOrder": 1,
     "icon": "3WEoKVgVd66eGc2i0UeKGYbgN2SHTEt2eGcYWqECEGi",
     "slug": "hyper-tube"
   },
@@ -629,6 +677,7 @@
       "Transport",
       "HyperTubes"
     ],
+    "listOrder": 3,
     "icon": "2tvA1WLBMAYuw0o6QOyG041vIjlBLnbOyC4ogEYGiU4a",
     "slug": "hyper-tube-support"
   },
@@ -640,6 +689,7 @@
       "Organisation",
       "Storage"
     ],
+    "listOrder": 64,
     "slug": "industrial-fluid-buffer-1"
   },
   "industrial-fluid-buffer-2": {
@@ -650,6 +700,7 @@
       "Organisation",
       "Storage"
     ],
+    "listOrder": 65,
     "slug": "industrial-fluid-buffer-2"
   },
   "industrial-storage-container": {
@@ -660,6 +711,7 @@
       "Organisation",
       "Storage"
     ],
+    "listOrder": 63,
     "icon": "76Lcs5FqG4aM0K6yYG4WOA5WlOa7dWzCkw2O2qGgQEsq",
     "storage": {
       "x": 8,
@@ -675,6 +727,7 @@
       "Production",
       "JumpPads"
     ],
+    "listOrder": 64,
     "powerConsumption": {
       "amount": 2,
       "exponent": 1.6
@@ -689,6 +742,7 @@
       "Organisation",
       "Towers"
     ],
+    "listOrder": 0,
     "icon": "2EYZvA1rMgGyY2a6IAOSOO2jiJfGao6UW2ieusKmaU0A",
     "slug": "lookout-tower"
   },
@@ -700,6 +754,7 @@
       "Special",
       "Special"
     ],
+    "listOrder": 3,
     "icon": "10EAEFxi3OSQIwOieIau4E40j2Sd5KL6gGsooGOmEyCg",
     "slug": "mam"
   },
@@ -711,6 +766,7 @@
       "Production",
       "Manufacturers"
     ],
+    "listOrder": 14,
     "icon": "rk3gGAFVvwC2COI4Ae8eW5MR9uhHGso4gegY8AykC6W",
     "overclockable": true,
     "powerConsumption": {
@@ -727,6 +783,7 @@
       "Production",
       "Miners"
     ],
+    "listOrder": 3,
     "icon": "h1pBcSmmRyygIW6CGuaww7FRyk9ZhaE0aWOCCiUkEoO",
     "overclockable": true,
     "powerConsumption": {
@@ -743,6 +800,7 @@
       "Production",
       "Miners"
     ],
+    "listOrder": 4,
     "icon": "4qMhsyBnvyGqWgmyks4QmC5S70zB5lSgWQCSsgSi8GqA",
     "overclockable": true,
     "powerConsumption": {
@@ -759,6 +817,7 @@
       "Production",
       "Miners"
     ],
+    "listOrder": 5,
     "icon": "2pwVt3UfhCwaCYQcgWqigG1F8FQzirMAwaMyGk00IOeu",
     "overclockable": true,
     "powerConsumption": {
@@ -775,6 +834,7 @@
       "Power",
       "Generators"
     ],
+    "listOrder": 23,
     "icon": "yZstkS3SsoqW26qcMq8WS27fc1MrFa82ka0oYUOMaOa",
     "overclockable": true,
     "powerProduction": {
@@ -795,6 +855,7 @@
       "Production",
       "OilProduction"
     ],
+    "listOrder": 16,
     "icon": "7rjPk6AM3mECyqaMky4a6A6fM9IRgSSQGGU8wOIqGUcK",
     "overclockable": true,
     "powerConsumption": {
@@ -811,6 +872,7 @@
       "Organisation",
       "Storage"
     ],
+    "listOrder": 61,
     "icon": "4BGYlx8WQocq8Igs2oywi84Pu64g39hKQE4EYuKmco6O",
     "storage": {
       "x": 5,
@@ -826,6 +888,7 @@
       "Organisation",
       "Floors"
     ],
+    "listOrder": 72,
     "slug": "pillar-base"
   },
   "pillar-middle": {
@@ -836,6 +899,7 @@
       "Organisation",
       "Floors"
     ],
+    "listOrder": 72,
     "slug": "pillar-middle"
   },
   "pillar-top": {
@@ -846,6 +910,7 @@
       "Organisation",
       "Floors"
     ],
+    "listOrder": 72,
     "slug": "pillar-top"
   },
   "pipeline": {
@@ -856,6 +921,7 @@
       "Transport",
       "Pipes"
     ],
+    "listOrder": 1,
     "icon": "uW7VQig6iGkU8wggoG8Q6bgRdJBuRqG82W8gs4icWo",
     "slug": "pipeline"
   },
@@ -867,6 +933,7 @@
       "Transport",
       "Pipes"
     ],
+    "listOrder": 2,
     "icon": "7yKh71vLSEmIwi20Iq2ai21res3yoyGg4MgCuiwUIcU2",
     "slug": "pipeline-junction-cross"
   },
@@ -878,6 +945,7 @@
       "Transport",
       "Pipes"
     ],
+    "listOrder": 3,
     "icon": "4QWEKkooA8Ymey82ci4SCm7aUeGVInvym84COw6uMUgQ",
     "slug": "pipeline-pump"
   },
@@ -889,6 +957,7 @@
       "Transport",
       "PipeSupport"
     ],
+    "listOrder": 1,
     "slug": "pipeline-support"
   },
   "pipeline-wall-support": {
@@ -899,6 +968,7 @@
       "Transport",
       "PipeSupport"
     ],
+    "listOrder": 2,
     "icon": "2SmNwH7WTmge2kMIwaiII67xCa9niBYQEyOSWeEEEI6K",
     "slug": "pipeline-wall-support"
   },
@@ -910,6 +980,7 @@
       "Transport",
       "PipeSupport"
     ],
+    "listOrder": 3,
     "icon": "58vxdHEst2gq8sMEuWmqOi6eQSDV8bzqqoKimq0uqo2s",
     "slug": "pipeline-wall-through-hole"
   },
@@ -921,6 +992,7 @@
       "Power",
       "PowerPoles"
     ],
+    "listOrder": 29,
     "icon": "5weaak4UfKwgQMKkeIoaiaJAx5Ne9Q88MYIeymsQ2G2",
     "slug": "power-line"
   },
@@ -932,6 +1004,7 @@
       "Power",
       "PowerPoles"
     ],
+    "listOrder": 25,
     "icon": "7JEWsJaHmMqcMoSIWe6Eqa5jO8hqS6nKaug6UagWYyei",
     "slug": "power-pole"
   },
@@ -943,6 +1016,7 @@
       "Power",
       "PowerPoles"
     ],
+    "listOrder": 26,
     "icon": "7gCxGxWhYk2AY48eCYsaAW65fS2HG3PqUWWeUQ48iyaq",
     "slug": "power-pole-mk2"
   },
@@ -954,6 +1028,7 @@
       "Power",
       "PowerPoles"
     ],
+    "listOrder": 27,
     "icon": "bseWbpKWuO6QK4CygqAMGFfjdjtnoM8EiUGy6cU8SA",
     "slug": "power-pole-mk3"
   },
@@ -965,6 +1040,7 @@
       "Transport",
       "ConveyorAttachments"
     ],
+    "listOrder": 37,
     "icon": "3bMFnVTn9SKOg4sySi4M6I2HS9NSRiYwcuMKe0I2eiau",
     "slug": "programmable-splitter"
   },
@@ -976,6 +1052,7 @@
       "Transport",
       "Trains"
     ],
+    "listOrder": 53,
     "icon": "1QbWf3QlLKE4wAgu2IIiWY3WroqKppCM2AK2yw28AE2c",
     "slug": "railway"
   },
@@ -987,6 +1064,7 @@
       "Organisation",
       "Ramps"
     ],
+    "listOrder": 94,
     "slug": "ramp-8m-x-1m"
   },
   "ramp-8m-x-2m": {
@@ -997,6 +1075,7 @@
       "Organisation",
       "Ramps"
     ],
+    "listOrder": 94,
     "slug": "ramp-8m-x-2m"
   },
   "ramp-8m-x-4m": {
@@ -1007,6 +1086,7 @@
       "Organisation",
       "Ramps"
     ],
+    "listOrder": 94,
     "slug": "ramp-8m-x-4m"
   },
   "ramp-double-8m-x-8m": {
@@ -1017,6 +1097,7 @@
       "Organisation",
       "Ramps"
     ],
+    "listOrder": 94,
     "slug": "ramp-double-8m-x-8m"
   },
   "ramp-inverted-8m-x-4m": {
@@ -1027,6 +1108,7 @@
       "Organisation",
       "Ramps"
     ],
+    "listOrder": 94,
     "slug": "ramp-inverted-8m-x-4m"
   },
   "refinery": {
@@ -1037,6 +1119,7 @@
       "Production",
       "OilProduction"
     ],
+    "listOrder": 17,
     "icon": "5OBu6xgNtmGwmiUau2mOW83PZ7ecN1kIWGKQGGk0S0QI",
     "overclockable": true,
     "powerConsumption": {
@@ -1053,6 +1136,7 @@
       "Transport",
       "ConveyorAttachments"
     ],
+    "listOrder": 37,
     "icon": "4Zy5Wm7niw064KCe6E4Gi27eWMUuIu6k8gA2uCQiskY6",
     "slug": "smart-splitter"
   },
@@ -1064,6 +1148,7 @@
       "Production",
       "Smelters"
     ],
+    "listOrder": 6,
     "icon": "2d5YnSQi6IccIgcmCgmmYK24AC5wzn3mCKy0cQEmgI8G",
     "overclockable": true,
     "powerConsumption": {
@@ -1080,6 +1165,7 @@
       "Special",
       "Special"
     ],
+    "listOrder": 35,
     "icon": "12cLYp1tDi088Cu2cm4GgU3xTkGfacukmOWOuaIySWqI",
     "slug": "space-elevator"
   },
@@ -1091,6 +1177,7 @@
       "Transport",
       "PipeSupport"
     ],
+    "listOrder": 1,
     "slug": "stackable-pipeline-support"
   },
   "stairs": {
@@ -1101,6 +1188,7 @@
       "Organisation",
       "Stair"
     ],
+    "listOrder": 97,
     "slug": "stairs"
   },
   "stairs-left": {
@@ -1111,6 +1199,7 @@
       "Organisation",
       "Stair"
     ],
+    "listOrder": 96,
     "slug": "stairs-left"
   },
   "stairs-right": {
@@ -1121,6 +1210,7 @@
       "Organisation",
       "Stair"
     ],
+    "listOrder": 96,
     "slug": "stairs-right"
   },
   "storage-container": {
@@ -1131,6 +1221,7 @@
       "Organisation",
       "Storage"
     ],
+    "listOrder": 62,
     "icon": "6WexKKK4HmSs8W8sk8GYa86uNW7wfENU2IC2ymE6eAYE",
     "storage": {
       "x": 6,
@@ -1146,6 +1237,7 @@
       "Special",
       "Special"
     ],
+    "listOrder": 0,
     "icon": "2TfNtTT3RmsomOayuG8yOq1zF8YdRymgEMAEAcAkIQWW",
     "slug": "the-hub"
   },
@@ -1157,6 +1249,7 @@
       "Production",
       "JumpPads"
     ],
+    "listOrder": 65,
     "icon": "2igjqdF3O8OWS2qkOauAIQ6A94qn2eFqeCKYikQ24Em6",
     "powerConsumption": {
       "amount": 2,
@@ -1172,6 +1265,7 @@
       "Transport",
       "Trains"
     ],
+    "listOrder": 51,
     "icon": "555hjT7Yg8CK8wUm4Ioa6Y12wEyn81WiA6U44eCgCkKE",
     "powerConsumption": {
       "amount": 50,
@@ -1187,6 +1281,7 @@
       "Transport",
       "Vehicles"
     ],
+    "listOrder": 44,
     "icon": "m3nNxYkgHmociiuUYcGIs1MkZYRRKMUKWYsWoi2AOQK",
     "powerConsumption": {
       "amount": 20,
@@ -1202,6 +1297,7 @@
       "Production",
       "JumpPads"
     ],
+    "listOrder": 66,
     "icon": "59RTzgzhOEAcQCSwYaUGiO28OtEU6a88yGW8QewMiWYm",
     "powerConsumption": {
       "amount": 5,
@@ -1217,6 +1313,7 @@
       "Organisation",
       "Walkways"
     ],
+    "listOrder": 102,
     "slug": "walkway-crossing"
   },
   "walkway-ramp": {
@@ -1227,6 +1324,7 @@
       "Organisation",
       "Walkways"
     ],
+    "listOrder": 102,
     "icon": "5UxDFSgJhuKYSGAcqE2M6o2yIbGjxIvqCEg6UyUygGuM",
     "slug": "walkway-ramp"
   },
@@ -1238,6 +1336,7 @@
       "Organisation",
       "Walkways"
     ],
+    "listOrder": 99,
     "icon": "3wL7iH43R6Skq0Y2ISgS6U3b1PAtLRdCO6s0WiIiqgcE",
     "slug": "walkway-straight"
   },
@@ -1249,6 +1348,7 @@
       "Organisation",
       "Walkways"
     ],
+    "listOrder": 101,
     "slug": "walkway-t-crossing"
   },
   "walkway-turn": {
@@ -1265,6 +1365,7 @@
       "Walls",
       "Walls"
     ],
+    "listOrder": 85,
     "icon": "41UBMktWQoyG8wco68sa4CP65uSAeG064s0A4GiuY2Y",
     "slug": "wall-8m-x-4m-1"
   },
@@ -1276,6 +1377,7 @@
       "Walls",
       "Walls"
     ],
+    "listOrder": 85,
     "icon": "1jq99A3gWomqSwUaOyYSeEpAgWjoY8fYoOmGSIAeqO8",
     "slug": "wall-8m-x-4m-2"
   },
@@ -1287,6 +1389,7 @@
       "Walls",
       "ConveyorConnections"
     ],
+    "listOrder": 85,
     "slug": "wall-conveyor-perpendicular-1"
   },
   "wall-conveyor-perpendicular-2": {
@@ -1297,6 +1400,7 @@
       "Walls",
       "ConveyorConnections"
     ],
+    "listOrder": 85,
     "slug": "wall-conveyor-perpendicular-2"
   },
   "wall-conveyor-x1-1": {
@@ -1307,6 +1411,7 @@
       "Walls",
       "ConveyorConnections"
     ],
+    "listOrder": 85,
     "slug": "wall-conveyor-x1-1"
   },
   "wall-conveyor-x1-2": {
@@ -1317,6 +1422,7 @@
       "Walls",
       "ConveyorConnections"
     ],
+    "listOrder": 85,
     "slug": "wall-conveyor-x1-2"
   },
   "wall-conveyor-x2-1": {
@@ -1327,6 +1433,7 @@
       "Walls",
       "ConveyorConnections"
     ],
+    "listOrder": 85,
     "slug": "wall-conveyor-x2-1"
   },
   "wall-conveyor-x2-2": {
@@ -1337,6 +1444,7 @@
       "Walls",
       "ConveyorConnections"
     ],
+    "listOrder": 85,
     "slug": "wall-conveyor-x2-2"
   },
   "wall-conveyor-x3-1": {
@@ -1347,6 +1455,7 @@
       "Walls",
       "ConveyorConnections"
     ],
+    "listOrder": 85,
     "slug": "wall-conveyor-x3-1"
   },
   "wall-conveyor-x3-2": {
@@ -1357,6 +1466,7 @@
       "Walls",
       "ConveyorConnections"
     ],
+    "listOrder": 85,
     "slug": "wall-conveyor-x3-2"
   },
   "wall-door-center-1": {
@@ -1367,6 +1477,7 @@
       "Walls",
       "Doors"
     ],
+    "listOrder": 85,
     "slug": "wall-door-center-1"
   },
   "wall-door-center-2": {
@@ -1377,6 +1488,7 @@
       "Walls",
       "Doors"
     ],
+    "listOrder": 85,
     "slug": "wall-door-center-2"
   },
   "wall-door-left-1": {
@@ -1387,6 +1499,7 @@
       "Walls",
       "Doors"
     ],
+    "listOrder": 85,
     "slug": "wall-door-left-1"
   },
   "wall-door-left-2": {
@@ -1397,6 +1510,7 @@
       "Walls",
       "Doors"
     ],
+    "listOrder": 85,
     "slug": "wall-door-left-2"
   },
   "wall-door-right-1": {
@@ -1407,6 +1521,7 @@
       "Walls",
       "Doors"
     ],
+    "listOrder": 85,
     "slug": "wall-door-right-1"
   },
   "wall-door-right-2": {
@@ -1417,6 +1532,7 @@
       "Walls",
       "Doors"
     ],
+    "listOrder": 85,
     "slug": "wall-door-right-2"
   },
   "wall-power-pole": {
@@ -1427,6 +1543,7 @@
       "Power",
       "WallPoles"
     ],
+    "listOrder": 1,
     "slug": "wall-power-pole"
   },
   "wall-power-pole-mk2": {
@@ -1449,6 +1566,7 @@
       "Walls",
       "Walls"
     ],
+    "listOrder": 85,
     "icon": "41UBMktWQoyG8wco68sa4CP65uSAeG064s0A4GiuY2Y",
     "slug": "wall-window-8m-x-4m-01"
   },
@@ -1460,6 +1578,7 @@
       "Walls",
       "Walls"
     ],
+    "listOrder": 85,
     "icon": "1jq99A3gWomqSwUaOyYSeEpAgWjoY8fYoOmGSIAeqO8",
     "slug": "wall-window-8m-x-4m-02"
   },
@@ -1471,6 +1590,7 @@
       "Walls",
       "Walls"
     ],
+    "listOrder": 85,
     "icon": "1uGlPdc5n6Sgu4E6O6Io285mFK7sw2asCKWm8U8WMqOu",
     "slug": "wall-window-8m-x-4m-04"
   },
@@ -1482,6 +1602,7 @@
       "Production",
       "OilProduction"
     ],
+    "listOrder": 16,
     "icon": "555uuMlfOogeAUOs4GGGOg4q4dI5kFzqayoWs4iEqgWi",
     "overclockable": true,
     "powerConsumption": {
@@ -1498,6 +1619,7 @@
       "Walls",
       "Walls"
     ],
+    "listOrder": 85,
     "icon": "55xkfHk3hKg0g4kyoYyWc4s4VqTvNH8syWU8eyEyMoa",
     "slug": "window-8m-x-4m-03"
   }

@@ -32,4 +32,9 @@ export interface Indexable {
    * Categories are in order of specificity (and imply a hierarchy).
    */
   categories?: HumanReadableString[];
+
+  /**
+   * The order of this item when displayed within lists.
+   */
+  listOrder?: number;
 }
