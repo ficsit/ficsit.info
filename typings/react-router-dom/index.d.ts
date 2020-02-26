@@ -25,30 +25,39 @@ declare module 'react-router-dom' {
     window?: Window;
   }
 
+  export type DefaultLinkComponentProps = React.AnchorHTMLAttributes<HTMLAnchorElement>;
+
   /**
    * The public API for rendering a history-aware <a>.
    */
-  export class Link extends Component<LinkProps> {}
-  export interface LinkProps {
-    as?: typeof Component,
+  export function Link<TComponentProps = DefaultLinkComponentProps>(
+    props: LinkProps<TComponentProps>
+  ): React.ElementType<TComponentProps>;
+
+  export type LinkProps<TComponentProps = DefaultLinkComponentProps> = {
+    as?: React.ComponentType<TComponentProps>,
+    children?: React.ReactNode,
     onClick?: MouseEventHandler,
     replace?: boolean;
     state?: any;
     target?: string;
     to: string | Location;
-  }
+  } & TComponentProps;
 
   /**
    * A <Link> wrapper that knows if it's "active" or not.
    */
-  export class NavLink extends Component<NavLinkProps> {}
-  export interface NavLinkProps extends LinkProps {
-    'aria-current'?: 'page' | 'step' | 'location' | 'date' | 'time' | 'true',
+  export function NavLink<TComponentProps = DefaultLinkComponentProps>(
+    props: NavLinkProps<TComponentProps>
+  ): React.ReactElement<TComponentProps>;
+
+  export type NavLinkProps<TComponentProps = DefaultLinkComponentProps> = {
+    'aria-current'?: DefaultLinkComponentProps['aria-current'],
     activeClassName?: string,
     activeStyle?: object,
     className?: string,
     style?: object,
-  }
+  } & LinkProps<TComponentProps>;
 
   /**
    * A declarative interface for showing a window.confirm dialog with the given

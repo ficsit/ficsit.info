@@ -1,6 +1,12 @@
 import { imageSizes, Indexable } from '@local/schema';
+import { css } from '@emotion/core';
 
 const pixelDensities = [1, 2, 3];
+
+const imageStyle = css({
+  display: 'inline-block',
+  overflow: 'hidden',
+});
 
 export interface ImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   hash?: string;
@@ -9,7 +15,7 @@ export interface ImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
   alt: string;
 }
 
-export function Image({ hash, width, maxWidth, alt, ...props }: ImageProps) {
+export function Image({ hash, height, width, maxWidth, alt, ...props }: ImageProps) {
   const basePath = `/assets/images/${hash}`;
   // Chrome is dumb and likes choosing larger (256px+ images) even when it
   // doesn't need to.
@@ -28,9 +34,18 @@ export function Image({ hash, width, maxWidth, alt, ...props }: ImageProps) {
     <picture key={hash}>
       <source type='image/webp' srcSet={webpSrcSet} />
       <source type='image/png' srcSet={pngSrcSet} />
-      <img {...props} src={`${targets[0]?.image}.png`} alt={alt} width={width} />
+      <img {...props} src={`${targets[0]?.image}.png`} alt={alt} height={height}  width={width} css={imageStyle} />
     </picture>
   )
+}
+
+export interface EntityImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
+  entity: Indexable;
+  width: number;
+  maxWidth?: number;
+}
+export function EntityImage({ entity, width, maxWidth = 256, ...props }: EntityImageProps) {
+  return <Image {...props} height={width} width={width} hash={entity.icon} maxWidth={maxWidth} alt={entity.name} />;
 }
 
 export interface ItemImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
@@ -38,7 +53,7 @@ export interface ItemImageProps extends React.ImgHTMLAttributes<HTMLImageElement
   width: number;
 }
 export function ItemImage({ item, width, ...props }: ItemImageProps) {
-  return <Image {...props} height={width} width={width} hash={item.icon} maxWidth={256} alt={item.name} />;
+  return <EntityImage {...props} entity={item} width={width} maxWidth={256} />;
 }
 
 export interface BuildingImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
@@ -46,5 +61,5 @@ export interface BuildingImageProps extends React.ImgHTMLAttributes<HTMLImageEle
   width: number;
 }
 export function BuildingImage({ building, width, ...props }: BuildingImageProps) {
-  return <Image {...props} height={width} width={width} hash={building.icon} maxWidth={512} alt={building.name} />;
+  return <EntityImage {...props} entity={building} width={width} maxWidth={256} />;
 }

@@ -1,4 +1,21 @@
 import { ReactNode } from 'react';
+import { css } from '@emotion/core';
+
+const containerStyles = css({
+  display: 'flex',
+  flex: 1,
+});
+
+const masterStyles = css({
+  order: 1,
+  overflow: 'auto',
+});
+
+const detailStyles = css({
+  order: 2,
+  overflow: 'auto',
+  flex: 1,
+});
 
 export interface MasterDetailLayoutProps {
   master: ReactNode;
@@ -8,15 +25,15 @@ export interface MasterDetailLayoutProps {
 }
 export const MasterDetailLayout = ({ master, masterHeader, detail, detailHeader }: MasterDetailLayoutProps) => {
   return (
-    <React.Fragment>
-      <main aria-labelledby='detail'>
+    <div css={containerStyles}>
+      <main aria-labelledby='detail' css={detailStyles}>
         <h2 id='detail'>{detailHeader}</h2>
         {detail}
       </main>
-      <nav aria-labelledby='master'>
+      <nav aria-labelledby='master' css={masterStyles}>
         <h2 id='master'>{masterHeader}</h2>
         {master}
       </nav>
-    </React.Fragment>
+    </div>
   );
 }
