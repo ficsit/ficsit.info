@@ -4,6 +4,9 @@ import { css } from '@emotion/core';
 const containerStyles = css({
   display: 'flex',
   flex: 1,
+  '@media (max-width: 600px)': {
+    display: 'block',
+  },
 });
 
 const masterStyles = css({
