@@ -5,6 +5,7 @@ import { BuildingImage } from '../components/Image';
 import { useBuildings } from '../data';
 import { MasterDetailLayout } from '../layouts';
 import { EntityList } from '../components/EntityList';
+import { EntityLink } from '../components/EntityLink';
 
 export function Building() {
   const { slug } = useParams<{ slug?: string }>();
@@ -15,7 +16,7 @@ export function Building() {
 
   return (
     <MasterDetailLayout 
-      master={<EntityList entities={Object.values(buildings)} />}
+      master={<EntityList entitiesById={buildings} />}
       detail={_renderDetail(building)}
     />
   );
@@ -27,8 +28,8 @@ function _renderDetail(building?: Building) {
   return (
     <React.Fragment>
       <h2>{building.name}</h2>
-      <BuildingImage building={building} width={256} />
-      <p>{building.description}</p>
+      <BuildingImage building={building} size={256} />
+      <p>{building.description}<EntityLink entity={building} />{building.description}</p>
     </React.Fragment>
   )
 }

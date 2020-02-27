@@ -10,6 +10,7 @@ const containerStyles = css({
 });
 
 const masterStyles = css({
+  display: 'flex',
   order: 1,
   overflow: 'auto',
 });

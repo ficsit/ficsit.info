@@ -1,4 +1,4 @@
-import 'normalize.css';
+import 'modern-normalize';
 
 import React from 'react';
 import '@emotion/core';

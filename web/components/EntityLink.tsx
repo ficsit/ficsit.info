@@ -1,6 +1,6 @@
 import { Indexable, EntityKind } from '@local/schema';
 import { NavLink } from 'react-router-dom';
-import { css } from '@emotion/core';
+import { css, SerializedStyles } from '@emotion/core';
 
 import { EntityImage } from './Image';
 
@@ -8,42 +8,29 @@ export class Foo extends React.Component<{ asdf: number }> {
 }
 
 const rootStyles = css({
-  display: 'inline-flex',
-  alignItems: 'center',
-  textDecoration: 'none',
-  backgroundColor: '#eeeeee',
-  border: '1px solid #999999',
-  borderRadius: 3,
-  margin: 2,
-  ':hover': {
-    backgroundColor: '#dddddd',
-  },
-  '&.active': {
-    backgroundColor: '#ffffff',
-  },
-});
-
-const imageContainerStyles = css({
-  margin: 4,
-  borderRadius: 3,
-  backgroundColor: '#ffffff',
-  padding: 2,
+  display: 'inline-block',
 });
 
 const imageStyles = css({
-  verticalAlign: 'top',
+  verticalAlign: 'middle',
+  marginRight: '0.25em',
 });
 
 export interface EntityLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
-  entity: Indexable
+  entity: Indexable;
+  imageCss?: SerializedStyles;
+  size?: number;
 }
 
-export function EntityLink({ entity, ...props }: EntityLinkProps) {
+export function EntityLink({ entity, imageCss, size = 24, ...props }: EntityLinkProps) {
+  const inlineStyle = {
+    marginTop: size / -2,
+    marginBottom: size / -2,
+  };
+
   return (
     <NavLink {...props} to={_entityUrl(entity)} css={rootStyles}>
-      <div css={imageContainerStyles}>
-        <EntityImage entity={entity} width={32} css={imageStyles} />
-      </div>
+      <EntityImage entity={entity} size={size} css={[imageStyles, imageCss, inlineStyle]} />
       {entity.name}
     </NavLink>
   );

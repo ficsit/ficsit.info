@@ -15,7 +15,7 @@ export function Item() {
 
   return (
     <MasterDetailLayout 
-      master={<EntityList entities={Object.values(items)} />}
+      master={<EntityList entitiesById={items} />}
       detail={_renderDetail(item)}
     />
   );
@@ -27,7 +27,7 @@ function _renderDetail(item?: Item) {
   return (
     <React.Fragment>
       <h2>{item.name}</h2>
-      <ItemImage item={item} width={128} />
+      <ItemImage item={item} size={128} />
       <p>{item.description}</p>
     </React.Fragment>
   )
