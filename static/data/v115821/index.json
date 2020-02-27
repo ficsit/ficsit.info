@@ -138,7 +138,8 @@
   {
     "kind": "item",
     "slug": "blade-runners",
-    "name": "Blade Runners"
+    "name": "Blade Runners",
+    "icon": "5lFrWDoadOys4iwU020sAs4TypfopM36Emu8qSAQkasq"
   },
   {
     "kind": "building",
@@ -366,6 +367,7 @@
     "kind": "building",
     "slug": "conveyor-pole-stackable",
     "name": "Conveyor Pole Stackable",
+    "icon": "4sESZHjIVyEyScQ22mCWE4UrYWgon2UwI888igaAyIO",
     "categories": [
       "Transport",
       "ConverPole"
@@ -413,6 +415,7 @@
     "kind": "building",
     "slug": "corner-ramp-down-8m-x-1m",
     "name": "Corner Ramp Down 8m x 1m",
+    "icon": "kIv3fPhzuCs68u06yuwow1bk0CF9EEE0YcmQ0ygeSi",
     "categories": [
       "Organisation",
       "Ramps"
@@ -422,6 +425,7 @@
     "kind": "building",
     "slug": "corner-ramp-down-8m-x-2m",
     "name": "Corner Ramp Down 8m x 2m",
+    "icon": "7ooyqZlrRCsMGAY60qM08e36eaB6OORGSOoC6GMCqg8s",
     "categories": [
       "Organisation",
       "Ramps"
@@ -431,6 +435,7 @@
     "kind": "building",
     "slug": "corner-ramp-down-8m-x-4m",
     "name": "Corner Ramp Down 8m x 4m",
+    "icon": "4KI4C8lvYA4AcYYYAU60iYtIQCLPLqNw82a4AGMakUU",
     "categories": [
       "Organisation",
       "Ramps"
@@ -440,6 +445,7 @@
     "kind": "building",
     "slug": "corner-ramp-up-8m-x-1m",
     "name": "Corner Ramp Up 8m x 1m",
+    "icon": "4vgSCxWoKIqcM486wm0SAAGxeX4E1tII0E4uEu6M8CG",
     "categories": [
       "Organisation",
       "Ramps"
@@ -449,6 +455,7 @@
     "kind": "building",
     "slug": "corner-ramp-up-8m-x-2m",
     "name": "Corner Ramp Up 8m x 2m",
+    "icon": "2KmN4mgA1aSmISKcG6u8oMsVaW1n7J0O44QGqKsM4A6",
     "categories": [
       "Organisation",
       "Ramps"
@@ -458,6 +465,7 @@
     "kind": "building",
     "slug": "corner-ramp-up-8m-x-4m",
     "name": "Corner Ramp Up 8m x 4m",
+    "icon": "3MTw0QVdduCkG8Mg6CaKUG4rCopzrp4QcKIGO4yimuSs",
     "categories": [
       "Organisation",
       "Ramps"
@@ -489,6 +497,7 @@
     "kind": "building",
     "slug": "double-ramp-8m-x-2m",
     "name": "Double Ramp 8m x 2m",
+    "icon": "3xUbHNNGtGWA8CMw8uuIu44AjPjRVk0gcK6csWmAYC2g",
     "categories": [
       "Organisation",
       "Ramps"
@@ -498,6 +507,7 @@
     "kind": "building",
     "slug": "double-ramp-8m-x-4m",
     "name": "Double Ramp 8m x 4m",
+    "icon": "5MGYRpX4XYCuKgi68a4wwM1lCfPpMw7GoQC2yy4eAmWa",
     "categories": [
       "Organisation",
       "Ramps"
@@ -507,6 +517,7 @@
     "kind": "building",
     "slug": "double-ramp-8m-x-8m",
     "name": "Double Ramp 8m x 8m",
+    "icon": "6HtSNl8g2kWq8GecKiYCII2HIC5d7kIoge6I4eM4soAq",
     "categories": [
       "Organisation",
       "Ramps"
@@ -616,6 +627,7 @@
     "kind": "building",
     "slug": "fluid-freight-platform",
     "name": "Fluid Freight Platform",
+    "icon": "66PJDQFRy8uasEOgmgQ8Mi3qhvp4ipOg6KoCKeSUeOoG",
     "categories": [
       "Transport",
       "Trains"
@@ -625,6 +637,7 @@
     "kind": "building",
     "slug": "foundation-8m-x-1m",
     "name": "Foundation 8m x 1m",
+    "icon": "6kgRiXDpPG66KEYgCWUsoY25Pql5R2AkQKyWeeAQUQOk",
     "categories": [
       "Organisation",
       "Floors"
@@ -634,6 +647,7 @@
     "kind": "building",
     "slug": "foundation-8m-x-2m",
     "name": "Foundation 8m x 2m",
+    "icon": "6amhKVh3vG4cy4oiI04GE67BpsLSzc4M4gmqSaEoKGmW",
     "categories": [
       "Organisation",
       "Floors"
@@ -643,6 +657,7 @@
     "kind": "building",
     "slug": "foundation-8m-x-4m",
     "name": "Foundation 8m x 4m",
+    "icon": "3LRRmgIMXmW4yUyG2oKmoqyr78QyQaT6K2caoew84WU",
     "categories": [
       "Organisation",
       "Floors"
@@ -652,6 +667,7 @@
     "kind": "building",
     "slug": "foundation-frame",
     "name": "Foundation Frame",
+    "icon": "3GLpwbxOtWCuk2iAUKy2ME2wUjdFR5K8cOoEOIQM4GOw",
     "categories": [
       "Organisation",
       "Floors"
@@ -671,6 +687,7 @@
     "kind": "building",
     "slug": "freight-platform",
     "name": "Freight Platform",
+    "icon": "6QYa6ouMcowKky4gyiGQWs1gapzGbZBoiYYuIaiCaMI2",
     "categories": [
       "Transport",
       "Trains"
@@ -702,6 +719,7 @@
     "kind": "building",
     "slug": "gate-8m-x-4m",
     "name": "Gate 8m x 4m",
+    "icon": "SJUXbDd8WGqooC8Ew66wmLXbg8VrJaE6KuMY2Y2SeC",
     "categories": [
       "Walls",
       "Doors"
@@ -721,6 +739,7 @@
     "kind": "building",
     "slug": "glass-foundation-8m-x-1m",
     "name": "Glass Foundation 8m x 1m",
+    "icon": "5Ceb0OE47YQsOMMyk4wsgE6mHHiJGlWw0UQaSEOWuGs8",
     "categories": [
       "Organisation",
       "Floors"
@@ -741,7 +760,8 @@
   {
     "kind": "item",
     "slug": "heat-sink",
-    "name": "Heat Sink"
+    "name": "Heat Sink",
+    "icon": "7ky4sGRKFOkUEo2IAkwEK47t2X8wQGAMqeqI6KQiiIGE"
   },
   {
     "kind": "item",
@@ -801,6 +821,7 @@
     "kind": "building",
     "slug": "hyper-tube-wall-hole",
     "name": "Hyper Tube Wall Hole",
+    "icon": "1N73ImfzIIg4yUQq4E8o825VhgPaxK6cKCkuc8qyWoGO",
     "categories": [
       "Transport",
       "HyperTubes"
@@ -810,6 +831,7 @@
     "kind": "building",
     "slug": "hyper-tube-wall-support",
     "name": "Hyper Tube Wall Support",
+    "icon": "1mIs4gRirykM2i06sM0mW8Mp0kcuz1SI2Cge6MQAYg",
     "categories": [
       "Transport",
       "HyperTubes"
@@ -819,6 +841,7 @@
     "kind": "building",
     "slug": "industrial-fluid-buffer-1",
     "name": "Industrial Fluid Buffer",
+    "icon": "5CVWl5sxUWYOaS4MGyceWYtfmw8cRCp2W8swYOQ04OW",
     "categories": [
       "Organisation",
       "Storage"
@@ -828,6 +851,7 @@
     "kind": "building",
     "slug": "industrial-fluid-buffer-2",
     "name": "Industrial Fluid Buffer",
+    "icon": "21dBFNV8gkSgQMWeWecQcO1GEBWQaSzKuGSE2soeaMKG",
     "categories": [
       "Organisation",
       "Storage"
@@ -847,6 +871,7 @@
     "kind": "building",
     "slug": "inner-corner-quarter-pipe",
     "name": "Inner-Corner Quarter Pipe",
+    "icon": "1aC1Ft8y7aCgIEsowaowgM2HzerjwTK0AG8SYYyqEaUw",
     "categories": [
       "Organisation",
       "QuatPipes"
@@ -856,6 +881,7 @@
     "kind": "building",
     "slug": "inverted-inner-corner-quarter-pipe",
     "name": "Inverted Inner-Corner Quarter Pipe",
+    "icon": "1Pt5uambakU2YaS8GIYWa6O7WZwYCgI682kuAAkmcGi",
     "categories": [
       "Organisation",
       "QuatPipes"
@@ -865,6 +891,7 @@
     "kind": "building",
     "slug": "inverted-outer-corner-quarter-pipe",
     "name": "Inverted Outer-Corner Quarter Pipe",
+    "icon": "5Q6Lk6VpPGWagm0GiGqqEW1RgGVNexoUoAuGmUo0kS4c",
     "categories": [
       "Organisation",
       "QuatPipes"
@@ -874,6 +901,7 @@
     "kind": "building",
     "slug": "inverted-quarter-pipe",
     "name": "Inverted Quarter Pipe",
+    "icon": "3s0CaDSb9SooI4QwGQcScu2Cz8Gnr48I8OGYCYW8ykQC",
     "categories": [
       "Organisation",
       "QuatPipes"
@@ -883,6 +911,7 @@
     "kind": "building",
     "slug": "inverted-ramp-8m-x-1m",
     "name": "Inverted Ramp 8m x 1m",
+    "icon": "19CRZ456uyGgmwCoIGsq8O5dmCt9NcGcA0Iq6AMaMmU4",
     "categories": [
       "Organisation",
       "Ramps"
@@ -892,6 +921,7 @@
     "kind": "building",
     "slug": "inverted-ramp-8m-x-2m",
     "name": "Inverted Ramp 8m x 2m",
+    "icon": "L6cB0QPsSkWQkIukSEMUc1YO8BvX9osg8OaGuowU4kq",
     "categories": [
       "Organisation",
       "Ramps"
@@ -901,6 +931,7 @@
     "kind": "building",
     "slug": "inverted-ramp-8m-x-4m",
     "name": "Inverted Ramp 8m x 4m",
+    "icon": "yxMD8uYzfiMOMuKWQaiQi29A118UHfeWgykmIo02Miy",
     "categories": [
       "Organisation",
       "Ramps"
@@ -910,6 +941,7 @@
     "kind": "building",
     "slug": "inverted-ramp-corner-8m-x-1m",
     "name": "Inverted Ramp Corner 8m x 1m",
+    "icon": "1wSAjBzafCcCEoUGo8mMCS39e5PxGcwUcyCcQeuuYWau",
     "categories": [
       "Organisation",
       "Ramps"
@@ -919,6 +951,7 @@
     "kind": "building",
     "slug": "inverted-ramp-corner-8m-x-2m",
     "name": "Inverted Ramp Corner 8m x 2m",
+    "icon": "6YWbZWKsaQQAWkU0UkAEWQ3rLDhcZydGsEeiGQCac0GI",
     "categories": [
       "Organisation",
       "Ramps"
@@ -928,6 +961,7 @@
     "kind": "building",
     "slug": "inverted-ramp-corner-8m-x-4m",
     "name": "Inverted Ramp Corner 8m x 4m",
+    "icon": "1lud8wGSb2G4GGeuwCaM086lvqWoLO92ca2GqSkEMWUQ",
     "categories": [
       "Organisation",
       "Ramps"
@@ -1135,6 +1169,7 @@
     "kind": "building",
     "slug": "outer-corner-quarter-pipe",
     "name": "Outer-Corner Quarter Pipe",
+    "icon": "5nwf1nxKA8S4MeS6EqOQaO2BLLwT9KuUU2M42qEWakUk",
     "categories": [
       "Organisation",
       "QuatPipes"
@@ -1208,6 +1243,7 @@
     "kind": "building",
     "slug": "pillar-base",
     "name": "Pillar Base",
+    "icon": "1R0Fc9ZcHWWKC2O4wkMwAi5D85h67rMI8eUKIGCYEAOm",
     "categories": [
       "Organisation",
       "Floors"
@@ -1217,6 +1253,7 @@
     "kind": "building",
     "slug": "pillar-middle",
     "name": "Pillar Middle",
+    "icon": "4YVHgagBAsc4OAiCCMWW2P8pdF8K6E8aosmY08qCmg",
     "categories": [
       "Organisation",
       "Floors"
@@ -1226,6 +1263,7 @@
     "kind": "building",
     "slug": "pillar-top",
     "name": "Pillar Top",
+    "icon": "9qH5DGa8YoucKSQSg2QeI2VPkMQRsT6YuKssGo4Yqky",
     "categories": [
       "Organisation",
       "Floors"
@@ -1265,6 +1303,7 @@
     "kind": "building",
     "slug": "pipeline-support",
     "name": "Pipeline Support",
+    "icon": "5YgOLn5Ra8iiIUyM6U6a0m2B28ABphMUaSmcKSyCKMUK",
     "categories": [
       "Transport",
       "PipeSupport"
@@ -1374,6 +1413,7 @@
     "kind": "building",
     "slug": "quarter-pipe",
     "name": "Quarter Pipe",
+    "icon": "3w4Eybgv4kSuWWYegaMUWw5cAAYuEjfqiUmM0640Ck2G",
     "categories": [
       "Organisation",
       "QuatPipes"
@@ -1411,6 +1451,7 @@
     "kind": "building",
     "slug": "ramp-8m-x-1m",
     "name": "Ramp 8m x 1m",
+    "icon": "vSG0qR6wqkYu60y4iOCY61yY27f1UgQSoKO8A64oEaO",
     "categories": [
       "Organisation",
       "Ramps"
@@ -1420,6 +1461,7 @@
     "kind": "building",
     "slug": "ramp-8m-x-2m",
     "name": "Ramp 8m x 2m",
+    "icon": "1JWwnadFVmY0CmsqucMGY021Pm1tOmUAqi6eUmaAgUoi",
     "categories": [
       "Organisation",
       "Ramps"
@@ -1429,6 +1471,7 @@
     "kind": "building",
     "slug": "ramp-8m-x-4m",
     "name": "Ramp 8m x 4m",
+    "icon": "fRPi0B5Bssq6qQiqCwW0Qg0YzJD1vskIskgKIwsWiE",
     "categories": [
       "Organisation",
       "Ramps"
@@ -1437,7 +1480,8 @@
   {
     "kind": "item",
     "slug": "raw-quartz",
-    "name": "Raw Quartz"
+    "name": "Raw Quartz",
+    "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km"
   },
   {
     "kind": "item",
@@ -1640,7 +1684,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-alternate-heat-exchanger",
-    "name": "Alternate: Heat Exchanger"
+    "name": "Alternate: Heat Exchanger",
+    "icon": "7ky4sGRKFOkUEo2IAkwEK47t2X8wQGAMqeqI6KQiiIGE"
   },
   {
     "kind": "recipe",
@@ -1981,7 +2026,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-blade-runners",
-    "name": "Blade Runners"
+    "name": "Blade Runners",
+    "icon": "5lFrWDoadOys4iwU020sAs4TypfopM36Emu8qSAQkasq"
   },
   {
     "kind": "recipe",
@@ -2136,7 +2182,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-conveyor-pole-stackable",
-    "name": "Conveyor Pole Stackable"
+    "name": "Conveyor Pole Stackable",
+    "icon": "4sESZHjIVyEyScQ22mCWE4UrYWgon2UwI888igaAyIO"
   },
   {
     "kind": "recipe",
@@ -2171,32 +2218,38 @@
   {
     "kind": "recipe",
     "slug": "recipe-corner-ramp-down-8m-x-1m",
-    "name": "Corner Ramp Down 8m x 1m"
+    "name": "Corner Ramp Down 8m x 1m",
+    "icon": "kIv3fPhzuCs68u06yuwow1bk0CF9EEE0YcmQ0ygeSi"
   },
   {
     "kind": "recipe",
     "slug": "recipe-corner-ramp-down-8m-x-2m",
-    "name": "Corner Ramp Down 8m x 2m"
+    "name": "Corner Ramp Down 8m x 2m",
+    "icon": "7ooyqZlrRCsMGAY60qM08e36eaB6OORGSOoC6GMCqg8s"
   },
   {
     "kind": "recipe",
     "slug": "recipe-corner-ramp-down-8m-x-4m",
-    "name": "Corner Ramp Down 8m x 4m"
+    "name": "Corner Ramp Down 8m x 4m",
+    "icon": "4KI4C8lvYA4AcYYYAU60iYtIQCLPLqNw82a4AGMakUU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-corner-ramp-up-8m-x-1m",
-    "name": "Corner Ramp Up 8m x 1m"
+    "name": "Corner Ramp Up 8m x 1m",
+    "icon": "4vgSCxWoKIqcM486wm0SAAGxeX4E1tII0E4uEu6M8CG"
   },
   {
     "kind": "recipe",
     "slug": "recipe-corner-ramp-up-8m-x-2m",
-    "name": "Corner Ramp Up 8m x 2m"
+    "name": "Corner Ramp Up 8m x 2m",
+    "icon": "2KmN4mgA1aSmISKcG6u8oMsVaW1n7J0O44QGqKsM4A6"
   },
   {
     "kind": "recipe",
     "slug": "recipe-corner-ramp-up-8m-x-4m",
-    "name": "Corner Ramp Up 8m x 4m"
+    "name": "Corner Ramp Up 8m x 4m",
+    "icon": "3MTw0QVdduCkG8Mg6CaKUG4rCopzrp4QcKIGO4yimuSs"
   },
   {
     "kind": "recipe",
@@ -2219,17 +2272,20 @@
   {
     "kind": "recipe",
     "slug": "recipe-double-ramp-8m-x-2m",
-    "name": "Double Ramp 8m x 2m"
+    "name": "Double Ramp 8m x 2m",
+    "icon": "3xUbHNNGtGWA8CMw8uuIu44AjPjRVk0gcK6csWmAYC2g"
   },
   {
     "kind": "recipe",
     "slug": "recipe-double-ramp-8m-x-4m",
-    "name": "Double Ramp 8m x 4m"
+    "name": "Double Ramp 8m x 4m",
+    "icon": "5MGYRpX4XYCuKgi68a4wwM1lCfPpMw7GoQC2yy4eAmWa"
   },
   {
     "kind": "recipe",
     "slug": "recipe-double-ramp-8m-x-8m",
-    "name": "Double Ramp 8m x 8m"
+    "name": "Double Ramp 8m x 8m",
+    "icon": "6HtSNl8g2kWq8GecKiYCII2HIC5d7kIoge6I4eM4soAq"
   },
   {
     "kind": "recipe",
@@ -2312,27 +2368,32 @@
   {
     "kind": "recipe",
     "slug": "recipe-fluid-freight-platform",
-    "name": "Fluid Freight Platform"
+    "name": "Fluid Freight Platform",
+    "icon": "66PJDQFRy8uasEOgmgQ8Mi3qhvp4ipOg6KoCKeSUeOoG"
   },
   {
     "kind": "recipe",
     "slug": "recipe-foundation-8m-x-1m",
-    "name": "Foundation 8m x 1m"
+    "name": "Foundation 8m x 1m",
+    "icon": "6kgRiXDpPG66KEYgCWUsoY25Pql5R2AkQKyWeeAQUQOk"
   },
   {
     "kind": "recipe",
     "slug": "recipe-foundation-8m-x-2m",
-    "name": "Foundation 8m x 2m"
+    "name": "Foundation 8m x 2m",
+    "icon": "6amhKVh3vG4cy4oiI04GE67BpsLSzc4M4gmqSaEoKGmW"
   },
   {
     "kind": "recipe",
     "slug": "recipe-foundation-8m-x-4m",
-    "name": "Foundation 8m x 4m"
+    "name": "Foundation 8m x 4m",
+    "icon": "3LRRmgIMXmW4yUyG2oKmoqyr78QyQaT6K2caoew84WU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-foundation-frame",
-    "name": "Foundation Frame"
+    "name": "Foundation Frame",
+    "icon": "3GLpwbxOtWCuk2iAUKy2ME2wUjdFR5K8cOoEOIQM4GOw"
   },
   {
     "kind": "recipe",
@@ -2343,7 +2404,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-freight-platform",
-    "name": "Freight Platform"
+    "name": "Freight Platform",
+    "icon": "6QYa6ouMcowKky4gyiGQWs1gapzGbZBoiYYuIaiCaMI2"
   },
   {
     "kind": "recipe",
@@ -2366,7 +2428,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-gate-8m-x-4m",
-    "name": "Gate 8m x 4m"
+    "name": "Gate 8m x 4m",
+    "icon": "SJUXbDd8WGqooC8Ew66wmLXbg8VrJaE6KuMY2Y2SeC"
   },
   {
     "kind": "recipe",
@@ -2377,7 +2440,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-glass-foundation-8m-x-1m",
-    "name": "Glass Foundation 8m x 1m"
+    "name": "Glass Foundation 8m x 1m",
+    "icon": "5Ceb0OE47YQsOMMyk4wsgE6mHHiJGlWw0UQaSEOWuGs8"
   },
   {
     "kind": "recipe",
@@ -2388,7 +2452,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-heat-sink",
-    "name": "Heat Sink"
+    "name": "Heat Sink",
+    "icon": "7ky4sGRKFOkUEo2IAkwEK47t2X8wQGAMqeqI6KQiiIGE"
   },
   {
     "kind": "recipe",
@@ -2423,22 +2488,26 @@
   {
     "kind": "recipe",
     "slug": "recipe-hyper-tube-wall-hole",
-    "name": "Hyper Tube Wall Hole"
+    "name": "Hyper Tube Wall Hole",
+    "icon": "1N73ImfzIIg4yUQq4E8o825VhgPaxK6cKCkuc8qyWoGO"
   },
   {
     "kind": "recipe",
     "slug": "recipe-hyper-tube-wall-support",
-    "name": "Hyper Tube Wall Support"
+    "name": "Hyper Tube Wall Support",
+    "icon": "1mIs4gRirykM2i06sM0mW8Mp0kcuz1SI2Cge6MQAYg"
   },
   {
     "kind": "recipe",
     "slug": "recipe-industrial-fluid-buffer-1",
-    "name": "Industrial Fluid Buffer"
+    "name": "Industrial Fluid Buffer",
+    "icon": "5CVWl5sxUWYOaS4MGyceWYtfmw8cRCp2W8swYOQ04OW"
   },
   {
     "kind": "recipe",
     "slug": "recipe-industrial-fluid-buffer-2",
-    "name": "Industrial Fluid Buffer"
+    "name": "Industrial Fluid Buffer",
+    "icon": "21dBFNV8gkSgQMWeWecQcO1GEBWQaSzKuGSE2soeaMKG"
   },
   {
     "kind": "recipe",
@@ -2449,52 +2518,62 @@
   {
     "kind": "recipe",
     "slug": "recipe-inner-corner-quarter-pipe",
-    "name": "Inner-Corner Quarter Pipe"
+    "name": "Inner-Corner Quarter Pipe",
+    "icon": "1aC1Ft8y7aCgIEsowaowgM2HzerjwTK0AG8SYYyqEaUw"
   },
   {
     "kind": "recipe",
     "slug": "recipe-inverted-inner-corner-quarter-pipe",
-    "name": "Inverted Inner-Corner Quarter Pipe"
+    "name": "Inverted Inner-Corner Quarter Pipe",
+    "icon": "1Pt5uambakU2YaS8GIYWa6O7WZwYCgI682kuAAkmcGi"
   },
   {
     "kind": "recipe",
     "slug": "recipe-inverted-outer-corner-quarter-pipe",
-    "name": "Inverted Outer-Corner Quarter Pipe"
+    "name": "Inverted Outer-Corner Quarter Pipe",
+    "icon": "5Q6Lk6VpPGWagm0GiGqqEW1RgGVNexoUoAuGmUo0kS4c"
   },
   {
     "kind": "recipe",
     "slug": "recipe-inverted-quarter-pipe",
-    "name": "Inverted Quarter Pipe"
+    "name": "Inverted Quarter Pipe",
+    "icon": "3s0CaDSb9SooI4QwGQcScu2Cz8Gnr48I8OGYCYW8ykQC"
   },
   {
     "kind": "recipe",
     "slug": "recipe-inverted-ramp-8m-x-1m",
-    "name": "Inverted Ramp 8m x 1m"
+    "name": "Inverted Ramp 8m x 1m",
+    "icon": "19CRZ456uyGgmwCoIGsq8O5dmCt9NcGcA0Iq6AMaMmU4"
   },
   {
     "kind": "recipe",
     "slug": "recipe-inverted-ramp-8m-x-2m",
-    "name": "Inverted Ramp 8m x 2m"
+    "name": "Inverted Ramp 8m x 2m",
+    "icon": "L6cB0QPsSkWQkIukSEMUc1YO8BvX9osg8OaGuowU4kq"
   },
   {
     "kind": "recipe",
     "slug": "recipe-inverted-ramp-8m-x-4m",
-    "name": "Inverted Ramp 8m x 4m"
+    "name": "Inverted Ramp 8m x 4m",
+    "icon": "yxMD8uYzfiMOMuKWQaiQi29A118UHfeWgykmIo02Miy"
   },
   {
     "kind": "recipe",
     "slug": "recipe-inverted-ramp-corner-8m-x-1m",
-    "name": "Inverted Ramp Corner 8m x 1m"
+    "name": "Inverted Ramp Corner 8m x 1m",
+    "icon": "1wSAjBzafCcCEoUGo8mMCS39e5PxGcwUcyCcQeuuYWau"
   },
   {
     "kind": "recipe",
     "slug": "recipe-inverted-ramp-corner-8m-x-2m",
-    "name": "Inverted Ramp Corner 8m x 2m"
+    "name": "Inverted Ramp Corner 8m x 2m",
+    "icon": "6YWbZWKsaQQAWkU0UkAEWQ3rLDhcZydGsEeiGQCac0GI"
   },
   {
     "kind": "recipe",
     "slug": "recipe-inverted-ramp-corner-8m-x-4m",
-    "name": "Inverted Ramp Corner 8m x 4m"
+    "name": "Inverted Ramp Corner 8m x 4m",
+    "icon": "1lud8wGSb2G4GGeuwCaM086lvqWoLO92ca2GqSkEMWUQ"
   },
   {
     "kind": "recipe",
@@ -2661,7 +2740,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-outer-corner-quarter-pipe",
-    "name": "Outer-Corner Quarter Pipe"
+    "name": "Outer-Corner Quarter Pipe",
+    "icon": "5nwf1nxKA8S4MeS6EqOQaO2BLLwT9KuUU2M42qEWakUk"
   },
   {
     "kind": "recipe",
@@ -2720,17 +2800,20 @@
   {
     "kind": "recipe",
     "slug": "recipe-pillar-base",
-    "name": "Pillar Base"
+    "name": "Pillar Base",
+    "icon": "1R0Fc9ZcHWWKC2O4wkMwAi5D85h67rMI8eUKIGCYEAOm"
   },
   {
     "kind": "recipe",
     "slug": "recipe-pillar-middle",
-    "name": "Pillar Middle"
+    "name": "Pillar Middle",
+    "icon": "4YVHgagBAsc4OAiCCMWW2P8pdF8K6E8aosmY08qCmg"
   },
   {
     "kind": "recipe",
     "slug": "recipe-pillar-top",
-    "name": "Pillar Top"
+    "name": "Pillar Top",
+    "icon": "9qH5DGa8YoucKSQSg2QeI2VPkMQRsT6YuKssGo4Yqky"
   },
   {
     "kind": "recipe",
@@ -2753,7 +2836,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-pipeline-support",
-    "name": "Pipeline Support"
+    "name": "Pipeline Support",
+    "icon": "5YgOLn5Ra8iiIUyM6U6a0m2B28ABphMUaSmcKSyCKMUK"
   },
   {
     "kind": "recipe",
@@ -2830,7 +2914,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-quarter-pipe",
-    "name": "Quarter Pipe"
+    "name": "Quarter Pipe",
+    "icon": "3w4Eybgv4kSuWWYegaMUWw5cAAYuEjfqiUmM0640Ck2G"
   },
   {
     "kind": "recipe",
@@ -2865,22 +2950,26 @@
   {
     "kind": "recipe",
     "slug": "recipe-ramp-8m-x-1m",
-    "name": "Ramp 8m x 1m"
+    "name": "Ramp 8m x 1m",
+    "icon": "vSG0qR6wqkYu60y4iOCY61yY27f1UgQSoKO8A64oEaO"
   },
   {
     "kind": "recipe",
     "slug": "recipe-ramp-8m-x-2m",
-    "name": "Ramp 8m x 2m"
+    "name": "Ramp 8m x 2m",
+    "icon": "1JWwnadFVmY0CmsqucMGY021Pm1tOmUAqi6eUmaAgUoi"
   },
   {
     "kind": "recipe",
     "slug": "recipe-ramp-8m-x-4m",
-    "name": "Ramp 8m x 4m"
+    "name": "Ramp 8m x 4m",
+    "icon": "fRPi0B5Bssq6qQiqCwW0Qg0YzJD1vskIskgKIwsWiE"
   },
   {
     "kind": "recipe",
     "slug": "recipe-raw-quartz",
-    "name": "Raw Quartz"
+    "name": "Raw Quartz",
+    "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km"
   },
   {
     "kind": "recipe",
@@ -2921,7 +3010,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-rifle",
-    "name": "Rifle"
+    "name": "Rifle",
+    "icon": "1lAx8yNvV2aMkKocgcAE6u31JaXkJP3GiOmgE8wQAgeu"
   },
   {
     "kind": "recipe",
@@ -2986,7 +3076,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-stackable-pipeline-support",
-    "name": "Stackable Pipeline Support"
+    "name": "Stackable Pipeline Support",
+    "icon": "NmlTLYQrOSe2Aiseumo0O2IwSrZehhu0oQauwaEyaYu"
   },
   {
     "kind": "recipe",
@@ -3152,7 +3243,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-walkway-crossing",
-    "name": "Walkway Crossing"
+    "name": "Walkway Crossing",
+    "icon": "5rG5aPKj8kwqk4GcCoWCCY5JLIISExriOmU0eeQaQKOO"
   },
   {
     "kind": "recipe",
@@ -3169,7 +3261,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-walkway-t-crossing",
-    "name": "Walkway T-Crossing"
+    "name": "Walkway T-Crossing",
+    "icon": "4pQvys6bZCiG6wqKcKKMYIwg6HPL0ViK66k24ck6esc"
   },
   {
     "kind": "recipe",
@@ -3192,72 +3285,86 @@
   {
     "kind": "recipe",
     "slug": "recipe-wall-conveyor-perpendicular-1",
-    "name": "Wall Conveyor Perpendicular"
+    "name": "Wall Conveyor Perpendicular",
+    "icon": "4PAnxnsA3YSmq0Q2GyCwuK4ed61j3Su4MUGuEWGcWWOQ"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-conveyor-perpendicular-2",
-    "name": "Wall Conveyor Perpendicular"
+    "name": "Wall Conveyor Perpendicular",
+    "icon": "3fz1DW6xiokgYYYq46m4au2CGOzpyGJYqkakYQseMKCU"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-conveyor-x1-1",
-    "name": "Wall Conveyor x1"
+    "name": "Wall Conveyor x1",
+    "icon": "7IMh8z3sK4u2uOWQMysKYu4fBqsyKqwUog4Ya4A4E4Wu"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-conveyor-x1-2",
-    "name": "Wall Conveyor x1"
+    "name": "Wall Conveyor x1",
+    "icon": "2pO9W0qqEs60WkogaOYAqs4oHdBuGqoo08aOy2AE0Q2C"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-conveyor-x2-1",
-    "name": "Wall Conveyor x2"
+    "name": "Wall Conveyor x2",
+    "icon": "1keRj4WptWCMYAqOoGa8YE3WQOETgmAEaAAeC0E02g0w"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-conveyor-x2-2",
-    "name": "Wall Conveyor x2"
+    "name": "Wall Conveyor x2",
+    "icon": "CsSD8bQJ8cCQE2SMSS4os1USD03baSwCIA2Sk6KaCY0"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-conveyor-x3-1",
-    "name": "Wall Conveyor x3"
+    "name": "Wall Conveyor x3",
+    "icon": "2ruKJuh3tCuOsa6GsEgyEi4sGuSkQ0VaO6ioSkKuAWq8"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-conveyor-x3-2",
-    "name": "Wall Conveyor x3"
+    "name": "Wall Conveyor x3",
+    "icon": "WkjUyX6K2ccamSyMwowcG3TQYZWtb2gs8k4ykmyM0uG"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-door-center-1",
-    "name": "Wall Door Center"
+    "name": "Wall Door Center",
+    "icon": "1JTy7qkEU4A4UQ2EceCqGk50PY6a6urCQIIYcigOe8Ci"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-door-center-2",
-    "name": "Wall Door Center"
+    "name": "Wall Door Center",
+    "icon": "7pWxNiWTYcYwiOikAGgygg3Jq65wnxrOmMeumkwuKKM0"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-door-left-1",
-    "name": "Wall Door Left"
+    "name": "Wall Door Left",
+    "icon": "4BsbpfiCOcW0KQEyeSsWgy2feYuqwdPaKSyMW2swGwK0"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-door-left-2",
-    "name": "Wall Door Left"
+    "name": "Wall Door Left",
+    "icon": "22xHM8ByyIgE2OI6ES2Wu0x1HVHrHEha6QcCUGwA8Ae"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-door-right-1",
-    "name": "Wall Door Right"
+    "name": "Wall Door Right",
+    "icon": "6GEptVzSlGyMEW2uCCEsCY6lN3Si2mVGYE6MKGwgWIgI"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-door-right-2",
-    "name": "Wall Door Right"
+    "name": "Wall Door Right",
+    "icon": "7F4xVeXp0QW2KSsuA0WEoY7mnHJKRMDS4oo6e46mIkkY"
   },
   {
     "kind": "recipe",
@@ -3349,7 +3456,8 @@
   {
     "kind": "item",
     "slug": "rifle",
-    "name": "Rifle"
+    "name": "Rifle",
+    "icon": "1lAx8yNvV2aMkKocgcAE6u31JaXkJP3GiOmgE8wQAgeu"
   },
   {
     "kind": "item",
@@ -4707,6 +4815,7 @@
     "kind": "building",
     "slug": "stackable-pipeline-support",
     "name": "Stackable Pipeline Support",
+    "icon": "NmlTLYQrOSe2Aiseumo0O2IwSrZehhu0oQauwaEyaYu",
     "categories": [
       "Transport",
       "PipeSupport"
@@ -4877,6 +4986,7 @@
     "kind": "building",
     "slug": "walkway-crossing",
     "name": "Walkway Crossing",
+    "icon": "5rG5aPKj8kwqk4GcCoWCCY5JLIISExriOmU0eeQaQKOO",
     "categories": [
       "Organisation",
       "Walkways"
@@ -4906,6 +5016,7 @@
     "kind": "building",
     "slug": "walkway-t-crossing",
     "name": "Walkway T-Crossing",
+    "icon": "4pQvys6bZCiG6wqKcKKMYIwg6HPL0ViK66k24ck6esc",
     "categories": [
       "Organisation",
       "Walkways"
@@ -4914,7 +5025,8 @@
   {
     "kind": "building",
     "slug": "walkway-turn",
-    "name": "Walkway Turn"
+    "name": "Walkway Turn",
+    "icon": "3tjMxVNwTC6SgyKus4YO825YSJOAEI48GOE4UscqSU8S"
   },
   {
     "kind": "building",
@@ -4940,6 +5052,7 @@
     "kind": "building",
     "slug": "wall-conveyor-perpendicular-1",
     "name": "Wall Conveyor Perpendicular",
+    "icon": "4PAnxnsA3YSmq0Q2GyCwuK4ed61j3Su4MUGuEWGcWWOQ",
     "categories": [
       "Walls",
       "ConveyorConnections"
@@ -4949,6 +5062,7 @@
     "kind": "building",
     "slug": "wall-conveyor-perpendicular-2",
     "name": "Wall Conveyor Perpendicular",
+    "icon": "3fz1DW6xiokgYYYq46m4au2CGOzpyGJYqkakYQseMKCU",
     "categories": [
       "Walls",
       "ConveyorConnections"
@@ -4958,6 +5072,7 @@
     "kind": "building",
     "slug": "wall-conveyor-x1-1",
     "name": "Wall Conveyor x1",
+    "icon": "7IMh8z3sK4u2uOWQMysKYu4fBqsyKqwUog4Ya4A4E4Wu",
     "categories": [
       "Walls",
       "ConveyorConnections"
@@ -4967,6 +5082,7 @@
     "kind": "building",
     "slug": "wall-conveyor-x1-2",
     "name": "Wall Conveyor x1",
+    "icon": "2pO9W0qqEs60WkogaOYAqs4oHdBuGqoo08aOy2AE0Q2C",
     "categories": [
       "Walls",
       "ConveyorConnections"
@@ -4976,6 +5092,7 @@
     "kind": "building",
     "slug": "wall-conveyor-x2-1",
     "name": "Wall Conveyor x2",
+    "icon": "1keRj4WptWCMYAqOoGa8YE3WQOETgmAEaAAeC0E02g0w",
     "categories": [
       "Walls",
       "ConveyorConnections"
@@ -4985,6 +5102,7 @@
     "kind": "building",
     "slug": "wall-conveyor-x2-2",
     "name": "Wall Conveyor x2",
+    "icon": "CsSD8bQJ8cCQE2SMSS4os1USD03baSwCIA2Sk6KaCY0",
     "categories": [
       "Walls",
       "ConveyorConnections"
@@ -4994,6 +5112,7 @@
     "kind": "building",
     "slug": "wall-conveyor-x3-1",
     "name": "Wall Conveyor x3",
+    "icon": "2ruKJuh3tCuOsa6GsEgyEi4sGuSkQ0VaO6ioSkKuAWq8",
     "categories": [
       "Walls",
       "ConveyorConnections"
@@ -5003,6 +5122,7 @@
     "kind": "building",
     "slug": "wall-conveyor-x3-2",
     "name": "Wall Conveyor x3",
+    "icon": "WkjUyX6K2ccamSyMwowcG3TQYZWtb2gs8k4ykmyM0uG",
     "categories": [
       "Walls",
       "ConveyorConnections"
@@ -5012,6 +5132,7 @@
     "kind": "building",
     "slug": "wall-door-center-1",
     "name": "Wall Door Center",
+    "icon": "1JTy7qkEU4A4UQ2EceCqGk50PY6a6urCQIIYcigOe8Ci",
     "categories": [
       "Walls",
       "Doors"
@@ -5021,6 +5142,7 @@
     "kind": "building",
     "slug": "wall-door-center-2",
     "name": "Wall Door Center",
+    "icon": "7pWxNiWTYcYwiOikAGgygg3Jq65wnxrOmMeumkwuKKM0",
     "categories": [
       "Walls",
       "Doors"
@@ -5030,6 +5152,7 @@
     "kind": "building",
     "slug": "wall-door-left-1",
     "name": "Wall Door Left",
+    "icon": "4BsbpfiCOcW0KQEyeSsWgy2feYuqwdPaKSyMW2swGwK0",
     "categories": [
       "Walls",
       "Doors"
@@ -5039,6 +5162,7 @@
     "kind": "building",
     "slug": "wall-door-left-2",
     "name": "Wall Door Left",
+    "icon": "22xHM8ByyIgE2OI6ES2Wu0x1HVHrHEha6QcCUGwA8Ae",
     "categories": [
       "Walls",
       "Doors"
@@ -5048,6 +5172,7 @@
     "kind": "building",
     "slug": "wall-door-right-1",
     "name": "Wall Door Right",
+    "icon": "6GEptVzSlGyMEW2uCCEsCY6lN3Si2mVGYE6MKGwgWIgI",
     "categories": [
       "Walls",
       "Doors"
@@ -5057,6 +5182,7 @@
     "kind": "building",
     "slug": "wall-door-right-2",
     "name": "Wall Door Right",
+    "icon": "7F4xVeXp0QW2KSsuA0WEoY7mnHJKRMDS4oo6e46mIkkY",
     "categories": [
       "Walls",
       "Doors"

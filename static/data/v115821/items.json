@@ -162,6 +162,7 @@
     "name": "Blade Runners",
     "description": "Slot: Body\n\nA exoskeleton for your lower legs that assist your movement, allowing you to sprint faster and jump higher.\nAlso dampens the impact of landing.",
     "form": "solid",
+    "icon": "5lFrWDoadOys4iwU020sAs4TypfopM36Emu8qSAQkasq",
     "stackSize": "one",
     "slug": "blade-runners"
   },
@@ -468,6 +469,7 @@
     "name": "Heat Sink",
     "description": "Used to dissipate heat faster.",
     "form": "solid",
+    "icon": "7ky4sGRKFOkUEo2IAkwEK47t2X8wQGAMqeqI6KQiiIGE",
     "stackSize": "medium",
     "slug": "heat-sink"
   },
@@ -876,6 +878,7 @@
     "name": "Raw Quartz",
     "description": "Raw Quartz is processed into Quartz Crystals which are used for radar and quantum technology.",
     "form": "solid",
+    "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km",
     "stackSize": "medium",
     "slug": "raw-quartz"
   },
@@ -902,6 +905,7 @@
     "name": "Rifle",
     "description": "Slot: Hands\nAmmo: Cartridge\n\nRapid fire weapon for self-defense. Has a mag size of 10.",
     "form": "solid",
+    "icon": "1lAx8yNvV2aMkKocgcAE6u31JaXkJP3GiOmgE8wQAgeu",
     "stackSize": "one",
     "slug": "rifle"
   },

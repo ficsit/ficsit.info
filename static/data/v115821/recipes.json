@@ -897,6 +897,7 @@
     ],
     "duration": 32,
     "manualMultiplier": 1,
+    "icon": "7ky4sGRKFOkUEo2IAkwEK47t2X8wQGAMqeqI6KQiiIGE",
     "slug": "recipe-alternate-heat-exchanger"
   },
   "recipe-alternate-heavy-encased-frame": {
@@ -2517,6 +2518,7 @@
     ],
     "duration": 80,
     "manualMultiplier": 1,
+    "icon": "5lFrWDoadOys4iwU020sAs4TypfopM36Emu8qSAQkasq",
     "slug": "recipe-blade-runners"
   },
   "recipe-cable": {
@@ -3203,6 +3205,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "4sESZHjIVyEyScQ22mCWE4UrYWgon2UwI888igaAyIO",
     "slug": "recipe-conveyor-pole-stackable"
   },
   "recipe-conveyor-splitter": {
@@ -3354,6 +3357,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "kIv3fPhzuCs68u06yuwow1bk0CF9EEE0YcmQ0ygeSi",
     "slug": "recipe-corner-ramp-down-8m-x-1m"
   },
   "recipe-corner-ramp-down-8m-x-2m": {
@@ -3376,6 +3380,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "7ooyqZlrRCsMGAY60qM08e36eaB6OORGSOoC6GMCqg8s",
     "slug": "recipe-corner-ramp-down-8m-x-2m"
   },
   "recipe-corner-ramp-down-8m-x-4m": {
@@ -3398,6 +3403,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "4KI4C8lvYA4AcYYYAU60iYtIQCLPLqNw82a4AGMakUU",
     "slug": "recipe-corner-ramp-down-8m-x-4m"
   },
   "recipe-corner-ramp-up-8m-x-1m": {
@@ -3420,6 +3426,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "4vgSCxWoKIqcM486wm0SAAGxeX4E1tII0E4uEu6M8CG",
     "slug": "recipe-corner-ramp-up-8m-x-1m"
   },
   "recipe-corner-ramp-up-8m-x-2m": {
@@ -3442,6 +3449,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "2KmN4mgA1aSmISKcG6u8oMsVaW1n7J0O44QGqKsM4A6",
     "slug": "recipe-corner-ramp-up-8m-x-2m"
   },
   "recipe-corner-ramp-up-8m-x-4m": {
@@ -3464,6 +3472,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "3MTw0QVdduCkG8Mg6CaKUG4rCopzrp4QcKIGO4yimuSs",
     "slug": "recipe-corner-ramp-up-8m-x-4m"
   },
   "recipe-craft-bench": {
@@ -3568,6 +3577,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "3xUbHNNGtGWA8CMw8uuIu44AjPjRVk0gcK6csWmAYC2g",
     "slug": "recipe-double-ramp-8m-x-2m"
   },
   "recipe-double-ramp-8m-x-4m": {
@@ -3590,6 +3600,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "5MGYRpX4XYCuKgi68a4wwM1lCfPpMw7GoQC2yy4eAmWa",
     "slug": "recipe-double-ramp-8m-x-4m"
   },
   "recipe-double-ramp-8m-x-8m": {
@@ -3612,6 +3623,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "6HtSNl8g2kWq8GecKiYCII2HIC5d7kIoge6I4eM4soAq",
     "slug": "recipe-double-ramp-8m-x-8m"
   },
   "recipe-double-sided-wall-power-pole": {
@@ -4008,6 +4020,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "66PJDQFRy8uasEOgmgQ8Mi3qhvp4ipOg6KoCKeSUeOoG",
     "slug": "recipe-fluid-freight-platform"
   },
   "recipe-foundation-8m-x-1m": {
@@ -4030,6 +4043,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "6kgRiXDpPG66KEYgCWUsoY25Pql5R2AkQKyWeeAQUQOk",
     "slug": "recipe-foundation-8m-x-1m"
   },
   "recipe-foundation-8m-x-2m": {
@@ -4052,6 +4066,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "6amhKVh3vG4cy4oiI04GE67BpsLSzc4M4gmqSaEoKGmW",
     "slug": "recipe-foundation-8m-x-2m"
   },
   "recipe-foundation-8m-x-4m": {
@@ -4074,6 +4089,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "3LRRmgIMXmW4yUyG2oKmoqyr78QyQaT6K2caoew84WU",
     "slug": "recipe-foundation-8m-x-4m"
   },
   "recipe-foundation-frame": {
@@ -4096,6 +4112,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "3GLpwbxOtWCuk2iAUKy2ME2wUjdFR5K8cOoEOIQM4GOw",
     "slug": "recipe-foundation-frame"
   },
   "recipe-foundry": {
@@ -4165,6 +4182,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "6QYa6ouMcowKky4gyiGQWs1gapzGbZBoiYYuIaiCaMI2",
     "slug": "recipe-freight-platform"
   },
   "recipe-fuel": {
@@ -4288,6 +4306,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "SJUXbDd8WGqooC8Ew66wmLXbg8VrJaE6KuMY2Y2SeC",
     "slug": "recipe-gate-8m-x-4m"
   },
   "recipe-geo-thermal-generator": {
@@ -4349,6 +4368,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "5Ceb0OE47YQsOMMyk4wsgE6mHHiJGlWw0UQaSEOWuGs8",
     "slug": "recipe-glass-foundation-8m-x-1m"
   },
   "recipe-hazmat-suit": {
@@ -4411,6 +4431,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
+    "icon": "7ky4sGRKFOkUEo2IAkwEK47t2X8wQGAMqeqI6KQiiIGE",
     "slug": "recipe-heat-sink"
   },
   "recipe-heavy-modular-frame": {
@@ -4590,6 +4611,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "1N73ImfzIIg4yUQq4E8o825VhgPaxK6cKCkuc8qyWoGO",
     "slug": "recipe-hyper-tube-wall-hole"
   },
   "recipe-hyper-tube-wall-support": {
@@ -4616,6 +4638,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "1mIs4gRirykM2i06sM0mW8Mp0kcuz1SI2Cge6MQAYg",
     "slug": "recipe-hyper-tube-wall-support"
   },
   "recipe-industrial-fluid-buffer-1": {
@@ -4642,6 +4665,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "5CVWl5sxUWYOaS4MGyceWYtfmw8cRCp2W8swYOQ04OW",
     "slug": "recipe-industrial-fluid-buffer-1"
   },
   "recipe-industrial-fluid-buffer-2": {
@@ -4668,6 +4692,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "21dBFNV8gkSgQMWeWecQcO1GEBWQaSzKuGSE2soeaMKG",
     "slug": "recipe-industrial-fluid-buffer-2"
   },
   "recipe-industrial-storage-container": {
@@ -4717,6 +4742,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "1aC1Ft8y7aCgIEsowaowgM2HzerjwTK0AG8SYYyqEaUw",
     "slug": "recipe-inner-corner-quarter-pipe"
   },
   "recipe-inverted-inner-corner-quarter-pipe": {
@@ -4739,6 +4765,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "1Pt5uambakU2YaS8GIYWa6O7WZwYCgI682kuAAkmcGi",
     "slug": "recipe-inverted-inner-corner-quarter-pipe"
   },
   "recipe-inverted-outer-corner-quarter-pipe": {
@@ -4761,6 +4788,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "5Q6Lk6VpPGWagm0GiGqqEW1RgGVNexoUoAuGmUo0kS4c",
     "slug": "recipe-inverted-outer-corner-quarter-pipe"
   },
   "recipe-inverted-quarter-pipe": {
@@ -4783,6 +4811,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "3s0CaDSb9SooI4QwGQcScu2Cz8Gnr48I8OGYCYW8ykQC",
     "slug": "recipe-inverted-quarter-pipe"
   },
   "recipe-inverted-ramp-8m-x-1m": {
@@ -4805,6 +4834,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "19CRZ456uyGgmwCoIGsq8O5dmCt9NcGcA0Iq6AMaMmU4",
     "slug": "recipe-inverted-ramp-8m-x-1m"
   },
   "recipe-inverted-ramp-8m-x-2m": {
@@ -4827,6 +4857,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "L6cB0QPsSkWQkIukSEMUc1YO8BvX9osg8OaGuowU4kq",
     "slug": "recipe-inverted-ramp-8m-x-2m"
   },
   "recipe-inverted-ramp-8m-x-4m": {
@@ -4849,6 +4880,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "yxMD8uYzfiMOMuKWQaiQi29A118UHfeWgykmIo02Miy",
     "slug": "recipe-inverted-ramp-8m-x-4m"
   },
   "recipe-inverted-ramp-corner-8m-x-1m": {
@@ -4871,6 +4903,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "1wSAjBzafCcCEoUGo8mMCS39e5PxGcwUcyCcQeuuYWau",
     "slug": "recipe-inverted-ramp-corner-8m-x-1m"
   },
   "recipe-inverted-ramp-corner-8m-x-2m": {
@@ -4893,6 +4926,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "6YWbZWKsaQQAWkU0UkAEWQ3rLDhcZydGsEeiGQCac0GI",
     "slug": "recipe-inverted-ramp-corner-8m-x-2m"
   },
   "recipe-inverted-ramp-corner-8m-x-4m": {
@@ -4915,6 +4949,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "1lud8wGSb2G4GGeuwCaM086lvqWoLO92ca2GqSkEMWUQ",
     "slug": "recipe-inverted-ramp-corner-8m-x-4m"
   },
   "recipe-iodine-infused-filter": {
@@ -5750,6 +5785,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "5nwf1nxKA8S4MeS6EqOQaO2BLLwT9KuUU2M42qEWakUk",
     "slug": "recipe-outer-corner-quarter-pipe"
   },
   "recipe-packaged-fuel": {
@@ -6011,6 +6047,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "1R0Fc9ZcHWWKC2O4wkMwAi5D85h67rMI8eUKIGCYEAOm",
     "slug": "recipe-pillar-base"
   },
   "recipe-pillar-middle": {
@@ -6033,6 +6070,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "4YVHgagBAsc4OAiCCMWW2P8pdF8K6E8aosmY08qCmg",
     "slug": "recipe-pillar-middle"
   },
   "recipe-pillar-top": {
@@ -6055,6 +6093,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "9qH5DGa8YoucKSQSg2QeI2VPkMQRsT6YuKssGo4Yqky",
     "slug": "recipe-pillar-top"
   },
   "recipe-pipeline": {
@@ -6154,6 +6193,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "5YgOLn5Ra8iiIUyM6U6a0m2B28ABphMUaSmcKSyCKMUK",
     "slug": "recipe-pipeline-support"
   },
   "recipe-pipeline-wall-hole": {
@@ -6511,6 +6551,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "3w4Eybgv4kSuWWYegaMUWw5cAAYuEjfqiUmM0640Ck2G",
     "slug": "recipe-quarter-pipe"
   },
   "recipe-quartz-crystal": {
@@ -6679,6 +6720,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "vSG0qR6wqkYu60y4iOCY61yY27f1UgQSoKO8A64oEaO",
     "slug": "recipe-ramp-8m-x-1m"
   },
   "recipe-ramp-8m-x-2m": {
@@ -6701,6 +6743,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "1JWwnadFVmY0CmsqucMGY021Pm1tOmUAqi6eUmaAgUoi",
     "slug": "recipe-ramp-8m-x-2m"
   },
   "recipe-ramp-8m-x-4m": {
@@ -6723,6 +6766,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "fRPi0B5Bssq6qQiqCwW0Qg0YzJD1vskIskgKIwsWiE",
     "slug": "recipe-ramp-8m-x-4m"
   },
   "recipe-raw-quartz": {
@@ -6745,6 +6789,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
+    "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km",
     "slug": "recipe-raw-quartz"
   },
   "recipe-rebar-gun": {
@@ -6950,6 +6995,7 @@
     ],
     "duration": 120,
     "manualMultiplier": 1,
+    "icon": "1lAx8yNvV2aMkKocgcAE6u31JaXkJP3GiOmgE8wQAgeu",
     "slug": "recipe-rifle"
   },
   "recipe-rotor": {
@@ -7251,6 +7297,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "NmlTLYQrOSe2Aiseumo0O2IwSrZehhu0oQauwaEyaYu",
     "slug": "recipe-stackable-pipeline-support"
   },
   "recipe-stairs": {
@@ -8031,6 +8078,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "5rG5aPKj8kwqk4GcCoWCCY5JLIISExriOmU0eeQaQKOO",
     "slug": "recipe-walkway-crossing"
   },
   "recipe-walkway-ramp": {
@@ -8111,6 +8159,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "4pQvys6bZCiG6wqKcKKMYIwg6HPL0ViK66k24ck6esc",
     "slug": "recipe-walkway-t-crossing"
   },
   "recipe-walkway-turn": {
@@ -8218,6 +8267,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "4PAnxnsA3YSmq0Q2GyCwuK4ed61j3Su4MUGuEWGcWWOQ",
     "slug": "recipe-wall-conveyor-perpendicular-1"
   },
   "recipe-wall-conveyor-perpendicular-2": {
@@ -8244,6 +8294,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "3fz1DW6xiokgYYYq46m4au2CGOzpyGJYqkakYQseMKCU",
     "slug": "recipe-wall-conveyor-perpendicular-2"
   },
   "recipe-wall-conveyor-x1-1": {
@@ -8270,6 +8321,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "7IMh8z3sK4u2uOWQMysKYu4fBqsyKqwUog4Ya4A4E4Wu",
     "slug": "recipe-wall-conveyor-x1-1"
   },
   "recipe-wall-conveyor-x1-2": {
@@ -8296,6 +8348,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "2pO9W0qqEs60WkogaOYAqs4oHdBuGqoo08aOy2AE0Q2C",
     "slug": "recipe-wall-conveyor-x1-2"
   },
   "recipe-wall-conveyor-x2-1": {
@@ -8322,6 +8375,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "1keRj4WptWCMYAqOoGa8YE3WQOETgmAEaAAeC0E02g0w",
     "slug": "recipe-wall-conveyor-x2-1"
   },
   "recipe-wall-conveyor-x2-2": {
@@ -8348,6 +8402,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "CsSD8bQJ8cCQE2SMSS4os1USD03baSwCIA2Sk6KaCY0",
     "slug": "recipe-wall-conveyor-x2-2"
   },
   "recipe-wall-conveyor-x3-1": {
@@ -8374,6 +8429,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "2ruKJuh3tCuOsa6GsEgyEi4sGuSkQ0VaO6ioSkKuAWq8",
     "slug": "recipe-wall-conveyor-x3-1"
   },
   "recipe-wall-conveyor-x3-2": {
@@ -8400,6 +8456,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "WkjUyX6K2ccamSyMwowcG3TQYZWtb2gs8k4ykmyM0uG",
     "slug": "recipe-wall-conveyor-x3-2"
   },
   "recipe-wall-door-center-1": {
@@ -8426,6 +8483,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "1JTy7qkEU4A4UQ2EceCqGk50PY6a6urCQIIYcigOe8Ci",
     "slug": "recipe-wall-door-center-1"
   },
   "recipe-wall-door-center-2": {
@@ -8452,6 +8510,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "7pWxNiWTYcYwiOikAGgygg3Jq65wnxrOmMeumkwuKKM0",
     "slug": "recipe-wall-door-center-2"
   },
   "recipe-wall-door-left-1": {
@@ -8478,6 +8537,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "4BsbpfiCOcW0KQEyeSsWgy2feYuqwdPaKSyMW2swGwK0",
     "slug": "recipe-wall-door-left-1"
   },
   "recipe-wall-door-left-2": {
@@ -8504,6 +8564,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "22xHM8ByyIgE2OI6ES2Wu0x1HVHrHEha6QcCUGwA8Ae",
     "slug": "recipe-wall-door-left-2"
   },
   "recipe-wall-door-right-1": {
@@ -8530,6 +8591,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "6GEptVzSlGyMEW2uCCEsCY6lN3Si2mVGYE6MKGwgWIgI",
     "slug": "recipe-wall-door-right-1"
   },
   "recipe-wall-door-right-2": {
@@ -8556,6 +8618,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "7F4xVeXp0QW2KSsuA0WEoY7mnHJKRMDS4oo6e46mIkkY",
     "slug": "recipe-wall-door-right-2"
   },
   "recipe-wall-power-pole": {
