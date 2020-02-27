@@ -29,7 +29,7 @@ function _renderDetail(building?: Building) {
     <React.Fragment>
       <h2>{building.name}</h2>
       <BuildingImage building={building} size={256} />
-      <p>{building.description}<EntityLink entity={building} />{building.description}</p>
+      <p>{building.description}</p>
     </React.Fragment>
   )
 }
