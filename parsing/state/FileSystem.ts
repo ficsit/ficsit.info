@@ -12,7 +12,11 @@ const writeFile = util.promisify(fs.writeFile);
  * Simple container for file system methods; to aid in dependency injection.
  */
 export class FileSystem {
-  constructor(private _root: string) {}
+  private _root: string;
+
+  constructor(...rootParts: string[]) {
+    this._root = path.join(...rootParts);
+  }
 
   path(...pathParts: string[]) {
     return path.resolve(this._root, ...pathParts);

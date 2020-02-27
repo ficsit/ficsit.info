@@ -24,7 +24,7 @@ const rootStyles = css({
 });
 
 const imageContainerStyles = css({
-  margin: 8,
+  margin: 4,
   borderRadius: 3,
   backgroundColor: '#ffffff',
   padding: 2,

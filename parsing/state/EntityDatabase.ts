@@ -35,7 +35,7 @@ export class EntityDatabase {
   ) {}
 
   async load() {
-    const docsData = await this._fs.read('Docs', 'Docs.json');
+    const docsData = await this._fs.read('Docs.json');
     const docs = JSON.parse(docsData) as Docs;
 
     for (const { NativeClass, Classes } of docs) {

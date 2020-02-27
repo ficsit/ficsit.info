@@ -14,16 +14,15 @@ async function main(version: string) {
   fs.rmdirSync(destinationPath, { recursive: true });
   
   const destination = new parsing.FileSystem(destinationPath);
-  const communityResources = new parsing.FileSystem(COMMUNITY_RESOURCES);
   const assets = new parsing.FileSystem(ASSETS)
 
-  const headerDb = new parsing.HeaderDatabase(communityResources);
+  const headerDb = new parsing.HeaderDatabase(new parsing.FileSystem(COMMUNITY_RESOURCES, 'headers'));
   await headerDb.load();
   
-  const entityDb = new parsing.EntityDatabase(communityResources, headerDb);
+  const entityDb = new parsing.EntityDatabase(new parsing.FileSystem(COMMUNITY_RESOURCES, 'data'), headerDb);
   await entityDb.load();
 
-  const assetDb = new parsing.AssetDatabase(communityResources, assets);
+  const assetDb = new parsing.AssetDatabase(new parsing.FileSystem(COMMUNITY_RESOURCES, 'assets'), assets);
   const outputDb = new parsing.OutputDatabase();
 
   await parsing.fillItems(outputDb, entityDb, assetDb);
