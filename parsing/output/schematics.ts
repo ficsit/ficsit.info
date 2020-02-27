@@ -25,7 +25,7 @@ async function _buildSchematic(outputDb: OutputDatabase, entityDb: EntityDatabas
     unlocks: expandReferences(outputDb, entityDb, raw.entity.mUnlocks),
     tier: raw.entity.mTechTier,
     dependencies: expandReferences(outputDb, entityDb, raw.entity.mAdditionalSchematicDependencies),
-    shipTravelTime: raw.entity.mShipTravelTimeAfterPurchase,
+    shipTravelTime: raw.entity.mTimeToComplete,
   } as const;
 
   return schematic;

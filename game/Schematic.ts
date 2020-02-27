@@ -30,7 +30,7 @@ export const SchematicSchema = declareClass('FGSchematic', {
   mAdditionalSchematicDependencies: declareArray(declareReference()),
   mCost: declareArray(ItemAmountSchema),
   mDisplayName: declareString(),
-  mShipTravelTimeAfterPurchase: declareFloat(),
+  mTimeToComplete: declareFloat(),
   mSubCategories: declareArray(declareReference()),
   mTechTier: declareInteger(),
   mType: SchematicTypeSchema,
