@@ -43,20 +43,20 @@ export function EntityList({ entities }: EntityListProps) {
   )
 }
 
-function _renderCategory({ title, subCategories }: Category) {
+function _renderCategory({ title, subCategories }: Category, index: number) {
   return (
-    <div>
+    <div key={index}>
       <h2 css={categoryTitleStyles}>{title || 'Miscellaneous'}</h2>
       {subCategories.map(_renderSubCategory)}
     </div>
   )
 }
 
-function _renderSubCategory({ title, entities }: SubCategory) {
+function _renderSubCategory({ title, entities }: SubCategory, index: number) {
   return (
-    <div>
+    <div key={index}>
       <h3 css={subCategoryTitleStyles}>{title || 'Miscellaneous'}</h3>
-      {entities.map(entity => <EntityLink entity={entity} css={entityStyles} />)}
+      {entities.map(entity => <EntityLink key={entity.slug} entity={entity} css={entityStyles} />)}
     </div>
   )
 }
