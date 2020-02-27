@@ -26,7 +26,7 @@ export function useBuildings() {
 function _useCollection<TShape>(kind: string): TShape | undefined {
   const [state, setState] = useState(collections[kind]);
   if (!collections[kind]) {
-    fetchData(`${kind}.json`, 'v114480')
+    fetchData(`${kind}.json`, 'v115821')
       .then((data: any) => {
         collections[kind] = data;
         setState(data);

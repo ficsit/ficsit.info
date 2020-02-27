@@ -22,7 +22,7 @@ async function main(version: string) {
   const entityDb = new parsing.EntityDatabase(new parsing.FileSystem(COMMUNITY_RESOURCES, 'data'), headerDb);
   await entityDb.load();
 
-  const assetDb = new parsing.AssetDatabase(new parsing.FileSystem(COMMUNITY_RESOURCES, 'assets'), assets);
+  const assetDb = new parsing.AssetDatabase(new parsing.FileSystem(COMMUNITY_RESOURCES, 'assets', 'Game', 'FactoryGame'), assets);
   const outputDb = new parsing.OutputDatabase();
 
   await parsing.fillItems(outputDb, entityDb, assetDb);

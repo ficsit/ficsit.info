@@ -1,0 +1,1127 @@
+{
+  "adaptive-control-unit": {
+    "kind": "item",
+    "name": "Adaptive Control Unit",
+    "description": "Project Part #5. Send up the Space Elevator to complete phases of Project Assembly.",
+    "form": "solid",
+    "stackSize": "small",
+    "slug": "adaptive-control-unit"
+  },
+  "ai-limiter": {
+    "kind": "item",
+    "name": "A.I. Limiter",
+    "description": "A.I. Limiter are super advanced electronics that are used to control A.I.s and keep them from evolving in malicious ways.",
+    "form": "solid",
+    "stackSize": "medium",
+    "slug": "ai-limiter"
+  },
+  "alclad-aluminum-sheet": {
+    "kind": "item",
+    "name": "Alclad Aluminum Sheet",
+    "description": "Thin lightweight & highly durable sheet that is mainly used for products that need to be light or have high heat conduction.",
+    "form": "solid",
+    "icon": "5x1rFAdnYQgykUy6I00W807xHNK0X89qoGIS62C8yWMG",
+    "stackSize": "medium",
+    "slug": "alclad-aluminum-sheet"
+  },
+  "alien-carapace": {
+    "kind": "item",
+    "name": "Alien Carapace",
+    "description": "Thick and sturdy natural armor plates from alien creatures.",
+    "form": "solid",
+    "stackSize": "small",
+    "fuel": {
+      "energy": 250
+    },
+    "slug": "alien-carapace"
+  },
+  "alien-organs": {
+    "kind": "item",
+    "name": "Alien Organs",
+    "description": "Organs from alien creatures.",
+    "form": "solid",
+    "stackSize": "small",
+    "fuel": {
+      "energy": 250
+    },
+    "slug": "alien-organs"
+  },
+  "alumina-solution": {
+    "kind": "item",
+    "name": "Alumina Solution",
+    "description": "Dissolved Alumina, extracted from Bauxite. Can be further refined into pure Aluminum.",
+    "form": "liquid",
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa",
+    "fluid": {
+      "color": "#c1c1c1ff"
+    },
+    "slug": "alumina-solution"
+  },
+  "aluminum-ingot": {
+    "kind": "item",
+    "name": "Aluminum Ingot",
+    "description": "Aluminum Ingots are made from Aluminum Scrap. It is mostly used to produce specialized aluminum-based parts.",
+    "form": "solid",
+    "icon": "1dlvKyAE1wWCkCGkI2cs4I6A9VggMF5SAMawmKAQAIWq",
+    "stackSize": "medium",
+    "slug": "aluminum-ingot"
+  },
+  "aluminum-scrap": {
+    "kind": "item",
+    "name": "Aluminum Scrap",
+    "description": "Aluminum Scrap is pure aluminum refined from Alumina. Can be smelted down to Aluminum Ingots for industrial usage.",
+    "form": "solid",
+    "icon": "4aw8Ki6ocg8WUqmemQcAIU1bGANAb9dqmAGAgSYUqWGk",
+    "stackSize": "huge",
+    "slug": "aluminum-scrap"
+  },
+  "automated-wiring": {
+    "kind": "item",
+    "name": "Automated Wiring",
+    "description": "Project Part #3. Send up the Space Elevator to complete phases of Project Assembly.",
+    "form": "solid",
+    "stackSize": "small",
+    "slug": "automated-wiring"
+  },
+  "bacon-agaric": {
+    "kind": "item",
+    "name": "Bacon Agaric",
+    "description": "Slot: Hands\nConsumable\n\nCan be eaten to restore two health segments.",
+    "form": "solid",
+    "icon": "7IkekZcEqQoeCIEUqgu8OY7fV0aZIJq0qi8cqAYcCyQS",
+    "stackSize": "small",
+    "slug": "bacon-agaric"
+  },
+  "battery": {
+    "kind": "item",
+    "name": "Battery",
+    "description": "Batteries store an electrical charge. They are primarily used as a power source.",
+    "form": "solid",
+    "icon": "6Waajg40BGMCyWWMo4COqE25rSUil2CssoScg8IWMQK2",
+    "stackSize": "medium",
+    "fuel": {
+      "energy": 6000
+    },
+    "slug": "battery"
+  },
+  "bauxite": {
+    "kind": "item",
+    "name": "Bauxite",
+    "description": "Bauxite is turned into Aluminum Ingots via an advanced smelting process.",
+    "form": "solid",
+    "stackSize": "medium",
+    "slug": "bauxite"
+  },
+  "beacon": {
+    "kind": "item",
+    "name": "Beacon",
+    "description": "Slot: Hands\nConsumable\n\nUsed to mark areas of interest. Displayed on your compass with the color and name you set for it.",
+    "form": "solid",
+    "stackSize": "medium",
+    "slug": "beacon"
+  },
+  "beryl-nut": {
+    "kind": "item",
+    "name": "Beryl Nut",
+    "description": "Slot: Hands\nConsumable\n\nCan be eaten to restore half a health segment.",
+    "form": "solid",
+    "stackSize": "medium",
+    "slug": "beryl-nut"
+  },
+  "biomass": {
+    "kind": "item",
+    "name": "Biomass",
+    "description": "Primarily used as fuel.\nBiomass burners and vehicles can use it for power.\nBiomass is much more energy efficient than raw biological matter.",
+    "form": "solid",
+    "stackSize": "big",
+    "fuel": {
+      "energy": 180
+    },
+    "slug": "biomass"
+  },
+  "black-powder": {
+    "kind": "item",
+    "name": "Black Powder",
+    "description": "An explosive powder that is commonly used in explosives and cartridges.",
+    "form": "solid",
+    "icon": "XoMkHOPbkisYw0Os2CEC04arPLe5TAQYMYW4sMqUwCm",
+    "stackSize": "medium",
+    "slug": "black-powder"
+  },
+  "blade-runners": {
+    "kind": "item",
+    "name": "Blade Runners",
+    "description": "Slot: Body\n\nA exoskeleton for your lower legs that assist your movement, allowing you to sprint faster and jump higher.\nAlso dampens the impact of landing.",
+    "form": "solid",
+    "stackSize": "one",
+    "slug": "blade-runners"
+  },
+  "build-gun": {
+    "kind": "item",
+    "name": "Build Gun",
+    "slug": "build-gun"
+  },
+  "cable": {
+    "kind": "item",
+    "name": "Cable",
+    "description": "Used for crafting.\nPrimarily used to build power lines.",
+    "form": "solid",
+    "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ",
+    "stackSize": "medium",
+    "slug": "cable"
+  },
+  "cartridge": {
+    "kind": "item",
+    "name": "Cartridge",
+    "description": "Ammo for the Rifle.",
+    "form": "solid",
+    "icon": "6ToL2rptqo4ScSK6QUGAWW1F90Gxysdqu2MoSkIcuASW",
+    "stackSize": "small",
+    "slug": "cartridge"
+  },
+  "caterium-ingot": {
+    "kind": "item",
+    "name": "Caterium Ingot",
+    "description": "Caterium Ingots are smelted from Caterium Ore. Caterium Ingots are mostly used for advanced electronics.",
+    "form": "solid",
+    "icon": "hYVuwBz5FC64maqiOemaS7F4TmTDTcA2sUQsegK2EGM",
+    "stackSize": "medium",
+    "slug": "caterium-ingot"
+  },
+  "caterium-ore": {
+    "kind": "item",
+    "name": "Caterium Ore",
+    "description": "Caterium Ore is smelted into Caterium Ingots. Caterium Ingots are mostly used for advanced electronics.",
+    "form": "solid",
+    "stackSize": "medium",
+    "slug": "caterium-ore"
+  },
+  "chainsaw": {
+    "kind": "item",
+    "name": "Chainsaw",
+    "description": "Slot: Hands\nFuel: Biofuel\n\nUsed to clear an area of flora that is too difficult to remove by hand.",
+    "form": "solid",
+    "icon": "5lo3jAvPlmaa4S220mmMCa7630RidToWOcQc6saUo6yc",
+    "stackSize": "one",
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "slug": "chainsaw"
+  },
+  "circuit-board": {
+    "kind": "item",
+    "name": "Circuit Board",
+    "description": "Circuit Boards are advanced electronics that are used in a plethora of different ways.",
+    "form": "solid",
+    "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE",
+    "stackSize": "big",
+    "slug": "circuit-board"
+  },
+  "coal": {
+    "kind": "item",
+    "name": "Coal",
+    "description": "Mainly used as fuel for vehicles & coal generators and for steel production.",
+    "form": "solid",
+    "icon": "2ZyWO1L9F6uggGyQUoyGAAMuZHR6hC4SyWm4UumKmiQ",
+    "stackSize": "medium",
+    "fuel": {
+      "energy": 300
+    },
+    "slug": "coal"
+  },
+  "color-cartridge": {
+    "kind": "item",
+    "name": "Color Cartridge",
+    "description": "Ammo for the Color Gun.\nNecessary to change the color of factory buildings and vehicles.",
+    "form": "solid",
+    "icon": "7pt99YvvUIayUEqGEScqsw31kOSGZso8WmkS8sasI0KO",
+    "stackSize": "big",
+    "fuel": {
+      "energy": 900
+    },
+    "slug": "color-cartridge"
+  },
+  "color-gun": {
+    "kind": "item",
+    "name": "Color Gun",
+    "description": "Slot: Hands\nAmmo: Color Cartridge\n\nPaints factory buildings and vehicles. The color can be adjusted prior to painting.",
+    "form": "solid",
+    "icon": "498oVhXQLYkowyEG2O0s4I6O5ps1ZlM46wYWc8ymc2kS",
+    "stackSize": "one",
+    "slug": "color-gun"
+  },
+  "compacted-coal": {
+    "kind": "item",
+    "name": "Compacted Coal",
+    "description": "A much more efficient alternative for Coal. Used as fuel for vehicles & coal generators.",
+    "form": "solid",
+    "icon": "3NLcDIsKRyyyQUWSM2u0aixkLYJW2jy8KG6eKgOy4AE",
+    "stackSize": "medium",
+    "fuel": {
+      "energy": 630
+    },
+    "slug": "compacted-coal"
+  },
+  "computer": {
+    "kind": "item",
+    "name": "Computer",
+    "description": "A Computer is a complex logic machine that is used to control advanced behaviour in machines.",
+    "form": "solid",
+    "icon": "6vZ32C2ZkA4qwAuQ0AQkwc1bn9l350L6we4iYUWigWoS",
+    "stackSize": "small",
+    "slug": "computer"
+  },
+  "concrete": {
+    "kind": "item",
+    "name": "Concrete",
+    "description": "Used for building.\nGood for stable foundations.",
+    "form": "solid",
+    "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe",
+    "stackSize": "medium",
+    "slug": "concrete"
+  },
+  "copper-ingot": {
+    "kind": "item",
+    "name": "Copper Ingot",
+    "description": "Used for crafting.\nCrafted into the most basic parts.",
+    "form": "solid",
+    "icon": "1RtTF6zT7a0qgEICmccgA26pFCZcwKKQyUo482W4sWCC",
+    "stackSize": "medium",
+    "slug": "copper-ingot"
+  },
+  "copper-ore": {
+    "kind": "item",
+    "name": "Copper Ore",
+    "description": "Used for crafting.\nBasic resource mainly used for electricity.",
+    "form": "solid",
+    "stackSize": "medium",
+    "slug": "copper-ore"
+  },
+  "copper-sheet": {
+    "kind": "item",
+    "name": "Copper Sheet",
+    "description": "Used for crafting.\nPrimarily used for pipelines due to its high corrosion resistance.",
+    "form": "solid",
+    "icon": "2Fsos2EEnK4EUsE84WGCSM6VLdqq8rny0u400MaCO8eO",
+    "stackSize": "medium",
+    "slug": "copper-sheet"
+  },
+  "crude-oil": {
+    "kind": "item",
+    "name": "Crude Oil",
+    "description": "Crude Oil is refined into all kinds of Oil-based resources, like Fuel and Plastic.",
+    "form": "liquid",
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa",
+    "fluid": {
+      "color": "#19019ff"
+    },
+    "fuel": {
+      "energy": 0.32
+    },
+    "slug": "crude-oil"
+  },
+  "crystal-oscillator": {
+    "kind": "item",
+    "name": "Crystal Oscillator",
+    "description": "A crystal oscillator is an electronic oscillator circuit that uses the mechanical resonance of a vibrating crystal to create an electrical signal with a precise frequency.",
+    "form": "solid",
+    "icon": "7vNSzrF9PaEIyyIAq8YKmO43PgBPFVG0IueAKOsiyuS2",
+    "stackSize": "medium",
+    "slug": "crystal-oscillator"
+  },
+  "electromagnetic-control-rod": {
+    "kind": "item",
+    "name": "Electromagnetic Control Rod",
+    "description": "Control Rods regulate power expenditure via electromagnetism.",
+    "form": "solid",
+    "icon": "51sSpGM7scCQUeWGyYme241GZGQI4xz220seAIww6UEY",
+    "stackSize": "medium",
+    "slug": "electromagnetic-control-rod"
+  },
+  "empty-canister": {
+    "kind": "item",
+    "name": "Empty Canister",
+    "description": "Used to package fluids for transportation. Can be recycled.",
+    "form": "solid",
+    "icon": "3mMM4pq36oIMqU6Swyag0O7hmfEp4P5YiUqmuskGCsEi",
+    "stackSize": "medium",
+    "slug": "empty-canister"
+  },
+  "encased-industrial-beam": {
+    "kind": "item",
+    "name": "Encased Industrial Beam",
+    "description": "Encased Industrial Beams utilizes the compressive strength of concrete and tensile strength of steel simultaneously.\nMostly used as a stable basis for constructing buildings.",
+    "form": "solid",
+    "icon": "15ixr0o43o4EI6KYIckyeQ43UEoxqSByyASwWKSU6Cmk",
+    "stackSize": "medium",
+    "slug": "encased-industrial-beam"
+  },
+  "encased-uranium-cell": {
+    "kind": "item",
+    "name": "Encased Uranium Cell",
+    "description": "Uranium Cells are concrete encased uranium pellets. Primarily used to make Nuclear Fuel Rods\nModerately radioactive.",
+    "form": "solid",
+    "icon": "218uoQZdKEImEUwIaU6q8sBhPxD96k3Q2MEesYQAmI0",
+    "stackSize": "big",
+    "radioactivity": {
+      "decay": 7.5
+    },
+    "slug": "encased-uranium-cell"
+  },
+  "fabric": {
+    "kind": "item",
+    "name": "Fabric",
+    "description": "Used for equipment crafting.\nFlexible but durable fabric.",
+    "form": "solid",
+    "icon": "37PmtqQwQ0SoaI0QKu2cw83iU9sou1u8UOUiCSo0q0OI",
+    "stackSize": "medium",
+    "fuel": {
+      "energy": 15
+    },
+    "slug": "fabric"
+  },
+  "factory-cart-t": {
+    "kind": "item",
+    "name": "Factory CartT",
+    "description": "The one and only FICSIT Factory CartT\nNow with special - FICIST Foundation only - Grip Wheels, for an even smoother and faster factory floor experience!",
+    "form": "solid",
+    "stackSize": "one",
+    "slug": "factory-cart-t"
+  },
+  "filter": {
+    "kind": "item",
+    "name": "Filter",
+    "description": "Used in gas masks to filter out pollutants in the air.",
+    "form": "solid",
+    "icon": "zWOQlGAFWK6gOqwKacekM18GXoXMsowwo4OCm6gkYou",
+    "stackSize": "small",
+    "slug": "filter"
+  },
+  "flower-petals": {
+    "kind": "item",
+    "name": "Flower Petals",
+    "description": "Used for crafting.\nColorful native flower petals.",
+    "form": "solid",
+    "icon": "3ix2KKumruyG6KskooImim33vstxTcZ2yw0m2AC84Oqw",
+    "stackSize": "big",
+    "fuel": {
+      "energy": 100
+    },
+    "slug": "flower-petals"
+  },
+  "fuel": {
+    "kind": "item",
+    "name": "Fuel",
+    "description": "Fuel is either converted into electricity or as fuel for vehicles.",
+    "form": "liquid",
+    "icon": "3coM0RtyA0aQ8EKsoUo0e0643ug1BKU0ykogWcKSWaKY",
+    "fluid": {
+      "color": "#eb7d15ff"
+    },
+    "fuel": {
+      "energy": 0.6
+    },
+    "slug": "fuel"
+  },
+  "gas-mask": {
+    "kind": "item",
+    "name": "Gas mask",
+    "description": "Slot: Body\n\nAllows you to breathe normally in poison gas. Consumes Filters from your inventory when you are in poison gas.",
+    "form": "solid",
+    "icon": "6qblOzRtfOAsKeooc2a2GILPDhNWST8AUGi2UGeG6gc",
+    "stackSize": "one",
+    "slug": "gas-mask"
+  },
+  "green-power-slug": {
+    "kind": "item",
+    "name": "Green Power Slug",
+    "description": "A strange slug radiating a weak strange power.",
+    "form": "solid",
+    "stackSize": "small",
+    "slug": "green-power-slug"
+  },
+  "hazmat-suit": {
+    "kind": "item",
+    "name": "Hazmat Suit",
+    "description": "Slot: Body\n\nShields you from the adverse effects of radiation. \nConsumes Iodine Infused Filters from your inventory when you are in radioactive areas.",
+    "form": "solid",
+    "stackSize": "one",
+    "slug": "hazmat-suit"
+  },
+  "heat-sink": {
+    "kind": "item",
+    "name": "Heat Sink",
+    "description": "Used to dissipate heat faster.",
+    "form": "solid",
+    "stackSize": "medium",
+    "slug": "heat-sink"
+  },
+  "heavy-modular-frame": {
+    "kind": "item",
+    "name": "Heavy Modular Frame",
+    "description": "A more robust multi-purpose frame.",
+    "form": "solid",
+    "icon": "56Bx22YgogYaS2CGy2UkYe2OIVkU7yAECqCWmA8Uea2O",
+    "stackSize": "small",
+    "slug": "heavy-modular-frame"
+  },
+  "heavy-oil-residue": {
+    "kind": "item",
+    "name": "Heavy Oil Residue",
+    "description": "A by-product of Plastic and Rubber production. Can be further refined into Fuel and Petroleum Coke.",
+    "form": "liquid",
+    "icon": "HgXdRRk0a2uak0kUoo2Wk7k45bu16IooCi6SGKWcK4S",
+    "fluid": {
+      "color": "#6d2d78ff"
+    },
+    "fuel": {
+      "energy": 0.4
+    },
+    "slug": "heavy-oil-residue"
+  },
+  "high-speed-connector": {
+    "kind": "item",
+    "name": "High-Speed Connector",
+    "description": "The high-speed connector connects several cables and wires in a very efficient way. Uses a standard pattern so its applications are many and varied.",
+    "form": "solid",
+    "icon": "4XQHY1qNFe4sUqi0k2gU6w4WZYCTYXioqSOsSGUIaGCI",
+    "stackSize": "medium",
+    "slug": "high-speed-connector"
+  },
+  "hub-parts": {
+    "kind": "item",
+    "name": "HUB Parts",
+    "description": "The parts required to build the basic structure of the HUB.",
+    "form": "solid",
+    "icon": "2cS7QbXC7mKiS8mKck66uW4aom0uidZS0G8YQwyWGQmo",
+    "stackSize": "one",
+    "slug": "hub-parts"
+  },
+  "iodine-infused-filter": {
+    "kind": "item",
+    "name": "Iodine Infused Filter",
+    "description": "Used in hazmat suits to filter out radioactive particles in the air.",
+    "form": "solid",
+    "icon": "37hU2eM3R68o6oSOEmIqQ4nmxkLQfcsAmog2E2YUeWU",
+    "stackSize": "small",
+    "slug": "iodine-infused-filter"
+  },
+  "iron-ingot": {
+    "kind": "item",
+    "name": "Iron Ingot",
+    "description": "Used for crafting.\nCrafted into the most basic parts.",
+    "form": "solid",
+    "icon": "2IEt6n1lD2yiGccaWqugeWcpaTd3u2ukGkeaQuaua0O",
+    "stackSize": "medium",
+    "slug": "iron-ingot"
+  },
+  "iron-ore": {
+    "kind": "item",
+    "name": "Iron Ore",
+    "description": "Used for crafting.\nThe most essential basic resource.",
+    "form": "solid",
+    "stackSize": "medium",
+    "slug": "iron-ore"
+  },
+  "iron-plate": {
+    "kind": "item",
+    "name": "Iron Plate",
+    "description": "Used for crafting.\nOne of the most basic parts.",
+    "form": "solid",
+    "icon": "654X5USXiokMei8s4CEI2E6c8bRT6gfuQeci02KweQim",
+    "stackSize": "medium",
+    "slug": "iron-plate"
+  },
+  "iron-rod": {
+    "kind": "item",
+    "name": "Iron Rod",
+    "description": "Used for crafting.\nOne of the most basic parts.",
+    "form": "solid",
+    "icon": "22Iasy39jiIsO2Gq84ISoS7m9tRpEF1K8gKUoCwg4Ckq",
+    "stackSize": "medium",
+    "slug": "iron-rod"
+  },
+  "jetpack": {
+    "kind": "item",
+    "name": "Jetpack",
+    "description": "Slot: Body\n\nAllows you to move more freely in the air. Consumes Fuel when used and refills with Fuel from your inventory when you're on the ground.",
+    "form": "solid",
+    "icon": "21Qx3W1JIM8kI2kAe4I6wc5lasmxZ1M4gka0yc8amQAU",
+    "stackSize": "one",
+    "slug": "jetpack"
+  },
+  "leaves": {
+    "kind": "item",
+    "name": "Leaves",
+    "description": "Primarily used as fuel.\nBiomass Burners and vehicles can use it for power.",
+    "form": "solid",
+    "icon": "6O4ohuyjUQWqqmCEMcgc0A5mEFgO0StikOWc2sK8oiMc",
+    "stackSize": "huge",
+    "fuel": {
+      "energy": 15
+    },
+    "slug": "leaves"
+  },
+  "limestone": {
+    "kind": "item",
+    "name": "Limestone",
+    "description": "Used for crafting.\nBasic resource mainly used for stable foundations.",
+    "form": "solid",
+    "icon": "6BAPvz5Wr66qk6oOw0wiUI5agwR4fajeKUgak02qSKgy",
+    "stackSize": "medium",
+    "slug": "limestone"
+  },
+  "liquid-biofuel": {
+    "kind": "item",
+    "name": "Liquid Biofuel",
+    "description": "Fuel.\nThe most energy efficient form of biomass.",
+    "form": "liquid",
+    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6",
+    "fluid": {
+      "color": "#3b532cff"
+    },
+    "fuel": {
+      "energy": 0.75
+    },
+    "slug": "liquid-biofuel"
+  },
+  "medicinal-inhaler": {
+    "kind": "item",
+    "name": "Medicinal Inhaler",
+    "description": "Slot: Hands\nConsumable\n\nCan be inhaled to fully restore health.",
+    "form": "solid",
+    "icon": "3Ke7eCDhRCmMOqIEkecsYq5bCtttlOvCOimAGQCMyOsU",
+    "stackSize": "small",
+    "slug": "medicinal-inhaler"
+  },
+  "modular-engine": {
+    "kind": "item",
+    "name": "Modular Engine",
+    "description": "Project Part #4. Send up the Space Elevator to complete phases of Project Assembly.",
+    "form": "solid",
+    "stackSize": "small",
+    "slug": "modular-engine"
+  },
+  "modular-frame": {
+    "kind": "item",
+    "name": "Modular Frame",
+    "description": "Used for crafting.\nMulti-purpose building block.",
+    "form": "solid",
+    "icon": "4uDYe7vAYg6AI0WIukEQUK1e0aP3ONog6YSIqe6Soqis",
+    "stackSize": "small",
+    "slug": "modular-frame"
+  },
+  "motor": {
+    "kind": "item",
+    "name": "Motor",
+    "description": "The Motor creates a mechanical force that is used to move things from machines to vehicles.",
+    "form": "solid",
+    "icon": "3BkLK2VWgMAyoSasM6GeWI1MAk3rJuGEGYQQMu6SOGqi",
+    "stackSize": "small",
+    "slug": "motor"
+  },
+  "mycelia": {
+    "kind": "item",
+    "name": "Mycelia",
+    "description": "Used for crafting.\nBiomass Burners and vehicles can use it for power.",
+    "form": "solid",
+    "icon": "5LZ6EY5DPOWsq8oCQWA2Wy2XnSSKmPGEoqKmYK6GMuqQ",
+    "stackSize": "big",
+    "fuel": {
+      "energy": 20
+    },
+    "slug": "mycelia"
+  },
+  "nobelisk": {
+    "kind": "item",
+    "name": "Nobelisk",
+    "description": "Can be used with the Nobelisk Detonator to blow up cracked boulders, vegetation or other vulnerable targets.",
+    "form": "solid",
+    "icon": "4cb0G1DZO8yEoAI4AGq8uE2ZNmDrvFza0IMEkSeCG4SI",
+    "stackSize": "small",
+    "slug": "nobelisk"
+  },
+  "nobelisk-detonator": {
+    "kind": "item",
+    "name": "Nobelisk Detonator",
+    "description": "Slot: Hands\nAmmo: Nobelisk\n\nUsed to blow up cracked boulders, rocks and invasive vegetation.",
+    "form": "solid",
+    "icon": "6rPFWhWvLycQamWU4YyycM6JIP5ghGucEmsGG4UCQeIu",
+    "stackSize": "one",
+    "slug": "nobelisk-detonator"
+  },
+  "nuclear-fuel-rod": {
+    "kind": "item",
+    "name": "Nuclear Fuel Rod",
+    "description": "Nuclear Fuel Rods are used as fuel in nuclear reactors.\nVERY RADIOACTIVE",
+    "form": "solid",
+    "icon": "1SAN10lvqMuQKsya2oAmya436a9ohrtKKwSSWgIeCiwU",
+    "stackSize": "small",
+    "radioactivity": {
+      "decay": 60
+    },
+    "fuel": {
+      "energy": 750000
+    },
+    "slug": "nuclear-fuel-rod"
+  },
+  "object-scanner": {
+    "kind": "item",
+    "name": "Object Scanner",
+    "description": "Slot: Hands\n\nScans the area for a set item. Beeps at a rate proportional to proximity and direction.",
+    "form": "solid",
+    "icon": "7IpTg2MYaAQCyy2YgcYqcq1lbOBQkKdmCgsCceWSk8MM",
+    "stackSize": "one",
+    "slug": "object-scanner"
+  },
+  "packaged-fuel": {
+    "kind": "item",
+    "name": "Packaged Fuel",
+    "description": "Fuel.\nPackaged Fuel, either converted into electricity or as fuel for vehicles.",
+    "form": "solid",
+    "stackSize": "medium",
+    "fuel": {
+      "energy": 600
+    },
+    "slug": "packaged-fuel"
+  },
+  "packaged-heavy-oil-residue": {
+    "kind": "item",
+    "name": "Packaged Heavy Oil Residue",
+    "description": "Heavy Oil Residue, packaged for alternative transport.",
+    "form": "solid",
+    "icon": "HgXdRRk0a2uak0kUoo2Wk7k45bu16IooCi6SGKWcK4S",
+    "stackSize": "medium",
+    "fuel": {
+      "energy": 400
+    },
+    "slug": "packaged-heavy-oil-residue"
+  },
+  "packaged-liquid-biofuel": {
+    "kind": "item",
+    "name": "Packaged Liquid Biofuel",
+    "description": "Fuel.\nPackaged Liquid Biofuel, either converted into electricity or as fuel for vehicles.",
+    "form": "solid",
+    "stackSize": "medium",
+    "fuel": {
+      "energy": 750
+    },
+    "slug": "packaged-liquid-biofuel"
+  },
+  "packaged-oil": {
+    "kind": "item",
+    "name": "Packaged Oil",
+    "description": "Crude Oil, packaged for transportation or to be used as vehicle fuel.",
+    "form": "solid",
+    "stackSize": "medium",
+    "fuel": {
+      "energy": 320
+    },
+    "slug": "packaged-oil"
+  },
+  "packaged-turbofuel": {
+    "kind": "item",
+    "name": "Packaged Turbofuel",
+    "description": "Packaged Turbofuel, a more efficient alternative to Fuel. Used in vehicles.",
+    "form": "solid",
+    "stackSize": "medium",
+    "fuel": {
+      "energy": 2000
+    },
+    "slug": "packaged-turbofuel"
+  },
+  "packaged-water": {
+    "kind": "item",
+    "name": "Packaged Water",
+    "description": "Water, packaged for alternative transport.",
+    "form": "solid",
+    "icon": "5U61Epnkd2oIIek8EO6KsgJ3TrZQxe4SciuEQeU8AaQ",
+    "stackSize": "medium",
+    "slug": "packaged-water"
+  },
+  "paleberry": {
+    "kind": "item",
+    "name": "Paleberry",
+    "description": "Slot: Hands\nConsumable\n\nCan be eaten to restore one health segment.",
+    "form": "solid",
+    "icon": "6APXAIsXyoege6GOQcm60Y4ZY4Kny1VSauu0uwouYyOQ",
+    "stackSize": "small",
+    "slug": "paleberry"
+  },
+  "parachute": {
+    "kind": "item",
+    "name": "Parachute",
+    "description": "Slot: Body\nConsumable\n\nSlows down your fall when activated in mid-air.",
+    "form": "solid",
+    "icon": "5Hi3Z4l17yEu02gI0wIsQo5XGiyW2BZm4gYqsEei6okc",
+    "stackSize": "small",
+    "equipment": {
+      "slot": "body",
+      "cost": [
+        {
+          "item": "/Game/FactoryGame/Resource/Equipment/Beacon/Desc_Parachute.Desc_Parachute_C",
+          "count": 1
+        }
+      ]
+    },
+    "slug": "parachute"
+  },
+  "petroleum-coke": {
+    "kind": "item",
+    "name": "Petroleum Coke",
+    "description": "Used for crafting.\nA carbon-rich material distilled from Heavy Oil Residue. \nUsed as a less efficient coal replacement or for aluminum refinement.",
+    "form": "solid",
+    "icon": "4cERaoCUeQc6os2oeI2mug7t93CG5oYgKCmuEkSqc062",
+    "stackSize": "big",
+    "fuel": {
+      "energy": 180
+    },
+    "slug": "petroleum-coke"
+  },
+  "plastic": {
+    "kind": "item",
+    "name": "Plastic",
+    "description": "A versatile and easy to manufacture material that can be used for a lot of things.",
+    "form": "solid",
+    "icon": "7l2rmHqYneCUkuAEUaSqMafvf1QGi7baMI8eWAgasMm",
+    "stackSize": "medium",
+    "slug": "plastic"
+  },
+  "polymer-resin": {
+    "kind": "item",
+    "name": "Polymer Resin",
+    "description": "Used for crafting.\nA by-product of oil refinement into fuel. Commonly used to manufacture plastics.",
+    "form": "solid",
+    "icon": "6tssEAPIK48MwgkiW4cWck4dPG6Xpc1yGK2EiOcCyKCi",
+    "stackSize": "big",
+    "slug": "polymer-resin"
+  },
+  "portable-miner": {
+    "kind": "item",
+    "name": "Portable Miner",
+    "description": "Slot: Hands\n\nCan be set up on a resource node to automatically extract the resource. Very limited storage space.",
+    "form": "solid",
+    "stackSize": "one",
+    "slug": "portable-miner"
+  },
+  "power-shard": {
+    "kind": "item",
+    "name": "Power Shard",
+    "description": "Mucus from the power slugs compressed into a solid crystal-like shard. \nIt radiates a strange power.",
+    "form": "solid",
+    "stackSize": "medium",
+    "slug": "power-shard"
+  },
+  "purple-power-slug": {
+    "kind": "item",
+    "name": "Purple Power Slug",
+    "description": "A strange slug radiating a powerful strange power.",
+    "form": "solid",
+    "stackSize": "small",
+    "slug": "purple-power-slug"
+  },
+  "quartz-crystal": {
+    "kind": "item",
+    "name": "Quartz Crystal",
+    "description": "Used for radar and quantum technology.",
+    "form": "solid",
+    "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km",
+    "stackSize": "medium",
+    "slug": "quartz-crystal"
+  },
+  "quickwire": {
+    "kind": "item",
+    "name": "Quickwire",
+    "description": "Caterium's high conductivity and resistance to corrosion makes it ideal for small, advanced electronics.",
+    "form": "solid",
+    "icon": "7xQWI9C0fegwYmmoS8Wkq26rdGoXXtgk4msi6AAUUkUY",
+    "stackSize": "huge",
+    "slug": "quickwire"
+  },
+  "radio-control-unit": {
+    "kind": "item",
+    "name": "Radio Control Unit",
+    "description": "Enhances and directs radio signals",
+    "form": "solid",
+    "stackSize": "small",
+    "slug": "radio-control-unit"
+  },
+  "raw-quartz": {
+    "kind": "item",
+    "name": "Raw Quartz",
+    "description": "Raw Quartz is processed into Quartz Crystals which are used for radar and quantum technology.",
+    "form": "solid",
+    "stackSize": "medium",
+    "slug": "raw-quartz"
+  },
+  "rebar-gun": {
+    "kind": "item",
+    "name": "Rebar Gun",
+    "description": "Slot: Hands\nAmmo: Spiked Rebar\n\nImprovised ranged weapon for self defense. Has to be reloaded after each use.",
+    "form": "solid",
+    "icon": "1zdxnOKlPacEuKmwqESmam4eACU8aO92aKyq0CyayqmG",
+    "stackSize": "one",
+    "slug": "rebar-gun"
+  },
+  "reinforced-iron-plate": {
+    "kind": "item",
+    "name": "Reinforced Iron Plate",
+    "description": "Used for crafting.\nA sturdier and more durable Iron Plate.",
+    "form": "solid",
+    "icon": "DpiCnZTAhq6Q2ssmA40ck5dYXGBigKsW6KMGCkm8uqc",
+    "stackSize": "medium",
+    "slug": "reinforced-iron-plate"
+  },
+  "rifle": {
+    "kind": "item",
+    "name": "Rifle",
+    "description": "Slot: Hands\nAmmo: Cartridge\n\nRapid fire weapon for self-defense. Has a mag size of 10.",
+    "form": "solid",
+    "stackSize": "one",
+    "slug": "rifle"
+  },
+  "rotor": {
+    "kind": "item",
+    "name": "Rotor",
+    "description": "Used for crafting.\nThe moving parts of a motor.",
+    "form": "solid",
+    "icon": "OgqyQ7r2wwSwq8OMIKkUk4WXk7Z4FbOsic2AE0u0o6U",
+    "stackSize": "medium",
+    "slug": "rotor"
+  },
+  "rubber": {
+    "kind": "item",
+    "name": "Rubber",
+    "description": "Rubber is a material that is very flexible and has a lot of friction.",
+    "form": "solid",
+    "icon": "1VyrgwLHgUoKUQCssgcqEu1hrYGNAgsqA2OgGowgUkew",
+    "stackSize": "medium",
+    "slug": "rubber"
+  },
+  "screw": {
+    "kind": "item",
+    "name": "Screw",
+    "description": "Used for crafting.\nOne of the most basic parts.",
+    "form": "solid",
+    "icon": "3CIfE8K1Hy6gMa8Wm2SKAW13hK22ceCk0se0igMMmKoc",
+    "stackSize": "huge",
+    "slug": "screw"
+  },
+  "silica": {
+    "kind": "item",
+    "name": "Silica",
+    "description": "Derived from quartz, commonly used in structural materials and microelectronics.",
+    "form": "solid",
+    "icon": "1MA5DTcAxKqImsIQmwoy4u263hXLjnTmSWsmY8Uc66yU",
+    "stackSize": "medium",
+    "slug": "silica"
+  },
+  "smart-plating": {
+    "kind": "item",
+    "name": "Smart Plating",
+    "description": "Project Part #1. Send up the Space Elevator to complete phases of Project Assembly.",
+    "form": "solid",
+    "stackSize": "small",
+    "slug": "smart-plating"
+  },
+  "solid-biofuel": {
+    "kind": "item",
+    "name": "Solid Biofuel",
+    "description": "Fuel.\nThe most energy efficient form of solid biomass.",
+    "form": "solid",
+    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6",
+    "stackSize": "big",
+    "fuel": {
+      "energy": 450
+    },
+    "slug": "solid-biofuel"
+  },
+  "spiked-rebar": {
+    "kind": "item",
+    "name": "Spiked Rebar",
+    "description": "Ammo for the Rebar Gun.",
+    "form": "solid",
+    "icon": "1bWG8QbSVsiywqogMGweWi783FQZseekeGw2GomuOI2c",
+    "stackSize": "small",
+    "slug": "spiked-rebar"
+  },
+  "stator": {
+    "kind": "item",
+    "name": "Stator",
+    "description": "The static parts of a motor",
+    "form": "solid",
+    "icon": "5uQCS3rUYgEe46y6Si2swI7vV0osgpxY2MA8i0mO0WUo",
+    "stackSize": "medium",
+    "slug": "stator"
+  },
+  "steel-beam": {
+    "kind": "item",
+    "name": "Steel Beam",
+    "description": "Steel Beams are used most often when constructing a little more advanced buildings.",
+    "form": "solid",
+    "icon": "72rbdMX8IgakCYsMKcS2GM100ux7ugpocOQAMO8SyKcU",
+    "stackSize": "medium",
+    "slug": "steel-beam"
+  },
+  "steel-ingot": {
+    "kind": "item",
+    "name": "Steel Ingot",
+    "description": "Steel Ingots are made from Iron Ore that's been smelted with Coal. They are made into several parts used in building construction.",
+    "form": "solid",
+    "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0",
+    "stackSize": "medium",
+    "slug": "steel-ingot"
+  },
+  "steel-pipe": {
+    "kind": "item",
+    "name": "Steel Pipe",
+    "description": "Steel Pipes are used most often when constructing a little more advanced buildings.",
+    "form": "solid",
+    "icon": "2yJdFh2GbOaiWegyi6MMcg3h649gbq40eSGuOQCiE2UI",
+    "stackSize": "medium",
+    "slug": "steel-pipe"
+  },
+  "sulfur": {
+    "kind": "item",
+    "name": "Sulfur",
+    "description": "Sulfur is primarily used for Gunpowder.",
+    "form": "solid",
+    "icon": "zIWbiVBnnEsiQy4MSooAS7mVmxEg27SISYawA0AgUe0",
+    "stackSize": "medium",
+    "slug": "sulfur"
+  },
+  "sulfuric-acid": {
+    "kind": "item",
+    "name": "Sulfuric Acid",
+    "description": "A liquid mostly used to extract elements from ore.",
+    "form": "liquid",
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa",
+    "fluid": {
+      "color": "#ffff0ff"
+    },
+    "slug": "sulfuric-acid"
+  },
+  "supercomputer": {
+    "kind": "item",
+    "name": "Supercomputer",
+    "description": "The supercomputer is the next-gen version of the computer.",
+    "form": "solid",
+    "icon": "2a9pmNYGikcOKyoeGGGmKq1IBF81BuKIuEKcaYMCMaIE",
+    "stackSize": "small",
+    "slug": "supercomputer"
+  },
+  "turbo-motor": {
+    "kind": "item",
+    "name": "Turbo Motor",
+    "description": "The Turbo Motor is a more complex, and more powerful, version of the regular Motor.",
+    "form": "solid",
+    "icon": "3VDejjgSzSI2kUiesoCEcU3IMyjwZdH2I6siqQc6uWK6",
+    "stackSize": "small",
+    "slug": "turbo-motor"
+  },
+  "turbofuel": {
+    "kind": "item",
+    "name": "Turbofuel",
+    "description": "A more efficient alternative to Fuel. Used in Fuel Generators.",
+    "form": "liquid",
+    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa",
+    "fluid": {
+      "color": "#d4292eff"
+    },
+    "fuel": {
+      "energy": 2
+    },
+    "slug": "turbofuel"
+  },
+  "uranium": {
+    "kind": "item",
+    "name": "Uranium",
+    "description": "Uranium is radioactive. Mainly used in Nuclear Power Plants.",
+    "form": "solid",
+    "icon": "20u6vMIqsogSqseamEMm4I3B61XsOBeEy0kIm8ekw2qc",
+    "stackSize": "medium",
+    "radioactivity": {
+      "decay": 15
+    },
+    "slug": "uranium"
+  },
+  "uranium-pellet": {
+    "kind": "item",
+    "name": "Uranium Pellet",
+    "description": "Uranium Pellets are purified and casted from Uranium Ore. Primarily used to make Uranium Cells.\nModerately radioactive.",
+    "form": "solid",
+    "icon": "7ILX0I6Swo8kg8AqyuWqmK5mSLVTw5H2oSsWaA2Gqmus",
+    "stackSize": "big",
+    "radioactivity": {
+      "decay": 7.5
+    },
+    "slug": "uranium-pellet"
+  },
+  "versatile-framework": {
+    "kind": "item",
+    "name": "Versatile Framework",
+    "description": "Project Part #2. Send up the Space Elevator to complete phases of Project Assembly.",
+    "form": "solid",
+    "stackSize": "small",
+    "slug": "versatile-framework"
+  },
+  "water": {
+    "kind": "item",
+    "name": "Water",
+    "description": "It's water.",
+    "form": "liquid",
+    "icon": "5U61Epnkd2oIIek8EO6KsgJ3TrZQxe4SciuEQeU8AaQ",
+    "fluid": {
+      "color": "#7ab0d4ff"
+    },
+    "slug": "water"
+  },
+  "wire": {
+    "kind": "item",
+    "name": "Wire",
+    "description": "Used for crafting.\nOne of the most basic parts.",
+    "form": "solid",
+    "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS",
+    "stackSize": "huge",
+    "slug": "wire"
+  },
+  "wood": {
+    "kind": "item",
+    "name": "Wood",
+    "description": "Primarily used as fuel.\nBiomass Burners and vehicles can use it for power.",
+    "form": "solid",
+    "icon": "3F2dJ9UtHyCYw2wAASsisM1hXHwsLidkka08ai6gc02U",
+    "stackSize": "medium",
+    "fuel": {
+      "energy": 100
+    },
+    "slug": "wood"
+  },
+  "xeno-basher": {
+    "kind": "item",
+    "name": "Xeno-Basher",
+    "description": "Slot: Hands\n\nHeavy electroshock self defense weapon for melee range.",
+    "form": "solid",
+    "icon": "4Aw4CX94mk2WmWqGAogcqS6nh63wP2cE2qa2CqKig0I0",
+    "stackSize": "one",
+    "slug": "xeno-basher"
+  },
+  "xeno-zapper": {
+    "kind": "item",
+    "name": "Xeno-Zapper",
+    "description": "Slot: Hands\n\nStandard issue electroshock self defense weapon for melee range.",
+    "form": "solid",
+    "icon": "3VrCWG0u0E0GQI82QiqOwc4KAHIq7gGsycw84OGSU4Wy",
+    "stackSize": "one",
+    "slug": "xeno-zapper"
+  },
+  "yellow-power-slug": {
+    "kind": "item",
+    "name": "Yellow Power Slug",
+    "description": "A strange slug radiating a strange power.",
+    "form": "solid",
+    "stackSize": "small",
+    "slug": "yellow-power-slug"
+  }
+}
