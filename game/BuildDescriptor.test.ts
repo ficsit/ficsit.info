@@ -14,7 +14,6 @@ describe(`schema.BuildDescriptor`, () => {
       mRememberPickUp: "False",
       mEnergyValue: "0.000000",
       mRadioactiveDecay: "0.000000",
-      mResourceSinkPoints: "1",
       mForm: "RF_INVALID",
       mFluidDensity: "1.000000",
       mFluidViscosity: "1.000000",
@@ -36,7 +35,6 @@ describe(`schema.BuildDescriptor`, () => {
       mForm: "RF_INVALID",
       mRadioactiveDecay: 0.0,
       mRememberPickUp: false,
-      mResourceSinkPoints: 1,
       mStackSize: "SS_MEDIUM",
       mSubCategories: [
         new Reference('/Game/FactoryGame/Interface/UI/InGame/BuildMenu/BuildCategories/Sub_Organisation/SC_Walkways.SC_Walkways_C', 'BlueprintGeneratedClass'),

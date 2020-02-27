@@ -63,7 +63,7 @@ export function declareClass<
       for (const [key, itemDeclaration] of Object.entries(declaration)) {
         if (!(key in raw)) {
           if (requiredKeys.has(key)) {
-            throw new TypeAssertionError(raw, `to have keys: ${format(Array.from(requiredKeys))} (missing ${key})`);
+            throw new TypeAssertionError(raw, `to have keys: ${format(Array.from(requiredKeys))} (missing ${key} for ${className})`);
           } else {
             continue;
           }

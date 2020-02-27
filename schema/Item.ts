@@ -18,11 +18,6 @@ export interface Item extends Indexable {
   form: ItemForm;
 
   /**
-   * Number of points awarded when fed into a resource sink.
-   */
-  sinkPoints: number;
-
-  /**
    * The maximum stack size of the item, if stackable.
    */
   stackSize?: ItemStackSize;

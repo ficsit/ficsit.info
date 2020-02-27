@@ -11,7 +11,6 @@ describe(`schema.ItemDescriptor`, () => {
       mRememberPickUp: "False",
       mEnergyValue: "0.600000",
       mRadioactiveDecay: "0.000000",
-      mResourceSinkPoints: "1",
       mForm: "RF_LIQUID",
       mFluidDensity: "1.000000",
       mFluidViscosity: "2.000000",
@@ -32,7 +31,6 @@ describe(`schema.ItemDescriptor`, () => {
       mForm: 'RF_LIQUID',
       mRadioactiveDecay: 0.0,
       mRememberPickUp: false,
-      mResourceSinkPoints: 1,
       mStackSize: 'SS_FLUID',
     });
   });

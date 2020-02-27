@@ -1,4 +1,4 @@
-import { declareClass, DeclarationShape, declareBoolean, declareString, declareFloat, declareEnum, declareInteger } from './declare';
+import { declareClass, DeclarationShape, declareBoolean, declareString, declareFloat, declareEnum } from './declare';
 import { ColorSchema } from './Color';
 
 /**
@@ -46,7 +46,6 @@ export const ItemDescriptorSchema = declareClass('FGItemDescriptor', {
   mForm: ResourceFormSchema,
   mRadioactiveDecay: declareFloat(),
   mRememberPickUp: declareBoolean(),
-  mResourceSinkPoints: declareInteger(),
   mStackSize: StackSizeSchema,
 });
 

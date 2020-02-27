@@ -24,7 +24,6 @@ async function _buildItem(entityDb: EntityDatabase, assetDb: AssetDatabase, raw:
     name: raw.entity.mDisplayName,
     description: raw.entity.mDescription,
     form: mapItemForm(raw.entity.mForm),
-    sinkPoints: raw.entity.mResourceSinkPoints,
   } as const;
 
   const icon = await assetDb.findLargestEntityIcon(raw);
