@@ -516,6 +516,7 @@
     "kind": "building",
     "slug": "double-sided-wall-power-pole",
     "name": "Double-sided Wall Power Pole",
+    "icon": "6oNiZSYSyWKw8MO6Q0OasQ6YMzMdnaecmcmawi8WSCgw",
     "categories": [
       "Power",
       "WallPoles"
@@ -524,12 +525,14 @@
   {
     "kind": "building",
     "slug": "double-sided-wall-power-pole-mk2",
-    "name": "Double-sided Wall Power Pole Mk.2"
+    "name": "Double-sided Wall Power Pole Mk.2",
+    "icon": "7JYTFs3kdOumekOeUaMEM21JMc9A59XOMOukqQ4uk4C8"
   },
   {
     "kind": "building",
     "slug": "double-sided-wall-power-pole-mk3",
-    "name": "Double-sided Wall Power Pole Mk.3"
+    "name": "Double-sided Wall Power Pole Mk.3",
+    "icon": "7lDx8vO7JYMm2kOqwwg2g42goZDSpYzy8u2Qg0a4osMk"
   },
   {
     "kind": "item",
@@ -677,7 +680,7 @@
     "kind": "item",
     "slug": "fuel",
     "name": "Fuel",
-    "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS"
+    "icon": "3coM0RtyA0aQ8EKsoUo0e0643ug1BKU0ykogWcKSWaKY"
   },
   {
     "kind": "building",
@@ -798,7 +801,6 @@
     "kind": "building",
     "slug": "hyper-tube-wall-hole",
     "name": "Hyper Tube Wall Hole",
-    "icon": "1N73ImfzIIg4yUQq4E8o825VhgPaxK6cKCkuc8qyWoGO",
     "categories": [
       "Transport",
       "HyperTubes"
@@ -808,7 +810,6 @@
     "kind": "building",
     "slug": "hyper-tube-wall-support",
     "name": "Hyper Tube Wall Support",
-    "icon": "1mIs4gRirykM2i06sM0mW8Mp0kcuz1SI2Cge6MQAYg",
     "categories": [
       "Transport",
       "HyperTubes"
@@ -882,7 +883,6 @@
     "kind": "building",
     "slug": "inverted-ramp-8m-x-1m",
     "name": "Inverted Ramp 8m x 1m",
-    "icon": "19CRZ456uyGgmwCoIGsq8O5dmCt9NcGcA0Iq6AMaMmU4",
     "categories": [
       "Organisation",
       "Ramps"
@@ -1429,7 +1429,6 @@
     "kind": "building",
     "slug": "ramp-8m-x-4m",
     "name": "Ramp 8m x 4m",
-    "icon": "1lud8wGSb2G4GGeuwCaM086lvqWoLO92ca2GqSkEMWUQ",
     "categories": [
       "Organisation",
       "Ramps"
@@ -1569,7 +1568,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-alternate-crystal-beacon",
-    "name": "Alternate: Crystal Beacon"
+    "name": "Alternate: Crystal Beacon",
+    "icon": "1OwicP8qRS6ycu8GwSaaG2T5M9IB9uA8YAIIYAE2oUk"
   },
   {
     "kind": "recipe",
@@ -1765,7 +1765,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-alternate-radio-control-system",
-    "name": "Alternate: Radio Control System"
+    "name": "Alternate: Radio Control System",
+    "icon": "4PLCuCwLcICmGsS4Uikm2a6aJmlhBrt6WQQ0iWSKSse"
   },
   {
     "kind": "recipe",
@@ -2233,17 +2234,20 @@
   {
     "kind": "recipe",
     "slug": "recipe-double-sided-wall-power-pole",
-    "name": "Double-sided Wall Power Pole"
+    "name": "Double-sided Wall Power Pole",
+    "icon": "6oNiZSYSyWKw8MO6Q0OasQ6YMzMdnaecmcmawi8WSCgw"
   },
   {
     "kind": "recipe",
     "slug": "recipe-double-sided-wall-power-pole-mk2",
-    "name": "Double-sided Wall Power Pole Mk.2"
+    "name": "Double-sided Wall Power Pole Mk.2",
+    "icon": "7JYTFs3kdOumekOeUaMEM21JMc9A59XOMOukqQ4uk4C8"
   },
   {
     "kind": "recipe",
     "slug": "recipe-double-sided-wall-power-pole-mk3",
-    "name": "Double-sided Wall Power Pole Mk.3"
+    "name": "Double-sided Wall Power Pole Mk.3",
+    "icon": "7lDx8vO7JYMm2kOqwwg2g42goZDSpYzy8u2Qg0a4osMk"
   },
   {
     "kind": "recipe",
@@ -2345,7 +2349,7 @@
     "kind": "recipe",
     "slug": "recipe-fuel",
     "name": "Fuel",
-    "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS"
+    "icon": "3coM0RtyA0aQ8EKsoUo0e0643ug1BKU0ykogWcKSWaKY"
   },
   {
     "kind": "recipe",
@@ -2419,14 +2423,12 @@
   {
     "kind": "recipe",
     "slug": "recipe-hyper-tube-wall-hole",
-    "name": "Hyper Tube Wall Hole",
-    "icon": "1N73ImfzIIg4yUQq4E8o825VhgPaxK6cKCkuc8qyWoGO"
+    "name": "Hyper Tube Wall Hole"
   },
   {
     "kind": "recipe",
     "slug": "recipe-hyper-tube-wall-support",
-    "name": "Hyper Tube Wall Support",
-    "icon": "1mIs4gRirykM2i06sM0mW8Mp0kcuz1SI2Cge6MQAYg"
+    "name": "Hyper Tube Wall Support"
   },
   {
     "kind": "recipe",
@@ -2467,8 +2469,7 @@
   {
     "kind": "recipe",
     "slug": "recipe-inverted-ramp-8m-x-1m",
-    "name": "Inverted Ramp 8m x 1m",
-    "icon": "19CRZ456uyGgmwCoIGsq8O5dmCt9NcGcA0Iq6AMaMmU4"
+    "name": "Inverted Ramp 8m x 1m"
   },
   {
     "kind": "recipe",
@@ -2874,8 +2875,7 @@
   {
     "kind": "recipe",
     "slug": "recipe-ramp-8m-x-4m",
-    "name": "Ramp 8m x 4m",
-    "icon": "1lud8wGSb2G4GGeuwCaM086lvqWoLO92ca2GqSkEMWUQ"
+    "name": "Ramp 8m x 4m"
   },
   {
     "kind": "recipe",
@@ -2996,12 +2996,14 @@
   {
     "kind": "recipe",
     "slug": "recipe-stairs-left",
-    "name": "Stairs Left"
+    "name": "Stairs Left",
+    "icon": "5T7zn6YLuMgqKGagUEuo20SADfT93CMKiksy4yimEYu"
   },
   {
     "kind": "recipe",
     "slug": "recipe-stairs-right",
-    "name": "Stairs Right"
+    "name": "Stairs Right",
+    "icon": "2zQDUa0flKYsqSCikCUCso55LbmvYqs8cOCgCASkOICG"
   },
   {
     "kind": "recipe",
@@ -3260,17 +3262,20 @@
   {
     "kind": "recipe",
     "slug": "recipe-wall-power-pole",
-    "name": "Wall Power Pole"
+    "name": "Wall Power Pole",
+    "icon": "7qCSyro9oIAwo4OoOQo4M8ZmglBfHMyasEUymWAGAiy"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-power-pole-mk2",
-    "name": "Wall Power Pole Mk.2"
+    "name": "Wall Power Pole Mk.2",
+    "icon": "43mBi8xxGMQ0QsmkiogeEY2pi5ekf9Z2GK2yWc22yaqC"
   },
   {
     "kind": "recipe",
     "slug": "recipe-wall-power-pole-mk3",
-    "name": "Wall Power Pole Mk.3"
+    "name": "Wall Power Pole Mk.3",
+    "icon": "c4IRE7kSYgSySOIegIOa81p9uv9VhcAOwu6yE6eEgcC"
   },
   {
     "kind": "recipe",
@@ -4720,6 +4725,7 @@
     "kind": "building",
     "slug": "stairs-left",
     "name": "Stairs Left",
+    "icon": "5T7zn6YLuMgqKGagUEuo20SADfT93CMKiksy4yimEYu",
     "categories": [
       "Organisation",
       "Stair"
@@ -4729,6 +4735,7 @@
     "kind": "building",
     "slug": "stairs-right",
     "name": "Stairs Right",
+    "icon": "2zQDUa0flKYsqSCikCUCso55LbmvYqs8cOCgCASkOICG",
     "categories": [
       "Organisation",
       "Stair"
@@ -5059,6 +5066,7 @@
     "kind": "building",
     "slug": "wall-power-pole",
     "name": "Wall Power Pole",
+    "icon": "7qCSyro9oIAwo4OoOQo4M8ZmglBfHMyasEUymWAGAiy",
     "categories": [
       "Power",
       "WallPoles"
@@ -5067,12 +5075,14 @@
   {
     "kind": "building",
     "slug": "wall-power-pole-mk2",
-    "name": "Wall Power Pole Mk.2"
+    "name": "Wall Power Pole Mk.2",
+    "icon": "43mBi8xxGMQ0QsmkiogeEY2pi5ekf9Z2GK2yWc22yaqC"
   },
   {
     "kind": "building",
     "slug": "wall-power-pole-mk3",
-    "name": "Wall Power Pole Mk.3"
+    "name": "Wall Power Pole Mk.3",
+    "icon": "c4IRE7kSYgSySOIegIOa81p9uv9VhcAOwu6yE6eEgcC"
   },
   {
     "kind": "building",

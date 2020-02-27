@@ -449,18 +449,21 @@
       "WallPoles"
     ],
     "listOrder": 4,
+    "icon": "6oNiZSYSyWKw8MO6Q0OasQ6YMzMdnaecmcmawi8WSCgw",
     "slug": "double-sided-wall-power-pole"
   },
   "double-sided-wall-power-pole-mk2": {
     "kind": "building",
     "name": "Double-sided Wall Power Pole Mk.2",
     "description": "Power Pole that attaches to a wall. Has one connector on each side of the wall.\n\nCan handle up to 7 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "icon": "7JYTFs3kdOumekOeUaMEM21JMc9A59XOMOukqQ4uk4C8",
     "slug": "double-sided-wall-power-pole-mk2"
   },
   "double-sided-wall-power-pole-mk3": {
     "kind": "building",
     "name": "Double-sided Wall Power Pole Mk.3",
     "description": "Power Pole that attaches to a wall. Has one connector on each side of the wall.\n\nCan handle up to 10 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "icon": "7lDx8vO7JYMm2kOqwwg2g42goZDSpYzy8u2Qg0a4osMk",
     "slug": "double-sided-wall-power-pole-mk3"
   },
   "empty-platform": {
@@ -700,7 +703,6 @@
       "HyperTubes"
     ],
     "listOrder": 6,
-    "icon": "1N73ImfzIIg4yUQq4E8o825VhgPaxK6cKCkuc8qyWoGO",
     "slug": "hyper-tube-wall-hole"
   },
   "hyper-tube-wall-support": {
@@ -712,7 +714,6 @@
       "HyperTubes"
     ],
     "listOrder": 5,
-    "icon": "1mIs4gRirykM2i06sM0mW8Mp0kcuz1SI2Cge6MQAYg",
     "slug": "hyper-tube-wall-support"
   },
   "industrial-fluid-buffer-1": {
@@ -806,7 +807,6 @@
       "Ramps"
     ],
     "listOrder": 94,
-    "icon": "19CRZ456uyGgmwCoIGsq8O5dmCt9NcGcA0Iq6AMaMmU4",
     "slug": "inverted-ramp-8m-x-1m"
   },
   "inverted-ramp-8m-x-2m": {
@@ -1259,7 +1259,6 @@
       "Ramps"
     ],
     "listOrder": 94,
-    "icon": "1lud8wGSb2G4GGeuwCaM086lvqWoLO92ca2GqSkEMWUQ",
     "slug": "ramp-8m-x-4m"
   },
   "refinery": {
@@ -1351,6 +1350,7 @@
       "Stair"
     ],
     "listOrder": 96,
+    "icon": "5T7zn6YLuMgqKGagUEuo20SADfT93CMKiksy4yimEYu",
     "slug": "stairs-left"
   },
   "stairs-right": {
@@ -1362,6 +1362,7 @@
       "Stair"
     ],
     "listOrder": 96,
+    "icon": "2zQDUa0flKYsqSCikCUCso55LbmvYqs8cOCgCASkOICG",
     "slug": "stairs-right"
   },
   "storage-container": {
@@ -1695,18 +1696,21 @@
       "WallPoles"
     ],
     "listOrder": 1,
+    "icon": "7qCSyro9oIAwo4OoOQo4M8ZmglBfHMyasEUymWAGAiy",
     "slug": "wall-power-pole"
   },
   "wall-power-pole-mk2": {
     "kind": "building",
     "name": "Wall Power Pole Mk.2",
     "description": "Power Pole that attaches to a wall.\n\nCan handle up to 7 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "icon": "43mBi8xxGMQ0QsmkiogeEY2pi5ekf9Z2GK2yWc22yaqC",
     "slug": "wall-power-pole-mk2"
   },
   "wall-power-pole-mk3": {
     "kind": "building",
     "name": "Wall Power Pole Mk.3",
     "description": "Power Pole that attaches to a wall.\n\nCan handle up to 10 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
+    "icon": "c4IRE7kSYgSySOIegIOa81p9uv9VhcAOwu6yE6eEgcC",
     "slug": "wall-power-pole-mk3"
   },
   "wall-window-8m-x-4m-01": {
