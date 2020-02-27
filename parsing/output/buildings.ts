@@ -41,7 +41,7 @@ async function _buildBuilding(outputDb: OutputDatabase, entityDb: EntityDatabase
     listOrder: descriptor?.entity.mBuildMenuPriority,
   } as const;
 
-  const icon = await assetDb.findLargestEntityIcon(descriptor || raw);
+  const icon = await assetDb.findLargestEntityIcon(descriptor || raw, raw.entity.mDisplayName);
   if (icon) {
     const image= await assetDb.saveImage(icon);
     _assign(building, 'icon', image);

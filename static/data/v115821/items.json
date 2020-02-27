@@ -4,6 +4,7 @@
     "name": "Adaptive Control Unit",
     "description": "Project Part #5. Send up the Space Elevator to complete phases of Project Assembly.",
     "form": "solid",
+    "icon": "iUT79ZO9DGwiAYeaqe0Q2HV47m6CsKYgAOMiiiOEMu",
     "stackSize": "small",
     "slug": "adaptive-control-unit"
   },
@@ -12,6 +13,7 @@
     "name": "A.I. Limiter",
     "description": "A.I. Limiter are super advanced electronics that are used to control A.I.s and keep them from evolving in malicious ways.",
     "form": "solid",
+    "icon": "h8ltD2kwsocsa80SUkM0i9Y3kkvCCXucaMMYIaOiWk",
     "stackSize": "medium",
     "slug": "ai-limiter"
   },
@@ -29,6 +31,7 @@
     "name": "Alien Carapace",
     "description": "Thick and sturdy natural armor plates from alien creatures.",
     "form": "solid",
+    "icon": "20rBen2YR2i6KoKm2wyQKW3V4V6gB32EgY2ycWoougW4",
     "stackSize": "small",
     "fuel": {
       "energy": 250
@@ -40,6 +43,7 @@
     "name": "Alien Organs",
     "description": "Organs from alien creatures.",
     "form": "solid",
+    "icon": "29qRE0EGEMgEOScsoaagKSqNAlz5U58cUMeuS26EqwQ",
     "stackSize": "small",
     "fuel": {
       "energy": 250
@@ -80,6 +84,7 @@
     "name": "Automated Wiring",
     "description": "Project Part #3. Send up the Space Elevator to complete phases of Project Assembly.",
     "form": "solid",
+    "icon": "4fgmzNq4WIa66YUgIImImk61hkG4YTwA6kAyisIuYQIg",
     "stackSize": "small",
     "slug": "automated-wiring"
   },
@@ -109,6 +114,7 @@
     "name": "Bauxite",
     "description": "Bauxite is turned into Aluminum Ingots via an advanced smelting process.",
     "form": "solid",
+    "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG",
     "stackSize": "medium",
     "slug": "bauxite"
   },
@@ -117,6 +123,7 @@
     "name": "Beacon",
     "description": "Slot: Hands\nConsumable\n\nUsed to mark areas of interest. Displayed on your compass with the color and name you set for it.",
     "form": "solid",
+    "icon": "1OwicP8qRS6ycu8GwSaaG2T5M9IB9uA8YAIIYAE2oUk",
     "stackSize": "medium",
     "slug": "beacon"
   },
@@ -125,6 +132,7 @@
     "name": "Beryl Nut",
     "description": "Slot: Hands\nConsumable\n\nCan be eaten to restore half a health segment.",
     "form": "solid",
+    "icon": "6reGACriHmkKUGYcMSsicW6Fn1lCpiN2YigYk0qQAK40",
     "stackSize": "medium",
     "slug": "beryl-nut"
   },
@@ -133,6 +141,7 @@
     "name": "Biomass",
     "description": "Primarily used as fuel.\nBiomass burners and vehicles can use it for power.\nBiomass is much more energy efficient than raw biological matter.",
     "form": "solid",
+    "icon": "4ff4unZxnqSmSoGm6W4AQgzloiZPat9uEKiYcG2UGks",
     "stackSize": "big",
     "fuel": {
       "energy": 180
@@ -193,6 +202,7 @@
     "name": "Caterium Ore",
     "description": "Caterium Ore is smelted into Caterium Ingots. Caterium Ingots are mostly used for advanced electronics.",
     "form": "solid",
+    "icon": "6HkuY8ol3yKQywiSAmCE4M187rTIVuw0wI6waiQMW4Ak",
     "stackSize": "medium",
     "slug": "caterium-ore"
   },
@@ -295,6 +305,7 @@
     "name": "Copper Ore",
     "description": "Used for crafting.\nBasic resource mainly used for electricity.",
     "form": "solid",
+    "icon": "2KrBJL1WzeSYGMAmCQoowE4vhlksjXcckkuAu8SayuWU",
     "stackSize": "medium",
     "slug": "copper-ore"
   },
@@ -386,6 +397,7 @@
     "name": "Factory CartT",
     "description": "The one and only FICSIT Factory CartT\nNow with special - FICIST Foundation only - Grip Wheels, for an even smoother and faster factory floor experience!",
     "form": "solid",
+    "icon": "1x3dDGmWOome66ykE0C8gA4Rwu8YmGYUKgwGWu6yOwO6",
     "stackSize": "one",
     "slug": "factory-cart-t"
   },
@@ -415,7 +427,7 @@
     "name": "Fuel",
     "description": "Fuel is either converted into electricity or as fuel for vehicles.",
     "form": "liquid",
-    "icon": "3coM0RtyA0aQ8EKsoUo0e0643ug1BKU0ykogWcKSWaKY",
+    "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS",
     "fluid": {
       "color": "#eb7d15ff"
     },
@@ -438,6 +450,7 @@
     "name": "Green Power Slug",
     "description": "A strange slug radiating a weak strange power.",
     "form": "solid",
+    "icon": "7FTqy4RtlYYcCwGQiEc4my469rwnX1GU4UkGe6AIMAsK",
     "stackSize": "small",
     "slug": "green-power-slug"
   },
@@ -446,6 +459,7 @@
     "name": "Hazmat Suit",
     "description": "Slot: Body\n\nShields you from the adverse effects of radiation. \nConsumes Iodine Infused Filters from your inventory when you are in radioactive areas.",
     "form": "solid",
+    "icon": "5B9XtLadaMwIeOUs8i00eO6JL6O54rsci8GMgYmcOQGO",
     "stackSize": "one",
     "slug": "hazmat-suit"
   },
@@ -521,6 +535,7 @@
     "name": "Iron Ore",
     "description": "Used for crafting.\nThe most essential basic resource.",
     "form": "solid",
+    "icon": "5c0Gl1FsvuGGyGe28Mg2m87B3HVLJL6oKusESIUocEkS",
     "stackSize": "medium",
     "slug": "iron-ore"
   },
@@ -600,6 +615,7 @@
     "name": "Modular Engine",
     "description": "Project Part #4. Send up the Space Elevator to complete phases of Project Assembly.",
     "form": "solid",
+    "icon": "1P0lVFelKwIs4quisEKGiU4hrBoX82IUMk8YigIQ0Wsu",
     "stackSize": "small",
     "slug": "modular-engine"
   },
@@ -680,6 +696,7 @@
     "name": "Packaged Fuel",
     "description": "Fuel.\nPackaged Fuel, either converted into electricity or as fuel for vehicles.",
     "form": "solid",
+    "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS",
     "stackSize": "medium",
     "fuel": {
       "energy": 600
@@ -703,6 +720,7 @@
     "name": "Packaged Liquid Biofuel",
     "description": "Fuel.\nPackaged Liquid Biofuel, either converted into electricity or as fuel for vehicles.",
     "form": "solid",
+    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6",
     "stackSize": "medium",
     "fuel": {
       "energy": 750
@@ -714,6 +732,7 @@
     "name": "Packaged Oil",
     "description": "Crude Oil, packaged for transportation or to be used as vehicle fuel.",
     "form": "solid",
+    "icon": "5l8TKbVe7uuwIUMsa8YK0EOGDvrxIYKqSiwoQOy4OgG",
     "stackSize": "medium",
     "fuel": {
       "energy": 320
@@ -725,6 +744,7 @@
     "name": "Packaged Turbofuel",
     "description": "Packaged Turbofuel, a more efficient alternative to Fuel. Used in vehicles.",
     "form": "solid",
+    "icon": "41XfITYdr2wggI2AEimgScYK8DdLwwUuyWS862cCEQy",
     "stackSize": "medium",
     "fuel": {
       "energy": 2000
@@ -802,6 +822,7 @@
     "name": "Portable Miner",
     "description": "Slot: Hands\n\nCan be set up on a resource node to automatically extract the resource. Very limited storage space.",
     "form": "solid",
+    "icon": "6v1wjBiP4sc6IkUWEYaUoa5l70CAU7XqcesUeSIG4WUw",
     "stackSize": "one",
     "slug": "portable-miner"
   },
@@ -810,6 +831,7 @@
     "name": "Power Shard",
     "description": "Mucus from the power slugs compressed into a solid crystal-like shard. \nIt radiates a strange power.",
     "form": "solid",
+    "icon": "2IoxxIA7dmEkAkuemGewW63vdCDLdhO0ggYcsiGiUa26",
     "stackSize": "medium",
     "slug": "power-shard"
   },
@@ -818,6 +840,7 @@
     "name": "Purple Power Slug",
     "description": "A strange slug radiating a powerful strange power.",
     "form": "solid",
+    "icon": "8VX2fNxj1ecoaQ4sOEmGIdkSKBIP9wOIEoAwOAoIKs",
     "stackSize": "small",
     "slug": "purple-power-slug"
   },
@@ -844,6 +867,7 @@
     "name": "Radio Control Unit",
     "description": "Enhances and directs radio signals",
     "form": "solid",
+    "icon": "4PLCuCwLcICmGsS4Uikm2a6aJmlhBrt6WQQ0iWSKSse",
     "stackSize": "small",
     "slug": "radio-control-unit"
   },
@@ -922,6 +946,7 @@
     "name": "Smart Plating",
     "description": "Project Part #1. Send up the Space Elevator to complete phases of Project Assembly.",
     "form": "solid",
+    "icon": "3dbpfvkoGsIgquEKiSAASA40qElBoMR28qEMYEm2gg0e",
     "stackSize": "small",
     "slug": "smart-plating"
   },
@@ -1063,6 +1088,7 @@
     "name": "Versatile Framework",
     "description": "Project Part #2. Send up the Space Elevator to complete phases of Project Assembly.",
     "form": "solid",
+    "icon": "3Ugy0tOX2U6kikQkuwesGY3XNgQyhzAsKaeMoE66oEIc",
     "stackSize": "small",
     "slug": "versatile-framework"
   },
@@ -1121,6 +1147,7 @@
     "name": "Yellow Power Slug",
     "description": "A strange slug radiating a strange power.",
     "form": "solid",
+    "icon": "5JN4VvmzrGYOmOmg8sSWqm4r4xg8ijMQA40SgwUgOgiK",
     "stackSize": "small",
     "slug": "yellow-power-slug"
   }

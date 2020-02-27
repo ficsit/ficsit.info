@@ -31,6 +31,7 @@
     ],
     "duration": 120,
     "manualMultiplier": 1,
+    "icon": "iUT79ZO9DGwiAYeaqe0Q2HV47m6CsKYgAOMiiiOEMu",
     "slug": "recipe-adaptive-control-unit"
   },
   "recipe-ai-limiter": {
@@ -58,6 +59,7 @@
     ],
     "duration": 12,
     "manualMultiplier": 1,
+    "icon": "h8ltD2kwsocsa80SUkM0i9Y3kkvCCXucaMMYIaOiWk",
     "slug": "recipe-ai-limiter"
   },
   "recipe-alclad-aluminum-sheet": {
@@ -616,6 +618,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 1,
+    "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS",
     "slug": "recipe-alternate-diluted-packaged-fuel"
   },
   "recipe-alternate-electrode-aluminum-scrap": {
@@ -812,6 +815,7 @@
     ],
     "duration": 16,
     "manualMultiplier": 1,
+    "icon": "3Ugy0tOX2U6kikQkuwesGY3XNgQyhzAsKaeMoE66oEIc",
     "slug": "recipe-alternate-flexible-framework"
   },
   "recipe-alternate-fused-quckwire": {
@@ -1019,6 +1023,7 @@
     ],
     "duration": 32,
     "manualMultiplier": 1,
+    "icon": "4fgmzNq4WIa66YUgIImImk61hkG4YTwA6kAyisIuYQIg",
     "slug": "recipe-alternate-high-speed-wiring"
   },
   "recipe-alternate-infused-uranium-cell": {
@@ -1227,6 +1232,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1,
+    "icon": "3dbpfvkoGsIgquEKiSAASA40qElBoMR28qEMYEm2gg0e",
     "slug": "recipe-alternate-plastic-smart-plating"
   },
   "recipe-alternate-polyester-fabric": {
@@ -2141,6 +2147,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1,
+    "icon": "4fgmzNq4WIa66YUgIImImk61hkG4YTwA6kAyisIuYQIg",
     "slug": "recipe-automated-wiring"
   },
   "recipe-awesome-shop": {
@@ -2261,6 +2268,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
+    "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG",
     "slug": "recipe-bauxite"
   },
   "recipe-beacon": {
@@ -2296,6 +2304,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 1,
+    "icon": "1OwicP8qRS6ycu8GwSaaG2T5M9IB9uA8YAIIYAE2oUk",
     "slug": "recipe-beacon"
   },
   "recipe-biomass-alien-carapace": {
@@ -2319,6 +2328,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 1,
+    "icon": "4ff4unZxnqSmSoGm6W4AQgzloiZPat9uEKiYcG2UGks",
     "slug": "recipe-biomass-alien-carapace"
   },
   "recipe-biomass-alien-organs": {
@@ -2342,6 +2352,7 @@
     ],
     "duration": 8,
     "manualMultiplier": 1,
+    "icon": "4ff4unZxnqSmSoGm6W4AQgzloiZPat9uEKiYcG2UGks",
     "slug": "recipe-biomass-alien-organs"
   },
   "recipe-biomass-burner": {
@@ -2396,6 +2407,7 @@
     ],
     "duration": 5,
     "manualMultiplier": 0.4,
+    "icon": "4ff4unZxnqSmSoGm6W4AQgzloiZPat9uEKiYcG2UGks",
     "slug": "recipe-biomass-leaves"
   },
   "recipe-biomass-mycelia": {
@@ -2419,6 +2431,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 0.5,
+    "icon": "4ff4unZxnqSmSoGm6W4AQgzloiZPat9uEKiYcG2UGks",
     "slug": "recipe-biomass-mycelia"
   },
   "recipe-biomass-wood": {
@@ -2442,6 +2455,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 1,
+    "icon": "4ff4unZxnqSmSoGm6W4AQgzloiZPat9uEKiYcG2UGks",
     "slug": "recipe-biomass-wood"
   },
   "recipe-black-powder": {
@@ -2608,6 +2622,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
+    "icon": "6HkuY8ol3yKQywiSAmCE4M187rTIVuw0wI6waiQMW4Ak",
     "slug": "recipe-caterium-ore"
   },
   "recipe-chainsaw": {
@@ -3290,6 +3305,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
+    "icon": "2KrBJL1WzeSYGMAmCQoowE4vhlksjXcckkuAu8SayuWU",
     "slug": "recipe-copper-ore"
   },
   "recipe-copper-sheet": {
@@ -3750,6 +3766,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "hnRvcbhOcEsqiCcoe4qwi2L2SzdozCwwWQaoqUUiGYg",
     "slug": "recipe-empty-platform"
   },
   "recipe-encased-industrial-beam": {
@@ -3891,6 +3908,7 @@
     ],
     "duration": 20,
     "manualMultiplier": 2,
+    "icon": "1x3dDGmWOome66ykE0C8gA4Rwu8YmGYUKgwGWu6yOwO6",
     "slug": "recipe-factory-cart-t"
   },
   "recipe-fence-1": {
@@ -4168,7 +4186,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
-    "icon": "3coM0RtyA0aQ8EKsoUo0e0643ug1BKU0ykogWcKSWaKY",
+    "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS",
     "slug": "recipe-fuel"
   },
   "recipe-fuel-generator": {
@@ -4360,6 +4378,7 @@
     ],
     "duration": 120,
     "manualMultiplier": 1,
+    "icon": "5B9XtLadaMwIeOUs8i00eO6JL6O54rsci8GMgYmcOQGO",
     "slug": "recipe-hazmat-suit"
   },
   "recipe-heat-sink": {
@@ -4973,6 +4992,7 @@
     ],
     "duration": 2,
     "manualMultiplier": 1,
+    "icon": "5c0Gl1FsvuGGyGe28Mg2m87B3HVLJL6oKusESIUocEkS",
     "slug": "recipe-iron-ore"
   },
   "recipe-iron-plate": {
@@ -5086,6 +5106,7 @@
     ],
     "duration": 1,
     "manualMultiplier": 1,
+    "icon": "2TOZN1p59mWwumCa2Y0oMS6AlMTVe9VKeksGAsKeiacc",
     "slug": "recipe-jump-pad"
   },
   "recipe-limestone": {
@@ -5422,6 +5443,7 @@
     ],
     "duration": 60,
     "manualMultiplier": 1,
+    "icon": "1P0lVFelKwIs4quisEKGiU4hrBoX82IUMk8YigIQ0Wsu",
     "slug": "recipe-modular-engine"
   },
   "recipe-modular-frame": {
@@ -5752,6 +5774,7 @@
     ],
     "duration": 3,
     "manualMultiplier": 1,
+    "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS",
     "slug": "recipe-packaged-fuel"
   },
   "recipe-packaged-heavy-oil-residue": {
@@ -5805,6 +5828,7 @@
     ],
     "duration": 4,
     "manualMultiplier": 1,
+    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6",
     "slug": "recipe-packaged-liquid-biofuel"
   },
   "recipe-packaged-oil": {
@@ -5831,6 +5855,7 @@
     ],
     "duration": 5,
     "manualMultiplier": 1,
+    "icon": "5l8TKbVe7uuwIUMsa8YK0EOGDvrxIYKqSiwoQOy4OgG",
     "slug": "recipe-packaged-oil"
   },
   "recipe-packaged-turbofuel": {
@@ -5857,6 +5882,7 @@
     ],
     "duration": 6,
     "manualMultiplier": 1,
+    "icon": "41XfITYdr2wggI2AEimgScYK8DdLwwUuyWS862cCEQy",
     "slug": "recipe-packaged-turbofuel"
   },
   "recipe-packaged-water": {
@@ -6241,6 +6267,7 @@
     ],
     "duration": 40,
     "manualMultiplier": 1,
+    "icon": "6v1wjBiP4sc6IkUWEYaUoa5l70CAU7XqcesUeSIG4WUw",
     "slug": "recipe-portable-miner"
   },
   "recipe-power-line": {
@@ -6380,6 +6407,7 @@
     ],
     "duration": 10,
     "manualMultiplier": 1,
+    "icon": "2IoxxIA7dmEkAkuemGewW63vdCDLdhO0ggYcsiGiUa26",
     "slug": "recipe-power-shard-1"
   },
   "recipe-power-shard-2": {
@@ -6403,6 +6431,7 @@
     ],
     "duration": 15,
     "manualMultiplier": 1.2,
+    "icon": "2IoxxIA7dmEkAkuemGewW63vdCDLdhO0ggYcsiGiUa26",
     "slug": "recipe-power-shard-2"
   },
   "recipe-power-shard-5": {
@@ -6426,6 +6455,7 @@
     ],
     "duration": 20,
     "manualMultiplier": 1.2,
+    "icon": "2IoxxIA7dmEkAkuemGewW63vdCDLdhO0ggYcsiGiUa26",
     "slug": "recipe-power-shard-5"
   },
   "recipe-programmable-splitter": {
@@ -6597,6 +6627,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1.5,
+    "icon": "4PLCuCwLcICmGsS4Uikm2a6aJmlhBrt6WQQ0iWSKSse",
     "slug": "recipe-radio-control-unit"
   },
   "recipe-railway": {
@@ -7047,6 +7078,7 @@
     ],
     "duration": 30,
     "manualMultiplier": 1,
+    "icon": "3dbpfvkoGsIgquEKiSAASA40qElBoMR28qEMYEm2gg0e",
     "slug": "recipe-smart-plating"
   },
   "recipe-smart-splitter": {
@@ -7969,6 +8001,7 @@
     ],
     "duration": 24,
     "manualMultiplier": 1,
+    "icon": "3Ugy0tOX2U6kikQkuwesGY3XNgQyhzAsKaeMoE66oEIc",
     "slug": "recipe-versatile-framework"
   },
   "recipe-walkway-crossing": {

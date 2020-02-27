@@ -2,12 +2,14 @@
   {
     "kind": "item",
     "slug": "adaptive-control-unit",
-    "name": "Adaptive Control Unit"
+    "name": "Adaptive Control Unit",
+    "icon": "iUT79ZO9DGwiAYeaqe0Q2HV47m6CsKYgAOMiiiOEMu"
   },
   {
     "kind": "item",
     "slug": "ai-limiter",
-    "name": "A.I. Limiter"
+    "name": "A.I. Limiter",
+    "icon": "h8ltD2kwsocsa80SUkM0i9Y3kkvCCXucaMMYIaOiWk"
   },
   {
     "kind": "item",
@@ -18,12 +20,14 @@
   {
     "kind": "item",
     "slug": "alien-carapace",
-    "name": "Alien Carapace"
+    "name": "Alien Carapace",
+    "icon": "20rBen2YR2i6KoKm2wyQKW3V4V6gB32EgY2ycWoougW4"
   },
   {
     "kind": "item",
     "slug": "alien-organs",
-    "name": "Alien Organs"
+    "name": "Alien Organs",
+    "icon": "29qRE0EGEMgEOScsoaagKSqNAlz5U58cUMeuS26EqwQ"
   },
   {
     "kind": "item",
@@ -56,7 +60,8 @@
   {
     "kind": "item",
     "slug": "automated-wiring",
-    "name": "Automated Wiring"
+    "name": "Automated Wiring",
+    "icon": "4fgmzNq4WIa66YUgIImImk61hkG4YTwA6kAyisIuYQIg"
   },
   {
     "kind": "building",
@@ -93,22 +98,26 @@
   {
     "kind": "item",
     "slug": "bauxite",
-    "name": "Bauxite"
+    "name": "Bauxite",
+    "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG"
   },
   {
     "kind": "item",
     "slug": "beacon",
-    "name": "Beacon"
+    "name": "Beacon",
+    "icon": "1OwicP8qRS6ycu8GwSaaG2T5M9IB9uA8YAIIYAE2oUk"
   },
   {
     "kind": "item",
     "slug": "beryl-nut",
-    "name": "Beryl Nut"
+    "name": "Beryl Nut",
+    "icon": "6reGACriHmkKUGYcMSsicW6Fn1lCpiN2YigYk0qQAK40"
   },
   {
     "kind": "item",
     "slug": "biomass",
-    "name": "Biomass"
+    "name": "Biomass",
+    "icon": "4ff4unZxnqSmSoGm6W4AQgzloiZPat9uEKiYcG2UGks"
   },
   {
     "kind": "building",
@@ -162,7 +171,8 @@
   {
     "kind": "item",
     "slug": "caterium-ore",
-    "name": "Caterium Ore"
+    "name": "Caterium Ore",
+    "icon": "6HkuY8ol3yKQywiSAmCE4M187rTIVuw0wI6waiQMW4Ak"
   },
   {
     "kind": "item",
@@ -390,7 +400,8 @@
   {
     "kind": "item",
     "slug": "copper-ore",
-    "name": "Copper Ore"
+    "name": "Copper Ore",
+    "icon": "2KrBJL1WzeSYGMAmCQoowE4vhlksjXcckkuAu8SayuWU"
   },
   {
     "kind": "item",
@@ -536,6 +547,7 @@
     "kind": "building",
     "slug": "empty-platform",
     "name": "Empty Platform",
+    "icon": "hnRvcbhOcEsqiCcoe4qwi2L2SzdozCwwWQaoqUUiGYg",
     "categories": [
       "Transport",
       "Trains"
@@ -572,7 +584,8 @@
   {
     "kind": "item",
     "slug": "factory-cart-t",
-    "name": "Factory CartT"
+    "name": "Factory CartT",
+    "icon": "1x3dDGmWOome66ykE0C8gA4Rwu8YmGYUKgwGWu6yOwO6"
   },
   {
     "kind": "building",
@@ -664,7 +677,7 @@
     "kind": "item",
     "slug": "fuel",
     "name": "Fuel",
-    "icon": "3coM0RtyA0aQ8EKsoUo0e0643ug1BKU0ykogWcKSWaKY"
+    "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS"
   },
   {
     "kind": "building",
@@ -713,12 +726,14 @@
   {
     "kind": "item",
     "slug": "green-power-slug",
-    "name": "Green Power Slug"
+    "name": "Green Power Slug",
+    "icon": "7FTqy4RtlYYcCwGQiEc4my469rwnX1GU4UkGe6AIMAsK"
   },
   {
     "kind": "item",
     "slug": "hazmat-suit",
-    "name": "Hazmat Suit"
+    "name": "Hazmat Suit",
+    "icon": "5B9XtLadaMwIeOUs8i00eO6JL6O54rsci8GMgYmcOQGO"
   },
   {
     "kind": "item",
@@ -933,7 +948,8 @@
   {
     "kind": "item",
     "slug": "iron-ore",
-    "name": "Iron Ore"
+    "name": "Iron Ore",
+    "icon": "5c0Gl1FsvuGGyGe28Mg2m87B3HVLJL6oKusESIUocEkS"
   },
   {
     "kind": "item",
@@ -957,6 +973,7 @@
     "kind": "building",
     "slug": "jump-pad",
     "name": "Jump Pad",
+    "icon": "2TOZN1p59mWwumCa2Y0oMS6AlMTVe9VKeksGAsKeiacc",
     "categories": [
       "Production",
       "JumpPads"
@@ -1049,7 +1066,8 @@
   {
     "kind": "item",
     "slug": "modular-engine",
-    "name": "Modular Engine"
+    "name": "Modular Engine",
+    "icon": "1P0lVFelKwIs4quisEKGiU4hrBoX82IUMk8YigIQ0Wsu"
   },
   {
     "kind": "item",
@@ -1125,7 +1143,8 @@
   {
     "kind": "item",
     "slug": "packaged-fuel",
-    "name": "Packaged Fuel"
+    "name": "Packaged Fuel",
+    "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS"
   },
   {
     "kind": "item",
@@ -1136,17 +1155,20 @@
   {
     "kind": "item",
     "slug": "packaged-liquid-biofuel",
-    "name": "Packaged Liquid Biofuel"
+    "name": "Packaged Liquid Biofuel",
+    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6"
   },
   {
     "kind": "item",
     "slug": "packaged-oil",
-    "name": "Packaged Oil"
+    "name": "Packaged Oil",
+    "icon": "5l8TKbVe7uuwIUMsa8YK0EOGDvrxIYKqSiwoQOy4OgG"
   },
   {
     "kind": "item",
     "slug": "packaged-turbofuel",
-    "name": "Packaged Turbofuel"
+    "name": "Packaged Turbofuel",
+    "icon": "41XfITYdr2wggI2AEimgScYK8DdLwwUuyWS862cCEQy"
   },
   {
     "kind": "item",
@@ -1283,7 +1305,8 @@
   {
     "kind": "item",
     "slug": "portable-miner",
-    "name": "Portable Miner"
+    "name": "Portable Miner",
+    "icon": "6v1wjBiP4sc6IkUWEYaUoa5l70CAU7XqcesUeSIG4WUw"
   },
   {
     "kind": "building",
@@ -1328,7 +1351,8 @@
   {
     "kind": "item",
     "slug": "power-shard",
-    "name": "Power Shard"
+    "name": "Power Shard",
+    "icon": "2IoxxIA7dmEkAkuemGewW63vdCDLdhO0ggYcsiGiUa26"
   },
   {
     "kind": "building",
@@ -1343,7 +1367,8 @@
   {
     "kind": "item",
     "slug": "purple-power-slug",
-    "name": "Purple Power Slug"
+    "name": "Purple Power Slug",
+    "icon": "8VX2fNxj1ecoaQ4sOEmGIdkSKBIP9wOIEoAwOAoIKs"
   },
   {
     "kind": "building",
@@ -1369,7 +1394,8 @@
   {
     "kind": "item",
     "slug": "radio-control-unit",
-    "name": "Radio Control Unit"
+    "name": "Radio Control Unit",
+    "icon": "4PLCuCwLcICmGsS4Uikm2a6aJmlhBrt6WQQ0iWSKSse"
   },
   {
     "kind": "building",
@@ -1423,12 +1449,14 @@
   {
     "kind": "recipe",
     "slug": "recipe-adaptive-control-unit",
-    "name": "Adaptive Control Unit"
+    "name": "Adaptive Control Unit",
+    "icon": "iUT79ZO9DGwiAYeaqe0Q2HV47m6CsKYgAOMiiiOEMu"
   },
   {
     "kind": "recipe",
     "slug": "recipe-ai-limiter",
-    "name": "A.I. Limiter"
+    "name": "A.I. Limiter",
+    "icon": "h8ltD2kwsocsa80SUkM0i9Y3kkvCCXucaMMYIaOiWk"
   },
   {
     "kind": "recipe",
@@ -1552,7 +1580,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-alternate-diluted-packaged-fuel",
-    "name": "Alternate: Diluted Packaged Fuel"
+    "name": "Alternate: Diluted Packaged Fuel",
+    "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS"
   },
   {
     "kind": "recipe",
@@ -1593,7 +1622,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-alternate-flexible-framework",
-    "name": "Alternate: Flexible Framework"
+    "name": "Alternate: Flexible Framework",
+    "icon": "3Ugy0tOX2U6kikQkuwesGY3XNgQyhzAsKaeMoE66oEIc"
   },
   {
     "kind": "recipe",
@@ -1633,7 +1663,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-alternate-high-speed-wiring",
-    "name": "Alternate: High-Speed Wiring"
+    "name": "Alternate: High-Speed Wiring",
+    "icon": "4fgmzNq4WIa66YUgIImImk61hkG4YTwA6kAyisIuYQIg"
   },
   {
     "kind": "recipe",
@@ -1674,7 +1705,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-alternate-plastic-smart-plating",
-    "name": "Alternate: Plastic Smart Plating"
+    "name": "Alternate: Plastic Smart Plating",
+    "icon": "3dbpfvkoGsIgquEKiSAASA40qElBoMR28qEMYEm2gg0e"
   },
   {
     "kind": "recipe",
@@ -1870,7 +1902,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-automated-wiring",
-    "name": "Automated Wiring"
+    "name": "Automated Wiring",
+    "icon": "4fgmzNq4WIa66YUgIImImk61hkG4YTwA6kAyisIuYQIg"
   },
   {
     "kind": "recipe",
@@ -1893,22 +1926,26 @@
   {
     "kind": "recipe",
     "slug": "recipe-bauxite",
-    "name": "Bauxite"
+    "name": "Bauxite",
+    "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG"
   },
   {
     "kind": "recipe",
     "slug": "recipe-beacon",
-    "name": "Beacon"
+    "name": "Beacon",
+    "icon": "1OwicP8qRS6ycu8GwSaaG2T5M9IB9uA8YAIIYAE2oUk"
   },
   {
     "kind": "recipe",
     "slug": "recipe-biomass-alien-carapace",
-    "name": "Biomass (Alien Carapace)"
+    "name": "Biomass (Alien Carapace)",
+    "icon": "4ff4unZxnqSmSoGm6W4AQgzloiZPat9uEKiYcG2UGks"
   },
   {
     "kind": "recipe",
     "slug": "recipe-biomass-alien-organs",
-    "name": "Biomass (Alien Organs)"
+    "name": "Biomass (Alien Organs)",
+    "icon": "4ff4unZxnqSmSoGm6W4AQgzloiZPat9uEKiYcG2UGks"
   },
   {
     "kind": "recipe",
@@ -1919,17 +1956,20 @@
   {
     "kind": "recipe",
     "slug": "recipe-biomass-leaves",
-    "name": "Biomass (Leaves)"
+    "name": "Biomass (Leaves)",
+    "icon": "4ff4unZxnqSmSoGm6W4AQgzloiZPat9uEKiYcG2UGks"
   },
   {
     "kind": "recipe",
     "slug": "recipe-biomass-mycelia",
-    "name": "Biomass (Mycelia)"
+    "name": "Biomass (Mycelia)",
+    "icon": "4ff4unZxnqSmSoGm6W4AQgzloiZPat9uEKiYcG2UGks"
   },
   {
     "kind": "recipe",
     "slug": "recipe-biomass-wood",
-    "name": "Biomass (Wood)"
+    "name": "Biomass (Wood)",
+    "icon": "4ff4unZxnqSmSoGm6W4AQgzloiZPat9uEKiYcG2UGks"
   },
   {
     "kind": "recipe",
@@ -1963,7 +2003,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-caterium-ore",
-    "name": "Caterium Ore"
+    "name": "Caterium Ore",
+    "icon": "6HkuY8ol3yKQywiSAmCE4M187rTIVuw0wI6waiQMW4Ak"
   },
   {
     "kind": "recipe",
@@ -2117,7 +2158,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-copper-ore",
-    "name": "Copper Ore"
+    "name": "Copper Ore",
+    "icon": "2KrBJL1WzeSYGMAmCQoowE4vhlksjXcckkuAu8SayuWU"
   },
   {
     "kind": "recipe",
@@ -2218,7 +2260,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-empty-platform",
-    "name": "Empty Platform"
+    "name": "Empty Platform",
+    "icon": "hnRvcbhOcEsqiCcoe4qwi2L2SzdozCwwWQaoqUUiGYg"
   },
   {
     "kind": "recipe",
@@ -2247,7 +2290,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-factory-cart-t",
-    "name": "Factory CartT"
+    "name": "Factory CartT",
+    "icon": "1x3dDGmWOome66ykE0C8gA4Rwu8YmGYUKgwGWu6yOwO6"
   },
   {
     "kind": "recipe",
@@ -2301,7 +2345,7 @@
     "kind": "recipe",
     "slug": "recipe-fuel",
     "name": "Fuel",
-    "icon": "3coM0RtyA0aQ8EKsoUo0e0643ug1BKU0ykogWcKSWaKY"
+    "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS"
   },
   {
     "kind": "recipe",
@@ -2334,7 +2378,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-hazmat-suit",
-    "name": "Hazmat Suit"
+    "name": "Hazmat Suit",
+    "icon": "5B9XtLadaMwIeOUs8i00eO6JL6O54rsci8GMgYmcOQGO"
   },
   {
     "kind": "recipe",
@@ -2465,7 +2510,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-iron-ore",
-    "name": "Iron Ore"
+    "name": "Iron Ore",
+    "icon": "5c0Gl1FsvuGGyGe28Mg2m87B3HVLJL6oKusESIUocEkS"
   },
   {
     "kind": "recipe",
@@ -2488,7 +2534,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-jump-pad",
-    "name": "Jump Pad"
+    "name": "Jump Pad",
+    "icon": "2TOZN1p59mWwumCa2Y0oMS6AlMTVe9VKeksGAsKeiacc"
   },
   {
     "kind": "recipe",
@@ -2553,7 +2600,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-modular-engine",
-    "name": "Modular Engine"
+    "name": "Modular Engine",
+    "icon": "1P0lVFelKwIs4quisEKGiU4hrBoX82IUMk8YigIQ0Wsu"
   },
   {
     "kind": "recipe",
@@ -2617,7 +2665,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-packaged-fuel",
-    "name": "Packaged Fuel"
+    "name": "Packaged Fuel",
+    "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS"
   },
   {
     "kind": "recipe",
@@ -2628,17 +2677,20 @@
   {
     "kind": "recipe",
     "slug": "recipe-packaged-liquid-biofuel",
-    "name": "Packaged Liquid Biofuel"
+    "name": "Packaged Liquid Biofuel",
+    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6"
   },
   {
     "kind": "recipe",
     "slug": "recipe-packaged-oil",
-    "name": "Packaged Oil"
+    "name": "Packaged Oil",
+    "icon": "5l8TKbVe7uuwIUMsa8YK0EOGDvrxIYKqSiwoQOy4OgG"
   },
   {
     "kind": "recipe",
     "slug": "recipe-packaged-turbofuel",
-    "name": "Packaged Turbofuel"
+    "name": "Packaged Turbofuel",
+    "icon": "41XfITYdr2wggI2AEimgScYK8DdLwwUuyWS862cCEQy"
   },
   {
     "kind": "recipe",
@@ -2723,7 +2775,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-portable-miner",
-    "name": "Portable Miner"
+    "name": "Portable Miner",
+    "icon": "6v1wjBiP4sc6IkUWEYaUoa5l70CAU7XqcesUeSIG4WUw"
   },
   {
     "kind": "recipe",
@@ -2752,17 +2805,20 @@
   {
     "kind": "recipe",
     "slug": "recipe-power-shard-1",
-    "name": "Power Shard (1)"
+    "name": "Power Shard (1)",
+    "icon": "2IoxxIA7dmEkAkuemGewW63vdCDLdhO0ggYcsiGiUa26"
   },
   {
     "kind": "recipe",
     "slug": "recipe-power-shard-2",
-    "name": "Power Shard (2)"
+    "name": "Power Shard (2)",
+    "icon": "2IoxxIA7dmEkAkuemGewW63vdCDLdhO0ggYcsiGiUa26"
   },
   {
     "kind": "recipe",
     "slug": "recipe-power-shard-5",
-    "name": "Power Shard (5)"
+    "name": "Power Shard (5)",
+    "icon": "2IoxxIA7dmEkAkuemGewW63vdCDLdhO0ggYcsiGiUa26"
   },
   {
     "kind": "recipe",
@@ -2796,7 +2852,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-radio-control-unit",
-    "name": "Radio Control Unit"
+    "name": "Radio Control Unit",
+    "icon": "4PLCuCwLcICmGsS4Uikm2a6aJmlhBrt6WQQ0iWSKSse"
   },
   {
     "kind": "recipe",
@@ -2893,7 +2950,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-smart-plating",
-    "name": "Smart Plating"
+    "name": "Smart Plating",
+    "icon": "3dbpfvkoGsIgquEKiSAASA40qElBoMR28qEMYEm2gg0e"
   },
   {
     "kind": "recipe",
@@ -3086,7 +3144,8 @@
   {
     "kind": "recipe",
     "slug": "recipe-versatile-framework",
-    "name": "Versatile Framework"
+    "name": "Versatile Framework",
+    "icon": "3Ugy0tOX2U6kikQkuwesGY3XNgQyhzAsKaeMoE66oEIc"
   },
   {
     "kind": "recipe",
@@ -4594,7 +4653,8 @@
   {
     "kind": "item",
     "slug": "smart-plating",
-    "name": "Smart Plating"
+    "name": "Smart Plating",
+    "icon": "3dbpfvkoGsIgquEKiSAASA40qElBoMR28qEMYEm2gg0e"
   },
   {
     "kind": "building",
@@ -4803,7 +4863,8 @@
   {
     "kind": "item",
     "slug": "versatile-framework",
-    "name": "Versatile Framework"
+    "name": "Versatile Framework",
+    "icon": "3Ugy0tOX2U6kikQkuwesGY3XNgQyhzAsKaeMoE66oEIc"
   },
   {
     "kind": "building",
@@ -5096,6 +5157,7 @@
   {
     "kind": "item",
     "slug": "yellow-power-slug",
-    "name": "Yellow Power Slug"
+    "name": "Yellow Power Slug",
+    "icon": "5JN4VvmzrGYOmOmg8sSWqm4r4xg8ijMQA40SgwUgOgiK"
   }
 ]

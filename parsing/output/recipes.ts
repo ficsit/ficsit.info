@@ -31,7 +31,7 @@ async function _buildRecipe(outputDb: OutputDatabase, entityDb: EntityDatabase, 
   // TODO: support vehicles
   if (entityDb.isKind<any>(firstProduct, 'FGVehicleDescriptor')) return;
 
-  const icon = await assetDb.findLargestEntityIcon(firstProduct);
+  const icon = await assetDb.findLargestEntityIcon(firstProduct, raw.entity.mDisplayName);
   if (icon) {
     const image = await assetDb.saveImage(icon);
     _assign(recipe, 'icon', image);

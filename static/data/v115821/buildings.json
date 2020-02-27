@@ -472,6 +472,7 @@
       "Trains"
     ],
     "listOrder": 52,
+    "icon": "hnRvcbhOcEsqiCcoe4qwi2L2SzdozCwwWQaoqUUiGYg",
     "slug": "empty-platform"
   },
   "equipment-workshop": {
@@ -872,6 +873,7 @@
       "JumpPads"
     ],
     "listOrder": 64,
+    "icon": "2TOZN1p59mWwumCa2Y0oMS6AlMTVe9VKeksGAsKeiacc",
     "powerConsumption": {
       "amount": 2,
       "exponent": 1.6
