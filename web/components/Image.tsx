@@ -40,7 +40,7 @@ export function Image({ hash, height, size: width, maxWidth, alt, style, classNa
     <picture key={hash} css={pictureStyle} style={{ ...style, height, width }} className={className}>
       <source type='image/webp' srcSet={webpSrcSet} />
       <source type='image/png' srcSet={pngSrcSet} />
-      <img {...props} src={`${targets[0]?.image}.png`} alt={alt} css={imageStyle} />
+      <img {...props} src={`${targets[0]?.image}.png`} decoding='async' alt={alt} css={imageStyle} />
     </picture>
   )
 }
