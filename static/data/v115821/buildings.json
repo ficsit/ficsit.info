@@ -1611,7 +1611,7 @@
       "ConveyorConnections"
     ],
     "listOrder": 85,
-    "icon": "7IMh8z3sK4u2uOWQMysKYu4fBqsyKqwUog4Ya4A4E4Wu",
+    "icon": "2ruKJuh3tCuOsa6GsEgyEi4sGuSkQ0VaO6ioSkKuAWq8",
     "slug": "wall-conveyor-x1-1"
   },
   "wall-conveyor-x1-2": {
@@ -1623,7 +1623,7 @@
       "ConveyorConnections"
     ],
     "listOrder": 85,
-    "icon": "2pO9W0qqEs60WkogaOYAqs4oHdBuGqoo08aOy2AE0Q2C",
+    "icon": "WkjUyX6K2ccamSyMwowcG3TQYZWtb2gs8k4ykmyM0uG",
     "slug": "wall-conveyor-x1-2"
   },
   "wall-conveyor-x2-1": {
@@ -1659,7 +1659,7 @@
       "ConveyorConnections"
     ],
     "listOrder": 85,
-    "icon": "2ruKJuh3tCuOsa6GsEgyEi4sGuSkQ0VaO6ioSkKuAWq8",
+    "icon": "7IMh8z3sK4u2uOWQMysKYu4fBqsyKqwUog4Ya4A4E4Wu",
     "slug": "wall-conveyor-x3-1"
   },
   "wall-conveyor-x3-2": {
@@ -1671,7 +1671,7 @@
       "ConveyorConnections"
     ],
     "listOrder": 85,
-    "icon": "WkjUyX6K2ccamSyMwowcG3TQYZWtb2gs8k4ykmyM0uG",
+    "icon": "2pO9W0qqEs60WkogaOYAqs4oHdBuGqoo08aOy2AE0Q2C",
     "slug": "wall-conveyor-x3-2"
   },
   "wall-door-center-1": {
