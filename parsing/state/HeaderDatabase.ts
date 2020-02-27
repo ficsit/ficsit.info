@@ -67,6 +67,7 @@ export class HeaderDatabase {
       let extensions = [] as string[];
       if (rawExtensions) {
         extensions = rawExtensions
+          .replace(/\/\/.+$/, '')
           .split(/\s*,\s*/g)
           .map(e => e.match(/(\w+)$/)![0]);
       }
