@@ -50,7 +50,7 @@ export class App extends PureComponent {
   _renderHeader() {
     return (
       <header>
-        <h1>Ficsit Employee Intranet Portal</h1>
+        <h1>FicsIt Employee Intranet Portal</h1>
         <nav aria-labelledby="site-navigation" css={navigationStyles}>
           <h2 id="site-navigation">Site Navigation</h2>
           <ul>

@@ -1,9 +1,9 @@
 {
   "name": "ficsit.info",
-  "description": "Intranet portal for Ficsit employees (an unofficial Satisfactory fansite)",
+  "description": "Intranet portal for FicsIt employees (an unofficial Satisfactory fansite)",
   "private": true,
   "repository": "https://github.com/ficsit/ficsit.info",
-  "authors": "Ficsit.info Authors & Employees",
+  "authors": "FicsIt.info Authors & Employees",
   "license": "Apache-2.0",
   "scripts": {
     "build": "parcel build ./web/index.html",
