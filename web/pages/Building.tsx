@@ -5,7 +5,6 @@ import { BuildingImage } from '../components/Image';
 import { useBuildings } from '../data';
 import { MasterDetailLayout } from '../layouts';
 import { EntityList } from '../components/EntityList';
-import { EntityLink } from '../components/EntityLink';
 
 export function Building() {
   const { slug } = useParams<{ slug?: string }>();
