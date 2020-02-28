@@ -2,7 +2,7 @@ import { Indexable, EntityKind } from '@local/schema';
 import { NavLink } from 'react-router-dom';
 import { css, SerializedStyles } from '@emotion/core';
 
-import { EntityImage } from './Image';
+import { EntityImage } from './Icon';
 
 export class Foo extends React.Component<{ asdf: number }> {
 }

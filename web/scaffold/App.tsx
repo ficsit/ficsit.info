@@ -1,10 +1,12 @@
 import { PureComponent } from 'react';
-import { Routes, Route, NavLink } from 'react-router-dom';
+import {  NavLink } from 'react-router-dom';
 import { css } from '@emotion/core';
 
-import { Building } from '../pages/Building';
-import { Home } from '../pages/Home';
-import { Item } from '../pages/Item';
+import logoImage from '../assets/images/ficsit-logo@*.*';
+
+import { Image } from '../components/Image';
+
+import { AppRoutes } from './AppRoutes';
 
 const containerStyles = css({
   display: 'flex',
@@ -12,6 +14,25 @@ const containerStyles = css({
   height: '100vh',
   width: '100vw',
   overflow: 'hidden',
+});
+
+const headerStyles = css({
+  backgroundColor: '#232220',
+  color: '#ffffff',
+  padding: '8px 12px',
+  'h1': {
+    fontSize: '24px',
+    fontWeight: 'normal',
+  },
+});
+
+const logoStyles = css({
+  verticalAlign: 'bottom',
+  marginRight: 8,
+});
+
+const titleStyles = css({
+  margin: 0,
 });
 
 const navigationStyles = css({
@@ -49,8 +70,11 @@ export class App extends PureComponent {
 
   _renderHeader() {
     return (
-      <header>
-        <h1>FicsIt Employee Intranet Portal</h1>
+      <header css={headerStyles}>
+        <h1 css={titleStyles}>
+          <Image paths={logoImage} alt='FicsIt' height={36} width={144} css={logoStyles} />
+          Employee Intranet Portal
+        </h1>
         <nav aria-labelledby="site-navigation" css={navigationStyles}>
           <h2 id="site-navigation">Site Navigation</h2>
           <ul>
@@ -68,13 +92,7 @@ export class App extends PureComponent {
   _renderContent() {
     return (
       <div css={contentStyles}>
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/buildings/' element={<Building />} />
-          <Route path='/buildings/:slug' element={<Building />} />
-          <Route path='/items/' element={<Item />} />
-          <Route path='/items/:slug' element={<Item />} />
-        </Routes>
+        <AppRoutes />
       </div>
     )
   }

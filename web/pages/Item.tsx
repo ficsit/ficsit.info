@@ -1,7 +1,7 @@
 import { useParams } from 'react-router';
 import { Item } from '@local/schema';
 
-import { ItemImage } from '../components/Image';
+import { ItemImage } from '../components/Icon';
 import { useItems } from '../data';
 import { MasterDetailLayout } from '../layouts';
 import { EntityList } from '../components/EntityList';

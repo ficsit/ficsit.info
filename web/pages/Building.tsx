@@ -1,7 +1,7 @@
 import { useParams } from 'react-router';
 import { Building } from '@local/schema';
 
-import { BuildingImage } from '../components/Image';
+import { BuildingImage } from '../components/Icon';
 import { useBuildings } from '../data';
 import { MasterDetailLayout } from '../layouts';
 import { EntityList } from '../components/EntityList';
