@@ -2,11 +2,12 @@ import { PureComponent } from 'react';
 import {  NavLink } from 'react-router-dom';
 import { css } from '@emotion/core';
 
-import logoImage from '../assets/images/ficsit-logo@*.*';
-
 import { Image } from '../components/Image';
+import { colors } from '../style';
 
 import { AppRoutes } from './AppRoutes';
+
+import logoImage from '../assets/images/ficsit-logo@*.*';
 
 const containerStyles = css({
   display: 'flex',
@@ -14,16 +15,18 @@ const containerStyles = css({
   height: '100vh',
   width: '100vw',
   overflow: 'hidden',
+  backgroundColor: colors.Light.N50,
+  color: colors.Dark.N950,
 });
 
 const headerStyles = css({
-  backgroundColor: '#232220',
-  color: '#ffffff',
-  padding: '8px 12px',
-  'h1': {
-    fontSize: '24px',
-    fontWeight: 'normal',
-  },
+  background: `linear-gradient(0deg, ${colors.Secondary.N900}, ${colors.Secondary.N800})`,
+  color: colors.Light.N0,
+  'a': {
+    display: 'inline-block',
+    textDecoration: 'none',
+    color: 'inherit',
+  }
 });
 
 const logoStyles = css({
@@ -32,7 +35,13 @@ const logoStyles = css({
 });
 
 const titleStyles = css({
+  fontSize: '24px',
+  fontWeight: 'normal',
   margin: 0,
+  marginBottom: 8,
+  'a': {
+    padding: '4px 8px',
+  },
 });
 
 const navigationStyles = css({
@@ -43,9 +52,20 @@ const navigationStyles = css({
     display: 'flex',
     listStyle: 'none',
     padding: 0,
+    margin: 0,
   },
   'ul li a': {
-    padding: '1em',
+    margin: '0 4px',
+    padding: 4,
+    borderTopLeftRadius: 3,
+    borderTopRightRadius: 3,
+    ':hover': {
+      backgroundColor: 'rgba(255, 255, 255, 0.25)',
+    },
+    '&.active': {
+      backgroundColor: colors.Light.N50,
+      color: colors.Dark.N950,
+    },
   },
 });
 
@@ -72,8 +92,10 @@ export class App extends PureComponent {
     return (
       <header css={headerStyles}>
         <h1 css={titleStyles}>
-          <Image paths={logoImage} alt='FicsIt' height={36} width={144} css={logoStyles} />
-          Employee Intranet Portal
+          <NavLink to='/'>
+            <Image paths={logoImage} alt='FicsIt' height={36} width={144} css={logoStyles} />
+            Employee Intranet Portal
+          </NavLink>
         </h1>
         <nav aria-labelledby="site-navigation" css={navigationStyles}>
           <h2 id="site-navigation">Site Navigation</h2>
