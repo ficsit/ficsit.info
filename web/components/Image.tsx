@@ -22,7 +22,7 @@ export interface ImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
 }
 
 export function Image({ hash, height, size: width, maxWidth, alt, style, className, ...props }: ImageProps) {
-  const basePath = `/assets/images/${hash}`;
+  const basePath = `/assets/icons/${hash}`;
   // Chrome is dumb and likes choosing larger (256px+ images) even when it
   // doesn't need to.
   const targets = pixelDensities

@@ -61,7 +61,7 @@ export class AssetDatabase {
   }
 
   async _writeImage(image: sharp.Sharp, baseName: string) {
-    const path = this._output.path('images', baseName)
+    const path = this._output.path('icons', baseName)
     if (await this._output.readable(path)) return;
 
     await this._output.mkdirFor(path);

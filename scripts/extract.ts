@@ -32,13 +32,6 @@ async function main(version: string) {
 
   await parsing.fillStaticEntries(outputDb);
 
-  // Debug data.
-  await Promise.all([
-    destination.writeJson(entityDb, 'debug', 'entityDb.json'),
-    destination.writeJson(outputDb, 'debug', 'outputDb.json'),
-    destination.writeJson(assetDb, 'debug', 'assetDb.json'),
-  ]);
-
   // Final data
   await Promise.all([
     destination.writeJson(outputDb.getIndexable(), 'index.json'),
