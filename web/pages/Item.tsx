@@ -1,10 +1,10 @@
 import { useParams } from 'react-router';
 import { Item } from '@local/schema';
 
-import { ItemImage } from '../components/Icon';
 import { useItems } from '../data';
 import { MasterDetailLayout } from '../layouts';
 import { EntityList } from '../components/EntityList';
+import { EntitySummary } from '../components/EntitySummary';
 
 export function Item() {
   const { slug } = useParams<{ slug?: string }>();
@@ -25,10 +25,8 @@ function _renderDetail(item?: Item) {
   if (!item) return `…`;
 
   return (
-    <React.Fragment>
-      <h2>{item.name}</h2>
-      <ItemImage item={item} size={128} />
-      <p>{item.description}</p>
-    </React.Fragment>
+    <article>
+      <EntitySummary entity={item} imageSize={128} />
+    </article>
   )
 }
