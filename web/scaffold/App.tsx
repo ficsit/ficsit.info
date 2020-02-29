@@ -98,11 +98,11 @@ export class App extends PureComponent {
         <nav aria-labelledby="site-navigation" css={navigationStyles}>
           <h2 id="site-navigation">Site Navigation</h2>
           <ul>
-            <li><NavLink to='/items' exact={false}>Items</NavLink></li>
-            <li><NavLink to='/buildings' exact={false}>Buildings</NavLink></li>
-            <li><NavLink to='/vehicles' exact={false}>Vehicles</NavLink></li>
-            <li><NavLink to='/recipes' exact={false}>Recipes</NavLink></li>
-            <li><NavLink to='/research' exact={false}>Research</NavLink></li>
+            <li><NavLink to='/items'>Items</NavLink></li>
+            <li><NavLink to='/buildings'>Buildings</NavLink></li>
+            <li><NavLink to='/vehicles'>Vehicles</NavLink></li>
+            <li><NavLink to='/recipes'>Recipes</NavLink></li>
+            <li><NavLink to='/research'>Research</NavLink></li>
           </ul>
         </nav>
       </header>

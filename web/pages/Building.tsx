@@ -8,41 +8,40 @@ import { MasterDetailLayout } from '../layouts';
 import { EntityList } from '../components/EntityList';
 import { colors } from '../style';
 
+const borderSize = 2;
 const basePadding = 16;
-const imageInset = 128;
-
-const summaryStyles = css({
-  border: `3px solid ${colors.Light.N400}`,
-  borderRadius: 16,
-  padding: basePadding,
-  paddingTop: basePadding + imageInset,
-  backgroundColor: colors.Light.N0,
-  'p:first-child': {
-    marginTop: 0,
-  },
-  'p:last-child': {
-    marginBottom: 0,
-  },
-});
+const imageSize = 256;
+const imageInset = 160;
 
 const headerStyles = css({
   display: 'flex',
+  flexDirection: 'column',
+  justifyContent: 'flex-end',
+  margin: 0,
+  fontSize: 36,
+  fontWeight: 'lighter',
+  textTransform: 'uppercase',
+  lineHeight: '1.0',
+  paddingLeft: imageSize + basePadding * 2 + borderSize,
+  paddingBottom: basePadding,
+  minHeight: imageInset - basePadding,
+});
+
+const summaryStyles = css({
+  display: 'flex',
+  border: `${borderSize}px solid ${colors.Light.N400}`,
+  borderRadius: 16,
   padding: basePadding,
-  alignItems: 'flex-end',
-  'picture': {
-    filter: 'drop-shadow(0 0 4px rgba(0, 0, 0, 0.5))',
-    order: 1,
-    marginBottom: -(imageInset + basePadding),
-    marginRight: basePadding * 2,
-  },
-  'h2': {
-    order: 2,
+  backgroundColor: colors.Light.N0,
+  'p': {
     margin: 0,
-    fontSize: 36,
-    fontWeight: 'lighter',
-    textTransform: 'uppercase',
-    lineHeight: '1.0',
-  }
+    flex: 1,
+  },
+  'picture': {
+    marginTop: -imageInset,
+    marginRight: basePadding,
+    filter: 'drop-shadow(0 0 4px rgba(0, 0, 0, 0.4))',
+  },
 });
 
 export function Building() {
@@ -66,12 +65,12 @@ function _renderDetail(building?: Building) {
   return (
     <React.Fragment>
       <article>
-        <header css={headerStyles}>
-          <h2>{building.name}</h2>
-          <BuildingImage building={building} size={256} />
-        </header>
-        <main css={summaryStyles}>
-          <p>{building.description}</p>
+        <h2 css={headerStyles}>{building.name}</h2>
+        <main>
+          <div css={summaryStyles}>
+            <BuildingImage building={building} size={256} />
+            <p>{building.description}</p>
+          </div>
         </main>
       </article>
     </React.Fragment>
