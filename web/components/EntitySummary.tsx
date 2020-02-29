@@ -4,7 +4,7 @@ import { Indexable } from '@local/schema';
 import { colors } from '../style';
 import { memoize } from '../utility';
 
-import { EntityImage } from './Icon';
+import { EntityImage } from './EntityImage';
 
 const borderSize = 2;
 const basePadding = 16;

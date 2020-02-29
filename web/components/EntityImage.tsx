@@ -21,7 +21,7 @@ export function EntityImage({ entity, size, maxSize = 256, ...props }: EntityIma
     };
   }
 
-  return <Image {...props} paths={paths} alt={entity.name} height={size} width={size} />;
+  return <Image {...props} key={entity.slug} paths={paths} alt={entity.name} height={size} width={size} />;
 }
 
 export interface ItemImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
