@@ -3,6 +3,8 @@ import { css } from '@emotion/core';
 import { useMemo } from 'react';
 import { AutoSizedStickyTree, Child } from 'react-virtualized-sticky-tree';
 
+import { colors } from '../style';
+
 import { EntityLink } from './EntityLink';
 
 type EntityTree = Map<string, Map<string, Indexable[]>>;
@@ -24,8 +26,9 @@ const categoryTitleStyles = css({
   lineHeight: `${categoryHeight}px`,
   fontSize: 16,
   margin: 0,
-  paddingLeft: 4,
-  backgroundColor: 'rgba(255, 255, 255, 0.85)',
+  paddingLeft: 8,
+  color: colors.Light.N0,
+  backgroundColor: colors.Secondary.N800,
   zIndex: 10,
 });
 
@@ -35,15 +38,28 @@ const subCategoryTitleStyles = css({
   lineHeight: `${subCategoryHeight}px`,
   fontSize: 12,
   margin: 0,
-  paddingLeft: 4,
-  backgroundColor: 'rgba(255, 255, 255, 0.85)',
+  paddingLeft: 8,
+  color: colors.Light.N0,
+  backgroundColor: colors.Secondary.N800,
   zIndex: 9,
 });
 
 const rowStyles = css({
   display: 'flex',
   alignItems: 'center',
-  padding: (rowHeight - rowIconSize) / 2,
+  padding: `${(rowHeight - rowIconSize) / 2}px 8px`,
+  color: 'inherit',
+  textDecoration: 'none',
+  'picture': {
+    marginRight: 8,
+  },
+  ':hover, &.active': {
+    color: colors.Light.N0,
+    backgroundColor: colors.Primary.N500,
+    'picture': {
+      filter: 'drop-shadow(0 0 3px rgba(255, 255, 255, 0.65))',
+    },
+  },
 });
 
 export interface EntityListProps {
@@ -81,24 +97,6 @@ function _renderNode(entitiesById: Record<string, Indexable>, id: string, style:
     return <EntityLink key={id} size={rowIconSize} entity={entity} style={style} css={rowStyles} />;
   }
 }
-
-// function _renderCategory({ title, subCategories }: Category, index: number) {
-//   return (
-//     <div key={index}>
-//       <h2 css={categoryTitleStyles}>{title || 'Miscellaneous'}</h2>
-//       {subCategories.map(_renderSubCategory)}
-//     </div>
-//   )
-// }
-
-// function _renderSubCategory({ title, entities }: SubCategory, index: number) {
-//   return (
-//     <div key={index}>
-//       <h3 css={subCategoryTitleStyles}>{title || 'Miscellaneous'}</h3>
-//       {entities.map(entity => <EntityLink key={entity.slug} entity={entity} css={entityStyles} />)}
-//     </div>
-//   )
-// }
 
 function _entityTree(allEntities: Indexable[]) {
   const indexed: EntityTree = new Map();
