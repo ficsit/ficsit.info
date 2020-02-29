@@ -36,7 +36,7 @@ const logoStyles = css({
 
 const titleStyles = css({
   fontSize: '24px',
-  fontWeight: 'normal',
+  fontWeight: 'lighter',
   margin: 0,
   'a': {
     padding: '4px 8px',

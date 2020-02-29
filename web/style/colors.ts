@@ -11,7 +11,8 @@ export const enum Dark {
 };
 
 export const enum Primary {
-  N500 = '#e59245',
+  // N500 = '#e59245',
+  N500 = '#d68c51',
 };
 
 export const enum Secondary {
