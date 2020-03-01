@@ -1,5 +1,5 @@
 import { useParams } from 'react-router';
-import { Item, ItemForm } from '@local/schema';
+import { Item } from '@local/schema';
 
 import { useItems } from '../data';
 import { MasterDetailLayout } from '../layouts';

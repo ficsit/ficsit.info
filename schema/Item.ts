@@ -1,5 +1,5 @@
 import { Indexable } from './Indexable';
-import { Color, EntityKind, ItemAmount, ItemForm, ItemStackSize, HumanReadableString, EquipmentSlot } from './primitive';
+import { Color, EntityKind, ItemAmount, ItemForm, HumanReadableString, EquipmentSlot } from './primitive';
 
 /**
  * Items that can be placed in inventories (resources, equipment, etc).
@@ -20,7 +20,7 @@ export interface Item extends Indexable {
   /**
    * The maximum stack size of the item, if stackable.
    */
-  stackSize?: ItemStackSize;
+  stackSize?: number;
 
   /**
    * If the item is a fluid, provides details about that.

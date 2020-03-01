@@ -1,4 +1,4 @@
-import { ItemForm, ItemStackSize, EquipmentSlot, SchematicKind } from '@local/schema';
+import { ItemForm, EquipmentSlot, SchematicKind } from '@local/schema';
 import { ItemAmount, Reference } from '@local/game';
 
 import { EntityDatabase, OutputDatabase } from '../state';
@@ -20,11 +20,11 @@ export const mapItemForm = enumMapper('ItemForm', {
 });
 
 export const mapStackSize = enumMapper('ItemStackSize', {
-  SS_ONE: ItemStackSize.One,
-  SS_SMALL: ItemStackSize.Small,
-  SS_MEDIUM: ItemStackSize.Medium,
-  SS_BIG: ItemStackSize.Big,
-  SS_HUGE: ItemStackSize.Huge,
+  SS_ONE: 1,
+  SS_SMALL: 50,
+  SS_MEDIUM: 100,
+  SS_BIG: 200,
+  SS_HUGE: 500,
 });
 
 export const mapEquipmentSlot = enumMapper('EquipmentSlot', {
