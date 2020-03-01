@@ -1,4 +1,4 @@
-import { Indexable, Item, Building } from '@local/schema';
+import { Indexable, Item, Building, Recipe } from '@local/schema';
 import { useState } from 'react';
 
 import { fetchData } from './fetch';
@@ -13,12 +13,16 @@ export function useIndex() {
   return _useCollection<Indexable[]>('index');
 }
 
+export function useBuildings() {
+  return _useCollection<Record<string, Building>>('buildings');
+}
+
 export function useItems() {
   return _useCollection<Record<string, Item>>('items');
 }
 
-export function useBuildings() {
-  return _useCollection<Record<string, Building>>('buildings');
+export function useRecipes() {
+  return _useCollection<Record<string, Recipe>>('recipes');
 }
 
 // Internal

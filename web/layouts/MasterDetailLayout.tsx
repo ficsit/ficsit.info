@@ -23,7 +23,6 @@ const detailStyles = css({
   order: 2,
   overflow: 'auto',
   flex: 1,
-  padding: 16,
 });
 
 export interface MasterDetailLayoutProps {

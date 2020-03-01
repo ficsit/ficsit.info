@@ -1,3 +1,4 @@
 import * as colors from './colors';
+import * as sizing from './sizing';
 
-export { colors }
+export { colors, sizing }

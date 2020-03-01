@@ -5,6 +5,7 @@ import { useItems } from '~/data';
 import { MasterDetailLayout } from '~/layouts';
 import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
+import { ItemRecipes } from './ItemRecipes';
 
 export function ItemPage() {
   const { slug } = useParams<{ slug?: string }>();
@@ -51,6 +52,7 @@ function _renderDetail(item?: Item) {
   return (
     <article>
       <EntitySummary entity={item} imageSize={128} statistics={statistics} />
+      <ItemRecipes item={item} />
     </article>
   )
 }

@@ -5,6 +5,7 @@ import { colors } from '../style';
 import { memoize } from '../utility';
 
 import { EntityImage } from './EntityImage';
+import { Section } from './Section';
 
 const borderSize = 2;
 const basePadding = 16;
@@ -14,22 +15,10 @@ const getHeaderStyles = memoize((imageSize: number) => css({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'flex-end',
-  margin: 0,
   fontSize: 36,
-  fontWeight: 'lighter',
-  textTransform: 'uppercase',
-  lineHeight: '1.0',
   paddingLeft: imageSize + basePadding * 2 + borderSize,
-  paddingBottom: basePadding,
   minHeight: (imageSize * insetAmount) - basePadding,
 }));
-
-const summaryContainerStyles = css({
-  border: `${borderSize}px solid ${colors.Light.N400}`,
-  borderRadius: 16,
-  padding: basePadding,
-  backgroundColor: colors.Light.N0,
-});
 
 const summaryStyles = css({
   display: 'flex',
@@ -87,26 +76,21 @@ export function EntitySummary({ entity, imageSize, statistics }: EntitySummaryPa
   const entityImageStyles = getEntityImageStyles(imageSize);
 
   return (
-    <React.Fragment>
-      <h2 css={headerStyles}>{entity.name}</h2>
-      <section>
-        <div css={summaryContainerStyles}>
-          <div css={summaryStyles}>
-            <EntityImage entity={entity} size={imageSize} css={entityImageStyles} />
-            <p css={descriptionStyles}>{entity.description}</p>
-          </div>
-          {!!statistics && 
-            <div css={statisticsStyles}>
-              {Object.entries(statistics).map(([title, content], index) =>
-                <dl key={index}>
-                  <dt>{title}</dt>
-                  <dd>{content}</dd>
-                </dl>
-              )}
-            </div>
-          }
+    <Section title={<h1 css={headerStyles}>{entity.name}</h1>}>
+      <div css={summaryStyles}>
+        <EntityImage entity={entity} size={imageSize} css={entityImageStyles} />
+        <p css={descriptionStyles}>{entity.description}</p>
+      </div>
+      {!!statistics && 
+        <div css={statisticsStyles}>
+          {Object.entries(statistics).map(([title, content], index) =>
+            <dl key={index}>
+              <dt>{title}</dt>
+              <dd>{content}</dd>
+            </dl>
+          )}
         </div>
-      </section>
-    </React.Fragment>
+      }
+    </Section>
   );
 }
