@@ -2,12 +2,12 @@ import { useState } from 'react';
 import { useParams } from 'react-router';
 import { Building } from '@local/schema';
 
-import { useBuildings } from '../data';
-import { MasterDetailLayout } from '../layouts';
-import { EntityList } from '../components/EntityList';
-import { EntitySummary } from '../components/EntitySummary';
+import { useBuildings } from '~/data';
+import { MasterDetailLayout } from '~/layouts';
+import { EntityList } from '~/components/EntityList';
+import { EntitySummary } from '~/components/EntitySummary';
 
-export function Building() {
+export function BuildingPage() {
   const { slug } = useParams<{ slug?: string }>();
   const buildings = useBuildings();
   if (!buildings) return <div>…</div>;

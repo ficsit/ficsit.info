@@ -1,14 +1,12 @@
 import { useParams } from 'react-router';
 import { Item } from '@local/schema';
 
-import { useItems } from '../data';
-import { MasterDetailLayout } from '../layouts';
-import { EntityList } from '../components/EntityList';
-import { EntitySummary } from '../components/EntitySummary';
+import { useItems } from '~/data';
+import { MasterDetailLayout } from '~/layouts';
+import { EntityList } from '~/components/EntityList';
+import { EntitySummary } from '~/components/EntitySummary';
 
-
-
-export function Item() {
+export function ItemPage() {
   const { slug } = useParams<{ slug?: string }>();
   const items = useItems();
   if (!items) return <div>…</div>;
@@ -47,7 +45,7 @@ function _renderDetail(item?: Item) {
   if (item.fuel?.energy) {
     // TODO: component for units/values.
     // TODO: better unit & value for liquids. (MJ / ml^3?)
-    statistics[`Energy As Fuel`] = `${item.fuel.energy} MJ`;
+    statistics[`Energy As Fuel`] = `${item.fuel.energy} MJ / item`;
   }
 
   return (
