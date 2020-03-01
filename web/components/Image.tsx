@@ -23,8 +23,16 @@ export interface ImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
 export function Image({ paths, alt, height, width, style, className, ...props }: ImageProps) {
   const srcSets = _collectSrcSets(paths);
 
+  const inlineStyles = {
+    ...style,
+    height,
+    width,
+    minHeight: height,
+    minWidth: width,
+  };
+
   return (
-    <picture css={pictureStyle} style={{ ...style, height, width }} className={className}>
+    <picture css={pictureStyle} style={inlineStyles} className={className}>
       {Object.entries(srcSets).map(([format, srcSet]) =>
         <source key={format} type={`image/${format}`} srcSet={srcSet.join(', ')} />
       )}

@@ -6,6 +6,7 @@ export const enum Light {
 };
 
 export const enum Dark {
+  N500 = '#677173',
   N950 = '#0b2127',
   N1000 = '#000000',
 };
