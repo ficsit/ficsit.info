@@ -21,5 +21,5 @@ export function EntityImage({ entity, size, maxSize = 256, ...props }: EntityIma
     };
   }
 
-  return <Image {...props} key={entity.slug} paths={paths} alt={entity.name} height={size} width={size} />;
+  return <Image {...props} key={entity.slug} paths={paths} title={entity.name} alt={entity.name} height={size} width={size} />;
 }
