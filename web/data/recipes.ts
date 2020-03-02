@@ -10,6 +10,19 @@ export const recipesByProduct = memoize((recipes: Record<string, Recipe>) => {
       byProduct[product.item].push(recipe);
     }
   }
+
+  for (const [product, recipes] of Object.entries(byProduct)) {
+    byProduct[product] = recipes
+      .sort((a, b) => a.name.localeCompare(b.name))
+      .sort((a, b) => {
+        if (a.alternate === b.alternate) return 0;
+        return a.alternate && !b.alternate ? 1 : -1;
+      })
+      .sort((a, b) => {
+        if (a.products[0].item === b.products[0].item) return 0;
+        return a.products[0].item === product ? -1 : 1;
+      });
+  }
   
   return byProduct;
 });

@@ -44,10 +44,10 @@ const statisticsStyles = css({
     fontSize: 14,
     
     borderRight: `1px solid ${colors.Light.N400}`,
-    '&:first-child': {
+    '&:first-of-type': {
       paddingLeft: 0,
     },
-    '&:last-child': {
+    '&:last-of-type': {
       paddingRight: 0,
       borderRight: 'none',
     },

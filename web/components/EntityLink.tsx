@@ -1,6 +1,8 @@
-import { Indexable, EntityKind } from '@local/schema';
+import { Indexable } from '@local/schema';
 import { NavLink } from 'react-router-dom';
 import { css, SerializedStyles } from '@emotion/core';
+
+import { entityUrl } from '~/routing';
 
 import { EntityImage } from './EntityImage';
 
@@ -29,18 +31,9 @@ export function EntityLink({ entity, imageCss, size = 24, ...props }: EntityLink
   };
 
   return (
-    <NavLink {...props} to={_entityUrl(entity)} css={rootStyles}>
+    <NavLink {...props} to={entityUrl(entity)} css={rootStyles}>
       <EntityImage entity={entity} size={size} css={[imageStyles, imageCss, inlineStyle]} />
       {entity.name}
     </NavLink>
   );
-}
-
-function _entityUrl(entity: Indexable) {
-  switch (entity.kind) {
-    case EntityKind.Building: return `/buildings/${entity.slug}`;
-    case EntityKind.Item: return `/items/${entity.slug}`;
-    case EntityKind.Recipe: return `/recipes/${entity.slug}`;
-    case EntityKind.Schematic: return `/research/${entity.slug}`;
-  }
 }

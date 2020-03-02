@@ -9,7 +9,7 @@ export interface SectionProps {
 
 const rootStyles = css({
   margin: sizing.Padding.Normal,
-  'h1, h2, h3, h4, h5, h6': {
+  '> h1, > h2, > h3, > h4, > h5, > h6': {
     margin: 0,
     fontWeight: 'lighter',
     textTransform: 'uppercase',
