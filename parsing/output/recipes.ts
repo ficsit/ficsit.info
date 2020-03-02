@@ -37,6 +37,11 @@ async function _buildRecipe(outputDb: OutputDatabase, entityDb: EntityDatabase, 
     _assign(recipe, 'icon', image);
   }
 
+  // TODO: is there a better way?
+  if (raw.entity.mDisplayName.startsWith('Alternate: ')) {
+    _assign(recipe, 'alternate', true);
+  }
+
   return recipe;
 }
 

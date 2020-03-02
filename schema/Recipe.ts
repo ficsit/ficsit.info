@@ -23,6 +23,11 @@ export interface Recipe extends Indexable {
   producedIn: Slug[];
 
   /**
+   * Whether the recipe is a standard or alternate recipe.
+   */
+  alternate?: true;
+
+  /**
    * How long it takes to produce one set of products.
    */
   duration: number;

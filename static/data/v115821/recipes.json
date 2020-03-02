@@ -115,6 +115,7 @@
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "DpiCnZTAhq6Q2ssmA40ck5dYXGBigKsW6KMGCkm8uqc",
+    "alternate": true,
     "slug": "recipe-alternate-adhered-iron-plate"
   },
   "recipe-alternate-biocoal": {
@@ -138,6 +139,7 @@
     "duration": 8,
     "manualMultiplier": 1,
     "icon": "2ZyWO1L9F6uggGyQUoyGAAMuZHR6hC4SyWm4UumKmiQ",
+    "alternate": true,
     "slug": "recipe-alternate-biocoal"
   },
   "recipe-alternate-bolted-frame": {
@@ -165,6 +167,7 @@
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "4uDYe7vAYg6AI0WIukEQUK1e0aP3ONog6YSIqe6Soqis",
+    "alternate": true,
     "slug": "recipe-alternate-bolted-frame"
   },
   "recipe-alternate-bolted-iron-plate": {
@@ -192,6 +195,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "DpiCnZTAhq6Q2ssmA40ck5dYXGBigKsW6KMGCkm8uqc",
+    "alternate": true,
     "slug": "recipe-alternate-bolted-iron-plate"
   },
   "recipe-alternate-casted-screw": {
@@ -215,6 +219,7 @@
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "3CIfE8K1Hy6gMa8Wm2SKAW13hK22ceCk0se0igMMmKoc",
+    "alternate": true,
     "slug": "recipe-alternate-casted-screw"
   },
   "recipe-alternate-caterium-circuit-board": {
@@ -242,6 +247,7 @@
     "duration": 48,
     "manualMultiplier": 1,
     "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE",
+    "alternate": true,
     "slug": "recipe-alternate-caterium-circuit-board"
   },
   "recipe-alternate-caterium-computer": {
@@ -273,6 +279,7 @@
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "6vZ32C2ZkA4qwAuQ0AQkwc1bn9l350L6we4iYUWigWoS",
+    "alternate": true,
     "slug": "recipe-alternate-caterium-computer"
   },
   "recipe-alternate-caterium-wire": {
@@ -296,6 +303,7 @@
     "duration": 4,
     "manualMultiplier": 1,
     "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS",
+    "alternate": true,
     "slug": "recipe-alternate-caterium-wire"
   },
   "recipe-alternate-charcoal": {
@@ -319,6 +327,7 @@
     "duration": 4,
     "manualMultiplier": 1,
     "icon": "2ZyWO1L9F6uggGyQUoyGAAMuZHR6hC4SyWm4UumKmiQ",
+    "alternate": true,
     "slug": "recipe-alternate-charcoal"
   },
   "recipe-alternate-cheap-silica": {
@@ -346,6 +355,7 @@
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "1MA5DTcAxKqImsIQmwoy4u263hXLjnTmSWsmY8Uc66yU",
+    "alternate": true,
     "slug": "recipe-alternate-cheap-silica"
   },
   "recipe-alternate-coated-cable": {
@@ -373,6 +383,7 @@
     "duration": 8,
     "manualMultiplier": 1,
     "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ",
+    "alternate": true,
     "slug": "recipe-alternate-coated-cable"
   },
   "recipe-alternate-coated-iron-plate": {
@@ -400,6 +411,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "654X5USXiokMei8s4CEI2E6c8bRT6gfuQeci02KweQim",
+    "alternate": true,
     "slug": "recipe-alternate-coated-iron-plate"
   },
   "recipe-alternate-coke-steel-ingot": {
@@ -427,6 +439,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0",
+    "alternate": true,
     "slug": "recipe-alternate-coke-steel-ingot"
   },
   "recipe-alternate-compacted-coal": {
@@ -454,6 +467,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "3NLcDIsKRyyyQUWSM2u0aixkLYJW2jy8KG6eKgOy4AE",
+    "alternate": true,
     "slug": "recipe-alternate-compacted-coal"
   },
   "recipe-alternate-compacted-steel-ingot": {
@@ -481,6 +495,7 @@
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0",
+    "alternate": true,
     "slug": "recipe-alternate-compacted-steel-ingot"
   },
   "recipe-alternate-copper-alloy-ingot": {
@@ -508,6 +523,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "1RtTF6zT7a0qgEICmccgA26pFCZcwKKQyUo482W4sWCC",
+    "alternate": true,
     "slug": "recipe-alternate-copper-alloy-ingot"
   },
   "recipe-alternate-copper-rotor": {
@@ -535,6 +551,7 @@
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "OgqyQ7r2wwSwq8OMIKkUk4WXk7Z4FbOsic2AE0u0o6U",
+    "alternate": true,
     "slug": "recipe-alternate-copper-rotor"
   },
   "recipe-alternate-crystal-beacon": {
@@ -566,6 +583,7 @@
     "duration": 120,
     "manualMultiplier": 1,
     "icon": "1OwicP8qRS6ycu8GwSaaG2T5M9IB9uA8YAIIYAE2oUk",
+    "alternate": true,
     "slug": "recipe-alternate-crystal-beacon"
   },
   "recipe-alternate-crystal-computer": {
@@ -593,6 +611,7 @@
     "duration": 64,
     "manualMultiplier": 1,
     "icon": "6vZ32C2ZkA4qwAuQ0AQkwc1bn9l350L6we4iYUWigWoS",
+    "alternate": true,
     "slug": "recipe-alternate-crystal-computer"
   },
   "recipe-alternate-diluted-packaged-fuel": {
@@ -620,6 +639,7 @@
     "duration": 4,
     "manualMultiplier": 1,
     "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS",
+    "alternate": true,
     "slug": "recipe-alternate-diluted-packaged-fuel"
   },
   "recipe-alternate-electrode-aluminum-scrap": {
@@ -651,6 +671,7 @@
     "duration": 2,
     "manualMultiplier": 1,
     "icon": "4aw8Ki6ocg8WUqmemQcAIU1bGANAb9dqmAGAgSYUqWGk",
+    "alternate": true,
     "slug": "recipe-alternate-electrode-aluminum-scrap"
   },
   "recipe-alternate-electrode-circuit-board": {
@@ -678,6 +699,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE",
+    "alternate": true,
     "slug": "recipe-alternate-electrode-circuit-board"
   },
   "recipe-alternate-electromagnetic-connection-rod": {
@@ -705,6 +727,7 @@
     "duration": 60,
     "manualMultiplier": 1,
     "icon": "51sSpGM7scCQUeWGyYme241GZGQI4xz220seAIww6UEY",
+    "alternate": true,
     "slug": "recipe-alternate-electromagnetic-connection-rod"
   },
   "recipe-alternate-encased-industrial-pipe": {
@@ -732,6 +755,7 @@
     "duration": 15,
     "manualMultiplier": 1,
     "icon": "15ixr0o43o4EI6KYIckyeQ43UEoxqSByyASwWKSU6Cmk",
+    "alternate": true,
     "slug": "recipe-alternate-encased-industrial-pipe"
   },
   "recipe-alternate-fine-black-powder": {
@@ -759,6 +783,7 @@
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "XoMkHOPbkisYw0Os2CEC04arPLe5TAQYMYW4sMqUwCm",
+    "alternate": true,
     "slug": "recipe-alternate-fine-black-powder"
   },
   "recipe-alternate-fine-concrete": {
@@ -786,6 +811,7 @@
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe",
+    "alternate": true,
     "slug": "recipe-alternate-fine-concrete"
   },
   "recipe-alternate-flexible-framework": {
@@ -817,6 +843,7 @@
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "3Ugy0tOX2U6kikQkuwesGY3XNgQyhzAsKaeMoE66oEIc",
+    "alternate": true,
     "slug": "recipe-alternate-flexible-framework"
   },
   "recipe-alternate-fused-quckwire": {
@@ -844,6 +871,7 @@
     "duration": 8,
     "manualMultiplier": 1,
     "icon": "7xQWI9C0fegwYmmoS8Wkq26rdGoXXtgk4msi6AAUUkUY",
+    "alternate": true,
     "slug": "recipe-alternate-fused-quckwire"
   },
   "recipe-alternate-fused-wire": {
@@ -871,6 +899,7 @@
     "duration": 20,
     "manualMultiplier": 1,
     "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS",
+    "alternate": true,
     "slug": "recipe-alternate-fused-wire"
   },
   "recipe-alternate-heat-exchanger": {
@@ -898,6 +927,7 @@
     "duration": 32,
     "manualMultiplier": 1,
     "icon": "7ky4sGRKFOkUEo2IAkwEK47t2X8wQGAMqeqI6KQiiIGE",
+    "alternate": true,
     "slug": "recipe-alternate-heat-exchanger"
   },
   "recipe-alternate-heavy-encased-frame": {
@@ -933,6 +963,7 @@
     "duration": 64,
     "manualMultiplier": 1,
     "icon": "56Bx22YgogYaS2CGy2UkYe2OIVkU7yAECqCWmA8Uea2O",
+    "alternate": true,
     "slug": "recipe-alternate-heavy-encased-frame"
   },
   "recipe-alternate-heavy-flexible-frame": {
@@ -968,6 +999,7 @@
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "56Bx22YgogYaS2CGy2UkYe2OIVkU7yAECqCWmA8Uea2O",
+    "alternate": true,
     "slug": "recipe-alternate-heavy-flexible-frame"
   },
   "recipe-alternate-heavy-oil-residue": {
@@ -995,6 +1027,7 @@
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "HgXdRRk0a2uak0kUoo2Wk7k45bu16IooCi6SGKWcK4S",
+    "alternate": true,
     "slug": "recipe-alternate-heavy-oil-residue"
   },
   "recipe-alternate-high-speed-wiring": {
@@ -1026,6 +1059,7 @@
     "duration": 32,
     "manualMultiplier": 1,
     "icon": "4fgmzNq4WIa66YUgIImImk61hkG4YTwA6kAyisIuYQIg",
+    "alternate": true,
     "slug": "recipe-alternate-high-speed-wiring"
   },
   "recipe-alternate-infused-uranium-cell": {
@@ -1061,6 +1095,7 @@
     "duration": 120,
     "manualMultiplier": 1,
     "icon": "218uoQZdKEImEUwIaU6q8sBhPxD96k3Q2MEesYQAmI0",
+    "alternate": true,
     "slug": "recipe-alternate-infused-uranium-cell"
   },
   "recipe-alternate-insulated-cable": {
@@ -1088,6 +1123,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ",
+    "alternate": true,
     "slug": "recipe-alternate-insulated-cable"
   },
   "recipe-alternate-insulated-crystal-oscillator": {
@@ -1119,6 +1155,7 @@
     "duration": 32,
     "manualMultiplier": 1,
     "icon": "7vNSzrF9PaEIyyIAq8YKmO43PgBPFVG0IueAKOsiyuS2",
+    "alternate": true,
     "slug": "recipe-alternate-insulated-crystal-oscillator"
   },
   "recipe-alternate-iron-alloy-ingot": {
@@ -1146,6 +1183,7 @@
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "2IEt6n1lD2yiGccaWqugeWcpaTd3u2ukGkeaQuaua0O",
+    "alternate": true,
     "slug": "recipe-alternate-iron-alloy-ingot"
   },
   "recipe-alternate-iron-wire": {
@@ -1169,6 +1207,7 @@
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS",
+    "alternate": true,
     "slug": "recipe-alternate-iron-wire"
   },
   "recipe-alternate-nuclear-fuel-unit": {
@@ -1204,6 +1243,7 @@
     "duration": 300,
     "manualMultiplier": 1,
     "icon": "1SAN10lvqMuQKsya2oAmya436a9ohrtKKwSSWgIeCiwU",
+    "alternate": true,
     "slug": "recipe-alternate-nuclear-fuel-unit"
   },
   "recipe-alternate-plastic-smart-plating": {
@@ -1235,6 +1275,7 @@
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "3dbpfvkoGsIgquEKiSAASA40qElBoMR28qEMYEm2gg0e",
+    "alternate": true,
     "slug": "recipe-alternate-plastic-smart-plating"
   },
   "recipe-alternate-polyester-fabric": {
@@ -1262,6 +1303,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "37PmtqQwQ0SoaI0QKu2cw83iU9sou1u8UOUiCSo0q0OI",
+    "alternate": true,
     "slug": "recipe-alternate-polyester-fabric"
   },
   "recipe-alternate-polymer-resin": {
@@ -1289,6 +1331,7 @@
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "6tssEAPIK48MwgkiW4cWck4dPG6Xpc1yGK2EiOcCyKCi",
+    "alternate": true,
     "slug": "recipe-alternate-polymer-resin"
   },
   "recipe-alternate-pure-aluminum-ingot": {
@@ -1312,6 +1355,7 @@
     "duration": 5,
     "manualMultiplier": 1,
     "icon": "1dlvKyAE1wWCkCGkI2cs4I6A9VggMF5SAMawmKAQAIWq",
+    "alternate": true,
     "slug": "recipe-alternate-pure-aluminum-ingot"
   },
   "recipe-alternate-pure-caterium-ingot": {
@@ -1339,6 +1383,7 @@
     "duration": 5,
     "manualMultiplier": 1,
     "icon": "hYVuwBz5FC64maqiOemaS7F4TmTDTcA2sUQsegK2EGM",
+    "alternate": true,
     "slug": "recipe-alternate-pure-caterium-ingot"
   },
   "recipe-alternate-pure-copper-ingot": {
@@ -1366,6 +1411,7 @@
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "1RtTF6zT7a0qgEICmccgA26pFCZcwKKQyUo482W4sWCC",
+    "alternate": true,
     "slug": "recipe-alternate-pure-copper-ingot"
   },
   "recipe-alternate-pure-iron-ingot": {
@@ -1393,6 +1439,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "2IEt6n1lD2yiGccaWqugeWcpaTd3u2ukGkeaQuaua0O",
+    "alternate": true,
     "slug": "recipe-alternate-pure-iron-ingot"
   },
   "recipe-alternate-pure-quartz-crystal": {
@@ -1420,6 +1467,7 @@
     "duration": 8,
     "manualMultiplier": 1,
     "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km",
+    "alternate": true,
     "slug": "recipe-alternate-pure-quartz-crystal"
   },
   "recipe-alternate-quickwire-cable": {
@@ -1447,6 +1495,7 @@
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ",
+    "alternate": true,
     "slug": "recipe-alternate-quickwire-cable"
   },
   "recipe-alternate-quickwire-stator": {
@@ -1474,6 +1523,7 @@
     "duration": 15,
     "manualMultiplier": 1,
     "icon": "5uQCS3rUYgEe46y6Si2swI7vV0osgpxY2MA8i0mO0WUo",
+    "alternate": true,
     "slug": "recipe-alternate-quickwire-stator"
   },
   "recipe-alternate-radio-control-system": {
@@ -1505,6 +1555,7 @@
     "duration": 48,
     "manualMultiplier": 1,
     "icon": "4PLCuCwLcICmGsS4Uikm2a6aJmlhBrt6WQQ0iWSKSse",
+    "alternate": true,
     "slug": "recipe-alternate-radio-control-system"
   },
   "recipe-alternate-recycled-plastic": {
@@ -1532,6 +1583,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "7l2rmHqYneCUkuAEUaSqMafvf1QGi7baMI8eWAgasMm",
+    "alternate": true,
     "slug": "recipe-alternate-recycled-plastic"
   },
   "recipe-alternate-recycled-rubber": {
@@ -1559,6 +1611,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "1VyrgwLHgUoKUQCssgcqEu1hrYGNAgsqA2OgGowgUkew",
+    "alternate": true,
     "slug": "recipe-alternate-recycled-rubber"
   },
   "recipe-alternate-rigour-motor": {
@@ -1590,6 +1643,7 @@
     "duration": 40,
     "manualMultiplier": 1,
     "icon": "3BkLK2VWgMAyoSasM6GeWI1MAk3rJuGEGYQQMu6SOGqi",
+    "alternate": true,
     "slug": "recipe-alternate-rigour-motor"
   },
   "recipe-alternate-rubber-concrete": {
@@ -1617,6 +1671,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe",
+    "alternate": true,
     "slug": "recipe-alternate-rubber-concrete"
   },
   "recipe-alternate-seismic-nobelisk": {
@@ -1648,6 +1703,7 @@
     "duration": 40,
     "manualMultiplier": 1,
     "icon": "4cb0G1DZO8yEoAI4AGq8uE2ZNmDrvFza0IMEkSeCG4SI",
+    "alternate": true,
     "slug": "recipe-alternate-seismic-nobelisk"
   },
   "recipe-alternate-silicone-circuit-board": {
@@ -1675,6 +1731,7 @@
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE",
+    "alternate": true,
     "slug": "recipe-alternate-silicone-circuit-board"
   },
   "recipe-alternate-silicone-high-speed-connector": {
@@ -1706,6 +1763,7 @@
     "duration": 40,
     "manualMultiplier": 1,
     "icon": "4XQHY1qNFe4sUqi0k2gU6w4WZYCTYXioqSOsSGUIaGCI",
+    "alternate": true,
     "slug": "recipe-alternate-silicone-high-speed-connector"
   },
   "recipe-alternate-solid-steel-ingot": {
@@ -1733,6 +1791,7 @@
     "duration": 3,
     "manualMultiplier": 1,
     "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0",
+    "alternate": true,
     "slug": "recipe-alternate-solid-steel-ingot"
   },
   "recipe-alternate-steamed-copper-sheet": {
@@ -1760,6 +1819,7 @@
     "duration": 8,
     "manualMultiplier": 1,
     "icon": "2Fsos2EEnK4EUsE84WGCSM6VLdqq8rny0u400MaCO8eO",
+    "alternate": true,
     "slug": "recipe-alternate-steamed-copper-sheet"
   },
   "recipe-alternate-steel-coated-plate": {
@@ -1787,6 +1847,7 @@
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "654X5USXiokMei8s4CEI2E6c8bRT6gfuQeci02KweQim",
+    "alternate": true,
     "slug": "recipe-alternate-steel-coated-plate"
   },
   "recipe-alternate-steel-rod": {
@@ -1810,6 +1871,7 @@
     "duration": 5,
     "manualMultiplier": 1,
     "icon": "22Iasy39jiIsO2Gq84ISoS7m9tRpEF1K8gKUoCwg4Ckq",
+    "alternate": true,
     "slug": "recipe-alternate-steel-rod"
   },
   "recipe-alternate-steel-rotor": {
@@ -1837,6 +1899,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "OgqyQ7r2wwSwq8OMIKkUk4WXk7Z4FbOsic2AE0u0o6U",
+    "alternate": true,
     "slug": "recipe-alternate-steel-rotor"
   },
   "recipe-alternate-steel-screw": {
@@ -1860,6 +1923,7 @@
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "3CIfE8K1Hy6gMa8Wm2SKAW13hK22ceCk0se0igMMmKoc",
+    "alternate": true,
     "slug": "recipe-alternate-steel-screw"
   },
   "recipe-alternate-steeled-frame": {
@@ -1887,6 +1951,7 @@
     "duration": 60,
     "manualMultiplier": 1,
     "icon": "4uDYe7vAYg6AI0WIukEQUK1e0aP3ONog6YSIqe6Soqis",
+    "alternate": true,
     "slug": "recipe-alternate-steeled-frame"
   },
   "recipe-alternate-stitched-iron-plate": {
@@ -1914,6 +1979,7 @@
     "duration": 32,
     "manualMultiplier": 1,
     "icon": "DpiCnZTAhq6Q2ssmA40ck5dYXGBigKsW6KMGCkm8uqc",
+    "alternate": true,
     "slug": "recipe-alternate-stitched-iron-plate"
   },
   "recipe-alternate-turbo-heavy-fuel": {
@@ -1941,6 +2007,7 @@
     "duration": 8,
     "manualMultiplier": 1,
     "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa",
+    "alternate": true,
     "slug": "recipe-alternate-turbo-heavy-fuel"
   },
   "recipe-alternate-turbo-rigour-motor": {
@@ -1976,6 +2043,7 @@
     "duration": 64,
     "manualMultiplier": 1,
     "icon": "3VDejjgSzSI2kUiesoCEcU3IMyjwZdH2I6siqQc6uWK6",
+    "alternate": true,
     "slug": "recipe-alternate-turbo-rigour-motor"
   },
   "recipe-alternate-wet-concrete": {
@@ -2003,6 +2071,7 @@
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe",
+    "alternate": true,
     "slug": "recipe-alternate-wet-concrete"
   },
   "recipe-alumina-solution": {
