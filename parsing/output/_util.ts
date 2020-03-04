@@ -1,7 +1,7 @@
 import { ItemForm, EquipmentSlot, SchematicKind } from '@local/schema';
 import { ItemAmount, Reference } from '@local/game';
 
-import { EntityDatabase, OutputDatabase } from '../state';
+import { EntityDatabase, OutputDatabase, SlugReferenceString } from '../state';
 
 export function enumMapper<TValues>(description: string, mapping: Record<any, TValues>) {
   return function mapEnum(sourceValue: any) {
@@ -42,8 +42,8 @@ export const mapSchematicKind = enumMapper('SchematicKind', {
   EST_ResourceSink: SchematicKind.ResourceSink,
 })
 
-export function expandReferences(outputDb: OutputDatabase, entityDb: EntityDatabase, references: (Reference | undefined)[]): string[]
-export function expandReferences(outputDb: OutputDatabase, entityDb: EntityDatabase, references?: (Reference | undefined)[]): undefined | string[]
+export function expandReferences(outputDb: OutputDatabase, entityDb: EntityDatabase, references: (Reference | undefined)[]): SlugReferenceString[]
+export function expandReferences(outputDb: OutputDatabase, entityDb: EntityDatabase, references?: (Reference | undefined)[]): undefined | SlugReferenceString[]
 export function expandReferences(outputDb: OutputDatabase, entityDb: EntityDatabase, references?: (Reference | undefined)[]) {
   if (!references) return;
 

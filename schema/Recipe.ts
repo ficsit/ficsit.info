@@ -23,6 +23,16 @@ export interface Recipe extends Indexable {
   producedIn: Slug[];
 
   /**
+   * Buildings the recipe can be produced by the player within.
+   */
+  handcraftedIn: Slug[];
+
+  /**
+   * Whether the player can place the product in the game world.
+   */
+  placedByPlayer?: true;
+
+  /**
    * Whether the recipe is a standard or alternate recipe.
    */
   alternate?: true;

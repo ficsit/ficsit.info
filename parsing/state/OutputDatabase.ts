@@ -61,7 +61,7 @@ export class OutputDatabase {
     return indexable.sort((a, b) => a.slug.localeCompare(b.slug));
   }
 
-  slugForEntityOrDie(className: string): Slug {
+  slugForEntityOrDie(className: string): SlugReferenceString {
     // Lazy evaluation.
     return new SlugReference(this, className) as any;
   }
@@ -115,15 +115,19 @@ function _baseSlug(entity: WithoutSlug<Entity>) {
   return paramCase(entity.name.replace(/[.]/g, ''));
 }
 
+export type SlugReferenceString = Slug & { className: string };
+
 export class SlugReference {
-  constructor(private _outputDb: OutputDatabase, private _className: string) {}
+  public className: string;
+  constructor(private _outputDb: OutputDatabase, _className: string) {
+    this.className = normalizeClassName(_className);
+  }
 
   toJSON() {
-    const className = normalizeClassName(this._className);
-    if (!this._outputDb._entitiesByClassName.has(className)) {
-      console.warn(`${className} has not been registered`);
-      return `--BAD REFERENCE: ${className}--`;
+    if (!this._outputDb._entitiesByClassName.has(this.className)) {
+      console.warn(`${this.className} has not been registered`);
+      return `--BAD REFERENCE: ${this.className}--`;
     }
-    return this._outputDb._entitiesByClassName.get(className)!.slug;
+    return this._outputDb._entitiesByClassName.get(this.className)!.slug;
   }
 }

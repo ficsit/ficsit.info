@@ -4,6 +4,16 @@ import { AssetDatabase, EntityDatabase, OutputDatabase, WithoutSlug } from '../s
 
 import { mapItemAmount, expandReferences } from './_util';
 
+const playerPlacingEntities = new Set([
+  'BP_BuildGun_C',
+]);
+
+const handcraftingEntities = new Set([
+  'BP_WorkBenchComponent_C',
+  'BP_WorkshopComponent_C',
+  'Build_AutomatedWorkBench_C',
+]);
+
 type BuiltRecipe = WithoutSlug<Recipe>;
 type RawInfo = EntityDatabase.Info<'FGRecipe'>;
 
@@ -30,12 +40,31 @@ async function _buildRecipe(outputDb: OutputDatabase, entityDb: EntityDatabase, 
     return;
   }
 
+  let placedByPlayer: undefined | true = undefined;
+  const producedIn = [] as string[];
+  const handcraftedIn = [] as string[];
+  for (const building of expandReferences(outputDb, entityDb, raw.entity.mProducedIn)) {
+    if (handcraftingEntities.has(building.className)) {
+      handcraftedIn.push(building);
+    } else if (playerPlacingEntities.has(building.className)) {
+      placedByPlayer = true;
+    } else {
+      producedIn.push(building);
+    }
+  }
+
+  if (producedIn.length > 1) {
+    throw new Error(`wat: ${JSON.stringify(producedIn)}`);
+  }
+
   const recipe = {
     kind: EntityKind.Recipe,
     name: raw.entity.mDisplayName,
     ingredients: raw.entity.mIngredients.map(a => mapItemAmount(outputDb, a)),
     products: raw.entity.mProduct.map(a => mapItemAmount(outputDb, a)),
-    producedIn: expandReferences(outputDb, entityDb, raw.entity.mProducedIn),
+    producedIn,
+    handcraftedIn,
+    placedByPlayer,
     duration: raw.entity.mManufactoringDuration,
     manualMultiplier: raw.entity.mManualManufacturingMultiplier,
   } as const;

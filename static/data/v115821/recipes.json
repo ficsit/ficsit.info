@@ -29,6 +29,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 120,
     "manualMultiplier": 1,
     "icon": "iUT79ZO9DGwiAYeaqe0Q2HV47m6CsKYgAOMiiiOEMu",
@@ -54,7 +55,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 12,
@@ -82,7 +85,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 8,
@@ -112,6 +117,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "DpiCnZTAhq6Q2ssmA40ck5dYXGBigKsW6KMGCkm8uqc",
@@ -136,6 +142,7 @@
     "producedIn": [
       "constructor"
     ],
+    "handcraftedIn": [],
     "duration": 8,
     "manualMultiplier": 1,
     "icon": "2ZyWO1L9F6uggGyQUoyGAAMuZHR6hC4SyWm4UumKmiQ",
@@ -164,6 +171,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "4uDYe7vAYg6AI0WIukEQUK1e0aP3ONog6YSIqe6Soqis",
@@ -192,6 +200,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "DpiCnZTAhq6Q2ssmA40ck5dYXGBigKsW6KMGCkm8uqc",
@@ -216,6 +225,7 @@
     "producedIn": [
       "constructor"
     ],
+    "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "3CIfE8K1Hy6gMa8Wm2SKAW13hK22ceCk0se0igMMmKoc",
@@ -244,6 +254,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 48,
     "manualMultiplier": 1,
     "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE",
@@ -276,6 +287,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "6vZ32C2ZkA4qwAuQ0AQkwc1bn9l350L6we4iYUWigWoS",
@@ -300,6 +312,7 @@
     "producedIn": [
       "constructor"
     ],
+    "handcraftedIn": [],
     "duration": 4,
     "manualMultiplier": 1,
     "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS",
@@ -324,6 +337,7 @@
     "producedIn": [
       "constructor"
     ],
+    "handcraftedIn": [],
     "duration": 4,
     "manualMultiplier": 1,
     "icon": "2ZyWO1L9F6uggGyQUoyGAAMuZHR6hC4SyWm4UumKmiQ",
@@ -352,6 +366,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "1MA5DTcAxKqImsIQmwoy4u263hXLjnTmSWsmY8Uc66yU",
@@ -380,6 +395,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 8,
     "manualMultiplier": 1,
     "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ",
@@ -408,6 +424,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "654X5USXiokMei8s4CEI2E6c8bRT6gfuQeci02KweQim",
@@ -436,6 +453,7 @@
     "producedIn": [
       "foundry"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0",
@@ -464,6 +482,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "3NLcDIsKRyyyQUWSM2u0aixkLYJW2jy8KG6eKgOy4AE",
@@ -492,6 +511,7 @@
     "producedIn": [
       "foundry"
     ],
+    "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0",
@@ -520,6 +540,7 @@
     "producedIn": [
       "foundry"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "1RtTF6zT7a0qgEICmccgA26pFCZcwKKQyUo482W4sWCC",
@@ -548,6 +569,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "OgqyQ7r2wwSwq8OMIKkUk4WXk7Z4FbOsic2AE0u0o6U",
@@ -580,6 +602,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 120,
     "manualMultiplier": 1,
     "icon": "1OwicP8qRS6ycu8GwSaaG2T5M9IB9uA8YAIIYAE2oUk",
@@ -608,6 +631,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 64,
     "manualMultiplier": 1,
     "icon": "6vZ32C2ZkA4qwAuQ0AQkwc1bn9l350L6we4iYUWigWoS",
@@ -636,6 +660,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 4,
     "manualMultiplier": 1,
     "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS",
@@ -668,6 +693,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 2,
     "manualMultiplier": 1,
     "icon": "4aw8Ki6ocg8WUqmemQcAIU1bGANAb9dqmAGAgSYUqWGk",
@@ -696,6 +722,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE",
@@ -724,6 +751,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 60,
     "manualMultiplier": 1,
     "icon": "51sSpGM7scCQUeWGyYme241GZGQI4xz220seAIww6UEY",
@@ -752,6 +780,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 15,
     "manualMultiplier": 1,
     "icon": "15ixr0o43o4EI6KYIckyeQ43UEoxqSByyASwWKSU6Cmk",
@@ -780,6 +809,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "XoMkHOPbkisYw0Os2CEC04arPLe5TAQYMYW4sMqUwCm",
@@ -808,6 +838,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe",
@@ -840,6 +871,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "3Ugy0tOX2U6kikQkuwesGY3XNgQyhzAsKaeMoE66oEIc",
@@ -868,6 +900,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 8,
     "manualMultiplier": 1,
     "icon": "7xQWI9C0fegwYmmoS8Wkq26rdGoXXtgk4msi6AAUUkUY",
@@ -896,6 +929,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 20,
     "manualMultiplier": 1,
     "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS",
@@ -924,6 +958,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 32,
     "manualMultiplier": 1,
     "icon": "7ky4sGRKFOkUEo2IAkwEK47t2X8wQGAMqeqI6KQiiIGE",
@@ -960,6 +995,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 64,
     "manualMultiplier": 1,
     "icon": "56Bx22YgogYaS2CGy2UkYe2OIVkU7yAECqCWmA8Uea2O",
@@ -996,6 +1032,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "56Bx22YgogYaS2CGy2UkYe2OIVkU7yAECqCWmA8Uea2O",
@@ -1024,6 +1061,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "HgXdRRk0a2uak0kUoo2Wk7k45bu16IooCi6SGKWcK4S",
@@ -1056,6 +1094,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 32,
     "manualMultiplier": 1,
     "icon": "4fgmzNq4WIa66YUgIImImk61hkG4YTwA6kAyisIuYQIg",
@@ -1092,6 +1131,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 120,
     "manualMultiplier": 1,
     "icon": "218uoQZdKEImEUwIaU6q8sBhPxD96k3Q2MEesYQAmI0",
@@ -1120,6 +1160,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ",
@@ -1152,6 +1193,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 32,
     "manualMultiplier": 1,
     "icon": "7vNSzrF9PaEIyyIAq8YKmO43PgBPFVG0IueAKOsiyuS2",
@@ -1180,6 +1222,7 @@
     "producedIn": [
       "foundry"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "2IEt6n1lD2yiGccaWqugeWcpaTd3u2ukGkeaQuaua0O",
@@ -1204,6 +1247,7 @@
     "producedIn": [
       "constructor"
     ],
+    "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS",
@@ -1240,6 +1284,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 300,
     "manualMultiplier": 1,
     "icon": "1SAN10lvqMuQKsya2oAmya436a9ohrtKKwSSWgIeCiwU",
@@ -1272,6 +1317,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "3dbpfvkoGsIgquEKiSAASA40qElBoMR28qEMYEm2gg0e",
@@ -1300,6 +1346,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "37PmtqQwQ0SoaI0QKu2cw83iU9sou1u8UOUiCSo0q0OI",
@@ -1328,6 +1375,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "6tssEAPIK48MwgkiW4cWck4dPG6Xpc1yGK2EiOcCyKCi",
@@ -1352,6 +1400,7 @@
     "producedIn": [
       "smelter"
     ],
+    "handcraftedIn": [],
     "duration": 5,
     "manualMultiplier": 1,
     "icon": "1dlvKyAE1wWCkCGkI2cs4I6A9VggMF5SAMawmKAQAIWq",
@@ -1380,6 +1429,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 5,
     "manualMultiplier": 1,
     "icon": "hYVuwBz5FC64maqiOemaS7F4TmTDTcA2sUQsegK2EGM",
@@ -1408,6 +1458,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "1RtTF6zT7a0qgEICmccgA26pFCZcwKKQyUo482W4sWCC",
@@ -1436,6 +1487,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "2IEt6n1lD2yiGccaWqugeWcpaTd3u2ukGkeaQuaua0O",
@@ -1464,6 +1516,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 8,
     "manualMultiplier": 1,
     "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km",
@@ -1492,6 +1545,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ",
@@ -1520,6 +1574,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 15,
     "manualMultiplier": 1,
     "icon": "5uQCS3rUYgEe46y6Si2swI7vV0osgpxY2MA8i0mO0WUo",
@@ -1552,6 +1607,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 48,
     "manualMultiplier": 1,
     "icon": "4PLCuCwLcICmGsS4Uikm2a6aJmlhBrt6WQQ0iWSKSse",
@@ -1580,6 +1636,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "7l2rmHqYneCUkuAEUaSqMafvf1QGi7baMI8eWAgasMm",
@@ -1608,6 +1665,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "1VyrgwLHgUoKUQCssgcqEu1hrYGNAgsqA2OgGowgUkew",
@@ -1640,6 +1698,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 40,
     "manualMultiplier": 1,
     "icon": "3BkLK2VWgMAyoSasM6GeWI1MAk3rJuGEGYQQMu6SOGqi",
@@ -1668,6 +1727,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe",
@@ -1700,6 +1760,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 40,
     "manualMultiplier": 1,
     "icon": "4cb0G1DZO8yEoAI4AGq8uE2ZNmDrvFza0IMEkSeCG4SI",
@@ -1728,6 +1789,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE",
@@ -1760,6 +1822,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 40,
     "manualMultiplier": 1,
     "icon": "4XQHY1qNFe4sUqi0k2gU6w4WZYCTYXioqSOsSGUIaGCI",
@@ -1788,6 +1851,7 @@
     "producedIn": [
       "foundry"
     ],
+    "handcraftedIn": [],
     "duration": 3,
     "manualMultiplier": 1,
     "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0",
@@ -1816,6 +1880,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 8,
     "manualMultiplier": 1,
     "icon": "2Fsos2EEnK4EUsE84WGCSM6VLdqq8rny0u400MaCO8eO",
@@ -1844,6 +1909,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "654X5USXiokMei8s4CEI2E6c8bRT6gfuQeci02KweQim",
@@ -1868,6 +1934,7 @@
     "producedIn": [
       "constructor"
     ],
+    "handcraftedIn": [],
     "duration": 5,
     "manualMultiplier": 1,
     "icon": "22Iasy39jiIsO2Gq84ISoS7m9tRpEF1K8gKUoCwg4Ckq",
@@ -1896,6 +1963,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "OgqyQ7r2wwSwq8OMIKkUk4WXk7Z4FbOsic2AE0u0o6U",
@@ -1920,6 +1988,7 @@
     "producedIn": [
       "constructor"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "3CIfE8K1Hy6gMa8Wm2SKAW13hK22ceCk0se0igMMmKoc",
@@ -1948,6 +2017,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 60,
     "manualMultiplier": 1,
     "icon": "4uDYe7vAYg6AI0WIukEQUK1e0aP3ONog6YSIqe6Soqis",
@@ -1976,6 +2046,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 32,
     "manualMultiplier": 1,
     "icon": "DpiCnZTAhq6Q2ssmA40ck5dYXGBigKsW6KMGCkm8uqc",
@@ -2004,6 +2075,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 8,
     "manualMultiplier": 1,
     "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa",
@@ -2040,6 +2112,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 64,
     "manualMultiplier": 1,
     "icon": "3VDejjgSzSI2kUiesoCEcU3IMyjwZdH2I6siqQc6uWK6",
@@ -2068,6 +2141,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe",
@@ -2100,6 +2174,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa",
@@ -2125,7 +2200,9 @@
       }
     ],
     "producedIn": [
-      "foundry",
+      "foundry"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 3,
@@ -2159,6 +2236,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4aw8Ki6ocg8WUqmemQcAIU1bGANAb9dqmAGAgSYUqWGk",
@@ -2187,9 +2265,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "77Sl2E79lY8icWES8cWIsQwnyM5Xvih2SymIOm2i6Ek",
@@ -2217,6 +2295,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "4fgmzNq4WIa66YUgIImImk61hkG4YTwA6kAyisIuYQIg",
@@ -2245,9 +2324,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "VFqvxWEzyUwOUYcGIG8WKNSDNPpiFWKOygyauKCqIa",
@@ -2276,9 +2355,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "6VRDvV3Hna2KSIoA6IwWysSBwVOizfEcekUCYuAE8Iw",
@@ -2312,7 +2391,9 @@
       }
     ],
     "producedIn": [
-      "manufacturer",
+      "manufacturer"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 32,
@@ -2348,8 +2429,10 @@
       }
     ],
     "producedIn": [
-      "equipment-workshop",
       "manufacturer"
+    ],
+    "handcraftedIn": [
+      "equipment-workshop"
     ],
     "duration": 8,
     "manualMultiplier": 1,
@@ -2372,7 +2455,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 4,
@@ -2396,7 +2481,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 8,
@@ -2427,9 +2514,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "6lCPcNNKzSiWaU4aK46oaK4yhgXDsxhuCyMgs4USCmwA",
@@ -2451,7 +2538,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 5,
@@ -2475,7 +2564,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 4,
@@ -2499,7 +2590,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 4,
@@ -2527,7 +2620,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench",
       "equipment-workshop"
     ],
@@ -2559,7 +2654,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 80,
@@ -2583,7 +2679,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 2,
@@ -2619,7 +2717,9 @@
       }
     ],
     "producedIn": [
-      "manufacturer",
+      "manufacturer"
+    ],
+    "handcraftedIn": [
       "craft-bench",
       "equipment-workshop"
     ],
@@ -2644,7 +2744,9 @@
       }
     ],
     "producedIn": [
-      "smelter",
+      "smelter"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 4,
@@ -2679,7 +2781,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 60,
@@ -2707,7 +2810,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 8,
@@ -2738,9 +2843,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1W1crDIzAkgaUW0KsI8IOu1iIousJUsWOWSgCKsWGuKa",
@@ -2762,7 +2867,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench",
       "equipment-workshop"
     ],
@@ -2794,7 +2901,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 80,
@@ -2830,7 +2938,9 @@
       }
     ],
     "producedIn": [
-      "manufacturer",
+      "manufacturer"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 24,
@@ -2854,7 +2964,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 4,
@@ -2881,9 +2993,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "6xsSeTNlEAIe48EE2SSwkm6VWOf4nszuyeI4KAwqyEM0",
@@ -2904,9 +3016,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2V1hjgBUbSKMAokugy6sgoq6SOlvypaKmus2qMwMEIa",
@@ -2927,9 +3039,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "6TV6ZtUlOMwugIkQUQccI07zw7tB18BOq0SGIm4aGEgA",
@@ -2950,9 +3062,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "471dp7kQnuukocKoSegkO86ihlcUOHkIYCwQ8Ku2kISk",
@@ -2973,9 +3085,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "5OC2gFZnH2KoEggoGaYaoW3Ydw0zXZuM4c4ew4AMq8Sa",
@@ -2996,9 +3108,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2L3QgqRVHiIkGI6s4WW6Cu2REJG0pdBKo0CcuicgCyeU",
@@ -3019,9 +3131,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3ulmz3RW2AqeKCieqC6IS02M0dNZNKzuGw0sqIY2gsyO",
@@ -3042,9 +3154,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4a0DuPL7Bue4cEYMMwQooy3fXWD8Q0dq4ocEga0q4coG",
@@ -3065,9 +3177,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7s6OtO2nMAwci8YYmkaQ2W2LjIrNXXmwGcgOAQ2I4Qu8",
@@ -3088,9 +3200,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "50grr0ea4M4aycmMwsSu4I4DLzTyrGLYqWO0Qq8SgI0k",
@@ -3111,9 +3223,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4siB6bNmbCsmq8MggA2ouq2YziiquzReYQQakQ8osCCU",
@@ -3138,9 +3250,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4C3N4zne3eGseAKUsqEsoC2GQpuzr9JmKWO68yogmIiU",
@@ -3169,9 +3281,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "69vfK30XIW4sqscQEWEOS01jwhyuEusYUgGc2C2kq0qy",
@@ -3200,9 +3312,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4sESZHjIVyEyScQ22mCWE4UrYWgon2UwI888igaAyIO",
@@ -3227,9 +3339,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3ibPCrggV2WUAAIYCWyIiQ7pax6dIOgoqMyeEOqSIwYc",
@@ -3258,9 +3370,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4yCJN0saasu24I0CmUec441poZhgrEFmmQ8wwAKAYCio",
@@ -3282,7 +3394,9 @@
       }
     ],
     "producedIn": [
-      "smelter",
+      "smelter"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 2,
@@ -3306,7 +3420,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 6,
@@ -3329,9 +3445,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "kIv3fPhzuCs68u06yuwow1bk0CF9EEE0YcmQ0ygeSi",
@@ -3352,9 +3468,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7ooyqZlrRCsMGAY60qM08e36eaB6OORGSOoC6GMCqg8s",
@@ -3375,9 +3491,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4KI4C8lvYA4AcYYYAU60iYtIQCLPLqNw82a4AGMakUU",
@@ -3398,9 +3514,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4vgSCxWoKIqcM486wm0SAAGxeX4E1tII0E4uEu6M8CG",
@@ -3421,9 +3537,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2KmN4mgA1aSmISKcG6u8oMsVaW1n7J0O44QGqKsM4A6",
@@ -3444,9 +3560,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3MTw0QVdduCkG8Mg6CaKUG4rCopzrp4QcKIGO4yimuSs",
@@ -3471,9 +3587,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4jY8GFQCCc86KaY8CeiayUIMK7eg6UucYMQWwwUeWwO",
@@ -3503,7 +3619,9 @@
       }
     ],
     "producedIn": [
-      "manufacturer",
+      "manufacturer"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 120,
@@ -3526,9 +3644,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3xUbHNNGtGWA8CMw8uuIu44AjPjRVk0gcK6csWmAYC2g",
@@ -3549,9 +3667,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "5MGYRpX4XYCuKgi68a4wwM1lCfPpMw7GoQC2yy4eAmWa",
@@ -3572,9 +3690,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "6HtSNl8g2kWq8GecKiYCII2HIC5d7kIoge6I4eM4soAq",
@@ -3599,9 +3717,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "6oNiZSYSyWKw8MO6Q0OasQ6YMzMdnaecmcmawi8WSCgw",
@@ -3626,9 +3744,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7JYTFs3kdOumekOeUaMEM21JMc9A59XOMOukqQ4uk4C8",
@@ -3653,9 +3771,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7lDx8vO7JYMm2kOqwwg2g42goZDSpYzy8u2Qg0a4osMk",
@@ -3681,7 +3799,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 30,
@@ -3705,7 +3825,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 6,
@@ -3732,9 +3854,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "hnRvcbhOcEsqiCcoe4qwi2L2SzdozCwwWQaoqUUiGYg",
@@ -3760,7 +3882,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 10,
@@ -3788,7 +3912,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 60,
@@ -3815,9 +3941,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1drkIPstYKOUcIQmiug6cC33um5Svc3mkekgam6gK6c8",
@@ -3843,7 +3969,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 4,
@@ -3874,7 +4002,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 20,
@@ -3897,9 +4026,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "73gqlchc3Ki8MGwsAeMe2I7l1BTyG1RSWo84ACUaISuA",
@@ -3929,7 +4058,9 @@
       }
     ],
     "producedIn": [
-      "manufacturer",
+      "manufacturer"
+    ],
+    "handcraftedIn": [
       "craft-bench",
       "equipment-workshop"
     ],
@@ -3969,9 +4100,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "66PJDQFRy8uasEOgmgQ8Mi3qhvp4ipOg6KoCKeSUeOoG",
@@ -3992,9 +4123,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "6kgRiXDpPG66KEYgCWUsoY25Pql5R2AkQKyWeeAQUQOk",
@@ -4015,9 +4146,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "6amhKVh3vG4cy4oiI04GE67BpsLSzc4M4gmqSaEoKGmW",
@@ -4038,9 +4169,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3LRRmgIMXmW4yUyG2oKmoqyr78QyQaT6K2caoew84WU",
@@ -4061,9 +4192,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3GLpwbxOtWCuk2iAUKy2ME2wUjdFR5K8cOoEOIQM4GOw",
@@ -4092,9 +4223,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1J8K0BwFo8k0AOmCiOWSaU1EyyZE61KouQKu0wEUWaWI",
@@ -4131,9 +4262,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "6QYa6ouMcowKky4gyiGQWs1gapzGbZBoiYYuIaiCaMI2",
@@ -4161,6 +4292,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "3coM0RtyA0aQ8EKsoUo0e0643ug1BKU0ykogWcKSWaKY",
@@ -4197,9 +4329,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1KPbVy1G68QWaGigAIG0oG3VyxUYgy6koGIgeKOiCkIA",
@@ -4228,7 +4360,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 80,
@@ -4255,9 +4388,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "SJUXbDd8WGqooC8Ew66wmLXbg8VrJaE6KuMY2Y2SeC",
@@ -4294,9 +4427,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "65F37DhiwMSGSO8g2aCM2c8yq0JahfYkAOMWawqq4SG",
@@ -4317,9 +4450,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "5Ceb0OE47YQsOMMyk4wsgE6mHHiJGlWw0UQaSEOWuGs8",
@@ -4352,7 +4485,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 120,
@@ -4380,7 +4514,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 12,
@@ -4416,7 +4552,9 @@
       }
     ],
     "producedIn": [
-      "manufacturer",
+      "manufacturer"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 30,
@@ -4448,7 +4586,9 @@
       }
     ],
     "producedIn": [
-      "manufacturer",
+      "manufacturer"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 16,
@@ -4475,9 +4615,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3WEoKVgVd66eGc2i0UeKGYbgN2SHTEt2eGcYWqECEGi",
@@ -4506,9 +4646,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "L5G0g8P16w4eQSsAKs8eE7H8VmqYlXOwCYM6acoWCI2",
@@ -4533,9 +4673,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2tvA1WLBMAYuw0o6QOyG041vIjlBLnbOyC4ogEYGiU4a",
@@ -4560,9 +4700,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1N73ImfzIIg4yUQq4E8o825VhgPaxK6cKCkuc8qyWoGO",
@@ -4587,9 +4727,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1mIs4gRirykM2i06sM0mW8Mp0kcuz1SI2Cge6MQAYg",
@@ -4614,9 +4754,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "5CVWl5sxUWYOaS4MGyceWYtfmw8cRCp2W8swYOQ04OW",
@@ -4641,9 +4781,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "21dBFNV8gkSgQMWeWecQcO1GEBWQaSzKuGSE2soeaMKG",
@@ -4668,9 +4808,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "76Lcs5FqG4aM0K6yYG4WOA5WlOa7dWzCkw2O2qGgQEsq",
@@ -4691,9 +4831,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1aC1Ft8y7aCgIEsowaowgM2HzerjwTK0AG8SYYyqEaUw",
@@ -4714,9 +4854,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1Pt5uambakU2YaS8GIYWa6O7WZwYCgI682kuAAkmcGi",
@@ -4737,9 +4877,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "5Q6Lk6VpPGWagm0GiGqqEW1RgGVNexoUoAuGmUo0kS4c",
@@ -4760,9 +4900,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3s0CaDSb9SooI4QwGQcScu2Cz8Gnr48I8OGYCYW8ykQC",
@@ -4783,9 +4923,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "19CRZ456uyGgmwCoIGsq8O5dmCt9NcGcA0Iq6AMaMmU4",
@@ -4806,9 +4946,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "L6cB0QPsSkWQkIukSEMUc1YO8BvX9osg8OaGuowU4kq",
@@ -4829,9 +4969,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "yxMD8uYzfiMOMuKWQaiQi29A118UHfeWgykmIo02Miy",
@@ -4852,9 +4992,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1wSAjBzafCcCEoUGo8mMCS39e5PxGcwUcyCcQeuuYWau",
@@ -4875,9 +5015,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "6YWbZWKsaQQAWkU0UkAEWQ3rLDhcZydGsEeiGQCac0GI",
@@ -4898,9 +5038,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1lud8wGSb2G4GGeuwCaM086lvqWoLO92ca2GqSkEMWUQ",
@@ -4930,7 +5070,9 @@
       }
     ],
     "producedIn": [
-      "manufacturer",
+      "manufacturer"
+    ],
+    "handcraftedIn": [
       "craft-bench",
       "equipment-workshop"
     ],
@@ -4955,7 +5097,9 @@
       }
     ],
     "producedIn": [
-      "smelter",
+      "smelter"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 2,
@@ -4979,7 +5123,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 6,
@@ -5003,7 +5149,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 4,
@@ -5038,7 +5186,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 120,
@@ -5069,9 +5218,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2TOZN1p59mWwumCa2Y0oMS6AlMTVe9VKeksGAsKeiacc",
@@ -5099,6 +5248,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 4,
     "manualMultiplier": 1,
     "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6",
@@ -5123,9 +5273,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2EYZvA1rMgGyY2a6IAOSOO2jiJfGao6UW2ieusKmaU0A",
@@ -5154,9 +5304,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "10EAEFxi3OSQIwOieIau4E40j2Sd5KL6gGsooGOmEyCg",
@@ -5189,9 +5339,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "rk3gGAFVvwC2COI4Ae8eW5MR9uhHGso4gegY8AykC6W",
@@ -5220,7 +5370,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 20,
@@ -5247,7 +5398,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 20,
@@ -5278,9 +5430,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "h1pBcSmmRyygIW6CGuaww7FRyk9ZhaE0aWOCCiUkEoO",
@@ -5313,9 +5465,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4qMhsyBnvyGqWgmyks4QmC5S70zB5lSgWQCSsgSi8GqA",
@@ -5352,9 +5504,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2pwVt3UfhCwaCYQcgWqigG1F8FQzirMAwaMyGk00IOeu",
@@ -5386,6 +5538,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 60,
     "manualMultiplier": 1,
     "icon": "1P0lVFelKwIs4quisEKGiU4hrBoX82IUMk8YigIQ0Wsu",
@@ -5411,7 +5564,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 60,
@@ -5439,7 +5594,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 12,
@@ -5467,8 +5624,10 @@
       }
     ],
     "producedIn": [
-      "equipment-workshop",
       "assembler"
+    ],
+    "handcraftedIn": [
+      "equipment-workshop"
     ],
     "duration": 20,
     "manualMultiplier": 1,
@@ -5498,7 +5657,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 80,
@@ -5532,6 +5692,7 @@
     "producedIn": [
       "manufacturer"
     ],
+    "handcraftedIn": [],
     "duration": 150,
     "manualMultiplier": 1,
     "icon": "1SAN10lvqMuQKsya2oAmya436a9ohrtKKwSSWgIeCiwU",
@@ -5568,9 +5729,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "yZstkS3SsoqW26qcMq8WS27fc1MrFa82ka0oYUOMaOa",
@@ -5603,7 +5764,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 20,
@@ -5634,7 +5796,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 40,
@@ -5665,9 +5828,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7rjPk6AM3mECyqaMky4a6A6fM9IRgSSQGGU8wOIqGUcK",
@@ -5688,9 +5851,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "5nwf1nxKA8S4MeS6EqOQaO2BLLwT9KuUU2M42qEWakUk",
@@ -5718,6 +5881,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 3,
     "manualMultiplier": 1,
     "icon": "4xZwZgLa2Q4QugOGAYOWW04nWDE0Dzbace82O2QmWeaS",
@@ -5745,6 +5909,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "HgXdRRk0a2uak0kUoo2Wk7k45bu16IooCi6SGKWcK4S",
@@ -5772,6 +5937,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 4,
     "manualMultiplier": 1,
     "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6",
@@ -5799,6 +5965,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 5,
     "manualMultiplier": 1,
     "icon": "5l8TKbVe7uuwIUMsa8YK0EOGDvrxIYKqSiwoQOy4OgG",
@@ -5826,6 +5993,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "41XfITYdr2wggI2AEimgScYK8DdLwwUuyWS862cCEQy",
@@ -5853,6 +6021,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 2,
     "manualMultiplier": 1,
     "icon": "5U61Epnkd2oIIek8EO6KsgJ3TrZQxe4SciuEQeU8AaQ",
@@ -5877,7 +6046,8 @@
         "count": 5
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 40,
@@ -5904,9 +6074,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4BGYlx8WQocq8Igs2oywi84Pu64g39hKQE4EYuKmco6O",
@@ -5930,6 +6100,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "4cERaoCUeQc6os2oeI2mug7t93CG5oYgKCmuEkSqc062",
@@ -5950,9 +6121,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1R0Fc9ZcHWWKC2O4wkMwAi5D85h67rMI8eUKIGCYEAOm",
@@ -5973,9 +6144,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4YVHgagBAsc4OAiCCMWW2P8pdF8K6E8aosmY08qCmg",
@@ -5996,9 +6167,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "9qH5DGa8YoucKSQSg2QeI2VPkMQRsT6YuKssGo4Yqky",
@@ -6019,9 +6190,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "uW7VQig6iGkU8wggoG8Q6bgRdJBuRqG82W8gs4icWo",
@@ -6042,9 +6213,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7yKh71vLSEmIwi20Iq2ai21res3yoyGg4MgCuiwUIcU2",
@@ -6069,9 +6240,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4QWEKkooA8Ymey82ci4SCm7aUeGVInvym84COw6uMUgQ",
@@ -6096,9 +6267,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "5YgOLn5Ra8iiIUyM6U6a0m2B28ABphMUaSmcKSyCKMUK",
@@ -6127,9 +6298,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "58vxdHEst2gq8sMEuWmqOi6eQSDV8bzqqoKimq0uqo2s",
@@ -6158,9 +6329,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2SmNwH7WTmge2kMIwaiII67xCa9niBYQEyOSWeEEEI6K",
@@ -6188,6 +6359,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "7l2rmHqYneCUkuAEUaSqMafvf1QGi7baMI8eWAgasMm",
@@ -6212,7 +6384,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 40,
@@ -6235,9 +6408,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "5weaak4UfKwgQMKkeIoaiaJAx5Ne9Q88MYIeymsQ2G2",
@@ -6266,9 +6439,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7JEWsJaHmMqcMoSIWe6Eqa5jO8hqS6nKaug6UagWYyei",
@@ -6297,9 +6470,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7gCxGxWhYk2AY48eCYsaAW65fS2HG3PqUWWeUQ48iyaq",
@@ -6328,9 +6501,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "bseWbpKWuO6QK4CygqAMGFfjdjtnoM8EiUGy6cU8SA",
@@ -6352,7 +6525,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 10,
@@ -6376,7 +6551,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 15,
@@ -6400,7 +6577,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 20,
@@ -6431,9 +6610,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3bMFnVTn9SKOg4sySi4M6I2HS9NSRiYwcuMKe0I2eiau",
@@ -6454,9 +6633,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3w4Eybgv4kSuWWYegaMUWw5cAAYuEjfqiUmM0640Ck2G",
@@ -6478,7 +6657,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 8,
@@ -6502,7 +6683,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 5,
@@ -6537,9 +6720,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7ICGthZLvakWQsosGkasgg3Th58YVbbyqSQQKOWSYQWQ",
@@ -6573,7 +6756,9 @@
       }
     ],
     "producedIn": [
-      "manufacturer",
+      "manufacturer"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 24,
@@ -6600,9 +6785,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1QbWf3QlLKE4wAgu2IIiWY3WroqKppCM2AK2yw28AE2c",
@@ -6623,9 +6808,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "vSG0qR6wqkYu60y4iOCY61yY27f1UgQSoKO8A64oEaO",
@@ -6646,9 +6831,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1JWwnadFVmY0CmsqucMGY021Pm1tOmUAqi6eUmaAgUoi",
@@ -6669,9 +6854,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "fRPi0B5Bssq6qQiqCwW0Qg0YzJD1vskIskgKIwsWiE",
@@ -6700,7 +6885,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 100,
@@ -6735,9 +6921,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "5OBu6xgNtmGwmiUau2mOW83PZ7ecN1kIWGKQGGk0S0QI",
@@ -6763,7 +6949,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 12,
@@ -6789,6 +6977,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "3coM0RtyA0aQ8EKsoUo0e0643ug1BKU0ykogWcKSWaKY",
@@ -6816,6 +7005,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "7l2rmHqYneCUkuAEUaSqMafvf1QGi7baMI8eWAgasMm",
@@ -6843,6 +7033,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "1VyrgwLHgUoKUQCssgcqEu1hrYGNAgsqA2OgGowgUkew",
@@ -6875,7 +7066,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 120,
@@ -6903,7 +7095,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 15,
@@ -6933,6 +7127,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "1VyrgwLHgUoKUQCssgcqEu1hrYGNAgsqA2OgGowgUkew",
@@ -6954,7 +7149,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 6,
@@ -6978,7 +7175,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 8,
@@ -7008,6 +7207,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 30,
     "manualMultiplier": 1,
     "icon": "3dbpfvkoGsIgquEKiSAASA40qElBoMR28qEMYEm2gg0e",
@@ -7036,9 +7236,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4Zy5Wm7niw064KCe6E4Gi27eWMUuIu6k8gA2uCQiskY6",
@@ -7063,9 +7263,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2d5YnSQi6IccIgcmCgmmYK24AC5wzn3mCKy0cQEmgI8G",
@@ -7087,7 +7287,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench",
       "--BAD REFERENCE: Build_AutomatedWorkBench_C--"
     ],
@@ -7124,6 +7326,7 @@
       }
     ],
     "producedIn": [],
+    "handcraftedIn": [],
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "12cLYp1tDi088Cu2cm4GgU3xTkGfacukmOWOuaIySWqI",
@@ -7145,7 +7348,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench",
       "equipment-workshop"
     ],
@@ -7177,9 +7382,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "NmlTLYQrOSe2Aiseumo0O2IwSrZehhu0oQauwaEyaYu",
@@ -7204,9 +7409,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "slug": "recipe-stairs"
@@ -7230,9 +7435,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "5T7zn6YLuMgqKGagUEuo20SADfT93CMKiksy4yimEYu",
@@ -7257,9 +7462,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2zQDUa0flKYsqSCikCUCso55LbmvYqs8cOCgCASkOICG",
@@ -7285,7 +7490,9 @@
       }
     ],
     "producedIn": [
-      "assembler",
+      "assembler"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 12,
@@ -7309,7 +7516,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 4,
@@ -7337,7 +7546,9 @@
       }
     ],
     "producedIn": [
-      "foundry",
+      "foundry"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 4,
@@ -7361,7 +7572,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 6,
@@ -7388,9 +7601,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "6WexKKK4HmSs8W8sk8GYa86uNW7wfENU2IC2ymE6eAYE",
@@ -7418,6 +7631,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa",
@@ -7451,7 +7665,9 @@
       }
     ],
     "producedIn": [
-      "manufacturer",
+      "manufacturer"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 32,
@@ -7474,9 +7690,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2TfNtTT3RmsomOayuG8yOq1zF8YdRymgEMAEAcAkIQWW",
@@ -7505,9 +7721,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2igjqdF3O8OWS2qkOauAIQ6A94qn2eFqeCKYikQ24Em6",
@@ -7540,9 +7756,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "555hjT7Yg8CK8wUm4Ioa6Y12wEyn81WiA6U44eCgCkKE",
@@ -7571,9 +7787,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "m3nNxYkgHmociiuUYcGIs1MkZYRRKMUKWYsWoi2AOQK",
@@ -7607,7 +7823,9 @@
       }
     ],
     "producedIn": [
-      "manufacturer",
+      "manufacturer"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 32,
@@ -7637,6 +7855,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
     "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa",
@@ -7665,9 +7884,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "59RTzgzhOEAcQCSwYaUGiO28OtEU6a88yGW8QewMiWYm",
@@ -7695,6 +7914,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 2,
     "manualMultiplier": 1,
     "icon": "3coM0RtyA0aQ8EKsoUo0e0643ug1BKU0ykogWcKSWaKY",
@@ -7722,6 +7942,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "HgXdRRk0a2uak0kUoo2Wk7k45bu16IooCi6SGKWcK4S",
@@ -7749,6 +7970,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 2,
     "manualMultiplier": 1,
     "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6",
@@ -7776,6 +7998,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 2,
     "manualMultiplier": 1,
     "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa",
@@ -7803,6 +8026,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
     "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa",
@@ -7830,6 +8054,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 2,
     "manualMultiplier": 1,
     "icon": "5U61Epnkd2oIIek8EO6KsgJ3TrZQxe4SciuEQeU8AaQ",
@@ -7861,6 +8086,7 @@
     "producedIn": [
       "refinery"
     ],
+    "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
     "icon": "7ILX0I6Swo8kg8AqyuWqmK5mSLVTw5H2oSsWaA2Gqmus",
@@ -7888,6 +8114,7 @@
     "producedIn": [
       "assembler"
     ],
+    "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
     "icon": "3Ugy0tOX2U6kikQkuwesGY3XNgQyhzAsKaeMoE66oEIc",
@@ -7912,9 +8139,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "5rG5aPKj8kwqk4GcCoWCCY5JLIISExriOmU0eeQaQKOO",
@@ -7939,9 +8166,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "5UxDFSgJhuKYSGAcqE2M6o2yIbGjxIvqCEg6UyUygGuM",
@@ -7966,9 +8193,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3wL7iH43R6Skq0Y2ISgS6U3b1PAtLRdCO6s0WiIiqgcE",
@@ -7993,9 +8220,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4pQvys6bZCiG6wqKcKKMYIwg6HPL0ViK66k24ck6esc",
@@ -8020,9 +8247,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3tjMxVNwTC6SgyKus4YO825YSJOAEI48GOE4UscqSU8S",
@@ -8047,9 +8274,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "41UBMktWQoyG8wco68sa4CP65uSAeG064s0A4GiuY2Y",
@@ -8074,9 +8301,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1jq99A3gWomqSwUaOyYSeEpAgWjoY8fYoOmGSIAeqO8",
@@ -8101,9 +8328,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4PAnxnsA3YSmq0Q2GyCwuK4ed61j3Su4MUGuEWGcWWOQ",
@@ -8128,9 +8355,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "3fz1DW6xiokgYYYq46m4au2CGOzpyGJYqkakYQseMKCU",
@@ -8155,9 +8382,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2ruKJuh3tCuOsa6GsEgyEi4sGuSkQ0VaO6ioSkKuAWq8",
@@ -8182,9 +8409,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "WkjUyX6K2ccamSyMwowcG3TQYZWtb2gs8k4ykmyM0uG",
@@ -8209,9 +8436,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1keRj4WptWCMYAqOoGa8YE3WQOETgmAEaAAeC0E02g0w",
@@ -8236,9 +8463,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "CsSD8bQJ8cCQE2SMSS4os1USD03baSwCIA2Sk6KaCY0",
@@ -8263,9 +8490,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7IMh8z3sK4u2uOWQMysKYu4fBqsyKqwUog4Ya4A4E4Wu",
@@ -8290,9 +8517,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "2pO9W0qqEs60WkogaOYAqs4oHdBuGqoo08aOy2AE0Q2C",
@@ -8317,9 +8544,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1JTy7qkEU4A4UQ2EceCqGk50PY6a6urCQIIYcigOe8Ci",
@@ -8344,9 +8571,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7pWxNiWTYcYwiOikAGgygg3Jq65wnxrOmMeumkwuKKM0",
@@ -8371,9 +8598,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "4BsbpfiCOcW0KQEyeSsWgy2feYuqwdPaKSyMW2swGwK0",
@@ -8398,9 +8625,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "22xHM8ByyIgE2OI6ES2Wu0x1HVHrHEha6QcCUGwA8Ae",
@@ -8425,9 +8652,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "6GEptVzSlGyMEW2uCCEsCY6lN3Si2mVGYE6MKGwgWIgI",
@@ -8452,9 +8679,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7F4xVeXp0QW2KSsuA0WEoY7mnHJKRMDS4oo6e46mIkkY",
@@ -8479,9 +8706,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "7qCSyro9oIAwo4OoOQo4M8ZmglBfHMyasEUymWAGAiy",
@@ -8506,9 +8733,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "43mBi8xxGMQ0QsmkiogeEY2pi5ekf9Z2GK2yWc22yaqC",
@@ -8533,9 +8760,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "c4IRE7kSYgSySOIegIOa81p9uv9VhcAOwu6yE6eEgcC",
@@ -8560,9 +8787,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "41UBMktWQoyG8wco68sa4CP65uSAeG064s0A4GiuY2Y",
@@ -8587,9 +8814,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1jq99A3gWomqSwUaOyYSeEpAgWjoY8fYoOmGSIAeqO8",
@@ -8614,9 +8841,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "1uGlPdc5n6Sgu4E6O6Io285mFK7sw2asCKWm8U8WMqOu",
@@ -8645,9 +8872,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "555uuMlfOogeAUOs4GGGOg4q4dI5kFzqayoWs4iEqgWi",
@@ -8672,9 +8899,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "icon": "55xkfHk3hKg0g4kyoYyWc4s4VqTvNH8syWU8eyEyMoa",
@@ -8699,9 +8926,9 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "build-gun"
-    ],
+    "producedIn": [],
+    "handcraftedIn": [],
+    "placedByPlayer": true,
     "duration": 1,
     "manualMultiplier": 1,
     "slug": "recipe-window-8m-x-4m-03-2"
@@ -8722,7 +8949,9 @@
       }
     ],
     "producedIn": [
-      "constructor",
+      "constructor"
+    ],
+    "handcraftedIn": [
       "craft-bench"
     ],
     "duration": 4,
@@ -8757,7 +8986,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 80,
@@ -8792,7 +9022,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
+    "producedIn": [],
+    "handcraftedIn": [
       "equipment-workshop"
     ],
     "duration": 40,
