@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import { ItemForm } from '@local/schema';
 import { css, SerializedStyles } from '@emotion/core';
 
-import { useItems } from '~/data';
+import { useItem } from '~/data';
 import { entityUrl } from '~/routing';
 import { colors, sizing } from '~/style';
 
@@ -60,10 +60,9 @@ export interface ItemCountProps {
 }
 
 export function ItemCount({ slug, count }: ItemCountProps) {
-  const allItems = useItems();
-  if (!allItems) return <div css={rootStyles} />;
+  const item = useItem(slug);;
+  if (!item) return <div css={rootStyles} />;
 
-  const item = allItems[slug];
   if (item.form === ItemForm.Liquid) {
     count = count / 1000;
   }

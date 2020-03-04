@@ -2,9 +2,14 @@ import { Indexable, Item, Building, Recipe } from '@local/schema';
 import { useState } from 'react';
 
 import { fetchData } from './fetch';
+import { memoize } from '~/utility';
 
 export function useIndex() {
   return _useCollection<Indexable[]>('index');
+}
+
+export function useEntities() {
+  return _entitiesBySlug(useIndex());
 }
 
 export function useBuildings() {
@@ -39,3 +44,13 @@ function _useCollection<TShape>(kind: string): TShape | undefined {
 
   return state;
 }
+
+const _entitiesBySlug = memoize((entities?: Indexable[]) => {
+  if (!entities) return;
+
+  const bySlug = {} as Record<string, Indexable>;
+  for (const entity of entities) {
+    bySlug[entity.slug] = entity;
+  }
+  return bySlug;
+});
