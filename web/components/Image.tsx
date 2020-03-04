@@ -14,8 +14,8 @@ const imageStyle = css({
 export type ImagePaths = Record<string, Record<string, string>>;
 
 export interface ImageProps extends React.ImgHTMLAttributes<HTMLImageElement> {
-  paths: ImagePaths;
-  alt: string;
+  paths?: ImagePaths;
+  alt?: string;
   height: number;
   width: number;
 }
@@ -33,15 +33,17 @@ export function Image({ paths, alt, height, width, style, className, ...props }:
 
   return (
     <picture css={pictureStyle} style={inlineStyles} className={className}>
-      {Object.entries(srcSets).map(([format, srcSet]) =>
+      {!!srcSets && Object.entries(srcSets).map(([format, srcSet]) =>
         <source key={format} type={`image/${format}`} srcSet={srcSet.join(', ')} />
       )}
-      <img {...props} src={paths['1x']['png']} decoding='async' alt={alt} css={imageStyle} />
+      {!!paths && <img {...props} src={paths['1x']['png']} decoding='async' alt={alt} css={imageStyle} />}
     </picture>
   )
 }
 
-function _collectSrcSets(paths: ImagePaths) {
+function _collectSrcSets(paths?: ImagePaths) {
+  if (!paths) return undefined;
+
   const srcSets = { webp: [], png: [] } as Record<string, string[]>;
   for (const [scale, variations] of Object.entries(paths)) {
     for (const [format, url] of Object.entries(variations)) {

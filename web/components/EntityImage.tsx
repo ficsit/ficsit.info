@@ -10,8 +10,14 @@ export interface EntityImageProps extends React.ImgHTMLAttributes<HTMLImageEleme
   maxSize?: number;
 }
 export function EntityImage({ entity, size, maxSize = 256, ...props }: EntityImageProps) {
-  const basePath = `/assets/icons/${entity.icon}`;
+  const paths = _pathsForEntity(maxSize, size, entity);
+
+  return <Image {...props} key={entity.slug} paths={paths} title={entity.name} alt={entity.name} height={size} width={size} />;
+}
+
+function _pathsForEntity(maxSize: number, size: number, entity: Indexable) {
   const paths = {} as ImagePaths;
+  const basePath = `/assets/icons/${entity.icon}`;
   for (const density of pixelDensities) {
     const imageSize = imageSizes.find(s => s <= maxSize && s >= size * density);
     if (!imageSize) break;
@@ -21,5 +27,5 @@ export function EntityImage({ entity, size, maxSize = 256, ...props }: EntityIma
     };
   }
 
-  return <Image {...props} key={entity.slug} paths={paths} title={entity.name} alt={entity.name} height={size} width={size} />;
+  return paths;
 }
