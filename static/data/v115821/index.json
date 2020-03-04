@@ -1971,12 +1971,6 @@
   },
   {
     "kind": "recipe",
-    "slug": "recipe-bauxite",
-    "name": "Bauxite",
-    "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG"
-  },
-  {
-    "kind": "recipe",
     "slug": "recipe-beacon",
     "name": "Beacon",
     "icon": "1OwicP8qRS6ycu8GwSaaG2T5M9IB9uA8YAIIYAE2oUk"
@@ -2049,12 +2043,6 @@
   },
   {
     "kind": "recipe",
-    "slug": "recipe-caterium-ore",
-    "name": "Caterium Ore",
-    "icon": "6HkuY8ol3yKQywiSAmCE4M187rTIVuw0wI6waiQMW4Ak"
-  },
-  {
-    "kind": "recipe",
     "slug": "recipe-chainsaw",
     "name": "Chainsaw",
     "icon": "5lo3jAvPlmaa4S220mmMCa7630RidToWOcQc6saUo6yc"
@@ -2064,12 +2052,6 @@
     "slug": "recipe-circuit-board",
     "name": "Circuit Board",
     "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE"
-  },
-  {
-    "kind": "recipe",
-    "slug": "recipe-coal",
-    "name": "Coal",
-    "icon": "2ZyWO1L9F6uggGyQUoyGAAMuZHR6hC4SyWm4UumKmiQ"
   },
   {
     "kind": "recipe",
@@ -2205,12 +2187,6 @@
   },
   {
     "kind": "recipe",
-    "slug": "recipe-copper-ore",
-    "name": "Copper Ore",
-    "icon": "2KrBJL1WzeSYGMAmCQoowE4vhlksjXcckkuAu8SayuWU"
-  },
-  {
-    "kind": "recipe",
     "slug": "recipe-copper-sheet",
     "name": "Copper Sheet",
     "icon": "2Fsos2EEnK4EUsE84WGCSM6VLdqq8rny0u400MaCO8eO"
@@ -2256,12 +2232,6 @@
     "slug": "recipe-craft-bench",
     "name": "Craft Bench",
     "icon": "4jY8GFQCCc86KaY8CeiayUIMK7eg6UucYMQWwwUeWwO"
-  },
-  {
-    "kind": "recipe",
-    "slug": "recipe-crude-oil",
-    "name": "Crude Oil",
-    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
   },
   {
     "kind": "recipe",
@@ -2589,12 +2559,6 @@
   },
   {
     "kind": "recipe",
-    "slug": "recipe-iron-ore",
-    "name": "Iron Ore",
-    "icon": "5c0Gl1FsvuGGyGe28Mg2m87B3HVLJL6oKusESIUocEkS"
-  },
-  {
-    "kind": "recipe",
     "slug": "recipe-iron-plate",
     "name": "Iron Plate",
     "icon": "654X5USXiokMei8s4CEI2E6c8bRT6gfuQeci02KweQim"
@@ -2616,12 +2580,6 @@
     "slug": "recipe-jump-pad",
     "name": "Jump Pad",
     "icon": "2TOZN1p59mWwumCa2Y0oMS6AlMTVe9VKeksGAsKeiacc"
-  },
-  {
-    "kind": "recipe",
-    "slug": "recipe-limestone",
-    "name": "Limestone",
-    "icon": "6BAPvz5Wr66qk6oOw0wiUI5agwR4fajeKUgak02qSKgy"
   },
   {
     "kind": "recipe",
@@ -2967,12 +2925,6 @@
   },
   {
     "kind": "recipe",
-    "slug": "recipe-raw-quartz",
-    "name": "Raw Quartz",
-    "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km"
-  },
-  {
-    "kind": "recipe",
     "slug": "recipe-rebar-gun",
     "name": "Rebar Gun",
     "icon": "1zdxnOKlPacEuKmwqESmam4eACU8aO92aKyq0CyayqmG"
@@ -3128,12 +3080,6 @@
   },
   {
     "kind": "recipe",
-    "slug": "recipe-sulfur",
-    "name": "Sulfur",
-    "icon": "zIWbiVBnnEsiQy4MSooAS7mVmxEg27SISYawA0AgUe0"
-  },
-  {
-    "kind": "recipe",
     "slug": "recipe-sulfuric-acid",
     "name": "Sulfuric Acid",
     "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa"
@@ -3221,12 +3167,6 @@
     "slug": "recipe-unpackage-water",
     "name": "Unpackage Water",
     "icon": "5U61Epnkd2oIIek8EO6KsgJ3TrZQxe4SciuEQeU8AaQ"
-  },
-  {
-    "kind": "recipe",
-    "slug": "recipe-uranium",
-    "name": "Uranium",
-    "icon": "20u6vMIqsogSqseamEMm4I3B61XsOBeEy0kIm8ekw2qc"
   },
   {
     "kind": "recipe",

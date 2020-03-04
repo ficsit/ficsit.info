@@ -18,6 +18,11 @@ export interface Item extends Indexable {
   form: ItemForm;
 
   /**
+   * Whether the item is a raw resource (extracted from the game world).
+   */
+  raw?: true;
+
+  /**
    * The maximum stack size of the item, if stackable.
    */
   stackSize?: number;

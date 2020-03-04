@@ -24,11 +24,7 @@ export class OutputDatabase {
   }
 
   reference(targetClassName: string, ...classNames: string[]) {
-    const target = this._entitiesByClassName.get(targetClassName);
-    if (!target) {
-      throw new Error(`Expected ${targetClassName} to be registered for output`);
-    }
-
+    const target = this.getOrDie(targetClassName);
     for (const className of classNames) {
       if (this._entitiesByClassName.get(className)) {
         throw new Error(`Refusing to overwrite ${className} with a reference to ${targetClassName}`);
@@ -36,6 +32,14 @@ export class OutputDatabase {
 
       this._entitiesByClassName.set(className, target);
     }
+  }
+
+  getOrDie<TKind extends EntityKind>(className: string) {
+    const entity = this._entitiesByClassName.get(className) as EntityByKind[TKind] | undefined;
+    if (!entity) {
+      throw new Error(`Expected ${entity} to be registered for output`);
+    }
+    return entity;
   }
 
   getAllByKind<TKind extends EntityKind>(kind: TKind): Record<string, EntityByKind[TKind]> {

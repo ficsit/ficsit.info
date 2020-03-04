@@ -2320,29 +2320,6 @@
     "icon": "6Waajg40BGMCyWWMo4COqE25rSUil2CssoScg8IWMQK2",
     "slug": "recipe-battery"
   },
-  "recipe-bauxite": {
-    "kind": "recipe",
-    "name": "Bauxite",
-    "ingredients": [
-      {
-        "item": "bauxite",
-        "count": 1
-      }
-    ],
-    "products": [
-      {
-        "item": "bauxite",
-        "count": 1
-      }
-    ],
-    "producedIn": [
-      "build-converter-c"
-    ],
-    "duration": 2,
-    "manualMultiplier": 1,
-    "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG",
-    "slug": "recipe-bauxite"
-  },
   "recipe-beacon": {
     "kind": "recipe",
     "name": "Beacon",
@@ -2675,29 +2652,6 @@
     "icon": "hYVuwBz5FC64maqiOemaS7F4TmTDTcA2sUQsegK2EGM",
     "slug": "recipe-caterium-ingot"
   },
-  "recipe-caterium-ore": {
-    "kind": "recipe",
-    "name": "Caterium Ore",
-    "ingredients": [
-      {
-        "item": "caterium-ore",
-        "count": 1
-      }
-    ],
-    "products": [
-      {
-        "item": "caterium-ore",
-        "count": 1
-      }
-    ],
-    "producedIn": [
-      "build-converter-c"
-    ],
-    "duration": 2,
-    "manualMultiplier": 1,
-    "icon": "6HkuY8ol3yKQywiSAmCE4M187rTIVuw0wI6waiQMW4Ak",
-    "slug": "recipe-caterium-ore"
-  },
   "recipe-chainsaw": {
     "kind": "recipe",
     "name": "Chainsaw",
@@ -2760,29 +2714,6 @@
     "manualMultiplier": 1,
     "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE",
     "slug": "recipe-circuit-board"
-  },
-  "recipe-coal": {
-    "kind": "recipe",
-    "name": "Coal",
-    "ingredients": [
-      {
-        "item": "coal",
-        "count": 1
-      }
-    ],
-    "products": [
-      {
-        "item": "coal",
-        "count": 1
-      }
-    ],
-    "producedIn": [
-      "build-converter-c"
-    ],
-    "duration": 2,
-    "manualMultiplier": 1,
-    "icon": "2ZyWO1L9F6uggGyQUoyGAAMuZHR6hC4SyWm4UumKmiQ",
-    "slug": "recipe-coal"
   },
   "recipe-coal-generator": {
     "kind": "recipe",
@@ -3359,29 +3290,6 @@
     "icon": "1RtTF6zT7a0qgEICmccgA26pFCZcwKKQyUo482W4sWCC",
     "slug": "recipe-copper-ingot"
   },
-  "recipe-copper-ore": {
-    "kind": "recipe",
-    "name": "Copper Ore",
-    "ingredients": [
-      {
-        "item": "copper-ore",
-        "count": 1
-      }
-    ],
-    "products": [
-      {
-        "item": "copper-ore",
-        "count": 1
-      }
-    ],
-    "producedIn": [
-      "build-converter-c"
-    ],
-    "duration": 2,
-    "manualMultiplier": 1,
-    "icon": "2KrBJL1WzeSYGMAmCQoowE4vhlksjXcckkuAu8SayuWU",
-    "slug": "recipe-copper-ore"
-  },
   "recipe-copper-sheet": {
     "kind": "recipe",
     "name": "Copper Sheet",
@@ -3570,29 +3478,6 @@
     "manualMultiplier": 1,
     "icon": "4jY8GFQCCc86KaY8CeiayUIMK7eg6UucYMQWwwUeWwO",
     "slug": "recipe-craft-bench"
-  },
-  "recipe-crude-oil": {
-    "kind": "recipe",
-    "name": "Crude Oil",
-    "ingredients": [
-      {
-        "item": "crude-oil",
-        "count": 1
-      }
-    ],
-    "products": [
-      {
-        "item": "crude-oil",
-        "count": 1
-      }
-    ],
-    "producedIn": [
-      "build-converter-c"
-    ],
-    "duration": 2,
-    "manualMultiplier": 1,
-    "icon": "12ZdJbUI8IUq8Am8s026MI2G9RugCa9aq8qKwYUWqmMa",
-    "slug": "recipe-crude-oil"
   },
   "recipe-crystal-oscillator": {
     "kind": "recipe",
@@ -5078,29 +4963,6 @@
     "icon": "2IEt6n1lD2yiGccaWqugeWcpaTd3u2ukGkeaQuaua0O",
     "slug": "recipe-iron-ingot"
   },
-  "recipe-iron-ore": {
-    "kind": "recipe",
-    "name": "Iron Ore",
-    "ingredients": [
-      {
-        "item": "iron-ore",
-        "count": 1
-      }
-    ],
-    "products": [
-      {
-        "item": "iron-ore",
-        "count": 1
-      }
-    ],
-    "producedIn": [
-      "build-converter-c"
-    ],
-    "duration": 2,
-    "manualMultiplier": 1,
-    "icon": "5c0Gl1FsvuGGyGe28Mg2m87B3HVLJL6oKusESIUocEkS",
-    "slug": "recipe-iron-ore"
-  },
   "recipe-iron-plate": {
     "kind": "recipe",
     "name": "Iron Plate",
@@ -5214,29 +5076,6 @@
     "manualMultiplier": 1,
     "icon": "2TOZN1p59mWwumCa2Y0oMS6AlMTVe9VKeksGAsKeiacc",
     "slug": "recipe-jump-pad"
-  },
-  "recipe-limestone": {
-    "kind": "recipe",
-    "name": "Limestone",
-    "ingredients": [
-      {
-        "item": "limestone",
-        "count": 1
-      }
-    ],
-    "products": [
-      {
-        "item": "limestone",
-        "count": 1
-      }
-    ],
-    "producedIn": [
-      "build-converter-c"
-    ],
-    "duration": 2,
-    "manualMultiplier": 1,
-    "icon": "6BAPvz5Wr66qk6oOw0wiUI5agwR4fajeKUgak02qSKgy",
-    "slug": "recipe-limestone"
   },
   "recipe-liquid-biofuel": {
     "kind": "recipe",
@@ -6838,29 +6677,6 @@
     "icon": "fRPi0B5Bssq6qQiqCwW0Qg0YzJD1vskIskgKIwsWiE",
     "slug": "recipe-ramp-8m-x-4m"
   },
-  "recipe-raw-quartz": {
-    "kind": "recipe",
-    "name": "Raw Quartz",
-    "ingredients": [
-      {
-        "item": "raw-quartz",
-        "count": 1
-      }
-    ],
-    "products": [
-      {
-        "item": "raw-quartz",
-        "count": 1
-      }
-    ],
-    "producedIn": [
-      "build-converter-c"
-    ],
-    "duration": 2,
-    "manualMultiplier": 1,
-    "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km",
-    "slug": "recipe-raw-quartz"
-  },
   "recipe-rebar-gun": {
     "kind": "recipe",
     "name": "Rebar Gun",
@@ -7580,29 +7396,6 @@
     "icon": "6WexKKK4HmSs8W8sk8GYa86uNW7wfENU2IC2ymE6eAYE",
     "slug": "recipe-storage-container"
   },
-  "recipe-sulfur": {
-    "kind": "recipe",
-    "name": "Sulfur",
-    "ingredients": [
-      {
-        "item": "sulfur",
-        "count": 1
-      }
-    ],
-    "products": [
-      {
-        "item": "sulfur",
-        "count": 1
-      }
-    ],
-    "producedIn": [
-      "build-converter-c"
-    ],
-    "duration": 2,
-    "manualMultiplier": 1,
-    "icon": "zIWbiVBnnEsiQy4MSooAS7mVmxEg27SISYawA0AgUe0",
-    "slug": "recipe-sulfur"
-  },
   "recipe-sulfuric-acid": {
     "kind": "recipe",
     "name": "Sulfuric Acid",
@@ -8041,29 +7834,6 @@
     "manualMultiplier": 1,
     "icon": "5U61Epnkd2oIIek8EO6KsgJ3TrZQxe4SciuEQeU8AaQ",
     "slug": "recipe-unpackage-water"
-  },
-  "recipe-uranium": {
-    "kind": "recipe",
-    "name": "Uranium",
-    "ingredients": [
-      {
-        "item": "uranium",
-        "count": 1
-      }
-    ],
-    "products": [
-      {
-        "item": "uranium",
-        "count": 1
-      }
-    ],
-    "producedIn": [
-      "build-converter-c"
-    ],
-    "duration": 2,
-    "manualMultiplier": 1,
-    "icon": "20u6vMIqsogSqseamEMm4I3B61XsOBeEy0kIm8ekw2qc",
-    "slug": "recipe-uranium"
   },
   "recipe-uranium-pellet": {
     "kind": "recipe",

@@ -17,6 +17,19 @@ export async function fillRecipes(outputDb: OutputDatabase, entityDb: EntityData
 }
 
 async function _buildRecipe(outputDb: OutputDatabase, entityDb: EntityDatabase, assetDb: AssetDatabase, raw: RawInfo): Promise<BuiltRecipe | undefined> {
+  // Is it a raw resource?
+  if (raw.entity.mProducedIn.length === 1 
+   && raw.entity.mProducedIn[0]?.className === 'Build_Converter_C' 
+   && raw.entity.mIngredients.length === 1 
+   && raw.entity.mProduct.length === 1 
+   && raw.entity.mIngredients[0].ItemClass?.className === raw.entity.mProduct[0].ItemClass?.className) {
+    // Make sure we mark the item description appropriately.
+    const item = outputDb.getOrDie<EntityKind.Item>(raw.entity.mIngredients[0].ItemClass?.className!);
+    item.raw = true;
+    // And don't emit a recipe for it.
+    return;
+  }
+
   const recipe = {
     kind: EntityKind.Recipe,
     name: raw.entity.mDisplayName,

@@ -116,7 +116,8 @@
     "form": "solid",
     "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG",
     "stackSize": 100,
-    "slug": "bauxite"
+    "slug": "bauxite",
+    "raw": true
   },
   "beacon": {
     "kind": "item",
@@ -205,7 +206,8 @@
     "form": "solid",
     "icon": "6HkuY8ol3yKQywiSAmCE4M187rTIVuw0wI6waiQMW4Ak",
     "stackSize": 100,
-    "slug": "caterium-ore"
+    "slug": "caterium-ore",
+    "raw": true
   },
   "chainsaw": {
     "kind": "item",
@@ -239,7 +241,8 @@
     "fuel": {
       "energy": 300
     },
-    "slug": "coal"
+    "slug": "coal",
+    "raw": true
   },
   "color-cartridge": {
     "kind": "item",
@@ -308,7 +311,8 @@
     "form": "solid",
     "icon": "2KrBJL1WzeSYGMAmCQoowE4vhlksjXcckkuAu8SayuWU",
     "stackSize": 100,
-    "slug": "copper-ore"
+    "slug": "copper-ore",
+    "raw": true
   },
   "copper-sheet": {
     "kind": "item",
@@ -331,7 +335,8 @@
     "fuel": {
       "energy": 0.32
     },
-    "slug": "crude-oil"
+    "slug": "crude-oil",
+    "raw": true
   },
   "crystal-oscillator": {
     "kind": "item",
@@ -539,7 +544,8 @@
     "form": "solid",
     "icon": "5c0Gl1FsvuGGyGe28Mg2m87B3HVLJL6oKusESIUocEkS",
     "stackSize": 100,
-    "slug": "iron-ore"
+    "slug": "iron-ore",
+    "raw": true
   },
   "iron-plate": {
     "kind": "item",
@@ -587,7 +593,8 @@
     "form": "solid",
     "icon": "6BAPvz5Wr66qk6oOw0wiUI5agwR4fajeKUgak02qSKgy",
     "stackSize": 100,
-    "slug": "limestone"
+    "slug": "limestone",
+    "raw": true
   },
   "liquid-biofuel": {
     "kind": "item",
@@ -880,7 +887,8 @@
     "form": "solid",
     "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km",
     "stackSize": 100,
-    "slug": "raw-quartz"
+    "slug": "raw-quartz",
+    "raw": true
   },
   "rebar-gun": {
     "kind": "item",
@@ -1018,7 +1026,8 @@
     "form": "solid",
     "icon": "zIWbiVBnnEsiQy4MSooAS7mVmxEg27SISYawA0AgUe0",
     "stackSize": 100,
-    "slug": "sulfur"
+    "slug": "sulfur",
+    "raw": true
   },
   "sulfuric-acid": {
     "kind": "item",
@@ -1073,7 +1082,8 @@
     "radioactivity": {
       "decay": 15
     },
-    "slug": "uranium"
+    "slug": "uranium",
+    "raw": true
   },
   "uranium-pellet": {
     "kind": "item",
