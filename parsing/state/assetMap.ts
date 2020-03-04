@@ -161,7 +161,7 @@ export const assetMap: Record<string, string | undefined> = {
   QuarterPipeCorner_02: 'Buildable/Building/Ramp/UI/QuarterPipe_Corner_02',
   QuarterPipeCorner_03: 'Buildable/Building/Ramp/UI/IconDesc_Cnr_QuarterPipe_03',
   QuarterPipeCorner_04: 'Buildable/Building/Ramp/UI/IconDesc_Cnr_QuarterPipe_04',
-  QuartzCrystal: 'Resource/Parts/QuartzCrystal/UI/QuartzCrystal',
+  QuartzCrystal: 'Resource/Parts/QuartzCrystal/UI/QuartzResource',
   RadarTower: 'Buildable/Factory/RadarTower/UI/RadarTower',
   RailroadTrack: 'Buildable/Factory/Train/Track/UI/Track',
   Ramp_8x1_01: 'Buildable/Building/Ramp/UI/Ramp8x1',
