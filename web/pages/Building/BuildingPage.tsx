@@ -1,31 +1,27 @@
 import { useState } from 'react';
 import { useParams } from 'react-router';
-import { Building } from '@local/schema';
+import { EntityKind } from '@local/schema';
 
-import { useBuildings } from '~/data';
+import { useBuilding } from '~/data';
 import { MasterDetailLayout } from '~/layouts';
 import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
 
 export function BuildingPage() {
   const { slug } = useParams<{ slug?: string }>();
-  const buildings = useBuildings();
-  if (!buildings) return <div>…</div>;
-
-  const building = slug ? buildings[slug] : undefined;
 
   return (
     <MasterDetailLayout 
-      master={<EntityList entitiesById={buildings} />}
-      detail={<_Detail building={building} />}
+      master={<EntityList kind={EntityKind.Building} />}
+      detail={<_Detail slug={slug} />}
     />
   );
 }
 
-function _Detail({ building }: { building?: Building }) {
+function _Detail({ slug }: { slug?: string }) {
+  const building = useBuilding(slug);
   let [clockSpeed, setClockSpeed] = useState(1.0);
-
-  if (!building) return <React.Fragment>`…`</React.Fragment>;
+  if (!building) return <React.Fragment>…</React.Fragment>;
 
   const statistics = {} as Record<string, React.ReactNode>;
 

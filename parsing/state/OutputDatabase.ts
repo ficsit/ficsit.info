@@ -1,7 +1,15 @@
 import { paramCase } from 'param-case';
-import { AnyEntity, EntityKind, EntityByKind, Slug, Entity } from '@local/schema';
+import { AnyEntity, EntityKind, EntityByKind, Slug, Entity, Recipe, Schematic } from '@local/schema';
 
 import { normalizeClassName } from './HeaderDatabase';
+
+export type DataTypes = {
+  entity: AnyEntity;
+  recipe: Recipe;
+  schematic: Schematic;
+};
+export type DataType = keyof DataTypes;
+export type Data = DataTypes[DataType];
 
 export type WithoutSlug<TEntity extends AnyEntity> = Omit<TEntity, 'slug'>;
 
@@ -10,9 +18,9 @@ export type WithoutSlug<TEntity extends AnyEntity> = Omit<TEntity, 'slug'>;
  * handles references from internal class names to them.
  */
 export class OutputDatabase {
-  _entitiesByClassName = new Map<string, AnyEntity>();
-  _entitiesByBaseSlug = new Map<string, AnyEntity[]>();
-  _entitiesByKind = new Map<string, AnyEntity[]>();
+  _dataByClassName = new Map<string, AnyEntity>();
+  _dataByBaseSlug = new Map<string, AnyEntity[]>();
+  _dataByKind = new Map<string, AnyEntity[]>();
 
   register(entity: WithoutSlug<AnyEntity>, classNames: (string | undefined)[], slugPrefix?: string) {
     this._assignBySlug(entity, slugPrefix);
@@ -26,24 +34,37 @@ export class OutputDatabase {
   reference(targetClassName: string, ...classNames: string[]) {
     const target = this.getOrDie(targetClassName);
     for (const className of classNames) {
-      if (this._entitiesByClassName.get(className)) {
+      if (this._dataByClassName.get(className)) {
         throw new Error(`Refusing to overwrite ${className} with a reference to ${targetClassName}`);
       }
 
-      this._entitiesByClassName.set(className, target);
+      this._dataByClassName.set(className, target);
     }
   }
 
   getOrDie<TKind extends EntityKind>(className: string) {
-    const entity = this._entitiesByClassName.get(className) as EntityByKind[TKind] | undefined;
+    const entity = this._dataByClassName.get(className) as EntityByKind[TKind] | undefined;
     if (!entity) {
       throw new Error(`Expected ${entity} to be registered for output`);
     }
     return entity;
   }
 
+  getAllByType<TType extends DataType>(type: TType): Record<string, DataTypes[TType]> {
+    if (type === 'entity') {
+      const entries = [
+        ...Object.entries(this.getAllByKind(EntityKind.Building)),
+        ...Object.entries(this.getAllByKind(EntityKind.Item)),
+      ];
+      const sorted = entries.sort((a, b) => a[0].localeCompare(b[0]));
+      return Object.fromEntries(sorted);
+    } else {
+      return this.getAllByKind(type as any);
+    }
+  }
+
   getAllByKind<TKind extends EntityKind>(kind: TKind): Record<string, EntityByKind[TKind]> {
-    const entries = this._entitiesByKind.get(kind)!
+    const entries = this._dataByKind.get(kind)!
       .map((entity) => [entity.slug, entity as EntityByKind[TKind]] as const)
       .sort((a, b) => a[0].localeCompare(b[0]));
     
@@ -52,7 +73,7 @@ export class OutputDatabase {
 
   getIndexable(): Entity[] {
     const indexable = [] as Entity[];
-    for (const entities of this._entitiesByKind.values()) {
+    for (const entities of this._dataByKind.values()) {
       for (const { kind, slug, name, icon, categories } of entities) {
         indexable.push({ kind, slug, name, icon, categories });
       }
@@ -71,10 +92,10 @@ export class OutputDatabase {
     const entity = entityWithoutSlug as AnyEntity;
     const baseSlug = `${slugPrefix || ''}${_baseSlug(entityWithoutSlug)}`;
 
-    let entityArray = this._entitiesByBaseSlug.get(baseSlug);
+    let entityArray = this._dataByBaseSlug.get(baseSlug);
     if (!entityArray) {
       entityArray = [];
-      this._entitiesByBaseSlug.set(baseSlug, entityArray);
+      this._dataByBaseSlug.set(baseSlug, entityArray);
     }
     entityArray.push(entity);
     
@@ -91,22 +112,22 @@ export class OutputDatabase {
   }
 
   _assignByClassName(entity: AnyEntity, className: string) {
-    if (this._entitiesByClassName.has(className)) {
+    if (this._dataByClassName.has(className)) {
       throw new Error(`Entity conflict: multiple assigned to ${className}`);
     }
-    this._entitiesByClassName.set(className, entity);
+    this._dataByClassName.set(className, entity);
   }
 
   _assignByKind(entity: AnyEntity) {
-    if (!this._entitiesByKind.has(entity.kind)) this._entitiesByKind.set(entity.kind, []);
-    this._entitiesByKind.get(entity.kind)!.push(entity);
+    if (!this._dataByKind.has(entity.kind)) this._dataByKind.set(entity.kind, []);
+    this._dataByKind.get(entity.kind)!.push(entity);
   }
 
   toJSON() {
     return {
-      _entitiesByClassName: Array.from(this._entitiesByClassName.keys()),
-      _entitiesByBaseSlug: Array.from(this._entitiesByBaseSlug.keys()),
-      _entitiesByKind: Array.from(this._entitiesByKind.keys()),
+      _entitiesByClassName: Array.from(this._dataByClassName.keys()),
+      _entitiesByBaseSlug: Array.from(this._dataByBaseSlug.keys()),
+      _entitiesByKind: Array.from(this._dataByKind.keys()),
     };
   }
 }
@@ -124,10 +145,10 @@ export class SlugReference {
   }
 
   toJSON() {
-    if (!this._outputDb._entitiesByClassName.has(this.className)) {
+    if (!this._outputDb._dataByClassName.has(this.className)) {
       console.warn(`${this.className} has not been registered`);
       return `--BAD REFERENCE: ${this.className}--`;
     }
-    return this._outputDb._entitiesByClassName.get(this.className)!.slug;
+    return this._outputDb._dataByClassName.get(this.className)!.slug;
   }
 }

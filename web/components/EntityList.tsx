@@ -1,4 +1,4 @@
-import { Entity } from '@local/schema';
+import { Entity, EntityKind } from '@local/schema';
 import { css } from '@emotion/core';
 import { useMemo } from 'react';
 import { AutoSizedStickyTree, Child } from 'react-virtualized-sticky-tree';
@@ -6,6 +6,7 @@ import { AutoSizedStickyTree, Child } from 'react-virtualized-sticky-tree';
 import { colors } from '../style';
 
 import { EntityLink } from './EntityLink';
+import { useEntitiesByKind } from '~/data';
 
 type EntityTree = Map<string, Map<string, Entity[]>>;
 
@@ -63,25 +64,27 @@ const rowStyles = css({
 });
 
 export interface EntityListProps {
-  entitiesById: Record<string, Entity>;
+  kind: EntityKind;
 }
 
-export function EntityList({ entitiesById }: EntityListProps) {
-  const tree = useMemo(() => _entityTree(Object.values(entitiesById)), [entitiesById]);
+export function EntityList({ kind }: EntityListProps) {
+  const entities = useEntitiesByKind(kind);
+  const tree = useMemo(() => _entityTree(entities), [entities]);
+  if (!tree) return <div>…</div>;
 
   return (
     <AutoSizedStickyTree
       css={rootStyles}
       root={_nodeForId('--root--')}
       getChildren={id => _childNodesFor(tree, id)}
-      rowRenderer={({ id, style }) => _renderNode(entitiesById, id, style)}
+      rowRenderer={({ id, style }) => _renderNode(entities!, id, style)}
       renderRoot={false}
       overscanRowCount={5}
     />
   )
 }
 
-function _renderNode(entitiesById: Record<string, Entity>, id: string, style: React.CSSProperties) {
+function _renderNode(entities: Record<string, Entity>, id: string, style: React.CSSProperties) {
   const { path, kind } = _nodeKind(id);
   if (kind === 'root') {
     throw new Error(`root should not be rendered`);
@@ -90,7 +93,7 @@ function _renderNode(entitiesById: Record<string, Entity>, id: string, style: Re
   } else if (kind === 'subCategory') {
     return <div key={id} css={subCategoryTitleStyles} style={style}>{path}</div>;
   } else {
-    const entity = entitiesById[path[2]];
+    const entity = entities[path[2]];
     if (!entity) {
       throw new Error(`Expected ${path[2]} to exist as an entity`);
     }
@@ -98,7 +101,10 @@ function _renderNode(entitiesById: Record<string, Entity>, id: string, style: Re
   }
 }
 
-function _entityTree(allEntities: Entity[]) {
+function _entityTree(entities?: Record<string, Entity>) {
+  if (!entities) return;
+  const allEntities = Object.values(entities);
+
   const indexed: EntityTree = new Map();
 
   for (const entity of allEntities.sort((a, b) => (a.listOrder || Number.MAX_SAFE_INTEGER) - (b.listOrder || Number.MAX_SAFE_INTEGER))) {

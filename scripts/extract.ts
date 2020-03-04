@@ -1,7 +1,6 @@
 #!/usr/bin/env ts-node
 import * as fs from 'fs';
 import * as path from 'path';
-import { EntityKind } from '@local/schema';
 import * as parsing from '@local/parsing';
 
 const DATA_ROOT = path.resolve(__dirname, '..', 'static', 'data');
@@ -34,10 +33,8 @@ async function main(version: string) {
 
   // Final data
   await Promise.all([
-    destination.writeJson(outputDb.getIndexable(), 'index.json'),
-    destination.writeJson(outputDb.getAllByKind(EntityKind.Item), 'items.json'),
-    destination.writeJson(outputDb.getAllByKind(EntityKind.Building), 'buildings.json'),
-    destination.writeJson(outputDb.getAllByKind(EntityKind.Recipe), 'recipes.json'),
-    destination.writeJson(outputDb.getAllByKind(EntityKind.Schematic), 'schematics.json'),
+    destination.writeJson(outputDb.getAllByType('entity'), 'entities.json'),
+    destination.writeJson(outputDb.getAllByType('recipe'), 'recipes.json'),
+    destination.writeJson(outputDb.getAllByType('schematic'), 'schematics.json'),
   ]);  
 }

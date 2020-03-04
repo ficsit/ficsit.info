@@ -1,10 +1,38 @@
 import { Recipe } from '@local/schema';
 
-import { memoize } from '~/utility';
+import { makeDataHook } from './fetch';
 
-export const recipesByProduct = memoize((recipes: Record<string, Recipe>) => {
+export function useRecipes() {
+  return useRecipeData()?.bySlug;
+}
+
+export function useRecipe(slug?: string) {
+  const recipes = useRecipes();
+  return typeof slug === 'string' ? recipes?.[slug] : undefined;
+}
+
+export function useRecipesByProduct() {
+  return useRecipeData()?.byProduct;
+}
+
+export function useRecipesByIngredient() {
+  return useRecipeData()?.byIngredient;
+}
+
+// Raw Data
+
+const useRecipeData = makeDataHook('recipes', (bySlug: Record<string, Recipe>) => {
+  const recipes = Object.values(bySlug);
+  return { 
+    bySlug, 
+    byProduct: _recipesByProduct(recipes), 
+    byIngredient: _recipesByIngredient(recipes),
+  };
+});
+
+function _recipesByProduct(recipes: Recipe[]) {
   const byProduct = Object.create(null) as Record<string, Recipe[]>;
-  for (const recipe of Object.values(recipes)) {
+  for (const recipe of recipes) {
     for (const product of recipe.products) {
       if (!byProduct[product.item]) byProduct[product.item] = [];
       byProduct[product.item].push(recipe);
@@ -25,11 +53,11 @@ export const recipesByProduct = memoize((recipes: Record<string, Recipe>) => {
   }
   
   return byProduct;
-});
+}
 
-export const recipesByIngredient = memoize((recipes: Record<string, Recipe>) => {
+function _recipesByIngredient(recipes: Recipe[]) {
   const byIngredient = Object.create(null) as Record<string, Recipe[]>;
-  for (const recipe of Object.values(recipes)) {
+  for (const recipe of recipes) {
     for (const ingredient of recipe.ingredients) {
       if (!byIngredient[ingredient.item]) byIngredient[ingredient.item] = [];
       byIngredient[ingredient.item].push(recipe);
@@ -42,4 +70,4 @@ export const recipesByIngredient = memoize((recipes: Record<string, Recipe>) => 
   }
   
   return byIngredient;
-});
+}

@@ -1,6 +1,6 @@
 import { Item } from '@local/schema';
 
-import { useRecipes, recipesByIngredient } from '~/data';
+import { useRecipesByIngredient } from '~/data';
 import { Section } from '~/components/Section';
 import { RecipeTable } from '~/components/RecipeTable';
 
@@ -9,9 +9,7 @@ export interface ItemUses {
 }
 
 export function ItemUses({ item }: ItemUses) {
-  const allRecipes = useRecipes();
-  if (!allRecipes) return <Section>Loading…</Section>;
-  const recipes = recipesByIngredient(allRecipes)[item.slug];
+  const recipes = useRecipesByIngredient()?.[item.slug];
   if (!recipes) {
     return <Section title='Recipes'>No recipes use {item.name} as an ingredient</Section>;
   }

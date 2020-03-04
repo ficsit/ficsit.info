@@ -1,8 +1,8 @@
 import { useParams } from 'react-router';
-import { Item } from '@local/schema';
+import { EntityKind } from '@local/schema';
 import { css } from '@emotion/core';
 
-import { useItems } from '~/data';
+import { useItem } from '~/data';
 import { MasterDetailLayout } from '~/layouts';
 import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
@@ -19,21 +19,18 @@ const detailsStyles = css({
 
 export function ItemPage() {
   const { slug } = useParams<{ slug?: string }>();
-  const items = useItems();
-  if (!items) return <div>…</div>;
-
-  const item = slug ? items[slug] : undefined;
 
   return (
     <MasterDetailLayout 
-      master={<EntityList entitiesById={items} />}
-      detail={_renderDetail(item)}
+      master={<EntityList kind={EntityKind.Item} />}
+      detail={<_Detail slug={slug} />}
     />
   );
 }
 
-function _renderDetail(item?: Item) {
-  if (!item) return `…`;
+function _Detail({ slug }: { slug?: string }) {
+  const item = useItem(slug);
+  if (!item) return <div>…</div>;
 
   const statistics = {} as Record<string, React.ReactNode>;
   

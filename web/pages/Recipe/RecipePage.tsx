@@ -1,11 +1,8 @@
 import { useParams } from 'react-router';
-import { Recipe } from '@local/schema';
 import { css } from '@emotion/core';
 
-import { useRecipes, useBuilding } from '~/data';
+import { useBuilding, useRecipe } from '~/data';
 import { colors } from '~/style';
-import { MasterDetailLayout } from '~/layouts';
-import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
 import { Section } from '~/components/Section';
 import { ItemCount } from '~/components/ItemCount';
@@ -22,20 +19,12 @@ const arrowStyles = css({
 
 export function RecipePage() {
   const { slug } = useParams<{ slug?: string }>();
-  const recipes = useRecipes();
-  if (!recipes) return <div>…</div>;
 
-  const recipe = slug ? recipes[slug] : undefined;
-
-  return (
-    <MasterDetailLayout 
-      master={<EntityList entitiesById={recipes} />}
-      detail={<_Detail recipe={recipe} />}
-    />
-  );
+  return <_Detail slug={slug} />;
 }
 
-function _Detail({ recipe }: { recipe?: Recipe }) {
+function _Detail({ slug }: { slug?: string }) {
+  const recipe = useRecipe(slug);
   // let [clockSpeed, setClockSpeed] = useState(1.0);
   const building = useBuilding(recipe?.producedIn[0]);
   if (!recipe) return <div>…</div>;
