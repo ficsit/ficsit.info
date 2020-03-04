@@ -62,16 +62,17 @@ const statisticsStyles = css({
 });
 
 export interface EntityWithDescription extends Indexable {
-  description: string;
+  description?: string;
 }
 
 export interface EntitySummaryParams {
   entity: EntityWithDescription;
   imageSize: number;
+  description?: React.ReactNode;
   statistics?: Record<string, React.ReactNode>;
 }
 
-export function EntitySummary({ entity, imageSize, statistics, ...props }: EntitySummaryParams) {
+export function EntitySummary({ entity, imageSize, description, statistics, ...props }: EntitySummaryParams) {
   const headerStyles = getHeaderStyles(imageSize);
   const entityImageStyles = getEntityImageStyles(imageSize);
 
@@ -79,7 +80,7 @@ export function EntitySummary({ entity, imageSize, statistics, ...props }: Entit
     <Section title={<h1 css={headerStyles}>{entity.name}</h1>} {...props}>
       <div css={summaryStyles}>
         <EntityImage entity={entity} size={imageSize} css={entityImageStyles} />
-        <p css={descriptionStyles}>{entity.description}</p>
+        <p css={descriptionStyles}>{description || entity.description}</p>
       </div>
       {!!statistics && 
         <div css={statisticsStyles}>

@@ -3,6 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import { BuildingPage } from '~/pages/Building';
 import { HomePage } from '~/pages/Home';
 import { ItemPage } from '~/pages/Item';
+import { RecipePage } from '~/pages/Recipe';
 
 export function AppRoutes() {
   return (
@@ -12,6 +13,8 @@ export function AppRoutes() {
       <Route path='/buildings/:slug' element={<BuildingPage />} />
       <Route path='/items/' element={<ItemPage />} />
       <Route path='/items/:slug' element={<ItemPage />} />
+      <Route path='/recipes/' element={<RecipePage />} />
+      <Route path='/recipes/:slug' element={<RecipePage />} />
     </Routes>
   )
 }
