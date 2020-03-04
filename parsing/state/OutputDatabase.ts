@@ -1,20 +1,20 @@
 import { paramCase } from 'param-case';
-import { Entity, EntityKind, EntityByKind, Slug, Indexable } from '@local/schema';
+import { AnyEntity, EntityKind, EntityByKind, Slug, Indexable } from '@local/schema';
 
 import { normalizeClassName } from './HeaderDatabase';
 
-export type WithoutSlug<TEntity extends Entity> = Omit<TEntity, 'slug'>;
+export type WithoutSlug<TEntity extends AnyEntity> = Omit<TEntity, 'slug'>;
 
 /**
  * Database that maintains a set of all entities that should be outputted, and 
  * handles references from internal class names to them.
  */
 export class OutputDatabase {
-  _entitiesByClassName = new Map<string, Entity>();
-  _entitiesByBaseSlug = new Map<string, Entity[]>();
-  _entitiesByKind = new Map<string, Entity[]>();
+  _entitiesByClassName = new Map<string, AnyEntity>();
+  _entitiesByBaseSlug = new Map<string, AnyEntity[]>();
+  _entitiesByKind = new Map<string, AnyEntity[]>();
 
-  register(entity: WithoutSlug<Entity>, classNames: (string | undefined)[], slugPrefix?: string) {
+  register(entity: WithoutSlug<AnyEntity>, classNames: (string | undefined)[], slugPrefix?: string) {
     this._assignBySlug(entity, slugPrefix);
     this._assignByKind(entity);
     for (const className of classNames) {
@@ -66,9 +66,9 @@ export class OutputDatabase {
     return new SlugReference(this, className) as any;
   }
 
-  _assignBySlug(entityWithoutSlug: WithoutSlug<Entity>, slugPrefix?: string): asserts entityWithoutSlug is Entity {
+  _assignBySlug(entityWithoutSlug: WithoutSlug<AnyEntity>, slugPrefix?: string): asserts entityWithoutSlug is AnyEntity {
     // Trust us, we'll set the slug in this function.
-    const entity = entityWithoutSlug as Entity;
+    const entity = entityWithoutSlug as AnyEntity;
     const baseSlug = `${slugPrefix || ''}${_baseSlug(entityWithoutSlug)}`;
 
     let entityArray = this._entitiesByBaseSlug.get(baseSlug);
@@ -90,14 +90,14 @@ export class OutputDatabase {
     }
   }
 
-  _assignByClassName(entity: Entity, className: string) {
+  _assignByClassName(entity: AnyEntity, className: string) {
     if (this._entitiesByClassName.has(className)) {
       throw new Error(`Entity conflict: multiple assigned to ${className}`);
     }
     this._entitiesByClassName.set(className, entity);
   }
 
-  _assignByKind(entity: Entity) {
+  _assignByKind(entity: AnyEntity) {
     if (!this._entitiesByKind.has(entity.kind)) this._entitiesByKind.set(entity.kind, []);
     this._entitiesByKind.get(entity.kind)!.push(entity);
   }
@@ -111,7 +111,7 @@ export class OutputDatabase {
   }
 }
 
-function _baseSlug(entity: WithoutSlug<Entity>) {
+function _baseSlug(entity: WithoutSlug<AnyEntity>) {
   return paramCase(entity.name.replace(/[.]/g, ''));
 }
 

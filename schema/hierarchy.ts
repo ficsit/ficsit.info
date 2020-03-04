@@ -6,8 +6,8 @@ import { Schematic } from './Schematic';
 /**
  * Full details of any entity.
  */
-export type Entity = Building | Item | Recipe | Schematic;
+export type AnyEntity = Building | Item | Recipe | Schematic;
 
 export type EntityByKind = {
-  [TKind in Entity['kind']]: Extract<Entity, { kind: TKind }>;
+  [TKind in AnyEntity['kind']]: Extract<AnyEntity, { kind: TKind }>;
 }

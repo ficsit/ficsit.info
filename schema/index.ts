@@ -1,6 +1,6 @@
 export * from './assets';
 export * from './Building';
-export * from './Entity';
+export * from './hierarchy';
 export * from './Indexable';
 export * from './Item';
 export * from './primitive';
