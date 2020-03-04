@@ -19,6 +19,10 @@ const rootStyles = css({
   padding: padding,
   margin: padding,
   backgroundColor: colors.Light.N100,
+  '&.active, &.active:hover': {
+    backgroundColor: 'transparent',
+    cursor: 'default',
+  },
   '&:hover': {
     backgroundColor: colors.Primary.N500,
     'picture': {

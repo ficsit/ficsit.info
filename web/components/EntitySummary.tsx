@@ -71,12 +71,12 @@ export interface EntitySummaryParams {
   statistics?: Record<string, React.ReactNode>;
 }
 
-export function EntitySummary({ entity, imageSize, statistics }: EntitySummaryParams) {
+export function EntitySummary({ entity, imageSize, statistics, ...props }: EntitySummaryParams) {
   const headerStyles = getHeaderStyles(imageSize);
   const entityImageStyles = getEntityImageStyles(imageSize);
 
   return (
-    <Section title={<h1 css={headerStyles}>{entity.name}</h1>}>
+    <Section title={<h1 css={headerStyles}>{entity.name}</h1>} {...props}>
       <div css={summaryStyles}>
         <EntityImage entity={entity} size={imageSize} css={entityImageStyles} />
         <p css={descriptionStyles}>{entity.description}</p>

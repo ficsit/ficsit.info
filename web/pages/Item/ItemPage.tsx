@@ -1,11 +1,22 @@
 import { useParams } from 'react-router';
 import { Item } from '@local/schema';
+import { css } from '@emotion/core';
 
 import { useItems } from '~/data';
 import { MasterDetailLayout } from '~/layouts';
 import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
 import { ItemRecipes } from './ItemRecipes';
+import { ItemIngredientUses } from './ItemIngredientUses';
+
+const rootStyles = css({
+  display: 'grid',
+  gridAutoColumns: '1fr',
+});
+
+const summaryStyles = css({
+  gridColumn: '1 / 3',
+});
 
 export function ItemPage() {
   const { slug } = useParams<{ slug?: string }>();
@@ -50,9 +61,10 @@ function _renderDetail(item?: Item) {
   }
 
   return (
-    <article>
-      <EntitySummary entity={item} imageSize={128} statistics={statistics} />
+    <article css={rootStyles}>
+      <EntitySummary entity={item} imageSize={128} statistics={statistics} css={summaryStyles}/>
       <ItemRecipes item={item} />
+      <ItemIngredientUses item={item} />
     </article>
   )
 }
