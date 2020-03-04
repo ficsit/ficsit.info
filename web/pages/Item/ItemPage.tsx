@@ -7,15 +7,14 @@ import { MasterDetailLayout } from '~/layouts';
 import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
 import { ItemRecipes } from './ItemRecipes';
-import { ItemIngredientUses } from './ItemIngredientUses';
+import { ItemUses } from './ItemUses';
 
-const rootStyles = css({
+const detailsStyles = css({
   display: 'grid',
-  gridAutoColumns: '1fr',
-});
-
-const summaryStyles = css({
-  gridColumn: '1 / 3',
+  gridTemplateColumns: 'repeat(2, 1fr)',
+  '@media(max-width: 600px)': {
+    gridTemplateColumns: 'repeat(1, 1fr)',
+  },
 });
 
 export function ItemPage() {
@@ -38,6 +37,10 @@ function _renderDetail(item?: Item) {
 
   const statistics = {} as Record<string, React.ReactNode>;
   
+  if (item.raw) {
+    statistics[`Source`] = `extracted`;
+  }
+
   if (item.stackSize) {
     statistics[`Stack Size`] = item.stackSize;
   } else {
@@ -61,10 +64,12 @@ function _renderDetail(item?: Item) {
   }
 
   return (
-    <article css={rootStyles}>
-      <EntitySummary entity={item} imageSize={128} statistics={statistics} css={summaryStyles}/>
-      <ItemRecipes item={item} />
-      <ItemIngredientUses item={item} />
+    <article>
+      <EntitySummary entity={item} imageSize={128} statistics={statistics}/>
+      <div css={detailsStyles}>
+        <ItemRecipes item={item} />
+        <ItemUses item={item} />
+      </div>
     </article>
   )
 }
