@@ -1,10 +1,10 @@
-import { Indexable } from './Indexable';
+import { Entity } from './Entity';
 import { EntityKind, SchematicKind, ItemAmount, Slug } from './primitive';
 
 /**
  * Research the player can perform (trading post, M.A.M, etc).
  */
-export interface Schematic extends Indexable {
+export interface Schematic extends Entity {
   kind: EntityKind.Schematic;
 
   /**

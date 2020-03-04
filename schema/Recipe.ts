@@ -1,10 +1,10 @@
-import { Indexable } from './Indexable';
+import { Entity } from './Entity';
 import { EntityKind, ItemAmount, Slug } from './primitive';
 
 /**
  * A recipe for producing something out of something.
  */
-export interface Recipe extends Indexable {
+export interface Recipe extends Entity {
   kind: EntityKind.Recipe;
 
   /**

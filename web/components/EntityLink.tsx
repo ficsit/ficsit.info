@@ -1,4 +1,4 @@
-import { Indexable } from '@local/schema';
+import { Entity } from '@local/schema';
 import { NavLink } from 'react-router-dom';
 import { css, SerializedStyles } from '@emotion/core';
 
@@ -19,7 +19,7 @@ const imageStyles = css({
 });
 
 export interface EntityLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
-  entity: Indexable;
+  entity: Entity;
   imageCss?: SerializedStyles;
   size?: number;
 }

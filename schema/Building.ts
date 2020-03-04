@@ -1,11 +1,11 @@
-import { Indexable } from './Indexable';
+import { Entity } from './Entity';
 import { EntityKind, HumanReadableString, Slug, ItemForm } from './primitive';
 
 /**
  * Any entity which can be built by the player (factory buildings, foundations,
  * conveyers, etc).
  */
-export interface Building extends Indexable {
+export interface Building extends Entity {
   kind: EntityKind.Building;
 
   /**

@@ -1,5 +1,5 @@
 import { css } from '@emotion/core';
-import { Indexable } from '@local/schema';
+import { Entity } from '@local/schema';
 
 import { colors } from '../style';
 import { memoize } from '../utility';
@@ -61,7 +61,7 @@ const statisticsStyles = css({
   },
 });
 
-export interface EntityWithDescription extends Indexable {
+export interface EntityWithDescription extends Entity {
   description?: string;
 }
 

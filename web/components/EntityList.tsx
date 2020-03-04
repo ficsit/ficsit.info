@@ -1,4 +1,4 @@
-import { Indexable } from '@local/schema';
+import { Entity } from '@local/schema';
 import { css } from '@emotion/core';
 import { useMemo } from 'react';
 import { AutoSizedStickyTree, Child } from 'react-virtualized-sticky-tree';
@@ -7,7 +7,7 @@ import { colors } from '../style';
 
 import { EntityLink } from './EntityLink';
 
-type EntityTree = Map<string, Map<string, Indexable[]>>;
+type EntityTree = Map<string, Map<string, Entity[]>>;
 
 const categoryHeight = 20;
 const subCategoryHeight = 16;
@@ -63,7 +63,7 @@ const rowStyles = css({
 });
 
 export interface EntityListProps {
-  entitiesById: Record<string, Indexable>;
+  entitiesById: Record<string, Entity>;
 }
 
 export function EntityList({ entitiesById }: EntityListProps) {
@@ -81,7 +81,7 @@ export function EntityList({ entitiesById }: EntityListProps) {
   )
 }
 
-function _renderNode(entitiesById: Record<string, Indexable>, id: string, style: React.CSSProperties) {
+function _renderNode(entitiesById: Record<string, Entity>, id: string, style: React.CSSProperties) {
   const { path, kind } = _nodeKind(id);
   if (kind === 'root') {
     throw new Error(`root should not be rendered`);
@@ -98,7 +98,7 @@ function _renderNode(entitiesById: Record<string, Indexable>, id: string, style:
   }
 }
 
-function _entityTree(allEntities: Indexable[]) {
+function _entityTree(allEntities: Entity[]) {
   const indexed: EntityTree = new Map();
 
   for (const entity of allEntities.sort((a, b) => (a.listOrder || Number.MAX_SAFE_INTEGER) - (b.listOrder || Number.MAX_SAFE_INTEGER))) {

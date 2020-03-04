@@ -1,6 +1,6 @@
-import { Indexable, EntityKind } from '@local/schema';
+import { Entity, EntityKind } from '@local/schema';
 
-export function entityUrl(entity: Indexable) {
+export function entityUrl(entity: Entity) {
   switch (entity.kind) {
     case EntityKind.Building: return `/buildings/${entity.slug}`;
     case EntityKind.Item: return `/items/${entity.slug}`;

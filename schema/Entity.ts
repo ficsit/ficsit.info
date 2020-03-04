@@ -5,7 +5,7 @@ import { ImageId, EntityKind, HumanReadableString, Slug } from './primitive';
  * 
  * Most entities extend this.
  */
-export interface Indexable {
+export interface Entity {
   /**
    * The kind of entity that this is.
    */

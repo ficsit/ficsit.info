@@ -1,10 +1,10 @@
-import { Indexable } from './Indexable';
+import { Entity } from './Entity';
 import { Color, EntityKind, ItemAmount, ItemForm, HumanReadableString, EquipmentSlot } from './primitive';
 
 /**
  * Items that can be placed in inventories (resources, equipment, etc).
  */
-export interface Item extends Indexable {
+export interface Item extends Entity {
   kind: EntityKind.Item;
 
   /**
