@@ -3,12 +3,6 @@ import { useState } from 'react';
 
 import { fetchData } from './fetch';
 
-// Global State
-
-const collections = {} as Record<string, any>;
-
-// Hooks
-
 export function useIndex() {
   return _useCollection<Indexable[]>('index');
 }
@@ -27,14 +21,20 @@ export function useRecipes() {
 
 // Internal
 
+const _collectionPromises = {} as Record<string, Promise<any>>;
+const _collections = {} as Record<string, any>;
+
 function _useCollection<TShape>(kind: string): TShape | undefined {
-  const [state, setState] = useState(collections[kind]);
-  if (!collections[kind]) {
-    fetchData(`${kind}.json`, 'v115821')
-      .then((data: any) => {
-        collections[kind] = data;
-        setState(data);
-      });
+  const [state, setState] = useState(_collections[kind]);
+  if (!_collections[kind]) {
+    if (!_collectionPromises[kind]) {
+      _collectionPromises[kind] = fetchData(`${kind}.json`, 'v115821');
+    }
+
+    _collectionPromises[kind].then((data: any) => {
+      _collections[kind] = data;
+      setState(data);
+    });
   }
 
   return state;
