@@ -13,7 +13,7 @@ export async function fillBuildings(outputDb: OutputDatabase, entityDb: EntityDa
     const descriptor = _findDescriptor(entityDb, raw);
     const building = await _buildBuilding(outputDb, entityDb, assetDb, raw, descriptor);
 
-    outputDb.register(building, [raw.entity.ClassName, descriptor?.entity.ClassName]);
+    outputDb.register('entity', building, [raw.entity.ClassName, descriptor?.entity.ClassName]);
   }
 }
 

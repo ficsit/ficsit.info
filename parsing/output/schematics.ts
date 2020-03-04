@@ -12,7 +12,7 @@ export async function fillSchematics(outputDb: OutputDatabase, entityDb: EntityD
     const schematic = await _buildSchematic(outputDb, entityDb, raw);
     if (!schematic) continue;
 
-    outputDb.register(schematic, [raw.entity.ClassName], 'schematic-');
+    outputDb.register('schematic', schematic, [raw.entity.ClassName], 'schematic-');
   }
 }
 

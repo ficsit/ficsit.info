@@ -1,4 +1,4 @@
-import { Recipe, EntityKind } from '@local/schema';
+import { Recipe, EntityKind, Item } from '@local/schema';
 
 import { AssetDatabase, EntityDatabase, OutputDatabase, WithoutSlug } from '../state';
 
@@ -22,7 +22,7 @@ export async function fillRecipes(outputDb: OutputDatabase, entityDb: EntityData
     const recipe = await _buildRecipe(outputDb, entityDb, assetDb, raw);
     if (!recipe) continue;
 
-    outputDb.register(recipe, [raw.entity.ClassName], 'recipe-');
+    outputDb.register('recipe', recipe, [raw.entity.ClassName], 'recipe-');
   }
 }
 
@@ -34,7 +34,7 @@ async function _buildRecipe(outputDb: OutputDatabase, entityDb: EntityDatabase, 
    && raw.entity.mProduct.length === 1 
    && raw.entity.mIngredients[0].ItemClass?.className === raw.entity.mProduct[0].ItemClass?.className) {
     // Make sure we mark the item description appropriately.
-    const item = outputDb.getOrDie<EntityKind.Item>(raw.entity.mIngredients[0].ItemClass?.className!);
+    const item = outputDb.getOrDie<Item>(raw.entity.mIngredients[0].ItemClass?.className!);
     item.raw = true;
     // And don't emit a recipe for it.
     return;

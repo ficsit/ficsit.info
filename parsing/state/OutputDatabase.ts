@@ -1,5 +1,5 @@
 import { paramCase } from 'param-case';
-import { AnyEntity, EntityKind, EntityByKind, Slug, Entity, Recipe, Schematic } from '@local/schema';
+import { AnyEntity, Slug, Entity, Recipe, Schematic } from '@local/schema';
 
 import { normalizeClassName } from './HeaderDatabase';
 
@@ -11,23 +11,23 @@ export type DataTypes = {
 export type DataType = keyof DataTypes;
 export type Data = DataTypes[DataType];
 
-export type WithoutSlug<TEntity extends AnyEntity> = Omit<TEntity, 'slug'>;
+export type WithoutSlug<TEntity extends Data> = Omit<TEntity, 'slug'>;
 
 /**
  * Database that maintains a set of all entities that should be outputted, and 
  * handles references from internal class names to them.
  */
 export class OutputDatabase {
-  _dataByClassName = new Map<string, AnyEntity>();
-  _dataByBaseSlug = new Map<string, AnyEntity[]>();
-  _dataByKind = new Map<string, AnyEntity[]>();
+  _dataByClassName = new Map<string, Data>();
+  _dataByBaseSlug = new Map<string, Data[]>();
+  _dataByType = new Map<string, Data[]>();
 
-  register(entity: WithoutSlug<AnyEntity>, classNames: (string | undefined)[], slugPrefix?: string) {
-    this._assignBySlug(entity, slugPrefix);
-    this._assignByKind(entity);
+  register<TType extends DataType>(type: TType, data: WithoutSlug<DataTypes[TType]>, classNames: (string | undefined)[], slugPrefix?: string) {
+    this._assignBySlug(data, slugPrefix);
+    this._assignByType(type, data);
     for (const className of classNames) {
       if (!className) continue;
-      this._assignByClassName(entity, className);
+      this._assignByClassName(data, className);
     }
   }
 
@@ -42,8 +42,8 @@ export class OutputDatabase {
     }
   }
 
-  getOrDie<TKind extends EntityKind>(className: string) {
-    const entity = this._dataByClassName.get(className) as EntityByKind[TKind] | undefined;
+  getOrDie<TData extends Data>(className: string) {
+    const entity = this._dataByClassName.get(className) as TData | undefined;
     if (!entity) {
       throw new Error(`Expected ${entity} to be registered for output`);
     }
@@ -51,21 +51,8 @@ export class OutputDatabase {
   }
 
   getAllByType<TType extends DataType>(type: TType): Record<string, DataTypes[TType]> {
-    if (type === 'entity') {
-      const entries = [
-        ...Object.entries(this.getAllByKind(EntityKind.Building)),
-        ...Object.entries(this.getAllByKind(EntityKind.Item)),
-      ];
-      const sorted = entries.sort((a, b) => a[0].localeCompare(b[0]));
-      return Object.fromEntries(sorted);
-    } else {
-      return this.getAllByKind(type as any);
-    }
-  }
-
-  getAllByKind<TKind extends EntityKind>(kind: TKind): Record<string, EntityByKind[TKind]> {
-    const entries = this._dataByKind.get(kind)!
-      .map((entity) => [entity.slug, entity as EntityByKind[TKind]] as const)
+    const entries = this._dataByType.get(type)!
+      .map((entity) => [entity.slug, entity as DataTypes[TType]] as const)
       .sort((a, b) => a[0].localeCompare(b[0]));
     
     return Object.fromEntries(entries);
@@ -73,7 +60,7 @@ export class OutputDatabase {
 
   getIndexable(): Entity[] {
     const indexable = [] as Entity[];
-    for (const entities of this._dataByKind.values()) {
+    for (const entities of this._dataByType.values()) {
       for (const { kind, slug, name, icon, categories } of entities) {
         indexable.push({ kind, slug, name, icon, categories });
       }
@@ -118,16 +105,16 @@ export class OutputDatabase {
     this._dataByClassName.set(className, entity);
   }
 
-  _assignByKind(entity: AnyEntity) {
-    if (!this._dataByKind.has(entity.kind)) this._dataByKind.set(entity.kind, []);
-    this._dataByKind.get(entity.kind)!.push(entity);
+  _assignByType(type: DataType, data: Data) {
+    if (!this._dataByType.has(type)) this._dataByType.set(type, []);
+    this._dataByType.get(type)!.push(data);
   }
 
   toJSON() {
     return {
       _entitiesByClassName: Array.from(this._dataByClassName.keys()),
       _entitiesByBaseSlug: Array.from(this._dataByBaseSlug.keys()),
-      _entitiesByKind: Array.from(this._dataByKind.keys()),
+      _entitiesByKind: Array.from(this._dataByType.keys()),
     };
   }
 }

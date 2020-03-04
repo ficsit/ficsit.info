@@ -14,7 +14,7 @@ export async function fillItems(outputDb: OutputDatabase, entityDb: EntityDataba
 
     const item = await _buildItem(entityDb, assetDb, raw);
 
-    outputDb.register(item, [raw.entity.ClassName]);
+    outputDb.register('entity', item, [raw.entity.ClassName]);
   }
 }
 

@@ -243,16 +243,6 @@
     "stackSize": 1,
     "slug": "blade-runners"
   },
-  "build-converter-c": {
-    "kind": "building",
-    "name": "--Build_Converter_C--",
-    "slug": "build-converter-c"
-  },
-  "build-gun": {
-    "kind": "item",
-    "name": "Build Gun",
-    "slug": "build-gun"
-  },
   "cable": {
     "kind": "item",
     "name": "Cable",
