@@ -6,7 +6,7 @@ import { entityUrl } from '~/routing';
 import { colors, sizing } from '~/style';
 
 import { EntityImage } from './EntityImage';
-import { ItemForm } from '@local/schema';
+import { ItemForm, EntityKind } from '@local/schema';
 
 const size = 32;
 const padding = sizing.Padding.Small;
@@ -28,10 +28,15 @@ const rootStyles = css({
 });
 
 const shapeStyles = {
-  square: css({
-    borderRadius: 3,
+  default: css({
+    backgroundColor: 'transparent',
+    borderRadius: 4,
+    boxShadow: '0 0 4px rgba(0,0,0,0.35) inset',
   }),
-  round: css({
+  item: css({
+    borderRadius: 4,
+  }),
+  liquid: css({
     borderRadius: size,
   }),
 };
@@ -65,7 +70,12 @@ export function EntityReference({ slug, badge }: EntityReferenceProps) {
   const item = useItem(slug);
   if (!entity) return <div css={rootStyles} />;
 
-  const shape = item?.form === ItemForm.Liquid ? 'round' : 'square';
+  let shape: keyof typeof shapeStyles = 'default';
+  if (item?.form === ItemForm.Liquid) {
+    shape = 'liquid';
+  } else if (entity.kind === EntityKind.Item) {
+    shape = 'item';
+  }
 
   return (
     <NavLink to={entityUrl(entity)} css={[rootStyles, shapeStyles[shape]]}>

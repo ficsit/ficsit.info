@@ -8,31 +8,43 @@ import { entityUrl } from '~/routing';
 import { Section } from '~/components/Section';
 import { ItemCount } from '~/components/ItemCount';
 
-const recipeStyles = css({
-  display: 'flex',
-  flexWrap: 'wrap',
-  alignItems: 'center',
-  marginBottom: sizing.Padding.Normal,
-  '&:last-of-type': {
-    marginBottom: 0,
-  }
+const contentStyles = css({
+  display: 'grid',
+  gridAutoColumns: 'max-content',
+  gridColumnGap: sizing.Padding.Medium,
 });
 
 const recipeTitleStyles = css({
+  gridColumn: '1 / 5',
   margin: 0,
+  marginTop: sizing.Padding.Normal,
   color: 'inherit',
   textDecoration: 'none',
   fontWeight: 'lighter',
-  flexBasis: '100%',
+  '&:first-of-type': {
+    marginTop: 0,
+  },
   ':hover, &.active': {
     color: colors.Primary.N500,
   },
 });
 
-const recipeArrowStyles = css({
+const ingredientsStyles = css({
+  gridColumn: '1 / 2',
+  textAlign: 'right',
+});
+
+const arrowStyles = css({
+  display: 'flex',
+  alignItems: 'center',
+  gridColumn: '2 / 3',
   fontSize: 24,
   color: colors.Light.N400,
-  padding: `0 ${sizing.Padding.Small}px`,
+  paddingLeft: 3,
+});
+
+const productsStyles = css({
+  gridColumn: '3 / 4',
 });
 
 export interface ItemRecipesProps {
@@ -49,7 +61,9 @@ export function ItemRecipes({ item }: ItemRecipesProps) {
 
   return (
     <Section title='Recipes'>
-      {recipes.map((recipe) => _renderRecipe(item, recipe))}
+      <div css={contentStyles}>
+        {recipes.map((recipe) => _renderRecipe(item, recipe))}
+      </div>
     </Section>
   );
 }
@@ -65,19 +79,19 @@ function _renderRecipe(item: Item, recipe: Recipe) {
   }
 
   return (
-    <div key={recipe.slug} css={recipeStyles}>
+    <React.Fragment key={recipe.slug}>
       <NavLink to={entityUrl(recipe)} css={recipeTitleStyles}>{title}</NavLink>
-      <div>
+      <div css={ingredientsStyles}>
         {recipe.ingredients.map(({ item, count }) => 
           <ItemCount key={item} slug={item} count={count} />
         )}
       </div>
-      <div css={recipeArrowStyles}>➤</div>
-      <div>
+      <div css={arrowStyles}>➤</div>
+      <div css={productsStyles}>
         {recipe.products.map(({ item, count }) => 
           <ItemCount key={item} slug={item} count={count} />
         )}
       </div>
-    </div>
+    </React.Fragment>
   )
 }
