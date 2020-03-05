@@ -2,8 +2,9 @@ import { PureComponent } from 'react';
 import {  NavLink } from 'react-router-dom';
 import { css } from '@emotion/core';
 
-import { Image } from '../components/Image';
-import { colors } from '../style';
+import { useEntities, useRecipes, useSchematics } from '~/data';
+import { Image } from '~/components/Image';
+import { colors } from '~/style';
 
 import { AppRoutes } from './AppRoutes';
 
@@ -77,6 +78,7 @@ export class App extends PureComponent {
   render() {
     return (
       <React.Fragment>
+        <_Preload />
         <style>{`#initialization-error { display: none !important; }`}</style>
         <div css={containerStyles}>
           {this._renderHeader()}
@@ -116,4 +118,13 @@ export class App extends PureComponent {
       </div>
     )
   }
+}
+
+function _Preload() {
+  // Cause us to preload all our major segments of data.
+  useEntities();
+  useRecipes();
+  useSchematics();
+
+  return null;
 }

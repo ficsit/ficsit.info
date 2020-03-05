@@ -13,6 +13,6 @@ export function useSchematic(slug?: string) {
 
 // Raw Data
 
-const useSchematicData = makeDataHook('recipes', (bySlug: Record<string, Schematic>) => {
+const useSchematicData = makeDataHook('schematics', (bySlug: Record<string, Schematic>) => {
   return { bySlug };
 });

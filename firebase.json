@@ -23,13 +23,13 @@
       {
         "source": "/v115821/**!(.*)",
         "headers": [
-          { "key": "Link", "value": "</data/v115821/entities.json>;rel=preload;as=fetch,</data/v115821/recipes.json>;rel=preload;as=fetch,</data/v115821/schematics.json>;rel=preload;as=fetch" }
+          { "key": "Link", "value": "</data/v115821/entities.json>;rel=preload;as=fetch;crossorigin,</data/v115821/recipes.json>;rel=preload;as=fetch;crossorigin,</data/v115821/schematics.json>;rel=preload;as=fetch;crossorigin" }
         ]
       },
       {
         "source": "/**!(.*)",
         "headers": [
-          { "key": "Link", "value": "</data/v115821/entities.json>;rel=preload;as=fetch,</data/v115821/recipes.json>;rel=preload;as=fetch,</data/v115821/schematics.json>;rel=preload;as=fetch" }
+          { "key": "Link", "value": "</data/v115821/entities.json>;rel=preload;as=fetch;crossorigin,</data/v115821/recipes.json>;rel=preload;as=fetch;crossorigin,</data/v115821/schematics.json>;rel=preload;as=fetch;crossorigin" }
         ]
       }
     ]
