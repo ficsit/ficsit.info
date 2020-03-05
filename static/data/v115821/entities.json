@@ -1762,7 +1762,7 @@
     "name": "Packaged Heavy Oil Residue",
     "description": "Heavy Oil Residue, packaged for alternative transport.",
     "form": "solid",
-    "icon": "HgXdRRk0a2uak0kUoo2Wk7k45bu16IooCi6SGKWcK4S",
+    "icon": "2jjzNbUqDm0AWc4K0YWkq45B9AxWPsdOyOUyea06Cq2c",
     "stackSize": 100,
     "fuel": {
       "energy": 400
@@ -1774,7 +1774,7 @@
     "name": "Packaged Liquid Biofuel",
     "description": "Fuel.\nPackaged Liquid Biofuel, either converted into electricity or as fuel for vehicles.",
     "form": "solid",
-    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6",
+    "icon": "7HUvIxKGNGEEA6E6EIAgym2Cp9kSAMWMSsIaE6sEEsk2",
     "stackSize": 100,
     "fuel": {
       "energy": 750
@@ -1810,7 +1810,7 @@
     "name": "Packaged Water",
     "description": "Water, packaged for alternative transport.",
     "form": "solid",
-    "icon": "5U61Epnkd2oIIek8EO6KsgJ3TrZQxe4SciuEQeU8AaQ",
+    "icon": "3ue4kLFCI8CAUwGMye6cOa7jBdLuHbNKam4OgcaYCcwI",
     "stackSize": 100,
     "slug": "packaged-water"
   },
@@ -2306,7 +2306,7 @@
     "name": "Solid Biofuel",
     "description": "Fuel.\nThe most energy efficient form of solid biomass.",
     "form": "solid",
-    "icon": "5E3tVPy0JUU8u0qOaqSWA4wS7pdcOZNu4k8WiOiUIS6",
+    "icon": "4vB481H06kWaoIoS2QYY8Q2scnc6YLKoOMcuCOGa2W0S",
     "stackSize": 200,
     "fuel": {
       "energy": 450
