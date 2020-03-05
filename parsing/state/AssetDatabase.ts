@@ -114,6 +114,6 @@ function _expandSizes(kind: EntityKind) {
   const expanded = sizes.flatMap(baseSize => pixelDensities.map(density => baseSize * density));
   const unique = Array.from(new Set(expanded));
   return unique
-    .filter(size => size < entityMaxIconSize[kind])
+    .filter(size => size <= entityMaxIconSize[kind])
     .sort((a, b) => a - b);
 }

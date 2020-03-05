@@ -13,7 +13,7 @@ export const inlineIconSize = 24;
 /**
  * The size of an icon when presented as a standalone navigation button.
  */
-export const navButtonIconSize = 36;
+export const navButtonIconSize = 32;
 
 /**
  * The size of an icon when presented in a navigation list.
