@@ -1,6 +1,6 @@
-import { Recipe, EntityKind, Item } from '@local/schema';
+import { Recipe, Item } from '@local/schema';
 
-import { AssetDatabase, EntityDatabase, OutputDatabase, WithoutSlug } from '../state';
+import { EntityDatabase, OutputDatabase, WithoutSlug } from '../state';
 
 import { mapItemAmount, expandReferences } from './_util';
 
@@ -17,16 +17,16 @@ const handcraftingEntities = new Set([
 type BuiltRecipe = WithoutSlug<Recipe>;
 type RawInfo = EntityDatabase.Info<'FGRecipe'>;
 
-export async function fillRecipes(outputDb: OutputDatabase, entityDb: EntityDatabase, assetDb: AssetDatabase) {
+export async function fillRecipes(outputDb: OutputDatabase, entityDb: EntityDatabase) {
   for (const raw of entityDb.findByClass('FGRecipe')) {
-    const recipe = await _buildRecipe(outputDb, entityDb, assetDb, raw);
+    const recipe = await _buildRecipe(outputDb, entityDb, raw);
     if (!recipe) continue;
 
     outputDb.register('recipe', recipe, [raw.entity.ClassName], 'recipe-');
   }
 }
 
-async function _buildRecipe(outputDb: OutputDatabase, entityDb: EntityDatabase, assetDb: AssetDatabase, raw: RawInfo): Promise<BuiltRecipe | undefined> {
+async function _buildRecipe(outputDb: OutputDatabase, entityDb: EntityDatabase, raw: RawInfo): Promise<BuiltRecipe | undefined> {
   // Is it a raw resource?
   if (raw.entity.mProducedIn.length === 1 
    && raw.entity.mProducedIn[0]?.className === 'Build_Converter_C' 
@@ -58,7 +58,6 @@ async function _buildRecipe(outputDb: OutputDatabase, entityDb: EntityDatabase, 
   }
 
   const recipe = {
-    kind: EntityKind.Recipe,
     name: raw.entity.mDisplayName,
     ingredients: raw.entity.mIngredients.map(a => mapItemAmount(outputDb, a)),
     products: raw.entity.mProduct.map(a => mapItemAmount(outputDb, a)),
@@ -72,12 +71,6 @@ async function _buildRecipe(outputDb: OutputDatabase, entityDb: EntityDatabase, 
   const firstProduct = entityDb.getOrDie(raw.entity.mProduct[0].ItemClass!.path);
   // TODO: support vehicles
   if (entityDb.isKind<any>(firstProduct, 'FGVehicleDescriptor')) return;
-
-  const icon = await assetDb.findLargestEntityIcon(firstProduct);
-  if (icon) {
-    const image = await assetDb.saveImage(icon);
-    _assign(recipe, 'icon', image);
-  }
 
   // TODO: is there a better way?
   if (raw.entity.mDisplayName.startsWith('Alternate: ')) {

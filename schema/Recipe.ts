@@ -1,12 +1,10 @@
-import { Entity } from './Entity';
-import { EntityKind, ItemAmount, Slug } from './primitive';
+import { Data } from './Data';
+import { ItemAmount, Slug } from './primitive';
 
 /**
  * A recipe for producing something out of something.
  */
-export interface Recipe extends Entity {
-  kind: EntityKind.Recipe;
-
+export interface Recipe extends Data {
   /**
    * The inputs into the recipe.
    */

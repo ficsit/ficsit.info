@@ -1,5 +1,5 @@
-import { Entity } from './Entity';
-import { Color, EntityKind, ItemAmount, ItemForm, HumanReadableString, EquipmentSlot } from './primitive';
+import { Entity, EntityKind } from './Entity';
+import { Color, ItemAmount, ItemForm, HumanReadableString, EquipmentSlot } from './primitive';
 
 /**
  * Items that can be placed in inventories (resources, equipment, etc).

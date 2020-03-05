@@ -1,4 +1,4 @@
-import { Schematic, EntityKind } from '@local/schema';
+import { Schematic } from '@local/schema';
 
 import { EntityDatabase, OutputDatabase, WithoutSlug } from '../state';
 
@@ -18,7 +18,6 @@ export async function fillSchematics(outputDb: OutputDatabase, entityDb: EntityD
 
 async function _buildSchematic(outputDb: OutputDatabase, entityDb: EntityDatabase, raw: RawInfo): Promise<BuiltSchematic | undefined> {
   const schematic = {
-    kind: EntityKind.Schematic,
     schematicKind: mapSchematicKind(raw.entity.mType),
     name: raw.entity.mDisplayName,
     cost: raw.entity.mCost.map(a => mapItemAmount(outputDb, a)),

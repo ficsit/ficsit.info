@@ -1,25 +1,26 @@
-import { ImageId, EntityKind, HumanReadableString, Slug } from './primitive';
+import { Data } from './Data';
+import { ImageId, HumanReadableString } from './primitive';
+
+/**
+ * The broad categorization of an entity.
+ * 
+ * Note that there are many sub types under each entity.
+ */
+export enum EntityKind {
+  Building = 'building',
+  Item = 'item',
+}
 
 /**
  * Any entity which should be indexed (e.g. for search, links, etc).
  * 
  * Most entities extend this.
  */
-export interface Entity {
+export interface Entity extends Data {
   /**
    * The kind of entity that this is.
    */
   kind: EntityKind;
-
-  /**
-   * A globally unique identifier for the entity, expressed as a URI slug.
-   */
-  slug: Slug;
-
-  /**
-   * The item's name, displayed to humans.
-   */
-  name: HumanReadableString;
 
   /**
    * Path to an transparent image of the entity.

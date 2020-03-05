@@ -21,15 +21,15 @@
         ]
       },
       {
-        "source": "/v114480/**!(.*)",
+        "source": "/v115821/**!(.*)",
         "headers": [
-          { "key": "Link", "value": "</data/versions.json>;rel=preload;as=fetch,</data/v114480/buildings.json>;rel=preload;as=fetch,</data/v114480/index.json>;rel=preload;as=fetch,</data/v114480/items.json>;rel=preload;as=fetch,</data/v114480/recipes.json>;rel=preload;as=fetch,</data/v114480/schematics.json>;rel=preload;as=fetch" }
+          { "key": "Link", "value": "</data/v115821/entities.json>;rel=preload;as=fetch,</data/v115821/recipes.json>;rel=preload;as=fetch,</data/v115821/schematics.json>;rel=preload;as=fetch" }
         ]
       },
       {
         "source": "/**!(.*)",
         "headers": [
-          { "key": "Link", "value": "</data/versions.json>;rel=preload;as=fetch,</data/v114480/buildings.json>;rel=preload;as=fetch,</data/v114480/index.json>;rel=preload;as=fetch,</data/v114480/items.json>;rel=preload;as=fetch,</data/v114480/recipes.json>;rel=preload;as=fetch,</data/v114480/schematics.json>;rel=preload;as=fetch" }
+          { "key": "Link", "value": "</data/v115821/entities.json>;rel=preload;as=fetch,</data/v115821/recipes.json>;rel=preload;as=fetch,</data/v115821/schematics.json>;rel=preload;as=fetch" }
         ]
       }
     ]

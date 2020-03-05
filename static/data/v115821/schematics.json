@@ -1,6 +1,5 @@
 {
   "schematic-adequate-pioneering": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Adequate Pioneering",
     "cost": [
@@ -18,7 +17,6 @@
     "slug": "schematic-adequate-pioneering"
   },
   "schematic-advanced-aluminum-production": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Advanced Aluminum Production",
     "cost": [
@@ -48,7 +46,6 @@
     "slug": "schematic-advanced-aluminum-production"
   },
   "schematic-advanced-ammo-pack": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Advanced Ammo Pack",
     "cost": [
@@ -66,7 +63,6 @@
     "slug": "schematic-advanced-ammo-pack"
   },
   "schematic-advanced-steel-production": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Advanced Steel Production",
     "cost": [
@@ -96,7 +92,6 @@
     "slug": "schematic-advanced-steel-production"
   },
   "schematic-ai-limiter-1": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "AI Limiter",
     "cost": [
@@ -118,7 +113,6 @@
     "slug": "schematic-ai-limiter-1"
   },
   "schematic-ai-limiter-2": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "AI Limiter",
     "cost": [
@@ -136,7 +130,6 @@
     "slug": "schematic-ai-limiter-2"
   },
   "schematic-alien-carapace": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Alien Carapace",
     "cost": [
@@ -152,7 +145,6 @@
     "slug": "schematic-alien-carapace"
   },
   "schematic-alien-organs": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Alien Organs",
     "cost": [
@@ -168,7 +160,6 @@
     "slug": "schematic-alien-organs"
   },
   "schematic-alternate-adhered-iron-plate": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Adhered Iron Plate",
     "cost": [],
@@ -181,7 +172,6 @@
     "slug": "schematic-alternate-adhered-iron-plate"
   },
   "schematic-alternate-biocoal": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Biocoal",
     "cost": [],
@@ -194,7 +184,6 @@
     "slug": "schematic-alternate-biocoal"
   },
   "schematic-alternate-bolted-frame": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Bolted Frame",
     "cost": [],
@@ -207,7 +196,6 @@
     "slug": "schematic-alternate-bolted-frame"
   },
   "schematic-alternate-bolted-iron-plate": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Bolted Iron Plate",
     "cost": [],
@@ -220,7 +208,6 @@
     "slug": "schematic-alternate-bolted-iron-plate"
   },
   "schematic-alternate-casted-screw": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Casted Screw",
     "cost": [],
@@ -233,7 +220,6 @@
     "slug": "schematic-alternate-casted-screw"
   },
   "schematic-alternate-caterium-circuit-board": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Caterium Circuit Board",
     "cost": [],
@@ -248,7 +234,6 @@
     "slug": "schematic-alternate-caterium-circuit-board"
   },
   "schematic-alternate-caterium-computer": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Caterium Computer",
     "cost": [],
@@ -263,7 +248,6 @@
     "slug": "schematic-alternate-caterium-computer"
   },
   "schematic-alternate-caterium-wire": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Caterium Wire",
     "cost": [],
@@ -276,7 +260,6 @@
     "slug": "schematic-alternate-caterium-wire"
   },
   "schematic-alternate-charcoal": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Charcoal",
     "cost": [],
@@ -289,7 +272,6 @@
     "slug": "schematic-alternate-charcoal"
   },
   "schematic-alternate-cheap-silica": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Cheap Silica",
     "cost": [],
@@ -302,7 +284,6 @@
     "slug": "schematic-alternate-cheap-silica"
   },
   "schematic-alternate-coated-cable": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Coated Cable",
     "cost": [],
@@ -315,7 +296,6 @@
     "slug": "schematic-alternate-coated-cable"
   },
   "schematic-alternate-coated-iron-plate": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Coated Iron Plate",
     "cost": [],
@@ -328,7 +308,6 @@
     "slug": "schematic-alternate-coated-iron-plate"
   },
   "schematic-alternate-coke-steel-ingot": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Coke Steel Ingot",
     "cost": [],
@@ -341,7 +320,6 @@
     "slug": "schematic-alternate-coke-steel-ingot"
   },
   "schematic-alternate-compacted-coal": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Compacted Coal",
     "cost": [],
@@ -356,7 +334,6 @@
     "slug": "schematic-alternate-compacted-coal"
   },
   "schematic-alternate-compacted-steel-ingot": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Compacted Steel Ingot",
     "cost": [],
@@ -371,7 +348,6 @@
     "slug": "schematic-alternate-compacted-steel-ingot"
   },
   "schematic-alternate-copper-alloy-ingot": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Copper Alloy Ingot",
     "cost": [],
@@ -384,7 +360,6 @@
     "slug": "schematic-alternate-copper-alloy-ingot"
   },
   "schematic-alternate-copper-rotor": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Copper Rotor",
     "cost": [],
@@ -397,7 +372,6 @@
     "slug": "schematic-alternate-copper-rotor"
   },
   "schematic-alternate-crystal-computer": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: CrystalComputer",
     "cost": [],
@@ -412,7 +386,6 @@
     "slug": "schematic-alternate-crystal-computer"
   },
   "schematic-alternate-diluted-packaged-fuel": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Diluted Packaged Fuel ",
     "cost": [],
@@ -425,7 +398,6 @@
     "slug": "schematic-alternate-diluted-packaged-fuel"
   },
   "schematic-alternate-electrode-aluminum-scrap": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Electrode - Aluminum Scrap",
     "cost": [],
@@ -438,7 +410,6 @@
     "slug": "schematic-alternate-electrode-aluminum-scrap"
   },
   "schematic-alternate-electrode-circuit-board": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Electrode Circuit Board",
     "cost": [],
@@ -451,7 +422,6 @@
     "slug": "schematic-alternate-electrode-circuit-board"
   },
   "schematic-alternate-electromagnetic-connection-rod": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Electromagnetic Connection Rod",
     "cost": [],
@@ -466,7 +436,6 @@
     "slug": "schematic-alternate-electromagnetic-connection-rod"
   },
   "schematic-alternate-encased-industrial-pipe": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Encased Industrial Pipe",
     "cost": [],
@@ -479,7 +448,6 @@
     "slug": "schematic-alternate-encased-industrial-pipe"
   },
   "schematic-alternate-fine-concrete": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Fine Concrete",
     "cost": [],
@@ -492,7 +460,6 @@
     "slug": "schematic-alternate-fine-concrete"
   },
   "schematic-alternate-flexible-framework": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Flexible Framework ",
     "cost": [],
@@ -505,7 +472,6 @@
     "slug": "schematic-alternate-flexible-framework"
   },
   "schematic-alternate-fused-quickwire": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Fused Quickwire",
     "cost": [],
@@ -518,7 +484,6 @@
     "slug": "schematic-alternate-fused-quickwire"
   },
   "schematic-alternate-fused-wire": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Fused Wire",
     "cost": [],
@@ -531,7 +496,6 @@
     "slug": "schematic-alternate-fused-wire"
   },
   "schematic-alternate-gun-powder": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Gun Powder",
     "cost": [],
@@ -544,7 +508,6 @@
     "slug": "schematic-alternate-gun-powder"
   },
   "schematic-alternate-heat-exchanger": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Heat Exchanger",
     "cost": [],
@@ -557,7 +520,6 @@
     "slug": "schematic-alternate-heat-exchanger"
   },
   "schematic-alternate-heavy-flexible-frame": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Heavy Flexible Frame",
     "cost": [],
@@ -570,7 +532,6 @@
     "slug": "schematic-alternate-heavy-flexible-frame"
   },
   "schematic-alternate-heavy-modular-frame": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Heavy Modular Frame",
     "cost": [],
@@ -583,7 +544,6 @@
     "slug": "schematic-alternate-heavy-modular-frame"
   },
   "schematic-alternate-heavy-oil-residue": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Heavy Oil Residue",
     "cost": [],
@@ -596,7 +556,6 @@
     "slug": "schematic-alternate-heavy-oil-residue"
   },
   "schematic-alternate-high-speed-wiring": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: High-Speed Wiring",
     "cost": [],
@@ -611,7 +570,6 @@
     "slug": "schematic-alternate-high-speed-wiring"
   },
   "schematic-alternate-infused-uranium-cell": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Infused Uranium Cell",
     "cost": [],
@@ -628,7 +586,6 @@
     "slug": "schematic-alternate-infused-uranium-cell"
   },
   "schematic-alternate-insulated-crystal-oscillator": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Insulated Crystal Oscillator",
     "cost": [],
@@ -644,7 +601,6 @@
     "slug": "schematic-alternate-insulated-crystal-oscillator"
   },
   "schematic-alternate-iron-alloy-ingot": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Iron Alloy Ingot",
     "cost": [],
@@ -657,7 +613,6 @@
     "slug": "schematic-alternate-iron-alloy-ingot"
   },
   "schematic-alternate-iron-wire": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Iron Wire",
     "cost": [],
@@ -670,7 +625,6 @@
     "slug": "schematic-alternate-iron-wire"
   },
   "schematic-alternate-nuclear-fuel-unit": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Nuclear Fuel Unit",
     "cost": [],
@@ -685,7 +639,6 @@
     "slug": "schematic-alternate-nuclear-fuel-unit"
   },
   "schematic-alternate-plastic-smart-plating": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Plastic Smart Plating",
     "cost": [],
@@ -698,7 +651,6 @@
     "slug": "schematic-alternate-plastic-smart-plating"
   },
   "schematic-alternate-polyester-fabric": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Polyester Fabric",
     "cost": [],
@@ -713,7 +665,6 @@
     "slug": "schematic-alternate-polyester-fabric"
   },
   "schematic-alternate-polymer-resin": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Polymer Resin",
     "cost": [],
@@ -726,7 +677,6 @@
     "slug": "schematic-alternate-polymer-resin"
   },
   "schematic-alternate-pure-aluminum-ingot": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Pure Aluminum Ingot",
     "cost": [],
@@ -739,7 +689,6 @@
     "slug": "schematic-alternate-pure-aluminum-ingot"
   },
   "schematic-alternate-pure-caterium-ingot": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Pure Caterium Ingot",
     "cost": [],
@@ -754,7 +703,6 @@
     "slug": "schematic-alternate-pure-caterium-ingot"
   },
   "schematic-alternate-pure-copper-ingot": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Pure Copper Ingot",
     "cost": [],
@@ -767,7 +715,6 @@
     "slug": "schematic-alternate-pure-copper-ingot"
   },
   "schematic-alternate-pure-iron-ingot": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Pure Iron Ingot",
     "cost": [],
@@ -780,7 +727,6 @@
     "slug": "schematic-alternate-pure-iron-ingot"
   },
   "schematic-alternate-pure-quartz-crystal": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Pure Quartz Crystal ",
     "cost": [],
@@ -795,7 +741,6 @@
     "slug": "schematic-alternate-pure-quartz-crystal"
   },
   "schematic-alternate-quickwire-cable": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Quickwire Cable",
     "cost": [],
@@ -810,7 +755,6 @@
     "slug": "schematic-alternate-quickwire-cable"
   },
   "schematic-alternate-quickwire-stator": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Quickwire Stator",
     "cost": [],
@@ -825,7 +769,6 @@
     "slug": "schematic-alternate-quickwire-stator"
   },
   "schematic-alternate-radio-control-system": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Radio Control System",
     "cost": [],
@@ -840,7 +783,6 @@
     "slug": "schematic-alternate-radio-control-system"
   },
   "schematic-alternate-recycled-plastic": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Recycled Plastic",
     "cost": [],
@@ -853,7 +795,6 @@
     "slug": "schematic-alternate-recycled-plastic"
   },
   "schematic-alternate-recycled-rubber": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Recycled Rubber",
     "cost": [],
@@ -866,7 +807,6 @@
     "slug": "schematic-alternate-recycled-rubber"
   },
   "schematic-alternate-rigour-motor": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Rigour Motor",
     "cost": [],
@@ -881,7 +821,6 @@
     "slug": "schematic-alternate-rigour-motor"
   },
   "schematic-alternate-rubber-cable": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Rubber Cable",
     "cost": [],
@@ -894,7 +833,6 @@
     "slug": "schematic-alternate-rubber-cable"
   },
   "schematic-alternate-rubber-concrete": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Rubber Concrete",
     "cost": [],
@@ -907,7 +845,6 @@
     "slug": "schematic-alternate-rubber-concrete"
   },
   "schematic-alternate-seismic-nobelisk": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Seismic Nobelisk",
     "cost": [],
@@ -922,7 +859,6 @@
     "slug": "schematic-alternate-seismic-nobelisk"
   },
   "schematic-alternate-signal-beacon": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Signal Beacon",
     "cost": [],
@@ -937,7 +873,6 @@
     "slug": "schematic-alternate-signal-beacon"
   },
   "schematic-alternate-silicone-circuit-board": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Silicone Circuit Board",
     "cost": [],
@@ -952,7 +887,6 @@
     "slug": "schematic-alternate-silicone-circuit-board"
   },
   "schematic-alternate-silicone-high-speed-connector": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Silicone High-Speed Connector",
     "cost": [],
@@ -968,7 +902,6 @@
     "slug": "schematic-alternate-silicone-high-speed-connector"
   },
   "schematic-alternate-solid-steel-ingot": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Solid Steel Ingot",
     "cost": [],
@@ -981,7 +914,6 @@
     "slug": "schematic-alternate-solid-steel-ingot"
   },
   "schematic-alternate-steamed-copper-sheet": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Steamed Copper Sheet ",
     "cost": [],
@@ -994,7 +926,6 @@
     "slug": "schematic-alternate-steamed-copper-sheet"
   },
   "schematic-alternate-steel-coated-plate": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Steel Coated Plate ",
     "cost": [],
@@ -1007,7 +938,6 @@
     "slug": "schematic-alternate-steel-coated-plate"
   },
   "schematic-alternate-steel-rod": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Steel Rod",
     "cost": [],
@@ -1020,7 +950,6 @@
     "slug": "schematic-alternate-steel-rod"
   },
   "schematic-alternate-steel-rotor": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Steel Rotor",
     "cost": [],
@@ -1033,7 +962,6 @@
     "slug": "schematic-alternate-steel-rotor"
   },
   "schematic-alternate-steel-screw": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Steel Screw",
     "cost": [],
@@ -1046,7 +974,6 @@
     "slug": "schematic-alternate-steel-screw"
   },
   "schematic-alternate-steeled-frame": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Steeled Frame",
     "cost": [],
@@ -1059,7 +986,6 @@
     "slug": "schematic-alternate-steeled-frame"
   },
   "schematic-alternate-stitched-iron-plate": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Stitched Iron Plate",
     "cost": [],
@@ -1072,7 +998,6 @@
     "slug": "schematic-alternate-stitched-iron-plate"
   },
   "schematic-alternate-turbo-heavy-fuel": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Turbo Heavy Fuel",
     "cost": [],
@@ -1087,7 +1012,6 @@
     "slug": "schematic-alternate-turbo-heavy-fuel"
   },
   "schematic-alternate-turbo-rigour-motor": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Turbo Rigour Motor",
     "cost": [],
@@ -1102,7 +1026,6 @@
     "slug": "schematic-alternate-turbo-rigour-motor"
   },
   "schematic-alternate-turbofuel": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Turbofuel",
     "cost": [],
@@ -1117,7 +1040,6 @@
     "slug": "schematic-alternate-turbofuel"
   },
   "schematic-alternate-wet-concrete": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Alternate: Wet Concrete",
     "cost": [],
@@ -1130,7 +1052,6 @@
     "slug": "schematic-alternate-wet-concrete"
   },
   "schematic-alternative-fluid-transport": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Alternative Fluid Transport",
     "cost": [
@@ -1161,7 +1082,6 @@
     "slug": "schematic-alternative-fluid-transport"
   },
   "schematic-alternative-fluid-transport-2": {
-    "kind": "schematic",
     "schematicKind": "custom",
     "name": " Alternative Fluid Transport 2",
     "cost": [],
@@ -1174,7 +1094,6 @@
     "slug": "schematic-alternative-fluid-transport-2"
   },
   "schematic-aluminum-alclad-sheet": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Aluminum Alclad Sheet",
     "cost": [
@@ -1192,7 +1111,6 @@
     "slug": "schematic-aluminum-alclad-sheet"
   },
   "schematic-ammo-pack": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Ammo Pack",
     "cost": [
@@ -1210,7 +1128,6 @@
     "slug": "schematic-ammo-pack"
   },
   "schematic-base-building": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Base Building",
     "cost": [
@@ -1236,7 +1153,6 @@
     "slug": "schematic-base-building"
   },
   "schematic-basic-steel-production": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Basic Steel Production",
     "cost": [
@@ -1266,7 +1182,6 @@
     "slug": "schematic-basic-steel-production"
   },
   "schematic-battery": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Battery",
     "cost": [
@@ -1284,7 +1199,6 @@
     "slug": "schematic-battery"
   },
   "schematic-bauxite-refinement": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Bauxite Refinement",
     "cost": [
@@ -1311,7 +1225,6 @@
     "slug": "schematic-bauxite-refinement"
   },
   "schematic-beacons": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Beacons",
     "cost": [
@@ -1329,7 +1242,6 @@
     "slug": "schematic-beacons"
   },
   "schematic-biofuel": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Biofuel",
     "cost": [
@@ -1347,7 +1259,6 @@
     "slug": "schematic-biofuel"
   },
   "schematic-biomass": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Biomass",
     "cost": [
@@ -1365,7 +1276,6 @@
     "slug": "schematic-biomass"
   },
   "schematic-black-powder-1": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Black Powder",
     "cost": [
@@ -1387,7 +1297,6 @@
     "slug": "schematic-black-powder-1"
   },
   "schematic-black-powder-2": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Black Powder",
     "cost": [
@@ -1405,7 +1314,6 @@
     "slug": "schematic-black-powder-2"
   },
   "schematic-blade-runners": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Blade Runners",
     "cost": [
@@ -1427,7 +1335,6 @@
     "slug": "schematic-blade-runners"
   },
   "schematic-cable": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Cable",
     "cost": [
@@ -1445,7 +1352,6 @@
     "slug": "schematic-cable"
   },
   "schematic-caterium": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Caterium",
     "cost": [
@@ -1463,7 +1369,6 @@
     "slug": "schematic-caterium"
   },
   "schematic-caterium-electronics": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Caterium Electronics",
     "cost": [
@@ -1479,7 +1384,6 @@
     "slug": "schematic-caterium-electronics"
   },
   "schematic-caterium-ingots": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Caterium Ingots",
     "cost": [
@@ -1497,7 +1401,6 @@
     "slug": "schematic-caterium-ingots"
   },
   "schematic-circuit-board": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Circuit Board",
     "cost": [
@@ -1515,7 +1418,6 @@
     "slug": "schematic-circuit-board"
   },
   "schematic-coal-power": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Coal Power",
     "cost": [
@@ -1542,7 +1444,6 @@
     "slug": "schematic-coal-power"
   },
   "schematic-color-ammo-pack": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Color Ammo Pack",
     "cost": [
@@ -1560,7 +1461,6 @@
     "slug": "schematic-color-ammo-pack"
   },
   "schematic-color-cartridges": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Color Cartridges",
     "cost": [
@@ -1578,7 +1478,6 @@
     "slug": "schematic-color-cartridges"
   },
   "schematic-color-gun": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Color Gun",
     "cost": [
@@ -1604,7 +1503,6 @@
     "slug": "schematic-color-gun"
   },
   "schematic-computer": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Computer",
     "cost": [
@@ -1622,7 +1520,6 @@
     "slug": "schematic-computer"
   },
   "schematic-concrete": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Concrete",
     "cost": [
@@ -1640,7 +1537,6 @@
     "slug": "schematic-concrete"
   },
   "schematic-confusing-creature": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Confusing Creature",
     "cost": [
@@ -1658,7 +1554,6 @@
     "slug": "schematic-confusing-creature"
   },
   "schematic-conveyor-wall-mount": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Conveyor Wall Mount",
     "cost": [
@@ -1676,7 +1571,6 @@
     "slug": "schematic-conveyor-wall-mount"
   },
   "schematic-conveyor-walls": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Conveyor Walls",
     "cost": [
@@ -1694,7 +1588,6 @@
     "slug": "schematic-conveyor-walls"
   },
   "schematic-copper-sheet": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Copper Sheet",
     "cost": [
@@ -1712,7 +1605,6 @@
     "slug": "schematic-copper-sheet"
   },
   "schematic-corner-ramp-pack": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Corner Ramp Pack",
     "cost": [
@@ -1730,7 +1622,6 @@
     "slug": "schematic-corner-ramp-pack"
   },
   "schematic-crystal-oscillator-1": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Crystal Oscillator",
     "cost": [
@@ -1752,7 +1643,6 @@
     "slug": "schematic-crystal-oscillator-1"
   },
   "schematic-crystal-oscillator-2": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Crystal Oscillator",
     "cost": [
@@ -1770,7 +1660,6 @@
     "slug": "schematic-crystal-oscillator-2"
   },
   "schematic-cyber-wagon": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Cyber Wagon",
     "cost": [
@@ -1788,7 +1677,6 @@
     "slug": "schematic-cyber-wagon"
   },
   "schematic-cyberwagon-available-in-the-awesome-shop": {
-    "kind": "schematic",
     "schematicKind": "custom",
     "name": "Cyberwagon Available In The A.W.E.S.O.M.E. Shop",
     "cost": [],
@@ -1799,7 +1687,6 @@
     "slug": "schematic-cyberwagon-available-in-the-awesome-shop"
   },
   "schematic-detonator-prototype": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Detonator Prototype",
     "cost": [
@@ -1823,7 +1710,6 @@
     "slug": "schematic-detonator-prototype"
   },
   "schematic-door-walls": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Door Walls",
     "cost": [
@@ -1841,7 +1727,6 @@
     "slug": "schematic-door-walls"
   },
   "schematic-double-ramp-pack": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Double Ramp Pack",
     "cost": [
@@ -1859,7 +1744,6 @@
     "slug": "schematic-double-ramp-pack"
   },
   "schematic-empty-canister": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Empty Canister",
     "cost": [
@@ -1877,7 +1761,6 @@
     "slug": "schematic-empty-canister"
   },
   "schematic-encased-industrial-beam": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Encased Industrial Beam",
     "cost": [
@@ -1895,7 +1778,6 @@
     "slug": "schematic-encased-industrial-beam"
   },
   "schematic-expanded-pocket-dimension": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Expanded Pocket Dimension",
     "cost": [],
@@ -1908,7 +1790,6 @@
     "slug": "schematic-expanded-pocket-dimension"
   },
   "schematic-expanded-power-infrastructure": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Expanded Power Infrastructure",
     "cost": [
@@ -1939,7 +1820,6 @@
     "slug": "schematic-expanded-power-infrastructure"
   },
   "schematic-expanded-toolbelt-1": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Expanded Toolbelt",
     "cost": [
@@ -1961,7 +1841,6 @@
     "slug": "schematic-expanded-toolbelt-1"
   },
   "schematic-expanded-toolbelt-2": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Expanded Toolbelt",
     "cost": [
@@ -1983,7 +1862,6 @@
     "slug": "schematic-expanded-toolbelt-2"
   },
   "schematic-explosives": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Explosives",
     "cost": [
@@ -2001,7 +1879,6 @@
     "slug": "schematic-explosives"
   },
   "schematic-fabric-1": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Fabric",
     "cost": [
@@ -2023,7 +1900,6 @@
     "slug": "schematic-fabric-1"
   },
   "schematic-fabric-2": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Fabric",
     "cost": [
@@ -2041,7 +1917,6 @@
     "slug": "schematic-fabric-2"
   },
   "schematic-factory-railing": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Factory Railing",
     "cost": [
@@ -2059,7 +1934,6 @@
     "slug": "schematic-factory-railing"
   },
   "schematic-ficsit-factory-cart-t": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "FICSIT Factory CartT",
     "cost": [
@@ -2077,7 +1951,6 @@
     "slug": "schematic-ficsit-factory-cart-t"
   },
   "schematic-ficsitt-coffee-cup": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "FICSITT Coffee Cup",
     "cost": [
@@ -2095,7 +1968,6 @@
     "slug": "schematic-ficsitt-coffee-cup"
   },
   "schematic-field-research": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Field Research",
     "cost": [
@@ -2123,7 +1995,6 @@
     "slug": "schematic-field-research"
   },
   "schematic-flower-petals": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Flower Petals",
     "cost": [
@@ -2139,7 +2010,6 @@
     "slug": "schematic-flower-petals"
   },
   "schematic-foundation-pillar": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Foundation Pillar",
     "cost": [
@@ -2157,7 +2027,6 @@
     "slug": "schematic-foundation-pillar"
   },
   "schematic-foundations-expansion-pack": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Foundations Expansion Pack",
     "cost": [
@@ -2175,7 +2044,6 @@
     "slug": "schematic-foundations-expansion-pack"
   },
   "schematic-frequency-mapping": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Frequency Mapping",
     "cost": [
@@ -2197,7 +2065,6 @@
     "slug": "schematic-frequency-mapping"
   },
   "schematic-gas-filters": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Gas Filters",
     "cost": [
@@ -2215,7 +2082,6 @@
     "slug": "schematic-gas-filters"
   },
   "schematic-gas-mask": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "GasMask",
     "cost": [
@@ -2241,7 +2107,6 @@
     "slug": "schematic-gas-mask"
   },
   "schematic-geothermal-generator": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Geothermal Generator",
     "cost": [
@@ -2268,7 +2133,6 @@
     "slug": "schematic-geothermal-generator"
   },
   "schematic-golden-nut": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Golden Nut",
     "cost": [
@@ -2286,7 +2150,6 @@
     "slug": "schematic-golden-nut"
   },
   "schematic-green-power-slugs": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Green Power Slugs",
     "cost": [
@@ -2304,7 +2167,6 @@
     "slug": "schematic-green-power-slugs"
   },
   "schematic-hard-drive": {
-    "kind": "schematic",
     "schematicKind": "hardDrive",
     "name": "Hard Drive",
     "cost": [
@@ -2320,7 +2182,6 @@
     "slug": "schematic-hard-drive"
   },
   "schematic-hazmat-suit": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Hazmat Suit",
     "cost": [
@@ -2346,7 +2207,6 @@
     "slug": "schematic-hazmat-suit"
   },
   "schematic-health-pack": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Health Pack",
     "cost": [
@@ -2367,7 +2227,6 @@
     "slug": "schematic-health-pack"
   },
   "schematic-heat-sink": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Heat Sink",
     "cost": [
@@ -2385,7 +2244,6 @@
     "slug": "schematic-heat-sink"
   },
   "schematic-heavy-modular-frame": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Heavy Modular Frame",
     "cost": [
@@ -2403,7 +2261,6 @@
     "slug": "schematic-heavy-modular-frame"
   },
   "schematic-high-speed-connector-1": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "High Speed Connector",
     "cost": [
@@ -2425,7 +2282,6 @@
     "slug": "schematic-high-speed-connector-1"
   },
   "schematic-high-speed-connector-2": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "High-Speed Connector",
     "cost": [
@@ -2443,7 +2299,6 @@
     "slug": "schematic-high-speed-connector-2"
   },
   "schematic-hostile-organism-detection": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Hostile Organism Detection",
     "cost": [
@@ -2463,7 +2318,6 @@
     "slug": "schematic-hostile-organism-detection"
   },
   "schematic-hub-upgrade-1": {
-    "kind": "schematic",
     "schematicKind": "tutorial",
     "name": "Hub Upgrade 1",
     "cost": [
@@ -2482,7 +2336,6 @@
     "slug": "schematic-hub-upgrade-1"
   },
   "schematic-hub-upgrade-2": {
-    "kind": "schematic",
     "schematicKind": "tutorial",
     "name": "Hub Upgrade 2",
     "cost": [
@@ -2505,7 +2358,6 @@
     "slug": "schematic-hub-upgrade-2"
   },
   "schematic-hub-upgrade-3": {
-    "kind": "schematic",
     "schematicKind": "tutorial",
     "name": "Hub Upgrade 3",
     "cost": [
@@ -2532,7 +2384,6 @@
     "slug": "schematic-hub-upgrade-3"
   },
   "schematic-hub-upgrade-4": {
-    "kind": "schematic",
     "schematicKind": "tutorial",
     "name": "Hub Upgrade 4",
     "cost": [
@@ -2559,7 +2410,6 @@
     "slug": "schematic-hub-upgrade-4"
   },
   "schematic-hub-upgrade-5": {
-    "kind": "schematic",
     "schematicKind": "tutorial",
     "name": "Hub Upgrade 5",
     "cost": [
@@ -2585,7 +2435,6 @@
     "slug": "schematic-hub-upgrade-5"
   },
   "schematic-hub-upgrade-6": {
-    "kind": "schematic",
     "schematicKind": "tutorial",
     "name": "Hub Upgrade 6",
     "cost": [
@@ -2615,7 +2464,6 @@
     "slug": "schematic-hub-upgrade-6"
   },
   "schematic-hyper-tube-wall-attachments": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Hyper Tube Wall Attachments",
     "cost": [
@@ -2633,7 +2481,6 @@
     "slug": "schematic-hyper-tube-wall-attachments"
   },
   "schematic-hyper-tubes": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Hyper Tubes",
     "cost": [
@@ -2659,7 +2506,6 @@
     "slug": "schematic-hyper-tubes"
   },
   "schematic-improved-melee-combat": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Improved Melee Combat",
     "cost": [
@@ -2691,7 +2537,6 @@
     "slug": "schematic-improved-melee-combat"
   },
   "schematic-industrial-manufacturing": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Industrial Manufacturing",
     "cost": [
@@ -2721,7 +2566,6 @@
     "slug": "schematic-industrial-manufacturing"
   },
   "schematic-inflated-pocket-dimension-1": {
-    "kind": "schematic",
     "schematicKind": "alternate",
     "name": "Inflated Pocket Dimension",
     "cost": [],
@@ -2734,7 +2578,6 @@
     "slug": "schematic-inflated-pocket-dimension-1"
   },
   "schematic-inflated-pocket-dimension-2": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Inflated Pocket Dimension",
     "cost": [
@@ -2756,7 +2599,6 @@
     "slug": "schematic-inflated-pocket-dimension-2"
   },
   "schematic-inflated-pocket-dimension-3": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Inflated Pocket Dimension",
     "cost": [
@@ -2782,7 +2624,6 @@
     "slug": "schematic-inflated-pocket-dimension-3"
   },
   "schematic-inflated-pocket-dimension-4": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Inflated Pocket Dimension",
     "cost": [
@@ -2804,7 +2645,6 @@
     "slug": "schematic-inflated-pocket-dimension-4"
   },
   "schematic-inflated-pocket-dimension-5": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Inflated Pocket Dimension",
     "cost": [
@@ -2826,7 +2666,6 @@
     "slug": "schematic-inflated-pocket-dimension-5"
   },
   "schematic-inverted-ramp-pack": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Inverted Ramp Pack",
     "cost": [
@@ -2844,7 +2683,6 @@
     "slug": "schematic-inverted-ramp-pack"
   },
   "schematic-iron-plate": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Iron Plate",
     "cost": [
@@ -2862,7 +2700,6 @@
     "slug": "schematic-iron-plate"
   },
   "schematic-iron-rod": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Iron Rod",
     "cost": [
@@ -2880,7 +2717,6 @@
     "slug": "schematic-iron-rod"
   },
   "schematic-jetpack": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Jetpack",
     "cost": [
@@ -2911,7 +2747,6 @@
     "slug": "schematic-jetpack"
   },
   "schematic-jump-pads": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Jump Pads",
     "cost": [
@@ -2937,7 +2772,6 @@
     "slug": "schematic-jump-pads"
   },
   "schematic-lizard-doggo": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Lizard Doggo",
     "cost": [
@@ -2955,7 +2789,6 @@
     "slug": "schematic-lizard-doggo"
   },
   "schematic-logistics": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Logistics",
     "cost": [
@@ -2982,7 +2815,6 @@
     "slug": "schematic-logistics"
   },
   "schematic-logistics-mk2": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Logistics Mk.2",
     "cost": [
@@ -3012,7 +2844,6 @@
     "slug": "schematic-logistics-mk2"
   },
   "schematic-logistics-mk3": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Logistics Mk.3",
     "cost": [
@@ -3038,7 +2869,6 @@
     "slug": "schematic-logistics-mk3"
   },
   "schematic-medical-properties": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Medical Properties",
     "cost": [
@@ -3062,7 +2892,6 @@
     "slug": "schematic-medical-properties"
   },
   "schematic-medicinal-inhaler-1": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Medicinal Inhaler",
     "cost": [
@@ -3088,7 +2917,6 @@
     "slug": "schematic-medicinal-inhaler-1"
   },
   "schematic-medicinal-inhaler-2": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Medicinal Inhaler",
     "cost": [
@@ -3114,7 +2942,6 @@
     "slug": "schematic-medicinal-inhaler-2"
   },
   "schematic-metal-conveyor-walls": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Metal Conveyor Walls",
     "cost": [
@@ -3132,7 +2959,6 @@
     "slug": "schematic-metal-conveyor-walls"
   },
   "schematic-metal-door-walls": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Metal Door Walls",
     "cost": [
@@ -3150,7 +2976,6 @@
     "slug": "schematic-metal-door-walls"
   },
   "schematic-modular-frame": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Modular Frame",
     "cost": [
@@ -3168,7 +2993,6 @@
     "slug": "schematic-modular-frame"
   },
   "schematic-monorail-train-technology": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Monorail Train Technology",
     "cost": [
@@ -3198,7 +3022,6 @@
     "slug": "schematic-monorail-train-technology"
   },
   "schematic-motor": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Motor",
     "cost": [
@@ -3216,7 +3039,6 @@
     "slug": "schematic-motor"
   },
   "schematic-mycelia": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Mycelia",
     "cost": [
@@ -3234,7 +3056,6 @@
     "slug": "schematic-mycelia"
   },
   "schematic-nobelisk-detonator": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Nobelisk Detonator",
     "cost": [
@@ -3260,7 +3081,6 @@
     "slug": "schematic-nobelisk-detonator"
   },
   "schematic-nobelisk-explosives": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Nobelisk Explosives",
     "cost": [
@@ -3282,7 +3102,6 @@
     "slug": "schematic-nobelisk-explosives"
   },
   "schematic-nuclear-power": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Nuclear Power",
     "cost": [
@@ -3313,7 +3132,6 @@
     "slug": "schematic-nuclear-power"
   },
   "schematic-nut": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Nut",
     "cost": [
@@ -3329,7 +3147,6 @@
     "slug": "schematic-nut"
   },
   "schematic-nutritional-inhaler": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Nutritional Inhaler",
     "cost": [
@@ -3355,7 +3172,6 @@
     "slug": "schematic-nutritional-inhaler"
   },
   "schematic-nutritional-mixture": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Nutritional Mixture",
     "cost": [
@@ -3379,7 +3195,6 @@
     "slug": "schematic-nutritional-mixture"
   },
   "schematic-object-scanner-improvements": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Object Scanner Improvements",
     "cost": [
@@ -3403,7 +3218,6 @@
     "slug": "schematic-object-scanner-improvements"
   },
   "schematic-obstacle-clearing": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Obstacle Clearing",
     "cost": [
@@ -3430,7 +3244,6 @@
     "slug": "schematic-obstacle-clearing"
   },
   "schematic-oil-processing": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Oil Processing",
     "cost": [
@@ -3462,7 +3275,6 @@
     "slug": "schematic-oil-processing"
   },
   "schematic-oil-processing-2": {
-    "kind": "schematic",
     "schematicKind": "custom",
     "name": "Oil Processing 2",
     "cost": [],
@@ -3475,7 +3287,6 @@
     "slug": "schematic-oil-processing-2"
   },
   "schematic-organic-properties": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Organic Properties",
     "cost": [
@@ -3493,7 +3304,6 @@
     "slug": "schematic-organic-properties"
   },
   "schematic-overclock-production": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Overclock Production",
     "cost": [
@@ -3519,7 +3329,6 @@
     "slug": "schematic-overclock-production"
   },
   "schematic-packaged-fuel": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Packaged Fuel",
     "cost": [
@@ -3537,7 +3346,6 @@
     "slug": "schematic-packaged-fuel"
   },
   "schematic-packaged-liquid-biofuel": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Packaged Liquid Biofuel",
     "cost": [
@@ -3555,7 +3363,6 @@
     "slug": "schematic-packaged-liquid-biofuel"
   },
   "schematic-paleberry": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Paleberry",
     "cost": [
@@ -3571,7 +3378,6 @@
     "slug": "schematic-paleberry"
   },
   "schematic-parachute": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Parachute",
     "cost": [
@@ -3593,7 +3399,6 @@
     "slug": "schematic-parachute"
   },
   "schematic-parachutes": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Parachutes",
     "cost": [
@@ -3611,7 +3416,6 @@
     "slug": "schematic-parachutes"
   },
   "schematic-part-assembly": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Part Assembly",
     "cost": [
@@ -3641,7 +3445,6 @@
     "slug": "schematic-part-assembly"
   },
   "schematic-petroleum-coke": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Petroleum Coke",
     "cost": [
@@ -3659,7 +3462,6 @@
     "slug": "schematic-petroleum-coke"
   },
   "schematic-pipeline-wall-attachments": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Pipeline Wall Attachments",
     "cost": [
@@ -3677,7 +3479,6 @@
     "slug": "schematic-pipeline-wall-attachments"
   },
   "schematic-plastic": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Plastic",
     "cost": [
@@ -3695,7 +3496,6 @@
     "slug": "schematic-plastic"
   },
   "schematic-polymer-resin": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Polymer Resin",
     "cost": [
@@ -3713,7 +3513,6 @@
     "slug": "schematic-polymer-resin"
   },
   "schematic-power-poles-mk2": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Power Poles MK2",
     "cost": [
@@ -3731,7 +3530,6 @@
     "slug": "schematic-power-poles-mk2"
   },
   "schematic-power-poles-mk3": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Power Poles MK3",
     "cost": [
@@ -3753,7 +3551,6 @@
     "slug": "schematic-power-poles-mk3"
   },
   "schematic-pretty-good-pioneering": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Pretty Good Pioneering",
     "cost": [
@@ -3771,7 +3568,6 @@
     "slug": "schematic-pretty-good-pioneering"
   },
   "schematic-programmable-splitter": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Programmable Splitter",
     "cost": [
@@ -3793,7 +3589,6 @@
     "slug": "schematic-programmable-splitter"
   },
   "schematic-prototype-cartridges": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Prototype Cartridges",
     "cost": [
@@ -3817,7 +3612,6 @@
     "slug": "schematic-prototype-cartridges"
   },
   "schematic-prototype-explosives": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Prototype Explosives",
     "cost": [
@@ -3837,7 +3631,6 @@
     "slug": "schematic-prototype-explosives"
   },
   "schematic-purple-power-shards": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Purple Power Shards",
     "cost": [
@@ -3863,7 +3656,6 @@
     "slug": "schematic-purple-power-shards"
   },
   "schematic-quarter-pipes-pack": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Quarter Pipes Pack",
     "cost": [
@@ -3881,7 +3673,6 @@
     "slug": "schematic-quarter-pipes-pack"
   },
   "schematic-quartz": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Quartz",
     "cost": [
@@ -3899,7 +3690,6 @@
     "slug": "schematic-quartz"
   },
   "schematic-quartz-crystals": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Quartz Crystals",
     "cost": [
@@ -3917,7 +3707,6 @@
     "slug": "schematic-quartz-crystals"
   },
   "schematic-quickwire-1": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Quickwire",
     "cost": [
@@ -3935,7 +3724,6 @@
     "slug": "schematic-quickwire-1"
   },
   "schematic-quickwire-2": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Quickwire",
     "cost": [
@@ -3953,7 +3741,6 @@
     "slug": "schematic-quickwire-2"
   },
   "schematic-radar-technology": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Radar Technology",
     "cost": [
@@ -3979,7 +3766,6 @@
     "slug": "schematic-radar-technology"
   },
   "schematic-radiation-filters": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Radiation Filters",
     "cost": [
@@ -3997,7 +3783,6 @@
     "slug": "schematic-radiation-filters"
   },
   "schematic-radio-control-unit-1": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Radio Control Unit",
     "cost": [
@@ -4019,7 +3804,6 @@
     "slug": "schematic-radio-control-unit-1"
   },
   "schematic-radio-control-unit-2": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Radio Control Unit",
     "cost": [
@@ -4037,7 +3821,6 @@
     "slug": "schematic-radio-control-unit-2"
   },
   "schematic-radio-signal-scanning": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Radio Signal Scanning",
     "cost": [
@@ -4061,7 +3844,6 @@
     "slug": "schematic-radio-signal-scanning"
   },
   "schematic-rebar-gun": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Rebar Gun",
     "cost": [
@@ -4087,7 +3869,6 @@
     "slug": "schematic-rebar-gun"
   },
   "schematic-reinforced-iron-plate": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Reinforced Iron Plate",
     "cost": [
@@ -4105,7 +3886,6 @@
     "slug": "schematic-reinforced-iron-plate"
   },
   "schematic-resource-sink-bonus-program": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Resource Sink Bonus Program",
     "cost": [
@@ -4135,7 +3915,6 @@
     "slug": "schematic-resource-sink-bonus-program"
   },
   "schematic-rifle-cartridges": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Rifle Cartridges",
     "cost": [
@@ -4161,7 +3940,6 @@
     "slug": "schematic-rifle-cartridges"
   },
   "schematic-rifle-prototype": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Rifle Prototype",
     "cost": [
@@ -4185,7 +3963,6 @@
     "slug": "schematic-rifle-prototype"
   },
   "schematic-rotor": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Rotor",
     "cost": [
@@ -4203,7 +3980,6 @@
     "slug": "schematic-rotor"
   },
   "schematic-rubber": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Rubber",
     "cost": [
@@ -4221,7 +3997,6 @@
     "slug": "schematic-rubber"
   },
   "schematic-satisfactory-pioneering": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Satisfactory Pioneering",
     "cost": [
@@ -4239,7 +4014,6 @@
     "slug": "schematic-satisfactory-pioneering"
   },
   "schematic-save-compatibility": {
-    "kind": "schematic",
     "schematicKind": "custom",
     "name": "Save Compatibility",
     "cost": [],
@@ -4252,7 +4026,6 @@
     "slug": "schematic-save-compatibility"
   },
   "schematic-screw": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Screw",
     "cost": [
@@ -4270,7 +4043,6 @@
     "slug": "schematic-screw"
   },
   "schematic-shroom": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Shroom",
     "cost": [
@@ -4286,7 +4058,6 @@
     "slug": "schematic-shroom"
   },
   "schematic-signal-technologies": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Signal Technologies",
     "cost": [
@@ -4302,7 +4073,6 @@
     "slug": "schematic-signal-technologies"
   },
   "schematic-silica-1": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Silica",
     "cost": [
@@ -4320,7 +4090,6 @@
     "slug": "schematic-silica-1"
   },
   "schematic-silica-2": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Silica",
     "cost": [
@@ -4338,7 +4107,6 @@
     "slug": "schematic-silica-2"
   },
   "schematic-silver-hog": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Silver Hog",
     "cost": [
@@ -4356,7 +4124,6 @@
     "slug": "schematic-silver-hog"
   },
   "schematic-slug-scanning": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Slug Scanning",
     "cost": [
@@ -4380,7 +4147,6 @@
     "slug": "schematic-slug-scanning"
   },
   "schematic-smart-splitter": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Smart Splitter",
     "cost": [
@@ -4402,7 +4168,6 @@
     "slug": "schematic-smart-splitter"
   },
   "schematic-spiked-rebars": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Spiked Rebars",
     "cost": [
@@ -4424,7 +4189,6 @@
     "slug": "schematic-spiked-rebars"
   },
   "schematic-stairs": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Stairs",
     "cost": [
@@ -4442,7 +4206,6 @@
     "slug": "schematic-stairs"
   },
   "schematic-starting-blueprints": {
-    "kind": "schematic",
     "schematicKind": "custom",
     "name": "Starting Blueprints",
     "cost": [],
@@ -4456,7 +4219,6 @@
     "slug": "schematic-starting-blueprints"
   },
   "schematic-stator": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Stator",
     "cost": [
@@ -4474,7 +4236,6 @@
     "slug": "schematic-stator"
   },
   "schematic-steel-beam": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Steel Beam",
     "cost": [
@@ -4492,7 +4253,6 @@
     "slug": "schematic-steel-beam"
   },
   "schematic-steel-pipe": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Steel Pipe",
     "cost": [
@@ -4510,7 +4270,6 @@
     "slug": "schematic-steel-pipe"
   },
   "schematic-structural-analysis": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Structural Analysis",
     "cost": [
@@ -4528,7 +4287,6 @@
     "slug": "schematic-structural-analysis"
   },
   "schematic-sulfur": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Sulfur",
     "cost": [
@@ -4546,7 +4304,6 @@
     "slug": "schematic-sulfur"
   },
   "schematic-super-computer": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Super Computer",
     "cost": [
@@ -4572,7 +4329,6 @@
     "slug": "schematic-super-computer"
   },
   "schematic-supercomputer": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Supercomputer",
     "cost": [
@@ -4590,7 +4346,6 @@
     "slug": "schematic-supercomputer"
   },
   "schematic-the-explorer": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "The Explorer",
     "cost": [
@@ -4612,7 +4367,6 @@
     "slug": "schematic-the-explorer"
   },
   "schematic-the-rifle": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "The Rifle",
     "cost": [
@@ -4638,7 +4392,6 @@
     "slug": "schematic-the-rifle"
   },
   "schematic-turbo-motor": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Turbo Motor",
     "cost": [
@@ -4656,7 +4409,6 @@
     "slug": "schematic-turbo-motor"
   },
   "schematic-vehicular-transport": {
-    "kind": "schematic",
     "schematicKind": "milestone",
     "name": "Vehicular Transport",
     "cost": [
@@ -4686,7 +4438,6 @@
     "slug": "schematic-vehicular-transport"
   },
   "schematic-volatile-applications": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Volatile Applications",
     "cost": [
@@ -4702,7 +4453,6 @@
     "slug": "schematic-volatile-applications"
   },
   "schematic-walkways": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Walkways",
     "cost": [
@@ -4720,7 +4470,6 @@
     "slug": "schematic-walkways"
   },
   "schematic-wall-power-poles-mk1": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Wall Power Poles MK.1",
     "cost": [
@@ -4738,7 +4487,6 @@
     "slug": "schematic-wall-power-poles-mk1"
   },
   "schematic-wall-power-poles-mk2": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Wall Power Poles MK.2",
     "cost": [
@@ -4756,7 +4504,6 @@
     "slug": "schematic-wall-power-poles-mk2"
   },
   "schematic-wall-power-poles-mk3": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Wall Power Poles MK.3",
     "cost": [
@@ -4774,7 +4521,6 @@
     "slug": "schematic-wall-power-poles-mk3"
   },
   "schematic-windowed-walls": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Windowed Walls",
     "cost": [
@@ -4792,7 +4538,6 @@
     "slug": "schematic-windowed-walls"
   },
   "schematic-wire": {
-    "kind": "schematic",
     "schematicKind": "resourceSink",
     "name": "Wire",
     "cost": [
@@ -4810,7 +4555,6 @@
     "slug": "schematic-wire"
   },
   "schematic-yellow-power-shards": {
-    "kind": "schematic",
     "schematicKind": "MAM",
     "name": "Yellow Power Shards",
     "cost": [

@@ -26,7 +26,7 @@ async function main(version: string) {
 
   await parsing.fillItems(outputDb, entityDb, assetDb);
   await parsing.fillBuildings(outputDb, entityDb, assetDb);
-  await parsing.fillRecipes(outputDb, entityDb, assetDb);
+  await parsing.fillRecipes(outputDb, entityDb);
   await parsing.fillSchematics(outputDb, entityDb);
 
   await parsing.fillStaticEntries(outputDb);

@@ -20,7 +20,7 @@ export type ImageId = string;
 export type HumanReadableString = string;
 
 /**
- * A color, expressed as `#rrggbbaa`.
+ * A color, expressed as a hex color string.
  */
 export type Color = string;
 
@@ -30,18 +30,6 @@ export type Color = string;
 export interface ItemAmount {
   item: Slug;
   count: number;
-}
-
-/**
- * The broad categorization of an entity.
- * 
- * Note that there are many sub types under each entity.
- */
-export enum EntityKind {
-  Building = 'building',
-  Item = 'item',
-  Recipe = 'recipe',
-  Schematic = 'schematic',
 }
 
 /**

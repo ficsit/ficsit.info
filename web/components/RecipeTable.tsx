@@ -3,7 +3,7 @@ import { css } from '@emotion/core';
 import { NavLink } from 'react-router-dom';
 
 import { colors, sizing } from '~/style';
-import { entityUrl } from '~/routing';
+import { recipeUrl } from '~/routing';
 import { Section } from '~/components/Section';
 import { ItemCount } from '~/components/ItemCount';
 
@@ -67,7 +67,7 @@ function _renderRecipe(recipe: Recipe, recipeTitle?: (recipe: Recipe) => string)
 
   return (
     <React.Fragment key={recipe.slug}>
-      <NavLink to={entityUrl(recipe)} css={recipeTitleStyles}>{title}</NavLink>
+      <NavLink to={recipeUrl(recipe)} css={recipeTitleStyles}>{title}</NavLink>
       <div css={ingredientsStyles}>
         {recipe.ingredients.map(({ item, count }) => 
           <ItemCount key={item} slug={item} count={count} />

@@ -1,5 +1,5 @@
-import { Entity } from './Entity';
-import { EntityKind, HumanReadableString, Slug, ItemForm } from './primitive';
+import { Entity, EntityKind } from './Entity';
+import { HumanReadableString, Slug, ItemForm } from './primitive';
 
 /**
  * Any entity which can be built by the player (factory buildings, foundations,

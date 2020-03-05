@@ -1,7 +1,7 @@
 import { useParams } from 'react-router';
 import { css } from '@emotion/core';
 
-import { useBuilding, useRecipe } from '~/data';
+import { useBuilding, useRecipe, useEntity } from '~/data';
 import { colors } from '~/style';
 import { EntitySummary } from '~/components/EntitySummary';
 import { Section } from '~/components/Section';
@@ -25,16 +25,17 @@ export function RecipePage() {
 
 function _Detail({ slug }: { slug?: string }) {
   const recipe = useRecipe(slug);
+  const firstProduct = useEntity(recipe?.products[0].item);
   // let [clockSpeed, setClockSpeed] = useState(1.0);
   const building = useBuilding(recipe?.producedIn[0]);
-  if (!recipe) return <div>…</div>;
+  if (!recipe || !firstProduct) return <div>…</div>;
 
   const statistics = {} as Record<string, React.ReactNode>;
   statistics[`Duration`] = `${recipe.duration} secs`;
 
   return (
     <article>
-      <EntitySummary entity={recipe} imageSize={128} statistics={statistics} />
+      <EntitySummary entity={firstProduct} imageSize={128} statistics={statistics} />
       <Section title='Recipe'>
         <div>
           {recipe.ingredients.map(({ item, count }) => 
