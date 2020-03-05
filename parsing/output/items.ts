@@ -28,7 +28,7 @@ async function _buildItem(entityDb: EntityDatabase, assetDb: AssetDatabase, raw:
 
   const icon = await assetDb.findLargestEntityIcon(raw);
   if (icon) {
-    const image = await assetDb.saveImage(icon);
+    const image = await assetDb.saveEntityIcon(icon, EntityKind.Item);
     _assign(item, 'icon', image);
   }
 

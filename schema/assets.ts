@@ -1,5 +1,37 @@
+import { EntityKind } from './Entity';
+
 /**
- * We try to extract copies of images at these sizes (where a size is the max
- * of height or width).
+ * We scale all images to support these pixel densities.
  */
-export const imageSizes = [48, 96, 144, 256, 512, 1024];
+export const pixelDensities = [1, 2, 3];
+
+/**
+ * The size of an icon when presented inline with text.
+ */
+export const inlineIconSize = 24;
+
+/**
+ * The size of an icon when presented as a standalone navigation button.
+ */
+export const navButtonIconSize = 36;
+
+/**
+ * The size of an icon when presented in a navigation list.
+ */
+export const navListIconSize = 48;
+
+/**
+ * The size of an icon when presented as a poster in entity details.
+ */
+export const entityPosterIconSizes: Record<EntityKind, number> = {
+  [EntityKind.Building]: 256,
+  [EntityKind.Item]: 128,
+}
+
+/**
+ * The maximum size (in px, not dp) of an icon.
+ */
+export const entityMaxIconSize: Record<EntityKind, number> = {
+  [EntityKind.Building]: 512,
+  [EntityKind.Item]: 256,
+}

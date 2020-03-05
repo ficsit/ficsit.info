@@ -1,4 +1,4 @@
-import { imageSizes } from '@local/schema';
+import { inlineIconSize, navButtonIconSize, navListIconSize, pixelDensities, EntityKind, entityPosterIconSizes, entityMaxIconSize } from '@local/schema';
 import { imageHash } from '@lolpants/image-hash';
 import * as base62 from 'base62';
 import * as crypto from 'crypto';
@@ -7,6 +7,12 @@ import sharp from 'sharp';
 import { assetMap } from './assetMap';
 import { FileSystem } from './FileSystem';
 import { EntityDatabase } from './EntityDatabase';
+
+const commonImageSizes = [
+  inlineIconSize,
+  navButtonIconSize,
+  navListIconSize,
+];
 
 /**
  * A container for assets (e.g. images) and metadata about them.
@@ -42,14 +48,13 @@ export class AssetDatabase {
     return this._found[baseName];
   }
 
-  async saveImage(sourcePath: string): Promise<string> {
+  async saveEntityIcon(sourcePath: string, kind: EntityKind): Promise<string> {
+    const sizes = _expandSizes(kind);
     const source = await this._resources.readBuffer(sourcePath);
     const hash = _hashImage(source);
     const image = sharp(source);
-    const { height, width } = await image.metadata();
 
-    const targetSizes = imageSizes.filter(size => height! >= size || width! >= size);
-    await Promise.all(targetSizes.flatMap(size => {
+    await Promise.all(sizes.flatMap(size => {
       const resized = image.clone().resize(size, size, { fit: 'cover' });
       return [
         this._writeImage(resized, `${hash}.${size}.png`),
@@ -102,4 +107,13 @@ function _hashImage(image: Buffer) {
     .map(p => parseInt(p, 16))
     .map(p => base62.encode(p))
     .join('');
+}
+
+function _expandSizes(kind: EntityKind) {
+  const sizes = [...commonImageSizes, entityPosterIconSizes[kind]];
+  const expanded = sizes.flatMap(baseSize => pixelDensities.map(density => baseSize * density));
+  const unique = Array.from(new Set(expanded));
+  return unique
+    .filter(size => size < entityMaxIconSize[kind])
+    .sort((a, b) => a - b);
 }
