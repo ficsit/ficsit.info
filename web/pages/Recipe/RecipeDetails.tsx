@@ -9,26 +9,24 @@ const iconSize = sizing.navListIconSize;
 const recipeStyles = css({
   flex: 1,
   display: 'grid',
-  gridTemplateRows: '[name] auto [item] auto [rate] auto',
+  gridTemplateRows: '[name] min-content [item] min-content [rate] min-content',
   gridAutoColumns: 'min-content',
-  gridColumnGap: sizing.Padding.Medium,
-  margin: `0 ${sizing.Padding.Normal}px`,
-  padding: `0 ${sizing.Padding.Normal}px`,
-  borderLeft: `1px solid ${colors.Light.N400}`,
-  borderRight: `1px solid ${colors.Light.N400}`,
+  gridColumnGap: sizing.Padding.Normal,
 });
 
 const itemNameStyles = css({
   gridRow: 'name',
   margin: 0,
-  fontSize: 8,
+  fontSize: sizing.FontSize.Small,
   textAlign: 'center',
+  paddingBottom: sizing.Padding.Small,
 });
 
 const itemRateStyles = css({
   gridRow: 'rate',
   margin: 0,
-  fontSize: 12,
+  paddingTop: sizing.Padding.Small,
+  fontSize: sizing.FontSize.Small,
   textAlign: 'center',
   'span': {
     fontFamily: 'SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace',
@@ -50,7 +48,7 @@ export interface RecipeDetailsProps {
 }
 
 export function RecipeDetails({ recipe, entities, clockSpeed }: RecipeDetailsProps) {
-  const { duration, ingredients, products } = recipe;
+  const { duration, ingredients, products, placedByPlayer } = recipe;
 
   const minutes = (duration / clockSpeed) / 60;
 
@@ -58,9 +56,11 @@ export function RecipeDetails({ recipe, entities, clockSpeed }: RecipeDetailsPro
     <div css={recipeStyles}>
       {ingredients.map(({ item, count }) => 
         <React.Fragment key={item}>
-          <p css={itemNameStyles}>{entities[item].name}</p>
+          <p css={itemNameStyles}>{entities[item]?.name}</p>
           <ItemCount slug={item} count={count} size={iconSize} />
-          <p css={itemRateStyles}><span>{(count / minutes).toFixed(1)}</span> / min</p>
+          {!placedByPlayer && 
+            <p css={itemRateStyles}><span>{(count / minutes).toFixed(1)}</span> /<br />min</p>
+          }
         </React.Fragment>
       )}
       <p css={itemNameStyles}></p>
@@ -68,9 +68,11 @@ export function RecipeDetails({ recipe, entities, clockSpeed }: RecipeDetailsPro
       <p css={itemRateStyles}></p>
       {products.map(({ item, count }) => 
         <React.Fragment key={item}>
-          <p css={itemNameStyles}>{entities[item].name}</p>
+          <p css={itemNameStyles}>{entities[item]?.name}</p>
           <ItemCount slug={item} count={count} size={iconSize} />
-          <p css={itemRateStyles}><span>{(count / minutes).toFixed(1)}</span> / min</p>
+          {!placedByPlayer && 
+            <p css={itemRateStyles}><span>{(count / minutes).toFixed(1)}</span> /<br />min</p>
+          }
         </React.Fragment>
       )}
     </div>

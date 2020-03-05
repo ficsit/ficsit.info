@@ -31,6 +31,12 @@ const recipeTitleStyles = css({
 const ingredientsStyles = css({
   gridColumn: '1 / 2',
   textAlign: 'right',
+  '> *': {
+    marginLeft: sizing.Padding.Medium,
+    '&:first-of-type': {
+      marginLeft: 0,
+    },
+  },
 });
 
 const arrowStyles = css({
@@ -44,6 +50,12 @@ const arrowStyles = css({
 
 const productsStyles = css({
   gridColumn: '3 / 4',
+  '> *': {
+    marginLeft: sizing.Padding.Medium,
+    '&:first-of-type': {
+      marginLeft: 0,
+    },
+  },
 });
 
 export interface RecipeTableProps {

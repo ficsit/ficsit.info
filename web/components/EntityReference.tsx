@@ -14,9 +14,8 @@ const rootStyles = css({
   display: 'inline-block',
   position: 'relative',
   boxSizing: 'content-box',
-  
   padding: padding,
-  margin: padding,
+  // margin: padding,
   backgroundColor: colors.Light.N100,
   '&.active, &.active:hover': {
     backgroundColor: 'transparent',
