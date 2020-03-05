@@ -1,14 +1,13 @@
 import { css } from '@emotion/core';
 import { Entity } from '@local/schema';
 
-import { colors } from '../style';
+import { colors, sizing } from '../style';
 import { memoize } from '../utility';
 
 import { EntityImage } from './EntityImage';
 import { Section } from './Section';
 
-const borderSize = 2;
-const basePadding = 16;
+const basePadding = sizing.Padding.Normal;
 const insetAmount = 0.625;
 
 const getHeaderStyles = memoize((imageSize: number) => css({
@@ -16,7 +15,7 @@ const getHeaderStyles = memoize((imageSize: number) => css({
   flexDirection: 'column',
   justifyContent: 'flex-end',
   fontSize: 36,
-  paddingLeft: imageSize + basePadding * 2 + borderSize,
+  marginLeft: imageSize + basePadding,
   minHeight: (imageSize * insetAmount) - basePadding,
 }));
 

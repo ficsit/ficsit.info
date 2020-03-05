@@ -58,9 +58,6 @@ const navigationStyles = css({
     margin: 2,
     padding: 4,
     borderRadius: 3,
-    // ':hover, &.active': {
-    //   backgroundColor: 'rgba(255, 255, 255, 0.25)',
-    // },
     ':hover, &.active': {
       backgroundColor: colors.Light.N50,
       color: colors.Dark.N950,
@@ -69,7 +66,6 @@ const navigationStyles = css({
 });
 
 const contentStyles = css({
-  display: 'flex',
   flex: 1,
   overflow: 'auto',
 });

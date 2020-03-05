@@ -2,6 +2,8 @@ import { css } from '@emotion/core';
 
 import { colors, sizing } from '~/style';
 
+const borderSize = 2;
+
 export interface SectionProps {
   children: React.ReactNode
   title?: React.ReactNode;
@@ -10,22 +12,30 @@ export interface SectionProps {
 const rootStyles = css({
   margin: sizing.Padding.Normal,
   '> h1, > h2, > h3, > h4, > h5, > h6': {
-    margin: 0,
+    marginTop: 0,
+    marginBottom: 0,
     fontWeight: 'lighter',
     textTransform: 'uppercase',
     lineHeight: '1.0',
     paddingBottom: sizing.Padding.Small,
+    paddingLeft: sizing.Padding.Normal + borderSize,
+    paddingRight: sizing.Padding.Normal + borderSize,
+  },
+  '> h1': {
+    fontSize: 36,
+  },
+  '> h2': {
+    fontSize: 24,
   },
 });
 
 const headerStyles = css({
-  fontSize: 24,
   paddingLeft: sizing.Padding.Normal,
   paddingRight: sizing.Padding.Normal,
 });
 
 const contentStyles = css({
-  border: `2px solid ${colors.Light.N400}`,
+  border: `${borderSize}px solid ${colors.Light.N400}`,
   borderRadius: 16,
   padding: sizing.Padding.Normal,
   backgroundColor: colors.Light.N0,

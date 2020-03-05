@@ -8,14 +8,13 @@ import { colors, sizing } from '~/style';
 import { EntityImage } from './EntityImage';
 import { ItemForm, EntityKind } from '@local/schema';
 
-const size = 32;
 const padding = sizing.Padding.Small;
 
 const rootStyles = css({
   display: 'inline-block',
   position: 'relative',
-  height: size + padding * 2,
-  width: size + padding * 2,
+  boxSizing: 'content-box',
+  
   padding: padding,
   margin: padding,
   backgroundColor: colors.Light.N100,
@@ -31,6 +30,7 @@ const rootStyles = css({
   },
 });
 
+
 const shapeStyles = {
   default: css({
     backgroundColor: 'transparent',
@@ -41,7 +41,7 @@ const shapeStyles = {
     borderRadius: 4,
   }),
   liquid: css({
-    borderRadius: size,
+    borderRadius: 100,
   }),
 };
 
@@ -59,16 +59,17 @@ const badgeStyles = css({
   lineHeight: 1.0,  
   color: colors.Light.N50,
   backgroundColor: colors.Dark.N500,
-  borderRadius: size,
+  borderRadius: 100,
   border: `2px solid ${colors.Light.N0}`,
 });
 
 export interface EntityReferenceProps {
   slug: string;
   badge?: string | number;
+  size?: number;
 }
 
-export function EntityReference({ slug, badge }: EntityReferenceProps) {
+export function EntityReference({ slug, badge, size = 32 }: EntityReferenceProps) {
   const entity = useEntity(slug);
   // TODO: make liquids their own entity type.
   const item = useItem(slug);
@@ -81,8 +82,10 @@ export function EntityReference({ slug, badge }: EntityReferenceProps) {
     shape = 'item';
   }
 
+  const style = { height: size, width: size };
+
   return (
-    <NavLink to={entityUrl(entity)} css={[rootStyles, shapeStyles[shape]]}>
+    <NavLink to={entityUrl(entity)} css={[rootStyles, shapeStyles[shape]]} style={style}>
       <EntityImage entity={entity} size={size} />
       {!!badge && <div css={badgeStyles}>{badge}</div>}
     </NavLink>

@@ -1,20 +1,30 @@
+import { useState } from 'react';
 import { useParams } from 'react-router';
 import { css } from '@emotion/core';
 
-import { useBuilding, useRecipe, useEntity } from '~/data';
-import { colors } from '~/style';
-import { EntitySummary } from '~/components/EntitySummary';
-import { Section } from '~/components/Section';
-import { ItemCount } from '~/components/ItemCount';
-// import { useState } from 'react';
+import CycleTimeIcon from '~/assets/images/cycle-time.svg';
+import PowerIcon from '~/assets/images/power.svg';
 
-const arrowStyles = css({
+import { useRecipe, useEntities } from '~/data';
+import { colors, sizing } from '~/style';
+import { Section } from '~/components/Section';
+import { RecipeDetails } from './RecipeDetails';
+import { EntityLink } from '~/components/EntityLink';
+import { Building } from '@local/schema';
+
+const icon = css({
+  fill: colors.Dark.N500,
+  width: sizing.inlineIconSize,
+  height: sizing.inlineIconSize,
+});
+
+const contentStyles = css({
   display: 'flex',
-  alignItems: 'center',
-  gridColumn: '2 / 3',
-  fontSize: 24,
-  color: colors.Light.N400,
-  paddingLeft: 3,
+});
+
+const statsStyles = css({
+  display: 'flex',
+  flexDirection: 'column',
 });
 
 export function RecipePage() {
@@ -24,37 +34,40 @@ export function RecipePage() {
 }
 
 function _Detail({ slug }: { slug?: string }) {
+  const entities = useEntities();
   const recipe = useRecipe(slug);
-  const firstProduct = useEntity(recipe?.products[0].item);
-  // let [clockSpeed, setClockSpeed] = useState(1.0);
-  const building = useBuilding(recipe?.producedIn[0]);
-  if (!recipe || !firstProduct) return <div>…</div>;
+  let [clockSpeed, setClockSpeed] = useState(1.0);
+  if (!recipe || !entities) return <div>…</div>;
+  const manufacturer = entities[recipe.producedIn[0]] as Building;
 
-  const statistics = {} as Record<string, React.ReactNode>;
-  statistics[`Duration`] = `${recipe.duration} secs`;
+  const duration = recipe.duration / clockSpeed;
+  let powerUsage: number | undefined;
+  if (manufacturer?.powerConsumption) {
+    const { amount, exponent } = manufacturer.powerConsumption;
+    powerUsage = amount * Math.pow(clockSpeed, exponent);
+  }
 
   return (
     <article>
-      <EntitySummary entity={firstProduct} imageSize={128} statistics={statistics} />
-      <Section title='Recipe'>
-        <div>
-          {recipe.ingredients.map(({ item, count }) => 
-            <ItemCount key={item} slug={item} count={count} />
-          )}
-        </div>
-        <div css={arrowStyles}>➤</div>
-        <div>
-          {recipe.products.map(({ item, count }) => 
-            <ItemCount key={item} slug={item} count={count} />
-          )}
+      <Section title={<h1>{recipe.name}</h1>}>
+        <div css={contentStyles}>
+          <div css={statsStyles}>
+            <div><CycleTimeIcon css={icon} /> {duration.toFixed(1)} secs</div>
+            {!!powerUsage && 
+              <div><PowerIcon css={icon} /> {powerUsage.toFixed(1)} MW</div>
+            }
+            <EntityLink entity={manufacturer} />
+            <input 
+              type='range' 
+              min={1} 
+              max={250} 
+              value={clockSpeed * 100} 
+              onChange={({ target }) => setClockSpeed(parseInt(target.value) / 100)}
+            />
+          </div>
+          <RecipeDetails recipe={recipe} entities={entities} clockSpeed={clockSpeed} />
         </div>
       </Section>
-      {building &&
-        <Section title='Produced In'>
-          <pre>{JSON.stringify(building, null, 2)}</pre>
-        </Section>
-      }
-      <pre>{JSON.stringify(recipe, null, 2)}</pre>
     </article>
   )
 }

@@ -7,13 +7,14 @@ import { EntityReference } from './EntityReference';
 export interface ItemCountProps {
   slug: string;
   count: number;
+  size?: number;
 }
 
-export function ItemCount({ slug, count }: ItemCountProps) {
+export function ItemCount({ slug, count, size }: ItemCountProps) {
   const item = useItem(slug);
   if (item?.form === ItemForm.Liquid) {
     count = count / 1000;
   }
 
-  return <EntityReference slug={slug} badge={count} />;
+  return <EntityReference slug={slug} badge={count} size={size} />;
 }

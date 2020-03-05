@@ -6,6 +6,7 @@ import { colors } from '../style';
 const containerStyles = css({
   display: 'flex',
   flex: 1,
+  height: '100%',
   '@media (max-width: 600px)': {
     display: 'block',
   },
