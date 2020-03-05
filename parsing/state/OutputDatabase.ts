@@ -1,5 +1,5 @@
 import { paramCase } from 'param-case';
-import { AnyEntity, Slug, Entity, Recipe, Schematic } from '@local/schema';
+import { AnyEntity, Slug, Recipe, Schematic } from '@local/schema';
 
 import { normalizeClassName } from './HeaderDatabase';
 
@@ -11,7 +11,7 @@ export type DataTypes = {
 export type DataType = keyof DataTypes;
 export type Data = DataTypes[DataType];
 
-export type WithoutSlug<TEntity extends Data> = Omit<TEntity, 'slug'>;
+export type WithoutSlug<TData extends Data> = Omit<TData, 'slug'>;
 
 /**
  * Database that maintains a set of all entities that should be outputted, and 
@@ -43,66 +43,55 @@ export class OutputDatabase {
   }
 
   getOrDie<TData extends Data>(className: string) {
-    const entity = this._dataByClassName.get(className) as TData | undefined;
-    if (!entity) {
-      throw new Error(`Expected ${entity} to be registered for output`);
+    const data = this._dataByClassName.get(className) as TData | undefined;
+    if (!data) {
+      throw new Error(`Expected ${data} to be registered for output`);
     }
-    return entity;
+    return data;
   }
 
   getAllByType<TType extends DataType>(type: TType): Record<string, DataTypes[TType]> {
     const entries = this._dataByType.get(type)!
-      .map((entity) => [entity.slug, entity as DataTypes[TType]] as const)
+      .map((data) => [data.slug, data as DataTypes[TType]] as const)
       .sort((a, b) => a[0].localeCompare(b[0]));
     
     return Object.fromEntries(entries);
   }
 
-  getIndexable(): Entity[] {
-    const indexable = [] as Entity[];
-    for (const entities of this._dataByType.values()) {
-      for (const { kind, slug, name, icon, categories } of entities) {
-        indexable.push({ kind, slug, name, icon, categories });
-      }
-    }
-
-    return indexable.sort((a, b) => a.slug.localeCompare(b.slug));
-  }
-
-  slugForEntityOrDie(className: string): SlugReferenceString {
+  slugOrDie(className: string): SlugReferenceString {
     // Lazy evaluation.
     return new SlugReference(this, className) as any;
   }
 
-  _assignBySlug(entityWithoutSlug: WithoutSlug<AnyEntity>, slugPrefix?: string): asserts entityWithoutSlug is AnyEntity {
+  _assignBySlug(dataWithoutSlug: WithoutSlug<Data>, slugPrefix?: string): asserts dataWithoutSlug is Data {
     // Trust us, we'll set the slug in this function.
-    const entity = entityWithoutSlug as AnyEntity;
-    const baseSlug = `${slugPrefix || ''}${_baseSlug(entityWithoutSlug)}`;
+    const data = dataWithoutSlug as Data;
+    const baseSlug = `${slugPrefix || ''}${_baseSlug(dataWithoutSlug)}`;
 
-    let entityArray = this._dataByBaseSlug.get(baseSlug);
-    if (!entityArray) {
-      entityArray = [];
-      this._dataByBaseSlug.set(baseSlug, entityArray);
+    let dataArray = this._dataByBaseSlug.get(baseSlug);
+    if (!dataArray) {
+      dataArray = [];
+      this._dataByBaseSlug.set(baseSlug, dataArray);
     }
-    entityArray.push(entity);
+    dataArray.push(data);
     
-    if (entityArray.length === 1) {
-      entity.slug = baseSlug;
+    if (dataArray.length === 1) {
+      data.slug = baseSlug;
     } else {
-      entity.slug = `${baseSlug}-${entityArray.length}`;
+      data.slug = `${baseSlug}-${dataArray.length}`;
     }
 
-    // If we were previously only one, we need to fix the first entity.
-    if (entityArray.length === 2) {
-      entityArray[0].slug = `${baseSlug}-1`;
+    // If we were previously only one, we need to fix the first entry.
+    if (dataArray.length === 2) {
+      dataArray[0].slug = `${baseSlug}-1`;
     }
   }
 
-  _assignByClassName(entity: AnyEntity, className: string) {
+  _assignByClassName(data: Data, className: string) {
     if (this._dataByClassName.has(className)) {
-      throw new Error(`Entity conflict: multiple assigned to ${className}`);
+      throw new Error(`Data conflict: multiple assigned to ${className}`);
     }
-    this._dataByClassName.set(className, entity);
+    this._dataByClassName.set(className, data);
   }
 
   _assignByType(type: DataType, data: Data) {
@@ -119,8 +108,8 @@ export class OutputDatabase {
   }
 }
 
-function _baseSlug(entity: WithoutSlug<AnyEntity>) {
-  return paramCase(entity.name.replace(/[.]/g, ''));
+function _baseSlug(data: WithoutSlug<Data>) {
+  return paramCase(data.name.replace(/[.]/g, ''));
 }
 
 export type SlugReferenceString = Slug & { className: string };

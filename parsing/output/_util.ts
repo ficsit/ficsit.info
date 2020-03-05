@@ -62,12 +62,12 @@ export function expandReferences(outputDb: OutputDatabase, entityDb: EntityDatab
     }
   }
 
-  return Array.from(classNames.values()).map(c => outputDb.slugForEntityOrDie(c));
+  return Array.from(classNames.values()).map(c => outputDb.slugOrDie(c));
 }
 
 export function mapItemAmount(outputDb: OutputDatabase, itemAmount: ItemAmount) {
   return {
-    item: outputDb.slugForEntityOrDie(itemAmount.ItemClass!.path),
+    item: outputDb.slugOrDie(itemAmount.ItemClass!.path),
     count: itemAmount.Amount,
   }
 }
