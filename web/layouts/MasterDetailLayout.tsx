@@ -20,6 +20,7 @@ const masterStyles = css({
   display: 'flex',
   order: 1,
   overflow: 'auto',
+  overscrollBehavior: 'contain',
   borderRight: `1px solid ${colors.Light.N400}`,
   backgroundColor: colors.Light.N100,
   width: sizing.sidebarWidth,
@@ -31,6 +32,7 @@ const masterStyles = css({
 const detailStyles = css({
   order: 2,
   overflow: 'auto',
+  overscrollBehavior: 'contain',
   flex: 1,
 });
 

@@ -47,6 +47,9 @@ const rootStyles = css({
 const listStyles = css({
   flex: 1,
   height: '100%',
+  '> *': {
+    overscrollBehavior: 'contain',
+  }
 });
 
 const categoryTitleStyles = css({

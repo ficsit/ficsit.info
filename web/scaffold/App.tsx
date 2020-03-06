@@ -96,6 +96,7 @@ const navigationStyles = css({
 const contentStyles = css({
   flex: 1,
   overflow: 'auto',
+  overscrollBehavior: 'contain',
 });
 
 export class App extends PureComponent {
