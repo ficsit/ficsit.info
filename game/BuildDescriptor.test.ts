@@ -2,12 +2,13 @@ import { BuildDescriptorSchema } from './BuildDescriptor';
 import { Reference } from './Reference';
 
 describe(`schema.BuildDescriptor`, () => {
-  it(`parses Desc_WalkwayCross_C from v114480`, () => {
+  it(`parses Desc_WalkwayCross_C from v116395`, () => {
     const result = BuildDescriptorSchema.parse({
       ClassName: "Desc_WalkwayCross_C",
       mSubCategories: "(BlueprintGeneratedClass'\"/Game/FactoryGame/Interface/UI/InGame/BuildMenu/BuildCategories/Sub_Organisation/SC_Walkways.SC_Walkways_C\"')",
       mBuildMenuPriority: "102.000000",
       mDisplayName: "",
+      mAbbreviatedDisplayName: "",
       mDescription: "",
       mStackSize: "SS_MEDIUM",
       mCanBeDiscarded: "True",
@@ -27,6 +28,7 @@ describe(`schema.BuildDescriptor`, () => {
       mCanBeDiscarded: true,
       mDescription: "",
       mDisplayName: "",
+      mAbbreviatedDisplayName: "",
       mEnergyValue: 0.0,
       mFluidColor: { R: 0, G: 0, B: 0, A: 0 },
       mFluidDensity: 1.0,

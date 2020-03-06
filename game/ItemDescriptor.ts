@@ -38,6 +38,7 @@ export const ItemDescriptorSchema = declareClass('FGItemDescriptor', {
   mCanBeDiscarded: declareBoolean(),
   mDescription: declareString(),
   mDisplayName: declareString(),
+  mAbbreviatedDisplayName: declareString(),
   mEnergyValue: declareFloat(),
   mFluidColor: ColorSchema,
   mFluidDensity: declareFloat(),

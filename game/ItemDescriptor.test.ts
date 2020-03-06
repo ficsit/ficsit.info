@@ -1,11 +1,12 @@
 import { ItemDescriptorSchema } from './ItemDescriptor';
 
 describe(`schema.ItemDescriptor`, () => {
-  it(`parses Desc_LiquidFuel_C from v114480`, () => {
+  it(`parses Desc_LiquidFuel_C from v116395`, () => {
     const result = ItemDescriptorSchema.parse({
       ClassName: "Desc_LiquidFuel_C",
       mDisplayName: "Fuel",
       mDescription: "Fuel is either converted into electricity or as fuel for vehicles.",
+      mAbbreviatedDisplayName: "",
       mStackSize: "SS_FLUID",
       mCanBeDiscarded: "True",
       mRememberPickUp: "False",
@@ -22,6 +23,7 @@ describe(`schema.ItemDescriptor`, () => {
       ClassName: 'Desc_LiquidFuel_C',
       mCanBeDiscarded: true,
       mDescription: 'Fuel is either converted into electricity or as fuel for vehicles.',
+      mAbbreviatedDisplayName: '',
       mDisplayName: 'Fuel',
       mEnergyValue: 0.6,
       mFluidColor: { R: 244, G: 131, B: 122, A: 255 },
