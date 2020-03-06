@@ -4,12 +4,12 @@ declare module 'react-virtualized-sticky-tree' {
   export type Child = RegularChild | StickyChild;
 
   export interface RegularChild {
-    id: string;
+    id: string | number; 
     height: number;
     isSticky?: false;
   }
   export interface StickyChild {
-    id: string;
+    id: string | number;
     height: number;
     isSticky: true;
     stickyTop: number;
@@ -70,7 +70,7 @@ declare module 'react-virtualized-sticky-tree' {
      *    }))
      * }
      */
-    getChildren: (childId: string) => TChild[];
+    getChildren: (childId: string, parent: TChild) => TChild[];
 
     /**
      * Called to retrieve a row to render. The function should return a single React node.
