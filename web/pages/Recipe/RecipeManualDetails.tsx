@@ -78,7 +78,7 @@ function _renderProductsPerMinute(clicks: number, { item, count }: ItemAmount) {
   return (
     <div key={item}>
       <EntityReference slug={item} size={24} />
-      <div>{productPerMinute} /<br />min</div>
+      <div>{productPerMinute.toFixed(1)} /<br />min</div>
     </div>
   );
 }
