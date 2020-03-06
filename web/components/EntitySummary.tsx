@@ -16,16 +16,28 @@ const getHeaderStyles = memoize((imageSize: number) => css({
   justifyContent: 'flex-end',
   paddingLeft: imageSize + basePadding,
   minHeight: (imageSize * insetAmount) - basePadding - sizing.sectionPadding * 2,
+  [`@media(max-width: ${sizing.minContentWidth}px)`]: {
+    paddingLeft: 0,
+    minHeight: 'auto',
+  },
 }));
 
 const summaryStyles = css({
   display: 'flex',
+  [`@media(max-width: ${sizing.minContentWidth}px)`]: {
+    flexDirection: 'column',
+  },
 });
 
 const getEntityImageStyles = memoize((imageSize: number) => css({
   marginTop: -(imageSize * insetAmount),
   marginRight: basePadding,
   filter: 'drop-shadow(0 0 4px rgba(0, 0, 0, 0.3))',
+  [`@media(max-width: ${sizing.minContentWidth}px)`]: {
+    marginTop: 0,
+    alignSelf: 'center',
+    marginBottom: basePadding,
+  },
 }));
 
 const descriptionStyles = css({

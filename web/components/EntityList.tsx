@@ -41,7 +41,7 @@ const rowIconSize = entityHeight * 0.8;
 const rootStyles = css({
   display: 'flex',
   flexDirection: 'column',
-  width: 250,
+  width: '100%',
 });
 
 const listStyles = css({

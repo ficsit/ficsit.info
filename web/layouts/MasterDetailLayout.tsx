@@ -1,14 +1,18 @@
 import { ReactNode } from 'react';
 import { css } from '@emotion/core';
 
-import { colors } from '../style';
+import { colors, sizing } from '../style';
+
+const breakpoint = sizing.sidebarWidth + sizing.minContentWidth;
 
 const containerStyles = css({
   display: 'flex',
   flex: 1,
   height: '100%',
-  '@media (max-width: 600px)': {
-    display: 'block',
+  [`@media (max-width: ${breakpoint}px)`]: {
+    'main + nav': {
+      display: 'none',
+    },
   },
 });
 
@@ -18,6 +22,10 @@ const masterStyles = css({
   overflow: 'auto',
   borderRight: `1px solid ${colors.Light.N400}`,
   backgroundColor: colors.Light.N100,
+  width: sizing.sidebarWidth,
+  [`@media (max-width: ${breakpoint}px)`]: {
+    width: '100%',
+  },
 });
 
 const detailStyles = css({
@@ -28,17 +36,15 @@ const detailStyles = css({
 
 export interface MasterDetailLayoutProps {
   master: ReactNode;
-  detail: ReactNode;
+  detail?: ReactNode;
 }
 export const MasterDetailLayout = ({ master, detail }: MasterDetailLayoutProps) => {
   return (
     <div css={containerStyles}>
-      <main css={detailStyles}>
-        {detail}
-      </main>
-      <nav css={masterStyles}>
-        {master}
-      </nav>
+      {!!detail && 
+        <main css={detailStyles}>{detail}</main>
+      }
+      <nav css={masterStyles}>{master}</nav>
     </div>
   );
 }

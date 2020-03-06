@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router';
-import { EntityKind } from '@local/schema';
+import { EntityKind, Item } from '@local/schema';
 import { css } from '@emotion/core';
 
 import { useItem } from '~/data';
@@ -18,13 +18,14 @@ const rootStyles = css({
 const detailsStyles = css({
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
-  '@media(max-width: 600px)': {
+  [`@media(max-width: ${sizing.minContentWidth}px)`]: {
     gridTemplateColumns: 'repeat(1, 1fr)',
   },
 });
 
 export function ItemPage() {
   const { slug } = useParams<{ slug?: string }>();
+  const item = useItem(slug);
   const navigate = useNavigate();
 
   return (
@@ -36,15 +37,12 @@ export function ItemPage() {
           onChange={slug => navigate(itemUrl(slug))} 
         />
       }
-      detail={<_Detail slug={slug} />}
+      detail={!!item && <_Detail item={item} />}
     />
   );
 }
 
-function _Detail({ slug }: { slug?: string }) {
-  const item = useItem(slug);
-  if (!item) return <div>…</div>;
-
+function _Detail({ item }: { item: Item }) {
   const statistics = {} as Record<string, React.ReactNode>;
   
   if (item.raw) {

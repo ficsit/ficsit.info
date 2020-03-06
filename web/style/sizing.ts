@@ -1,5 +1,8 @@
 export { inlineIconSize, navButtonIconSize, navListIconSize, entityPosterIconSizes } from '@local/schema';
 
+export const sidebarWidth = 250;
+export const minContentWidth = 600;
+
 export const enum Padding {
   Small = 4,
   Medium = 8,

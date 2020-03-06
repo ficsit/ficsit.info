@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router';
-import { EntityKind } from '@local/schema';
+import { EntityKind, Building } from '@local/schema';
 import { css } from '@emotion/core';
 
 import { useBuilding } from '~/data';
@@ -16,6 +16,7 @@ const rootStyles = css({
 
 export function BuildingPage() {
   const { slug } = useParams<{ slug?: string }>();
+  const building = useBuilding(slug);
   const navigate = useNavigate();
 
   return (
@@ -27,16 +28,13 @@ export function BuildingPage() {
         onChange={slug => navigate(buildingUrl(slug))} 
       />
     }
-      detail={<_Detail slug={slug} />}
+      detail={!!building && <_Detail building={building} />}
     />
   );
 }
 
-function _Detail({ slug }: { slug?: string }) {
-  const building = useBuilding(slug);
+function _Detail({ building }: { building: Building }) {
   let [clockSpeed, setClockSpeed] = useState(1.0);
-  if (!building) return <React.Fragment>…</React.Fragment>;
-
   const statistics = {} as Record<string, React.ReactNode>;
 
   if (building.overclockable) {
