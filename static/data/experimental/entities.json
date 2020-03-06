@@ -59,6 +59,9 @@
     "fluid": {
       "color": "#c1c1c1ff"
     },
+    "categories": [
+      "Fluids"
+    ],
     "slug": "alumina-solution"
   },
   "aluminum-ingot": {
@@ -162,7 +165,10 @@
     "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG",
     "stackSize": 100,
     "slug": "bauxite",
-    "raw": true
+    "raw": true,
+    "categories": [
+      "Resources"
+    ]
   },
   "beacon": {
     "kind": "item",
@@ -278,7 +284,10 @@
     "icon": "6HkuY8ol3yKQywiSAmCE4M187rTIVuw0wI6waiQMW4Ak",
     "stackSize": 100,
     "slug": "caterium-ore",
-    "raw": true
+    "raw": true,
+    "categories": [
+      "Resources"
+    ]
   },
   "chainsaw": {
     "kind": "item",
@@ -313,7 +322,10 @@
       "energy": 300
     },
     "slug": "coal",
-    "raw": true
+    "raw": true,
+    "categories": [
+      "Resources"
+    ]
   },
   "coal-generator": {
     "kind": "building",
@@ -633,7 +645,10 @@
     "icon": "2KrBJL1WzeSYGMAmCQoowE4vhlksjXcckkuAu8SayuWU",
     "stackSize": 100,
     "slug": "copper-ore",
-    "raw": true
+    "raw": true,
+    "categories": [
+      "Resources"
+    ]
   },
   "copper-sheet": {
     "kind": "item",
@@ -740,6 +755,9 @@
     "fuel": {
       "energy": 0.32
     },
+    "categories": [
+      "Resources"
+    ],
     "slug": "crude-oil",
     "raw": true
   },
@@ -1040,6 +1058,9 @@
     "fuel": {
       "energy": 0.6
     },
+    "categories": [
+      "Fluids"
+    ],
     "slug": "fuel"
   },
   "fuel-generator": {
@@ -1162,6 +1183,9 @@
     "fuel": {
       "energy": 0.4
     },
+    "categories": [
+      "Fluids"
+    ],
     "slug": "heavy-oil-residue"
   },
   "high-speed-connector": {
@@ -1432,7 +1456,10 @@
     "icon": "5c0Gl1FsvuGGyGe28Mg2m87B3HVLJL6oKusESIUocEkS",
     "stackSize": 100,
     "slug": "iron-ore",
-    "raw": true
+    "raw": true,
+    "categories": [
+      "Resources"
+    ]
   },
   "iron-plate": {
     "kind": "item",
@@ -1497,7 +1524,10 @@
     "icon": "6BAPvz5Wr66qk6oOw0wiUI5agwR4fajeKUgak02qSKgy",
     "stackSize": 100,
     "slug": "limestone",
-    "raw": true
+    "raw": true,
+    "categories": [
+      "Resources"
+    ]
   },
   "liquid-biofuel": {
     "kind": "item",
@@ -1511,6 +1541,9 @@
     "fuel": {
       "energy": 0.75
     },
+    "categories": [
+      "Fluids"
+    ],
     "slug": "liquid-biofuel"
   },
   "lookout-tower": {
@@ -2181,7 +2214,10 @@
     "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km",
     "stackSize": 100,
     "slug": "raw-quartz",
-    "raw": true
+    "raw": true,
+    "categories": [
+      "Resources"
+    ]
   },
   "rebar-gun": {
     "kind": "item",
@@ -2441,7 +2477,10 @@
     "icon": "zIWbiVBnnEsiQy4MSooAS7mVmxEg27SISYawA0AgUe0",
     "stackSize": 100,
     "slug": "sulfur",
-    "raw": true
+    "raw": true,
+    "categories": [
+      "Resources"
+    ]
   },
   "sulfuric-acid": {
     "kind": "item",
@@ -2452,6 +2491,9 @@
     "fluid": {
       "color": "#ffff0ff"
     },
+    "categories": [
+      "Fluids"
+    ],
     "slug": "sulfuric-acid"
   },
   "supercomputer": {
@@ -2544,6 +2586,9 @@
     "fuel": {
       "energy": 2
     },
+    "categories": [
+      "Fluids"
+    ],
     "slug": "turbofuel"
   },
   "u-jelly-landing-pad": {
@@ -2573,7 +2618,10 @@
       "decay": 15
     },
     "slug": "uranium",
-    "raw": true
+    "raw": true,
+    "categories": [
+      "Resources"
+    ]
   },
   "uranium-pellet": {
     "kind": "item",
@@ -2914,6 +2962,9 @@
     "fluid": {
       "color": "#7ab0d4ff"
     },
+    "categories": [
+      "Fluids"
+    ],
     "slug": "water"
   },
   "water-extractor": {

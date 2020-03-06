@@ -52,6 +52,7 @@ async function _buildItem(entityDb: EntityDatabase, assetDb: AssetDatabase, raw:
     });
   }
 
+
   const baseName = /^[^_]+_(.+)_C$/.exec(raw.entity.ClassName)![1];
   const equipment = entityDb.get<'FGEquipment'>(`Equip_${baseName}_C`);
   if (equipment)  {
@@ -67,6 +68,14 @@ async function _buildItem(entityDb: EntityDatabase, assetDb: AssetDatabase, raw:
       slot: mapEquipmentSlot(equipment.entity.mEquipmentSlot),
       cost,
     });
+  }
+
+  if (raw.entity.mStackSize === 'SS_FLUID') {
+    _assign(item, 'categories', ['Fluids']);
+  // } else if (equipment) {
+  //   _assign(item, 'categories', ['Equipment']);
+  // } else {
+  //   _assign(item, 'categories', ['Parts']);
   }
 
   return item;

@@ -36,6 +36,7 @@ async function _buildRecipe(outputDb: OutputDatabase, entityDb: EntityDatabase, 
     // Make sure we mark the item description appropriately.
     const item = outputDb.getOrDie<Item>(raw.entity.mIngredients[0].ItemClass?.className!);
     item.raw = true;
+    item.categories = ['Resources'];
     // And don't emit a recipe for it.
     return;
   }
