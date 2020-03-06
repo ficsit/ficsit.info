@@ -118,7 +118,7 @@ export class App extends PureComponent {
         <h1 css={titleStyles}>
           <NavLink to='/'>
             <Image paths={logoImage} alt='FicsIt' height={36} width={144} css={logoStyles} />
-            Employee Intranet Portal
+            Employee Portal
           </NavLink>
         </h1>
         <nav aria-labelledby="site-navigation" css={navigationStyles}>
