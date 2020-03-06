@@ -7,6 +7,10 @@ declare module 'react-router' {
     hash?: string;
   }
 
+  export interface NavigateFunction {
+    (to: string, options?: { replace?: boolean, state?: any }): void;
+  }
+
   /**
    * Returns a hash of the dynamic params that were matched in the route path.
    * This is useful for using ids embedded in the URL to fetch data, but we
@@ -23,6 +27,12 @@ declare module 'react-router' {
    * provide something higher-level to better suit your needs.
    */
   export function useLocation(): Location;
+
+  /**
+   * Returns an imperative method for changing the location. Used by <Link>s, but
+   * may also be used by other elements to change the location.
+   */
+  export function useNavigate(): NavigateFunction;
 
   /**
    * Used in a route config to render an element.

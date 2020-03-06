@@ -1,15 +1,17 @@
 declare module 'react-virtualized-sticky-tree' {
   import * as React from 'react';
 
+  export type NodeId = string | number;
+
   export type Child = RegularChild | StickyChild;
 
   export interface RegularChild {
-    id: string | number; 
+    id: NodeId 
     height: number;
     isSticky?: false;
   }
   export interface StickyChild {
-    id: string | number;
+    id: NodeId
     height: number;
     isSticky: true;
     stickyTop: number;
@@ -51,6 +53,8 @@ declare module 'react-virtualized-sticky-tree' {
   }
 
   export interface StickyTreeProps<TChild extends Child = Child> {
+    treeRef?: React.Ref<any>;
+
     /**
      * Returns an array of child objects that represent the children of a particular node.
      * The returned object for each child should be in the form:
@@ -70,7 +74,7 @@ declare module 'react-virtualized-sticky-tree' {
      *    }))
      * }
      */
-    getChildren: (childId: string, parent: TChild) => TChild[];
+    getChildren: (childId: NodeId, parent: TChild) => TChild[];
 
     /**
      * Called to retrieve a row to render. The function should return a single React node.
@@ -157,6 +161,43 @@ declare module 'react-virtualized-sticky-tree' {
 
   export class StickyTree<TChild extends Child = Child> extends React.Component<StickyTreeProps<TChild>> {
     /**
+     * Returns the index of the node in a flat list tree (post-order traversal).
+     *
+     * @param nodeId The node index to get the index for.
+     */
+    getNodeIndex(nodeId: NodeId): number;
+
+    /**
+     * Returns the node that appears higher than this node (either a parent, sibling or child of the sibling above).
+     * @param nodeId The node to get the previous node of.
+     */
+    getPreviousNodeId(nodeId: NodeId): NodeId;
+
+    /**
+     * Returns the node that appears lower than this node (sibling or sibling of the node's parent).
+     * @param nodeId The node to get the next node of.
+     */
+    getNextNodeId(nodeId: NodeId): NodeId;
+
+    /**
+     * Returns true if the node is completely visible and is not obscured.
+     * This will return false when the node is partially obscured.
+     *
+     * @param nodeId The id of the node to check
+     * @param includeObscured if true, this method will return true for partially visible nodes.
+     */
+    isNodeVisible(nodeId: NodeId, includeObscured?: boolean): boolean;
+
+    /**
+     * Returns true if the node is completely visible and is not obscured, unless includeObscured is specified.
+     * This will return false when the node is partially obscured, unless includeObscured is set to true.
+     *
+     * @param index The index of the node to check, generally retrieved via getNodeIndex()
+     * @param includeObscured if true, this method will return true for partially visible nodes.
+     */
+    isIndexVisible(index: number, includeObscured?: boolean): boolean;
+
+    /**
      * Sets the scrollTop position of the scrollable element.
      * @param scrollTop
      */
@@ -169,7 +210,7 @@ declare module 'react-virtualized-sticky-tree' {
      * @param alignToTop if true, the node will aligned to the top of viewport, or sticky parent. If false, the bottom of the node will
      * be aligned with the bottom of the viewport.
      */
-    scrollNodeIntoView(nodeId: string, alignToTop?: boolean): void;
+    scrollNodeIntoView(nodeId: NodeId, alignToTop?: boolean): void;
 
     /**
      * Scrolls the node into view so that it is visible.
@@ -179,6 +220,8 @@ declare module 'react-virtualized-sticky-tree' {
      * be aligned with the bottom of the viewport.
      */
     scrollIndexIntoView(index: number, alignToTop?: boolean): void;
+
+    nodes: TChild[];
   }
 
   export class AutoSizedStickyTree<TChild extends Child = Child> extends StickyTree<TChild> {}

@@ -1,4 +1,4 @@
-import { useParams } from 'react-router';
+import { useParams, useNavigate } from 'react-router';
 import { EntityKind } from '@local/schema';
 import { css } from '@emotion/core';
 
@@ -9,6 +9,7 @@ import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
 import { ItemRecipes } from './ItemRecipes';
 import { ItemUses } from './ItemUses';
+import { itemUrl } from '~/routing';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,
@@ -24,10 +25,17 @@ const detailsStyles = css({
 
 export function ItemPage() {
   const { slug } = useParams<{ slug?: string }>();
+  const navigate = useNavigate();
 
   return (
     <MasterDetailLayout 
-      master={<EntityList kind={EntityKind.Item} />}
+      master={
+        <EntityList 
+          kind={EntityKind.Item} 
+          selected={slug} 
+          onChange={slug => navigate(itemUrl(slug))} 
+        />
+      }
       detail={<_Detail slug={slug} />}
     />
   );

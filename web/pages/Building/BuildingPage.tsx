@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useParams } from 'react-router';
+import { useParams, useNavigate } from 'react-router';
 import { EntityKind } from '@local/schema';
 import { css } from '@emotion/core';
 
@@ -8,6 +8,7 @@ import { sizing } from '~/style';
 import { MasterDetailLayout } from '~/layouts';
 import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
+import { buildingUrl } from '~/routing';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,
@@ -15,10 +16,17 @@ const rootStyles = css({
 
 export function BuildingPage() {
   const { slug } = useParams<{ slug?: string }>();
+  const navigate = useNavigate();
 
   return (
     <MasterDetailLayout 
-      master={<EntityList kind={EntityKind.Building} />}
+    master={
+      <EntityList 
+        kind={EntityKind.Building} 
+        selected={slug} 
+        onChange={slug => navigate(buildingUrl(slug))} 
+      />
+    }
       detail={<_Detail slug={slug} />}
     />
   );

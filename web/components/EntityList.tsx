@@ -1,8 +1,8 @@
 import { NavLink } from 'react-router-dom';
 import { EntityKind, AnyEntity } from '@local/schema';
 import { css } from '@emotion/core';
-import { useMemo, useState } from 'react';
-import { AutoSizedStickyTree, RegularChild, StickyChild, RowInfo } from 'react-virtualized-sticky-tree';
+import { useMemo, useState, useEffect } from 'react';
+import { AutoSizedStickyTree, RegularChild, StickyChild, RowInfo, NodeId } from 'react-virtualized-sticky-tree';
 
 import { colors, sizing } from '~/style';
 import { entityUrl } from '~/routing';
@@ -84,28 +84,81 @@ const entityStyles = css({
   },
   ':hover, &.active': {
     color: colors.Light.N0,
-    backgroundColor: colors.Primary.N500,
     'picture': {
       filter: 'drop-shadow(0 0 3px rgba(255, 255, 255, 0.65))',
     },
+  },
+  ':hover': {
+    backgroundColor: `${colors.Primary.N500}aa`,
+  },
+  '&.active': {
+    backgroundColor: colors.Primary.N500,
   },
 });
 
 export interface EntityListProps {
   kind: EntityKind;
+  selected?: string;
+  onChange?: (newSelected: string) => void;
 }
 
-export function EntityList({ kind }: EntityListProps) {
+export function EntityList({ kind, selected, onChange }: EntityListProps) {
   const [filter, setFilter] = useState('');
+  const [scrolled, setScrolled] = useState(false);
   const entities = useEntitiesByKind(kind);
   const fullTree = useMemo(() => _dataSource(entities), [entities]);
+  const selectedId = useMemo(() => _findId(fullTree, selected), [fullTree, selected])
   const tree = useMemo(() => _filterTree(fullTree, filter), [fullTree, filter]);
+
+  const inputRef = React.createRef<HTMLInputElement>();
+  const treeRef = React.createRef<AutoSizedStickyTree<AnyNode>>();
+  // scroll after our first render /w a tree
+  useEffect(() => {
+    if (scrolled) return;
+    const { current } = treeRef;
+    if (!current) return;
+    current.scrollNodeIntoView(selectedId!);
+    setScrolled(true);
+  });
+
   if (!tree) return null;
 
   return (
-    <div css={rootStyles}>
-      <input type='text' placeholder='Search…' value={filter} onChange={e => setFilter(e.target.value)} />
+    <div css={rootStyles} onClick={() => inputRef.current?.focus()}>
+      <input 
+        ref={inputRef}
+        type='text' 
+        placeholder='Search…' 
+        value={filter} 
+        onChange={({ target }) => {
+          setFilter(target.value);
+          treeRef.current?.setScrollTop(0);
+        }}
+        onKeyDown={(event) => {
+          if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
+            event.preventDefault();
+          } else {
+            return;
+          }
+          const { current } = treeRef
+          if (!current || typeof selectedId === 'undefined') return;
+
+          let newNodeIndex;
+          if (event.key === 'ArrowDown') {
+            newNodeIndex = _findAdjacentEntityIndex(current, selectedId, 'down');
+          } else if (event.key === 'ArrowUp') {
+            newNodeIndex = _findAdjacentEntityIndex(current, selectedId, 'up');
+          }
+
+          if (!newNodeIndex) return;
+          onChange?.((current.nodes[newNodeIndex] as EntityNode).entity.slug);
+
+          if (current.isIndexVisible(newNodeIndex)) return;
+          current.scrollIndexIntoView(newNodeIndex, event.key === 'ArrowUp');
+        }}
+      />
       <AutoSizedStickyTree
+        treeRef={treeRef}
         css={listStyles}
         root={tree}
         isModelImmutable={true}
@@ -115,7 +168,6 @@ export function EntityList({ kind }: EntityListProps) {
         overscanRowCount={5}
       />
     </div>
-    
   )
 }
 
@@ -235,4 +287,34 @@ function _filterTree(tree?: RootNode, filterText?: string) {
 function _compileFilter(filterText: string) {
   const source = filterText.toLowerCase().split('').join('.*');
   return new RegExp(source, 'i');
+}
+
+function _findId(tree?: RootNode, selectedSlug?: string) {
+  if (!tree || !selectedSlug) return;
+
+  for (const category of tree.childNodes) {
+    for (const subCategory of category.childNodes) {
+      for (const { id, entity } of subCategory.childNodes) {
+        if (entity.slug === selectedSlug) return id;
+      }
+    }
+  }
+}
+
+function _findAdjacentEntityIndex(tree: AutoSizedStickyTree<AnyNode>, currentId: NodeId, direction: 'up' | 'down') {
+  const currentNode = tree.nodes[tree.getNodeIndex(currentId)];
+  if (!currentNode) return tree.nodes.findIndex(n => n.kind === 'entity');
+
+  const move = direction === 'down' ? 'getNextNodeId' : 'getPreviousNodeId';
+  while (true) {
+    const newId = tree[move](currentId);
+    if (newId === undefined) return;
+
+    const newIndex = tree.getNodeIndex(newId);
+    if (tree.nodes[newIndex].kind === 'entity') {
+      return newIndex;
+    } else {
+      currentId = newId;
+    }
+  }
 }
