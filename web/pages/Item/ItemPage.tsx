@@ -3,11 +3,16 @@ import { EntityKind } from '@local/schema';
 import { css } from '@emotion/core';
 
 import { useItem } from '~/data';
+import { sizing } from '~/style';
 import { MasterDetailLayout } from '~/layouts';
 import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
 import { ItemRecipes } from './ItemRecipes';
 import { ItemUses } from './ItemUses';
+
+const rootStyles = css({
+  padding: sizing.sectionPadding,
+});
 
 const detailsStyles = css({
   display: 'grid',
@@ -61,7 +66,7 @@ function _Detail({ slug }: { slug?: string }) {
   }
 
   return (
-    <article>
+    <article css={rootStyles}>
       <EntitySummary entity={item} imageSize={128} statistics={statistics}/>
       <div css={detailsStyles}>
         <ItemRecipes item={item} />

@@ -10,28 +10,13 @@ export interface SectionProps {
 }
 
 const rootStyles = css({
-  margin: sizing.Padding.Normal,
-  '> h1, > h2, > h3, > h4, > h5, > h6': {
-    marginTop: 0,
-    marginBottom: 0,
-    fontWeight: 'lighter',
-    textTransform: 'uppercase',
-    lineHeight: '1.0',
-    paddingBottom: sizing.Padding.Small,
-    paddingLeft: sizing.Padding.Normal + borderSize,
-    paddingRight: sizing.Padding.Normal + borderSize,
-  },
-  '> h1': {
-    fontSize: 36,
-  },
-  '> h2': {
-    fontSize: 24,
-  },
+  padding: sizing.sectionPadding,
 });
 
 const headerStyles = css({
   paddingLeft: sizing.Padding.Normal,
   paddingRight: sizing.Padding.Normal,
+  paddingBottom: '0.25em',
 });
 
 const contentStyles = css({
@@ -42,11 +27,11 @@ const contentStyles = css({
 });
 
 export function Section({ children, title, ...props }: SectionProps) {
-  if (typeof title === 'string') title = <h2 css={headerStyles}>{title}</h2>
+  if (typeof title === 'string') title = <h2>{title}</h2>
 
   return (
     <section css={rootStyles} {...props}>
-      {title}
+      <div css={headerStyles}>{title}</div>
       <div css={contentStyles}>{children}</div>
     </section>
   );

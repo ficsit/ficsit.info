@@ -14,9 +14,8 @@ const getHeaderStyles = memoize((imageSize: number) => css({
   display: 'flex',
   flexDirection: 'column',
   justifyContent: 'flex-end',
-  fontSize: 36,
-  marginLeft: imageSize + basePadding,
-  minHeight: (imageSize * insetAmount) - basePadding,
+  paddingLeft: imageSize + basePadding,
+  minHeight: (imageSize * insetAmount) - basePadding - sizing.sectionPadding * 2,
 }));
 
 const summaryStyles = css({

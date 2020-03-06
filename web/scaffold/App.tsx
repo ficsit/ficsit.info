@@ -10,6 +10,34 @@ import { AppRoutes } from './AppRoutes';
 
 import logoImage from '../assets/images/ficsit-logo@*.*';
 
+const globalStyles = css({
+  'h1, h2, h3, h4, h5, h6': {
+    margin: 0,
+    fontWeight: 'lighter',
+    lineHeight: '1.0',
+  },
+  'h1': {
+    fontSize: 36,
+    textTransform: 'uppercase',
+  },
+  'h2': {
+    fontSize: 24,
+    textTransform: 'uppercase',
+  },
+  'h3': {
+    fontSize: 20,
+  },
+  'h4': {
+    fontSize: 16,
+  },
+  'h5': {
+    fontSize: 14,
+  },
+  'h6': {
+    fontSize: 12,
+  },
+});
+
 const containerStyles = css({
   display: 'flex',
   flexDirection: 'column',
@@ -98,9 +126,10 @@ export class App extends PureComponent {
           <ul>
             <li><NavLink to='/items'>Items</NavLink></li>
             <li><NavLink to='/buildings'>Buildings</NavLink></li>
-            <li><NavLink to='/vehicles'>Vehicles</NavLink></li>
-            <li><NavLink to='/recipes'>Recipes</NavLink></li>
-            <li><NavLink to='/research'>Research</NavLink></li>
+            <li><NavLink to='/embetterer'>Embetterer™</NavLink></li>
+            {/* <li><NavLink to='/vehicles'>Vehicles</NavLink></li> */}
+            {/* <li><NavLink to='/recipes'>Recipes</NavLink></li> */}
+            {/* <li><NavLink to='/research'>Research</NavLink></li> */}
           </ul>
         </nav>
       </header>
@@ -109,7 +138,7 @@ export class App extends PureComponent {
 
   _renderContent() {
     return (
-      <div css={contentStyles}>
+      <div css={[globalStyles, contentStyles]}>
         <AppRoutes />
       </div>
     )

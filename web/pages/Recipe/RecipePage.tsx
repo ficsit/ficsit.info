@@ -10,6 +10,10 @@ import { Building } from '@local/schema';
 import { RecipeManufacturerDetails } from './RecipeManufacturerDetails';
 import { RecipeManualDetails } from './RecipeManualDetails';
 
+const rootStyles = css({
+  padding: sizing.sectionPadding,
+});
+
 const contentStyles = css({
   display: 'flex',
 });
@@ -49,7 +53,7 @@ function _Detail({ slug }: { slug?: string }) {
   if (!manufacturer?.overclockable) clockSpeed = 1.0;
 
   return (
-    <article>
+    <article css={rootStyles}>
       <Section title={<h1>{recipe.name}</h1>}>
         <div css={contentStyles}>
           {!!manufacturer &&

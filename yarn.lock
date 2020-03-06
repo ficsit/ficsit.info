@@ -6012,6 +6012,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
+kiwi.js@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/kiwi.js/-/kiwi.js-1.1.2.tgz#814fa53602f7b095361be0e771ae9b32ebe5fdef"
+  integrity sha512-O/6vug4T5j7eEBYdtxdI4BrPcJyp0qC0ai0oka2tGwJfbUXYSgCQil+dzzPmDCZxSkGcIvkaoQGy05tmCCfa5g==
+
 klaw@^1.0.0:
   version "1.3.1"
   resolved "https://registry.npmjs.org/klaw/-/klaw-1.3.1.tgz#4088433b46b3b1ba259d78785d8e96f73ba02439"

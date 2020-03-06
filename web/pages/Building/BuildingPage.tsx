@@ -1,11 +1,17 @@
 import { useState } from 'react';
 import { useParams } from 'react-router';
 import { EntityKind } from '@local/schema';
+import { css } from '@emotion/core';
 
 import { useBuilding } from '~/data';
+import { sizing } from '~/style';
 import { MasterDetailLayout } from '~/layouts';
 import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
+
+const rootStyles = css({
+  padding: sizing.sectionPadding,
+});
 
 export function BuildingPage() {
   const { slug } = useParams<{ slug?: string }>();
@@ -66,7 +72,7 @@ function _Detail({ slug }: { slug?: string }) {
   }
 
   return (
-    <article>
+    <article css={rootStyles}>
       <EntitySummary entity={building} imageSize={256} statistics={statistics} />
     </article>
   );
