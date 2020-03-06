@@ -19,7 +19,7 @@ export function makeDataHook<TResult extends object>(path: string, transform: (d
 }
 
 export async function fetchData(path: string) {
-  const response = await fetch(_dataUrl(`${path}.json`, 'v115821'), {
+  const response = await fetch(_dataUrl(`${path}.json`, 'experimental'), {
     method: 'GET',
     credentials: 'include',
   });
