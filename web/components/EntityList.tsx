@@ -127,7 +127,17 @@ export function EntityList({ kind, selected, onChange }: EntityListProps) {
   if (!tree) return null;
 
   return (
-    <div css={rootStyles} onClick={() => inputRef.current?.focus()}>
+    <div 
+      css={rootStyles} 
+      onClick={() => {
+        // Give a brief delay before focusing in case we're navigating on
+        // mobile.
+        const input = inputRef.current;
+        requestAnimationFrame(() => 
+          requestAnimationFrame(() => input?.focus())
+        );
+      }}
+    >
       <input 
         ref={inputRef}
         type='text' 
