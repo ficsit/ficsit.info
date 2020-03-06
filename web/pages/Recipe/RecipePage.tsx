@@ -15,20 +15,26 @@ const rootStyles = css({
 });
 
 const contentStyles = css({
-  display: 'flex',
+  display: 'grid',
+  gridTemplateAreas: `
+    "manufacturer recipe handcrafting"
+  `,
+  overflow: 'hidden',
+
+  [`@media(max-width: ${sizing.minContentWidth + sizing.sidebarWidth}px)`]: {
+    gridTemplateAreas: `
+      "recipe recipe"
+      "manufacturer handcrafting"
+    `,
+  },
 });
 
-const contentContainerStyles = css({
-  display: 'flex',
-  padding: `0 ${sizing.Padding.Normal}px`,
-  borderLeft: `1px solid ${colors.Light.N400}`,
-  '&:first-of-type': {
-    paddingLeft: 0,
-    borderLeft: 'none',
-  },
-  '&:last-of-type': {
-    paddingRight: 0,
-  },
+const manufacturerContainerStyles = css({
+  gridArea: 'manufacturer',
+});
+
+const handcraftingContainerStyles = css({
+  gridArea: 'handcrafting',
 });
 
 const recipeContainerStyles = css({
@@ -36,6 +42,15 @@ const recipeContainerStyles = css({
   display: 'flex',
   alignItems: 'center',
 });
+
+const contentContainerStyles = css({
+  display: 'flex',
+  gridArea: 'recipe',
+  padding: sizing.Padding.Normal,
+  margin: -1,
+  border: `1px solid ${colors.Light.N100}`,
+});
+
 
 export function RecipePage() {
   const { slug } = useParams<{ slug?: string }>();
@@ -57,7 +72,7 @@ function _Detail({ slug }: { slug?: string }) {
       <Section title={<h1>{recipe.name}</h1>}>
         <div css={contentStyles}>
           {!!manufacturer &&
-            <div css={contentContainerStyles}>
+            <div css={[contentContainerStyles, manufacturerContainerStyles]}>
               <RecipeManufacturerDetails recipe={recipe} manufacturer={manufacturer} clockSpeed={clockSpeed} setClockSpeed={setClockSpeed} />
             </div>
           }
@@ -65,7 +80,7 @@ function _Detail({ slug }: { slug?: string }) {
             <RecipeDetails recipe={recipe} entities={entities} clockSpeed={clockSpeed} />
           </div>
           {!!recipe.handcraftedIn?.length &&
-            <div css={contentContainerStyles}>
+            <div css={[contentContainerStyles, handcraftingContainerStyles]}>
               <RecipeManualDetails recipe={recipe} />
             </div>
           }
