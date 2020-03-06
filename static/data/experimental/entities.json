@@ -2204,7 +2204,7 @@
     "icon": "5OBu6xgNtmGwmiUau2mOW83PZ7ecN1kIWGKQGGk0S0QI",
     "overclockable": true,
     "powerConsumption": {
-      "amount": 50,
+      "amount": 30,
       "exponent": 1.6
     },
     "slug": "refinery"

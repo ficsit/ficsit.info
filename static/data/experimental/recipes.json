@@ -98,7 +98,7 @@
       },
       {
         "item": "rubber",
-        "count": 2
+        "count": 1
       }
     ],
     "products": [
@@ -115,6 +115,37 @@
     "manualMultiplier": 1,
     "alternate": true,
     "slug": "recipe-alternate-adhered-iron-plate"
+  },
+  "recipe-alternate-automated-speed-wiring": {
+    "name": "Alternate: Automated Speed Wiring",
+    "ingredients": [
+      {
+        "item": "stator",
+        "count": 2
+      },
+      {
+        "item": "wire",
+        "count": 40
+      },
+      {
+        "item": "high-speed-connector",
+        "count": 1
+      }
+    ],
+    "products": [
+      {
+        "item": "automated-wiring",
+        "count": 4
+      }
+    ],
+    "producedIn": [
+      "manufacturer"
+    ],
+    "handcraftedIn": [],
+    "duration": 32,
+    "manualMultiplier": 1,
+    "alternate": true,
+    "slug": "recipe-alternate-automated-speed-wiring"
   },
   "recipe-alternate-biocoal": {
     "name": "Alternate: Biocoal",
@@ -171,7 +202,7 @@
     "ingredients": [
       {
         "item": "iron-plate",
-        "count": 16
+        "count": 18
       },
       {
         "item": "screw",
@@ -352,7 +383,7 @@
     "ingredients": [
       {
         "item": "wire",
-        "count": 7
+        "count": 5
       },
       {
         "item": "heavy-oil-residue",
@@ -383,7 +414,7 @@
       },
       {
         "item": "plastic",
-        "count": 4
+        "count": 2
       }
     ],
     "products": [
@@ -598,25 +629,25 @@
     "name": "Alternate: Diluted Packaged Fuel",
     "ingredients": [
       {
-        "item": "packaged-heavy-oil-residue",
-        "count": 3
+        "item": "heavy-oil-residue",
+        "count": 1000
       },
       {
-        "item": "water",
-        "count": 3000
+        "item": "packaged-water",
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "packaged-fuel",
-        "count": 4
+        "count": 2
       }
     ],
     "producedIn": [
       "refinery"
     ],
     "handcraftedIn": [],
-    "duration": 4,
+    "duration": 2,
     "manualMultiplier": 1,
     "alternate": true,
     "slug": "recipe-alternate-diluted-packaged-fuel"
@@ -684,17 +715,17 @@
     "ingredients": [
       {
         "item": "stator",
-        "count": 6
+        "count": 10
       },
       {
         "item": "high-speed-connector",
-        "count": 3
+        "count": 5
       }
     ],
     "products": [
       {
         "item": "electromagnetic-control-rod",
-        "count": 6
+        "count": 10
       }
     ],
     "producedIn": [
@@ -765,7 +796,7 @@
     "ingredients": [
       {
         "item": "silica",
-        "count": 5
+        "count": 3
       },
       {
         "item": "limestone",
@@ -996,37 +1027,6 @@
     "alternate": true,
     "slug": "recipe-alternate-heavy-oil-residue"
   },
-  "recipe-alternate-high-speed-wiring": {
-    "name": "Alternate: High-Speed Wiring",
-    "ingredients": [
-      {
-        "item": "stator",
-        "count": 2
-      },
-      {
-        "item": "cable",
-        "count": 40
-      },
-      {
-        "item": "high-speed-connector",
-        "count": 2
-      }
-    ],
-    "products": [
-      {
-        "item": "automated-wiring",
-        "count": 4
-      }
-    ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [],
-    "duration": 32,
-    "manualMultiplier": 1,
-    "alternate": true,
-    "slug": "recipe-alternate-high-speed-wiring"
-  },
   "recipe-alternate-infused-uranium-cell": {
     "name": "Alternate: Infused Uranium Cell",
     "ingredients": [
@@ -1214,7 +1214,7 @@
       },
       {
         "item": "rotor",
-        "count": 2
+        "count": 1
       },
       {
         "item": "plastic",
@@ -1436,7 +1436,7 @@
     "products": [
       {
         "item": "cable",
-        "count": 9
+        "count": 11
       }
     ],
     "producedIn": [
@@ -1515,7 +1515,7 @@
       },
       {
         "item": "fuel",
-        "count": 5000
+        "count": 6000
       }
     ],
     "products": [
@@ -1538,7 +1538,7 @@
     "ingredients": [
       {
         "item": "plastic",
-        "count": 5
+        "count": 6
       },
       {
         "item": "fuel",
@@ -1579,14 +1579,14 @@
     "products": [
       {
         "item": "motor",
-        "count": 5
+        "count": 6
       }
     ],
     "producedIn": [
       "manufacturer"
     ],
     "handcraftedIn": [],
-    "duration": 40,
+    "duration": 48,
     "manualMultiplier": 1,
     "alternate": true,
     "slug": "recipe-alternate-rigour-motor"
@@ -1600,7 +1600,7 @@
       },
       {
         "item": "rubber",
-        "count": 4
+        "count": 2
       }
     ],
     "products": [
@@ -1766,17 +1766,17 @@
     "ingredients": [
       {
         "item": "steel-ingot",
-        "count": 4
+        "count": 3
       },
       {
         "item": "plastic",
-        "count": 4
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "iron-plate",
-        "count": 15
+        "count": 18
       }
     ],
     "producedIn": [
@@ -1820,7 +1820,7 @@
       },
       {
         "item": "wire",
-        "count": 12
+        "count": 6
       }
     ],
     "products": [
@@ -1897,7 +1897,7 @@
       },
       {
         "item": "wire",
-        "count": 26
+        "count": 20
       }
     ],
     "products": [
@@ -1947,19 +1947,19 @@
     "ingredients": [
       {
         "item": "motor",
-        "count": 8
+        "count": 7
       },
       {
         "item": "radio-control-unit",
-        "count": 4
+        "count": 5
       },
       {
         "item": "ai-limiter",
-        "count": 8
+        "count": 9
       },
       {
         "item": "stator",
-        "count": 8
+        "count": 7
       }
     ],
     "products": [
@@ -1982,7 +1982,7 @@
     "ingredients": [
       {
         "item": "limestone",
-        "count": 12
+        "count": 6
       },
       {
         "item": "water",
@@ -1992,14 +1992,14 @@
     "products": [
       {
         "item": "concrete",
-        "count": 8
+        "count": 4
       }
     ],
     "producedIn": [
       "refinery"
     ],
     "handcraftedIn": [],
-    "duration": 6,
+    "duration": 3,
     "manualMultiplier": 1,
     "alternate": true,
     "slug": "recipe-alternate-wet-concrete"
@@ -3550,13 +3550,13 @@
     "ingredients": [
       {
         "item": "plastic",
-        "count": 3
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "empty-canister",
-        "count": 1
+        "count": 4
       }
     ],
     "producedIn": [
@@ -3565,7 +3565,7 @@
     "handcraftedIn": [
       "craft-bench"
     ],
-    "duration": 6,
+    "duration": 4,
     "manualMultiplier": 1,
     "slug": "recipe-empty-canister"
   },
@@ -5460,17 +5460,17 @@
     "ingredients": [
       {
         "item": "fuel",
-        "count": 1000
+        "count": 2000
       },
       {
         "item": "empty-canister",
-        "count": 1
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "packaged-fuel",
-        "count": 1
+        "count": 2
       }
     ],
     "producedIn": [
@@ -5486,43 +5486,17 @@
     "ingredients": [
       {
         "item": "heavy-oil-residue",
-        "count": 1000
+        "count": 2000
       },
       {
         "item": "empty-canister",
-        "count": 1
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "packaged-heavy-oil-residue",
-        "count": 1
-      }
-    ],
-    "producedIn": [
-      "refinery"
-    ],
-    "handcraftedIn": [],
-    "duration": 6,
-    "manualMultiplier": 1,
-    "slug": "recipe-packaged-heavy-oil-residue"
-  },
-  "recipe-packaged-liquid-biofuel": {
-    "name": "Packaged Liquid Biofuel",
-    "ingredients": [
-      {
-        "item": "liquid-biofuel",
-        "count": 1000
-      },
-      {
-        "item": "empty-canister",
-        "count": 1
-      }
-    ],
-    "products": [
-      {
-        "item": "packaged-liquid-biofuel",
-        "count": 1
+        "count": 2
       }
     ],
     "producedIn": [
@@ -5531,6 +5505,32 @@
     "handcraftedIn": [],
     "duration": 4,
     "manualMultiplier": 1,
+    "slug": "recipe-packaged-heavy-oil-residue"
+  },
+  "recipe-packaged-liquid-biofuel": {
+    "name": "Packaged Liquid Biofuel",
+    "ingredients": [
+      {
+        "item": "liquid-biofuel",
+        "count": 2000
+      },
+      {
+        "item": "empty-canister",
+        "count": 2
+      }
+    ],
+    "products": [
+      {
+        "item": "packaged-liquid-biofuel",
+        "count": 2
+      }
+    ],
+    "producedIn": [
+      "refinery"
+    ],
+    "handcraftedIn": [],
+    "duration": 3,
+    "manualMultiplier": 1,
     "slug": "recipe-packaged-liquid-biofuel"
   },
   "recipe-packaged-oil": {
@@ -5538,24 +5538,24 @@
     "ingredients": [
       {
         "item": "crude-oil",
-        "count": 1000
+        "count": 2000
       },
       {
         "item": "empty-canister",
-        "count": 1
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "packaged-oil",
-        "count": 1
+        "count": 2
       }
     ],
     "producedIn": [
       "refinery"
     ],
     "handcraftedIn": [],
-    "duration": 5,
+    "duration": 4,
     "manualMultiplier": 1,
     "slug": "recipe-packaged-oil"
   },
@@ -5564,17 +5564,17 @@
     "ingredients": [
       {
         "item": "turbofuel",
-        "count": 1000
+        "count": 2000
       },
       {
         "item": "empty-canister",
-        "count": 1
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "packaged-turbofuel",
-        "count": 1
+        "count": 2
       }
     ],
     "producedIn": [
@@ -5590,17 +5590,17 @@
     "ingredients": [
       {
         "item": "water",
-        "count": 1000
+        "count": 2000
       },
       {
         "item": "empty-canister",
-        "count": 1
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "packaged-water",
-        "count": 1
+        "count": 2
       }
     ],
     "producedIn": [
@@ -5667,13 +5667,13 @@
     "ingredients": [
       {
         "item": "heavy-oil-residue",
-        "count": 2000
+        "count": 4000
       }
     ],
     "products": [
       {
         "item": "petroleum-coke",
-        "count": 6
+        "count": 12
       }
     ],
     "producedIn": [
@@ -5912,7 +5912,7 @@
       },
       {
         "item": "heavy-oil-residue",
-        "count": 2000
+        "count": 1000
       }
     ],
     "producedIn": [
@@ -6480,13 +6480,13 @@
     "ingredients": [
       {
         "item": "heavy-oil-residue",
-        "count": 3000
+        "count": 6000
       }
     ],
     "products": [
       {
         "item": "fuel",
-        "count": 2000
+        "count": 4000
       }
     ],
     "producedIn": [
@@ -6502,7 +6502,7 @@
     "ingredients": [
       {
         "item": "polymer-resin",
-        "count": 3
+        "count": 6
       },
       {
         "item": "water",
@@ -6512,7 +6512,7 @@
     "products": [
       {
         "item": "plastic",
-        "count": 1
+        "count": 2
       }
     ],
     "producedIn": [
@@ -6528,7 +6528,7 @@
     "ingredients": [
       {
         "item": "polymer-resin",
-        "count": 2
+        "count": 4
       },
       {
         "item": "water",
@@ -6538,7 +6538,7 @@
     "products": [
       {
         "item": "rubber",
-        "count": 1
+        "count": 2
       }
     ],
     "producedIn": [
@@ -6626,7 +6626,7 @@
       },
       {
         "item": "heavy-oil-residue",
-        "count": 1000
+        "count": 2000
       }
     ],
     "producedIn": [
@@ -7350,17 +7350,17 @@
     "ingredients": [
       {
         "item": "packaged-fuel",
-        "count": 1
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "fuel",
-        "count": 1000
+        "count": 2000
       },
       {
         "item": "empty-canister",
-        "count": 1
+        "count": 2
       }
     ],
     "producedIn": [
@@ -7376,13 +7376,13 @@
     "ingredients": [
       {
         "item": "packaged-heavy-oil-residue",
-        "count": 1
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "heavy-oil-residue",
-        "count": 1000
+        "count": 2000
       },
       {
         "item": "empty-canister",
@@ -7402,17 +7402,17 @@
     "ingredients": [
       {
         "item": "packaged-liquid-biofuel",
-        "count": 1
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "liquid-biofuel",
-        "count": 1000
+        "count": 2000
       },
       {
         "item": "empty-canister",
-        "count": 1
+        "count": 2
       }
     ],
     "producedIn": [
@@ -7428,17 +7428,17 @@
     "ingredients": [
       {
         "item": "packaged-oil",
-        "count": 1
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "crude-oil",
-        "count": 1000
+        "count": 2000
       },
       {
         "item": "empty-canister",
-        "count": 1
+        "count": 2
       }
     ],
     "producedIn": [
@@ -7454,24 +7454,24 @@
     "ingredients": [
       {
         "item": "packaged-turbofuel",
-        "count": 1
+        "count": 2
       }
     ],
     "products": [
       {
         "item": "turbofuel",
-        "count": 1000
+        "count": 2000
       },
       {
         "item": "empty-canister",
-        "count": 1
+        "count": 2
       }
     ],
     "producedIn": [
       "refinery"
     ],
     "handcraftedIn": [],
-    "duration": 12,
+    "duration": 6,
     "manualMultiplier": 1,
     "slug": "recipe-unpackage-turbo-fuel"
   },
@@ -7497,7 +7497,7 @@
       "refinery"
     ],
     "handcraftedIn": [],
-    "duration": 2,
+    "duration": 1,
     "manualMultiplier": 1,
     "slug": "recipe-unpackage-water"
   },
