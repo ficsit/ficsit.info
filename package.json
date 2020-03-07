@@ -43,6 +43,7 @@
     "parcel": "^1.12.4",
     "parcel-bundler": "^1.12.4",
     "parcel-plugin-interpolate-env": "^0.0.1",
+    "parcel-plugin-service-worker-manifest": "^1.2.1",
     "parcel-plugin-static-files-copy": "^2.3.1",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
@@ -54,6 +55,9 @@
     "sharp": "^0.24.1",
     "ts-jest": "^25.2.1",
     "ts-node": "^8.6.2",
-    "typescript": "^3.8.2"
+    "typescript": "^3.8.2",
+    "workbox-precaching": "^5.0.0",
+    "workbox-routing": "^5.0.0",
+    "workbox-strategies": "^5.0.0"
   }
 }

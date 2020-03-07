@@ -17,5 +17,6 @@
   },
   "npm.packageManager": "yarn",
   "npm.autoDetect": "off",
-  "typescript.tsc.autoDetect": "off"
+  "typescript.tsc.autoDetect": "off",
+  "typescript.tsdk": "node_modules/typescript/lib"
 }

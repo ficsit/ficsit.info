@@ -53,6 +53,14 @@
     <p>He is currently receiving disciplinary action.</p>
     <p>Please check back later.</p>
   </div>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./siteWorker.ts');
+      });
+    }
+    </script>
 </body>
 
 </html>
