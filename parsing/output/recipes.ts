@@ -1,4 +1,4 @@
-import { Recipe, Item } from '@local/schema';
+import { Recipe } from '@local/schema';
 
 import { EntityDatabase, OutputDatabase, WithoutSlug } from '../state';
 
@@ -27,19 +27,8 @@ export async function fillRecipes(outputDb: OutputDatabase, entityDb: EntityData
 }
 
 async function _buildRecipe(outputDb: OutputDatabase, entityDb: EntityDatabase, raw: RawInfo): Promise<BuiltRecipe | undefined> {
-  // Is it a raw resource?
-  if (raw.entity.mProducedIn.length === 1 
-   && raw.entity.mProducedIn[0]?.className === 'Build_Converter_C' 
-   && raw.entity.mIngredients.length === 1 
-   && raw.entity.mProduct.length === 1 
-   && raw.entity.mIngredients[0].ItemClass?.className === raw.entity.mProduct[0].ItemClass?.className) {
-    // Make sure we mark the item description appropriately.
-    const item = outputDb.getOrDie<Item>(raw.entity.mIngredients[0].ItemClass?.className!);
-    item.raw = true;
-    item.categories = ['Resources'];
-    // And don't emit a recipe for it.
-    return;
-  }
+  // Is it a raw resource? Don't emit it.
+  if (isResourceSource(raw)) return;
 
   let placedByPlayer: undefined | true = undefined;
   const producedIn = [] as string[];
@@ -85,4 +74,12 @@ function _assign<TTarget extends object, TKey extends keyof BuiltRecipe, TValue 
   target: TTarget, key: TKey, value: TValue
 ): asserts target is TTarget & Record<TKey, TValue> {
   (target as any)[key] = value;
+}
+
+export function isResourceSource({ entity: { mProducedIn, mIngredients, mProduct } }: RawInfo) {
+  return mProducedIn.length === 1 
+      && mProducedIn[0]?.className === 'Build_Converter_C' 
+      && mIngredients.length === 1 
+      && mProduct.length === 1 
+      && mIngredients[0].ItemClass?.className === mProduct[0].ItemClass?.className;
 }

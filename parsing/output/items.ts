@@ -4,6 +4,7 @@ import * as game from '@local/game';
 import { AssetDatabase, EntityDatabase, OutputDatabase, WithoutSlug } from '../state';
 
 import { mapItemForm, mapEquipmentSlot, mapStackSize } from './_util';
+import { isResourceSource } from './recipes';
 
 type BuiltItem = WithoutSlug<Item>;
 type RawInfo = EntityDatabase.Info<'FGItemDescriptor'>;
@@ -70,12 +71,25 @@ async function _buildItem(entityDb: EntityDatabase, assetDb: AssetDatabase, raw:
     });
   }
 
+  const recipes = entityDb.findInboundByClass(raw.entity.ClassName, 'FGRecipe');
+  const isProduced = recipes.some(({ entity: { mProduct } }) => {
+    return mProduct.some(({ ItemClass }) => ItemClass?.className === raw.entity.ClassName);
+  });
+  const IsMined = recipes.some((rawRecipe) => {
+    if (!isResourceSource(rawRecipe)) return false;
+    return rawRecipe.entity.mProduct[0].ItemClass?.className === raw.entity.ClassName;
+  });
+
+  if (IsMined || !isProduced || raw.entity.ClassName === 'Desc_Water_C') {
+    _assign(item, 'raw', true);
+  }
+
   if (raw.entity.mStackSize === 'SS_FLUID') {
     _assign(item, 'categories', ['Fluids']);
-  // } else if (equipment) {
-  //   _assign(item, 'categories', ['Equipment']);
-  // } else {
-  //   _assign(item, 'categories', ['Parts']);
+  } else if (IsMined) {
+    _assign(item, 'categories', ['Resource']);
+  } else if (!isProduced) {
+    _assign(item, 'categories', ['Gathered']);
   }
 
   return item;

@@ -36,6 +36,10 @@
     "fuel": {
       "energy": 250
     },
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "alien-carapace"
   },
   "alien-organs": {
@@ -48,6 +52,10 @@
     "fuel": {
       "energy": 250
     },
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "alien-organs"
   },
   "alumina-solution": {
@@ -143,6 +151,10 @@
     "form": "solid",
     "icon": "7IkekZcEqQoeCIEUqgu8OY7fV0aZIJq0qi8cqAYcCyQS",
     "stackSize": 50,
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "bacon-agaric"
   },
   "battery": {
@@ -164,11 +176,11 @@
     "form": "solid",
     "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG",
     "stackSize": 100,
-    "slug": "bauxite",
     "raw": true,
     "categories": [
-      "Resources"
-    ]
+      "Resource"
+    ],
+    "slug": "bauxite"
   },
   "beacon": {
     "kind": "item",
@@ -184,8 +196,11 @@
     "name": "Beryl Nut",
     "description": "Slot: Hands\nConsumable\n\nCan be eaten to restore half a health segment.",
     "form": "solid",
-    "icon": "6reGACriHmkKUGYcMSsicW6Fn1lCpiN2YigYk0qQAK40",
     "stackSize": 100,
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "beryl-nut"
   },
   "biomass": {
@@ -283,11 +298,11 @@
     "form": "solid",
     "icon": "6HkuY8ol3yKQywiSAmCE4M187rTIVuw0wI6waiQMW4Ak",
     "stackSize": 100,
-    "slug": "caterium-ore",
     "raw": true,
     "categories": [
-      "Resources"
-    ]
+      "Resource"
+    ],
+    "slug": "caterium-ore"
   },
   "chainsaw": {
     "kind": "item",
@@ -321,11 +336,11 @@
     "fuel": {
       "energy": 300
     },
-    "slug": "coal",
     "raw": true,
     "categories": [
-      "Resources"
-    ]
+      "Resource"
+    ],
+    "slug": "coal"
   },
   "coal-generator": {
     "kind": "building",
@@ -644,11 +659,11 @@
     "form": "solid",
     "icon": "2KrBJL1WzeSYGMAmCQoowE4vhlksjXcckkuAu8SayuWU",
     "stackSize": 100,
-    "slug": "copper-ore",
     "raw": true,
     "categories": [
-      "Resources"
-    ]
+      "Resource"
+    ],
+    "slug": "copper-ore"
   },
   "copper-sheet": {
     "kind": "item",
@@ -755,11 +770,11 @@
     "fuel": {
       "energy": 0.32
     },
+    "raw": true,
     "categories": [
-      "Resources"
+      "Fluids"
     ],
-    "slug": "crude-oil",
-    "raw": true
+    "slug": "crude-oil"
   },
   "crystal-oscillator": {
     "kind": "item",
@@ -947,6 +962,10 @@
     "fuel": {
       "energy": 100
     },
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "flower-petals"
   },
   "fluid-freight-platform": {
@@ -1142,6 +1161,10 @@
     "form": "solid",
     "icon": "7FTqy4RtlYYcCwGQiEc4my469rwnX1GU4UkGe6AIMAsK",
     "stackSize": 50,
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "green-power-slug"
   },
   "hazmat-suit": {
@@ -1204,6 +1227,10 @@
     "form": "solid",
     "icon": "2cS7QbXC7mKiS8mKck66uW4aom0uidZS0G8YQwyWGQmo",
     "stackSize": 1,
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "hub-parts"
   },
   "hyper-tube": {
@@ -1455,11 +1482,11 @@
     "form": "solid",
     "icon": "5c0Gl1FsvuGGyGe28Mg2m87B3HVLJL6oKusESIUocEkS",
     "stackSize": 100,
-    "slug": "iron-ore",
     "raw": true,
     "categories": [
-      "Resources"
-    ]
+      "Resource"
+    ],
+    "slug": "iron-ore"
   },
   "iron-plate": {
     "kind": "item",
@@ -1514,6 +1541,10 @@
     "fuel": {
       "energy": 15
     },
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "leaves"
   },
   "limestone": {
@@ -1523,11 +1554,11 @@
     "form": "solid",
     "icon": "6BAPvz5Wr66qk6oOw0wiUI5agwR4fajeKUgak02qSKgy",
     "stackSize": 100,
-    "slug": "limestone",
     "raw": true,
     "categories": [
-      "Resources"
-    ]
+      "Resource"
+    ],
+    "slug": "limestone"
   },
   "liquid-biofuel": {
     "kind": "item",
@@ -1684,6 +1715,10 @@
     "fuel": {
       "energy": 20
     },
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "mycelia"
   },
   "nobelisk": {
@@ -1854,6 +1889,10 @@
     "form": "solid",
     "icon": "6APXAIsXyoege6GOQcm60Y4ZY4Kny1VSauu0uwouYyOQ",
     "stackSize": 50,
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "paleberry"
   },
   "parachute": {
@@ -2117,6 +2156,10 @@
     "form": "solid",
     "icon": "8VX2fNxj1ecoaQ4sOEmGIdkSKBIP9wOIEoAwOAoIKs",
     "stackSize": 50,
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "purple-power-slug"
   },
   "quarter-pipe": {
@@ -2213,11 +2256,11 @@
     "form": "solid",
     "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km",
     "stackSize": 100,
-    "slug": "raw-quartz",
     "raw": true,
     "categories": [
-      "Resources"
-    ]
+      "Resource"
+    ],
+    "slug": "raw-quartz"
   },
   "rebar-gun": {
     "kind": "item",
@@ -2476,11 +2519,11 @@
     "form": "solid",
     "icon": "zIWbiVBnnEsiQy4MSooAS7mVmxEg27SISYawA0AgUe0",
     "stackSize": 100,
-    "slug": "sulfur",
     "raw": true,
     "categories": [
-      "Resources"
-    ]
+      "Resource"
+    ],
+    "slug": "sulfur"
   },
   "sulfuric-acid": {
     "kind": "item",
@@ -2617,11 +2660,11 @@
     "radioactivity": {
       "decay": 15
     },
-    "slug": "uranium",
     "raw": true,
     "categories": [
-      "Resources"
-    ]
+      "Resource"
+    ],
+    "slug": "uranium"
   },
   "uranium-pellet": {
     "kind": "item",
@@ -2962,6 +3005,7 @@
     "fluid": {
       "color": "#7ab0d4ff"
     },
+    "raw": true,
     "categories": [
       "Fluids"
     ],
@@ -3015,6 +3059,10 @@
     "fuel": {
       "energy": 100
     },
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "wood"
   },
   "xeno-basher": {
@@ -3042,6 +3090,10 @@
     "form": "solid",
     "icon": "5JN4VvmzrGYOmOmg8sSWqm4r4xg8ijMQA40SgwUgOgiK",
     "stackSize": 50,
+    "raw": true,
+    "categories": [
+      "Gathered"
+    ],
     "slug": "yellow-power-slug"
   }
 }

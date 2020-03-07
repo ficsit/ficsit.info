@@ -115,7 +115,7 @@ export const assetMap: Record<string, string | undefined> = {
   Mycelia: 'Resource/Parts/GenericBiomass/UI/Mycelia',
   NobeliskExplosive: 'Resource/Parts/NobeliskExplosive/UI/Explosive',
   NuclearFuelRod: 'Resource/Parts/NuclearFuelRod/UI/NuclearFuelRod',
-  Nut: 'Buildable/Building/Decor/Statues/UI/Award_Statue_Nut',
+  Nut: 'Resource/Environment/Nut/UI/Nut_256_New',
   OilPump: 'Buildable/Factory/OilPump/UI/OilPump',
   OilRefinery: 'Buildable/Factory/OilRefinery/UI/OilRefinery',
   OreBauxite: 'Resource/RawResources/Nodes/UI/Bauxite',
