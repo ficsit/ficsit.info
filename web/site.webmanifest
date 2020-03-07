@@ -3,19 +3,25 @@
 	"short_name": "FicsIt",
 	"icons": [
 		{
-			"src": "./assets/site-icons/android-chrome-192x192.png",
-			"sizes": "192x192",
+			"src": "./assets/site-icons/icon-196.png",
+			"sizes": "196x196",
 			"type": "image/png"
 		},
 		{
-			"src": "./assets/site-icons/android-chrome-256x256.png",
-			"sizes": "256x256",
+			"src": "./assets/site-icons/icon-512.png",
+			"sizes": "512x512",
 			"type": "image/png"
 		},
 		{
 			"purpose": "maskable",
-			"src": "./assets/site-icons/android-chrome-maskable-256x256.png",
-			"sizes": "256x256",
+			"src": "./assets/site-icons/maskable-196.png",
+			"sizes": "196x196",
+			"type": "image/png"
+		},
+		{
+			"purpose": "maskable",
+			"src": "./assets/site-icons/maskable-512.png",
+			"sizes": "512x512",
 			"type": "image/png"
 		}
 	],
