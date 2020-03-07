@@ -11,7 +11,9 @@ export function SolverPage() {
   return (
     <article css={rootStyles}>
       <Section title={<h1>Embetterer™</h1>}>
-
+        <div>
+          <h3>Production Targets</h3>
+        </div>
       </Section>
     </article>
   )
