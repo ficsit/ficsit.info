@@ -10,8 +10,26 @@ import {
 
 export interface SolverOptions {
   targets: ItemRate[];
+  constraints?: SolverConstraint[];
   optimizeResiduals?: boolean;
   includeAlternateRecipes?: boolean;
+}
+
+export const enum SolverConstraintSubjectKind {
+  Resource = 'resource',
+}
+
+export const enum SolverConstraintType {
+  Maximum = 'max',
+}
+
+export interface SolverConstraint {
+  subject: {
+    kind: SolverConstraintSubjectKind;
+    slug: string;
+  };
+  type: SolverConstraintType;
+  value: number;
 }
 
 export interface SolverResult {
@@ -37,6 +55,7 @@ export function solveFor(
 
   _addResources(context);
   _addRecipes(context);
+  _addExpressions(context);
   _addConstraints(context);
 
   context.solver.updateVariables();
@@ -100,7 +119,7 @@ function _addRecipes(context: SolverContext) {
   }
 }
 
-function _addConstraints(context: SolverContext) {
+function _addExpressions(context: SolverContext) {
   for (const [slug, expression] of context.getExpressions(
     ExpressionKind.Item,
   )) {
@@ -110,6 +129,35 @@ function _addConstraints(context: SolverContext) {
     } else {
       context.addConstraint(expression, Operator.Ge, 0, Strength.required);
     }
+  }
+}
+
+function _addConstraints(context: SolverContext) {
+  const { constraints } = context.options;
+  if (!constraints) return;
+
+  for (const constraint of constraints) {
+    const { subject, type, value } = constraint;
+    let expression: Expression | Variable | undefined;
+    let operator: Operator | undefined;
+    let strength: number | undefined;
+    if (subject.kind === SolverConstraintSubjectKind.Resource) {
+      expression = context.variable(VariableKind.Resource, subject.slug);
+    }
+
+    if (type === SolverConstraintType.Maximum) {
+      operator = Operator.Le;
+      strength = Strength.required;
+    }
+
+    if (!expression || operator === undefined || strength === undefined) {
+      throw new Error(`Invalid constraint: ${JSON.stringify(constraint)}`);
+    }
+
+    console.log(
+      `adding constraint: ${expression} ${operator} ${value} ${strength}`,
+    );
+    context.addConstraint(expression, operator, value, strength);
   }
 }
 
