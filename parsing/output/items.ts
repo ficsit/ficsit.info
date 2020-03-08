@@ -1,25 +1,49 @@
-import { Item, EntityKind } from '@local/schema';
+import { Item, EntityKind, ItemResourceDetails } from '@local/schema';
 import * as game from '@local/game';
 
-import { AssetDatabase, EntityDatabase, OutputDatabase, WithoutSlug } from '../state';
+import {
+  AssetDatabase,
+  EntityDatabase,
+  OutputDatabase,
+  WithoutSlug,
+} from '../state';
 
 import { mapItemForm, mapEquipmentSlot, mapStackSize } from './_util';
 import { isResourceSource } from './recipes';
 
 type BuiltItem = WithoutSlug<Item>;
 type RawInfo = EntityDatabase.Info<'FGItemDescriptor'>;
+type RawExtractor = EntityDatabase.Info<'FGBuildableResourceExtractor'>;
 
-export async function fillItems(outputDb: OutputDatabase, entityDb: EntityDatabase, assetDb: AssetDatabase) {
+export async function fillItems(
+  outputDb: OutputDatabase,
+  entityDb: EntityDatabase,
+  assetDb: AssetDatabase,
+) {
   for (const raw of entityDb.findByClass('FGItemDescriptor')) {
     if (entityDb.isKind(raw, 'FGBuildDescriptor')) continue;
 
     const item = await _buildItem(entityDb, assetDb, raw);
-
     outputDb.register('entity', item, [raw.entity.ClassName]);
+  }
+
+  for (const raw of entityDb.findByClass('FGBuildableResourceExtractor')) {
+    const items = _itemsExtractedBy(raw, entityDb);
+    const extractorSlug = outputDb.slugOrDie(raw.entity.ClassName);
+    for (const className of items) {
+      const item = outputDb.getOrDie<Item>(className);
+      if (!item.resource) item.resource = {};
+      if (!item.resource!.extractedBy) item.resource!.extractedBy = [];
+      item.resource!.extractedBy!.push(extractorSlug);
+    }
   }
 }
 
-async function _buildItem(entityDb: EntityDatabase, assetDb: AssetDatabase, raw: RawInfo): Promise<BuiltItem> {
+async function _buildItem(
+  entityDb: EntityDatabase,
+  assetDb: AssetDatabase,
+  raw: RawInfo,
+): Promise<BuiltItem> {
   const item = {
     kind: EntityKind.Item,
     name: raw.entity.mDisplayName,
@@ -34,7 +58,7 @@ async function _buildItem(entityDb: EntityDatabase, assetDb: AssetDatabase, raw:
   }
 
   if (raw.entity.mStackSize === 'SS_FLUID') {
-    _assign(item, 'fluid', { 
+    _assign(item, 'fluid', {
       color: _toColor(raw.entity.mFluidColor),
     });
   } else {
@@ -53,10 +77,11 @@ async function _buildItem(entityDb: EntityDatabase, assetDb: AssetDatabase, raw:
     });
   }
 
-
-  const baseName = /^[^_]+_(.+)_C$/.exec(raw.entity.ClassName)![1];
+  const baseName = /^[^_]+_(.+)_C$/
+    .exec(raw.entity.ClassName)![1]
+    .replace('EquipmentDescriptor', '');
   const equipment = entityDb.get<'FGEquipment'>(`Equip_${baseName}_C`);
-  if (equipment)  {
+  if (equipment) {
     let cost;
     if (equipment.entity.mCostToUse) {
       cost = equipment.entity.mCostToUse.map(({ ItemClass, Amount }) => ({
@@ -71,36 +96,75 @@ async function _buildItem(entityDb: EntityDatabase, assetDb: AssetDatabase, raw:
     });
   }
 
+  // TODO: Post pass.
   const recipes = entityDb.findInboundByClass(raw.entity.ClassName, 'FGRecipe');
   const isProduced = recipes.some(({ entity: { mProduct } }) => {
-    return mProduct.some(({ ItemClass }) => ItemClass?.className === raw.entity.ClassName);
+    return mProduct.some(
+      ({ ItemClass }) => ItemClass?.className === raw.entity.ClassName,
+    );
   });
-  const IsMined = recipes.some((rawRecipe) => {
+  const IsMined = recipes.some(rawRecipe => {
     if (!isResourceSource(rawRecipe)) return false;
-    return rawRecipe.entity.mProduct[0].ItemClass?.className === raw.entity.ClassName;
+    return (
+      rawRecipe.entity.mProduct[0].ItemClass?.className === raw.entity.ClassName
+    );
   });
 
-  if (IsMined || !isProduced || raw.entity.ClassName === 'Desc_Water_C') {
-    _assign(item, 'raw', true);
+  if (!isProduced || raw.entity.ClassName === 'Desc_Water_C') {
+    _assign(item, 'resource', {} as ItemResourceDetails);
+    if (!isProduced) {
+      item.resource.gatherable = true;
+    }
   }
 
   if (raw.entity.mStackSize === 'SS_FLUID') {
     _assign(item, 'categories', ['Fluids']);
   } else if (IsMined) {
-    _assign(item, 'categories', ['Resource']);
+    _assign(item, 'categories', ['Ores']);
   } else if (!isProduced) {
     _assign(item, 'categories', ['Gathered']);
+  } else if (equipment) {
+    _assign(item, 'categories', ['Equipment']);
+  } else {
+    _assign(item, 'categories', ['Parts']);
   }
 
   return item;
 }
 
-function _toColor(color: game.Color) {
-  return `#${color.R.toString(16)}${color.G.toString(16)}${color.B.toString(16)}${color.A.toString(16)}`;
+function _itemsExtractedBy({ entity }: RawExtractor, entityDb: EntityDatabase) {
+  const items = [];
+  for (const resource of entity.mAllowedResources) {
+    if (!resource) continue;
+    items.push(resource.className);
+  }
+
+  for (const pair of entity.mParticleMap || []) {
+    const resourceRef = pair.ResourceNode_16_2100B5C34EE8DF7958D78A974512F3C3;
+    if (!resourceRef?.className) continue;
+    const resource = entityDb.get<'FGItemDescriptor'>(resourceRef?.className);
+    if (!resource) continue;
+    if (!entity.mAllowedResourceForms.includes(resource.entity.mForm)) continue;
+    items.push(resource.entity.ClassName);
+  }
+
+  return items;
 }
 
-function _assign<TTarget extends object, TKey extends keyof BuiltItem, TValue extends BuiltItem[TKey]>(
-  target: TTarget, key: TKey, value: TValue
+function _toColor(color: game.Color) {
+  return `#${color.R.toString(16)}${color.G.toString(16)}${color.B.toString(
+    16,
+  )}${color.A.toString(16)}`;
+}
+
+function _assign<
+  TTarget extends object,
+  TKey extends keyof BuiltItem,
+  TValue extends BuiltItem[TKey]
+>(
+  target: TTarget,
+  key: TKey,
+  value: TValue,
 ): asserts target is TTarget & Record<TKey, TValue> {
   (target as any)[key] = value;
 }

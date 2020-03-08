@@ -243,7 +243,7 @@ export class SolverContext {
     return true;
   });
   public resources = Object.values(this._entitiesBySlug).filter(
-    entity => entity.kind === 'item' && entity.raw,
+    entity => entity.kind === 'item' && entity.resource,
   ) as Item[];
 
   private _variablesByKindBySlug = new Map<

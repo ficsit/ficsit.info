@@ -60,6 +60,7 @@ const listStyles = css({
 
 const categoryTitleStyles = css({
   position: 'sticky',
+  overflow: 'hidden',
   top: 0,
   lineHeight: `${categoryHeight}px`,
   fontSize: 16,
@@ -72,6 +73,7 @@ const categoryTitleStyles = css({
 
 const subCategoryTitleStyles = css({
   position: 'sticky',
+  overflow: 'hidden',
   top: 20,
   lineHeight: `${subCategoryHeight}px`,
   fontSize: 12,
@@ -116,6 +118,7 @@ export interface EntityListProps {
   selected?: string;
   onChange?: (newSelected: string) => void;
   autoFocus?: boolean;
+  depth?: number;
 }
 
 export function EntityList({
@@ -123,11 +126,15 @@ export function EntityList({
   selected,
   onChange,
   autoFocus,
+  depth = 2,
 }: EntityListProps) {
   const [filter, setFilter] = useState('');
   const [scrolled, setScrolled] = useState(false);
   const entities = useEntitiesByKind(kind);
-  const fullTree = useMemo(() => _dataSource(entities), [entities]);
+  const fullTree = useMemo(() => _dataSource(depth, entities), [
+    depth,
+    entities,
+  ]);
   const selectedId = useMemo(() => _findId(fullTree, selected), [
     fullTree,
     selected,
@@ -251,7 +258,7 @@ function _renderNode(
   }
 }
 
-function _dataSource(entities?: Record<string, AnyEntity>) {
+function _dataSource(depth: number, entities?: Record<string, AnyEntity>) {
   if (!entities) return;
 
   const tree = _entityTree(entities);
@@ -281,7 +288,7 @@ function _dataSource(entities?: Record<string, AnyEntity>) {
         kind: 'subCategory',
         id: id++,
         title: subCategory,
-        height: subCategoryHeight,
+        height: depth > 1 ? subCategoryHeight : 0,
         isSticky: true,
         stickyTop: categoryHeight,
         zIndex: 100,

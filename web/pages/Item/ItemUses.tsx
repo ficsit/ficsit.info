@@ -19,7 +19,7 @@ export function ItemUses({ item }: ItemUses) {
   }
 
   return (
-    <Section title='RecipeUses'>
+    <Section title='Recipe Uses'>
       <RecipeTable recipes={recipes} showCounts={true} />
     </Section>
   );

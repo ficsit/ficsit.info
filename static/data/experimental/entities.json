@@ -6,6 +6,9 @@
     "form": "solid",
     "icon": "iUT79ZO9DGwiAYeaqe0Q2HV47m6CsKYgAOMiiiOEMu",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "adaptive-control-unit"
   },
   "ai-limiter": {
@@ -15,6 +18,9 @@
     "form": "solid",
     "icon": "h8ltD2kwsocsa80SUkM0i9Y3kkvCCXucaMMYIaOiWk",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "ai-limiter"
   },
   "alclad-aluminum-sheet": {
@@ -24,6 +30,9 @@
     "form": "solid",
     "icon": "5x1rFAdnYQgykUy6I00W807xHNK0X89qoGIS62C8yWMG",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "alclad-aluminum-sheet"
   },
   "alien-carapace": {
@@ -36,7 +45,7 @@
     "fuel": {
       "energy": 250
     },
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],
@@ -52,7 +61,7 @@
     "fuel": {
       "energy": 250
     },
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],
@@ -79,6 +88,9 @@
     "form": "solid",
     "icon": "1dlvKyAE1wWCkCGkI2cs4I6A9VggMF5SAMawmKAQAIWq",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "aluminum-ingot"
   },
   "aluminum-scrap": {
@@ -88,6 +100,9 @@
     "form": "solid",
     "icon": "4aw8Ki6ocg8WUqmemQcAIU1bGANAb9dqmAGAgSYUqWGk",
     "stackSize": 500,
+    "categories": [
+      "Parts"
+    ],
     "slug": "aluminum-scrap"
   },
   "assembler": {
@@ -114,6 +129,9 @@
     "form": "solid",
     "icon": "4fgmzNq4WIa66YUgIImImk61hkG4YTwA6kAyisIuYQIg",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "automated-wiring"
   },
   "awesome-shop": {
@@ -151,7 +169,7 @@
     "form": "solid",
     "icon": "7IkekZcEqQoeCIEUqgu8OY7fV0aZIJq0qi8cqAYcCyQS",
     "stackSize": 50,
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],
@@ -167,6 +185,9 @@
     "fuel": {
       "energy": 6000
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "battery"
   },
   "bauxite": {
@@ -176,11 +197,17 @@
     "form": "solid",
     "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG",
     "stackSize": 100,
-    "raw": true,
     "categories": [
-      "Resource"
+      "Ores"
     ],
-    "slug": "bauxite"
+    "slug": "bauxite",
+    "resource": {
+      "extractedBy": [
+        "miner-mk1",
+        "miner-mk2",
+        "miner-mk3"
+      ]
+    }
   },
   "beacon": {
     "kind": "item",
@@ -189,6 +216,13 @@
     "form": "solid",
     "icon": "1OwicP8qRS6ycu8GwSaaG2T5M9IB9uA8YAIIYAE2oUk",
     "stackSize": 100,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": [
+      "Equipment"
+    ],
     "slug": "beacon"
   },
   "beryl-nut": {
@@ -197,7 +231,7 @@
     "description": "Slot: Hands\nConsumable\n\nCan be eaten to restore half a health segment.",
     "form": "solid",
     "stackSize": 100,
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],
@@ -213,6 +247,9 @@
     "fuel": {
       "energy": 180
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "biomass"
   },
   "biomass-burner": {
@@ -253,6 +290,9 @@
     "form": "solid",
     "icon": "XoMkHOPbkisYw0Os2CEC04arPLe5TAQYMYW4sMqUwCm",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "black-powder"
   },
   "blade-runners": {
@@ -262,6 +302,13 @@
     "form": "solid",
     "icon": "5lFrWDoadOys4iwU020sAs4TypfopM36Emu8qSAQkasq",
     "stackSize": 1,
+    "equipment": {
+      "slot": "body",
+      "cost": []
+    },
+    "categories": [
+      "Equipment"
+    ],
     "slug": "blade-runners"
   },
   "cable": {
@@ -271,6 +318,9 @@
     "form": "solid",
     "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "cable"
   },
   "cartridge": {
@@ -280,6 +330,9 @@
     "form": "solid",
     "icon": "6ToL2rptqo4ScSK6QUGAWW1F90Gxysdqu2MoSkIcuASW",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "cartridge"
   },
   "caterium-ingot": {
@@ -289,6 +342,9 @@
     "form": "solid",
     "icon": "hYVuwBz5FC64maqiOemaS7F4TmTDTcA2sUQsegK2EGM",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "caterium-ingot"
   },
   "caterium-ore": {
@@ -298,11 +354,17 @@
     "form": "solid",
     "icon": "6HkuY8ol3yKQywiSAmCE4M187rTIVuw0wI6waiQMW4Ak",
     "stackSize": 100,
-    "raw": true,
     "categories": [
-      "Resource"
+      "Ores"
     ],
-    "slug": "caterium-ore"
+    "slug": "caterium-ore",
+    "resource": {
+      "extractedBy": [
+        "miner-mk1",
+        "miner-mk2",
+        "miner-mk3"
+      ]
+    }
   },
   "chainsaw": {
     "kind": "item",
@@ -315,6 +377,9 @@
       "slot": "arms",
       "cost": []
     },
+    "categories": [
+      "Equipment"
+    ],
     "slug": "chainsaw"
   },
   "circuit-board": {
@@ -324,6 +389,9 @@
     "form": "solid",
     "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE",
     "stackSize": 200,
+    "categories": [
+      "Parts"
+    ],
     "slug": "circuit-board"
   },
   "coal": {
@@ -336,11 +404,17 @@
     "fuel": {
       "energy": 300
     },
-    "raw": true,
     "categories": [
-      "Resource"
+      "Ores"
     ],
-    "slug": "coal"
+    "slug": "coal",
+    "resource": {
+      "extractedBy": [
+        "miner-mk1",
+        "miner-mk2",
+        "miner-mk3"
+      ]
+    }
   },
   "coal-generator": {
     "kind": "building",
@@ -375,6 +449,9 @@
     "fuel": {
       "energy": 900
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "color-cartridge"
   },
   "color-gun": {
@@ -384,6 +461,13 @@
     "form": "solid",
     "icon": "498oVhXQLYkowyEG2O0s4I6O5ps1ZlM46wYWc8ymc2kS",
     "stackSize": 1,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": [
+      "Equipment"
+    ],
     "slug": "color-gun"
   },
   "compacted-coal": {
@@ -396,6 +480,9 @@
     "fuel": {
       "energy": 630
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "compacted-coal"
   },
   "computer": {
@@ -405,6 +492,9 @@
     "form": "solid",
     "icon": "6vZ32C2ZkA4qwAuQ0AQkwc1bn9l350L6we4iYUWigWoS",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "computer"
   },
   "concrete": {
@@ -414,6 +504,9 @@
     "form": "solid",
     "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "concrete"
   },
   "constructor": {
@@ -650,6 +743,9 @@
     "form": "solid",
     "icon": "1RtTF6zT7a0qgEICmccgA26pFCZcwKKQyUo482W4sWCC",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "copper-ingot"
   },
   "copper-ore": {
@@ -659,11 +755,17 @@
     "form": "solid",
     "icon": "2KrBJL1WzeSYGMAmCQoowE4vhlksjXcckkuAu8SayuWU",
     "stackSize": 100,
-    "raw": true,
     "categories": [
-      "Resource"
+      "Ores"
     ],
-    "slug": "copper-ore"
+    "slug": "copper-ore",
+    "resource": {
+      "extractedBy": [
+        "miner-mk1",
+        "miner-mk2",
+        "miner-mk3"
+      ]
+    }
   },
   "copper-sheet": {
     "kind": "item",
@@ -672,6 +774,9 @@
     "form": "solid",
     "icon": "2Fsos2EEnK4EUsE84WGCSM6VLdqq8rny0u400MaCO8eO",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "copper-sheet"
   },
   "corner-ramp-down-8m-x-1m": {
@@ -770,11 +875,15 @@
     "fuel": {
       "energy": 0.32
     },
-    "raw": true,
     "categories": [
       "Fluids"
     ],
-    "slug": "crude-oil"
+    "slug": "crude-oil",
+    "resource": {
+      "extractedBy": [
+        "oil-extractor"
+      ]
+    }
   },
   "crystal-oscillator": {
     "kind": "item",
@@ -783,6 +892,9 @@
     "form": "solid",
     "icon": "7vNSzrF9PaEIyyIAq8YKmO43PgBPFVG0IueAKOsiyuS2",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "crystal-oscillator"
   },
   "double-ramp-8m-x-2m": {
@@ -854,6 +966,9 @@
     "form": "solid",
     "icon": "51sSpGM7scCQUeWGyYme241GZGQI4xz220seAIww6UEY",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "electromagnetic-control-rod"
   },
   "empty-canister": {
@@ -863,6 +978,9 @@
     "form": "solid",
     "icon": "3mMM4pq36oIMqU6Swyag0O7hmfEp4P5YiUqmuskGCsEi",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "empty-canister"
   },
   "empty-platform": {
@@ -884,6 +1002,9 @@
     "form": "solid",
     "icon": "15ixr0o43o4EI6KYIckyeQ43UEoxqSByyASwWKSU6Cmk",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "encased-industrial-beam"
   },
   "encased-uranium-cell": {
@@ -896,6 +1017,9 @@
     "radioactivity": {
       "decay": 7.5
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "encased-uranium-cell"
   },
   "equipment-workshop": {
@@ -920,6 +1044,9 @@
     "fuel": {
       "energy": 15
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "fabric"
   },
   "factory-cart-t": {
@@ -929,6 +1056,9 @@
     "form": "solid",
     "icon": "1x3dDGmWOome66ykE0C8gA4Rwu8YmGYUKgwGWu6yOwO6",
     "stackSize": 1,
+    "categories": [
+      "Parts"
+    ],
     "slug": "factory-cart-t"
   },
   "fence": {
@@ -950,6 +1080,9 @@
     "form": "solid",
     "icon": "zWOQlGAFWK6gOqwKacekM18GXoXMsowwo4OCm6gkYou",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "filter"
   },
   "flower-petals": {
@@ -962,7 +1095,7 @@
     "fuel": {
       "energy": 100
     },
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],
@@ -1112,6 +1245,9 @@
     "form": "solid",
     "icon": "6qblOzRtfOAsKeooc2a2GILPDhNWST8AUGi2UGeG6gc",
     "stackSize": 1,
+    "categories": [
+      "Parts"
+    ],
     "slug": "gas-mask"
   },
   "gate-8m-x-4m": {
@@ -1161,7 +1297,7 @@
     "form": "solid",
     "icon": "7FTqy4RtlYYcCwGQiEc4my469rwnX1GU4UkGe6AIMAsK",
     "stackSize": 50,
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],
@@ -1174,6 +1310,18 @@
     "form": "solid",
     "icon": "5B9XtLadaMwIeOUs8i00eO6JL6O54rsci8GMgYmcOQGO",
     "stackSize": 1,
+    "equipment": {
+      "slot": "body",
+      "cost": [
+        {
+          "item": "/Game/FactoryGame/Resource/Parts/IodineInfusedFilter/Desc_HazmatFilter.Desc_HazmatFilter_C",
+          "count": 1
+        }
+      ]
+    },
+    "categories": [
+      "Equipment"
+    ],
     "slug": "hazmat-suit"
   },
   "heat-sink": {
@@ -1183,6 +1331,9 @@
     "form": "solid",
     "icon": "7ky4sGRKFOkUEo2IAkwEK47t2X8wQGAMqeqI6KQiiIGE",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "heat-sink"
   },
   "heavy-modular-frame": {
@@ -1192,6 +1343,9 @@
     "form": "solid",
     "icon": "56Bx22YgogYaS2CGy2UkYe2OIVkU7yAECqCWmA8Uea2O",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "heavy-modular-frame"
   },
   "heavy-oil-residue": {
@@ -1218,6 +1372,9 @@
     "form": "solid",
     "icon": "4XQHY1qNFe4sUqi0k2gU6w4WZYCTYXioqSOsSGUIaGCI",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "high-speed-connector"
   },
   "hub-parts": {
@@ -1227,7 +1384,7 @@
     "form": "solid",
     "icon": "2cS7QbXC7mKiS8mKck66uW4aom0uidZS0G8YQwyWGQmo",
     "stackSize": 1,
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],
@@ -1464,6 +1621,9 @@
     "form": "solid",
     "icon": "37hU2eM3R68o6oSOEmIqQ4nmxkLQfcsAmog2E2YUeWU",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "iodine-infused-filter"
   },
   "iron-ingot": {
@@ -1473,6 +1633,9 @@
     "form": "solid",
     "icon": "2IEt6n1lD2yiGccaWqugeWcpaTd3u2ukGkeaQuaua0O",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "iron-ingot"
   },
   "iron-ore": {
@@ -1482,11 +1645,17 @@
     "form": "solid",
     "icon": "5c0Gl1FsvuGGyGe28Mg2m87B3HVLJL6oKusESIUocEkS",
     "stackSize": 100,
-    "raw": true,
     "categories": [
-      "Resource"
+      "Ores"
     ],
-    "slug": "iron-ore"
+    "slug": "iron-ore",
+    "resource": {
+      "extractedBy": [
+        "miner-mk1",
+        "miner-mk2",
+        "miner-mk3"
+      ]
+    }
   },
   "iron-plate": {
     "kind": "item",
@@ -1495,6 +1664,9 @@
     "form": "solid",
     "icon": "654X5USXiokMei8s4CEI2E6c8bRT6gfuQeci02KweQim",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "iron-plate"
   },
   "iron-rod": {
@@ -1504,6 +1676,9 @@
     "form": "solid",
     "icon": "22Iasy39jiIsO2Gq84ISoS7m9tRpEF1K8gKUoCwg4Ckq",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "iron-rod"
   },
   "jetpack": {
@@ -1513,6 +1688,18 @@
     "form": "solid",
     "icon": "21Qx3W1JIM8kI2kAe4I6wc5lasmxZ1M4gka0yc8amQAU",
     "stackSize": 1,
+    "equipment": {
+      "slot": "body",
+      "cost": [
+        {
+          "item": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_Fuel.Desc_Fuel_C",
+          "count": 1
+        }
+      ]
+    },
+    "categories": [
+      "Equipment"
+    ],
     "slug": "jetpack"
   },
   "jump-pad": {
@@ -1541,7 +1728,7 @@
     "fuel": {
       "energy": 15
     },
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],
@@ -1554,11 +1741,17 @@
     "form": "solid",
     "icon": "6BAPvz5Wr66qk6oOw0wiUI5agwR4fajeKUgak02qSKgy",
     "stackSize": 100,
-    "raw": true,
     "categories": [
-      "Resource"
+      "Ores"
     ],
-    "slug": "limestone"
+    "slug": "limestone",
+    "resource": {
+      "extractedBy": [
+        "miner-mk1",
+        "miner-mk2",
+        "miner-mk3"
+      ]
+    }
   },
   "liquid-biofuel": {
     "kind": "item",
@@ -1625,6 +1818,9 @@
     "form": "solid",
     "icon": "3Ke7eCDhRCmMOqIEkecsYq5bCtttlOvCOimAGQCMyOsU",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "medicinal-inhaler"
   },
   "miner-mk1": {
@@ -1685,6 +1881,9 @@
     "form": "solid",
     "icon": "1P0lVFelKwIs4quisEKGiU4hrBoX82IUMk8YigIQ0Wsu",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "modular-engine"
   },
   "modular-frame": {
@@ -1694,6 +1893,9 @@
     "form": "solid",
     "icon": "4uDYe7vAYg6AI0WIukEQUK1e0aP3ONog6YSIqe6Soqis",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "modular-frame"
   },
   "motor": {
@@ -1703,6 +1905,9 @@
     "form": "solid",
     "icon": "3BkLK2VWgMAyoSasM6GeWI1MAk3rJuGEGYQQMu6SOGqi",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "motor"
   },
   "mycelia": {
@@ -1715,7 +1920,7 @@
     "fuel": {
       "energy": 20
     },
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],
@@ -1728,6 +1933,9 @@
     "form": "solid",
     "icon": "4cb0G1DZO8yEoAI4AGq8uE2ZNmDrvFza0IMEkSeCG4SI",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "nobelisk"
   },
   "nobelisk-detonator": {
@@ -1737,6 +1945,13 @@
     "form": "solid",
     "icon": "6rPFWhWvLycQamWU4YyycM6JIP5ghGucEmsGG4UCQeIu",
     "stackSize": 1,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": [
+      "Equipment"
+    ],
     "slug": "nobelisk-detonator"
   },
   "nuclear-fuel-rod": {
@@ -1752,6 +1967,9 @@
     "fuel": {
       "energy": 750000
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "nuclear-fuel-rod"
   },
   "nuclear-power-plant": {
@@ -1782,6 +2000,13 @@
     "form": "solid",
     "icon": "7IpTg2MYaAQCyy2YgcYqcq1lbOBQkKdmCgsCceWSk8MM",
     "stackSize": 1,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": [
+      "Equipment"
+    ],
     "slug": "object-scanner"
   },
   "oil-extractor": {
@@ -1823,6 +2048,9 @@
     "fuel": {
       "energy": 600
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "packaged-fuel"
   },
   "packaged-heavy-oil-residue": {
@@ -1835,6 +2063,9 @@
     "fuel": {
       "energy": 400
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "packaged-heavy-oil-residue"
   },
   "packaged-liquid-biofuel": {
@@ -1847,6 +2078,9 @@
     "fuel": {
       "energy": 750
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "packaged-liquid-biofuel"
   },
   "packaged-oil": {
@@ -1859,6 +2093,9 @@
     "fuel": {
       "energy": 320
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "packaged-oil"
   },
   "packaged-turbofuel": {
@@ -1871,6 +2108,9 @@
     "fuel": {
       "energy": 2000
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "packaged-turbofuel"
   },
   "packaged-water": {
@@ -1880,6 +2120,9 @@
     "form": "solid",
     "icon": "3ue4kLFCI8CAUwGMye6cOa7jBdLuHbNKam4OgcaYCcwI",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "packaged-water"
   },
   "paleberry": {
@@ -1889,7 +2132,7 @@
     "form": "solid",
     "icon": "6APXAIsXyoege6GOQcm60Y4ZY4Kny1VSauu0uwouYyOQ",
     "stackSize": 50,
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],
@@ -1911,6 +2154,9 @@
         }
       ]
     },
+    "categories": [
+      "Equipment"
+    ],
     "slug": "parachute"
   },
   "personal-storage-box": {
@@ -1939,6 +2185,9 @@
     "fuel": {
       "energy": 180
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "petroleum-coke"
   },
   "pillar-base": {
@@ -2060,6 +2309,9 @@
     "form": "solid",
     "icon": "7l2rmHqYneCUkuAEUaSqMafvf1QGi7baMI8eWAgasMm",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "plastic"
   },
   "polymer-resin": {
@@ -2069,6 +2321,9 @@
     "form": "solid",
     "icon": "6tssEAPIK48MwgkiW4cWck4dPG6Xpc1yGK2EiOcCyKCi",
     "stackSize": 200,
+    "categories": [
+      "Parts"
+    ],
     "slug": "polymer-resin"
   },
   "portable-miner": {
@@ -2078,6 +2333,9 @@
     "form": "solid",
     "icon": "6v1wjBiP4sc6IkUWEYaUoa5l70CAU7XqcesUeSIG4WUw",
     "stackSize": 1,
+    "categories": [
+      "Parts"
+    ],
     "slug": "portable-miner"
   },
   "power-line": {
@@ -2135,6 +2393,9 @@
     "form": "solid",
     "icon": "2IoxxIA7dmEkAkuemGewW63vdCDLdhO0ggYcsiGiUa26",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "power-shard"
   },
   "programmable-splitter": {
@@ -2156,7 +2417,7 @@
     "form": "solid",
     "icon": "8VX2fNxj1ecoaQ4sOEmGIdkSKBIP9wOIEoAwOAoIKs",
     "stackSize": 50,
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],
@@ -2181,6 +2442,9 @@
     "form": "solid",
     "icon": "3SDsblxDNeuusKEQUMmcM01jMPzwNEKKkcKeIeck8oUe",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "quartz-crystal"
   },
   "quickwire": {
@@ -2190,6 +2454,9 @@
     "form": "solid",
     "icon": "7xQWI9C0fegwYmmoS8Wkq26rdGoXXtgk4msi6AAUUkUY",
     "stackSize": 500,
+    "categories": [
+      "Parts"
+    ],
     "slug": "quickwire"
   },
   "radio-control-unit": {
@@ -2199,6 +2466,9 @@
     "form": "solid",
     "icon": "4PLCuCwLcICmGsS4Uikm2a6aJmlhBrt6WQQ0iWSKSse",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "radio-control-unit"
   },
   "railway": {
@@ -2256,11 +2526,17 @@
     "form": "solid",
     "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km",
     "stackSize": 100,
-    "raw": true,
     "categories": [
-      "Resource"
+      "Ores"
     ],
-    "slug": "raw-quartz"
+    "slug": "raw-quartz",
+    "resource": {
+      "extractedBy": [
+        "miner-mk1",
+        "miner-mk2",
+        "miner-mk3"
+      ]
+    }
   },
   "rebar-gun": {
     "kind": "item",
@@ -2269,6 +2545,9 @@
     "form": "solid",
     "icon": "1zdxnOKlPacEuKmwqESmam4eACU8aO92aKyq0CyayqmG",
     "stackSize": 1,
+    "categories": [
+      "Parts"
+    ],
     "slug": "rebar-gun"
   },
   "refinery": {
@@ -2295,6 +2574,9 @@
     "form": "solid",
     "icon": "DpiCnZTAhq6Q2ssmA40ck5dYXGBigKsW6KMGCkm8uqc",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "reinforced-iron-plate"
   },
   "rifle": {
@@ -2304,6 +2586,13 @@
     "form": "solid",
     "icon": "1lAx8yNvV2aMkKocgcAE6u31JaXkJP3GiOmgE8wQAgeu",
     "stackSize": 1,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": [
+      "Equipment"
+    ],
     "slug": "rifle"
   },
   "rotor": {
@@ -2313,6 +2602,9 @@
     "form": "solid",
     "icon": "OgqyQ7r2wwSwq8OMIKkUk4WXk7Z4FbOsic2AE0u0o6U",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "rotor"
   },
   "rubber": {
@@ -2322,6 +2614,9 @@
     "form": "solid",
     "icon": "1VyrgwLHgUoKUQCssgcqEu1hrYGNAgsqA2OgGowgUkew",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "rubber"
   },
   "screw": {
@@ -2331,6 +2626,9 @@
     "form": "solid",
     "icon": "3CIfE8K1Hy6gMa8Wm2SKAW13hK22ceCk0se0igMMmKoc",
     "stackSize": 500,
+    "categories": [
+      "Parts"
+    ],
     "slug": "screw"
   },
   "silica": {
@@ -2340,6 +2638,9 @@
     "form": "solid",
     "icon": "1MA5DTcAxKqImsIQmwoy4u263hXLjnTmSWsmY8Uc66yU",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "silica"
   },
   "smart-plating": {
@@ -2349,6 +2650,9 @@
     "form": "solid",
     "icon": "3dbpfvkoGsIgquEKiSAASA40qElBoMR28qEMYEm2gg0e",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "smart-plating"
   },
   "smart-splitter": {
@@ -2390,6 +2694,9 @@
     "fuel": {
       "energy": 450
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "solid-biofuel"
   },
   "space-elevator": {
@@ -2411,6 +2718,9 @@
     "form": "solid",
     "icon": "1bWG8QbSVsiywqogMGweWi783FQZseekeGw2GomuOI2c",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "spiked-rebar"
   },
   "stackable-pipeline-support": {
@@ -2467,6 +2777,9 @@
     "form": "solid",
     "icon": "5uQCS3rUYgEe46y6Si2swI7vV0osgpxY2MA8i0mO0WUo",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "stator"
   },
   "steel-beam": {
@@ -2476,6 +2789,9 @@
     "form": "solid",
     "icon": "72rbdMX8IgakCYsMKcS2GM100ux7ugpocOQAMO8SyKcU",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "steel-beam"
   },
   "steel-ingot": {
@@ -2485,6 +2801,9 @@
     "form": "solid",
     "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "steel-ingot"
   },
   "steel-pipe": {
@@ -2494,6 +2813,9 @@
     "form": "solid",
     "icon": "2yJdFh2GbOaiWegyi6MMcg3h649gbq40eSGuOQCiE2UI",
     "stackSize": 100,
+    "categories": [
+      "Parts"
+    ],
     "slug": "steel-pipe"
   },
   "storage-container": {
@@ -2519,11 +2841,17 @@
     "form": "solid",
     "icon": "zIWbiVBnnEsiQy4MSooAS7mVmxEg27SISYawA0AgUe0",
     "stackSize": 100,
-    "raw": true,
     "categories": [
-      "Resource"
+      "Ores"
     ],
-    "slug": "sulfur"
+    "slug": "sulfur",
+    "resource": {
+      "extractedBy": [
+        "miner-mk1",
+        "miner-mk2",
+        "miner-mk3"
+      ]
+    }
   },
   "sulfuric-acid": {
     "kind": "item",
@@ -2546,6 +2874,9 @@
     "form": "solid",
     "icon": "2a9pmNYGikcOKyoeGGGmKq1IBF81BuKIuEKcaYMCMaIE",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "supercomputer"
   },
   "the-hub": {
@@ -2615,6 +2946,9 @@
     "form": "solid",
     "icon": "3VDejjgSzSI2kUiesoCEcU3IMyjwZdH2I6siqQc6uWK6",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "turbo-motor"
   },
   "turbofuel": {
@@ -2660,11 +2994,17 @@
     "radioactivity": {
       "decay": 15
     },
-    "raw": true,
     "categories": [
-      "Resource"
+      "Ores"
     ],
-    "slug": "uranium"
+    "slug": "uranium",
+    "resource": {
+      "extractedBy": [
+        "miner-mk1",
+        "miner-mk2",
+        "miner-mk3"
+      ]
+    }
   },
   "uranium-pellet": {
     "kind": "item",
@@ -2676,6 +3016,9 @@
     "radioactivity": {
       "decay": 7.5
     },
+    "categories": [
+      "Parts"
+    ],
     "slug": "uranium-pellet"
   },
   "versatile-framework": {
@@ -2685,6 +3028,9 @@
     "form": "solid",
     "icon": "3Ugy0tOX2U6kikQkuwesGY3XNgQyhzAsKaeMoE66oEIc",
     "stackSize": 50,
+    "categories": [
+      "Parts"
+    ],
     "slug": "versatile-framework"
   },
   "walkway-crossing": {
@@ -3005,7 +3351,11 @@
     "fluid": {
       "color": "#7ab0d4ff"
     },
-    "raw": true,
+    "resource": {
+      "extractedBy": [
+        "water-extractor"
+      ]
+    },
     "categories": [
       "Fluids"
     ],
@@ -3047,6 +3397,9 @@
     "form": "solid",
     "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS",
     "stackSize": 500,
+    "categories": [
+      "Parts"
+    ],
     "slug": "wire"
   },
   "wood": {
@@ -3059,7 +3412,7 @@
     "fuel": {
       "energy": 100
     },
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],
@@ -3072,6 +3425,13 @@
     "form": "solid",
     "icon": "4Aw4CX94mk2WmWqGAogcqS6nh63wP2cE2qa2CqKig0I0",
     "stackSize": 1,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": [
+      "Equipment"
+    ],
     "slug": "xeno-basher"
   },
   "xeno-zapper": {
@@ -3081,6 +3441,13 @@
     "form": "solid",
     "icon": "3VrCWG0u0E0GQI82QiqOwc4KAHIq7gGsycw84OGSU4Wy",
     "stackSize": 1,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": [
+      "Equipment"
+    ],
     "slug": "xeno-zapper"
   },
   "yellow-power-slug": {
@@ -3090,7 +3457,7 @@
     "form": "solid",
     "icon": "5JN4VvmzrGYOmOmg8sSWqm4r4xg8ijMQA40SgwUgOgiK",
     "stackSize": 50,
-    "raw": true,
+    "resource": {},
     "categories": [
       "Gathered"
     ],

@@ -1,5 +1,12 @@
 import { Entity, EntityKind } from './Entity';
-import { Color, ItemAmount, ItemForm, HumanReadableString, EquipmentSlot } from './primitive';
+import {
+  Color,
+  ItemAmount,
+  ItemForm,
+  HumanReadableString,
+  EquipmentSlot,
+  Slug,
+} from './primitive';
 
 /**
  * Items that can be placed in inventories (resources, equipment, etc).
@@ -18,20 +25,20 @@ export interface Item extends Entity {
   form: ItemForm;
 
   /**
-   * Whether the item is a raw resource (extracted from the game world).
-   */
-  raw?: true;
-
-  /**
    * The maximum stack size of the item, if stackable.
    */
   stackSize?: number;
 
   /**
+   * Whether the item is a raw resource (extracted from the game world).
+   */
+  resource?: ItemResourceDetails;
+
+  /**
    * If the item is a fluid, provides details about that.
    */
   fluid?: ItemFluidDetails;
-  
+
   /**
    * If the item is radioactive, provides details about that.
    */
@@ -46,6 +53,21 @@ export interface Item extends Entity {
    * If the item can be equipped, provides details about that.
    */
   equipment?: ItemEquipmentDetails;
+}
+
+/**
+ * Details about resources.
+ */
+export interface ItemResourceDetails {
+  /**
+   * Machines that can extract it.
+   */
+  extractedBy?: Slug[];
+
+  /**
+   * Whether it can be gathered by the player.
+   */
+  gatherable?: true;
 }
 
 /**

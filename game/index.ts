@@ -5,6 +5,7 @@ export * from './BuildableDockingStation';
 export * from './BuildableFactory';
 export * from './BuildableGenerator';
 export * from './BuildableManufacturer';
+export * from './BuildableResourceExtractor';
 export * from './BuildableStorage';
 export * from './BuildDescriptor';
 export * from './Color';

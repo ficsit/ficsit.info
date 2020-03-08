@@ -25,9 +25,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 120,
     "manualMultiplier": 1,
@@ -51,12 +49,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 12,
     "manualMultiplier": 1,
     "slug": "recipe-ai-limiter"
@@ -79,12 +73,8 @@
         "count": 4
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 8,
     "manualMultiplier": 1,
     "slug": "recipe-alclad-aluminum-sheet"
@@ -107,9 +97,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
@@ -138,9 +126,7 @@
         "count": 4
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 32,
     "manualMultiplier": 1,
@@ -161,9 +147,7 @@
         "count": 6
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
+    "producedIn": ["constructor"],
     "handcraftedIn": [],
     "duration": 8,
     "manualMultiplier": 1,
@@ -188,9 +172,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
@@ -215,9 +197,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -238,9 +218,7 @@
         "count": 20
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
+    "producedIn": ["constructor"],
     "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
@@ -265,9 +243,7 @@
         "count": 7
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 48,
     "manualMultiplier": 1,
@@ -296,9 +272,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
@@ -319,9 +293,7 @@
         "count": 8
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
+    "producedIn": ["constructor"],
     "handcraftedIn": [],
     "duration": 4,
     "manualMultiplier": 1,
@@ -342,9 +314,7 @@
         "count": 10
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
+    "producedIn": ["constructor"],
     "handcraftedIn": [],
     "duration": 4,
     "manualMultiplier": 1,
@@ -369,9 +339,7 @@
         "count": 7
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
@@ -396,9 +364,7 @@
         "count": 9
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 8,
     "manualMultiplier": 1,
@@ -423,9 +389,7 @@
         "count": 15
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -450,9 +414,7 @@
         "count": 20
       }
     ],
-    "producedIn": [
-      "foundry"
-    ],
+    "producedIn": ["foundry"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -477,9 +439,7 @@
         "count": 5
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -504,9 +464,7 @@
         "count": 10
       }
     ],
-    "producedIn": [
-      "foundry"
-    ],
+    "producedIn": ["foundry"],
     "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
@@ -531,9 +489,7 @@
         "count": 20
       }
     ],
-    "producedIn": [
-      "foundry"
-    ],
+    "producedIn": ["foundry"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -558,9 +514,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
@@ -589,9 +543,7 @@
         "count": 20
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 120,
     "manualMultiplier": 1,
@@ -616,9 +568,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 64,
     "manualMultiplier": 1,
@@ -643,9 +593,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 2,
     "manualMultiplier": 1,
@@ -674,9 +622,7 @@
         "count": 1000
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 2,
     "manualMultiplier": 1,
@@ -701,9 +647,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -728,9 +672,7 @@
         "count": 10
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 60,
     "manualMultiplier": 1,
@@ -755,9 +697,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 15,
     "manualMultiplier": 1,
@@ -782,9 +722,7 @@
         "count": 4
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
@@ -809,9 +747,7 @@
         "count": 10
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
@@ -840,9 +776,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
@@ -867,9 +801,7 @@
         "count": 12
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 8,
     "manualMultiplier": 1,
@@ -894,9 +826,7 @@
         "count": 30
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 20,
     "manualMultiplier": 1,
@@ -921,9 +851,7 @@
         "count": 7
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 32,
     "manualMultiplier": 1,
@@ -956,9 +884,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 64,
     "manualMultiplier": 1,
@@ -991,9 +917,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
@@ -1018,9 +942,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -1053,9 +975,7 @@
         "count": 35
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 120,
     "manualMultiplier": 1,
@@ -1080,9 +1000,7 @@
         "count": 20
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -1111,9 +1029,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 32,
     "manualMultiplier": 1,
@@ -1138,9 +1054,7 @@
         "count": 5
       }
     ],
-    "producedIn": [
-      "foundry"
-    ],
+    "producedIn": ["foundry"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -1161,9 +1075,7 @@
         "count": 9
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
+    "producedIn": ["constructor"],
     "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
@@ -1196,9 +1108,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 300,
     "manualMultiplier": 1,
@@ -1227,9 +1137,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
@@ -1254,9 +1162,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -1281,9 +1187,7 @@
         "count": 2000
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -1304,9 +1208,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "smelter"
-    ],
+    "producedIn": ["smelter"],
     "handcraftedIn": [],
     "duration": 5,
     "manualMultiplier": 1,
@@ -1331,9 +1233,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 5,
     "manualMultiplier": 1,
@@ -1358,9 +1258,7 @@
         "count": 15
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
@@ -1385,9 +1283,7 @@
         "count": 13
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -1412,9 +1308,7 @@
         "count": 7
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 8,
     "manualMultiplier": 1,
@@ -1439,9 +1333,7 @@
         "count": 11
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
@@ -1466,9 +1358,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 15,
     "manualMultiplier": 1,
@@ -1497,9 +1387,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 48,
     "manualMultiplier": 1,
@@ -1524,9 +1412,7 @@
         "count": 12
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -1551,9 +1437,7 @@
         "count": 12
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -1582,9 +1466,7 @@
         "count": 6
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 48,
     "manualMultiplier": 1,
@@ -1609,9 +1491,7 @@
         "count": 9
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -1640,9 +1520,7 @@
         "count": 4
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 40,
     "manualMultiplier": 1,
@@ -1667,9 +1545,7 @@
         "count": 5
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
@@ -1698,9 +1574,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 40,
     "manualMultiplier": 1,
@@ -1725,9 +1599,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "foundry"
-    ],
+    "producedIn": ["foundry"],
     "handcraftedIn": [],
     "duration": 3,
     "manualMultiplier": 1,
@@ -1752,9 +1624,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 8,
     "manualMultiplier": 1,
@@ -1779,9 +1649,7 @@
         "count": 18
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
@@ -1802,9 +1670,7 @@
         "count": 4
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
+    "producedIn": ["constructor"],
     "handcraftedIn": [],
     "duration": 5,
     "manualMultiplier": 1,
@@ -1829,9 +1695,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -1852,9 +1716,7 @@
         "count": 52
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
+    "producedIn": ["constructor"],
     "handcraftedIn": [],
     "duration": 12,
     "manualMultiplier": 1,
@@ -1879,9 +1741,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 60,
     "manualMultiplier": 1,
@@ -1906,9 +1766,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 32,
     "manualMultiplier": 1,
@@ -1933,9 +1791,7 @@
         "count": 4000
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 8,
     "manualMultiplier": 1,
@@ -1968,9 +1824,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 64,
     "manualMultiplier": 1,
@@ -1995,9 +1849,7 @@
         "count": 4
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 3,
     "manualMultiplier": 1,
@@ -2026,9 +1878,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -2052,12 +1902,8 @@
         "count": 4
       }
     ],
-    "producedIn": [
-      "foundry"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["foundry"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 3,
     "manualMultiplier": 1,
     "slug": "recipe-aluminum-ingot"
@@ -2084,9 +1930,7 @@
         "count": 1000
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 1,
     "manualMultiplier": 1,
@@ -2139,9 +1983,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
@@ -2231,12 +2073,8 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["manufacturer"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 32,
     "manualMultiplier": 1,
     "slug": "recipe-battery"
@@ -2267,12 +2105,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "producedIn": ["manufacturer"],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 8,
     "manualMultiplier": 1,
     "slug": "recipe-beacon"
@@ -2291,12 +2125,8 @@
         "count": 100
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 4,
     "manualMultiplier": 1,
     "slug": "recipe-biomass-alien-carapace"
@@ -2315,12 +2145,8 @@
         "count": 200
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 8,
     "manualMultiplier": 1,
     "slug": "recipe-biomass-alien-organs"
@@ -2368,12 +2194,8 @@
         "count": 5
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 5,
     "manualMultiplier": 0.4,
     "slug": "recipe-biomass-leaves"
@@ -2392,12 +2214,8 @@
         "count": 10
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 4,
     "manualMultiplier": 0.5,
     "slug": "recipe-biomass-mycelia"
@@ -2416,12 +2234,8 @@
         "count": 20
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 4,
     "manualMultiplier": 1,
     "slug": "recipe-biomass-wood"
@@ -2444,13 +2258,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench",
-      "equipment-workshop"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench", "equipment-workshop"],
     "duration": 8,
     "manualMultiplier": 0.5,
     "slug": "recipe-black-powder"
@@ -2478,9 +2287,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 80,
     "manualMultiplier": 1,
     "slug": "recipe-blade-runners"
@@ -2499,12 +2306,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 2,
     "manualMultiplier": 1,
     "slug": "recipe-cable"
@@ -2535,13 +2338,8 @@
         "count": 5
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [
-      "craft-bench",
-      "equipment-workshop"
-    ],
+    "producedIn": ["manufacturer"],
+    "handcraftedIn": ["craft-bench", "equipment-workshop"],
     "duration": 20,
     "manualMultiplier": 1,
     "slug": "recipe-cartridge"
@@ -2560,12 +2358,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "smelter"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["smelter"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 4,
     "manualMultiplier": 2,
     "slug": "recipe-caterium-ingot"
@@ -2597,9 +2391,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 60,
     "manualMultiplier": 1,
     "slug": "recipe-chainsaw"
@@ -2622,12 +2414,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 8,
     "manualMultiplier": 1,
     "slug": "recipe-circuit-board"
@@ -2675,13 +2463,8 @@
         "count": 50
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench",
-      "equipment-workshop"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench", "equipment-workshop"],
     "duration": 40,
     "manualMultiplier": 1,
     "slug": "recipe-color-cartridge"
@@ -2709,9 +2492,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 80,
     "manualMultiplier": 1,
     "slug": "recipe-color-gun"
@@ -2742,12 +2523,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["manufacturer"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 24,
     "manualMultiplier": 1.5,
     "slug": "recipe-computer"
@@ -2766,12 +2543,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 4,
     "manualMultiplier": 1,
     "slug": "recipe-concrete"
@@ -3162,12 +2935,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "smelter"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["smelter"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 2,
     "manualMultiplier": 3,
     "slug": "recipe-copper-ingot"
@@ -3186,12 +2955,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 6,
     "manualMultiplier": 1,
     "slug": "recipe-copper-sheet"
@@ -3369,12 +3134,8 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["manufacturer"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 120,
     "manualMultiplier": 0.3,
     "slug": "recipe-crystal-oscillator"
@@ -3535,12 +3296,8 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 30,
     "manualMultiplier": 1,
     "slug": "recipe-electromagnetic-control-rod"
@@ -3559,12 +3316,8 @@
         "count": 4
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 4,
     "manualMultiplier": 1,
     "slug": "recipe-empty-canister"
@@ -3612,12 +3365,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 10,
     "manualMultiplier": 1,
     "slug": "recipe-encased-industrial-beam"
@@ -3640,12 +3389,8 @@
         "count": 10
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 60,
     "manualMultiplier": 0.5,
     "slug": "recipe-encased-uranium-cell"
@@ -3693,12 +3438,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 4,
     "manualMultiplier": 1,
     "slug": "recipe-fabric"
@@ -3726,9 +3467,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 20,
     "manualMultiplier": 2,
     "slug": "recipe-factory-cart-t"
@@ -3776,13 +3515,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [
-      "craft-bench",
-      "equipment-workshop"
-    ],
+    "producedIn": ["manufacturer"],
+    "handcraftedIn": ["craft-bench", "equipment-workshop"],
     "duration": 8,
     "manualMultiplier": 1,
     "slug": "recipe-filter"
@@ -3992,9 +3726,7 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -4060,9 +3792,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 80,
     "manualMultiplier": 1,
     "slug": "recipe-gas-mask"
@@ -4177,9 +3907,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 120,
     "manualMultiplier": 1,
     "slug": "recipe-hazmat-suit"
@@ -4202,12 +3930,8 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 12,
     "manualMultiplier": 1,
     "slug": "recipe-heat-sink"
@@ -4238,12 +3962,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["manufacturer"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 30,
     "manualMultiplier": 0.6,
     "slug": "recipe-heavy-modular-frame"
@@ -4270,12 +3990,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["manufacturer"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 16,
     "manualMultiplier": 1,
     "slug": "recipe-high-speed-connector"
@@ -4716,13 +4432,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [
-      "craft-bench",
-      "equipment-workshop"
-    ],
+    "producedIn": ["manufacturer"],
+    "handcraftedIn": ["craft-bench", "equipment-workshop"],
     "duration": 16,
     "manualMultiplier": 1,
     "slug": "recipe-iodine-infused-filter"
@@ -4741,12 +4452,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "smelter"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["smelter"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 2,
     "manualMultiplier": 3,
     "slug": "recipe-iron-ingot"
@@ -4765,12 +4472,8 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 6,
     "manualMultiplier": 1,
     "slug": "recipe-iron-plate"
@@ -4789,12 +4492,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 4,
     "manualMultiplier": 0.5,
     "slug": "recipe-iron-rod"
@@ -4826,9 +4525,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 120,
     "manualMultiplier": 1,
     "slug": "recipe-jetpack"
@@ -4880,9 +4577,7 @@
         "count": 4000
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 4,
     "manualMultiplier": 1,
@@ -4998,9 +4693,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 20,
     "manualMultiplier": 1,
     "slug": "recipe-medicinal-inhaler"
@@ -5024,9 +4717,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 20,
     "manualMultiplier": 1,
     "slug": "recipe-medicinal-inhaler-alien-organs"
@@ -5152,9 +4843,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 60,
     "manualMultiplier": 1,
@@ -5178,12 +4867,8 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 60,
     "manualMultiplier": 0.5,
     "slug": "recipe-modular-frame"
@@ -5206,12 +4891,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 12,
     "manualMultiplier": 2,
     "slug": "recipe-motor"
@@ -5234,12 +4915,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 20,
     "manualMultiplier": 1,
     "slug": "recipe-nobelisk"
@@ -5267,9 +4944,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 80,
     "manualMultiplier": 1,
     "slug": "recipe-nobelisk-detonator"
@@ -5296,9 +4971,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
+    "producedIn": ["manufacturer"],
     "handcraftedIn": [],
     "duration": 150,
     "manualMultiplier": 1,
@@ -5368,9 +5041,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 20,
     "manualMultiplier": 1,
     "slug": "recipe-nutritional-inhaler"
@@ -5398,9 +5069,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 40,
     "manualMultiplier": 1,
     "slug": "recipe-object-scanner"
@@ -5473,9 +5142,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 3,
     "manualMultiplier": 1,
@@ -5499,9 +5166,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 4,
     "manualMultiplier": 1,
@@ -5525,9 +5190,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 3,
     "manualMultiplier": 1,
@@ -5551,9 +5214,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 4,
     "manualMultiplier": 1,
@@ -5577,9 +5238,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -5603,9 +5262,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 2,
     "manualMultiplier": 1,
@@ -5630,9 +5287,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 40,
     "manualMultiplier": 1,
     "slug": "recipe-parachute"
@@ -5676,9 +5331,7 @@
         "count": 12
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -5915,9 +5568,7 @@
         "count": 1000
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -5942,9 +5593,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 40,
     "manualMultiplier": 1,
     "slug": "recipe-portable-miner"
@@ -6071,12 +5720,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 10,
     "manualMultiplier": 1,
     "slug": "recipe-power-shard-1"
@@ -6095,12 +5740,8 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 15,
     "manualMultiplier": 1.2,
     "slug": "recipe-power-shard-2"
@@ -6119,12 +5760,8 @@
         "count": 5
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 20,
     "manualMultiplier": 1.2,
     "slug": "recipe-power-shard-5"
@@ -6193,12 +5830,8 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 8,
     "manualMultiplier": 2,
     "slug": "recipe-quartz-crystal"
@@ -6217,12 +5850,8 @@
         "count": 5
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 5,
     "manualMultiplier": 2,
     "slug": "recipe-quickwire"
@@ -6286,12 +5915,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["manufacturer"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 24,
     "manualMultiplier": 1.5,
     "slug": "recipe-radio-control-unit"
@@ -6407,9 +6032,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 100,
     "manualMultiplier": 1,
     "slug": "recipe-rebar-gun"
@@ -6465,12 +6088,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 12,
     "manualMultiplier": 1,
     "slug": "recipe-reinforced-iron-plate"
@@ -6489,9 +6108,7 @@
         "count": 4000
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -6515,9 +6132,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -6541,9 +6156,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -6576,9 +6189,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 120,
     "manualMultiplier": 1,
     "slug": "recipe-rifle"
@@ -6601,12 +6212,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 15,
     "manualMultiplier": 0.8,
     "slug": "recipe-rotor"
@@ -6629,9 +6236,7 @@
         "count": 2000
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -6651,12 +6256,8 @@
         "count": 4
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 6,
     "manualMultiplier": 1,
     "slug": "recipe-screw"
@@ -6675,12 +6276,8 @@
         "count": 5
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 8,
     "manualMultiplier": 2,
     "slug": "recipe-silica"
@@ -6703,9 +6300,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 30,
     "manualMultiplier": 1,
@@ -6779,9 +6374,7 @@
         "count": 4
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
+    "producedIn": ["constructor"],
     "handcraftedIn": [
       "craft-bench",
       "--BAD REFERENCE: Build_AutomatedWorkBench_C--"
@@ -6836,13 +6429,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench",
-      "equipment-workshop"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench", "equipment-workshop"],
     "duration": 4,
     "manualMultiplier": 1,
     "slug": "recipe-spiked-rebar"
@@ -6969,12 +6557,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["assembler"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 12,
     "manualMultiplier": 1.5,
     "slug": "recipe-stator"
@@ -6993,12 +6577,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 4,
     "manualMultiplier": 1,
     "slug": "recipe-steel-beam"
@@ -7021,12 +6601,8 @@
         "count": 3
       }
     ],
-    "producedIn": [
-      "foundry"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["foundry"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 4,
     "manualMultiplier": 6,
     "slug": "recipe-steel-ingot"
@@ -7045,12 +6621,8 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 6,
     "manualMultiplier": 1,
     "slug": "recipe-steel-pipe"
@@ -7098,9 +6670,7 @@
         "count": 10000
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -7132,12 +6702,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["manufacturer"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 32,
     "manualMultiplier": 1.5,
     "slug": "recipe-supercomputer"
@@ -7280,12 +6846,8 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "manufacturer"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["manufacturer"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 32,
     "manualMultiplier": 1,
     "slug": "recipe-turbo-motor"
@@ -7308,9 +6870,7 @@
         "count": 5000
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 16,
     "manualMultiplier": 1,
@@ -7363,9 +6923,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 2,
     "manualMultiplier": 1,
@@ -7389,9 +6947,7 @@
         "count": 1
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -7415,9 +6971,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 2,
     "manualMultiplier": 1,
@@ -7441,9 +6995,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 2,
     "manualMultiplier": 1,
@@ -7467,9 +7019,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -7493,9 +7043,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 1,
     "manualMultiplier": 1,
@@ -7523,9 +7071,7 @@
         "count": 2000
       }
     ],
-    "producedIn": [
-      "refinery"
-    ],
+    "producedIn": ["refinery"],
     "handcraftedIn": [],
     "duration": 6,
     "manualMultiplier": 1,
@@ -7549,9 +7095,7 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "assembler"
-    ],
+    "producedIn": ["assembler"],
     "handcraftedIn": [],
     "duration": 24,
     "manualMultiplier": 1,
@@ -8325,12 +7869,8 @@
         "count": 2
       }
     ],
-    "producedIn": [
-      "constructor"
-    ],
-    "handcraftedIn": [
-      "craft-bench"
-    ],
+    "producedIn": ["constructor"],
+    "handcraftedIn": ["craft-bench"],
     "duration": 4,
     "manualMultiplier": 1,
     "slug": "recipe-wire"
@@ -8362,9 +7902,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 80,
     "manualMultiplier": 1,
     "slug": "recipe-xeno-basher"
@@ -8396,9 +7934,7 @@
       }
     ],
     "producedIn": [],
-    "handcraftedIn": [
-      "equipment-workshop"
-    ],
+    "handcraftedIn": ["equipment-workshop"],
     "duration": 40,
     "manualMultiplier": 1,
     "slug": "recipe-xeno-zapper"

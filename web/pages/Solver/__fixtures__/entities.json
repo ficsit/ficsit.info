@@ -6,6 +6,7 @@
     "form": "solid",
     "icon": "iUT79ZO9DGwiAYeaqe0Q2HV47m6CsKYgAOMiiiOEMu",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "adaptive-control-unit"
   },
   "ai-limiter": {
@@ -15,6 +16,7 @@
     "form": "solid",
     "icon": "h8ltD2kwsocsa80SUkM0i9Y3kkvCCXucaMMYIaOiWk",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "ai-limiter"
   },
   "alclad-aluminum-sheet": {
@@ -24,6 +26,7 @@
     "form": "solid",
     "icon": "5x1rFAdnYQgykUy6I00W807xHNK0X89qoGIS62C8yWMG",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "alclad-aluminum-sheet"
   },
   "alien-carapace": {
@@ -36,10 +39,8 @@
     "fuel": {
       "energy": 250
     },
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "alien-carapace"
   },
   "alien-organs": {
@@ -52,10 +53,8 @@
     "fuel": {
       "energy": 250
     },
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "alien-organs"
   },
   "alumina-solution": {
@@ -67,9 +66,7 @@
     "fluid": {
       "color": "#c1c1c1ff"
     },
-    "categories": [
-      "Fluids"
-    ],
+    "categories": ["Fluids"],
     "slug": "alumina-solution"
   },
   "aluminum-ingot": {
@@ -79,6 +76,7 @@
     "form": "solid",
     "icon": "1dlvKyAE1wWCkCGkI2cs4I6A9VggMF5SAMawmKAQAIWq",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "aluminum-ingot"
   },
   "aluminum-scrap": {
@@ -88,16 +86,14 @@
     "form": "solid",
     "icon": "4aw8Ki6ocg8WUqmemQcAIU1bGANAb9dqmAGAgSYUqWGk",
     "stackSize": 500,
+    "categories": ["Parts"],
     "slug": "aluminum-scrap"
   },
   "assembler": {
     "kind": "building",
     "name": "Assembler",
     "description": "Crafts two parts into another part.\n\nCan be automated by feeding parts into it with a conveyor belt connected to the input. The produced parts can be automatically extracted by connecting a conveyor belt to the output.",
-    "categories": [
-      "Production",
-      "Manufacturers"
-    ],
+    "categories": ["Production", "Manufacturers"],
     "listOrder": 12,
     "icon": "77Sl2E79lY8icWES8cWIsQwnyM5Xvih2SymIOm2i6Ek",
     "overclockable": true,
@@ -114,16 +110,14 @@
     "form": "solid",
     "icon": "4fgmzNq4WIa66YUgIImImk61hkG4YTwA6kAyisIuYQIg",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "automated-wiring"
   },
   "awesome-shop": {
     "kind": "building",
     "name": "AWESOME Shop",
     "description": "Redeem your FICSIT Coupons here! \nFor those employees going the extra kilometer we have set aside special bonus milestones and rewards! Get your Coupons in the AWESOME Sink program now!\n\n*No refunds possible.",
-    "categories": [
-      "Special",
-      "Special"
-    ],
+    "categories": ["Special", "Special"],
     "listOrder": 40,
     "icon": "VFqvxWEzyUwOUYcGIG8WKNSDNPpiFWKOygyauKCqIa",
     "slug": "awesome-shop"
@@ -132,10 +126,7 @@
     "kind": "building",
     "name": "AWESOME Sink",
     "description": "Got excess resources? Fear not, for FICSIT does not waste! The newly developed AWESOME Sink turns any useful part straight into research data, as fast as you can supply it! \nParticipating empolyees will be compensated with Coupons to be spend at the AWESOME Shop.",
-    "categories": [
-      "Special",
-      "Special"
-    ],
+    "categories": ["Special", "Special"],
     "listOrder": 36,
     "icon": "6VRDvV3Hna2KSIoA6IwWysSBwVOizfEcekUCYuAE8Iw",
     "powerConsumption": {
@@ -151,10 +142,8 @@
     "form": "solid",
     "icon": "7IkekZcEqQoeCIEUqgu8OY7fV0aZIJq0qi8cqAYcCyQS",
     "stackSize": 50,
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "bacon-agaric"
   },
   "battery": {
@@ -167,6 +156,7 @@
     "fuel": {
       "energy": 6000
     },
+    "categories": ["Parts"],
     "slug": "battery"
   },
   "bauxite": {
@@ -176,11 +166,11 @@
     "form": "solid",
     "icon": "73Mi6nPN6wK4wIquOUgIEw7sLaT7cdUIMS0YQEsw6cMG",
     "stackSize": 100,
-    "raw": true,
-    "categories": [
-      "Resource"
-    ],
-    "slug": "bauxite"
+    "categories": ["Ores"],
+    "slug": "bauxite",
+    "resource": {
+      "extractedBy": ["miner-mk1", "miner-mk2", "miner-mk3"]
+    }
   },
   "beacon": {
     "kind": "item",
@@ -189,6 +179,11 @@
     "form": "solid",
     "icon": "1OwicP8qRS6ycu8GwSaaG2T5M9IB9uA8YAIIYAE2oUk",
     "stackSize": 100,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": ["Equipment"],
     "slug": "beacon"
   },
   "beryl-nut": {
@@ -197,10 +192,8 @@
     "description": "Slot: Hands\nConsumable\n\nCan be eaten to restore half a health segment.",
     "form": "solid",
     "stackSize": 100,
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "beryl-nut"
   },
   "biomass": {
@@ -213,16 +206,14 @@
     "fuel": {
       "energy": 180
     },
+    "categories": ["Parts"],
     "slug": "biomass"
   },
   "biomass-burner": {
     "kind": "building",
     "name": "Biomass Burner",
     "description": "Burns various forms of biomass to generate electricity for the power grid.\nHas no input and must therefore be fed biomass manually.",
-    "categories": [
-      "Power",
-      "Generators"
-    ],
+    "categories": ["Power", "Generators"],
     "listOrder": 20,
     "icon": "6lCPcNNKzSiWaU4aK46oaK4yhgXDsxhuCyMgs4USCmwA",
     "overclockable": true,
@@ -253,6 +244,7 @@
     "form": "solid",
     "icon": "XoMkHOPbkisYw0Os2CEC04arPLe5TAQYMYW4sMqUwCm",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "black-powder"
   },
   "blade-runners": {
@@ -262,6 +254,11 @@
     "form": "solid",
     "icon": "5lFrWDoadOys4iwU020sAs4TypfopM36Emu8qSAQkasq",
     "stackSize": 1,
+    "equipment": {
+      "slot": "body",
+      "cost": []
+    },
+    "categories": ["Equipment"],
     "slug": "blade-runners"
   },
   "cable": {
@@ -271,6 +268,7 @@
     "form": "solid",
     "icon": "2LUwinO6GIwiuqW22o6uCu1K0OPykoCEQY44ussgSoQQ",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "cable"
   },
   "cartridge": {
@@ -280,6 +278,7 @@
     "form": "solid",
     "icon": "6ToL2rptqo4ScSK6QUGAWW1F90Gxysdqu2MoSkIcuASW",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "cartridge"
   },
   "caterium-ingot": {
@@ -289,6 +288,7 @@
     "form": "solid",
     "icon": "hYVuwBz5FC64maqiOemaS7F4TmTDTcA2sUQsegK2EGM",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "caterium-ingot"
   },
   "caterium-ore": {
@@ -298,11 +298,11 @@
     "form": "solid",
     "icon": "6HkuY8ol3yKQywiSAmCE4M187rTIVuw0wI6waiQMW4Ak",
     "stackSize": 100,
-    "raw": true,
-    "categories": [
-      "Resource"
-    ],
-    "slug": "caterium-ore"
+    "categories": ["Ores"],
+    "slug": "caterium-ore",
+    "resource": {
+      "extractedBy": ["miner-mk1", "miner-mk2", "miner-mk3"]
+    }
   },
   "chainsaw": {
     "kind": "item",
@@ -315,6 +315,7 @@
       "slot": "arms",
       "cost": []
     },
+    "categories": ["Equipment"],
     "slug": "chainsaw"
   },
   "circuit-board": {
@@ -324,6 +325,7 @@
     "form": "solid",
     "icon": "2KvkNzQqCsaimyg0syMUIQ5A3TFNtSqkSo6m2GcA42SE",
     "stackSize": 200,
+    "categories": ["Parts"],
     "slug": "circuit-board"
   },
   "coal": {
@@ -336,20 +338,17 @@
     "fuel": {
       "energy": 300
     },
-    "raw": true,
-    "categories": [
-      "Resource"
-    ],
-    "slug": "coal"
+    "categories": ["Ores"],
+    "slug": "coal",
+    "resource": {
+      "extractedBy": ["miner-mk1", "miner-mk2", "miner-mk3"]
+    }
   },
   "coal-generator": {
     "kind": "building",
     "name": "Coal Generator",
     "description": "Burns coal to generate electricity for your power grid.\nHas an input so feeding coal can be automated.",
-    "categories": [
-      "Power",
-      "Generators"
-    ],
+    "categories": ["Power", "Generators"],
     "listOrder": 21,
     "icon": "1W1crDIzAkgaUW0KsI8IOu1iIousJUsWOWSgCKsWGuKa",
     "overclockable": true,
@@ -357,11 +356,7 @@
       "amount": 75,
       "exponent": 1.3,
       "fuelForm": "solid",
-      "fuels": [
-        "coal",
-        "compacted-coal",
-        "petroleum-coke"
-      ]
+      "fuels": ["coal", "compacted-coal", "petroleum-coke"]
     },
     "slug": "coal-generator"
   },
@@ -375,6 +370,7 @@
     "fuel": {
       "energy": 900
     },
+    "categories": ["Parts"],
     "slug": "color-cartridge"
   },
   "color-gun": {
@@ -384,6 +380,11 @@
     "form": "solid",
     "icon": "498oVhXQLYkowyEG2O0s4I6O5ps1ZlM46wYWc8ymc2kS",
     "stackSize": 1,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": ["Equipment"],
     "slug": "color-gun"
   },
   "compacted-coal": {
@@ -396,6 +397,7 @@
     "fuel": {
       "energy": 630
     },
+    "categories": ["Parts"],
     "slug": "compacted-coal"
   },
   "computer": {
@@ -405,6 +407,7 @@
     "form": "solid",
     "icon": "6vZ32C2ZkA4qwAuQ0AQkwc1bn9l350L6we4iYUWigWoS",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "computer"
   },
   "concrete": {
@@ -414,16 +417,14 @@
     "form": "solid",
     "icon": "pc50uYa10c2qQk8ggEqo43wPqJDTu0gUeIeSWQU0qe",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "concrete"
   },
   "constructor": {
     "kind": "building",
     "name": "Constructor",
     "description": "Crafts one part into another part.\n\nCan be automated by feeding parts into it with a conveyor belt connected to the input. The produced parts can be automatically extracted by connecting a conveyor belt to the output.",
-    "categories": [
-      "Production",
-      "Manufacturers"
-    ],
+    "categories": ["Production", "Manufacturers"],
     "listOrder": 10,
     "icon": "6xsSeTNlEAIe48EE2SSwkm6VWOf4nszuyeI4KAwqyEM0",
     "overclockable": true,
@@ -437,10 +438,7 @@
     "kind": "building",
     "name": "Conveyor Belt",
     "description": "Transports up to 60 resources per minute. Used to move resources between buildings.",
-    "categories": [
-      "Transport",
-      "ConveyorBelts"
-    ],
+    "categories": ["Transport", "ConveyorBelts"],
     "listOrder": 31,
     "icon": "2V1hjgBUbSKMAokugy6sgoq6SOlvypaKmus2qMwMEIa",
     "conveyor": {
@@ -452,10 +450,7 @@
     "kind": "building",
     "name": "Conveyor Belt Mk.2",
     "description": "Transports up to 120 resources per minute. Used to move resources between buildings.",
-    "categories": [
-      "Transport",
-      "ConveyorBelts"
-    ],
+    "categories": ["Transport", "ConveyorBelts"],
     "listOrder": 32,
     "icon": "6TV6ZtUlOMwugIkQUQccI07zw7tB18BOq0SGIm4aGEgA",
     "conveyor": {
@@ -467,10 +462,7 @@
     "kind": "building",
     "name": "Conveyor Belt Mk.3",
     "description": "Transports up to 270 resources per minute. Used to move resources between buildings.",
-    "categories": [
-      "Transport",
-      "ConveyorBelts"
-    ],
+    "categories": ["Transport", "ConveyorBelts"],
     "listOrder": 33,
     "icon": "471dp7kQnuukocKoSegkO86ihlcUOHkIYCwQ8Ku2kISk",
     "conveyor": {
@@ -482,10 +474,7 @@
     "kind": "building",
     "name": "Conveyor Belt Mk.4",
     "description": "Transports up to 480 resources per minute. Used to move resources between buildings.",
-    "categories": [
-      "Transport",
-      "ConveyorBelts"
-    ],
+    "categories": ["Transport", "ConveyorBelts"],
     "listOrder": 34,
     "icon": "5OC2gFZnH2KoEggoGaYaoW3Ydw0zXZuM4c4ew4AMq8Sa",
     "conveyor": {
@@ -497,10 +486,7 @@
     "kind": "building",
     "name": "Conveyor Belt Mk.5",
     "description": "Transports up to 780 resources per minute. Used to move resources between buildings.",
-    "categories": [
-      "Transport",
-      "ConveyorBelts"
-    ],
+    "categories": ["Transport", "ConveyorBelts"],
     "listOrder": 35,
     "icon": "2L3QgqRVHiIkGI6s4WW6Cu2REJG0pdBKo0CcuicgCyeU",
     "conveyor": {
@@ -512,10 +498,7 @@
     "kind": "building",
     "name": "Conveyor Lift",
     "description": "Transports up to 60 resources per minute. Used to move resources between floors.",
-    "categories": [
-      "Transport",
-      "ConveyLift"
-    ],
+    "categories": ["Transport", "ConveyLift"],
     "listOrder": 31,
     "icon": "3ulmz3RW2AqeKCieqC6IS02M0dNZNKzuGw0sqIY2gsyO",
     "conveyor": {
@@ -527,10 +510,7 @@
     "kind": "building",
     "name": "Conveyor Lift Mk.2",
     "description": "Transports up to 120 resources per minute. Used to move resources between floors.",
-    "categories": [
-      "Transport",
-      "ConveyLift"
-    ],
+    "categories": ["Transport", "ConveyLift"],
     "listOrder": 31,
     "icon": "4a0DuPL7Bue4cEYMMwQooy3fXWD8Q0dq4ocEga0q4coG",
     "conveyor": {
@@ -542,10 +522,7 @@
     "kind": "building",
     "name": "Conveyor Lift Mk.3",
     "description": "Transports up to 270 resources per minute. Used to move resources between floors.",
-    "categories": [
-      "Transport",
-      "ConveyLift"
-    ],
+    "categories": ["Transport", "ConveyLift"],
     "listOrder": 31,
     "icon": "7s6OtO2nMAwci8YYmkaQ2W2LjIrNXXmwGcgOAQ2I4Qu8",
     "conveyor": {
@@ -557,10 +534,7 @@
     "kind": "building",
     "name": "Conveyor Lift Mk.4",
     "description": "Transports up to 480 resources per minute. Used to move resources between floors.",
-    "categories": [
-      "Transport",
-      "ConveyLift"
-    ],
+    "categories": ["Transport", "ConveyLift"],
     "listOrder": 31,
     "icon": "50grr0ea4M4aycmMwsSu4I4DLzTyrGLYqWO0Qq8SgI0k",
     "conveyor": {
@@ -572,10 +546,7 @@
     "kind": "building",
     "name": "Conveyor Lift Mk.5",
     "description": "Transports up to 780 resources per minute. Used to move resources between floors.",
-    "categories": [
-      "Transport",
-      "ConveyLift"
-    ],
+    "categories": ["Transport", "ConveyLift"],
     "listOrder": 31,
     "icon": "4siB6bNmbCsmq8MggA2ouq2YziiquzReYQQakQ8osCCU",
     "conveyor": {
@@ -587,10 +558,7 @@
     "kind": "building",
     "name": "Conveyor Merger",
     "description": "Merges up to three conveyor belts into one.",
-    "categories": [
-      "Transport",
-      "ConveyorAttachments"
-    ],
+    "categories": ["Transport", "ConveyorAttachments"],
     "listOrder": 38,
     "icon": "4C3N4zne3eGseAKUsqEsoC2GQpuzr9JmKWO68yogmIiU",
     "slug": "conveyor-merger"
@@ -599,10 +567,7 @@
     "kind": "building",
     "name": "Conveyor Pole",
     "description": "Can be used as a connection for conveyor belts. The height of the pole can be adjusted.\nUseful to route conveyor belts in a more controlled manner and over long distances.",
-    "categories": [
-      "Transport",
-      "ConverPole"
-    ],
+    "categories": ["Transport", "ConverPole"],
     "listOrder": 30,
     "icon": "69vfK30XIW4sqscQEWEOS01jwhyuEusYUgGc2C2kq0qy",
     "slug": "conveyor-pole"
@@ -611,10 +576,7 @@
     "kind": "building",
     "name": "Conveyor Pole Stackable",
     "description": "Conveyor pole with fixed size that is stackable",
-    "categories": [
-      "Transport",
-      "ConverPole"
-    ],
+    "categories": ["Transport", "ConverPole"],
     "listOrder": 30,
     "icon": "4sESZHjIVyEyScQ22mCWE4UrYWgon2UwI888igaAyIO",
     "slug": "conveyor-pole-stackable"
@@ -623,10 +585,7 @@
     "kind": "building",
     "name": "Conveyor Splitter",
     "description": "Splits conveyor belts in three. \nUseful to move parts and resources from oversaturated conveyor belts.",
-    "categories": [
-      "Transport",
-      "ConveyorAttachments"
-    ],
+    "categories": ["Transport", "ConveyorAttachments"],
     "listOrder": 37,
     "icon": "3ibPCrggV2WUAAIYCWyIiQ7pax6dIOgoqMyeEOqSIwYc",
     "slug": "conveyor-splitter"
@@ -635,10 +594,7 @@
     "kind": "building",
     "name": "Conveyor Wall Mount",
     "description": "Can be attached to walls and is used as a connection for conveyor belts.\nUseful to route conveyor belts in a more controlled manner and over long distances.",
-    "categories": [
-      "Transport",
-      "ConverPole"
-    ],
+    "categories": ["Transport", "ConverPole"],
     "listOrder": 31,
     "icon": "4yCJN0saasu24I0CmUec441poZhgrEFmmQ8wwAKAYCio",
     "slug": "conveyor-wall-mount"
@@ -650,6 +606,7 @@
     "form": "solid",
     "icon": "1RtTF6zT7a0qgEICmccgA26pFCZcwKKQyUo482W4sWCC",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "copper-ingot"
   },
   "copper-ore": {
@@ -659,11 +616,11 @@
     "form": "solid",
     "icon": "2KrBJL1WzeSYGMAmCQoowE4vhlksjXcckkuAu8SayuWU",
     "stackSize": 100,
-    "raw": true,
-    "categories": [
-      "Resource"
-    ],
-    "slug": "copper-ore"
+    "categories": ["Ores"],
+    "slug": "copper-ore",
+    "resource": {
+      "extractedBy": ["miner-mk1", "miner-mk2", "miner-mk3"]
+    }
   },
   "copper-sheet": {
     "kind": "item",
@@ -672,16 +629,14 @@
     "form": "solid",
     "icon": "2Fsos2EEnK4EUsE84WGCSM6VLdqq8rny0u400MaCO8eO",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "copper-sheet"
   },
   "corner-ramp-down-8m-x-1m": {
     "kind": "building",
     "name": "Corner Ramp Down 8m x 1m",
     "description": "The Ramps exist to make it easier to get up on Floors, either for vehicles or you. Height: 2",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "kIv3fPhzuCs68u06yuwow1bk0CF9EEE0YcmQ0ygeSi",
     "slug": "corner-ramp-down-8m-x-1m"
@@ -690,10 +645,7 @@
     "kind": "building",
     "name": "Corner Ramp Down 8m x 2m",
     "description": "The Ramps exist to make it easier to get up on Floors, either for vehicles or you. Height: 2",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "7ooyqZlrRCsMGAY60qM08e36eaB6OORGSOoC6GMCqg8s",
     "slug": "corner-ramp-down-8m-x-2m"
@@ -702,10 +654,7 @@
     "kind": "building",
     "name": "Corner Ramp Down 8m x 4m",
     "description": "The Ramps exist to make it easier to get up on Floors, either for vehicles or you. Height: 4",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "4KI4C8lvYA4AcYYYAU60iYtIQCLPLqNw82a4AGMakUU",
     "slug": "corner-ramp-down-8m-x-4m"
@@ -714,10 +663,7 @@
     "kind": "building",
     "name": "Corner Ramp Up 8m x 1m",
     "description": "The Ramps exist to make it easier to get up on Floors, either for vehicles or you. Height: 2",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "4vgSCxWoKIqcM486wm0SAAGxeX4E1tII0E4uEu6M8CG",
     "slug": "corner-ramp-up-8m-x-1m"
@@ -726,10 +672,7 @@
     "kind": "building",
     "name": "Corner Ramp Up 8m x 2m",
     "description": "The Ramps exist to make it easier to get up on Floors, either for vehicles or you. Height: 2",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "2KmN4mgA1aSmISKcG6u8oMsVaW1n7J0O44QGqKsM4A6",
     "slug": "corner-ramp-up-8m-x-2m"
@@ -738,10 +681,7 @@
     "kind": "building",
     "name": "Corner Ramp Up 8m x 4m",
     "description": "The Ramps exist to make it easier to get up on Floors, either for vehicles or you. Height: 2",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "3MTw0QVdduCkG8Mg6CaKUG4rCopzrp4QcKIGO4yimuSs",
     "slug": "corner-ramp-up-8m-x-4m"
@@ -750,10 +690,7 @@
     "kind": "building",
     "name": "Craft Bench",
     "description": "Allows you to manually craft a large range of different parts. \nThese parts can then be used in construction of different factory buildings, vehicles and equipment.",
-    "categories": [
-      "Production",
-      "Workstations"
-    ],
+    "categories": ["Production", "Workstations"],
     "listOrder": 1,
     "icon": "4jY8GFQCCc86KaY8CeiayUIMK7eg6UucYMQWwwUeWwO",
     "slug": "craft-bench"
@@ -770,11 +707,11 @@
     "fuel": {
       "energy": 0.32
     },
-    "raw": true,
-    "categories": [
-      "Fluids"
-    ],
-    "slug": "crude-oil"
+    "categories": ["Fluids"],
+    "slug": "crude-oil",
+    "resource": {
+      "extractedBy": ["oil-extractor"]
+    }
   },
   "crystal-oscillator": {
     "kind": "item",
@@ -783,16 +720,14 @@
     "form": "solid",
     "icon": "7vNSzrF9PaEIyyIAq8YKmO43PgBPFVG0IueAKOsiyuS2",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "crystal-oscillator"
   },
   "double-ramp-8m-x-2m": {
     "kind": "building",
     "name": "Double Ramp 8m x 2m",
     "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "3xUbHNNGtGWA8CMw8uuIu44AjPjRVk0gcK6csWmAYC2g",
     "slug": "double-ramp-8m-x-2m"
@@ -801,10 +736,7 @@
     "kind": "building",
     "name": "Double Ramp 8m x 4m",
     "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "5MGYRpX4XYCuKgi68a4wwM1lCfPpMw7GoQC2yy4eAmWa",
     "slug": "double-ramp-8m-x-4m"
@@ -813,10 +745,7 @@
     "kind": "building",
     "name": "Double Ramp 8m x 8m",
     "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "6HtSNl8g2kWq8GecKiYCII2HIC5d7kIoge6I4eM4soAq",
     "slug": "double-ramp-8m-x-8m"
@@ -825,10 +754,7 @@
     "kind": "building",
     "name": "Double-sided Wall Power Pole",
     "description": "Power Pole that attaches to a wall. Has one connector on each side of the wall.\n\nCan handle up to 4 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
-    "categories": [
-      "Power",
-      "WallPoles"
-    ],
+    "categories": ["Power", "WallPoles"],
     "listOrder": 4,
     "icon": "6oNiZSYSyWKw8MO6Q0OasQ6YMzMdnaecmcmawi8WSCgw",
     "slug": "double-sided-wall-power-pole"
@@ -854,6 +780,7 @@
     "form": "solid",
     "icon": "51sSpGM7scCQUeWGyYme241GZGQI4xz220seAIww6UEY",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "electromagnetic-control-rod"
   },
   "empty-canister": {
@@ -863,16 +790,14 @@
     "form": "solid",
     "icon": "3mMM4pq36oIMqU6Swyag0O7hmfEp4P5YiUqmuskGCsEi",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "empty-canister"
   },
   "empty-platform": {
     "kind": "building",
     "name": "Empty Platform",
     "description": "An empty train platform for when you need to create some empty space.",
-    "categories": [
-      "Transport",
-      "Trains"
-    ],
+    "categories": ["Transport", "Trains"],
     "listOrder": 52,
     "icon": "hnRvcbhOcEsqiCcoe4qwi2L2SzdozCwwWQaoqUUiGYg",
     "slug": "empty-platform"
@@ -884,6 +809,7 @@
     "form": "solid",
     "icon": "15ixr0o43o4EI6KYIckyeQ43UEoxqSByyASwWKSU6Cmk",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "encased-industrial-beam"
   },
   "encased-uranium-cell": {
@@ -896,16 +822,14 @@
     "radioactivity": {
       "decay": 7.5
     },
+    "categories": ["Parts"],
     "slug": "encased-uranium-cell"
   },
   "equipment-workshop": {
     "kind": "building",
     "name": "Equipment Workshop",
     "description": "Used to manually craft equipment.",
-    "categories": [
-      "Production",
-      "Workstations"
-    ],
+    "categories": ["Production", "Workstations"],
     "listOrder": 2,
     "icon": "1drkIPstYKOUcIQmiug6cC33um5Svc3mkekgam6gK6c8",
     "slug": "equipment-workshop"
@@ -920,6 +844,7 @@
     "fuel": {
       "energy": 15
     },
+    "categories": ["Parts"],
     "slug": "fabric"
   },
   "factory-cart-t": {
@@ -929,16 +854,14 @@
     "form": "solid",
     "icon": "1x3dDGmWOome66ykE0C8gA4Rwu8YmGYUKgwGWu6yOwO6",
     "stackSize": 1,
+    "categories": ["Parts"],
     "slug": "factory-cart-t"
   },
   "fence": {
     "kind": "building",
     "name": "Fence",
     "description": "The Fence can be built on the edges of floors to prevent you from falling off.",
-    "categories": [
-      "Walls",
-      "Walls"
-    ],
+    "categories": ["Walls", "Walls"],
     "listOrder": 93,
     "icon": "73gqlchc3Ki8MGwsAeMe2I7l1BTyG1RSWo84ACUaISuA",
     "slug": "fence"
@@ -950,6 +873,7 @@
     "form": "solid",
     "icon": "zWOQlGAFWK6gOqwKacekM18GXoXMsowwo4OCm6gkYou",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "filter"
   },
   "flower-petals": {
@@ -962,20 +886,15 @@
     "fuel": {
       "energy": 100
     },
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "flower-petals"
   },
   "fluid-freight-platform": {
     "kind": "building",
     "name": "Fluid Freight Platform",
     "description": "As Freight Cars stop this they will either unload or load their goods, depending on what you've set it to.\nThe Freight Platform snaps to Railway, each other and Train Stations.",
-    "categories": [
-      "Transport",
-      "Trains"
-    ],
+    "categories": ["Transport", "Trains"],
     "listOrder": 52,
     "icon": "66PJDQFRy8uasEOgmgQ8Mi3qhvp4ipOg6KoCKeSUeOoG",
     "powerConsumption": {
@@ -988,10 +907,7 @@
     "kind": "building",
     "name": "Foundation 8m x 1m",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "Floors"
-    ],
+    "categories": ["Organisation", "Floors"],
     "listOrder": 72,
     "icon": "6kgRiXDpPG66KEYgCWUsoY25Pql5R2AkQKyWeeAQUQOk",
     "slug": "foundation-8m-x-1m"
@@ -1000,10 +916,7 @@
     "kind": "building",
     "name": "Foundation 8m x 2m",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "Floors"
-    ],
+    "categories": ["Organisation", "Floors"],
     "listOrder": 72,
     "icon": "6amhKVh3vG4cy4oiI04GE67BpsLSzc4M4gmqSaEoKGmW",
     "slug": "foundation-8m-x-2m"
@@ -1012,10 +925,7 @@
     "kind": "building",
     "name": "Foundation 8m x 4m",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "Floors"
-    ],
+    "categories": ["Organisation", "Floors"],
     "listOrder": 72,
     "icon": "3LRRmgIMXmW4yUyG2oKmoqyr78QyQaT6K2caoew84WU",
     "slug": "foundation-8m-x-4m"
@@ -1024,10 +934,7 @@
     "kind": "building",
     "name": "Foundation Frame",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "Floors"
-    ],
+    "categories": ["Organisation", "Floors"],
     "listOrder": 72,
     "icon": "3GLpwbxOtWCuk2iAUKy2ME2wUjdFR5K8cOoEOIQM4GOw",
     "slug": "foundation-frame"
@@ -1036,10 +943,7 @@
     "kind": "building",
     "name": "Foundry",
     "description": "Smelts two resources into alloy ingots.\n\nCan be automated by feeding ore into it with a conveyor belt connected to the inputs. The produced ingots can be automatically extracted by connecting a conveyor belt to the output.",
-    "categories": [
-      "Production",
-      "Smelters"
-    ],
+    "categories": ["Production", "Smelters"],
     "listOrder": 8,
     "icon": "1J8K0BwFo8k0AOmCiOWSaU1EyyZE61KouQKu0wEUWaWI",
     "overclockable": true,
@@ -1053,10 +957,7 @@
     "kind": "building",
     "name": "Freight Platform",
     "description": "As Freight Cars stop this they will either unload or load their goods, depending on what you've set it to.\nThe Freight Platform snaps to Railway, each other and Train Stations.",
-    "categories": [
-      "Transport",
-      "Trains"
-    ],
+    "categories": ["Transport", "Trains"],
     "listOrder": 52,
     "icon": "6QYa6ouMcowKky4gyiGQWs1gapzGbZBoiYYuIaiCaMI2",
     "powerConsumption": {
@@ -1077,19 +978,14 @@
     "fuel": {
       "energy": 0.6
     },
-    "categories": [
-      "Fluids"
-    ],
+    "categories": ["Fluids"],
     "slug": "fuel"
   },
   "fuel-generator": {
     "kind": "building",
     "name": "Fuel Generator",
     "description": "Consumes Fuel to generate electricity for your power grid.\nHas an input so feeding Fuel can be automated.",
-    "categories": [
-      "Power",
-      "Generators"
-    ],
+    "categories": ["Power", "Generators"],
     "listOrder": 22,
     "icon": "1KPbVy1G68QWaGigAIG0oG3VyxUYgy6koGIgeKOiCkIA",
     "overclockable": true,
@@ -1097,11 +993,7 @@
       "amount": 150,
       "exponent": 1.3,
       "fuelForm": "liquid",
-      "fuels": [
-        "fuel",
-        "turbofuel",
-        "liquid-biofuel"
-      ]
+      "fuels": ["fuel", "turbofuel", "liquid-biofuel"]
     },
     "slug": "fuel-generator"
   },
@@ -1112,16 +1004,14 @@
     "form": "solid",
     "icon": "6qblOzRtfOAsKeooc2a2GILPDhNWST8AUGi2UGeG6gc",
     "stackSize": 1,
+    "categories": ["Parts"],
     "slug": "gas-mask"
   },
   "gate-8m-x-4m": {
     "kind": "building",
     "name": "Gate 8m x 4m",
     "description": "Snaps to foundations and other walls.\nAllows human beings to pass through walls.",
-    "categories": [
-      "Walls",
-      "Doors"
-    ],
+    "categories": ["Walls", "Doors"],
     "listOrder": 85,
     "icon": "SJUXbDd8WGqooC8Ew66wmLXbg8VrJaE6KuMY2Y2SeC",
     "slug": "gate-8m-x-4m"
@@ -1130,10 +1020,7 @@
     "kind": "building",
     "name": "Geo Thermal Generator",
     "description": "Can only be built on geyser nodes.\nGenerates electricity for your power grid.\nDoes not require any resources to be input.",
-    "categories": [
-      "Power",
-      "Generators"
-    ],
+    "categories": ["Power", "Generators"],
     "listOrder": 24,
     "icon": "65F37DhiwMSGSO8g2aCM2c8yq0JahfYkAOMWawqq4SG",
     "powerProduction": {
@@ -1146,10 +1033,7 @@
     "kind": "building",
     "name": "Glass Foundation 8m x 1m",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "Floors"
-    ],
+    "categories": ["Organisation", "Floors"],
     "listOrder": 72,
     "icon": "5Ceb0OE47YQsOMMyk4wsgE6mHHiJGlWw0UQaSEOWuGs8",
     "slug": "glass-foundation-8m-x-1m"
@@ -1161,10 +1045,8 @@
     "form": "solid",
     "icon": "7FTqy4RtlYYcCwGQiEc4my469rwnX1GU4UkGe6AIMAsK",
     "stackSize": 50,
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "green-power-slug"
   },
   "hazmat-suit": {
@@ -1174,6 +1056,16 @@
     "form": "solid",
     "icon": "5B9XtLadaMwIeOUs8i00eO6JL6O54rsci8GMgYmcOQGO",
     "stackSize": 1,
+    "equipment": {
+      "slot": "body",
+      "cost": [
+        {
+          "item": "/Game/FactoryGame/Resource/Parts/IodineInfusedFilter/Desc_HazmatFilter.Desc_HazmatFilter_C",
+          "count": 1
+        }
+      ]
+    },
+    "categories": ["Equipment"],
     "slug": "hazmat-suit"
   },
   "heat-sink": {
@@ -1183,6 +1075,7 @@
     "form": "solid",
     "icon": "7ky4sGRKFOkUEo2IAkwEK47t2X8wQGAMqeqI6KQiiIGE",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "heat-sink"
   },
   "heavy-modular-frame": {
@@ -1192,6 +1085,7 @@
     "form": "solid",
     "icon": "56Bx22YgogYaS2CGy2UkYe2OIVkU7yAECqCWmA8Uea2O",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "heavy-modular-frame"
   },
   "heavy-oil-residue": {
@@ -1206,9 +1100,7 @@
     "fuel": {
       "energy": 0.4
     },
-    "categories": [
-      "Fluids"
-    ],
+    "categories": ["Fluids"],
     "slug": "heavy-oil-residue"
   },
   "high-speed-connector": {
@@ -1218,6 +1110,7 @@
     "form": "solid",
     "icon": "4XQHY1qNFe4sUqi0k2gU6w4WZYCTYXioqSOsSGUIaGCI",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "high-speed-connector"
   },
   "hub-parts": {
@@ -1227,20 +1120,15 @@
     "form": "solid",
     "icon": "2cS7QbXC7mKiS8mKck66uW4aom0uidZS0G8YQwyWGQmo",
     "stackSize": 1,
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "hub-parts"
   },
   "hyper-tube": {
     "kind": "building",
     "name": "Hyper Tube",
     "description": "Tubes for transporting Ficsit employees.\nRequire a Hyper Tube Entrance to function and be entered.",
-    "categories": [
-      "Transport",
-      "HyperTubes"
-    ],
+    "categories": ["Transport", "HyperTubes"],
     "listOrder": 1,
     "icon": "3WEoKVgVd66eGc2i0UeKGYbgN2SHTEt2eGcYWqECEGi",
     "slug": "hyper-tube"
@@ -1249,10 +1137,7 @@
     "kind": "building",
     "name": "Hyper Tube Entrance",
     "description": "Used to enter and power a Hyper Tube.",
-    "categories": [
-      "Transport",
-      "HyperTubes"
-    ],
+    "categories": ["Transport", "HyperTubes"],
     "listOrder": 2,
     "icon": "L5G0g8P16w4eQSsAKs8eE7H8VmqYlXOwCYM6acoWCI2",
     "powerConsumption": {
@@ -1265,10 +1150,7 @@
     "kind": "building",
     "name": "Hyper Tube Support",
     "description": "Supports for Hyper Tubes to allow for longer distances.",
-    "categories": [
-      "Transport",
-      "HyperTubes"
-    ],
+    "categories": ["Transport", "HyperTubes"],
     "listOrder": 3,
     "icon": "2tvA1WLBMAYuw0o6QOyG041vIjlBLnbOyC4ogEYGiU4a",
     "slug": "hyper-tube-support"
@@ -1277,10 +1159,7 @@
     "kind": "building",
     "name": "Hyper Tube Wall Hole",
     "description": "Can be attached to walls to allow Hyper Tubes to pass through them.",
-    "categories": [
-      "Transport",
-      "HyperTubes"
-    ],
+    "categories": ["Transport", "HyperTubes"],
     "listOrder": 6,
     "icon": "1N73ImfzIIg4yUQq4E8o825VhgPaxK6cKCkuc8qyWoGO",
     "slug": "hyper-tube-wall-hole"
@@ -1289,10 +1168,7 @@
     "kind": "building",
     "name": "Hyper Tube Wall Support",
     "description": "Can be attached to walls. \nSupports for Hyper Tubes to allow for longer distances.",
-    "categories": [
-      "Transport",
-      "HyperTubes"
-    ],
+    "categories": ["Transport", "HyperTubes"],
     "listOrder": 5,
     "icon": "1mIs4gRirykM2i06sM0mW8Mp0kcuz1SI2Cge6MQAYg",
     "slug": "hyper-tube-wall-support"
@@ -1301,10 +1177,7 @@
     "kind": "building",
     "name": "Industrial Fluid Buffer",
     "description": "Can contain up to 300m3 of fluid.\nHas an in and output for pipes.",
-    "categories": [
-      "Organisation",
-      "Storage"
-    ],
+    "categories": ["Organisation", "Storage"],
     "listOrder": 64,
     "icon": "5CVWl5sxUWYOaS4MGyceWYtfmw8cRCp2W8swYOQ04OW",
     "slug": "industrial-fluid-buffer-1"
@@ -1313,10 +1186,7 @@
     "kind": "building",
     "name": "Industrial Fluid Buffer",
     "description": "Can contain up to 1200m3 of fluid.\nHas an in and output for pipes.",
-    "categories": [
-      "Organisation",
-      "Storage"
-    ],
+    "categories": ["Organisation", "Storage"],
     "listOrder": 65,
     "icon": "21dBFNV8gkSgQMWeWecQcO1GEBWQaSzKuGSE2soeaMKG",
     "slug": "industrial-fluid-buffer-2"
@@ -1325,10 +1195,7 @@
     "kind": "building",
     "name": "Industrial Storage Container",
     "description": "Contains 48 slots for storing large amounts of items.\nHas two inputs and outputs for conveyor belts.",
-    "categories": [
-      "Organisation",
-      "Storage"
-    ],
+    "categories": ["Organisation", "Storage"],
     "listOrder": 63,
     "icon": "76Lcs5FqG4aM0K6yYG4WOA5WlOa7dWzCkw2O2qGgQEsq",
     "storage": {
@@ -1341,10 +1208,7 @@
     "kind": "building",
     "name": "Inner-Corner Quarter Pipe",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "QuatPipes"
-    ],
+    "categories": ["Organisation", "QuatPipes"],
     "listOrder": 72,
     "icon": "1aC1Ft8y7aCgIEsowaowgM2HzerjwTK0AG8SYYyqEaUw",
     "slug": "inner-corner-quarter-pipe"
@@ -1353,10 +1217,7 @@
     "kind": "building",
     "name": "Inverted Inner-Corner Quarter Pipe",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "QuatPipes"
-    ],
+    "categories": ["Organisation", "QuatPipes"],
     "listOrder": 72,
     "icon": "1Pt5uambakU2YaS8GIYWa6O7WZwYCgI682kuAAkmcGi",
     "slug": "inverted-inner-corner-quarter-pipe"
@@ -1365,10 +1226,7 @@
     "kind": "building",
     "name": "Inverted Outer-Corner Quarter Pipe",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "QuatPipes"
-    ],
+    "categories": ["Organisation", "QuatPipes"],
     "listOrder": 72,
     "icon": "5Q6Lk6VpPGWagm0GiGqqEW1RgGVNexoUoAuGmUo0kS4c",
     "slug": "inverted-outer-corner-quarter-pipe"
@@ -1377,10 +1235,7 @@
     "kind": "building",
     "name": "Inverted Quarter Pipe",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "QuatPipes"
-    ],
+    "categories": ["Organisation", "QuatPipes"],
     "listOrder": 72,
     "icon": "3s0CaDSb9SooI4QwGQcScu2Cz8Gnr48I8OGYCYW8ykQC",
     "slug": "inverted-quarter-pipe"
@@ -1389,10 +1244,7 @@
     "kind": "building",
     "name": "Inverted Ramp 8m x 1m",
     "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "19CRZ456uyGgmwCoIGsq8O5dmCt9NcGcA0Iq6AMaMmU4",
     "slug": "inverted-ramp-8m-x-1m"
@@ -1401,10 +1253,7 @@
     "kind": "building",
     "name": "Inverted Ramp 8m x 2m",
     "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "L6cB0QPsSkWQkIukSEMUc1YO8BvX9osg8OaGuowU4kq",
     "slug": "inverted-ramp-8m-x-2m"
@@ -1413,10 +1262,7 @@
     "kind": "building",
     "name": "Inverted Ramp 8m x 4m",
     "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "yxMD8uYzfiMOMuKWQaiQi29A118UHfeWgykmIo02Miy",
     "slug": "inverted-ramp-8m-x-4m"
@@ -1425,10 +1271,7 @@
     "kind": "building",
     "name": "Inverted Ramp Corner 8m x 1m",
     "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "1wSAjBzafCcCEoUGo8mMCS39e5PxGcwUcyCcQeuuYWau",
     "slug": "inverted-ramp-corner-8m-x-1m"
@@ -1437,10 +1280,7 @@
     "kind": "building",
     "name": "Inverted Ramp Corner 8m x 2m",
     "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "6YWbZWKsaQQAWkU0UkAEWQ3rLDhcZydGsEeiGQCac0GI",
     "slug": "inverted-ramp-corner-8m-x-2m"
@@ -1449,10 +1289,7 @@
     "kind": "building",
     "name": "Inverted Ramp Corner 8m x 4m",
     "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "1lud8wGSb2G4GGeuwCaM086lvqWoLO92ca2GqSkEMWUQ",
     "slug": "inverted-ramp-corner-8m-x-4m"
@@ -1464,6 +1301,7 @@
     "form": "solid",
     "icon": "37hU2eM3R68o6oSOEmIqQ4nmxkLQfcsAmog2E2YUeWU",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "iodine-infused-filter"
   },
   "iron-ingot": {
@@ -1473,6 +1311,7 @@
     "form": "solid",
     "icon": "2IEt6n1lD2yiGccaWqugeWcpaTd3u2ukGkeaQuaua0O",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "iron-ingot"
   },
   "iron-ore": {
@@ -1482,11 +1321,11 @@
     "form": "solid",
     "icon": "5c0Gl1FsvuGGyGe28Mg2m87B3HVLJL6oKusESIUocEkS",
     "stackSize": 100,
-    "raw": true,
-    "categories": [
-      "Resource"
-    ],
-    "slug": "iron-ore"
+    "categories": ["Ores"],
+    "slug": "iron-ore",
+    "resource": {
+      "extractedBy": ["miner-mk1", "miner-mk2", "miner-mk3"]
+    }
   },
   "iron-plate": {
     "kind": "item",
@@ -1495,6 +1334,7 @@
     "form": "solid",
     "icon": "654X5USXiokMei8s4CEI2E6c8bRT6gfuQeci02KweQim",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "iron-plate"
   },
   "iron-rod": {
@@ -1504,6 +1344,7 @@
     "form": "solid",
     "icon": "22Iasy39jiIsO2Gq84ISoS7m9tRpEF1K8gKUoCwg4Ckq",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "iron-rod"
   },
   "jetpack": {
@@ -1513,16 +1354,23 @@
     "form": "solid",
     "icon": "21Qx3W1JIM8kI2kAe4I6wc5lasmxZ1M4gka0yc8amQAU",
     "stackSize": 1,
+    "equipment": {
+      "slot": "body",
+      "cost": [
+        {
+          "item": "/Game/FactoryGame/Resource/Parts/Fuel/Desc_Fuel.Desc_Fuel_C",
+          "count": 1
+        }
+      ]
+    },
+    "categories": ["Equipment"],
     "slug": "jetpack"
   },
   "jump-pad": {
     "kind": "building",
     "name": "Jump Pad",
     "description": "Propels you upwards through the air.\nMake sure you land softly.",
-    "categories": [
-      "Production",
-      "JumpPads"
-    ],
+    "categories": ["Production", "JumpPads"],
     "listOrder": 64,
     "icon": "2TOZN1p59mWwumCa2Y0oMS6AlMTVe9VKeksGAsKeiacc",
     "powerConsumption": {
@@ -1541,10 +1389,8 @@
     "fuel": {
       "energy": 15
     },
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "leaves"
   },
   "limestone": {
@@ -1554,11 +1400,11 @@
     "form": "solid",
     "icon": "6BAPvz5Wr66qk6oOw0wiUI5agwR4fajeKUgak02qSKgy",
     "stackSize": 100,
-    "raw": true,
-    "categories": [
-      "Resource"
-    ],
-    "slug": "limestone"
+    "categories": ["Ores"],
+    "slug": "limestone",
+    "resource": {
+      "extractedBy": ["miner-mk1", "miner-mk2", "miner-mk3"]
+    }
   },
   "liquid-biofuel": {
     "kind": "item",
@@ -1572,19 +1418,14 @@
     "fuel": {
       "energy": 0.75
     },
-    "categories": [
-      "Fluids"
-    ],
+    "categories": ["Fluids"],
     "slug": "liquid-biofuel"
   },
   "lookout-tower": {
     "kind": "building",
     "name": "Lookout Tower",
     "description": "Provides a good OVERVIEW useful for building.",
-    "categories": [
-      "Organisation",
-      "Towers"
-    ],
+    "categories": ["Organisation", "Towers"],
     "listOrder": 0,
     "icon": "2EYZvA1rMgGyY2a6IAOSOO2jiJfGao6UW2ieusKmaU0A",
     "slug": "lookout-tower"
@@ -1593,10 +1434,7 @@
     "kind": "building",
     "name": "M.A.M.",
     "description": "The Molecular Analysis Machine is used to break down matter for analysis.\nR&D will assist Pioneers through the M.A.M to turn any valuable data into usable research options.",
-    "categories": [
-      "Special",
-      "Special"
-    ],
+    "categories": ["Special", "Special"],
     "listOrder": 3,
     "icon": "10EAEFxi3OSQIwOieIau4E40j2Sd5KL6gGsooGOmEyCg",
     "slug": "mam"
@@ -1605,10 +1443,7 @@
     "kind": "building",
     "name": "Manufacturer",
     "description": "Crafts three or four parts into another part.\n\nCan be automated by feeding parts into it with a conveyor belt connected to the input. The produced parts can be automatically extracted by connecting a conveyor belt to the output.",
-    "categories": [
-      "Production",
-      "Manufacturers"
-    ],
+    "categories": ["Production", "Manufacturers"],
     "listOrder": 14,
     "icon": "rk3gGAFVvwC2COI4Ae8eW5MR9uhHGso4gegY8AykC6W",
     "overclockable": true,
@@ -1625,16 +1460,14 @@
     "form": "solid",
     "icon": "3Ke7eCDhRCmMOqIEkecsYq5bCtttlOvCOimAGQCMyOsU",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "medicinal-inhaler"
   },
   "miner-mk1": {
     "kind": "building",
     "name": "Miner Mk.1",
     "description": "Extracts solid resources from the resource node it is built on. \nThe normal extraction rate is 60 resources per minute. \nThe extraction rate is modified depending on resource node purity. Outputs all extracted resources onto connected conveyor belts.",
-    "categories": [
-      "Production",
-      "Miners"
-    ],
+    "categories": ["Production", "Miners"],
     "listOrder": 3,
     "icon": "h1pBcSmmRyygIW6CGuaww7FRyk9ZhaE0aWOCCiUkEoO",
     "overclockable": true,
@@ -1648,10 +1481,7 @@
     "kind": "building",
     "name": "Miner Mk.2",
     "description": "Extracts solid resources from the resource node it is built on. \nThe normal extraction rate is 120 resources per minute. \nThe extraction rate is modified depending on resource node purity. Outputs all extracted resources onto connected conveyor belts.",
-    "categories": [
-      "Production",
-      "Miners"
-    ],
+    "categories": ["Production", "Miners"],
     "listOrder": 4,
     "icon": "4qMhsyBnvyGqWgmyks4QmC5S70zB5lSgWQCSsgSi8GqA",
     "overclockable": true,
@@ -1665,10 +1495,7 @@
     "kind": "building",
     "name": "Miner Mk.3",
     "description": "Extracts solid resources from the resource node it is built on. \nThe normal extraction rate is 240 resources per minute. \nThe extraction rate is modified depending on resource node purity. Outputs all extracted resources onto connected conveyor belts.",
-    "categories": [
-      "Production",
-      "Miners"
-    ],
+    "categories": ["Production", "Miners"],
     "listOrder": 5,
     "icon": "2pwVt3UfhCwaCYQcgWqigG1F8FQzirMAwaMyGk00IOeu",
     "overclockable": true,
@@ -1685,6 +1512,7 @@
     "form": "solid",
     "icon": "1P0lVFelKwIs4quisEKGiU4hrBoX82IUMk8YigIQ0Wsu",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "modular-engine"
   },
   "modular-frame": {
@@ -1694,6 +1522,7 @@
     "form": "solid",
     "icon": "4uDYe7vAYg6AI0WIukEQUK1e0aP3ONog6YSIqe6Soqis",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "modular-frame"
   },
   "motor": {
@@ -1703,6 +1532,7 @@
     "form": "solid",
     "icon": "3BkLK2VWgMAyoSasM6GeWI1MAk3rJuGEGYQQMu6SOGqi",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "motor"
   },
   "mycelia": {
@@ -1715,10 +1545,8 @@
     "fuel": {
       "energy": 20
     },
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "mycelia"
   },
   "nobelisk": {
@@ -1728,6 +1556,7 @@
     "form": "solid",
     "icon": "4cb0G1DZO8yEoAI4AGq8uE2ZNmDrvFza0IMEkSeCG4SI",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "nobelisk"
   },
   "nobelisk-detonator": {
@@ -1737,6 +1566,11 @@
     "form": "solid",
     "icon": "6rPFWhWvLycQamWU4YyycM6JIP5ghGucEmsGG4UCQeIu",
     "stackSize": 1,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": ["Equipment"],
     "slug": "nobelisk-detonator"
   },
   "nuclear-fuel-rod": {
@@ -1752,16 +1586,14 @@
     "fuel": {
       "energy": 750000
     },
+    "categories": ["Parts"],
     "slug": "nuclear-fuel-rod"
   },
   "nuclear-power-plant": {
     "kind": "building",
     "name": "Nuclear Power Plant",
     "description": "Consumes Nuclear Fuel Rods and Water to produce power.\nHas a conveyor belt and pipeline input so loading can be automated.  \nProduces Nuclear Waste, which is extracted from the conveyor belt output.",
-    "categories": [
-      "Power",
-      "Generators"
-    ],
+    "categories": ["Power", "Generators"],
     "listOrder": 23,
     "icon": "yZstkS3SsoqW26qcMq8WS27fc1MrFa82ka0oYUOMaOa",
     "overclockable": true,
@@ -1769,9 +1601,7 @@
       "amount": 2500,
       "exponent": 1.321928,
       "fuelForm": "solid",
-      "fuels": [
-        "nuclear-fuel-rod"
-      ]
+      "fuels": ["nuclear-fuel-rod"]
     },
     "slug": "nuclear-power-plant"
   },
@@ -1782,16 +1612,18 @@
     "form": "solid",
     "icon": "7IpTg2MYaAQCyy2YgcYqcq1lbOBQkKdmCgsCceWSk8MM",
     "stackSize": 1,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": ["Equipment"],
     "slug": "object-scanner"
   },
   "oil-extractor": {
     "kind": "building",
     "name": "Oil Extractor",
     "description": "Normal extraction rate: 120m3 oil per minute.\nDefault pressure: 10, allowing a 10 meter vertical rise of fluids.\n\nExtracts Crude Oil from a Crude Oil node it is build on. Extraction rates depend on node purity.\nOutputs all extracted Crude Oil from the pipe output connection.",
-    "categories": [
-      "Production",
-      "OilProduction"
-    ],
+    "categories": ["Production", "OilProduction"],
     "listOrder": 16,
     "icon": "7rjPk6AM3mECyqaMky4a6A6fM9IRgSSQGGU8wOIqGUcK",
     "overclockable": true,
@@ -1805,10 +1637,7 @@
     "kind": "building",
     "name": "Outer-Corner Quarter Pipe",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "QuatPipes"
-    ],
+    "categories": ["Organisation", "QuatPipes"],
     "listOrder": 72,
     "icon": "5nwf1nxKA8S4MeS6EqOQaO2BLLwT9KuUU2M42qEWakUk",
     "slug": "outer-corner-quarter-pipe"
@@ -1823,6 +1652,7 @@
     "fuel": {
       "energy": 600
     },
+    "categories": ["Parts"],
     "slug": "packaged-fuel"
   },
   "packaged-heavy-oil-residue": {
@@ -1835,6 +1665,7 @@
     "fuel": {
       "energy": 400
     },
+    "categories": ["Parts"],
     "slug": "packaged-heavy-oil-residue"
   },
   "packaged-liquid-biofuel": {
@@ -1847,6 +1678,7 @@
     "fuel": {
       "energy": 750
     },
+    "categories": ["Parts"],
     "slug": "packaged-liquid-biofuel"
   },
   "packaged-oil": {
@@ -1859,6 +1691,7 @@
     "fuel": {
       "energy": 320
     },
+    "categories": ["Parts"],
     "slug": "packaged-oil"
   },
   "packaged-turbofuel": {
@@ -1871,6 +1704,7 @@
     "fuel": {
       "energy": 2000
     },
+    "categories": ["Parts"],
     "slug": "packaged-turbofuel"
   },
   "packaged-water": {
@@ -1880,6 +1714,7 @@
     "form": "solid",
     "icon": "3ue4kLFCI8CAUwGMye6cOa7jBdLuHbNKam4OgcaYCcwI",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "packaged-water"
   },
   "paleberry": {
@@ -1889,10 +1724,8 @@
     "form": "solid",
     "icon": "6APXAIsXyoege6GOQcm60Y4ZY4Kny1VSauu0uwouYyOQ",
     "stackSize": 50,
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "paleberry"
   },
   "parachute": {
@@ -1911,16 +1744,14 @@
         }
       ]
     },
+    "categories": ["Equipment"],
     "slug": "parachute"
   },
   "personal-storage-box": {
     "kind": "building",
     "name": "Personal Storage Box",
     "description": "Contains 25 slots for storing large amounts of items.",
-    "categories": [
-      "Organisation",
-      "Storage"
-    ],
+    "categories": ["Organisation", "Storage"],
     "listOrder": 61,
     "icon": "4BGYlx8WQocq8Igs2oywi84Pu64g39hKQE4EYuKmco6O",
     "storage": {
@@ -1939,16 +1770,14 @@
     "fuel": {
       "energy": 180
     },
+    "categories": ["Parts"],
     "slug": "petroleum-coke"
   },
   "pillar-base": {
     "kind": "building",
     "name": "Pillar Base",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "Floors"
-    ],
+    "categories": ["Organisation", "Floors"],
     "listOrder": 72,
     "icon": "1R0Fc9ZcHWWKC2O4wkMwAi5D85h67rMI8eUKIGCYEAOm",
     "slug": "pillar-base"
@@ -1957,10 +1786,7 @@
     "kind": "building",
     "name": "Pillar Middle",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "Floors"
-    ],
+    "categories": ["Organisation", "Floors"],
     "listOrder": 72,
     "icon": "4YVHgagBAsc4OAiCCMWW2P8pdF8K6E8aosmY08qCmg",
     "slug": "pillar-middle"
@@ -1969,10 +1795,7 @@
     "kind": "building",
     "name": "Pillar Top",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "Floors"
-    ],
+    "categories": ["Organisation", "Floors"],
     "listOrder": 72,
     "icon": "9qH5DGa8YoucKSQSg2QeI2VPkMQRsT6YuKssGo4Yqky",
     "slug": "pillar-top"
@@ -1981,10 +1804,7 @@
     "kind": "building",
     "name": "Pipeline",
     "description": "Outside indicators show volume, flow rate and direction.\nTransports up to 300m3 of fluid per minute.\nUsed to transport fluids.",
-    "categories": [
-      "Transport",
-      "Pipes"
-    ],
+    "categories": ["Transport", "Pipes"],
     "listOrder": 1,
     "icon": "uW7VQig6iGkU8wggoG8Q6bgRdJBuRqG82W8gs4icWo",
     "slug": "pipeline"
@@ -1993,10 +1813,7 @@
     "kind": "building",
     "name": "Pipeline Junction Cross",
     "description": "Can be attached to a pipeline to split it 4-way.",
-    "categories": [
-      "Transport",
-      "Pipes"
-    ],
+    "categories": ["Transport", "Pipes"],
     "listOrder": 2,
     "icon": "7yKh71vLSEmIwi20Iq2ai21res3yoyGg4MgCuiwUIcU2",
     "slug": "pipeline-junction-cross"
@@ -2005,10 +1822,7 @@
     "kind": "building",
     "name": "Pipeline Pump",
     "description": "Applies 20 pressure, allowing a 20 meter vertical rise of fluids.\nOutputs fluids at 300m3 per minute.\n\nCan be attached to a pipeline to apply additional pressure.\nUseful for overcoming verticality and balancing out throughput.",
-    "categories": [
-      "Transport",
-      "Pipes"
-    ],
+    "categories": ["Transport", "Pipes"],
     "listOrder": 3,
     "icon": "4QWEKkooA8Ymey82ci4SCm7aUeGVInvym84COw6uMUgQ",
     "powerConsumption": {
@@ -2021,10 +1835,7 @@
     "kind": "building",
     "name": "Pipeline Support",
     "description": "Can be used as a connection for pipelines. The height of the support can be adjusted.\nUseful to route pipelines in a more controlled manner and over long distances.",
-    "categories": [
-      "Transport",
-      "PipeSupport"
-    ],
+    "categories": ["Transport", "PipeSupport"],
     "listOrder": 1,
     "icon": "5YgOLn5Ra8iiIUyM6U6a0m2B28ABphMUaSmcKSyCKMUK",
     "slug": "pipeline-support"
@@ -2033,10 +1844,7 @@
     "kind": "building",
     "name": "Pipeline Wall Hole",
     "description": "Can be attached to walls, allowing Pipelines to pass through them.",
-    "categories": [
-      "Transport",
-      "PipeSupport"
-    ],
+    "categories": ["Transport", "PipeSupport"],
     "listOrder": 3,
     "icon": "58vxdHEst2gq8sMEuWmqOi6eQSDV8bzqqoKimq0uqo2s",
     "slug": "pipeline-wall-hole"
@@ -2045,10 +1853,7 @@
     "kind": "building",
     "name": "Pipeline Wall Support",
     "description": "Can be attached to walls.\nUsed to connect Pipelines over longer distances.",
-    "categories": [
-      "Transport",
-      "PipeSupport"
-    ],
+    "categories": ["Transport", "PipeSupport"],
     "listOrder": 2,
     "icon": "2SmNwH7WTmge2kMIwaiII67xCa9niBYQEyOSWeEEEI6K",
     "slug": "pipeline-wall-support"
@@ -2060,6 +1865,7 @@
     "form": "solid",
     "icon": "7l2rmHqYneCUkuAEUaSqMafvf1QGi7baMI8eWAgasMm",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "plastic"
   },
   "polymer-resin": {
@@ -2069,6 +1875,7 @@
     "form": "solid",
     "icon": "6tssEAPIK48MwgkiW4cWck4dPG6Xpc1yGK2EiOcCyKCi",
     "stackSize": 200,
+    "categories": ["Parts"],
     "slug": "polymer-resin"
   },
   "portable-miner": {
@@ -2078,16 +1885,14 @@
     "form": "solid",
     "icon": "6v1wjBiP4sc6IkUWEYaUoa5l70CAU7XqcesUeSIG4WUw",
     "stackSize": 1,
+    "categories": ["Parts"],
     "slug": "portable-miner"
   },
   "power-line": {
     "kind": "building",
     "name": "Power Line",
     "description": "Used to connect Power Poles, Power Generators and Factory buildings.",
-    "categories": [
-      "Power",
-      "PowerPoles"
-    ],
+    "categories": ["Power", "PowerPoles"],
     "listOrder": 29,
     "icon": "5weaak4UfKwgQMKkeIoaiaJAx5Ne9Q88MYIeymsQ2G2",
     "slug": "power-line"
@@ -2096,10 +1901,7 @@
     "kind": "building",
     "name": "Power Pole",
     "description": "Can handle up to 4 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
-    "categories": [
-      "Power",
-      "PowerPoles"
-    ],
+    "categories": ["Power", "PowerPoles"],
     "listOrder": 25,
     "icon": "7JEWsJaHmMqcMoSIWe6Eqa5jO8hqS6nKaug6UagWYyei",
     "slug": "power-pole"
@@ -2108,10 +1910,7 @@
     "kind": "building",
     "name": "Power Pole Mk.2",
     "description": "Can handle up to 7 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
-    "categories": [
-      "Power",
-      "PowerPoles"
-    ],
+    "categories": ["Power", "PowerPoles"],
     "listOrder": 26,
     "icon": "7gCxGxWhYk2AY48eCYsaAW65fS2HG3PqUWWeUQ48iyaq",
     "slug": "power-pole-mk2"
@@ -2120,10 +1919,7 @@
     "kind": "building",
     "name": "Power Pole Mk.3",
     "description": "Can handle up to 10 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
-    "categories": [
-      "Power",
-      "PowerPoles"
-    ],
+    "categories": ["Power", "PowerPoles"],
     "listOrder": 27,
     "icon": "bseWbpKWuO6QK4CygqAMGFfjdjtnoM8EiUGy6cU8SA",
     "slug": "power-pole-mk3"
@@ -2135,16 +1931,14 @@
     "form": "solid",
     "icon": "2IoxxIA7dmEkAkuemGewW63vdCDLdhO0ggYcsiGiUa26",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "power-shard"
   },
   "programmable-splitter": {
     "kind": "building",
     "name": "Programmable Splitter",
     "description": "Splits conveyor belts in three. \nYou can set rules for each output to decide exactly where each part should go.",
-    "categories": [
-      "Transport",
-      "ConveyorAttachments"
-    ],
+    "categories": ["Transport", "ConveyorAttachments"],
     "listOrder": 37,
     "icon": "3bMFnVTn9SKOg4sySi4M6I2HS9NSRiYwcuMKe0I2eiau",
     "slug": "programmable-splitter"
@@ -2156,20 +1950,15 @@
     "form": "solid",
     "icon": "8VX2fNxj1ecoaQ4sOEmGIdkSKBIP9wOIEoAwOAoIKs",
     "stackSize": 50,
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "purple-power-slug"
   },
   "quarter-pipe": {
     "kind": "building",
     "name": "Quarter Pipe",
     "description": "Provides a flat floor to build your factory on. \nBuildings on top of the foundation are adjusted to a grid, to make it easier to line them up to each other.",
-    "categories": [
-      "Organisation",
-      "QuatPipes"
-    ],
+    "categories": ["Organisation", "QuatPipes"],
     "listOrder": 72,
     "icon": "3w4Eybgv4kSuWWYegaMUWw5cAAYuEjfqiUmM0640Ck2G",
     "slug": "quarter-pipe"
@@ -2181,6 +1970,7 @@
     "form": "solid",
     "icon": "3SDsblxDNeuusKEQUMmcM01jMPzwNEKKkcKeIeck8oUe",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "quartz-crystal"
   },
   "quickwire": {
@@ -2190,6 +1980,7 @@
     "form": "solid",
     "icon": "7xQWI9C0fegwYmmoS8Wkq26rdGoXXtgk4msi6AAUUkUY",
     "stackSize": 500,
+    "categories": ["Parts"],
     "slug": "quickwire"
   },
   "radio-control-unit": {
@@ -2199,16 +1990,14 @@
     "form": "solid",
     "icon": "4PLCuCwLcICmGsS4Uikm2a6aJmlhBrt6WQQ0iWSKSse",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "radio-control-unit"
   },
   "railway": {
     "kind": "building",
     "name": "Railway",
     "description": "Used to transport trains in a reliable and fast manner.\nHas a wide turn angle so make sure to plan it out properly.",
-    "categories": [
-      "Transport",
-      "Trains"
-    ],
+    "categories": ["Transport", "Trains"],
     "listOrder": 53,
     "icon": "1QbWf3QlLKE4wAgu2IIiWY3WroqKppCM2AK2yw28AE2c",
     "slug": "railway"
@@ -2217,10 +2006,7 @@
     "kind": "building",
     "name": "Ramp 8m x 1m",
     "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "vSG0qR6wqkYu60y4iOCY61yY27f1UgQSoKO8A64oEaO",
     "slug": "ramp-8m-x-1m"
@@ -2229,10 +2015,7 @@
     "kind": "building",
     "name": "Ramp 8m x 2m",
     "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "1JWwnadFVmY0CmsqucMGY021Pm1tOmUAqi6eUmaAgUoi",
     "slug": "ramp-8m-x-2m"
@@ -2241,10 +2024,7 @@
     "kind": "building",
     "name": "Ramp 8m x 4m",
     "description": "Snaps to foundations to make it easier to get on top of them. Works especially well with vehicles.",
-    "categories": [
-      "Organisation",
-      "Ramps"
-    ],
+    "categories": ["Organisation", "Ramps"],
     "listOrder": 94,
     "icon": "fRPi0B5Bssq6qQiqCwW0Qg0YzJD1vskIskgKIwsWiE",
     "slug": "ramp-8m-x-4m"
@@ -2256,11 +2036,11 @@
     "form": "solid",
     "icon": "3R29YUXctOsyYuq6im4K8g4JlGGL9MOQSkEOeuW468Km",
     "stackSize": 100,
-    "raw": true,
-    "categories": [
-      "Resource"
-    ],
-    "slug": "raw-quartz"
+    "categories": ["Ores"],
+    "slug": "raw-quartz",
+    "resource": {
+      "extractedBy": ["miner-mk1", "miner-mk2", "miner-mk3"]
+    }
   },
   "rebar-gun": {
     "kind": "item",
@@ -2269,16 +2049,14 @@
     "form": "solid",
     "icon": "1zdxnOKlPacEuKmwqESmam4eACU8aO92aKyq0CyayqmG",
     "stackSize": 1,
+    "categories": ["Parts"],
     "slug": "rebar-gun"
   },
   "refinery": {
     "kind": "building",
     "name": "Refinery",
     "description": "Refines fluids or solids into more usable parts.\n\nHas a pipe and conveyor belt output to handle potential by-products.",
-    "categories": [
-      "Production",
-      "OilProduction"
-    ],
+    "categories": ["Production", "OilProduction"],
     "listOrder": 17,
     "icon": "5OBu6xgNtmGwmiUau2mOW83PZ7ecN1kIWGKQGGk0S0QI",
     "overclockable": true,
@@ -2295,6 +2073,7 @@
     "form": "solid",
     "icon": "DpiCnZTAhq6Q2ssmA40ck5dYXGBigKsW6KMGCkm8uqc",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "reinforced-iron-plate"
   },
   "rifle": {
@@ -2304,6 +2083,11 @@
     "form": "solid",
     "icon": "1lAx8yNvV2aMkKocgcAE6u31JaXkJP3GiOmgE8wQAgeu",
     "stackSize": 1,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": ["Equipment"],
     "slug": "rifle"
   },
   "rotor": {
@@ -2313,6 +2097,7 @@
     "form": "solid",
     "icon": "OgqyQ7r2wwSwq8OMIKkUk4WXk7Z4FbOsic2AE0u0o6U",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "rotor"
   },
   "rubber": {
@@ -2322,6 +2107,7 @@
     "form": "solid",
     "icon": "1VyrgwLHgUoKUQCssgcqEu1hrYGNAgsqA2OgGowgUkew",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "rubber"
   },
   "screw": {
@@ -2331,6 +2117,7 @@
     "form": "solid",
     "icon": "3CIfE8K1Hy6gMa8Wm2SKAW13hK22ceCk0se0igMMmKoc",
     "stackSize": 500,
+    "categories": ["Parts"],
     "slug": "screw"
   },
   "silica": {
@@ -2340,6 +2127,7 @@
     "form": "solid",
     "icon": "1MA5DTcAxKqImsIQmwoy4u263hXLjnTmSWsmY8Uc66yU",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "silica"
   },
   "smart-plating": {
@@ -2349,16 +2137,14 @@
     "form": "solid",
     "icon": "3dbpfvkoGsIgquEKiSAASA40qElBoMR28qEMYEm2gg0e",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "smart-plating"
   },
   "smart-splitter": {
     "kind": "building",
     "name": "Smart Splitter",
     "description": "Splits conveyor belts in three. \nYou can set a rule for which part should go to the left and which part should go to the right.",
-    "categories": [
-      "Transport",
-      "ConveyorAttachments"
-    ],
+    "categories": ["Transport", "ConveyorAttachments"],
     "listOrder": 37,
     "icon": "4Zy5Wm7niw064KCe6E4Gi27eWMUuIu6k8gA2uCQiskY6",
     "slug": "smart-splitter"
@@ -2367,10 +2153,7 @@
     "kind": "building",
     "name": "Smelter",
     "description": "Smelts ore into ingots.\n\nCan be automated by feeding ore into it with a conveyor belt connected to the input. The produced ingots can be automatically extracted by connecting a conveyor belt to the output.",
-    "categories": [
-      "Production",
-      "Smelters"
-    ],
+    "categories": ["Production", "Smelters"],
     "listOrder": 6,
     "icon": "2d5YnSQi6IccIgcmCgmmYK24AC5wzn3mCKy0cQEmgI8G",
     "overclockable": true,
@@ -2390,16 +2173,14 @@
     "fuel": {
       "energy": 450
     },
+    "categories": ["Parts"],
     "slug": "solid-biofuel"
   },
   "space-elevator": {
     "kind": "building",
     "name": "Space Elevator",
     "description": "Funnel resources to complete Project Assembly.\nCompleting stages here allows you to unlock later tiers of milestones in the HUB.",
-    "categories": [
-      "Special",
-      "Special"
-    ],
+    "categories": ["Special", "Special"],
     "listOrder": 35,
     "icon": "12cLYp1tDi088Cu2cm4GgU3xTkGfacukmOWOuaIySWqI",
     "slug": "space-elevator"
@@ -2411,16 +2192,14 @@
     "form": "solid",
     "icon": "1bWG8QbSVsiywqogMGweWi783FQZseekeGw2GomuOI2c",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "spiked-rebar"
   },
   "stackable-pipeline-support": {
     "kind": "building",
     "name": "Stackable Pipeline Support",
     "description": "Support for pipelines. Can be stacked on other stackable supports.",
-    "categories": [
-      "Transport",
-      "PipeSupport"
-    ],
+    "categories": ["Transport", "PipeSupport"],
     "listOrder": 1,
     "icon": "NmlTLYQrOSe2Aiseumo0O2IwSrZehhu0oQauwaEyaYu",
     "slug": "stackable-pipeline-support"
@@ -2429,10 +2208,7 @@
     "kind": "building",
     "name": "Stairs",
     "description": "The Stairs allow you to move to the upper floors of your buildings. Height: 4",
-    "categories": [
-      "Organisation",
-      "Stair"
-    ],
+    "categories": ["Organisation", "Stair"],
     "listOrder": 97,
     "slug": "stairs"
   },
@@ -2440,10 +2216,7 @@
     "kind": "building",
     "name": "Stairs Left",
     "description": "Snaps to foundations.\nMakes it easier to get to other floors of your structures.",
-    "categories": [
-      "Organisation",
-      "Stair"
-    ],
+    "categories": ["Organisation", "Stair"],
     "listOrder": 96,
     "icon": "5T7zn6YLuMgqKGagUEuo20SADfT93CMKiksy4yimEYu",
     "slug": "stairs-left"
@@ -2452,10 +2225,7 @@
     "kind": "building",
     "name": "Stairs Right",
     "description": "Snaps to foundations.\nMakes it easier to get to other floors of your structures.",
-    "categories": [
-      "Organisation",
-      "Stair"
-    ],
+    "categories": ["Organisation", "Stair"],
     "listOrder": 96,
     "icon": "2zQDUa0flKYsqSCikCUCso55LbmvYqs8cOCgCASkOICG",
     "slug": "stairs-right"
@@ -2467,6 +2237,7 @@
     "form": "solid",
     "icon": "5uQCS3rUYgEe46y6Si2swI7vV0osgpxY2MA8i0mO0WUo",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "stator"
   },
   "steel-beam": {
@@ -2476,6 +2247,7 @@
     "form": "solid",
     "icon": "72rbdMX8IgakCYsMKcS2GM100ux7ugpocOQAMO8SyKcU",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "steel-beam"
   },
   "steel-ingot": {
@@ -2485,6 +2257,7 @@
     "form": "solid",
     "icon": "1vzRfQXiII6YYIew8g6KwO1Rv18CrMp6USGsQ0WaCac0",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "steel-ingot"
   },
   "steel-pipe": {
@@ -2494,16 +2267,14 @@
     "form": "solid",
     "icon": "2yJdFh2GbOaiWegyi6MMcg3h649gbq40eSGuOQCiE2UI",
     "stackSize": 100,
+    "categories": ["Parts"],
     "slug": "steel-pipe"
   },
   "storage-container": {
     "kind": "building",
     "name": "Storage Container",
     "description": "Contains 24 slots for storing large amounts of items.\nHas an input and output for conveyor belts.",
-    "categories": [
-      "Organisation",
-      "Storage"
-    ],
+    "categories": ["Organisation", "Storage"],
     "listOrder": 62,
     "icon": "6WexKKK4HmSs8W8sk8GYa86uNW7wfENU2IC2ymE6eAYE",
     "storage": {
@@ -2519,11 +2290,11 @@
     "form": "solid",
     "icon": "zIWbiVBnnEsiQy4MSooAS7mVmxEg27SISYawA0AgUe0",
     "stackSize": 100,
-    "raw": true,
-    "categories": [
-      "Resource"
-    ],
-    "slug": "sulfur"
+    "categories": ["Ores"],
+    "slug": "sulfur",
+    "resource": {
+      "extractedBy": ["miner-mk1", "miner-mk2", "miner-mk3"]
+    }
   },
   "sulfuric-acid": {
     "kind": "item",
@@ -2534,9 +2305,7 @@
     "fluid": {
       "color": "#ffff0ff"
     },
-    "categories": [
-      "Fluids"
-    ],
+    "categories": ["Fluids"],
     "slug": "sulfuric-acid"
   },
   "supercomputer": {
@@ -2546,16 +2315,14 @@
     "form": "solid",
     "icon": "2a9pmNYGikcOKyoeGGGmKq1IBF81BuKIuEKcaYMCMaIE",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "supercomputer"
   },
   "the-hub": {
     "kind": "building",
     "name": "The HUB",
     "description": "The heart of your factory. This is where you complete FICSIT milestones to unlock additional blueprints of buildings, vehicles, parts, equipment etc.",
-    "categories": [
-      "Special",
-      "Special"
-    ],
+    "categories": ["Special", "Special"],
     "listOrder": 0,
     "icon": "2TfNtTT3RmsomOayuG8yOq1zF8YdRymgEMAEAcAkIQWW",
     "slug": "the-hub"
@@ -2564,10 +2331,7 @@
     "kind": "building",
     "name": "Tilted Jump Pad",
     "description": "Propels you forwards through the air.\nMake sure you land softly.",
-    "categories": [
-      "Production",
-      "JumpPads"
-    ],
+    "categories": ["Production", "JumpPads"],
     "listOrder": 65,
     "icon": "2igjqdF3O8OWS2qkOauAIQ6A94qn2eFqeCKYikQ24Em6",
     "powerConsumption": {
@@ -2580,10 +2344,7 @@
     "kind": "building",
     "name": "Train Station",
     "description": "Locomotives can be set to drive to and stop at the Train Station.\nYou can connect power to the train station to power up the trains on the railway as well as transport the power to other stations.",
-    "categories": [
-      "Transport",
-      "Trains"
-    ],
+    "categories": ["Transport", "Trains"],
     "listOrder": 51,
     "icon": "555hjT7Yg8CK8wUm4Ioa6Y12wEyn81WiA6U44eCgCkKE",
     "powerConsumption": {
@@ -2596,10 +2357,7 @@
     "kind": "building",
     "name": "Truck Station",
     "description": "Either send or receive resources to vehicles. Has an inventory with 48 slots.\nTransfers up to 120 stacks per minute to/from docked vehicle. \nAlways refuels vehicles if it has access to a matching fuel type..\n",
-    "categories": [
-      "Transport",
-      "Vehicles"
-    ],
+    "categories": ["Transport", "Vehicles"],
     "listOrder": 44,
     "icon": "m3nNxYkgHmociiuUYcGIs1MkZYRRKMUKWYsWoi2AOQK",
     "powerConsumption": {
@@ -2615,6 +2373,7 @@
     "form": "solid",
     "icon": "3VDejjgSzSI2kUiesoCEcU3IMyjwZdH2I6siqQc6uWK6",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "turbo-motor"
   },
   "turbofuel": {
@@ -2629,19 +2388,14 @@
     "fuel": {
       "energy": 2
     },
-    "categories": [
-      "Fluids"
-    ],
+    "categories": ["Fluids"],
     "slug": "turbofuel"
   },
   "u-jelly-landing-pad": {
     "kind": "building",
     "name": "U-Jelly Landing Pad",
     "description": "Generates a speed dampening jelly.\nGuarantees a soft landing.",
-    "categories": [
-      "Production",
-      "JumpPads"
-    ],
+    "categories": ["Production", "JumpPads"],
     "listOrder": 66,
     "icon": "59RTzgzhOEAcQCSwYaUGiO28OtEU6a88yGW8QewMiWYm",
     "powerConsumption": {
@@ -2660,11 +2414,11 @@
     "radioactivity": {
       "decay": 15
     },
-    "raw": true,
-    "categories": [
-      "Resource"
-    ],
-    "slug": "uranium"
+    "categories": ["Ores"],
+    "slug": "uranium",
+    "resource": {
+      "extractedBy": ["miner-mk1", "miner-mk2", "miner-mk3"]
+    }
   },
   "uranium-pellet": {
     "kind": "item",
@@ -2676,6 +2430,7 @@
     "radioactivity": {
       "decay": 7.5
     },
+    "categories": ["Parts"],
     "slug": "uranium-pellet"
   },
   "versatile-framework": {
@@ -2685,16 +2440,14 @@
     "form": "solid",
     "icon": "3Ugy0tOX2U6kikQkuwesGY3XNgQyhzAsKaeMoE66oEIc",
     "stackSize": 50,
+    "categories": ["Parts"],
     "slug": "versatile-framework"
   },
   "walkway-crossing": {
     "kind": "building",
     "name": "Walkway Crossing",
     "description": "Snaps to foundations and other walkways.\nSpecifically made for humans to walk on.",
-    "categories": [
-      "Organisation",
-      "Walkways"
-    ],
+    "categories": ["Organisation", "Walkways"],
     "listOrder": 102,
     "icon": "5rG5aPKj8kwqk4GcCoWCCY5JLIISExriOmU0eeQaQKOO",
     "slug": "walkway-crossing"
@@ -2703,10 +2456,7 @@
     "kind": "building",
     "name": "Walkway Ramp",
     "description": "Snaps to foundations and other walkways.\nSpecifically made for humans to walk on.",
-    "categories": [
-      "Organisation",
-      "Walkways"
-    ],
+    "categories": ["Organisation", "Walkways"],
     "listOrder": 102,
     "icon": "5UxDFSgJhuKYSGAcqE2M6o2yIbGjxIvqCEg6UyUygGuM",
     "slug": "walkway-ramp"
@@ -2715,10 +2465,7 @@
     "kind": "building",
     "name": "Walkway Straight",
     "description": "Snaps to foundations and other walkways.\nSpecifically made for humans to walk on.",
-    "categories": [
-      "Organisation",
-      "Walkways"
-    ],
+    "categories": ["Organisation", "Walkways"],
     "listOrder": 99,
     "icon": "3wL7iH43R6Skq0Y2ISgS6U3b1PAtLRdCO6s0WiIiqgcE",
     "slug": "walkway-straight"
@@ -2727,10 +2474,7 @@
     "kind": "building",
     "name": "Walkway T-Crossing",
     "description": "Snaps to foundations and other walkways.\nSpecifically made for humans to walk on.",
-    "categories": [
-      "Organisation",
-      "Walkways"
-    ],
+    "categories": ["Organisation", "Walkways"],
     "listOrder": 101,
     "icon": "4pQvys6bZCiG6wqKcKKMYIwg6HPL0ViK66k24ck6esc",
     "slug": "walkway-t-crossing"
@@ -2746,10 +2490,7 @@
     "kind": "building",
     "name": "Wall 8m x 4m",
     "description": "Snaps to foundations and other walls.\nUseful for building multi-floor structures.",
-    "categories": [
-      "Walls",
-      "Walls"
-    ],
+    "categories": ["Walls", "Walls"],
     "listOrder": 85,
     "icon": "41UBMktWQoyG8wco68sa4CP65uSAeG064s0A4GiuY2Y",
     "slug": "wall-8m-x-4m-1"
@@ -2758,10 +2499,7 @@
     "kind": "building",
     "name": "Wall 8m x 4m",
     "description": "Snaps to foundations and other walls.\nUseful for building multi-floor structures.",
-    "categories": [
-      "Walls",
-      "Walls"
-    ],
+    "categories": ["Walls", "Walls"],
     "listOrder": 85,
     "icon": "1jq99A3gWomqSwUaOyYSeEpAgWjoY8fYoOmGSIAeqO8",
     "slug": "wall-8m-x-4m-2"
@@ -2770,10 +2508,7 @@
     "kind": "building",
     "name": "Wall Conveyor Perpendicular",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 1 conveyor belt connection perpendicular to the wall.\nHeight: 4",
-    "categories": [
-      "Walls",
-      "ConveyorConnections"
-    ],
+    "categories": ["Walls", "ConveyorConnections"],
     "listOrder": 85,
     "icon": "4PAnxnsA3YSmq0Q2GyCwuK4ed61j3Su4MUGuEWGcWWOQ",
     "slug": "wall-conveyor-perpendicular-1"
@@ -2782,10 +2517,7 @@
     "kind": "building",
     "name": "Wall Conveyor Perpendicular",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 1 conveyor belt connection perpendicular to the wall.\nHeight: 4",
-    "categories": [
-      "Walls",
-      "ConveyorConnections"
-    ],
+    "categories": ["Walls", "ConveyorConnections"],
     "listOrder": 85,
     "icon": "3fz1DW6xiokgYYYq46m4au2CGOzpyGJYqkakYQseMKCU",
     "slug": "wall-conveyor-perpendicular-2"
@@ -2794,10 +2526,7 @@
     "kind": "building",
     "name": "Wall Conveyor x1",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 1 conveyor belt connection.\nHeight: 4",
-    "categories": [
-      "Walls",
-      "ConveyorConnections"
-    ],
+    "categories": ["Walls", "ConveyorConnections"],
     "listOrder": 85,
     "icon": "2ruKJuh3tCuOsa6GsEgyEi4sGuSkQ0VaO6ioSkKuAWq8",
     "slug": "wall-conveyor-x1-1"
@@ -2806,10 +2535,7 @@
     "kind": "building",
     "name": "Wall Conveyor x1",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 1 conveyor belt connection.\nHeight: 4",
-    "categories": [
-      "Walls",
-      "ConveyorConnections"
-    ],
+    "categories": ["Walls", "ConveyorConnections"],
     "listOrder": 85,
     "icon": "WkjUyX6K2ccamSyMwowcG3TQYZWtb2gs8k4ykmyM0uG",
     "slug": "wall-conveyor-x1-2"
@@ -2818,10 +2544,7 @@
     "kind": "building",
     "name": "Wall Conveyor x2",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 2 conveyor belt connections.\nHeight: 4",
-    "categories": [
-      "Walls",
-      "ConveyorConnections"
-    ],
+    "categories": ["Walls", "ConveyorConnections"],
     "listOrder": 85,
     "icon": "1keRj4WptWCMYAqOoGa8YE3WQOETgmAEaAAeC0E02g0w",
     "slug": "wall-conveyor-x2-1"
@@ -2830,10 +2553,7 @@
     "kind": "building",
     "name": "Wall Conveyor x2",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 2 conveyor belt connections.\nHeight: 4",
-    "categories": [
-      "Walls",
-      "ConveyorConnections"
-    ],
+    "categories": ["Walls", "ConveyorConnections"],
     "listOrder": 85,
     "icon": "CsSD8bQJ8cCQE2SMSS4os1USD03baSwCIA2Sk6KaCY0",
     "slug": "wall-conveyor-x2-2"
@@ -2842,10 +2562,7 @@
     "kind": "building",
     "name": "Wall Conveyor x3",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 3 conveyor belt connections.\nHeight: 4",
-    "categories": [
-      "Walls",
-      "ConveyorConnections"
-    ],
+    "categories": ["Walls", "ConveyorConnections"],
     "listOrder": 85,
     "icon": "7IMh8z3sK4u2uOWQMysKYu4fBqsyKqwUog4Ya4A4E4Wu",
     "slug": "wall-conveyor-x3-1"
@@ -2854,10 +2571,7 @@
     "kind": "building",
     "name": "Wall Conveyor x3",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.\nHas 3 conveyor belt connections.\nHeight: 4",
-    "categories": [
-      "Walls",
-      "ConveyorConnections"
-    ],
+    "categories": ["Walls", "ConveyorConnections"],
     "listOrder": 85,
     "icon": "2pO9W0qqEs60WkogaOYAqs4oHdBuGqoo08aOy2AE0Q2C",
     "slug": "wall-conveyor-x3-2"
@@ -2866,10 +2580,7 @@
     "kind": "building",
     "name": "Wall Door Center",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
-    "categories": [
-      "Walls",
-      "Doors"
-    ],
+    "categories": ["Walls", "Doors"],
     "listOrder": 85,
     "icon": "1JTy7qkEU4A4UQ2EceCqGk50PY6a6urCQIIYcigOe8Ci",
     "slug": "wall-door-center-1"
@@ -2878,10 +2589,7 @@
     "kind": "building",
     "name": "Wall Door Center",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
-    "categories": [
-      "Walls",
-      "Doors"
-    ],
+    "categories": ["Walls", "Doors"],
     "listOrder": 85,
     "icon": "7pWxNiWTYcYwiOikAGgygg3Jq65wnxrOmMeumkwuKKM0",
     "slug": "wall-door-center-2"
@@ -2890,10 +2598,7 @@
     "kind": "building",
     "name": "Wall Door Left",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
-    "categories": [
-      "Walls",
-      "Doors"
-    ],
+    "categories": ["Walls", "Doors"],
     "listOrder": 85,
     "icon": "4BsbpfiCOcW0KQEyeSsWgy2feYuqwdPaKSyMW2swGwK0",
     "slug": "wall-door-left-1"
@@ -2902,10 +2607,7 @@
     "kind": "building",
     "name": "Wall Door Left",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
-    "categories": [
-      "Walls",
-      "Doors"
-    ],
+    "categories": ["Walls", "Doors"],
     "listOrder": 85,
     "icon": "22xHM8ByyIgE2OI6ES2Wu0x1HVHrHEha6QcCUGwA8Ae",
     "slug": "wall-door-left-2"
@@ -2914,10 +2616,7 @@
     "kind": "building",
     "name": "Wall Door Right",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
-    "categories": [
-      "Walls",
-      "Doors"
-    ],
+    "categories": ["Walls", "Doors"],
     "listOrder": 85,
     "icon": "6GEptVzSlGyMEW2uCCEsCY6lN3Si2mVGYE6MKGwgWIgI",
     "slug": "wall-door-right-1"
@@ -2926,10 +2625,7 @@
     "kind": "building",
     "name": "Wall Door Right",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
-    "categories": [
-      "Walls",
-      "Doors"
-    ],
+    "categories": ["Walls", "Doors"],
     "listOrder": 85,
     "icon": "7F4xVeXp0QW2KSsuA0WEoY7mnHJKRMDS4oo6e46mIkkY",
     "slug": "wall-door-right-2"
@@ -2938,10 +2634,7 @@
     "kind": "building",
     "name": "Wall Power Pole",
     "description": "Power Pole that attaches to a wall.\n\nCan handle up to 4 Power Line connections.\n\nConnect Power Poles, Power Generators and factory buildings together with Power Lines to create a power grid. The power grid supplies the connected buildings with power.",
-    "categories": [
-      "Power",
-      "WallPoles"
-    ],
+    "categories": ["Power", "WallPoles"],
     "listOrder": 1,
     "icon": "7qCSyro9oIAwo4OoOQo4M8ZmglBfHMyasEUymWAGAiy",
     "slug": "wall-power-pole"
@@ -2964,10 +2657,7 @@
     "kind": "building",
     "name": "Wall Window 8m x 4m 01",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
-    "categories": [
-      "Walls",
-      "Walls"
-    ],
+    "categories": ["Walls", "Walls"],
     "listOrder": 85,
     "icon": "41UBMktWQoyG8wco68sa4CP65uSAeG064s0A4GiuY2Y",
     "slug": "wall-window-8m-x-4m-01"
@@ -2976,10 +2666,7 @@
     "kind": "building",
     "name": "Wall Window 8m x 4m 02",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
-    "categories": [
-      "Walls",
-      "Walls"
-    ],
+    "categories": ["Walls", "Walls"],
     "listOrder": 85,
     "icon": "1jq99A3gWomqSwUaOyYSeEpAgWjoY8fYoOmGSIAeqO8",
     "slug": "wall-window-8m-x-4m-02"
@@ -2988,10 +2675,7 @@
     "kind": "building",
     "name": "Wall Window 8m x 4m 04",
     "description": "Walls connect to other Walls and Floors. Use these to make buildings with several floors.                                                                      Height: 4",
-    "categories": [
-      "Walls",
-      "Walls"
-    ],
+    "categories": ["Walls", "Walls"],
     "listOrder": 85,
     "icon": "1uGlPdc5n6Sgu4E6O6Io285mFK7sw2asCKWm8U8WMqOu",
     "slug": "wall-window-8m-x-4m-04"
@@ -3005,20 +2689,17 @@
     "fluid": {
       "color": "#7ab0d4ff"
     },
-    "raw": true,
-    "categories": [
-      "Fluids"
-    ],
+    "resource": {
+      "extractedBy": ["water-extractor"]
+    },
+    "categories": ["Fluids"],
     "slug": "water"
   },
   "water-extractor": {
     "kind": "building",
     "name": "Water Extractor",
     "description": "Default extraction rate: 120m3 water per minute.\nDefault pressure: 10, allowing a 10 meter vertical rise of fluids.\n\nExtracts water from the body of water it is build on.\nNote that the water needs to be deep enough and that rivers do not commonly suffice.",
-    "categories": [
-      "Production",
-      "OilProduction"
-    ],
+    "categories": ["Production", "OilProduction"],
     "listOrder": 16,
     "icon": "555uuMlfOogeAUOs4GGGOg4q4dI5kFzqayoWs4iEqgWi",
     "overclockable": true,
@@ -3032,10 +2713,7 @@
     "kind": "building",
     "name": "Window 8m x 4m 03",
     "description": "Snaps to foundations and other walls.\nAllows human beings to see through walls.",
-    "categories": [
-      "Walls",
-      "Walls"
-    ],
+    "categories": ["Walls", "Walls"],
     "listOrder": 85,
     "icon": "55xkfHk3hKg0g4kyoYyWc4s4VqTvNH8syWU8eyEyMoa",
     "slug": "window-8m-x-4m-03"
@@ -3047,6 +2725,7 @@
     "form": "solid",
     "icon": "6ddkYX9JrqcK0S8CgO2oSi5jyAQgnPZuSimYKC8WQSiS",
     "stackSize": 500,
+    "categories": ["Parts"],
     "slug": "wire"
   },
   "wood": {
@@ -3059,10 +2738,8 @@
     "fuel": {
       "energy": 100
     },
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "wood"
   },
   "xeno-basher": {
@@ -3072,6 +2749,11 @@
     "form": "solid",
     "icon": "4Aw4CX94mk2WmWqGAogcqS6nh63wP2cE2qa2CqKig0I0",
     "stackSize": 1,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": ["Equipment"],
     "slug": "xeno-basher"
   },
   "xeno-zapper": {
@@ -3081,6 +2763,11 @@
     "form": "solid",
     "icon": "3VrCWG0u0E0GQI82QiqOwc4KAHIq7gGsycw84OGSU4Wy",
     "stackSize": 1,
+    "equipment": {
+      "slot": "arms",
+      "cost": []
+    },
+    "categories": ["Equipment"],
     "slug": "xeno-zapper"
   },
   "yellow-power-slug": {
@@ -3090,10 +2777,8 @@
     "form": "solid",
     "icon": "5JN4VvmzrGYOmOmg8sSWqm4r4xg8ijMQA40SgwUgOgiK",
     "stackSize": 50,
-    "raw": true,
-    "categories": [
-      "Gathered"
-    ],
+    "resource": {},
+    "categories": ["Gathered"],
     "slug": "yellow-power-slug"
   }
 }

@@ -33,6 +33,7 @@ export function ItemPage() {
       master={
         <EntityList
           autoFocus
+          depth={1}
           kind={EntityKind.Item}
           selected={slug}
           onChange={slug => navigate(itemUrl(slug))}
@@ -46,8 +47,12 @@ export function ItemPage() {
 function _Detail({ item }: { item: Item }) {
   const statistics = {} as Record<string, React.ReactNode>;
 
-  if (item.raw) {
-    statistics[`Source`] = `extracted`;
+  if (item.resource) {
+    if (item.resource.extractedBy?.length) {
+      statistics[`Source`] = `extracted`;
+    } else if (item.resource.gatherable) {
+      statistics[`Source`] = `gathered`;
+    }
   }
 
   if (item.stackSize) {
