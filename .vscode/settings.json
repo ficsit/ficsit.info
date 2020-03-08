@@ -19,5 +19,6 @@
   "npm.autoDetect": "off",
   "typescript.tsc.autoDetect": "off",
   "typescript.tsdk": "node_modules/typescript/lib",
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "jest.enableSnapshotUpdateMessages": false
 }

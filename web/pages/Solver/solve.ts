@@ -1,4 +1,4 @@
-import { Recipe, Item } from '@local/schema';
+import { Recipe, Item, AnyEntity } from '@local/schema';
 import {
   Solver,
   Variable,
@@ -9,7 +9,9 @@ import {
 } from 'kiwi.js';
 
 export interface SolverOptions {
+  targets: ItemRate[];
   optimizeResiduals?: boolean;
+  includeAlternateRecipes?: boolean;
 }
 
 export interface SolverResult {
@@ -25,42 +27,46 @@ export interface ItemRate {
 }
 
 export function solveFor(
-  recipes?: Recipe[],
-  resources?: Item[],
-  targets?: ItemRate[],
+  recipes?: Record<string, Recipe>,
+  entities?: Record<string, AnyEntity>,
   options?: SolverOptions,
 ): SolverResult | undefined {
-  if (!recipes || !resources || !targets) return;
+  if (!recipes || !entities || !options) return;
 
-  const solver = new Solver();
-  const context = new SolverContext(solver, targets, options);
+  const context = new SolverContext(recipes, entities, options);
 
-  _addResources(context, resources);
-  _addRecipes(context, recipes);
+  _addResources(context);
+  _addRecipes(context);
   _addConstraints(context);
 
-  solver.updateVariables();
+  context.solver.updateVariables();
 
   if (options?.optimizeResiduals) {
     _optimizeResiduals(context);
   }
 
   return {
-    inputs: _collectInputResults(context, resources),
+    inputs: _collectInputResults(context),
     recipes: _collectRecipeResults(context),
     ..._collectOutputResults(context),
   };
 }
 
-function _addResources(context: SolverContext, resources: Item[]) {
-  for (const { slug } of resources) {
+function _addResources(context: SolverContext) {
+  for (const { slug } of context.resources) {
     const variable = context.variable(VariableKind.Resource, slug);
     context.addTo(ExpressionKind.Item, slug, variable);
   }
 }
 
-function _addRecipes(context: SolverContext, recipes: Recipe[]) {
-  for (const { duration, slug, ingredients, products, producedIn } of recipes) {
+function _addRecipes(context: SolverContext) {
+  for (const {
+    duration,
+    slug,
+    ingredients,
+    products,
+    producedIn,
+  } of context.recipes) {
     const runsPerMin = 60 / duration;
 
     const variable = context.variable(VariableKind.Recipe, slug);
@@ -120,9 +126,9 @@ function _optimizeResiduals(context: SolverContext) {
   context.solver.updateVariables();
 }
 
-function _collectInputResults(context: SolverContext, resources: Item[]) {
+function _collectInputResults(context: SolverContext) {
   const result = [];
-  for (const { slug } of resources) {
+  for (const { slug } of context.resources) {
     const value = _round(context.variable(VariableKind.Resource, slug).value());
     if (value === 0) continue;
     result.push({ slug, perMinute: value });
@@ -173,6 +179,25 @@ const enum ExpressionKind {
 }
 
 export class SolverContext {
+  constructor(
+    private _recipesBySlug: Record<string, Recipe>,
+    private _entitiesBySlug: Record<string, AnyEntity>,
+    public options: SolverOptions,
+  ) {}
+
+  public solver = new Solver();
+  public targets = new Map(
+    this.options.targets.map(({ slug, perMinute: perMin }) => [slug, perMin]),
+  );
+  public recipes = Object.values(this._recipesBySlug).filter(recipe => {
+    if (!recipe.producedIn.length) return false;
+    if (!this.options.includeAlternateRecipes && recipe.alternate) return false;
+    return true;
+  });
+  public resources = Object.values(this._entitiesBySlug).filter(
+    entity => entity.kind === 'item' && entity.raw,
+  ) as Item[];
+
   private _variablesByKindBySlug = new Map<
     VariableKind,
     Map<string, Variable>
@@ -181,15 +206,6 @@ export class SolverContext {
     ExpressionKind,
     Map<string, Expression>
   >();
-
-  constructor(
-    public solver: Solver,
-    _targets: ItemRate[],
-    public options: SolverOptions = {},
-    public targets = new Map(
-      _targets.map(({ slug, perMinute: perMin }) => [slug, perMin]),
-    ),
-  ) {}
 
   variable(kind: VariableKind, slug: string) {
     if (!this._variablesByKindBySlug.has(kind))

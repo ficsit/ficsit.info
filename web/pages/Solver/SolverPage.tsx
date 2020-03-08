@@ -2,11 +2,10 @@ import { css } from '@emotion/core';
 
 import { Section } from '~/components/Section';
 import { sizing, colors } from '~/style';
-import { useRecipes, useEntitiesByKind } from '~/data';
+import { useRecipes, useEntities } from '~/data';
 
 import { solveFor } from './solve';
 import { useMemo, useState } from 'react';
-import { EntityKind, Recipe, Item } from '@local/schema';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,
@@ -18,19 +17,19 @@ const taglineStyles = css({
 });
 
 export function SolverPage() {
-  const allRecipes = useRecipes();
-  const items = useEntitiesByKind(EntityKind.Item);
-
-  const recipes = useMemo(() => _productionRecipes(allRecipes), [allRecipes]);
-  const resources = useMemo(() => _resources(items), [items]);
-
+  const recipes = useRecipes();
+  const entities = useEntities();
   const [targets] = useState([{ slug: 'plastic', perMinute: 90 }]);
-
   const result = useMemo(
-    () => solveFor(recipes, resources, targets, { optimizeResiduals: true }),
-    [recipes, resources, targets],
+    () =>
+      solveFor(recipes, entities, {
+        targets,
+        optimizeResiduals: true,
+        includeAlternateRecipes: true,
+      }),
+    [recipes, entities, targets],
   );
-  if (!allRecipes) return null;
+  if (!result) return null;
 
   return (
     <article css={rootStyles}>
@@ -51,14 +50,4 @@ export function SolverPage() {
       </Section>
     </article>
   );
-}
-
-function _productionRecipes(recipes?: Record<string, Recipe>) {
-  if (!recipes) return;
-  return Object.values(recipes).filter(r => r.producedIn.length);
-}
-
-function _resources(items?: Record<string, Item>) {
-  if (!items) return;
-  return Object.values(items).filter(i => i.raw);
 }
