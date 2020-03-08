@@ -9,6 +9,10 @@
     ],
     "headers": [
       {
+        "source": "worker/**",
+        "headers": [{ "key": "Service-Worker-Allowed", "value": "/" }]
+      },
+      {
         "source": "data/**",
         "headers": [
           { "key": "Cache-Control", "value": "public, max-age=86400" }
@@ -17,13 +21,19 @@
       {
         "source": "assets/**",
         "headers": [
-          { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
         ]
       },
       {
         "source": "**/*.+([0123456789abcdef]).*",
         "headers": [
-          { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
         ]
       }
     ]

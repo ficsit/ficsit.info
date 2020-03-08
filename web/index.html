@@ -78,7 +78,7 @@
     <script>
       if (process.env.SERVICE_WORKER_ENABLED && 'serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./worker/main.ts');
+          navigator.serviceWorker.register('./worker/main.ts', { scope: '/' });
         });
       }
     </script>
