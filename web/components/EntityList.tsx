@@ -45,6 +45,18 @@ const rootStyles = css({
   width: '100%',
 });
 
+const inputStyles = css({
+  display: 'block',
+  boxSizing: 'border-box',
+  minHeight: 36,
+  padding: `0 0.5em`,
+  border: `2px solid transparent`,
+  ':focus': {
+    border: `2px solid ${colors.Primary.N500}`,
+    outline: 'none',
+  },
+});
+
 const listStyles = css({
   flex: 1,
   height: '100%',
@@ -140,6 +152,7 @@ export function EntityList({
         );
       }}>
       <input
+        css={inputStyles}
         ref={inputRef}
         autoFocus={autoFocus}
         type='text'

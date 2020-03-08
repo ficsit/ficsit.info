@@ -13,6 +13,7 @@ const iconScale = 0.8;
 const rootStyles = css({
   display: 'flex',
   alignItems: 'center',
+  boxSizing: 'border-box',
   padding: `0 8px`,
   color: 'inherit',
   textDecoration: 'none',

@@ -1,18 +1,44 @@
 import { EntityKind } from '@local/schema';
 import { css } from '@emotion/core';
 
-import { sizing } from '~/style';
+import { sizing, colors } from '~/style';
 
 import { EntityList } from './EntityList';
+import { useState } from 'react';
+import { EntityListItem } from './EntityListItem';
+import { useEntity } from '~/data';
+
+const rowHeight = 40;
 
 const rootStyles = css({
-  display: 'inline-block',
-  height: 200,
+  position: 'relative',
   width: sizing.sidebarWidth,
+  height: rowHeight,
 });
 
 const entityListStyles = css({
-  height: '100%',
+  position: 'absolute',
+  borderRadius: 4,
+  top: 0,
+  left: 0,
+  height: rowHeight * 8,
+  width: '100%',
+  backgroundColor: colors.Light.N100,
+  zIndex: 1000,
+  boxShadow: `0 0 4px 2px rgba(0, 0, 0, 0.25)`,
+  '> input': {
+    height: rowHeight,
+  },
+});
+
+const selectedEntityStyles = css({
+  height: rowHeight,
+  border: `2px solid ${colors.Light.N400}`,
+  backgroundColor: colors.Light.N100,
+  borderRadius: 4,
+  '&:hover': {
+    border: `2px solid ${colors.Primary.N500}`,
+  },
 });
 
 export interface EntityChooserProps {
@@ -22,16 +48,37 @@ export interface EntityChooserProps {
 }
 
 export function EntityChooser({ kind, slug, setSlug }: EntityChooserProps) {
-  return (
-    <div css={rootStyles}>
-      {slug}
-      <EntityList
-        kind={kind}
-        rowHeight={40}
-        css={entityListStyles}
-        selected={slug}
-        onChange={setSlug}
-      />
-    </div>
-  );
+  const [editing, setEditing] = useState(true);
+  const entity = useEntity(slug);
+
+  if (editing) {
+    return (
+      <div css={rootStyles}>
+        <EntityList
+          autoFocus
+          kind={kind}
+          rowHeight={rowHeight}
+          css={entityListStyles}
+          selected={slug}
+          onChange={(newSlug: string) => {
+            setEditing(false);
+            setSlug(newSlug);
+          }}
+        />
+      </div>
+    );
+  } else if (entity) {
+    return (
+      <div css={rootStyles}>
+        <EntityListItem
+          css={selectedEntityStyles}
+          entity={entity}
+          onClick={() => setEditing(true)}
+          height={rowHeight}
+        />
+      </div>
+    );
+  } else {
+    return null;
+  }
 }
