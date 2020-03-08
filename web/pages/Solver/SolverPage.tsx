@@ -6,6 +6,7 @@ import { useRecipes, useEntities } from '~/data';
 
 import { solveFor } from './solve';
 import { useMemo, useState } from 'react';
+import { RecipeResults } from './RecipeResults';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,
@@ -29,7 +30,6 @@ export function SolverPage() {
       }),
     [recipes, entities, targets],
   );
-  if (!result) return null;
 
   return (
     <article css={rootStyles}>
@@ -44,10 +44,21 @@ export function SolverPage() {
           </span>
         }>
         <div>
-          <h3>Production Targets</h3>
+          <h3>Production Targets</h3>…
         </div>
-        <pre>{JSON.stringify(result, null, 2)}</pre>
       </Section>
+      {!!result && (
+        <React.Fragment>
+          <Section title='Optimized Production Line'>
+            <RecipeResults result={result} />
+          </Section>
+          <Section title='Raw Data'>
+            <pre style={{ fontSize: 10 }}>
+              {JSON.stringify(result, null, 2)}
+            </pre>
+          </Section>
+        </React.Fragment>
+      )}
     </article>
   );
 }

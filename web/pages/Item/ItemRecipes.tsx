@@ -16,11 +16,13 @@ export function ItemRecipes({ item }: ItemRecipesProps) {
   }
 
   return (
-    <RecipeTable 
-      title='Recipes' 
-      recipes={recipes} 
-      recipeTitle={recipe => _recipeTitle(item, recipe)}
-    />
+    <Section title='Recipes'>
+      <RecipeTable
+        recipes={recipes}
+        renderTitle={recipe => _recipeTitle(item, recipe)}
+        showCounts={true}
+      />
+    </Section>
   );
 }
 
@@ -30,6 +32,6 @@ function _recipeTitle(item: Item, recipe: Recipe) {
   } else if (recipe.products[0].item === item.slug) {
     return `Standard Recipe`;
   } else {
-    return `Byproduct: ${recipe.name.replace(/^Alternative: /, '')}`
+    return `Byproduct: ${recipe.name.replace(/^Alternative: /, '')}`;
   }
 }

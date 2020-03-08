@@ -2,7 +2,13 @@ import { NavLink } from 'react-router-dom';
 import { EntityKind, AnyEntity } from '@local/schema';
 import { css } from '@emotion/core';
 import { useMemo, useState, useEffect } from 'react';
-import { AutoSizedStickyTree, RegularChild, StickyChild, RowInfo, NodeId } from 'react-virtualized-sticky-tree';
+import {
+  AutoSizedStickyTree,
+  RegularChild,
+  StickyChild,
+  RowInfo,
+  NodeId,
+} from 'react-virtualized-sticky-tree';
 
 import { colors, sizing } from '~/style';
 import { entityUrl } from '~/routing';
@@ -15,17 +21,17 @@ type EntityTree = Map<string, Map<string, AnyEntity[]>>;
 
 interface RootNode extends RegularChild {
   kind: 'root';
-  childNodes: CategoryNode[],
+  childNodes: CategoryNode[];
 }
 interface CategoryNode extends StickyChild {
   kind: 'category';
   title: string;
-  childNodes: SubCategoryNode[],
+  childNodes: SubCategoryNode[];
 }
 interface SubCategoryNode extends StickyChild {
-  kind: 'subCategory'
+  kind: 'subCategory';
   title: string;
-  childNodes: EntityNode[],
+  childNodes: EntityNode[];
 }
 interface EntityNode extends RegularChild {
   kind: 'entity';
@@ -49,7 +55,7 @@ const listStyles = css({
   height: '100%',
   '> *': {
     overscrollBehavior: 'contain',
-  }
+  },
 });
 
 const categoryTitleStyles = css({
@@ -82,13 +88,19 @@ const entityStyles = css({
   padding: `${(entityHeight - rowIconSize) / 2}px 8px`,
   color: 'inherit',
   textDecoration: 'none',
-  'picture': {
+  picture: {
     marginRight: 8,
   },
   ':hover, &.active': {
     color: colors.Light.N0,
-    'picture': {
-      filter: 'drop-shadow(0 0 3px rgba(255, 255, 255, 0.65))',
+    picture: {
+      filter: `
+        drop-shadow( 2px 0   1px ${colors.Light.N0})
+        drop-shadow(-2px 0   1px ${colors.Light.N0})
+        drop-shadow( 0   2px 1px ${colors.Light.N0})
+        drop-shadow( 0  -2px 1px ${colors.Light.N0})
+      `,
+      // filter: 'drop-shadow(0 0 3px rgba(255, 255, 255, 0.65))',
     },
   },
   ':hover': {
@@ -110,7 +122,10 @@ export function EntityList({ kind, selected, onChange }: EntityListProps) {
   const [scrolled, setScrolled] = useState(false);
   const entities = useEntitiesByKind(kind);
   const fullTree = useMemo(() => _dataSource(entities), [entities]);
-  const selectedId = useMemo(() => _findId(fullTree, selected), [fullTree, selected])
+  const selectedId = useMemo(() => _findId(fullTree, selected), [
+    fullTree,
+    selected,
+  ]);
   const tree = useMemo(() => _filterTree(fullTree, filter), [fullTree, filter]);
 
   const inputRef = React.createRef<HTMLInputElement>();
@@ -127,38 +142,41 @@ export function EntityList({ kind, selected, onChange }: EntityListProps) {
   if (!tree) return null;
 
   return (
-    <div 
-      css={rootStyles} 
+    <div
+      css={rootStyles}
       onClick={() => {
         // Give a brief delay before focusing in case we're navigating on
         // mobile.
         const input = inputRef.current;
-        requestAnimationFrame(() => 
-          requestAnimationFrame(() => input?.focus())
+        requestAnimationFrame(() =>
+          requestAnimationFrame(() => input?.focus()),
         );
-      }}
-    >
-      <input 
+      }}>
+      <input
         ref={inputRef}
-        type='text' 
-        placeholder='Search…' 
-        value={filter} 
+        type='text'
+        placeholder='Search…'
+        value={filter}
         onChange={({ target }) => {
           setFilter(target.value);
           treeRef.current?.setScrollTop(0);
         }}
-        onKeyDown={(event) => {
+        onKeyDown={event => {
           if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
             event.preventDefault();
           } else {
             return;
           }
-          const { current } = treeRef
+          const { current } = treeRef;
           if (!current || typeof selectedId === 'undefined') return;
 
           let newNodeIndex;
           if (event.key === 'ArrowDown') {
-            newNodeIndex = _findAdjacentEntityIndex(current, selectedId, 'down');
+            newNodeIndex = _findAdjacentEntityIndex(
+              current,
+              selectedId,
+              'down',
+            );
           } else if (event.key === 'ArrowUp') {
             newNodeIndex = _findAdjacentEntityIndex(current, selectedId, 'up');
           }
@@ -176,26 +194,41 @@ export function EntityList({ kind, selected, onChange }: EntityListProps) {
         root={tree}
         isModelImmutable={true}
         getChildren={(_id, parent: AnyNode) => (parent as any).childNodes}
-        rowRenderer={(nodeInfo) => _renderNode(nodeInfo, filter)}
+        rowRenderer={nodeInfo => _renderNode(nodeInfo, filter)}
         renderRoot={false}
         overscanRowCount={5}
       />
     </div>
-  )
+  );
 }
 
-function _renderNode({ id, style, nodeInfo }: RowInfo<AnyNode>, filter: string) {
+function _renderNode(
+  { id, style, nodeInfo }: RowInfo<AnyNode>,
+  filter: string,
+) {
   if (nodeInfo.kind === 'category') {
-    return <div key={id} css={categoryTitleStyles} style={style}>{nodeInfo.title}</div>;
+    return (
+      <div key={id} css={categoryTitleStyles} style={style}>
+        {nodeInfo.title}
+      </div>
+    );
   } else if (nodeInfo.kind === 'subCategory') {
-    return <div key={id} css={subCategoryTitleStyles} style={style}>{nodeInfo.title}</div>;
+    return (
+      <div key={id} css={subCategoryTitleStyles} style={style}>
+        {nodeInfo.title}
+      </div>
+    );
   } else if (nodeInfo.kind === 'entity') {
     return (
-      <NavLink key={id} css={entityStyles} style={style} to={entityUrl(nodeInfo.entity)}>
+      <NavLink
+        key={id}
+        css={entityStyles}
+        style={style}
+        to={entityUrl(nodeInfo.entity)}>
         <EntityImage entity={nodeInfo.entity} size={sizing.navListIconSize} />
         <HighlightedText text={nodeInfo.entity.name} search={filter} />
       </NavLink>
-    )
+    );
   } else {
     throw new Error(`Unsupported ${nodeInfo.kind} node`);
   }
@@ -225,7 +258,7 @@ function _dataSource(entities?: Record<string, AnyEntity>) {
       zIndex: 200,
       childNodes: [],
     };
-    
+
     for (const [subCategory, entities] of subCategories.entries()) {
       const subCategoryNode: SubCategoryNode = {
         kind: 'subCategory',
@@ -237,14 +270,14 @@ function _dataSource(entities?: Record<string, AnyEntity>) {
         zIndex: 100,
         childNodes: [],
       };
-      
+
       for (const entity of entities) {
         const entityNode: EntityNode = {
           kind: 'entity',
           id: id++,
           height: entityHeight,
           entity,
-        }
+        };
 
         subCategoryNode.childNodes.push(entityNode);
       }
@@ -261,7 +294,11 @@ function _dataSource(entities?: Record<string, AnyEntity>) {
 function _entityTree(entities: Record<string, AnyEntity>) {
   const allEntities = Object.values(entities);
   const indexed: EntityTree = new Map();
-  for (const entity of allEntities.sort((a, b) => (a.listOrder || Number.MAX_SAFE_INTEGER) - (b.listOrder || Number.MAX_SAFE_INTEGER))) {
+  for (const entity of allEntities.sort(
+    (a, b) =>
+      (a.listOrder || Number.MAX_SAFE_INTEGER) -
+      (b.listOrder || Number.MAX_SAFE_INTEGER),
+  )) {
     let [category, subCategory] = entity.categories || [];
     category = category || 'Miscellaneous';
     subCategory = subCategory || 'Miscellaneous';
@@ -284,7 +321,9 @@ function _filterTree(tree?: RootNode, filterText?: string) {
   for (const category of tree.childNodes) {
     const newSubCategories = [] as SubCategoryNode[];
     for (const subCategory of category.childNodes) {
-      const newEntities = subCategory.childNodes.filter(({ entity }) => filter.test(entity.name));
+      const newEntities = subCategory.childNodes.filter(({ entity }) =>
+        filter.test(entity.name),
+      );
 
       if (!newEntities.length) continue;
       newSubCategories.push({ ...subCategory, childNodes: newEntities });
@@ -298,7 +337,10 @@ function _filterTree(tree?: RootNode, filterText?: string) {
 }
 
 function _compileFilter(filterText: string) {
-  const source = filterText.toLowerCase().split('').join('.*');
+  const source = filterText
+    .toLowerCase()
+    .split('')
+    .join('.*');
   return new RegExp(source, 'i');
 }
 
@@ -314,7 +356,11 @@ function _findId(tree?: RootNode, selectedSlug?: string) {
   }
 }
 
-function _findAdjacentEntityIndex(tree: AutoSizedStickyTree<AnyNode>, currentId: NodeId, direction: 'up' | 'down') {
+function _findAdjacentEntityIndex(
+  tree: AutoSizedStickyTree<AnyNode>,
+  currentId: NodeId,
+  direction: 'up' | 'down',
+) {
   const currentNode = tree.nodes[tree.getNodeIndex(currentId)];
   if (!currentNode) return tree.nodes.findIndex(n => n.kind === 'entity');
 

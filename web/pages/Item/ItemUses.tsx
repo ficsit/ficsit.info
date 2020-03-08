@@ -11,13 +11,16 @@ export interface ItemUses {
 export function ItemUses({ item }: ItemUses) {
   const recipes = useRecipesByIngredient()?.[item.slug];
   if (!recipes) {
-    return <Section title='Recipes'>No recipes use {item.name} as an ingredient</Section>;
+    return (
+      <Section title='Recipes'>
+        No recipes use {item.name} as an ingredient
+      </Section>
+    );
   }
 
   return (
-    <RecipeTable 
-      title='Recipe Uses' 
-      recipes={recipes} 
-    />
+    <Section title='RecipeUses'>
+      <RecipeTable recipes={recipes} showCounts={true} />
+    </Section>
   );
 }

@@ -5,10 +5,10 @@ import { css } from '@emotion/core';
 import { useRecipe, useEntities } from '~/data';
 import { colors, sizing } from '~/style';
 import { Section } from '~/components/Section';
-import { RecipeDetails } from './RecipeDetails';
 import { Building } from '@local/schema';
 import { RecipeManufacturerDetails } from './RecipeManufacturerDetails';
 import { RecipeManualDetails } from './RecipeManualDetails';
+import { RecipeTable } from '~/components/RecipeTable';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,
@@ -51,7 +51,6 @@ const contentContainerStyles = css({
   border: `1px solid ${colors.Light.N100}`,
 });
 
-
 export function RecipePage() {
   const { slug } = useParams<{ slug?: string }>();
 
@@ -71,21 +70,32 @@ function _Detail({ slug }: { slug?: string }) {
     <article css={rootStyles}>
       <Section title={<h1>{recipe.name}</h1>}>
         <div css={contentStyles}>
-          {!!manufacturer &&
+          {!!manufacturer && (
             <div css={[contentContainerStyles, manufacturerContainerStyles]}>
-              <RecipeManufacturerDetails recipe={recipe} manufacturer={manufacturer} clockSpeed={clockSpeed} setClockSpeed={setClockSpeed} />
+              <RecipeManufacturerDetails
+                recipe={recipe}
+                manufacturer={manufacturer}
+                clockSpeed={clockSpeed}
+                setClockSpeed={setClockSpeed}
+              />
             </div>
-          }
+          )}
           <div css={[contentContainerStyles, recipeContainerStyles]}>
-            <RecipeDetails recipe={recipe} entities={entities} clockSpeed={clockSpeed} />
+            <RecipeTable
+              recipes={[recipe]}
+              renderTitle={() => undefined}
+              showRates={() => clockSpeed}
+              size={sizing.navListIconSize}
+            />
+            {/* <RecipeDetails recipe={recipe} entities={entities} clockSpeed={clockSpeed} /> */}
           </div>
-          {!!recipe.handcraftedIn?.length &&
+          {!!recipe.handcraftedIn?.length && (
             <div css={[contentContainerStyles, handcraftingContainerStyles]}>
               <RecipeManualDetails recipe={recipe} />
             </div>
-          }
+          )}
         </div>
       </Section>
     </article>
-  )
+  );
 }
