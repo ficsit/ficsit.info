@@ -18,14 +18,23 @@ export function buildRouter() {
 
 export function registerRoutes(router: Router) {
   // Redirect all navigation events to the index.
-  const indexCache = new NetworkFirst({
-    cacheName: 'index',
-    networkTimeoutSeconds: 0.5,
+  const coreCache = new NetworkFirst({
+    cacheName: 'core',
+    networkTimeoutSeconds: 2.5,
   });
-  const indexHandler: RouteHandler = ({ ...args }) => {
-    return indexCache.handle({ ...args, request: new Request('/index.html') });
+  const indexHandler: RouteHandler = args => {
+    return coreCache.handle({
+      ...args,
+      request: new Request('/index.html', {
+        redirect: 'follow',
+        credentials: 'include',
+        cache: 'no-cache',
+      }),
+    });
   };
   router.registerRoute(new NavigationRoute(indexHandler));
+  router.registerRoute(new RegExpRoute(/\/index\.html$/, coreCache));
+  router.registerRoute(new RegExpRoute(/\/site\.webmanifest$/, coreCache));
 
   // Any URL with a hash in it can be cached forever.
   router.registerRoute(

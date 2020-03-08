@@ -16,6 +16,7 @@ export async function prefetchPackagedAssets(router: Router) {
   try {
     await Promise.all([
       router.handleRequest({ request: new Request('/index.html') }),
+      router.handleRequest({ request: new Request('/site.webmanifest') }),
       ...assetsToPrefetch.map(({ url }) =>
         router.handleRequest({ request: new Request(url) }),
       ),
