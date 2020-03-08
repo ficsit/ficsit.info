@@ -44,7 +44,7 @@ export function SolverPage() {
           </span>
         }>
         <div>
-          <h3>Production Targets</h3>…
+          <h3>Production Targets</h3>
         </div>
       </Section>
       {!!result && (

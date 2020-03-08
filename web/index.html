@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+
     <title>FicsIt Employee Portal</title>
     <meta
       name="description"
@@ -31,6 +33,7 @@
       href="./assets/site-icons/silhouette.svg"
       color="#f69e2c"
     />
+
     <meta name="apple-mobile-web-app-title" content="FicsIt" />
     <meta name="application-name" content="FicsIt" />
     <meta name="msapplication-TileColor" content="#f69e2c" />
@@ -78,7 +81,7 @@
     <script>
       if (process.env.SERVICE_WORKER_ENABLED && 'serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./worker/main.ts', { scope: '/' });
+          navigator.serviceWorker.register('./worker.ts');
         });
       }
     </script>

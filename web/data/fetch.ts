@@ -1,21 +1,32 @@
 import { useState } from 'react';
 
-export function makeDataHook<TResult extends object>(path: string, transform: (data: any) => TResult) {
+export function makeDataHook<TResult extends object>(
+  path: string,
+  transform: (data: any) => TResult,
+) {
   let promise: Promise<TResult> | undefined;
   let transformed: TResult | undefined;
 
-  return function useData() {
+  function useData() {
     const [state, setState] = useState(transformed);
     if (!transformed) {
       if (!promise) promise = fetchData(path).then(transform);
       promise.then(result => {
         transformed = result;
         setState(result);
-      })
+      });
     }
 
     return state;
   }
+
+  useData.invalidate = function invalidate() {
+    if (!transformed) return;
+    promise = undefined;
+    transformed = undefined;
+  };
+
+  return useData;
 }
 
 export async function fetchData(path: string) {

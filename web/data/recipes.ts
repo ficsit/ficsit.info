@@ -21,14 +21,17 @@ export function useRecipesByIngredient() {
 
 // Raw Data
 
-const useRecipeData = makeDataHook('recipes', (bySlug: Record<string, Recipe>) => {
-  const recipes = Object.values(bySlug);
-  return { 
-    bySlug, 
-    byProduct: _recipesByProduct(recipes), 
-    byIngredient: _recipesByIngredient(recipes),
-  };
-});
+export const useRecipeData = makeDataHook(
+  'recipes',
+  (bySlug: Record<string, Recipe>) => {
+    const recipes = Object.values(bySlug);
+    return {
+      bySlug,
+      byProduct: _recipesByProduct(recipes),
+      byIngredient: _recipesByIngredient(recipes),
+    };
+  },
+);
 
 function _recipesByProduct(recipes: Recipe[]) {
   const byProduct = Object.create(null) as Record<string, Recipe[]>;
@@ -51,7 +54,7 @@ function _recipesByProduct(recipes: Recipe[]) {
         return a.products[0].item === product ? -1 : 1;
       });
   }
-  
+
   return byProduct;
 }
 
@@ -65,9 +68,10 @@ function _recipesByIngredient(recipes: Recipe[]) {
   }
 
   for (const [ingredient, recipes] of Object.entries(byIngredient)) {
-    byIngredient[ingredient] = recipes
-      .sort((a, b) => a.name.localeCompare(b.name));
+    byIngredient[ingredient] = recipes.sort((a, b) =>
+      a.name.localeCompare(b.name),
+    );
   }
-  
+
   return byIngredient;
 }

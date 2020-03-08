@@ -5,6 +5,8 @@ import { Router } from 'workbox-routing';
 
 import * as log from './log';
 
+const noCache: RequestInit = { cache: 'no-cache' };
+
 export async function prefetchPackagedAssets(router: Router) {
   const endGroup = log.startGroup('Prefetching packaged assets');
   const assetsToPrefetch = __precacheManifest.filter(({ url }) =>
@@ -13,8 +15,12 @@ export async function prefetchPackagedAssets(router: Router) {
 
   try {
     await Promise.all([
-      router.handleRequest({ request: new Request('/index.html') }),
-      router.handleRequest({ request: new Request('/site.webmanifest') }),
+      router.handleRequest({
+        request: new Request('/', noCache),
+      }),
+      router.handleRequest({
+        request: new Request('/site.webmanifest', noCache),
+      }),
       ...assetsToPrefetch.map(({ url }) =>
         router.handleRequest({ request: new Request(url) }),
       ),
@@ -31,13 +37,13 @@ export async function prefetchData(router: Router) {
   try {
     await Promise.all([
       router.handleRequest({
-        request: new Request('/data/experimental/entities.json'),
+        request: new Request('/data/experimental/entities.json', noCache),
       }),
       router.handleRequest({
-        request: new Request('/data/experimental/recipes.json'),
+        request: new Request('/data/experimental/recipes.json', noCache),
       }),
       router.handleRequest({
-        request: new Request('/data/experimental/schematics.json'),
+        request: new Request('/data/experimental/schematics.json', noCache),
       }),
     ]);
   } catch (error) {
