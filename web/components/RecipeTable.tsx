@@ -3,10 +3,11 @@ import { css } from '@emotion/core';
 import { NavLink } from 'react-router-dom';
 
 import { colors, sizing } from '~/style';
-import { recipeUrl } from '~/routing';
+import { recipeUrl, buildingUrl } from '~/routing';
 import { ItemCount } from '~/components/ItemCount';
 import { Rate } from './Rate';
 import { useEntities } from '~/data';
+import { EntityReference } from './EntityReference';
 
 const contentStyles = css({
   display: 'grid',
@@ -71,24 +72,90 @@ const entityStyles = css({
   },
 });
 
+export interface Extraction {
+  item: string;
+  building: string;
+}
+
+export interface ExtractionDetails {
+  kind: 'extraction';
+  slug: string;
+  name: string;
+  duration: number;
+}
+
 export interface RecipeTableProps {
-  recipes: Recipe[];
-  renderTitle?: (recipe: Recipe) => React.ReactNode;
-  renderBefore?: (recipe: Recipe) => React.ReactNode;
-  renderAfter?: (recipe: Recipe) => React.ReactNode;
+  extractions?: Extraction[];
+  recipes?: Recipe[];
+  renderTitle?: (recipe: Recipe | ExtractionDetails) => React.ReactNode;
+  renderBefore?: (recipe: Recipe | ExtractionDetails) => React.ReactNode;
+  renderAfter?: (recipe: Recipe | ExtractionDetails) => React.ReactNode;
   showCounts?: boolean;
-  showRates?: boolean | ((recipe: Recipe) => number);
+  showRates?: boolean | ((recipe: Recipe | ExtractionDetails) => number);
   size?: number;
 }
 
 export function RecipeTable(props: RecipeTableProps) {
   const entities = useEntities();
   if (!entities) return null;
+  const { recipes, extractions } = props;
 
   return (
     <div css={contentStyles}>
-      {props.recipes.map(r => _renderRecipe(r, props, entities))}
+      {extractions &&
+        extractions.map(e => _renderExtraction(e, props, entities))}
+      {recipes && recipes.map(r => _renderRecipe(r, props, entities))}
     </div>
+  );
+}
+
+function _renderExtraction(
+  { building, item }: Extraction,
+  props: RecipeTableProps,
+  entities: Record<string, AnyEntity>,
+) {
+  const buildingData = entities[building];
+  if (
+    !buildingData ||
+    buildingData.kind !== 'building' ||
+    !buildingData.extraction
+  )
+    return null;
+  const { cycleTime, itemsPerCycle } = buildingData.extraction!;
+
+  const details: ExtractionDetails = {
+    kind: 'extraction',
+    name: `Extraction: ${buildingData.name}`,
+    duration: cycleTime,
+    slug: building,
+  };
+  const amount: ItemAmount = { item, count: itemsPerCycle };
+  const title = props.renderTitle ? props.renderTitle(details) : details.name;
+
+  return (
+    <React.Fragment key={`${building}-${item}`}>
+      {!!title && (
+        <NavLink to={buildingUrl(building)} css={recipeTitleStyles}>
+          {title}
+        </NavLink>
+      )}
+      {!!props.renderBefore && (
+        <div css={beforeStyles}>{props.renderBefore(details)}</div>
+      )}
+      <div css={ingredientsStyles}>
+        <EntityReference slug={building} size={props.size} />
+      </div>
+      {_renderArrow(props.size)}
+      <div css={productsStyles}>
+        {_renderEntity(details, entities[item], amount, {
+          ...props,
+          showCounts: false,
+        })}
+        {!!props.renderAfter && (
+          <div css={afterStyles}>{props.renderAfter(details)}</div>
+        )}
+      </div>
+    </React.Fragment>
   );
 }
 
@@ -98,8 +165,6 @@ function _renderRecipe(
   entities: Record<string, AnyEntity>,
 ) {
   const title = props.renderTitle ? props.renderTitle(recipe) : recipe.name;
-  const itemHeight =
-    (props.size || sizing.navButtonIconSize) + sizing.Padding.Small * 2;
 
   return (
     <React.Fragment key={recipe.slug}>
@@ -116,9 +181,7 @@ function _renderRecipe(
           _renderEntity(recipe, entities[i.item], i, props),
         )}
       </div>
-      <div css={arrowStyles} style={{ height: itemHeight }}>
-        ➤
-      </div>
+      {_renderArrow(props.size)}
       <div css={productsStyles}>
         {recipe.products.map(i =>
           _renderEntity(recipe, entities[i.item], i, props),
@@ -132,7 +195,7 @@ function _renderRecipe(
 }
 
 function _renderEntity(
-  recipe: Recipe,
+  recipe: Recipe | ExtractionDetails,
   entity: AnyEntity | undefined,
   { item, count }: ItemAmount,
   { size, showCounts = false, showRates = false }: RecipeTableProps,
@@ -154,4 +217,21 @@ function _renderEntity(
       )}
     </div>
   );
+}
+
+function _renderArrow(size?: number) {
+  const itemHeight =
+    (size || sizing.navButtonIconSize) + sizing.Padding.Small * 2;
+
+  return (
+    <div css={arrowStyles} style={{ height: itemHeight }}>
+      ➤
+    </div>
+  );
+}
+
+export function isExtraction(
+  value: Recipe | ExtractionDetails,
+): value is ExtractionDetails {
+  return (value as any).kind === 'extraction';
 }

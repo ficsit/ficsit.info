@@ -7,7 +7,7 @@ import { sizing } from '~/style';
 import { MasterDetailLayout } from '~/layouts';
 import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
-import { ItemRecipes } from './ItemRecipes';
+import { ItemSources } from './ItemSources';
 import { ItemUses } from './ItemUses';
 import { itemUrl } from '~/routing';
 
@@ -81,7 +81,7 @@ function _Detail({ item }: { item: Item }) {
     <article css={rootStyles}>
       <EntitySummary entity={item} imageSize={128} statistics={statistics} />
       <div css={detailsStyles}>
-        <ItemRecipes item={item} />
+        <ItemSources item={item} />
         <ItemUses item={item} />
       </div>
     </article>

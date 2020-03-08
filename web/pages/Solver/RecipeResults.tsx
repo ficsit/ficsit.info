@@ -1,8 +1,13 @@
 import { css } from '@emotion/core';
-import { Recipe } from '@local/schema';
+import { Recipe, Item, Building } from '@local/schema';
 
-import { useRecipes, useBuilding } from '~/data';
-import { RecipeTable } from '~/components/RecipeTable';
+import { useRecipes, useBuilding, useEntities } from '~/data';
+import {
+  RecipeTable,
+  Extraction,
+  ExtractionDetails,
+  isExtraction,
+} from '~/components/RecipeTable';
 import { EntityReference } from '~/components/EntityReference';
 import { sizing, colors } from '~/style';
 
@@ -55,16 +60,31 @@ export interface RecipeResultsProps {
 
 export function RecipeResults({ result }: RecipeResultsProps) {
   const recipes = useRecipes();
-  if (!recipes) return null;
+  const entities = useEntities();
+  if (!recipes || !entities) return null;
 
   const recipesToList = result.recipes.map(({ slug }) => recipes[slug]);
   const multiples = new Map(
     result.recipes.map(({ slug, multiple }) => [slug, multiple] as const),
   );
 
+  const extractions = [] as Extraction[];
+  for (const { slug, perMinute } of result.inputs) {
+    const item = entities[slug] as Item;
+    const buildingSlug = item.resource?.extractedBy?.[0]!;
+    const building = entities[buildingSlug] as Building;
+
+    extractions.push({ building: buildingSlug, item: slug });
+
+    const { cycleTime, itemsPerCycle } = building.extraction!;
+    const perBuilding = (60 / cycleTime) * itemsPerCycle;
+    multiples.set(buildingSlug, perMinute / perBuilding);
+  }
+
   return (
     <div>
       <RecipeTable
+        extractions={extractions}
         recipes={recipesToList}
         renderTitle={({ slug, name }) => (
           <React.Fragment>
@@ -83,12 +103,14 @@ export function RecipeResults({ result }: RecipeResultsProps) {
 }
 
 interface _BeforeProps {
-  recipe: Recipe;
+  recipe: Recipe | ExtractionDetails;
   multiple: number;
 }
 
 function _Before({ recipe, multiple }: _BeforeProps) {
-  const building = useBuilding(recipe.producedIn[0]);
+  const building = useBuilding(
+    isExtraction(recipe) ? recipe.slug : recipe.producedIn[0],
+  );
   if (!building) return null;
 
   const count = Math.ceil(multiple);

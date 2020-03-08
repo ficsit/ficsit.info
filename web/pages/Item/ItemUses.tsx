@@ -12,14 +12,14 @@ export function ItemUses({ item }: ItemUses) {
   const recipes = useRecipesByIngredient()?.[item.slug];
   if (!recipes) {
     return (
-      <Section title='Recipes'>
+      <Section title='Uses'>
         No recipes use {item.name} as an ingredient
       </Section>
     );
   }
 
   return (
-    <Section title='Recipe Uses'>
+    <Section title='Uses'>
       <RecipeTable recipes={recipes} showCounts={true} />
     </Section>
   );
