@@ -4,7 +4,7 @@ import { Section } from '~/components/Section';
 import { sizing, colors } from '~/style';
 import { useRecipes, useEntities } from '~/data';
 
-import { solveFor } from './solve';
+import { solveFor, SolverResult } from './solve';
 import { useMemo, useState } from 'react';
 import { RecipeResults } from './RecipeResults';
 import { TargetsChooser } from './TargetsChooser';
@@ -22,15 +22,18 @@ export function SolverPage() {
   const recipes = useRecipes();
   const entities = useEntities();
   const [targets, setTargets] = useState([{ slug: 'plastic', perMinute: 90 }]);
-  const result = useMemo(
-    () =>
-      solveFor(recipes, entities, {
+  const result = useMemo(() => {
+    try {
+      return solveFor(recipes, entities, {
         targets,
         optimizeResiduals: true,
         includeAlternateRecipes: true,
-      }),
-    [recipes, entities, targets],
-  );
+      });
+    } catch (error) {
+      console.error(`solver error:`, error);
+      return { error };
+    }
+  }, [recipes, entities, targets]);
 
   return (
     <article css={rootStyles}>
@@ -46,13 +49,27 @@ export function SolverPage() {
         }>
         <TargetsChooser targets={targets} setTargets={setTargets} />
       </Section>
-      {!!result && (
-        <React.Fragment>
-          <Section title='Optimized Recipe Use'>
-            <RecipeResults result={result} />
-          </Section>
-        </React.Fragment>
-      )}
+      {_renderResult(result)}
     </article>
   );
+}
+
+function _renderResult(result?: SolverResult | { error: any }) {
+  if (!result) return null;
+
+  if ('error' in result) {
+    const { error } = result;
+    return (
+      <Section title='Whoopsie'>
+        <p>Something went wrong when embettening your production line:</p>
+        <p>{error.message || error}</p>
+      </Section>
+    );
+  } else {
+    return (
+      <Section title='Optimized Recipe Use'>
+        <RecipeResults result={result} />
+      </Section>
+    );
+  }
 }

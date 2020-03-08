@@ -71,16 +71,17 @@ export function RecipeResults({ result }: RecipeResultsProps) {
   const extractions = [] as Extraction[];
   for (const { slug, perMinute } of result.inputs) {
     const item = entities[slug] as Item;
-    const buildingSlug = item.resource?.extractedBy?.[
-      item.resource?.extractedBy.length - 1
-    ]!;
+    const extractedBy = item.resource?.extractedBy;
+    if (!extractedBy) continue;
+
+    const buildingSlug = extractedBy[extractedBy.length - 1];
     const building = entities[buildingSlug] as Building;
+    if (!building.extraction) continue;
 
-    extractions.push({ building: buildingSlug, item: slug });
-
-    const { cycleTime, itemsPerCycle } = building.extraction!;
+    const { cycleTime, itemsPerCycle } = building.extraction;
     const perBuilding = (60 / cycleTime) * itemsPerCycle;
     multiples.set(buildingSlug, perMinute / perBuilding);
+    extractions.push({ building: buildingSlug, item: slug });
   }
 
   return (

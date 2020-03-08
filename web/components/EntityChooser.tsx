@@ -14,6 +14,9 @@ const rootStyles = css({
   position: 'relative',
   width: sizing.sidebarWidth,
   height: rowHeight,
+  '&:hover': {
+    zIndex: 10,
+  },
 });
 
 const entityListStyles = css({
@@ -54,7 +57,13 @@ export function EntityChooser({ kind, slug, setSlug }: EntityChooserProps) {
 
   if (editing) {
     return (
-      <div css={rootStyles}>
+      <div
+        css={rootStyles}
+        onBlur={() =>
+          requestAnimationFrame(() =>
+            requestAnimationFrame(() => setEditing(false)),
+          )
+        }>
         <EntityList
           autoFocus
           kind={kind}
