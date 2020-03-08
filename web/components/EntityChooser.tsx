@@ -32,6 +32,7 @@ const entityListStyles = css({
 });
 
 const selectedEntityStyles = css({
+  display: 'flex',
   height: rowHeight,
   border: `2px solid ${colors.Light.N400}`,
   backgroundColor: colors.Light.N100,
@@ -48,7 +49,7 @@ export interface EntityChooserProps {
 }
 
 export function EntityChooser({ kind, slug, setSlug }: EntityChooserProps) {
-  const [editing, setEditing] = useState(true);
+  const [editing, setEditing] = useState(false);
   const entity = useEntity(slug);
 
   if (editing) {
@@ -79,6 +80,12 @@ export function EntityChooser({ kind, slug, setSlug }: EntityChooserProps) {
       </div>
     );
   } else {
-    return null;
+    return (
+      <div css={rootStyles}>
+        <div css={selectedEntityStyles} onClick={() => setEditing(true)}>
+          Choose One…
+        </div>
+      </div>
+    );
   }
 }

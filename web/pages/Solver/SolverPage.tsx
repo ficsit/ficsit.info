@@ -21,7 +21,7 @@ const taglineStyles = css({
 export function SolverPage() {
   const recipes = useRecipes();
   const entities = useEntities();
-  const [targets] = useState([{ slug: 'plastic', perMinute: 90 }]);
+  const [targets, setTargets] = useState([{ slug: 'plastic', perMinute: 90 }]);
   const result = useMemo(
     () =>
       solveFor(recipes, entities, {
@@ -44,7 +44,7 @@ export function SolverPage() {
             </span>
           </span>
         }>
-        <TargetsChooser />
+        <TargetsChooser targets={targets} setTargets={setTargets} />
       </Section>
       {!!result && (
         <React.Fragment>
