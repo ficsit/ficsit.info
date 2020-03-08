@@ -1,11 +1,9 @@
+// for parcel-plugin-service-worker-manifest
+declare var __precacheManifest: { url: string; revision: string }[];
+
 import { Router } from 'workbox-routing';
 
 import * as log from './log';
-
-// for parcel-plugin-service-worker-manifest
-declare global {
-  var __precacheManifest: { url: string; revision: string }[];
-}
 
 export async function prefetchPackagedAssets(router: Router) {
   const endGroup = log.startGroup('Prefetching packaged assets');

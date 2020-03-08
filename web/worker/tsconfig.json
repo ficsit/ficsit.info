@@ -6,19 +6,14 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "importHelpers": true,
-    "jsx": "preserve",
-    "lib": ["es2020", "dom"],
+    "lib": ["es2020", "webworker"],
     "module": "commonjs",
     "newLine": "lf",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "paths": {
-      "~/*": ["./web/*"]
-    },
     "resolveJsonModule": true,
     "strict": true
-  },
-  "exclude": ["./web/worker"]
+  }
 }

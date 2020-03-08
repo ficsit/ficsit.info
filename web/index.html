@@ -1,66 +1,86 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <title>FicsIt Employee Portal</title>
+    <meta
+      name="description"
+      content="Intranet portal for FicsIt employees (an unofficial Satisfactory fansite)"
+    />
 
-<head>
-  <title>FicsIt Employee Portal</title>
-  <meta name="description" content="Intranet portal for FicsIt employees (an unofficial Satisfactory fansite)">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="manifest" href="./site.webmanifest" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/site-icons/maskable-180.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/site-icons/icon-32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/site-icons/icon-16.png"
+    />
+    <link
+      rel="mask-icon"
+      href="./assets/site-icons/silhouette.svg"
+      color="#f69e2c"
+    />
+    <meta name="apple-mobile-web-app-title" content="FicsIt" />
+    <meta name="application-name" content="FicsIt" />
+    <meta name="msapplication-TileColor" content="#f69e2c" />
+    <meta name="theme-color" content="#f69e2c" />
+  </head>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="manifest" href="./site.webmanifest">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/site-icons/maskable-180.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/site-icons/icon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./assets/site-icons/icon-16.png">
-  <link rel="mask-icon" href="./assets/site-icons/silhouette.svg" color="#f69e2c">
-  <meta name="apple-mobile-web-app-title" content="FicsIt">
-  <meta name="application-name" content="FicsIt">
-  <meta name="msapplication-TileColor" content="#f69e2c">
-  <meta name="theme-color" content="#f69e2c">
-</head>
+  <body>
+    <div id="react-root"></div>
+    <script src="./index.tsx"></script>
+    <div id="initialization-error">
+      <style>
+        #initialization-error {
+          position: absolute;
+          left: 0;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          background-color: #f69e2c;
+          color: #212837;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica,
+            Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          text-align: center;
+        }
 
-<body>
-  <div id="react-root"></div>
-  <script src="./index.tsx"></script>
-  <div id="initialization-error">
-    <style>
-      #initialization-error {
-        position: absolute;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #f69e2c;
-        color: #212837;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
+        #initialization-error header {
+          font-weight: 600;
+          font-size: 2em;
+          padding: 1em;
+        }
+
+        #initialization-error p {
+          margin: 0;
+          padding: 0.5em;
+        }
+      </style>
+      <header>Steve broke the site again.</header>
+      <p>He is currently receiving disciplinary action.</p>
+      <p>Please check back later.</p>
+    </div>
+
+    <script>
+      if (process.env.SERVICE_WORKER_ENABLED && 'serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./worker/main.ts');
+        });
       }
-
-      #initialization-error header {
-        font-weight: 600;
-        font-size: 2em;
-        padding: 1em;
-      }
-
-      #initialization-error p {
-        margin: 0;
-        padding: 0.5em;
-      }
-    </style>
-    <header>Steve broke the site again.</header>
-    <p>He is currently receiving disciplinary action.</p>
-    <p>Please check back later.</p>
-  </div>
-
-  <script>
-    if (process.env.SERVICE_WORKER_ENABLED && 'serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('./siteWorker.ts');
-      });
-    }
     </script>
-</body>
-
+  </body>
 </html>

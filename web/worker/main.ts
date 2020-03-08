@@ -1,11 +1,8 @@
 declare var self: ServiceWorkerGlobalScope & typeof globalThis;
 
-import {
-  buildRouter,
-  log,
-  prefetchData,
-  prefetchPackagedAssets,
-} from './worker';
+import * as log from './log';
+import { prefetchData, prefetchPackagedAssets } from './prefetch';
+import { buildRouter } from './routes';
 
 const router = buildRouter();
 
