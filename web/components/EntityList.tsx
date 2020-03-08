@@ -1,4 +1,3 @@
-import { NavLink } from 'react-router-dom';
 import { EntityKind, AnyEntity } from '@local/schema';
 import { css } from '@emotion/core';
 import { useMemo, useState, useEffect } from 'react';
@@ -10,12 +9,10 @@ import {
   NodeId,
 } from 'react-virtualized-sticky-tree';
 
-import { colors, sizing } from '~/style';
-import { entityUrl } from '~/routing';
+import { colors } from '~/style';
 import { useEntitiesByKind } from '~/data';
 
-import { HighlightedText } from './HighlightedText';
-import { EntityImage } from './EntityImage';
+import { EntityListItem } from './EntityListItem';
 
 type EntityTree = Map<string, Map<string, AnyEntity[]>>;
 
@@ -41,8 +38,6 @@ type AnyNode = RootNode | CategoryNode | SubCategoryNode | EntityNode;
 
 const categoryHeight = 20;
 const subCategoryHeight = 16;
-const entityHeight = 60;
-const rowIconSize = entityHeight * 0.8;
 
 const rootStyles = css({
   display: 'flex',
@@ -84,41 +79,14 @@ const subCategoryTitleStyles = css({
   zIndex: 9,
 });
 
-const entityStyles = css({
-  display: 'flex',
-  alignItems: 'center',
-  padding: `${(entityHeight - rowIconSize) / 2}px 8px`,
-  color: 'inherit',
-  textDecoration: 'none',
-  picture: {
-    marginRight: 8,
-  },
-  ':hover, &.active': {
-    color: colors.Light.N0,
-    picture: {
-      filter: `
-        drop-shadow( 2px 0   1px ${colors.Light.N0})
-        drop-shadow(-2px 0   1px ${colors.Light.N0})
-        drop-shadow( 0   2px 1px ${colors.Light.N0})
-        drop-shadow( 0  -2px 1px ${colors.Light.N0})
-      `,
-      // filter: 'drop-shadow(0 0 3px rgba(255, 255, 255, 0.65))',
-    },
-  },
-  ':hover': {
-    backgroundColor: `${colors.Primary.N500}aa`,
-  },
-  '&.active': {
-    backgroundColor: colors.Primary.N500,
-  },
-});
-
 export interface EntityListProps {
   kind: EntityKind;
   selected?: string;
   onChange?: (newSelected: string) => void;
   autoFocus?: boolean;
   depth?: number;
+  className?: string;
+  rowHeight?: 40 | 60;
 }
 
 export function EntityList({
@@ -126,13 +94,16 @@ export function EntityList({
   selected,
   onChange,
   autoFocus,
-  depth = 2,
+  depth = kind === EntityKind.Item ? 1 : 2,
+  rowHeight = 60,
+  className,
 }: EntityListProps) {
   const [filter, setFilter] = useState('');
   const [scrolled, setScrolled] = useState(false);
   const entities = useEntitiesByKind(kind);
-  const fullTree = useMemo(() => _dataSource(depth, entities), [
+  const fullTree = useMemo(() => _dataSource(depth, rowHeight, entities), [
     depth,
+    rowHeight,
     entities,
   ]);
   const selectedId = useMemo(() => _findId(fullTree, selected), [
@@ -156,6 +127,7 @@ export function EntityList({
 
   return (
     <div
+      className={className}
       css={rootStyles}
       onClick={() => {
         // Give a brief delay before focusing in case we're navigating on
@@ -218,7 +190,9 @@ export function EntityList({
         root={tree}
         isModelImmutable={true}
         getChildren={(_id, parent: AnyNode) => (parent as any).childNodes}
-        rowRenderer={nodeInfo => _renderNode(nodeInfo, filter)}
+        rowRenderer={nodeInfo =>
+          _renderNode(nodeInfo, filter, rowHeight, selected, onChange)
+        }
         renderRoot={false}
         overscanRowCount={5}
       />
@@ -229,6 +203,9 @@ export function EntityList({
 function _renderNode(
   { id, style, nodeInfo }: RowInfo<AnyNode>,
   filter: string,
+  rowHeight: 40 | 60,
+  selected?: string,
+  onChange?: (newSelected: string) => void,
 ) {
   if (nodeInfo.kind === 'category') {
     return (
@@ -244,21 +221,28 @@ function _renderNode(
     );
   } else if (nodeInfo.kind === 'entity') {
     return (
-      <NavLink
+      <EntityListItem
+        active={selected === nodeInfo.entity.slug}
         key={id}
-        css={entityStyles}
+        entity={nodeInfo.entity}
         style={style}
-        to={entityUrl(nodeInfo.entity)}>
-        <EntityImage entity={nodeInfo.entity} size={sizing.navListIconSize} />
-        <HighlightedText text={nodeInfo.entity.name} search={filter} />
-      </NavLink>
+        height={rowHeight}
+        filter={filter}
+        onClick={() => {
+          onChange?.(nodeInfo.entity.slug);
+        }}
+      />
     );
   } else {
     throw new Error(`Unsupported ${nodeInfo.kind} node`);
   }
 }
 
-function _dataSource(depth: number, entities?: Record<string, AnyEntity>) {
+function _dataSource(
+  depth: number,
+  rowHeight: number,
+  entities?: Record<string, AnyEntity>,
+) {
   if (!entities) return;
 
   const tree = _entityTree(entities);
@@ -299,7 +283,7 @@ function _dataSource(depth: number, entities?: Record<string, AnyEntity>) {
         const entityNode: EntityNode = {
           kind: 'entity',
           id: id++,
-          height: entityHeight,
+          height: rowHeight,
           entity,
         };
 

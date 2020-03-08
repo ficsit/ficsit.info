@@ -7,6 +7,7 @@ import { useRecipes, useEntities } from '~/data';
 import { solveFor } from './solve';
 import { useMemo, useState } from 'react';
 import { RecipeResults } from './RecipeResults';
+import { TargetsChooser } from './TargetsChooser';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,
@@ -43,9 +44,7 @@ export function SolverPage() {
             </span>
           </span>
         }>
-        <div>
-          <h3>Production Targets</h3>
-        </div>
+        <TargetsChooser />
       </Section>
       {!!result && (
         <React.Fragment>

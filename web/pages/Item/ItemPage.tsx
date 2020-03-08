@@ -33,7 +33,6 @@ export function ItemPage() {
       master={
         <EntityList
           autoFocus
-          depth={1}
           kind={EntityKind.Item}
           selected={slug}
           onChange={slug => navigate(itemUrl(slug))}
