@@ -45,7 +45,9 @@
     "fuel": {
       "energy": 250
     },
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],
@@ -61,7 +63,9 @@
     "fuel": {
       "energy": 250
     },
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],
@@ -169,7 +173,9 @@
     "form": "solid",
     "icon": "7IkekZcEqQoeCIEUqgu8OY7fV0aZIJq0qi8cqAYcCyQS",
     "stackSize": 50,
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],
@@ -231,7 +237,9 @@
     "description": "Slot: Hands\nConsumable\n\nCan be eaten to restore half a health segment.",
     "form": "solid",
     "stackSize": 100,
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],
@@ -1095,7 +1103,9 @@
     "fuel": {
       "energy": 100
     },
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],
@@ -1297,7 +1307,9 @@
     "form": "solid",
     "icon": "7FTqy4RtlYYcCwGQiEc4my469rwnX1GU4UkGe6AIMAsK",
     "stackSize": 50,
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],
@@ -1384,7 +1396,9 @@
     "form": "solid",
     "icon": "2cS7QbXC7mKiS8mKck66uW4aom0uidZS0G8YQwyWGQmo",
     "stackSize": 1,
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],
@@ -1728,7 +1742,9 @@
     "fuel": {
       "energy": 15
     },
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],
@@ -1838,6 +1854,21 @@
       "amount": 5,
       "exponent": 1.6
     },
+    "extraction": {
+      "cycleTime": 1,
+      "itemsPerCycle": 1,
+      "resources": [
+        "coal",
+        "limestone",
+        "iron-ore",
+        "bauxite",
+        "copper-ore",
+        "caterium-ore",
+        "raw-quartz",
+        "sulfur",
+        "uranium"
+      ]
+    },
     "slug": "miner-mk1"
   },
   "miner-mk2": {
@@ -1855,6 +1886,21 @@
       "amount": 12,
       "exponent": 1.6
     },
+    "extraction": {
+      "cycleTime": 0.5,
+      "itemsPerCycle": 1,
+      "resources": [
+        "coal",
+        "limestone",
+        "iron-ore",
+        "bauxite",
+        "copper-ore",
+        "caterium-ore",
+        "raw-quartz",
+        "sulfur",
+        "uranium"
+      ]
+    },
     "slug": "miner-mk2"
   },
   "miner-mk3": {
@@ -1871,6 +1917,21 @@
     "powerConsumption": {
       "amount": 30,
       "exponent": 1.6
+    },
+    "extraction": {
+      "cycleTime": 0.25,
+      "itemsPerCycle": 1,
+      "resources": [
+        "coal",
+        "limestone",
+        "iron-ore",
+        "bauxite",
+        "copper-ore",
+        "caterium-ore",
+        "raw-quartz",
+        "sulfur",
+        "uranium"
+      ]
     },
     "slug": "miner-mk3"
   },
@@ -1920,7 +1981,9 @@
     "fuel": {
       "energy": 20
     },
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],
@@ -2023,6 +2086,13 @@
     "powerConsumption": {
       "amount": 40,
       "exponent": 1.6
+    },
+    "extraction": {
+      "cycleTime": 1,
+      "itemsPerCycle": 2000,
+      "resources": [
+        "crude-oil"
+      ]
     },
     "slug": "oil-extractor"
   },
@@ -2132,7 +2202,9 @@
     "form": "solid",
     "icon": "6APXAIsXyoege6GOQcm60Y4ZY4Kny1VSauu0uwouYyOQ",
     "stackSize": 50,
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],
@@ -2417,7 +2489,9 @@
     "form": "solid",
     "icon": "8VX2fNxj1ecoaQ4sOEmGIdkSKBIP9wOIEoAwOAoIKs",
     "stackSize": 50,
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],
@@ -3376,6 +3450,13 @@
       "amount": 20,
       "exponent": 1.6
     },
+    "extraction": {
+      "cycleTime": 1,
+      "itemsPerCycle": 2000,
+      "resources": [
+        "water"
+      ]
+    },
     "slug": "water-extractor"
   },
   "window-8m-x-4m-03": {
@@ -3412,7 +3493,9 @@
     "fuel": {
       "energy": 100
     },
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],
@@ -3457,7 +3540,9 @@
     "form": "solid",
     "icon": "5JN4VvmzrGYOmOmg8sSWqm4r4xg8ijMQA40SgwUgOgiK",
     "stackSize": 50,
-    "resource": {},
+    "resource": {
+      "gatherable": true
+    },
     "categories": [
       "Gathered"
     ],

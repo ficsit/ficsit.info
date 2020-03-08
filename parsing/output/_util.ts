@@ -3,13 +3,18 @@ import { ItemAmount, Reference } from '@local/game';
 
 import { EntityDatabase, OutputDatabase, SlugReferenceString } from '../state';
 
-export function enumMapper<TValues>(description: string, mapping: Record<any, TValues>) {
+export function enumMapper<TValues>(
+  description: string,
+  mapping: Record<any, TValues>,
+) {
   return function mapEnum(sourceValue: any) {
     if (!(sourceValue in mapping)) {
-      throw new Error(`Unable to convert ${description}. Unknown source value: ${sourceValue}`);
+      throw new Error(
+        `Unable to convert ${description}. Unknown source value: ${sourceValue}`,
+      );
     }
     return mapping[sourceValue];
-  }
+  };
 }
 
 export const mapItemForm = enumMapper('ItemForm', {
@@ -40,11 +45,23 @@ export const mapSchematicKind = enumMapper('SchematicKind', {
   EST_HardDrive: SchematicKind.HardDrive,
   EST_Milestone: SchematicKind.Milestone,
   EST_ResourceSink: SchematicKind.ResourceSink,
-})
+});
 
-export function expandReferences(outputDb: OutputDatabase, entityDb: EntityDatabase, references: (Reference | undefined)[]): SlugReferenceString[]
-export function expandReferences(outputDb: OutputDatabase, entityDb: EntityDatabase, references?: (Reference | undefined)[]): undefined | SlugReferenceString[]
-export function expandReferences(outputDb: OutputDatabase, entityDb: EntityDatabase, references?: (Reference | undefined)[]) {
+export function expandReferences(
+  outputDb: OutputDatabase,
+  entityDb: EntityDatabase,
+  references: (Reference | undefined)[],
+): SlugReferenceString[];
+export function expandReferences(
+  outputDb: OutputDatabase,
+  entityDb: EntityDatabase,
+  references?: (Reference | undefined)[],
+): undefined | SlugReferenceString[];
+export function expandReferences(
+  outputDb: OutputDatabase,
+  entityDb: EntityDatabase,
+  references?: (Reference | undefined)[],
+) {
   if (!references) return;
 
   const classNames = new Set<string>();
@@ -58,16 +75,41 @@ export function expandReferences(outputDb: OutputDatabase, entityDb: EntityDatab
         classNames.add(entity.ClassName);
       }
     } else {
-      classNames.add(reference.path)
+      classNames.add(reference.path);
     }
   }
 
   return Array.from(classNames.values()).map(c => outputDb.slugOrDie(c));
 }
 
-export function mapItemAmount(outputDb: OutputDatabase, itemAmount: ItemAmount) {
+export function mapItemAmount(
+  outputDb: OutputDatabase,
+  itemAmount: ItemAmount,
+) {
   return {
     item: outputDb.slugOrDie(itemAmount.ItemClass!.path),
     count: itemAmount.Amount,
+  };
+}
+
+export function itemsExtractedBy(
+  { entity }: EntityDatabase.Info<'FGBuildableResourceExtractor'>,
+  entityDb: EntityDatabase,
+) {
+  const items = [];
+  for (const resource of entity.mAllowedResources) {
+    if (!resource) continue;
+    items.push(resource.className);
   }
+
+  for (const pair of entity.mParticleMap || []) {
+    const resourceRef = pair.ResourceNode_16_2100B5C34EE8DF7958D78A974512F3C3;
+    if (!resourceRef?.className) continue;
+    const resource = entityDb.get<'FGItemDescriptor'>(resourceRef?.className);
+    if (!resource) continue;
+    if (!entity.mAllowedResourceForms.includes(resource.entity.mForm)) continue;
+    items.push(resource.entity.ClassName);
+  }
+
+  return items;
 }

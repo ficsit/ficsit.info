@@ -52,6 +52,11 @@ export function SolverPage() {
           <Section title='Optimized Recipe Use'>
             <RecipeResults result={result} />
           </Section>
+          <Section title='Data'>
+            <pre style={{ fontSize: 10 }}>
+              {JSON.stringify(result, null, 2)}
+            </pre>
+          </Section>
         </React.Fragment>
       )}
     </article>

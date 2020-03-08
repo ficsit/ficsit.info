@@ -33,6 +33,11 @@ export interface Building extends Entity {
   // Specific building type details.
 
   /**
+   * Details about how a building can extract raw resources.
+   */
+  extraction?: BuildingResourceExtraction;
+
+  /**
    * Dimensions of the storage provided by a building.
    */
   storage?: BuildingStorageDetails;
@@ -64,6 +69,15 @@ export interface BuildingPowerProduction {
 }
 
 // Specific building type details.
+
+/**
+ * The rate at which a building can extract resources.
+ */
+export interface BuildingResourceExtraction {
+  cycleTime: number;
+  itemsPerCycle: number;
+  resources: Slug[];
+}
 
 /**
  * Dimensions of a storage container.

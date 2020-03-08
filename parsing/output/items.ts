@@ -8,12 +8,16 @@ import {
   WithoutSlug,
 } from '../state';
 
-import { mapItemForm, mapEquipmentSlot, mapStackSize } from './_util';
+import {
+  mapItemForm,
+  mapEquipmentSlot,
+  mapStackSize,
+  itemsExtractedBy,
+} from './_util';
 import { isResourceSource } from './recipes';
 
 type BuiltItem = WithoutSlug<Item>;
 type RawInfo = EntityDatabase.Info<'FGItemDescriptor'>;
-type RawExtractor = EntityDatabase.Info<'FGBuildableResourceExtractor'>;
 
 export async function fillItems(
   outputDb: OutputDatabase,
@@ -28,7 +32,7 @@ export async function fillItems(
   }
 
   for (const raw of entityDb.findByClass('FGBuildableResourceExtractor')) {
-    const items = _itemsExtractedBy(raw, entityDb);
+    const items = itemsExtractedBy(raw, entityDb);
     const extractorSlug = outputDb.slugOrDie(raw.entity.ClassName);
     for (const className of items) {
       const item = outputDb.getOrDie<Item>(className);
@@ -130,25 +134,6 @@ async function _buildItem(
   }
 
   return item;
-}
-
-function _itemsExtractedBy({ entity }: RawExtractor, entityDb: EntityDatabase) {
-  const items = [];
-  for (const resource of entity.mAllowedResources) {
-    if (!resource) continue;
-    items.push(resource.className);
-  }
-
-  for (const pair of entity.mParticleMap || []) {
-    const resourceRef = pair.ResourceNode_16_2100B5C34EE8DF7958D78A974512F3C3;
-    if (!resourceRef?.className) continue;
-    const resource = entityDb.get<'FGItemDescriptor'>(resourceRef?.className);
-    if (!resource) continue;
-    if (!entity.mAllowedResourceForms.includes(resource.entity.mForm)) continue;
-    items.push(resource.entity.ClassName);
-  }
-
-  return items;
 }
 
 function _toColor(color: game.Color) {
