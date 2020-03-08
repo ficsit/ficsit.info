@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 import { colors, sizing } from '~/style';
 import { recipeUrl } from '~/routing';
 import { ItemCount } from '~/components/ItemCount';
-import { Rate, RateUnit } from './Rate';
+import { Rate } from './Rate';
 import { useEntities } from '~/data';
 
 const contentStyles = css({
@@ -45,7 +45,6 @@ const arrowStyles = css({
   gridColumn: 'arrow',
   alignItems: 'center',
   fontSize: 24,
-  height: 56,
   color: colors.Light.N400,
   paddingLeft: 3,
 });
@@ -53,6 +52,14 @@ const arrowStyles = css({
 const productsStyles = css({
   display: 'flex',
   gridColumn: 'products',
+});
+
+const beforeStyles = css({
+  gridColumn: 'before',
+});
+
+const afterStyles = css({
+  gridColumn: 'after',
 });
 
 const entityStyles = css({
@@ -66,7 +73,9 @@ const entityStyles = css({
 
 export interface RecipeTableProps {
   recipes: Recipe[];
-  renderTitle?: (recipe: Recipe) => string | undefined;
+  renderTitle?: (recipe: Recipe) => React.ReactNode;
+  renderBefore?: (recipe: Recipe) => React.ReactNode;
+  renderAfter?: (recipe: Recipe) => React.ReactNode;
   showCounts?: boolean;
   showRates?: boolean | ((recipe: Recipe) => number);
   size?: number;
@@ -99,6 +108,9 @@ function _renderRecipe(
           {title}
         </NavLink>
       )}
+      {!!props.renderBefore && (
+        <div css={beforeStyles}>{props.renderBefore(recipe)}</div>
+      )}
       <div css={ingredientsStyles}>
         {recipe.ingredients.map(i =>
           _renderEntity(recipe, entities[i.item], i, props),
@@ -110,6 +122,9 @@ function _renderRecipe(
       <div css={productsStyles}>
         {recipe.products.map(i =>
           _renderEntity(recipe, entities[i.item], i, props),
+        )}
+        {!!props.renderAfter && (
+          <div css={afterStyles}>{props.renderAfter(recipe)}</div>
         )}
       </div>
     </React.Fragment>
@@ -135,11 +150,7 @@ function _renderEntity(
     <div key={item} css={entityStyles}>
       <ItemCount slug={item} count={showCounts && count} size={size} />
       {!!showRates && (
-        <Rate
-          unit={RateUnit.Minutes}
-          rate={{ count, duration, multiple }}
-          isLiquid={isLiquid}
-        />
+        <Rate rate={{ count, duration, multiple }} isLiquid={isLiquid} />
       )}
     </div>
   );

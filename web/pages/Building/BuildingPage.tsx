@@ -20,14 +20,15 @@ export function BuildingPage() {
   const navigate = useNavigate();
 
   return (
-    <MasterDetailLayout 
-    master={
-      <EntityList 
-        kind={EntityKind.Building} 
-        selected={slug} 
-        onChange={slug => navigate(buildingUrl(slug))} 
-      />
-    }
+    <MasterDetailLayout
+      master={
+        <EntityList
+          autoFocus
+          kind={EntityKind.Building}
+          selected={slug}
+          onChange={slug => navigate(buildingUrl(slug))}
+        />
+      }
       detail={!!building && <_Detail building={building} />}
     />
   );
@@ -39,14 +40,15 @@ function _Detail({ building }: { building: Building }) {
 
   if (building.overclockable) {
     const overclockPercent = Math.round(clockSpeed * 100);
-    statistics[`Overclock (${overclockPercent}%)`] = 
-      <input 
-        type='range' 
-        min={1} 
-        max={250} 
-        value={clockSpeed * 100} 
+    statistics[`Overclock (${overclockPercent}%)`] = (
+      <input
+        type='range'
+        min={1}
+        max={250}
+        value={clockSpeed * 100}
         onChange={({ target }) => setClockSpeed(parseInt(target.value) / 100)}
-      />;
+      />
+    );
   } else {
     // Make sure that we don't display weird values if not overclockable.
     clockSpeed = 1.0;
@@ -54,14 +56,14 @@ function _Detail({ building }: { building: Building }) {
 
   if (building.powerConsumption) {
     const { amount, exponent } = building.powerConsumption;
-    const consumption = (amount * Math.pow(clockSpeed, exponent));
+    const consumption = amount * Math.pow(clockSpeed, exponent);
     // TODO: better unit handling (per item, per …).
     statistics[`Power Consumption`] = `${consumption.toFixed(1)} MW`;
   }
 
   if (building.powerProduction) {
     const { amount, exponent } = building.powerProduction;
-    const production = (amount * Math.pow(clockSpeed, exponent));
+    const production = amount * Math.pow(clockSpeed, exponent);
     // TODO: better unit handling (per item, per …).
     statistics[`Power Production`] = `${production.toFixed(1)} MW`;
   }
@@ -79,7 +81,11 @@ function _Detail({ building }: { building: Building }) {
 
   return (
     <article css={rootStyles}>
-      <EntitySummary entity={building} imageSize={256} statistics={statistics} />
+      <EntitySummary
+        entity={building}
+        imageSize={256}
+        statistics={statistics}
+      />
     </article>
   );
 }

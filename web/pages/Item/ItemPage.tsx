@@ -29,12 +29,13 @@ export function ItemPage() {
   const navigate = useNavigate();
 
   return (
-    <MasterDetailLayout 
+    <MasterDetailLayout
       master={
-        <EntityList 
-          kind={EntityKind.Item} 
-          selected={slug} 
-          onChange={slug => navigate(itemUrl(slug))} 
+        <EntityList
+          autoFocus
+          kind={EntityKind.Item}
+          selected={slug}
+          onChange={slug => navigate(itemUrl(slug))}
         />
       }
       detail={!!item && <_Detail item={item} />}
@@ -44,7 +45,7 @@ export function ItemPage() {
 
 function _Detail({ item }: { item: Item }) {
   const statistics = {} as Record<string, React.ReactNode>;
-  
+
   if (item.raw) {
     statistics[`Source`] = `extracted`;
   }
@@ -73,11 +74,11 @@ function _Detail({ item }: { item: Item }) {
 
   return (
     <article css={rootStyles}>
-      <EntitySummary entity={item} imageSize={128} statistics={statistics}/>
+      <EntitySummary entity={item} imageSize={128} statistics={statistics} />
       <div css={detailsStyles}>
         <ItemRecipes item={item} />
         <ItemUses item={item} />
       </div>
     </article>
-  )
+  );
 }

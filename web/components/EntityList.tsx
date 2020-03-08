@@ -115,9 +115,15 @@ export interface EntityListProps {
   kind: EntityKind;
   selected?: string;
   onChange?: (newSelected: string) => void;
+  autoFocus?: boolean;
 }
 
-export function EntityList({ kind, selected, onChange }: EntityListProps) {
+export function EntityList({
+  kind,
+  selected,
+  onChange,
+  autoFocus,
+}: EntityListProps) {
   const [filter, setFilter] = useState('');
   const [scrolled, setScrolled] = useState(false);
   const entities = useEntitiesByKind(kind);
@@ -154,6 +160,7 @@ export function EntityList({ kind, selected, onChange }: EntityListProps) {
       }}>
       <input
         ref={inputRef}
+        autoFocus={autoFocus}
         type='text'
         placeholder='Search…'
         value={filter}
@@ -168,17 +175,27 @@ export function EntityList({ kind, selected, onChange }: EntityListProps) {
             return;
           }
           const { current } = treeRef;
-          if (!current || typeof selectedId === 'undefined') return;
+          if (!current) return;
 
           let newNodeIndex;
           if (event.key === 'ArrowDown') {
-            newNodeIndex = _findAdjacentEntityIndex(
-              current,
-              selectedId,
-              'down',
-            );
+            if (selectedId) {
+              newNodeIndex = _findAdjacentEntityIndex(
+                current,
+                selectedId,
+                'down',
+              );
+            } else {
+              newNodeIndex = current.nodes.findIndex(n => n.kind === 'entity');
+            }
           } else if (event.key === 'ArrowUp') {
-            newNodeIndex = _findAdjacentEntityIndex(current, selectedId, 'up');
+            if (selectedId) {
+              newNodeIndex = _findAdjacentEntityIndex(
+                current,
+                selectedId,
+                'up',
+              );
+            }
           }
 
           if (!newNodeIndex) return;

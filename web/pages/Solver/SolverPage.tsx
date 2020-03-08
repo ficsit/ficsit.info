@@ -49,7 +49,7 @@ export function SolverPage() {
       </Section>
       {!!result && (
         <React.Fragment>
-          <Section title='Optimized Production Line'>
+          <Section title='Optimized Recipe Use'>
             <RecipeResults result={result} />
           </Section>
           <Section title='Raw Data'>

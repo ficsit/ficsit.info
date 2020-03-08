@@ -40,8 +40,6 @@ const statsStyles = css({
   display: 'flex',
   flex: 1,
   alignItems: 'center',
-  // borderTop: `1px solid ${colors.Light.N400}`,
-  // paddingTop: sizing.Padding.Medium,
 });
 
 export interface RecipeManualDetailsProps {
@@ -57,19 +55,21 @@ export function RecipeManualDetails({ recipe }: RecipeManualDetailsProps) {
     <div css={rootStyles}>
       <h3 css={titleStyles}>Handcrafted In:</h3>
       <div css={buildingStyles}>
-        {recipe.handcraftedIn.map(slug =>
+        {recipe.handcraftedIn.map(slug => (
           <EntityReference key={slug} slug={slug} />
-        )}
+        ))}
       </div>
       <div css={statsContainerStyles}>
         <div css={statsStyles}>
           <CraftingIcon css={iconStyles} />
           <div>{clicks}</div>
         </div>
-        {recipe.products.map((itemAmount) => _renderProductsPerMinute(clicks, itemAmount))}
+        {recipe.products.map(itemAmount =>
+          _renderProductsPerMinute(clicks, itemAmount),
+        )}
       </div>
     </div>
-  )
+  );
 }
 
 function _renderProductsPerMinute(clicks: number, { item, count }: ItemAmount) {
@@ -78,7 +78,10 @@ function _renderProductsPerMinute(clicks: number, { item, count }: ItemAmount) {
   return (
     <div key={item}>
       <EntityReference slug={item} size={24} />
-      <div>{productPerMinute.toFixed(1)} /<br />min</div>
+      <div>
+        {productPerMinute.toFixed(1)} /<br />
+        min
+      </div>
     </div>
   );
 }
