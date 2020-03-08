@@ -9,10 +9,13 @@ import {
 } from 'kiwi.js';
 
 export interface SolverOptions {
-  targets: ItemRate[];
-  constraints?: SolverConstraint[];
   optimizeResiduals?: boolean;
   includeAlternateRecipes?: boolean;
+}
+
+export interface SolverConfiguration extends SolverOptions {
+  targets: ItemRate[];
+  constraints?: SolverConstraint[];
 }
 
 export const enum SolverConstraintSubjectKind {
@@ -47,11 +50,11 @@ export interface ItemRate {
 export function solveFor(
   recipes?: Record<string, Recipe>,
   entities?: Record<string, AnyEntity>,
-  options?: SolverOptions,
+  config?: SolverConfiguration,
 ): SolverResult | undefined {
-  if (!recipes || !entities || !options) return;
+  if (!recipes || !entities || !config) return;
 
-  const context = new SolverContext(recipes, entities, options);
+  const context = new SolverContext(recipes, entities, config);
 
   _addResources(context);
   _addRecipes(context);
@@ -60,7 +63,7 @@ export function solveFor(
 
   context.solver.updateVariables();
 
-  if (options?.optimizeResiduals) {
+  if (config?.optimizeResiduals) {
     _optimizeResiduals(context);
   }
 
@@ -93,7 +96,7 @@ function _addRecipes(context: SolverContext) {
 
     // When we're trying to optimize away residuals, we bias towards recipes
     // that have a target product, by minimizing recipes that don't.
-    if (context.options.optimizeResiduals) {
+    if (context.config.optimizeResiduals) {
       const hasTargetProduct = products.some(({ item }) =>
         context.targets.has(item),
       );
@@ -133,7 +136,7 @@ function _addExpressions(context: SolverContext) {
 }
 
 function _addConstraints(context: SolverContext) {
-  const { constraints } = context.options;
+  const { constraints } = context.config;
   if (!constraints) return;
 
   for (const constraint of constraints) {
@@ -230,16 +233,16 @@ export class SolverContext {
   constructor(
     private _recipesBySlug: Record<string, Recipe>,
     private _entitiesBySlug: Record<string, AnyEntity>,
-    public options: SolverOptions,
+    public config: SolverConfiguration,
   ) {}
 
   public solver = new Solver();
   public targets = new Map(
-    this.options.targets.map(({ slug, perMinute: perMin }) => [slug, perMin]),
+    this.config.targets.map(({ slug, perMinute: perMin }) => [slug, perMin]),
   );
   public recipes = Object.values(this._recipesBySlug).filter(recipe => {
     if (!recipe.producedIn.length) return false;
-    if (!this.options.includeAlternateRecipes && recipe.alternate) return false;
+    if (!this.config.includeAlternateRecipes && recipe.alternate) return false;
     return true;
   });
   public resources = Object.values(this._entitiesBySlug).filter(

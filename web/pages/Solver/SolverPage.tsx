@@ -4,13 +4,20 @@ import { Section } from '~/components/Section';
 import { sizing, colors } from '~/style';
 import { useRecipes, useEntities } from '~/data';
 
-import { solveFor, SolverResult } from './solve';
+import { solveFor, SolverResult, ItemRate, SolverOptions } from './solve';
 import { useMemo, useState } from 'react';
 import { RecipeResults } from './RecipeResults';
 import { TargetsChooser } from './TargetsChooser';
+import { OptionsChooser } from './OptionsChooser';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,
+});
+
+const chooserStyles = css({
+  display: 'grid',
+  gridTemplateColumns: 'repeat(2, 1fr)',
+  gridGap: sizing.Padding.Normal,
 });
 
 const taglineStyles = css({
@@ -21,19 +28,19 @@ const taglineStyles = css({
 export function SolverPage() {
   const recipes = useRecipes();
   const entities = useEntities();
-  const [targets, setTargets] = useState([]);
+  const [targets, setTargets] = useState<ItemRate[]>([]);
+  const [options, setOptions] = useState<SolverOptions>({
+    optimizeResiduals: true,
+    includeAlternateRecipes: true,
+  });
   const result = useMemo(() => {
     try {
-      return solveFor(recipes, entities, {
-        targets,
-        optimizeResiduals: true,
-        includeAlternateRecipes: true,
-      });
+      return solveFor(recipes, entities, { ...options, targets });
     } catch (error) {
       console.error(`solver error:`, error);
       return { error };
     }
-  }, [recipes, entities, targets]);
+  }, [recipes, entities, options, targets]);
 
   return (
     <article css={rootStyles}>
@@ -47,7 +54,10 @@ export function SolverPage() {
             </span>
           </span>
         }>
-        <TargetsChooser targets={targets} setTargets={setTargets} />
+        <div css={chooserStyles}>
+          <TargetsChooser targets={targets} setTargets={setTargets} />
+          <OptionsChooser options={options} setOptions={setOptions} />
+        </div>
       </Section>
       {_renderResult(result)}
     </article>
