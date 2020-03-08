@@ -21,7 +21,7 @@ const taglineStyles = css({
 export function SolverPage() {
   const recipes = useRecipes();
   const entities = useEntities();
-  const [targets, setTargets] = useState([{ slug: 'plastic', perMinute: 90 }]);
+  const [targets, setTargets] = useState([]);
   const result = useMemo(() => {
     try {
       return solveFor(recipes, entities, {

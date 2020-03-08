@@ -1,10 +1,15 @@
 import { EntityKind } from '@local/schema';
 import { css } from '@emotion/core';
 
+import CancelIcon from '~/assets/images/cancel.svg';
 import { EntityChooser } from '~/components/EntityChooser';
-import { colors } from '~/style';
+import { colors, sizing } from '~/style';
 
 import { ItemRate } from './solve';
+
+const listStyles = css({
+  paddingTop: sizing.Padding.Medium,
+});
 
 const targetStyles = css({
   display: 'flex',
@@ -49,18 +54,39 @@ const unitLabelStyles = css({
   color: colors.Dark.N500,
 });
 
+const cancelStyles = css({
+  display: 'flex',
+  padding: 12,
+  cursor: 'pointer',
+  svg: {
+    height: 16,
+    width: 16,
+    fill: colors.Light.N400,
+  },
+  '&:hover svg': {
+    fill: colors.Primary.N500,
+  },
+});
+
+const cancelIconStyles = css({});
+
 export interface TargetsChooserProps {
   targets: ItemRate[];
   setTargets: (newTargets: ItemRate[]) => void;
 }
 
 export function TargetsChooser(props: TargetsChooserProps) {
+  const numTargets = props.targets.length;
+
   return (
     <div>
       <h3>Production Targets</h3>
-      {props.targets.map((_target, index) => (
-        <_Target key={index} {...props} index={index} />
-      ))}
+      <div css={listStyles}>
+        {props.targets.map((_target, index) => (
+          <_Target key={index} {...props} index={index} />
+        ))}
+        <_Target key={numTargets} {...props} index={numTargets} />
+      </div>
     </div>
   );
 }
@@ -70,11 +96,14 @@ interface _TargetProps extends TargetsChooserProps {
 }
 
 function _Target({ targets, setTargets, index }: _TargetProps) {
-  const { slug, perMinute } = targets[index];
+  const { slug, perMinute } = targets[index] || {};
+
+  const isExisting = index < targets.length;
 
   return (
     <div css={targetStyles}>
       <EntityChooser
+        placeholder='Add New Target…'
         kind={EntityKind.Item}
         slug={slug}
         setSlug={newSlug => {
@@ -83,23 +112,39 @@ function _Target({ targets, setTargets, index }: _TargetProps) {
           setTargets(newTargets);
         }}
       />
-      <div css={inputContainerStyles}>
-        <input
-          css={countStyles}
-          value={perMinute || ''}
-          type='text'
-          pattern='\d*'
-          onChange={event => {
-            const newTargets = [...targets];
-            newTargets[index] = {
-              ...targets[index],
-              perMinute: parseInt(event.target.value, 10) || 0,
-            };
-            setTargets(newTargets);
-          }}
-        />
-        <div css={unitLabelStyles}> / min</div>
-      </div>
+      {isExisting && (
+        <div css={inputContainerStyles}>
+          <input
+            css={countStyles}
+            value={perMinute || ''}
+            type='text'
+            pattern='\d*'
+            onChange={event => {
+              const newTargets = [...targets];
+              newTargets[index] = {
+                ...targets[index],
+                perMinute: parseInt(event.target.value, 10) || 0,
+              };
+              setTargets(newTargets);
+            }}
+          />
+          <div css={unitLabelStyles}> / min</div>
+        </div>
+      )}
+      {isExisting && (
+        <div
+          css={cancelStyles}
+          onClick={() => {
+            console.log(
+              'removing target:',
+              index,
+              targets.filter((_t, i) => i === index),
+            );
+            setTargets(targets.filter((_t, i) => i !== index));
+          }}>
+          <CancelIcon css={cancelIconStyles} />
+        </div>
+      )}
     </div>
   );
 }

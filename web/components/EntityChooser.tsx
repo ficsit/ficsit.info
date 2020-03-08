@@ -36,6 +36,7 @@ const entityListStyles = css({
 
 const selectedEntityStyles = css({
   display: 'flex',
+  alignItems: 'center',
   height: rowHeight,
   border: `2px solid ${colors.Light.N400}`,
   backgroundColor: colors.Light.N100,
@@ -45,25 +46,43 @@ const selectedEntityStyles = css({
   },
 });
 
+const placeholderStyles = css({
+  cursor: 'pointer',
+  padding: `0 ${sizing.Padding.Medium}px`,
+});
+
 export interface EntityChooserProps {
   kind: EntityKind;
   slug?: string;
   setSlug: (newSlug: string) => void;
+  placeholder?: string;
 }
 
-export function EntityChooser({ kind, slug, setSlug }: EntityChooserProps) {
+export function EntityChooser({
+  kind,
+  slug,
+  setSlug,
+  placeholder,
+}: EntityChooserProps) {
   const [editing, setEditing] = useState(false);
   const entity = useEntity(slug);
+
+  const ref = React.createRef<HTMLDivElement>();
 
   if (editing) {
     return (
       <div
+        ref={ref}
         css={rootStyles}
-        onBlur={() =>
-          requestAnimationFrame(() =>
-            requestAnimationFrame(() => setEditing(false)),
-          )
-        }>
+        onBlur={() => {
+          requestAnimationFrame(() => {
+            requestAnimationFrame(() => {
+              if (ref.current) {
+                setEditing(false);
+              }
+            });
+          });
+        }}>
         <EntityList
           autoFocus
           kind={kind}
@@ -91,8 +110,10 @@ export function EntityChooser({ kind, slug, setSlug }: EntityChooserProps) {
   } else {
     return (
       <div css={rootStyles}>
-        <div css={selectedEntityStyles} onClick={() => setEditing(true)}>
-          Choose One…
+        <div
+          css={[selectedEntityStyles, placeholderStyles]}
+          onClick={() => setEditing(true)}>
+          {placeholder}
         </div>
       </div>
     );
