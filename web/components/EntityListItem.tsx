@@ -19,7 +19,7 @@ const rootStyles = css({
   picture: {
     marginRight: 8,
   },
-  ':hover, &.active': {
+  ':hover, &.active, &.focused': {
     color: colors.Light.N0,
     picture: {
       filter: `
@@ -28,10 +28,9 @@ const rootStyles = css({
         drop-shadow( 0   2px 1px ${colors.Light.N0})
         drop-shadow( 0  -2px 1px ${colors.Light.N0})
       `,
-      // filter: 'drop-shadow(0 0 3px rgba(255, 255, 255, 0.65))',
     },
   },
-  ':hover': {
+  ':hover, &.focused': {
     backgroundColor: `${colors.Primary.N500}aa`,
   },
   '&.active': {
@@ -43,6 +42,7 @@ export interface EntityListItemProps {
   entity: AnyEntity;
   onClick: () => void;
   active?: boolean;
+  focused?: boolean;
   filter?: string;
   height?: 40 | 60;
   style?: React.CSSProperties;
@@ -54,12 +54,16 @@ export function EntityListItem({
   filter,
   onClick,
   active,
+  focused,
   className,
   height = 60,
   ...props
 }: EntityListItemProps) {
   if (active) {
-    className = [className, 'active'].join('');
+    className = [className, 'active'].join(' ');
+  }
+  if (focused) {
+    className = [className, 'focused'].join(' ');
   }
 
   return (

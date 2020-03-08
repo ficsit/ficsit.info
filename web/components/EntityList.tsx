@@ -106,10 +106,12 @@ export function EntityList({
     rowHeight,
     entities,
   ]);
-  const selectedId = useMemo(() => _findId(fullTree, selected), [
+  const [focused, setFocused] = useState(selected);
+  const focusedId = useMemo(() => _findId(fullTree, focused), [
     fullTree,
-    selected,
+    focused,
   ]);
+
   const tree = useMemo(() => _filterTree(fullTree, filter), [fullTree, filter]);
 
   const inputRef = React.createRef<HTMLInputElement>();
@@ -119,7 +121,7 @@ export function EntityList({
     if (scrolled) return;
     const { current } = treeRef;
     if (!current) return;
-    current.scrollNodeIntoView(selectedId!);
+    current.scrollNodeIntoView(focusedId!);
     setScrolled(true);
   });
 
@@ -150,6 +152,10 @@ export function EntityList({
         onKeyDown={event => {
           if (event.key === 'ArrowDown' || event.key === 'ArrowUp') {
             event.preventDefault();
+          } else if (event.key === 'Enter' || event.key === ' ') {
+            if (!focused) return;
+            event.preventDefault();
+            onChange?.(focused);
           } else {
             return;
           }
@@ -158,27 +164,23 @@ export function EntityList({
 
           let newNodeIndex;
           if (event.key === 'ArrowDown') {
-            if (selectedId) {
+            if (focusedId) {
               newNodeIndex = _findAdjacentEntityIndex(
                 current,
-                selectedId,
+                focusedId,
                 'down',
               );
             } else {
               newNodeIndex = current.nodes.findIndex(n => n.kind === 'entity');
             }
           } else if (event.key === 'ArrowUp') {
-            if (selectedId) {
-              newNodeIndex = _findAdjacentEntityIndex(
-                current,
-                selectedId,
-                'up',
-              );
+            if (focusedId) {
+              newNodeIndex = _findAdjacentEntityIndex(current, focusedId, 'up');
             }
           }
 
           if (!newNodeIndex) return;
-          onChange?.((current.nodes[newNodeIndex] as EntityNode).entity.slug);
+          setFocused((current.nodes[newNodeIndex] as EntityNode).entity.slug);
 
           if (current.isIndexVisible(newNodeIndex)) return;
           current.scrollIndexIntoView(newNodeIndex, event.key === 'ArrowUp');
@@ -191,7 +193,15 @@ export function EntityList({
         isModelImmutable={true}
         getChildren={(_id, parent: AnyNode) => (parent as any).childNodes}
         rowRenderer={nodeInfo =>
-          _renderNode(nodeInfo, filter, rowHeight, selected, onChange)
+          _renderNode(
+            nodeInfo,
+            filter,
+            rowHeight,
+            setFocused,
+            onChange,
+            selected,
+            focused,
+          )
         }
         renderRoot={false}
         overscanRowCount={5}
@@ -204,8 +214,10 @@ function _renderNode(
   { id, style, nodeInfo }: RowInfo<AnyNode>,
   filter: string,
   rowHeight: 40 | 60,
-  selected?: string,
+  setFocused: (newFocused: string) => void,
   onChange?: (newSelected: string) => void,
+  selected?: string,
+  focused?: string,
 ) {
   if (nodeInfo.kind === 'category') {
     return (
@@ -223,12 +235,14 @@ function _renderNode(
     return (
       <EntityListItem
         active={selected === nodeInfo.entity.slug}
+        focused={focused === nodeInfo.entity.slug}
         key={id}
         entity={nodeInfo.entity}
         style={style}
         height={rowHeight}
         filter={filter}
         onClick={() => {
+          setFocused(nodeInfo.entity.slug);
           onChange?.(nodeInfo.entity.slug);
         }}
       />
