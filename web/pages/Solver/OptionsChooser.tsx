@@ -8,6 +8,7 @@ const rootStyles = css({
     alignItems: 'center',
     padding: `${sizing.Padding.Medium}px 0`,
     userSelect: 'none',
+    cursor: 'pointer',
     'input[type=checkbox]': {
       marginRight: '0.25em',
     },

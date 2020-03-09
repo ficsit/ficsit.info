@@ -10,17 +10,20 @@ import { Section } from './Section';
 const basePadding = sizing.Padding.Normal;
 const insetAmount = 0.625;
 
-const getHeaderStyles = memoize((imageSize: number) => css({
-  display: 'flex',
-  flexDirection: 'column',
-  justifyContent: 'flex-end',
-  paddingLeft: imageSize + basePadding,
-  minHeight: (imageSize * insetAmount) - basePadding - sizing.sectionPadding * 2,
-  [`@media(max-width: ${sizing.minContentWidth}px)`]: {
-    paddingLeft: 0,
-    minHeight: 'auto',
-  },
-}));
+const getHeaderStyles = memoize((imageSize: number) =>
+  css({
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'flex-end',
+    paddingLeft: imageSize + basePadding,
+    minHeight:
+      imageSize * insetAmount - basePadding - sizing.sectionPadding * 2,
+    [`@media(max-width: ${sizing.minContentWidth}px)`]: {
+      paddingLeft: 0,
+      minHeight: 'auto',
+    },
+  }),
+);
 
 const summaryStyles = css({
   display: 'flex',
@@ -29,16 +32,18 @@ const summaryStyles = css({
   },
 });
 
-const getEntityImageStyles = memoize((imageSize: number) => css({
-  marginTop: -(imageSize * insetAmount),
-  marginRight: basePadding,
-  filter: 'drop-shadow(0 0 4px rgba(0, 0, 0, 0.3))',
-  [`@media(max-width: ${sizing.minContentWidth}px)`]: {
-    marginTop: 0,
-    alignSelf: 'center',
-    marginBottom: basePadding,
-  },
-}));
+const getEntityImageStyles = memoize((imageSize: number) =>
+  css({
+    marginTop: -(imageSize * insetAmount),
+    marginRight: basePadding,
+    filter: 'drop-shadow(0 0 4px rgba(0, 0, 0, 0.3))',
+    [`@media(max-width: ${sizing.minContentWidth}px)`]: {
+      marginTop: 0,
+      alignSelf: 'center',
+      marginBottom: basePadding,
+    },
+  }),
+);
 
 const descriptionStyles = css({
   margin: 0,
@@ -46,13 +51,13 @@ const descriptionStyles = css({
 });
 
 const statisticsStyles = css({
-  'dl': {
+  dl: {
     display: 'inline-block',
     margin: 0,
     marginTop: basePadding / 2,
     padding: `0 ${basePadding}px`,
     fontSize: 14,
-    
+
     borderRight: `1px solid ${colors.Light.N400}`,
     '&:first-of-type': {
       paddingLeft: 0,
@@ -61,11 +66,11 @@ const statisticsStyles = css({
       paddingRight: 0,
       borderRight: 'none',
     },
-    'dt': {
+    dt: {
       color: colors.Dark.N500,
       marginBottom: 4,
     },
-    'dd': {
+    dd: {
       margin: 0,
     },
   },
@@ -82,7 +87,13 @@ export interface EntitySummaryParams {
   statistics?: Record<string, React.ReactNode>;
 }
 
-export function EntitySummary({ entity, imageSize, description, statistics, ...props }: EntitySummaryParams) {
+export function EntitySummary({
+  entity,
+  imageSize,
+  description,
+  statistics,
+  ...props
+}: EntitySummaryParams) {
   const headerStyles = getHeaderStyles(imageSize);
   const entityImageStyles = getEntityImageStyles(imageSize);
 
@@ -92,16 +103,16 @@ export function EntitySummary({ entity, imageSize, description, statistics, ...p
         <EntityImage entity={entity} size={imageSize} css={entityImageStyles} />
         <p css={descriptionStyles}>{description || entity.description}</p>
       </div>
-      {!!statistics && 
+      {!!statistics && (
         <div css={statisticsStyles}>
-          {Object.entries(statistics).map(([title, content], index) =>
+          {Object.entries(statistics).map(([title, content], index) => (
             <dl key={index}>
               <dt>{title}</dt>
               <dd>{content}</dd>
             </dl>
-          )}
+          ))}
         </div>
-      }
+      )}
     </Section>
   );
 }

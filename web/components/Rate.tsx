@@ -11,7 +11,7 @@ export interface RateProps {
   isLiquid?: boolean;
 }
 
-export function Rate({ rate, isLiquid }: RateProps) {
+export function Rate({ rate, isLiquid, ...props }: RateProps) {
   if (typeof rate !== 'number') {
     const basis = 60;
     rate = (basis / rate.duration) * rate.count * (rate.multiple || 1.0);
@@ -20,6 +20,11 @@ export function Rate({ rate, isLiquid }: RateProps) {
   const valueUnit = isLiquid ? ValueUnit.Milliliters : ValueUnit.None;
 
   return (
-    <Value value={rate} unit={valueUnit} denominator={ValueUnit.Seconds} />
+    <Value
+      value={rate}
+      unit={valueUnit}
+      denominator={ValueUnit.Seconds}
+      {...props}
+    />
   );
 }

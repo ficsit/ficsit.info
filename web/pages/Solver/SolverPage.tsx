@@ -9,6 +9,7 @@ import { useMemo, useState } from 'react';
 import { RecipeResults } from './RecipeResults';
 import { TargetsChooser } from './TargetsChooser';
 import { OptionsChooser } from './OptionsChooser';
+import { SolverSummary } from './SolverSummary';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,
@@ -18,6 +19,9 @@ const chooserStyles = css({
   display: 'grid',
   gridTemplateColumns: 'repeat(2, 1fr)',
   gridGap: sizing.Padding.Normal,
+  [`@media(max-width: ${sizing.minContentWidth}px)`]: {
+    gridTemplateColumns: 'repeat(1, 1fr)',
+  },
 });
 
 const taglineStyles = css({
@@ -28,7 +32,9 @@ const taglineStyles = css({
 export function SolverPage() {
   const recipes = useRecipes();
   const entities = useEntities();
-  const [targets, setTargets] = useState<ItemRate[]>([]);
+  const [targets, setTargets] = useState<ItemRate[]>([
+    { slug: 'plastic', perMinute: 30 },
+  ]);
   const [options, setOptions] = useState<SolverOptions>({
     optimizeResiduals: true,
     includeAlternateRecipes: true,
@@ -77,9 +83,14 @@ function _renderResult(result?: SolverResult | { error: any }) {
     );
   } else {
     return (
-      <Section title='Optimized Recipe Use'>
-        <RecipeResults result={result} />
-      </Section>
+      <div>
+        <Section title='Summary'>
+          <SolverSummary result={result} />
+        </Section>
+        <Section title='Optimized Recipe Use'>
+          <RecipeResults result={result} />
+        </Section>
+      </div>
     );
   }
 }
