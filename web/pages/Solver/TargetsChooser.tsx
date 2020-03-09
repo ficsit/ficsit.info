@@ -127,6 +127,21 @@ function _Target({ targets, setTargets, index }: _TargetProps) {
               };
               setTargets(newTargets);
             }}
+            onKeyDown={event => {
+              const current = targets[index].perMinute;
+              let perMinute: number | undefined;
+              if (event.key === 'ArrowUp') {
+                perMinute = current + 1;
+              } else if (event.key === 'ArrowDown') {
+                perMinute = current - 1;
+              }
+              if (perMinute === undefined) return;
+
+              event.preventDefault();
+              const newTargets = [...targets];
+              newTargets[index] = { ...targets[index], perMinute };
+              setTargets(newTargets);
+            }}
           />
           <div css={unitLabelStyles}> / min</div>
         </div>
