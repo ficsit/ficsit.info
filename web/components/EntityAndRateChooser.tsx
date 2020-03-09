@@ -102,7 +102,7 @@ export function EntityAndRateChooser({
         kind={EntityKind.Item}
         slug={slug}
         setSlug={newSlug => {
-          setTarget({ perMinute: 0, ...target, slug: newSlug });
+          setTarget({ perMinute: 10, ...target, slug: newSlug });
         }}
       />
       {target && (
