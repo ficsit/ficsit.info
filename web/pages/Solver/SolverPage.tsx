@@ -4,12 +4,20 @@ import { Section } from '~/components/Section';
 import { sizing, colors } from '~/style';
 import { useRecipes, useEntities } from '~/data';
 
-import { solveFor, SolverResult, ItemRate, SolverOptions } from './solve';
+import {
+  solveFor,
+  SolverResult,
+  ItemRate,
+  SolverOptions,
+  SolverConfiguration,
+} from './solve';
 import { useMemo, useState } from 'react';
 import { RecipeResults } from './RecipeResults';
 import { TargetsChooser } from './TargetsChooser';
 import { OptionsChooser } from './OptionsChooser';
 import { SolverSummary } from './SolverSummary';
+import { useLocation, useNavigate } from 'react-router';
+import { encodeConfig, decodeConfig } from './url';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,
@@ -30,23 +38,24 @@ const taglineStyles = css({
 });
 
 export function SolverPage() {
+  const navigate = useNavigate();
+  const location = useLocation();
+  const config = useMemo(() => decodeConfig(location.search), [location]);
+  const setConfig = (newConfig: SolverConfiguration) => {
+    navigate(`.${encodeConfig(newConfig)}`);
+  };
+
   const recipes = useRecipes();
   const entities = useEntities();
-  const [targets, setTargets] = useState<ItemRate[]>([
-    { slug: 'plastic', perMinute: 30 },
-  ]);
-  const [options, setOptions] = useState<SolverOptions>({
-    optimizeResiduals: true,
-    includeAlternateRecipes: true,
-  });
+
   const result = useMemo(() => {
     try {
-      return solveFor(recipes, entities, { ...options, targets });
+      return solveFor(recipes, entities, config);
     } catch (error) {
       console.error(`solver error:`, error);
       return { error };
     }
-  }, [recipes, entities, options, targets]);
+  }, [recipes, entities, config]);
 
   return (
     <article css={rootStyles}>
@@ -61,8 +70,18 @@ export function SolverPage() {
           </span>
         }>
         <div css={chooserStyles}>
-          <TargetsChooser targets={targets} setTargets={setTargets} />
-          <OptionsChooser options={options} setOptions={setOptions} />
+          <TargetsChooser
+            targets={config.targets}
+            setTargets={newTargets => {
+              setConfig({ ...config, targets: newTargets });
+            }}
+          />
+          <OptionsChooser
+            options={config}
+            setOptions={newOptions => {
+              setConfig({ ...config, ...newOptions });
+            }}
+          />
         </div>
       </Section>
       {_renderResult(result)}
