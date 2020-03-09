@@ -376,7 +376,7 @@ function _compileFilter(filterText: string) {
     .toLowerCase()
     .split('')
     .join('.*')
-    .replace(/([\[\](){}\\])/g, '\\$1');
+    .replace(/([\[\](){}\\+*?.|^:<>=&])/g, '\\$1');
   return new RegExp(source, 'i');
 }
 
