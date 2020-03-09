@@ -74,7 +74,9 @@ function _Detail({ item }: { item: Item }) {
   if (item.fuel?.energy) {
     // TODO: component for units/values.
     const unit = item.form === ItemForm.Liquid ? ValueUnit.CubitMeters : 'item';
-    statistics[`Energy As Fuel`] = `${item.fuel.energy} MJ / ${unit}`;
+    const energy =
+      item.form === ItemForm.Liquid ? item.fuel.energy * 1e3 : item.fuel.energy;
+    statistics[`Energy As Fuel`] = `${energy} MJ / ${unit}`;
   }
 
   return (
