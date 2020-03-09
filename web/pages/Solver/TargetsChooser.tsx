@@ -18,6 +18,7 @@ const targetStyles = css({
 const inputContainerStyles = css({
   position: 'relative',
   alignItems: 'center',
+  fontSize: sizing.FontSize.Small,
   width: '6.25em',
   border: `2px solid ${colors.Light.N400}`,
   borderTopRightRadius: 4,
@@ -56,7 +57,7 @@ const unitLabelStyles = css({
 
 const cancelStyles = css({
   display: 'flex',
-  padding: 12,
+  padding: 7,
   cursor: 'pointer',
   svg: {
     height: 16,

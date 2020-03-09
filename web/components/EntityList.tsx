@@ -98,7 +98,7 @@ export interface EntityListProps {
   autoFocus?: boolean;
   depth?: number;
   className?: string;
-  rowHeight?: 40 | 60;
+  rowHeight?: 30 | 40 | 60;
 }
 
 export function EntityList({
@@ -226,7 +226,7 @@ export function EntityList({
 function _renderNode(
   { id, style, nodeInfo }: RowInfo<AnyNode>,
   filter: string,
-  rowHeight: 40 | 60,
+  rowHeight: 30 | 40 | 60,
   setFocused: (newFocused: string) => void,
   onChange?: (newSelected: string) => void,
   selected?: string,

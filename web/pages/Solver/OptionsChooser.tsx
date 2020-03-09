@@ -52,7 +52,7 @@ function _renderOption(
     <label>
       <input
         type='checkbox'
-        checked={options[key]}
+        checked={!!options[key]}
         onChange={({ target }) =>
           setOptions({
             ...options,

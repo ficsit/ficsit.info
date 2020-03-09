@@ -4,14 +4,8 @@ import { Section } from '~/components/Section';
 import { sizing, colors } from '~/style';
 import { useRecipes, useEntities } from '~/data';
 
-import {
-  solveFor,
-  SolverResult,
-  ItemRate,
-  SolverOptions,
-  SolverConfiguration,
-} from './solve';
-import { useMemo, useState } from 'react';
+import { solveFor, SolverResult, SolverConfiguration } from './solve';
+import { useMemo } from 'react';
 import { RecipeResults } from './RecipeResults';
 import { TargetsChooser } from './TargetsChooser';
 import { OptionsChooser } from './OptionsChooser';
@@ -60,6 +54,7 @@ export function SolverPage() {
   return (
     <article css={rootStyles}>
       <Section
+        allowOverflow
         title={
           <span>
             <h1>Embetterer™</h1>

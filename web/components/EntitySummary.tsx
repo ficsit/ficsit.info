@@ -98,7 +98,10 @@ export function EntitySummary({
   const entityImageStyles = getEntityImageStyles(imageSize);
 
   return (
-    <Section title={<h1 css={headerStyles}>{entity.name}</h1>} {...props}>
+    <Section
+      title={<h1 css={headerStyles}>{entity.name}</h1>}
+      allowOverflow
+      {...props}>
       <div css={summaryStyles}>
         <EntityImage entity={entity} size={imageSize} css={entityImageStyles} />
         <p css={descriptionStyles}>{description || entity.description}</p>

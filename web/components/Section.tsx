@@ -5,12 +5,18 @@ import { colors, sizing } from '~/style';
 const borderSize = 2;
 
 export interface SectionProps {
-  children: React.ReactNode
+  children: React.ReactNode;
   title?: React.ReactNode;
+  allowOverflow?: boolean;
 }
 
 const rootStyles = css({
   padding: sizing.sectionPadding,
+  [`@media(max-width: ${sizing.minContentWidth}px)`]: {
+    paddingLeft: 0,
+    paddingRight: 0,
+    margin: `0 -${sizing.sectionPadding}px`,
+  },
 });
 
 const headerStyles = css({
@@ -24,15 +30,35 @@ const contentStyles = css({
   borderRadius: 16,
   padding: sizing.Padding.Normal,
   backgroundColor: colors.Light.N0,
+  overflow: 'auto',
+  [`@media(max-width: ${sizing.minContentWidth}px)`]: {
+    borderLeft: 'none',
+    borderRight: 'none',
+    borderRadius: 0,
+  },
 });
 
-export function Section({ children, title, ...props }: SectionProps) {
-  if (typeof title === 'string') title = <h2>{title}</h2>
+const allowContentOverflow = css({
+  overflow: 'visible !important',
+});
+
+export function Section({
+  children,
+  title,
+  allowOverflow,
+  ...props
+}: SectionProps) {
+  if (typeof title === 'string') title = <h2>{title}</h2>;
+
+  const contentCss = [contentStyles];
+  if (allowOverflow) {
+    contentCss.push(allowContentOverflow);
+  }
 
   return (
     <section css={rootStyles} {...props}>
       <div css={headerStyles}>{title}</div>
-      <div css={contentStyles}>{children}</div>
+      <div css={contentCss}>{children}</div>
     </section>
   );
 }

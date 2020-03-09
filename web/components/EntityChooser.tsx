@@ -8,7 +8,7 @@ import { useState } from 'react';
 import { EntityListItem } from './EntityListItem';
 import { useEntity } from '~/data';
 
-const rowHeight = 40;
+const rowHeight = 30;
 
 const rootStyles = css({
   position: 'relative',

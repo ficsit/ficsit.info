@@ -45,7 +45,7 @@ export interface EntityListItemProps {
   active?: boolean;
   focused?: boolean;
   filter?: string;
-  height?: 40 | 60;
+  height?: 30 | 40 | 60;
   style?: React.CSSProperties;
   className?: string;
 }
