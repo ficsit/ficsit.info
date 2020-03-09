@@ -1,9 +1,16 @@
-import { SolverConfiguration } from './solve';
+import {
+  SolverConfiguration,
+  SolverConstraintSubjectKind,
+  SolverConstraintType,
+} from './solve';
 
 export function encodeConfig(config: SolverConfiguration) {
   const parts = [];
   for (const { slug, perMinute } of config.targets) {
     parts.push(`t=${slug}:${perMinute}`);
+  }
+  for (const { subject, type, value } of config.constraints) {
+    parts.push(`c=${subject.kind}:${subject.slug},${type},${value}`);
   }
   if (config.optimizeResiduals) {
     parts.push('or');
@@ -16,15 +23,24 @@ export function encodeConfig(config: SolverConfiguration) {
 }
 
 export function decodeConfig(search?: string): SolverConfiguration {
-  if (!search) return { targets: [] };
+  const config = { targets: [], constraints: [] } as SolverConfiguration;
 
-  const config = { targets: [] } as SolverConfiguration;
-
-  const parts = search.substr(1).split('&');
+  const parts = search?.substr(1).split('&') || [];
   for (const part of parts) {
     if (part.startsWith('t=')) {
       const [slug, perMinute] = part.substr(2).split(':');
       config.targets.push({ slug, perMinute: parseInt(perMinute, 10) });
+    } else if (part.startsWith('c=')) {
+      const [subject, type, value] = part.substr(2).split(',');
+      const [subjectKind, slug] = subject.split(':');
+      config.constraints.push({
+        subject: {
+          kind: subjectKind as SolverConstraintSubjectKind,
+          slug,
+        },
+        type: type as SolverConstraintType,
+        value: parseInt(value, 10),
+      });
     } else if (part === 'or') {
       config.optimizeResiduals = true;
     } else if (part === 'ar') {

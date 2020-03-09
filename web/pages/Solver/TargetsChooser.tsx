@@ -1,165 +1,48 @@
-import { EntityKind } from '@local/schema';
 import { css } from '@emotion/core';
 
-import CancelIcon from '~/assets/images/cancel.svg';
-import { EntityChooser } from '~/components/EntityChooser';
-import { colors, sizing } from '~/style';
+import { EntityAndRateChooser } from '~/components/EntityAndRateChooser';
+import { sizing } from '~/style';
 
 import { ItemRate } from './solve';
 
-const listStyles = css({
+const targetStyles = css({
   paddingTop: sizing.Padding.Medium,
 });
-
-const targetStyles = css({
-  display: 'flex',
-});
-
-const inputContainerStyles = css({
-  position: 'relative',
-  alignItems: 'center',
-  fontSize: sizing.FontSize.Small,
-  width: '6.25em',
-  border: `2px solid ${colors.Light.N400}`,
-  borderTopRightRadius: 4,
-  borderBottomRightRadius: 4,
-  marginLeft: -2,
-  backgroundColor: colors.Light.N100,
-  '&:hover': {
-    border: `2px solid ${colors.Primary.N500}`,
-    zIndex: 10,
-  },
-});
-
-const countStyles = css({
-  position: 'relative',
-  border: 'none',
-  outline: 'none',
-  textAlign: 'right',
-  height: '100%',
-  width: '100%',
-  paddingRight: '3em',
-  backgroundColor: 'transparent',
-  zIndex: 10,
-});
-
-const unitLabelStyles = css({
-  display: 'flex',
-  alignItems: 'center',
-  position: 'absolute',
-  top: 0,
-  bottom: 0,
-  right: 0,
-  zIndex: 5,
-  paddingRight: '0.5em',
-  color: colors.Dark.N500,
-});
-
-const cancelStyles = css({
-  display: 'flex',
-  padding: 7,
-  cursor: 'pointer',
-  svg: {
-    height: 16,
-    width: 16,
-    fill: colors.Light.N400,
-  },
-  '&:hover svg': {
-    fill: colors.Primary.N500,
-  },
-});
-
-const cancelIconStyles = css({});
 
 export interface TargetsChooserProps {
   targets: ItemRate[];
   setTargets: (newTargets: ItemRate[]) => void;
 }
 
-export function TargetsChooser(props: TargetsChooserProps) {
-  const numTargets = props.targets.length;
-
+export function TargetsChooser({ targets, setTargets }: TargetsChooserProps) {
   return (
     <div>
       <h3>Production Targets</h3>
-      <div css={listStyles}>
-        {props.targets.map((_target, index) => (
-          <_Target key={index} {...props} index={index} />
-        ))}
-        <_Target key={numTargets} {...props} index={numTargets} />
-      </div>
-    </div>
-  );
-}
-
-interface _TargetProps extends TargetsChooserProps {
-  index: number;
-}
-
-function _Target({ targets, setTargets, index }: _TargetProps) {
-  const { slug, perMinute } = targets[index] || {};
-
-  const isExisting = index < targets.length;
-
-  return (
-    <div css={targetStyles}>
-      <EntityChooser
-        placeholder='Add New Target…'
-        kind={EntityKind.Item}
-        slug={slug}
-        setSlug={newSlug => {
-          const newTargets = [...targets];
-          newTargets[index] = {
-            perMinute: 0,
-            ...targets[index],
-            slug: newSlug,
-          };
-          setTargets(newTargets);
-        }}
-      />
-      {isExisting && (
-        <div css={inputContainerStyles}>
-          <input
-            css={countStyles}
-            value={perMinute}
-            type='text'
-            pattern='\d*'
-            onChange={event => {
-              const newTargets = [...targets];
-              newTargets[index] = {
-                ...targets[index],
-                perMinute: parseInt(event.target.value, 10) || 0,
-              };
-              setTargets(newTargets);
-            }}
-            onKeyDown={event => {
-              const current = targets[index].perMinute;
-              let perMinute: number | undefined;
-              if (event.key === 'ArrowUp') {
-                perMinute = current + 1;
-              } else if (event.key === 'ArrowDown') {
-                perMinute = current - 1;
+      <div>
+        {targets.map((target, index) => (
+          <EntityAndRateChooser
+            key={index}
+            css={targetStyles}
+            target={target}
+            setTarget={newTarget => {
+              if (!newTarget) {
+                setTargets(targets.filter((_t, i) => i !== index));
+              } else {
+                const newTargets = [...targets];
+                newTargets[index] = newTarget;
+                setTargets(newTargets);
               }
-              if (perMinute === undefined) return;
-
-              event.preventDefault();
-              const newTargets = [...targets];
-              newTargets[index] = { ...targets[index], perMinute };
-              setTargets(newTargets);
             }}
           />
-          <div css={unitLabelStyles}> / min</div>
-        </div>
-      )}
-      {isExisting && (
-        <div
-          css={cancelStyles}
-          onPointerUp={() => {
-            setTargets(targets.filter((_t, i) => i !== index));
-          }}>
-          <CancelIcon css={cancelIconStyles} />
-        </div>
-      )}
+        ))}
+        <EntityAndRateChooser
+          css={targetStyles}
+          setTarget={newTarget => {
+            if (!newTarget) return;
+            setTargets([...targets, newTarget]);
+          }}
+        />
+      </div>
     </div>
   );
 }

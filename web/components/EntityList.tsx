@@ -48,7 +48,7 @@ const rootStyles = css({
 const inputStyles = css({
   display: 'block',
   boxSizing: 'border-box',
-  minHeight: 36,
+  height: 36,
   padding: `0 0.5em`,
   border: `2px solid transparent`,
   ':focus': {

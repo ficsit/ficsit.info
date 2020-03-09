@@ -15,15 +15,16 @@ export interface SolverOptions {
 
 export interface SolverConfiguration extends SolverOptions {
   targets: ItemRate[];
-  constraints?: SolverConstraint[];
+  constraints: SolverConstraint[];
 }
 
 export const enum SolverConstraintSubjectKind {
-  Resource = 'resource',
+  Resource = 'r',
 }
 
 export const enum SolverConstraintType {
-  Maximum = 'max',
+  Limit = 'cap',
+  Minimize = 'min',
 }
 
 export interface SolverConstraint {
@@ -150,13 +151,23 @@ function _addConstraints(context: SolverContext) {
       expression = context.variable(VariableKind.Resource, subject.slug);
     }
 
-    if (type === SolverConstraintType.Maximum) {
+    if (type === SolverConstraintType.Limit) {
       operator = Operator.Le;
       strength = Strength.required;
+    } else if (type === SolverConstraintType.Minimize) {
+      operator = Operator.Eq;
+      strength = Strength.strong;
     }
 
     if (!expression || operator === undefined || strength === undefined) {
-      throw new Error(`Invalid constraint: ${JSON.stringify(constraint)}`);
+      const missing = [];
+      if (!expression) missing.push('expression');
+      if (!operator) missing.push('operator');
+      if (!strength) missing.push('strength');
+      const details = JSON.stringify(constraint);
+      throw new Error(
+        `Invalid constraint: ${details} (missing ${missing.join(', ')})`,
+      );
     }
 
     console.log(

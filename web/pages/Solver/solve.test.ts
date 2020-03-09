@@ -16,6 +16,7 @@ describe(`solve`, () => {
   it(`solves isolated recipes`, () => {
     const result = solveFor(recipes, entities, {
       targets: [{ slug: 'iron-ingot', perMinute: 60 }],
+      constraints: [],
     });
 
     expect(result).toMatchInlineSnapshot(`
@@ -46,6 +47,7 @@ describe(`solve`, () => {
   it(`solves simple recipe chains`, () => {
     const result = solveFor(recipes, entities, {
       targets: [{ slug: 'screw', perMinute: 300 }],
+      constraints: [],
     });
 
     expect(result).toMatchInlineSnapshot(`
@@ -84,6 +86,7 @@ describe(`solve`, () => {
   it(`solves recipes with residual products`, () => {
     const result = solveFor(recipes, entities, {
       targets: [{ slug: 'plastic', perMinute: 90 }],
+      constraints: [],
     });
 
     expect(result).toMatchInlineSnapshot(`
@@ -119,6 +122,7 @@ describe(`solve`, () => {
   it(`optimizes recipes with residual products`, () => {
     const result = solveFor(recipes, entities, {
       targets: [{ slug: 'plastic', perMinute: 90 }],
+      constraints: [],
       optimizeResiduals: true,
       includeAlternateRecipes: true,
     });
@@ -177,7 +181,7 @@ describe(`solve`, () => {
             kind: SolverConstraintSubjectKind.Resource,
             slug: 'water',
           },
-          type: SolverConstraintType.Maximum,
+          type: SolverConstraintType.Limit,
           value: 5000,
         },
       ],

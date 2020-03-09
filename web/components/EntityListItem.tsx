@@ -83,7 +83,9 @@ export function EntityListItem({
         onTap();
       }}>
       <EntityImage entity={entity} size={height * iconScale} />
-      <HighlightedText text={entity.name} search={filter} />
+      <span>
+        <HighlightedText text={entity.name} search={filter} />
+      </span>
     </NavLink>
   );
 }

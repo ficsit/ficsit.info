@@ -12,6 +12,7 @@ import { OptionsChooser } from './OptionsChooser';
 import { SolverSummary } from './SolverSummary';
 import { useLocation, useNavigate } from 'react-router';
 import { encodeConfig, decodeConfig } from './url';
+import { ConstraintsChooser } from './ConstraintsChooser';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,
@@ -19,8 +20,11 @@ const rootStyles = css({
 
 const chooserStyles = css({
   display: 'grid',
-  gridTemplateColumns: 'repeat(2, 1fr)',
+  gridTemplateColumns: 'repeat(3, 1fr)',
   gridGap: sizing.Padding.Normal,
+  [`@media(max-width: ${sizing.minContentWidth * 1.5}px)`]: {
+    gridTemplateColumns: 'repeat(2, 1fr)',
+  },
   [`@media(max-width: ${sizing.minContentWidth}px)`]: {
     gridTemplateColumns: 'repeat(1, 1fr)',
   },
@@ -29,6 +33,23 @@ const chooserStyles = css({
 const taglineStyles = css({
   fontSize: sizing.FontSize.Small,
   color: colors.Dark.N500,
+});
+
+const errorStyles = css({
+  color: colors.Semantic.Error,
+  p: {
+    '&:first-of-type': {
+      marginTop: 0,
+    },
+    '&:last-of-type': {
+      marginBottom: 0,
+    },
+  },
+});
+
+const errorMessageStyles = css({
+  margin: sizing.Padding.Normal,
+  fontWeight: 'bold',
 });
 
 export function SolverPage() {
@@ -71,6 +92,12 @@ export function SolverPage() {
               setConfig({ ...config, targets: newTargets });
             }}
           />
+          <ConstraintsChooser
+            constraints={config.constraints}
+            setConstraints={newConstraints => {
+              setConfig({ ...config, constraints: newConstraints });
+            }}
+          />
           <OptionsChooser
             options={config}
             setOptions={newOptions => {
@@ -90,9 +117,14 @@ function _renderResult(result?: SolverResult | { error: any }) {
   if ('error' in result) {
     const { error } = result;
     return (
-      <Section title='Whoopsie'>
-        <p>Something went wrong when embettening your production line:</p>
-        <p>{error.message || error}</p>
+      <Section title='Whoopsie' css={errorStyles}>
+        <p>Something went wrong when embettening™ your production line!</p>
+        <p css={errorMessageStyles}>{error.message || error}</p>
+        <p>
+          …look—this is FicsIt—if we had a checklist for every problem, you
+          probably wouldn't have a job. Try pressing some buttons until it
+          works.
+        </p>
       </Section>
     );
   } else {

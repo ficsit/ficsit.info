@@ -44,6 +44,11 @@ const selectedEntityStyles = css({
   '&:hover': {
     border: `2px solid ${colors.Primary.N500}`,
   },
+  span: {
+    overflow: 'hidden',
+    textOverflow: 'ellipsis',
+    whiteSpace: 'nowrap',
+  },
 });
 
 const placeholderStyles = css({
@@ -63,6 +68,7 @@ export function EntityChooser({
   slug,
   setSlug,
   placeholder,
+  ...props
 }: EntityChooserProps) {
   const [editing, setEditing] = useState(false);
   const entity = useEntity(slug);
@@ -71,12 +77,17 @@ export function EntityChooser({
 
   if (editing) {
     return (
-      <div ref={ref} css={rootStyles} onBlur={() => setEditing(false)}>
+      <div
+        ref={ref}
+        css={rootStyles}
+        onBlur={() => setEditing(false)}
+        {...props}>
         <EntityList
           autoFocus
           kind={kind}
           rowHeight={rowHeight}
           css={entityListStyles}
+          className='entityList'
           selected={slug}
           onChange={(newSlug: string) => {
             setEditing(false);
@@ -87,9 +98,10 @@ export function EntityChooser({
     );
   } else if (entity) {
     return (
-      <div css={rootStyles}>
+      <div css={rootStyles} {...props}>
         <EntityListItem
           css={selectedEntityStyles}
+          className={'chosen'}
           entity={entity}
           onTap={() => setEditing(true)}
           height={rowHeight}
@@ -98,9 +110,10 @@ export function EntityChooser({
     );
   } else {
     return (
-      <div css={rootStyles}>
+      <div css={rootStyles} {...props}>
         <div
           css={[selectedEntityStyles, placeholderStyles]}
+          className={'placeholder'}
           onPointerUp={() => setEditing(true)}>
           {placeholder}
         </div>
