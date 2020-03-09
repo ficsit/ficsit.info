@@ -71,18 +71,7 @@ export function EntityChooser({
 
   if (editing) {
     return (
-      <div
-        ref={ref}
-        css={rootStyles}
-        onBlur={() => {
-          requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-              if (ref.current) {
-                setEditing(false);
-              }
-            });
-          });
-        }}>
+      <div ref={ref} css={rootStyles} onBlur={() => setEditing(false)}>
         <EntityList
           autoFocus
           kind={kind}
@@ -102,7 +91,7 @@ export function EntityChooser({
         <EntityListItem
           css={selectedEntityStyles}
           entity={entity}
-          onClick={() => setEditing(true)}
+          onTap={() => setEditing(true)}
           height={rowHeight}
         />
       </div>
@@ -112,7 +101,7 @@ export function EntityChooser({
       <div css={rootStyles}>
         <div
           css={[selectedEntityStyles, placeholderStyles]}
-          onClick={() => setEditing(true)}>
+          onPointerUp={() => setEditing(true)}>
           {placeholder}
         </div>
       </div>

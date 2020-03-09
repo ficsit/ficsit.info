@@ -24,10 +24,10 @@ const rootStyles = css({
     color: colors.Light.N0,
     picture: {
       filter: `
-        drop-shadow( 2px 0   1px ${colors.Light.N0})
-        drop-shadow(-2px 0   1px ${colors.Light.N0})
-        drop-shadow( 0   2px 1px ${colors.Light.N0})
-        drop-shadow( 0  -2px 1px ${colors.Light.N0})
+        drop-shadow( 1px 0   1px ${colors.Light.N0})
+        drop-shadow(-1px 0   1px ${colors.Light.N0})
+        drop-shadow( 0   1px 1px ${colors.Light.N0})
+        drop-shadow( 0  -1px 1px ${colors.Light.N0})
       `,
     },
   },
@@ -41,7 +41,7 @@ const rootStyles = css({
 
 export interface EntityListItemProps {
   entity: AnyEntity;
-  onClick: () => void;
+  onTap: () => void;
   active?: boolean;
   focused?: boolean;
   filter?: string;
@@ -53,7 +53,7 @@ export interface EntityListItemProps {
 export function EntityListItem({
   entity,
   filter,
-  onClick,
+  onTap,
   active,
   focused,
   className,
@@ -73,11 +73,14 @@ export function EntityListItem({
       className={className}
       css={rootStyles}
       to={entityUrl(entity)}
-      onClick={event => {
+      onPointerDown={(event: any) => {
+        event.preventDefault();
+      }}
+      onPointerUp={(event: any) => {
         // Let cmd/ctrl clicks work naturally.
         if (event.metaKey || event.ctrlKey) return;
         event.preventDefault();
-        onClick();
+        onTap();
       }}>
       <EntityImage entity={entity} size={height * iconScale} />
       <HighlightedText text={entity.name} search={filter} />

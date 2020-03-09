@@ -154,7 +154,7 @@ function _Target({ targets, setTargets, index }: _TargetProps) {
       {isExisting && (
         <div
           css={cancelStyles}
-          onClick={() => {
+          onPointerUp={() => {
             setTargets(targets.filter((_t, i) => i !== index));
           }}>
           <CancelIcon css={cancelIconStyles} />

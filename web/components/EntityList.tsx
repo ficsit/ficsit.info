@@ -143,7 +143,7 @@ export function EntityList({
     <div
       className={className}
       css={rootStyles}
-      onClick={() => {
+      onPointerUp={() => {
         // Give a brief delay before focusing in case we're navigating on
         // mobile.
         const input = inputRef.current;
@@ -254,7 +254,7 @@ function _renderNode(
         style={style}
         height={rowHeight}
         filter={filter}
-        onClick={() => {
+        onTap={() => {
           setFocused(nodeInfo.entity.slug);
           onChange?.(nodeInfo.entity.slug);
         }}
