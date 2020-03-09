@@ -53,6 +53,8 @@ export function solveFor(
   config?: SolverConfiguration,
 ): SolverResult | undefined {
   if (!recipes || !entities || !config) return;
+  const activeTargets = config.targets.some(({ perMinute }) => perMinute > 0);
+  if (!activeTargets) return;
 
   const context = new SolverContext(recipes, entities, config);
 

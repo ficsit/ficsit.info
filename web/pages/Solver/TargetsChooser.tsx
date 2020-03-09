@@ -109,7 +109,11 @@ function _Target({ targets, setTargets, index }: _TargetProps) {
         slug={slug}
         setSlug={newSlug => {
           const newTargets = [...targets];
-          newTargets[index] = { ...targets[index], slug: newSlug };
+          newTargets[index] = {
+            perMinute: 0,
+            ...targets[index],
+            slug: newSlug,
+          };
           setTargets(newTargets);
         }}
       />
@@ -117,7 +121,7 @@ function _Target({ targets, setTargets, index }: _TargetProps) {
         <div css={inputContainerStyles}>
           <input
             css={countStyles}
-            value={perMinute || ''}
+            value={perMinute}
             type='text'
             pattern='\d*'
             onChange={event => {
@@ -151,11 +155,6 @@ function _Target({ targets, setTargets, index }: _TargetProps) {
         <div
           css={cancelStyles}
           onClick={() => {
-            console.log(
-              'removing target:',
-              index,
-              targets.filter((_t, i) => i === index),
-            );
             setTargets(targets.filter((_t, i) => i !== index));
           }}>
           <CancelIcon css={cancelIconStyles} />
