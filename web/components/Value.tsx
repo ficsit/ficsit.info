@@ -7,7 +7,7 @@ import PowerIcon from '~/assets/images/power.svg';
 
 export const enum ValueUnit {
   None,
-  Milliliters = 'ml³',
+  CubitMeters = 'm³',
   Seconds = 'sec',
   Megawatts = 'MW',
 }
@@ -61,7 +61,7 @@ export function Value({
     title += ` / ${denominator}`;
   }
 
-  if (unit === ValueUnit.Milliliters) {
+  if (unit === ValueUnit.CubitMeters) {
     value = value / 1e3;
   }
 

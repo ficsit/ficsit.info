@@ -17,7 +17,7 @@ export function Rate({ rate, isLiquid, ...props }: RateProps) {
     rate = (basis / rate.duration) * rate.count * (rate.multiple || 1.0);
   }
 
-  const valueUnit = isLiquid ? ValueUnit.Milliliters : ValueUnit.None;
+  const valueUnit = isLiquid ? ValueUnit.CubitMeters : ValueUnit.None;
 
   return (
     <Value

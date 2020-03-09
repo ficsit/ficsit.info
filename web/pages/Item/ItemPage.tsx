@@ -1,5 +1,5 @@
 import { useParams, useNavigate } from 'react-router';
-import { EntityKind, Item } from '@local/schema';
+import { EntityKind, Item, ItemForm } from '@local/schema';
 import { css } from '@emotion/core';
 
 import { useItem } from '~/data';
@@ -10,6 +10,7 @@ import { EntitySummary } from '~/components/EntitySummary';
 import { ItemSources } from './ItemSources';
 import { ItemUses } from './ItemUses';
 import { itemUrl } from '~/routing';
+import { ValueUnit } from '~/components/Value';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,
@@ -72,8 +73,8 @@ function _Detail({ item }: { item: Item }) {
   }
   if (item.fuel?.energy) {
     // TODO: component for units/values.
-    // TODO: better unit & value for liquids. (MJ / ml^3?)
-    statistics[`Energy As Fuel`] = `${item.fuel.energy} MJ / item`;
+    const unit = item.form === ItemForm.Liquid ? ValueUnit.CubitMeters : 'item';
+    statistics[`Energy As Fuel`] = `${item.fuel.energy} MJ / ${unit}`;
   }
 
   return (
