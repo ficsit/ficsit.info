@@ -373,10 +373,15 @@ function _filterTree(tree?: RootNode, filterText?: string) {
 
 function _compileFilter(filterText: string) {
   const source = filterText
-    .toLowerCase()
     .split('')
-    .join('.*')
-    .replace(/([\[\](){}\\+*?.|^:<>=&])/g, '\\$1');
+    .map(char => {
+      if (/([\[\](){}\\+*?.|^:<>=&])/.test(char)) {
+        return `\\${char}`;
+      } else {
+        return char;
+      }
+    })
+    .join('.*');
   return new RegExp(source, 'i');
 }
 
