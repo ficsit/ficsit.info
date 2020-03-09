@@ -375,7 +375,8 @@ function _compileFilter(filterText: string) {
   const source = filterText
     .toLowerCase()
     .split('')
-    .join('.*');
+    .join('.*')
+    .replace(/([\[\](){}\\])/g, '\\$1');
   return new RegExp(source, 'i');
 }
 
