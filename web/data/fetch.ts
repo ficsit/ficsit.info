@@ -30,7 +30,7 @@ export function makeDataHook<TResult extends object>(
 }
 
 export async function fetchData(path: string) {
-  const response = await fetch(_dataUrl(`${path}.json`, 'experimental'), {
+  const response = await fetch(_dataUrl(`${path}.json`), {
     method: 'GET',
     credentials: 'include',
   });
@@ -40,6 +40,6 @@ export async function fetchData(path: string) {
 
 // Internal
 
-function _dataUrl(path: string, version: string) {
-  return `${process.env.APP_ORIGIN}data/${version}/${path}`;
+function _dataUrl(path: string) {
+  return `${process.env.APP_ORIGIN}data/${path}`;
 }

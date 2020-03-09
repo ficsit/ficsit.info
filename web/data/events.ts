@@ -1,6 +1,7 @@
 import { useEntityData } from './entities';
 import { useRecipeData } from './recipes';
 import { useSchematicData } from './schematics';
+import { useVersionsData } from './versions';
 
 const categories = {
   entities: useEntityData,
@@ -14,6 +15,12 @@ if ('serviceWorker' in navigator) {
     if (event.data.meta !== 'workbox-broadcast-update') return;
     if (event.data.payload.cacheName !== 'data') return;
     const { updatedURL } = event.data.payload;
+
+    if (/\/versions\.json$/.test(updatedURL)) {
+      useVersionsData.invalidate();
+      return;
+    }
+
     const match = /\/([^/]+)\/([^/.]+)\.json$/.exec(updatedURL);
     if (!match) return;
 

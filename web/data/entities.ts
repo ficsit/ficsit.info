@@ -27,7 +27,7 @@ export function useEntitiesByKind<TKind extends EntityKind>(kind: TKind) {
 // Raw Data
 
 export const useEntityData = makeDataHook(
-  'entities',
+  'experimental/entities',
   (bySlug: Record<string, AnyEntity>) => {
     const byKindBySlug = {} as {
       [TKind in EntityKind]: Record<

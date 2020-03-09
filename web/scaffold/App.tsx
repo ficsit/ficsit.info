@@ -3,11 +3,12 @@ import { NavLink } from 'react-router-dom';
 import { css } from '@emotion/core';
 
 import { Image } from '~/components/Image';
-import { colors } from '~/style';
+import { colors, sizing } from '~/style';
 
 import { AppRoutes } from './AppRoutes';
 
 import logoImage from '../assets/images/ficsit-logo@*.*';
+import { useVersions } from '~/data/versions';
 
 const globalStyles = css({
   WebkitFontSmoothing: 'antialiased',
@@ -49,6 +50,8 @@ const containerStyles = css({
 });
 
 const headerStyles = css({
+  overflow: 'hidden',
+  willChange: 'transform',
   background: `linear-gradient(0deg, ${colors.Secondary.N900}, ${colors.Secondary.N800})`,
   color: colors.Light.N0,
   a: {
@@ -67,6 +70,7 @@ const titleStyles = css({
   fontSize: '24px',
   fontWeight: 'lighter',
   margin: 0,
+  whiteSpace: 'nowrap',
   a: {
     padding: '4px 8px',
   },
@@ -90,6 +94,22 @@ const navigationStyles = css({
       backgroundColor: colors.Light.N50,
       color: colors.Dark.N950,
     },
+  },
+});
+
+const versionStyles = css({
+  position: 'absolute',
+  top: 20,
+  right: -38,
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'center',
+  transform: 'rotate(45deg)',
+  width: 140,
+  background: colors.Primary.N500,
+  fontSize: sizing.FontSize.Tiny,
+  [`@media(max-width: 400px)`]: {
+    // display: 'none',
   },
 });
 
@@ -144,6 +164,7 @@ export class App extends PureComponent {
             {/* <li><NavLink to='/research'>Research</NavLink></li> */}
           </ul>
         </nav>
+        <_Version />
       </header>
     );
   }
@@ -155,4 +176,16 @@ export class App extends PureComponent {
       </div>
     );
   }
+}
+
+function _Version() {
+  const versions = useVersions();
+  const branch = 'experimental';
+
+  return (
+    <div css={versionStyles}>
+      <span className='branch'>{branch}</span>
+      <span className='version'>v{versions?.[branch] || '???'}</span>
+    </div>
+  );
 }

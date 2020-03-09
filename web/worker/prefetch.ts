@@ -45,6 +45,9 @@ export async function prefetchData(router: Router) {
       router.handleRequest({
         request: new Request('/data/experimental/schematics.json', noCache),
       }),
+      router.handleRequest({
+        request: new Request('/data/versions.json', noCache),
+      }),
     ]);
   } catch (error) {
     console.warn(`Failed to prefetch data:`, error);
