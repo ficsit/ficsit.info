@@ -119,9 +119,19 @@ async function _buildBuilding(
   }
 
   if (entityDb.isKind(raw, 'FGBuildableResourceExtractor')) {
+    let itemsPerCycle = raw.entity.mItemsPerCycle;
+    if (raw.entity.mAllowedResourceForms.length !== 1) {
+      throw new Error(
+        `We expect all extractors to support only a single resource form.`,
+      );
+    }
+    if (raw.entity.mAllowedResourceForms[0] === 'RF_LIQUID') {
+      itemsPerCycle /= 1e3;
+    }
+
     _assign(building, 'extraction', {
       cycleTime: raw.entity.mExtractCycleTime,
-      itemsPerCycle: raw.entity.mItemsPerCycle,
+      itemsPerCycle,
       resources: itemsExtractedBy(raw, entityDb).map(name =>
         outputDb.slugOrDie(name),
       ),

@@ -76,9 +76,11 @@ async function _buildItem(
   }
 
   if (raw.entity.mEnergyValue) {
-    _assign(item, 'fuel', {
-      energy: raw.entity.mEnergyValue,
-    });
+    let energy = raw.entity.mEnergyValue;
+    if (raw.entity.mForm === 'RF_LIQUID') {
+      energy *= 1e3;
+    }
+    _assign(item, 'fuel', { energy });
   }
 
   const baseName = /^[^_]+_(.+)_C$/

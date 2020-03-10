@@ -61,10 +61,6 @@ export function Value({
     title += ` / ${denominator}`;
   }
 
-  if (unit === ValueUnit.CubitMeters) {
-    value = value / 1e3;
-  }
-
   let Icon;
   if (showIcon) {
     if (unit === ValueUnit.Minutes) {

@@ -4,8 +4,8 @@
     "name": "Adequate Pioneering",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 25
+        "count": 25,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -21,20 +21,20 @@
     "name": "Advanced Aluminum Production",
     "cost": [
       {
-        "item": "alclad-aluminum-sheet",
-        "count": 200
+        "count": 200,
+        "item": "alclad-aluminum-sheet"
       },
       {
-        "item": "motor",
-        "count": 300
+        "count": 300,
+        "item": "motor"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 150
+        "count": 150,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "computer",
-        "count": 150
+        "count": 150,
+        "item": "computer"
       }
     ],
     "unlocks": [
@@ -50,8 +50,8 @@
     "name": "Advanced Ammo Pack",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -67,20 +67,20 @@
     "name": "Advanced Steel Production",
     "cost": [
       {
-        "item": "steel-pipe",
-        "count": 200
+        "count": 200,
+        "item": "steel-pipe"
       },
       {
-        "item": "rotor",
-        "count": 200
+        "count": 200,
+        "item": "rotor"
       },
       {
-        "item": "wire",
-        "count": 1500
+        "count": 1500,
+        "item": "wire"
       },
       {
-        "item": "concrete",
-        "count": 300
+        "count": 300,
+        "item": "concrete"
       }
     ],
     "unlocks": [
@@ -96,12 +96,12 @@
     "name": "AI Limiter",
     "cost": [
       {
-        "item": "quickwire",
-        "count": 200
+        "count": 200,
+        "item": "quickwire"
       },
       {
-        "item": "copper-sheet",
-        "count": 50
+        "count": 50,
+        "item": "copper-sheet"
       }
     ],
     "unlocks": [
@@ -117,8 +117,8 @@
     "name": "AI Limiter",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -134,8 +134,8 @@
     "name": "Alien Carapace",
     "cost": [
       {
-        "item": "alien-carapace",
-        "count": 1
+        "count": 1,
+        "item": "alien-carapace"
       }
     ],
     "unlocks": [],
@@ -149,8 +149,8 @@
     "name": "Alien Organs",
     "cost": [
       {
-        "item": "alien-organs",
-        "count": 1
+        "count": 1,
+        "item": "alien-organs"
       }
     ],
     "unlocks": [],
@@ -1056,20 +1056,20 @@
     "name": "Alternative Fluid Transport",
     "cost": [
       {
-        "item": "heavy-modular-frame",
-        "count": 25
+        "count": 25,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "motor",
-        "count": 100
+        "count": 100,
+        "item": "motor"
       },
       {
-        "item": "plastic",
-        "count": 200
+        "count": 200,
+        "item": "plastic"
       },
       {
-        "item": "wire",
-        "count": 3000
+        "count": 3000,
+        "item": "wire"
       }
     ],
     "unlocks": [
@@ -1098,8 +1098,8 @@
     "name": "Aluminum Alclad Sheet",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 2
+        "count": 2,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1115,8 +1115,8 @@
     "name": "Ammo Pack",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1132,16 +1132,16 @@
     "name": "Base Building",
     "cost": [
       {
-        "item": "concrete",
-        "count": 200
+        "count": 200,
+        "item": "concrete"
       },
       {
-        "item": "iron-plate",
-        "count": 100
+        "count": 100,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 100
+        "count": 100,
+        "item": "iron-rod"
       }
     ],
     "unlocks": [
@@ -1157,20 +1157,20 @@
     "name": "Basic Steel Production",
     "cost": [
       {
-        "item": "modular-frame",
-        "count": 50
+        "count": 50,
+        "item": "modular-frame"
       },
       {
-        "item": "rotor",
-        "count": 150
+        "count": 150,
+        "item": "rotor"
       },
       {
-        "item": "concrete",
-        "count": 300
+        "count": 300,
+        "item": "concrete"
       },
       {
-        "item": "wire",
-        "count": 1000
+        "count": 1000,
+        "item": "wire"
       }
     ],
     "unlocks": [
@@ -1186,8 +1186,8 @@
     "name": "Battery",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 5
+        "count": 5,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1203,16 +1203,16 @@
     "name": "Bauxite Refinement",
     "cost": [
       {
-        "item": "motor",
-        "count": 200
+        "count": 200,
+        "item": "motor"
       },
       {
-        "item": "computer",
-        "count": 100
+        "count": 100,
+        "item": "computer"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 100
+        "count": 100,
+        "item": "heavy-modular-frame"
       }
     ],
     "unlocks": [
@@ -1229,8 +1229,8 @@
     "name": "Beacons",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1246,8 +1246,8 @@
     "name": "Biofuel",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 2
+        "count": 2,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1263,8 +1263,8 @@
     "name": "Biomass",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1280,12 +1280,12 @@
     "name": "Black Powder",
     "cost": [
       {
-        "item": "sulfur",
-        "count": 50
+        "count": 50,
+        "item": "sulfur"
       },
       {
-        "item": "coal",
-        "count": 25
+        "count": 25,
+        "item": "coal"
       }
     ],
     "unlocks": [
@@ -1301,8 +1301,8 @@
     "name": "Black Powder",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1318,12 +1318,12 @@
     "name": "Blade Runners",
     "cost": [
       {
-        "item": "quickwire",
-        "count": 100
+        "count": 100,
+        "item": "quickwire"
       },
       {
-        "item": "modular-frame",
-        "count": 10
+        "count": 10,
+        "item": "modular-frame"
       }
     ],
     "unlocks": [
@@ -1339,8 +1339,8 @@
     "name": "Cable",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 2
+        "count": 2,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1356,8 +1356,8 @@
     "name": "Caterium",
     "cost": [
       {
-        "item": "caterium-ore",
-        "count": 10
+        "count": 10,
+        "item": "caterium-ore"
       }
     ],
     "unlocks": [
@@ -1373,8 +1373,8 @@
     "name": "Caterium Electronics",
     "cost": [
       {
-        "item": "quickwire",
-        "count": 100
+        "count": 100,
+        "item": "quickwire"
       }
     ],
     "unlocks": [],
@@ -1388,8 +1388,8 @@
     "name": "Caterium Ingots",
     "cost": [
       {
-        "item": "caterium-ore",
-        "count": 50
+        "count": 50,
+        "item": "caterium-ore"
       }
     ],
     "unlocks": [
@@ -1405,8 +1405,8 @@
     "name": "Circuit Board",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1422,16 +1422,16 @@
     "name": "Coal Power",
     "cost": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 150
+        "count": 150,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "rotor",
-        "count": 50
+        "count": 50,
+        "item": "rotor"
       },
       {
-        "item": "cable",
-        "count": 300
+        "count": 300,
+        "item": "cable"
       }
     ],
     "unlocks": [
@@ -1448,8 +1448,8 @@
     "name": "Color Ammo Pack",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1465,8 +1465,8 @@
     "name": "Color Cartridges",
     "cost": [
       {
-        "item": "flower-petals",
-        "count": 100
+        "count": 100,
+        "item": "flower-petals"
       }
     ],
     "unlocks": [
@@ -1482,16 +1482,16 @@
     "name": "Color Gun",
     "cost": [
       {
-        "item": "iron-plate",
-        "count": 100
+        "count": 100,
+        "item": "iron-plate"
       },
       {
-        "item": "screw",
-        "count": 250
+        "count": 250,
+        "item": "screw"
       },
       {
-        "item": "wire",
-        "count": 250
+        "count": 250,
+        "item": "wire"
       }
     ],
     "unlocks": [
@@ -1507,8 +1507,8 @@
     "name": "Computer",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 6
+        "count": 6,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1524,8 +1524,8 @@
     "name": "Concrete",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1541,8 +1541,8 @@
     "name": "Confusing Creature",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 200
+        "count": 200,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1558,8 +1558,8 @@
     "name": "Conveyor Wall Mount",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 2
+        "count": 2,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1575,8 +1575,8 @@
     "name": "Conveyor Walls",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 5
+        "count": 5,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1592,8 +1592,8 @@
     "name": "Copper Sheet",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1609,8 +1609,8 @@
     "name": "Corner Ramp Pack",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 6
+        "count": 6,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1626,12 +1626,12 @@
     "name": "Crystal Oscillator",
     "cost": [
       {
-        "item": "quartz-crystal",
-        "count": 100
+        "count": 100,
+        "item": "quartz-crystal"
       },
       {
-        "item": "reinforced-iron-plate",
-        "count": 50
+        "count": 50,
+        "item": "reinforced-iron-plate"
       }
     ],
     "unlocks": [
@@ -1647,8 +1647,8 @@
     "name": "Crystal Oscillator",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 4
+        "count": 4,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1664,8 +1664,8 @@
     "name": "Cyber Wagon",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 20
+        "count": 20,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1691,16 +1691,16 @@
     "name": "Detonator Prototype",
     "cost": [
       {
-        "item": "steel-beam",
-        "count": 10
+        "count": 10,
+        "item": "steel-beam"
       },
       {
-        "item": "cable",
-        "count": 50
+        "count": 50,
+        "item": "cable"
       },
       {
-        "item": "object-scanner",
-        "count": 5
+        "count": 5,
+        "item": "object-scanner"
       }
     ],
     "unlocks": [],
@@ -1714,8 +1714,8 @@
     "name": "Door Walls",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 2
+        "count": 2,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1731,8 +1731,8 @@
     "name": "Double Ramp Pack",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1748,8 +1748,8 @@
     "name": "Empty Canister",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 2
+        "count": 2,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1765,8 +1765,8 @@
     "name": "Encased Industrial Beam",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1794,20 +1794,20 @@
     "name": "Expanded Power Infrastructure",
     "cost": [
       {
-        "item": "heavy-modular-frame",
-        "count": 50
+        "count": 50,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "computer",
-        "count": 100
+        "count": 100,
+        "item": "computer"
       },
       {
-        "item": "encased-industrial-beam",
-        "count": 200
+        "count": 200,
+        "item": "encased-industrial-beam"
       },
       {
-        "item": "rubber",
-        "count": 400
+        "count": 400,
+        "item": "rubber"
       }
     ],
     "unlocks": [
@@ -1824,12 +1824,12 @@
     "name": "Expanded Toolbelt",
     "cost": [
       {
-        "item": "alien-carapace",
-        "count": 5
+        "count": 5,
+        "item": "alien-carapace"
       },
       {
-        "item": "wire",
-        "count": 1000
+        "count": 1000,
+        "item": "wire"
       }
     ],
     "unlocks": [
@@ -1845,12 +1845,12 @@
     "name": "Expanded Toolbelt",
     "cost": [
       {
-        "item": "black-powder",
-        "count": 100
+        "count": 100,
+        "item": "black-powder"
       },
       {
-        "item": "encased-industrial-beam",
-        "count": 50
+        "count": 50,
+        "item": "encased-industrial-beam"
       }
     ],
     "unlocks": [
@@ -1866,8 +1866,8 @@
     "name": "Explosives",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1883,12 +1883,12 @@
     "name": "Fabric",
     "cost": [
       {
-        "item": "mycelia",
-        "count": 25
+        "count": 25,
+        "item": "mycelia"
       },
       {
-        "item": "biomass",
-        "count": 100
+        "count": 100,
+        "item": "biomass"
       }
     ],
     "unlocks": [
@@ -1904,8 +1904,8 @@
     "name": "Fabric",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1921,8 +1921,8 @@
     "name": "Factory Railing",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1938,8 +1938,8 @@
     "name": "FICSIT Factory CartT",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 10
+        "count": 10,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1955,8 +1955,8 @@
     "name": "FICSITT Coffee Cup",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -1972,16 +1972,16 @@
     "name": "Field Research",
     "cost": [
       {
-        "item": "wire",
-        "count": 300
+        "count": 300,
+        "item": "wire"
       },
       {
-        "item": "screw",
-        "count": 300
+        "count": 300,
+        "item": "screw"
       },
       {
-        "item": "iron-plate",
-        "count": 100
+        "count": 100,
+        "item": "iron-plate"
       }
     ],
     "unlocks": [
@@ -1999,8 +1999,8 @@
     "name": "Flower Petals",
     "cost": [
       {
-        "item": "flower-petals",
-        "count": 10
+        "count": 10,
+        "item": "flower-petals"
       }
     ],
     "unlocks": [],
@@ -2014,8 +2014,8 @@
     "name": "Foundation Pillar",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 2
+        "count": 2,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2031,8 +2031,8 @@
     "name": "Foundations Expansion Pack",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2048,12 +2048,12 @@
     "name": "Frequency Mapping",
     "cost": [
       {
-        "item": "crystal-oscillator",
-        "count": 10
+        "count": 10,
+        "item": "crystal-oscillator"
       },
       {
-        "item": "beacon",
-        "count": 10
+        "count": 10,
+        "item": "beacon"
       }
     ],
     "unlocks": [
@@ -2069,8 +2069,8 @@
     "name": "Gas Filters",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2086,16 +2086,16 @@
     "name": "GasMask",
     "cost": [
       {
-        "item": "rubber",
-        "count": 200
+        "count": 200,
+        "item": "rubber"
       },
       {
-        "item": "plastic",
-        "count": 100
+        "count": 100,
+        "item": "plastic"
       },
       {
-        "item": "fabric",
-        "count": 50
+        "count": 50,
+        "item": "fabric"
       }
     ],
     "unlocks": [
@@ -2111,16 +2111,16 @@
     "name": "Geothermal Generator",
     "cost": [
       {
-        "item": "supercomputer",
-        "count": 50
+        "count": 50,
+        "item": "supercomputer"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 50
+        "count": 50,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "rubber",
-        "count": 300
+        "count": 300,
+        "item": "rubber"
       }
     ],
     "unlocks": [
@@ -2137,8 +2137,8 @@
     "name": "Golden Nut",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1000
+        "count": 1000,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2154,8 +2154,8 @@
     "name": "Green Power Slugs",
     "cost": [
       {
-        "item": "green-power-slug",
-        "count": 1
+        "count": 1,
+        "item": "green-power-slug"
       }
     ],
     "unlocks": [
@@ -2171,8 +2171,8 @@
     "name": "Hard Drive",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_HardDrive_C--",
-        "count": 1
+        "count": 1,
+        "item": "hard-drive"
       }
     ],
     "unlocks": [],
@@ -2186,16 +2186,16 @@
     "name": "Hazmat Suit",
     "cost": [
       {
-        "item": "alclad-aluminum-sheet",
-        "count": 100
+        "count": 100,
+        "item": "alclad-aluminum-sheet"
       },
       {
-        "item": "quickwire",
-        "count": 100
+        "count": 100,
+        "item": "quickwire"
       },
       {
-        "item": "rubber",
-        "count": 500
+        "count": 500,
+        "item": "rubber"
       }
     ],
     "unlocks": [
@@ -2211,8 +2211,8 @@
     "name": "Health Pack",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2231,8 +2231,8 @@
     "name": "Heat Sink",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2248,8 +2248,8 @@
     "name": "Heavy Modular Frame",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 6
+        "count": 6,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2265,12 +2265,12 @@
     "name": "High Speed Connector",
     "cost": [
       {
-        "item": "quickwire",
-        "count": 500
+        "count": 500,
+        "item": "quickwire"
       },
       {
-        "item": "plastic",
-        "count": 50
+        "count": 50,
+        "item": "plastic"
       }
     ],
     "unlocks": [
@@ -2286,8 +2286,8 @@
     "name": "High-Speed Connector",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 4
+        "count": 4,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2303,12 +2303,12 @@
     "name": "Hostile Organism Detection",
     "cost": [
       {
-        "item": "alien-organs",
-        "count": 5
+        "count": 5,
+        "item": "alien-organs"
       },
       {
-        "item": "alien-carapace",
-        "count": 5
+        "count": 5,
+        "item": "alien-carapace"
       }
     ],
     "unlocks": [],
@@ -2322,8 +2322,8 @@
     "name": "Hub Upgrade 1",
     "cost": [
       {
-        "item": "iron-rod",
-        "count": 10
+        "count": 10,
+        "item": "iron-rod"
       }
     ],
     "unlocks": [
@@ -2340,12 +2340,12 @@
     "name": "Hub Upgrade 2",
     "cost": [
       {
-        "item": "iron-rod",
-        "count": 20
+        "count": 20,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 10
+        "count": 10,
+        "item": "iron-plate"
       }
     ],
     "unlocks": [
@@ -2362,16 +2362,16 @@
     "name": "Hub Upgrade 3",
     "cost": [
       {
-        "item": "iron-plate",
-        "count": 20
+        "count": 20,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 20
+        "count": 20,
+        "item": "iron-rod"
       },
       {
-        "item": "wire",
-        "count": 20
+        "count": 20,
+        "item": "wire"
       }
     ],
     "unlocks": [
@@ -2388,16 +2388,16 @@
     "name": "Hub Upgrade 4",
     "cost": [
       {
-        "item": "iron-plate",
-        "count": 75
+        "count": 75,
+        "item": "iron-plate"
       },
       {
-        "item": "cable",
-        "count": 20
+        "count": 20,
+        "item": "cable"
       },
       {
-        "item": "concrete",
-        "count": 10
+        "count": 10,
+        "item": "concrete"
       }
     ],
     "unlocks": [
@@ -2414,16 +2414,16 @@
     "name": "Hub Upgrade 5",
     "cost": [
       {
-        "item": "iron-rod",
-        "count": 75
+        "count": 75,
+        "item": "iron-rod"
       },
       {
-        "item": "cable",
-        "count": 50
+        "count": 50,
+        "item": "cable"
       },
       {
-        "item": "concrete",
-        "count": 20
+        "count": 20,
+        "item": "concrete"
       }
     ],
     "unlocks": [
@@ -2439,20 +2439,20 @@
     "name": "Hub Upgrade 6",
     "cost": [
       {
-        "item": "iron-rod",
-        "count": 100
+        "count": 100,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 100
+        "count": 100,
+        "item": "iron-plate"
       },
       {
-        "item": "wire",
-        "count": 100
+        "count": 100,
+        "item": "wire"
       },
       {
-        "item": "concrete",
-        "count": 50
+        "count": 50,
+        "item": "concrete"
       }
     ],
     "unlocks": [
@@ -2468,8 +2468,8 @@
     "name": "Hyper Tube Wall Attachments",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 2
+        "count": 2,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2485,16 +2485,16 @@
     "name": "Hyper Tubes",
     "cost": [
       {
-        "item": "copper-sheet",
-        "count": 300
+        "count": 300,
+        "item": "copper-sheet"
       },
       {
-        "item": "steel-pipe",
-        "count": 300
+        "count": 300,
+        "item": "steel-pipe"
       },
       {
-        "item": "encased-industrial-beam",
-        "count": 50
+        "count": 50,
+        "item": "encased-industrial-beam"
       }
     ],
     "unlocks": [
@@ -2510,20 +2510,20 @@
     "name": "Improved Melee Combat",
     "cost": [
       {
-        "item": "rotor",
-        "count": 25
+        "count": 25,
+        "item": "rotor"
       },
       {
-        "item": "reinforced-iron-plate",
-        "count": 50
+        "count": 50,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "wire",
-        "count": 1500
+        "count": 1500,
+        "item": "wire"
       },
       {
-        "item": "cable",
-        "count": 200
+        "count": 200,
+        "item": "cable"
       }
     ],
     "unlocks": [
@@ -2541,20 +2541,20 @@
     "name": "Industrial Manufacturing",
     "cost": [
       {
-        "item": "motor",
-        "count": 100
+        "count": 100,
+        "item": "motor"
       },
       {
-        "item": "plastic",
-        "count": 200
+        "count": 200,
+        "item": "plastic"
       },
       {
-        "item": "rubber",
-        "count": 200
+        "count": 200,
+        "item": "rubber"
       },
       {
-        "item": "cable",
-        "count": 1000
+        "count": 1000,
+        "item": "cable"
       }
     ],
     "unlocks": [
@@ -2582,12 +2582,12 @@
     "name": "Inflated Pocket Dimension",
     "cost": [
       {
-        "item": "alien-organs",
-        "count": 5
+        "count": 5,
+        "item": "alien-organs"
       },
       {
-        "item": "wire",
-        "count": 2000
+        "count": 2000,
+        "item": "wire"
       }
     ],
     "unlocks": [
@@ -2603,16 +2603,16 @@
     "name": "Inflated Pocket Dimension",
     "cost": [
       {
-        "item": "quickwire",
-        "count": 50
+        "count": 50,
+        "item": "quickwire"
       },
       {
-        "item": "wire",
-        "count": 500
+        "count": 500,
+        "item": "wire"
       },
       {
-        "item": "reinforced-iron-plate",
-        "count": 50
+        "count": 50,
+        "item": "reinforced-iron-plate"
       }
     ],
     "unlocks": [
@@ -2628,12 +2628,12 @@
     "name": "Inflated Pocket Dimension",
     "cost": [
       {
-        "item": "high-speed-connector",
-        "count": 50
+        "count": 50,
+        "item": "high-speed-connector"
       },
       {
-        "item": "motor",
-        "count": 50
+        "count": 50,
+        "item": "motor"
       }
     ],
     "unlocks": [
@@ -2649,12 +2649,12 @@
     "name": "Inflated Pocket Dimension",
     "cost": [
       {
-        "item": "black-powder",
-        "count": 50
+        "count": 50,
+        "item": "black-powder"
       },
       {
-        "item": "steel-beam",
-        "count": 100
+        "count": 100,
+        "item": "steel-beam"
       }
     ],
     "unlocks": [
@@ -2670,8 +2670,8 @@
     "name": "Inverted Ramp Pack",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 6
+        "count": 6,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2687,8 +2687,8 @@
     "name": "Iron Plate",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2704,8 +2704,8 @@
     "name": "Iron Rod",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2721,20 +2721,20 @@
     "name": "Jetpack",
     "cost": [
       {
-        "item": "computer",
-        "count": 25
+        "count": 25,
+        "item": "computer"
       },
       {
-        "item": "motor",
-        "count": 100
+        "count": 100,
+        "item": "motor"
       },
       {
-        "item": "plastic",
-        "count": 200
+        "count": 200,
+        "item": "plastic"
       },
       {
-        "item": "rubber",
-        "count": 200
+        "count": 200,
+        "item": "rubber"
       }
     ],
     "unlocks": [
@@ -2751,16 +2751,16 @@
     "name": "Jump Pads",
     "cost": [
       {
-        "item": "rotor",
-        "count": 50
+        "count": 50,
+        "item": "rotor"
       },
       {
-        "item": "iron-plate",
-        "count": 300
+        "count": 300,
+        "item": "iron-plate"
       },
       {
-        "item": "cable",
-        "count": 150
+        "count": 150,
+        "item": "cable"
       }
     ],
     "unlocks": [
@@ -2776,8 +2776,8 @@
     "name": "Lizard Doggo",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 100
+        "count": 100,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2793,16 +2793,16 @@
     "name": "Logistics",
     "cost": [
       {
-        "item": "iron-plate",
-        "count": 150
+        "count": 150,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 150
+        "count": 150,
+        "item": "iron-rod"
       },
       {
-        "item": "wire",
-        "count": 300
+        "count": 300,
+        "item": "wire"
       }
     ],
     "unlocks": [
@@ -2819,20 +2819,20 @@
     "name": "Logistics Mk.2",
     "cost": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 50
+        "count": 50,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 200
+        "count": 200,
+        "item": "concrete"
       },
       {
-        "item": "iron-rod",
-        "count": 300
+        "count": 300,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 300
+        "count": 300,
+        "item": "iron-plate"
       }
     ],
     "unlocks": [
@@ -2848,16 +2848,16 @@
     "name": "Logistics Mk.3",
     "cost": [
       {
-        "item": "steel-beam",
-        "count": 200
+        "count": 200,
+        "item": "steel-beam"
       },
       {
-        "item": "steel-pipe",
-        "count": 100
+        "count": 100,
+        "item": "steel-pipe"
       },
       {
-        "item": "concrete",
-        "count": 500
+        "count": 500,
+        "item": "concrete"
       }
     ],
     "unlocks": [
@@ -2873,16 +2873,16 @@
     "name": "Medical Properties",
     "cost": [
       {
-        "item": "bacon-agaric",
-        "count": 1
+        "count": 1,
+        "item": "bacon-agaric"
       },
       {
-        "item": "paleberry",
-        "count": 2
+        "count": 2,
+        "item": "paleberry"
       },
       {
-        "item": "beryl-nut",
-        "count": 3
+        "count": 3,
+        "item": "beryl-nut"
       }
     ],
     "unlocks": [],
@@ -2896,16 +2896,16 @@
     "name": "Medicinal Inhaler",
     "cost": [
       {
-        "item": "alien-organs",
-        "count": 5
+        "count": 5,
+        "item": "alien-organs"
       },
       {
-        "item": "mycelia",
-        "count": 10
+        "count": 10,
+        "item": "mycelia"
       },
       {
-        "item": "modular-frame",
-        "count": 100
+        "count": 100,
+        "item": "modular-frame"
       }
     ],
     "unlocks": [
@@ -2921,16 +2921,16 @@
     "name": "Medicinal Inhaler",
     "cost": [
       {
-        "item": "mycelia",
-        "count": 10
+        "count": 10,
+        "item": "mycelia"
       },
       {
-        "item": "reinforced-iron-plate",
-        "count": 25
+        "count": 25,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "rotor",
-        "count": 25
+        "count": 25,
+        "item": "rotor"
       }
     ],
     "unlocks": [
@@ -2946,8 +2946,8 @@
     "name": "Metal Conveyor Walls",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 7
+        "count": 7,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2963,8 +2963,8 @@
     "name": "Metal Door Walls",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 4
+        "count": 4,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2980,8 +2980,8 @@
     "name": "Modular Frame",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 4
+        "count": 4,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -2997,20 +2997,20 @@
     "name": "Monorail Train Technology",
     "cost": [
       {
-        "item": "computer",
-        "count": 50
+        "count": 50,
+        "item": "computer"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 100
+        "count": 100,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "steel-beam",
-        "count": 500
+        "count": 500,
+        "item": "steel-beam"
       },
       {
-        "item": "steel-pipe",
-        "count": 600
+        "count": 600,
+        "item": "steel-pipe"
       }
     ],
     "unlocks": [
@@ -3026,8 +3026,8 @@
     "name": "Motor",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 5
+        "count": 5,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3043,8 +3043,8 @@
     "name": "Mycelia",
     "cost": [
       {
-        "item": "mycelia",
-        "count": 5
+        "count": 5,
+        "item": "mycelia"
       }
     ],
     "unlocks": [
@@ -3060,16 +3060,16 @@
     "name": "Nobelisk Detonator",
     "cost": [
       {
-        "item": "encased-industrial-beam",
-        "count": 10
+        "count": 10,
+        "item": "encased-industrial-beam"
       },
       {
-        "item": "cable",
-        "count": 100
+        "count": 100,
+        "item": "cable"
       },
       {
-        "item": "object-scanner",
-        "count": 5
+        "count": 5,
+        "item": "object-scanner"
       }
     ],
     "unlocks": [
@@ -3085,12 +3085,12 @@
     "name": "Nobelisk Explosives",
     "cost": [
       {
-        "item": "black-powder",
-        "count": 100
+        "count": 100,
+        "item": "black-powder"
       },
       {
-        "item": "steel-pipe",
-        "count": 100
+        "count": 100,
+        "item": "steel-pipe"
       }
     ],
     "unlocks": [
@@ -3106,20 +3106,20 @@
     "name": "Nuclear Power",
     "cost": [
       {
-        "item": "ai-limiter",
-        "count": 50
+        "count": 50,
+        "item": "ai-limiter"
       },
       {
-        "item": "high-speed-connector",
-        "count": 50
+        "count": 50,
+        "item": "high-speed-connector"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 200
+        "count": 200,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "computer",
-        "count": 200
+        "count": 200,
+        "item": "computer"
       }
     ],
     "unlocks": [
@@ -3136,8 +3136,8 @@
     "name": "Nut",
     "cost": [
       {
-        "item": "beryl-nut",
-        "count": 5
+        "count": 5,
+        "item": "beryl-nut"
       }
     ],
     "unlocks": [],
@@ -3151,16 +3151,16 @@
     "name": "Nutritional Inhaler",
     "cost": [
       {
-        "item": "bacon-agaric",
-        "count": 2
+        "count": 2,
+        "item": "bacon-agaric"
       },
       {
-        "item": "paleberry",
-        "count": 4
+        "count": 4,
+        "item": "paleberry"
       },
       {
-        "item": "beryl-nut",
-        "count": 10
+        "count": 10,
+        "item": "beryl-nut"
       }
     ],
     "unlocks": [
@@ -3176,16 +3176,16 @@
     "name": "Nutritional Mixture",
     "cost": [
       {
-        "item": "stator",
-        "count": 25
+        "count": 25,
+        "item": "stator"
       },
       {
-        "item": "steel-pipe",
-        "count": 100
+        "count": 100,
+        "item": "steel-pipe"
       },
       {
-        "item": "wire",
-        "count": 500
+        "count": 500,
+        "item": "wire"
       }
     ],
     "unlocks": [],
@@ -3199,16 +3199,16 @@
     "name": "Object Scanner Improvements",
     "cost": [
       {
-        "item": "crystal-oscillator",
-        "count": 5
+        "count": 5,
+        "item": "crystal-oscillator"
       },
       {
-        "item": "stator",
-        "count": 10
+        "count": 10,
+        "item": "stator"
       },
       {
-        "item": "object-scanner",
-        "count": 1
+        "count": 1,
+        "item": "object-scanner"
       }
     ],
     "unlocks": [],
@@ -3222,16 +3222,16 @@
     "name": "Obstacle Clearing",
     "cost": [
       {
-        "item": "screw",
-        "count": 500
+        "count": 500,
+        "item": "screw"
       },
       {
-        "item": "cable",
-        "count": 100
+        "count": 100,
+        "item": "cable"
       },
       {
-        "item": "concrete",
-        "count": 100
+        "count": 100,
+        "item": "concrete"
       }
     ],
     "unlocks": [
@@ -3248,20 +3248,20 @@
     "name": "Oil Processing",
     "cost": [
       {
-        "item": "motor",
-        "count": 50
+        "count": 50,
+        "item": "motor"
       },
       {
-        "item": "encased-industrial-beam",
-        "count": 100
+        "count": 100,
+        "item": "encased-industrial-beam"
       },
       {
-        "item": "steel-pipe",
-        "count": 500
+        "count": 500,
+        "item": "steel-pipe"
       },
       {
-        "item": "copper-sheet",
-        "count": 500
+        "count": 500,
+        "item": "copper-sheet"
       }
     ],
     "unlocks": [
@@ -3291,8 +3291,8 @@
     "name": "Organic Properties",
     "cost": [
       {
-        "item": "alien-organs",
-        "count": 3
+        "count": 3,
+        "item": "alien-organs"
       }
     ],
     "unlocks": [
@@ -3308,16 +3308,16 @@
     "name": "Overclock Production",
     "cost": [
       {
-        "item": "iron-rod",
-        "count": 50
+        "count": 50,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 50
+        "count": 50,
+        "item": "iron-plate"
       },
       {
-        "item": "wire",
-        "count": 50
+        "count": 50,
+        "item": "wire"
       }
     ],
     "unlocks": [
@@ -3333,8 +3333,8 @@
     "name": "Packaged Fuel",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3350,8 +3350,8 @@
     "name": "Packaged Liquid Biofuel",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3367,8 +3367,8 @@
     "name": "Paleberry",
     "cost": [
       {
-        "item": "paleberry",
-        "count": 2
+        "count": 2,
+        "item": "paleberry"
       }
     ],
     "unlocks": [],
@@ -3382,12 +3382,12 @@
     "name": "Parachute",
     "cost": [
       {
-        "item": "fabric",
-        "count": 10
+        "count": 10,
+        "item": "fabric"
       },
       {
-        "item": "cable",
-        "count": 50
+        "count": 50,
+        "item": "cable"
       }
     ],
     "unlocks": [
@@ -3403,8 +3403,8 @@
     "name": "Parachutes",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3420,20 +3420,20 @@
     "name": "Part Assembly",
     "cost": [
       {
-        "item": "cable",
-        "count": 200
+        "count": 200,
+        "item": "cable"
       },
       {
-        "item": "iron-rod",
-        "count": 200
+        "count": 200,
+        "item": "iron-rod"
       },
       {
-        "item": "screw",
-        "count": 500
+        "count": 500,
+        "item": "screw"
       },
       {
-        "item": "iron-plate",
-        "count": 300
+        "count": 300,
+        "item": "iron-plate"
       }
     ],
     "unlocks": [
@@ -3449,8 +3449,8 @@
     "name": "Petroleum Coke",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3466,8 +3466,8 @@
     "name": "Pipeline Wall Attachments",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3483,8 +3483,8 @@
     "name": "Plastic",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3500,8 +3500,8 @@
     "name": "Polymer Resin",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3517,8 +3517,8 @@
     "name": "Power Poles MK2",
     "cost": [
       {
-        "item": "quickwire",
-        "count": 300
+        "count": 300,
+        "item": "quickwire"
       }
     ],
     "unlocks": [
@@ -3534,12 +3534,12 @@
     "name": "Power Poles MK3",
     "cost": [
       {
-        "item": "high-speed-connector",
-        "count": 100
+        "count": 100,
+        "item": "high-speed-connector"
       },
       {
-        "item": "steel-pipe",
-        "count": 200
+        "count": 200,
+        "item": "steel-pipe"
       }
     ],
     "unlocks": [
@@ -3555,8 +3555,8 @@
     "name": "Pretty Good Pioneering",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 50
+        "count": 50,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3572,12 +3572,12 @@
     "name": "Programmable Splitter",
     "cost": [
       {
-        "item": "supercomputer",
-        "count": 50
+        "count": 50,
+        "item": "supercomputer"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 50
+        "count": 50,
+        "item": "heavy-modular-frame"
       }
     ],
     "unlocks": [
@@ -3593,16 +3593,16 @@
     "name": "Prototype Cartridges",
     "cost": [
       {
-        "item": "black-powder",
-        "count": 100
+        "count": 100,
+        "item": "black-powder"
       },
       {
-        "item": "steel-pipe",
-        "count": 100
+        "count": 100,
+        "item": "steel-pipe"
       },
       {
-        "item": "beacon",
-        "count": 5
+        "count": 5,
+        "item": "beacon"
       }
     ],
     "unlocks": [],
@@ -3616,12 +3616,12 @@
     "name": "Prototype Explosives",
     "cost": [
       {
-        "item": "black-powder",
-        "count": 50
+        "count": 50,
+        "item": "black-powder"
       },
       {
-        "item": "steel-pipe",
-        "count": 50
+        "count": 50,
+        "item": "steel-pipe"
       }
     ],
     "unlocks": [],
@@ -3635,16 +3635,16 @@
     "name": "Purple Power Shards",
     "cost": [
       {
-        "item": "purple-power-slug",
-        "count": 1
+        "count": 1,
+        "item": "purple-power-slug"
       },
       {
-        "item": "modular-frame",
-        "count": 25
+        "count": 25,
+        "item": "modular-frame"
       },
       {
-        "item": "cable",
-        "count": 200
+        "count": 200,
+        "item": "cable"
       }
     ],
     "unlocks": [
@@ -3660,8 +3660,8 @@
     "name": "Quarter Pipes Pack",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 8
+        "count": 8,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3677,8 +3677,8 @@
     "name": "Quartz",
     "cost": [
       {
-        "item": "raw-quartz",
-        "count": 10
+        "count": 10,
+        "item": "raw-quartz"
       }
     ],
     "unlocks": [
@@ -3694,8 +3694,8 @@
     "name": "Quartz Crystals",
     "cost": [
       {
-        "item": "raw-quartz",
-        "count": 20
+        "count": 20,
+        "item": "raw-quartz"
       }
     ],
     "unlocks": [
@@ -3711,8 +3711,8 @@
     "name": "Quickwire",
     "cost": [
       {
-        "item": "caterium-ingot",
-        "count": 50
+        "count": 50,
+        "item": "caterium-ingot"
       }
     ],
     "unlocks": [
@@ -3728,8 +3728,8 @@
     "name": "Quickwire",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3745,16 +3745,16 @@
     "name": "Radar Technology",
     "cost": [
       {
-        "item": "crystal-oscillator",
-        "count": 100
+        "count": 100,
+        "item": "crystal-oscillator"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 50
+        "count": 50,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "beacon",
-        "count": 15
+        "count": 15,
+        "item": "beacon"
       }
     ],
     "unlocks": [
@@ -3770,8 +3770,8 @@
     "name": "Radiation Filters",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3787,12 +3787,12 @@
     "name": "Radio Control Unit",
     "cost": [
       {
-        "item": "crystal-oscillator",
-        "count": 100
+        "count": 100,
+        "item": "crystal-oscillator"
       },
       {
-        "item": "alclad-aluminum-sheet",
-        "count": 200
+        "count": 200,
+        "item": "alclad-aluminum-sheet"
       }
     ],
     "unlocks": [
@@ -3808,8 +3808,8 @@
     "name": "Radio Control Unit",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 7
+        "count": 7,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3825,16 +3825,16 @@
     "name": "Radio Signal Scanning",
     "cost": [
       {
-        "item": "crystal-oscillator",
-        "count": 50
+        "count": 50,
+        "item": "crystal-oscillator"
       },
       {
-        "item": "motor",
-        "count": 100
+        "count": 100,
+        "item": "motor"
       },
       {
-        "item": "beacon",
-        "count": 10
+        "count": 10,
+        "item": "beacon"
       }
     ],
     "unlocks": [],
@@ -3848,16 +3848,16 @@
     "name": "Rebar Gun",
     "cost": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 50
+        "count": 50,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "rotor",
-        "count": 25
+        "count": 25,
+        "item": "rotor"
       },
       {
-        "item": "screw",
-        "count": 500
+        "count": 500,
+        "item": "screw"
       }
     ],
     "unlocks": [
@@ -3873,8 +3873,8 @@
     "name": "Reinforced Iron Plate",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3890,20 +3890,20 @@
     "name": "Resource Sink Bonus Program",
     "cost": [
       {
-        "item": "concrete",
-        "count": 400
+        "count": 400,
+        "item": "concrete"
       },
       {
-        "item": "wire",
-        "count": 500
+        "count": 500,
+        "item": "wire"
       },
       {
-        "item": "iron-rod",
-        "count": 200
+        "count": 200,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 200
+        "count": 200,
+        "item": "iron-plate"
       }
     ],
     "unlocks": [
@@ -3919,16 +3919,16 @@
     "name": "Rifle Cartridges",
     "cost": [
       {
-        "item": "black-powder",
-        "count": 200
+        "count": 200,
+        "item": "black-powder"
       },
       {
-        "item": "steel-pipe",
-        "count": 200
+        "count": 200,
+        "item": "steel-pipe"
       },
       {
-        "item": "rubber",
-        "count": 200
+        "count": 200,
+        "item": "rubber"
       }
     ],
     "unlocks": [
@@ -3944,16 +3944,16 @@
     "name": "Rifle Prototype",
     "cost": [
       {
-        "item": "steel-pipe",
-        "count": 50
+        "count": 50,
+        "item": "steel-pipe"
       },
       {
-        "item": "circuit-board",
-        "count": 50
+        "count": 50,
+        "item": "circuit-board"
       },
       {
-        "item": "screw",
-        "count": 250
+        "count": 250,
+        "item": "screw"
       }
     ],
     "unlocks": [],
@@ -3967,8 +3967,8 @@
     "name": "Rotor",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -3984,8 +3984,8 @@
     "name": "Rubber",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4001,8 +4001,8 @@
     "name": "Satisfactory Pioneering",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 150
+        "count": 150,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4030,8 +4030,8 @@
     "name": "Screw",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 2
+        "count": 2,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4047,8 +4047,8 @@
     "name": "Shroom",
     "cost": [
       {
-        "item": "bacon-agaric",
-        "count": 1
+        "count": 1,
+        "item": "bacon-agaric"
       }
     ],
     "unlocks": [],
@@ -4062,8 +4062,8 @@
     "name": "Signal Technologies",
     "cost": [
       {
-        "item": "crystal-oscillator",
-        "count": 5
+        "count": 5,
+        "item": "crystal-oscillator"
       }
     ],
     "unlocks": [],
@@ -4077,8 +4077,8 @@
     "name": "Silica",
     "cost": [
       {
-        "item": "raw-quartz",
-        "count": 20
+        "count": 20,
+        "item": "raw-quartz"
       }
     ],
     "unlocks": [
@@ -4094,8 +4094,8 @@
     "name": "Silica",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4111,8 +4111,8 @@
     "name": "Silver Hog",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 50
+        "count": 50,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4128,16 +4128,16 @@
     "name": "Slug Scanning",
     "cost": [
       {
-        "item": "iron-rod",
-        "count": 50
+        "count": 50,
+        "item": "iron-rod"
       },
       {
-        "item": "wire",
-        "count": 100
+        "count": 100,
+        "item": "wire"
       },
       {
-        "item": "cable",
-        "count": 50
+        "count": 50,
+        "item": "cable"
       }
     ],
     "unlocks": [],
@@ -4151,12 +4151,12 @@
     "name": "Smart Splitter",
     "cost": [
       {
-        "item": "ai-limiter",
-        "count": 10
+        "count": 10,
+        "item": "ai-limiter"
       },
       {
-        "item": "reinforced-iron-plate",
-        "count": 50
+        "count": 50,
+        "item": "reinforced-iron-plate"
       }
     ],
     "unlocks": [
@@ -4172,12 +4172,12 @@
     "name": "Spiked Rebars",
     "cost": [
       {
-        "item": "rotor",
-        "count": 25
+        "count": 25,
+        "item": "rotor"
       },
       {
-        "item": "iron-rod",
-        "count": 200
+        "count": 200,
+        "item": "iron-rod"
       }
     ],
     "unlocks": [
@@ -4193,8 +4193,8 @@
     "name": "Stairs",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 2
+        "count": 2,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4223,8 +4223,8 @@
     "name": "Stator",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 3
+        "count": 3,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4240,8 +4240,8 @@
     "name": "Steel Beam",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4257,8 +4257,8 @@
     "name": "Steel Pipe",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4274,8 +4274,8 @@
     "name": "Structural Analysis",
     "cost": [
       {
-        "item": "alien-carapace",
-        "count": 10
+        "count": 10,
+        "item": "alien-carapace"
       }
     ],
     "unlocks": [
@@ -4291,8 +4291,8 @@
     "name": "Sulfur",
     "cost": [
       {
-        "item": "sulfur",
-        "count": 10
+        "count": 10,
+        "item": "sulfur"
       }
     ],
     "unlocks": [
@@ -4308,16 +4308,16 @@
     "name": "Super Computer",
     "cost": [
       {
-        "item": "ai-limiter",
-        "count": 50
+        "count": 50,
+        "item": "ai-limiter"
       },
       {
-        "item": "high-speed-connector",
-        "count": 50
+        "count": 50,
+        "item": "high-speed-connector"
       },
       {
-        "item": "computer",
-        "count": 50
+        "count": 50,
+        "item": "computer"
       }
     ],
     "unlocks": [
@@ -4333,8 +4333,8 @@
     "name": "Supercomputer",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 8
+        "count": 8,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4350,12 +4350,12 @@
     "name": "The Explorer",
     "cost": [
       {
-        "item": "crystal-oscillator",
-        "count": 10
+        "count": 10,
+        "item": "crystal-oscillator"
       },
       {
-        "item": "modular-frame",
-        "count": 100
+        "count": 100,
+        "item": "modular-frame"
       }
     ],
     "unlocks": [
@@ -4371,16 +4371,16 @@
     "name": "The Rifle",
     "cost": [
       {
-        "item": "steel-pipe",
-        "count": 100
+        "count": 100,
+        "item": "steel-pipe"
       },
       {
-        "item": "circuit-board",
-        "count": 100
+        "count": 100,
+        "item": "circuit-board"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 5
+        "count": 5,
+        "item": "heavy-modular-frame"
       }
     ],
     "unlocks": [
@@ -4396,8 +4396,8 @@
     "name": "Turbo Motor",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 8
+        "count": 8,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4413,20 +4413,20 @@
     "name": "Vehicular Transport",
     "cost": [
       {
-        "item": "modular-frame",
-        "count": 25
+        "count": 25,
+        "item": "modular-frame"
       },
       {
-        "item": "rotor",
-        "count": 100
+        "count": 100,
+        "item": "rotor"
       },
       {
-        "item": "cable",
-        "count": 200
+        "count": 200,
+        "item": "cable"
       },
       {
-        "item": "iron-rod",
-        "count": 400
+        "count": 400,
+        "item": "iron-rod"
       }
     ],
     "unlocks": [
@@ -4442,8 +4442,8 @@
     "name": "Volatile Applications",
     "cost": [
       {
-        "item": "black-powder",
-        "count": 50
+        "count": 50,
+        "item": "black-powder"
       }
     ],
     "unlocks": [],
@@ -4457,8 +4457,8 @@
     "name": "Walkways",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 6
+        "count": 6,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4474,8 +4474,8 @@
     "name": "Wall Power Poles MK.1",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 4
+        "count": 4,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4491,8 +4491,8 @@
     "name": "Wall Power Poles MK.2",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 5
+        "count": 5,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4508,8 +4508,8 @@
     "name": "Wall Power Poles MK.3",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 6
+        "count": 6,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4525,8 +4525,8 @@
     "name": "Windowed Walls",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 9
+        "count": 9,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4542,8 +4542,8 @@
     "name": "Wire",
     "cost": [
       {
-        "item": "--BAD REFERENCE: Desc_ResourceSinkCoupon_C--",
-        "count": 1
+        "count": 1,
+        "item": "fics-it-coupon"
       }
     ],
     "unlocks": [
@@ -4559,16 +4559,16 @@
     "name": "Yellow Power Shards",
     "cost": [
       {
-        "item": "yellow-power-slug",
-        "count": 1
+        "count": 1,
+        "item": "yellow-power-slug"
       },
       {
-        "item": "reinforced-iron-plate",
-        "count": 25
+        "count": 25,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "cable",
-        "count": 100
+        "count": 100,
+        "item": "cable"
       }
     ],
     "unlocks": [

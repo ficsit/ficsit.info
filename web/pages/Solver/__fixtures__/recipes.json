@@ -3,26 +3,26 @@
     "name": "Adaptive Control Unit",
     "ingredients": [
       {
-        "item": "automated-wiring",
-        "count": 15
+        "count": 15,
+        "item": "automated-wiring"
       },
       {
-        "item": "circuit-board",
-        "count": 10
+        "count": 10,
+        "item": "circuit-board"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 2
+        "count": 2,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "computer",
-        "count": 2
+        "count": 2,
+        "item": "computer"
       }
     ],
     "products": [
       {
-        "item": "adaptive-control-unit",
-        "count": 2
+        "count": 2,
+        "item": "adaptive-control-unit"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -35,18 +35,18 @@
     "name": "A.I. Limiter",
     "ingredients": [
       {
-        "item": "copper-sheet",
-        "count": 5
+        "count": 5,
+        "item": "copper-sheet"
       },
       {
-        "item": "quickwire",
-        "count": 20
+        "count": 20,
+        "item": "quickwire"
       }
     ],
     "products": [
       {
-        "item": "ai-limiter",
-        "count": 1
+        "count": 1,
+        "item": "ai-limiter"
       }
     ],
     "producedIn": ["assembler"],
@@ -59,18 +59,18 @@
     "name": "Alclad Aluminum Sheet",
     "ingredients": [
       {
-        "item": "aluminum-ingot",
-        "count": 8
+        "count": 8,
+        "item": "aluminum-ingot"
       },
       {
-        "item": "copper-ingot",
-        "count": 3
+        "count": 3,
+        "item": "copper-ingot"
       }
     ],
     "products": [
       {
-        "item": "alclad-aluminum-sheet",
-        "count": 4
+        "count": 4,
+        "item": "alclad-aluminum-sheet"
       }
     ],
     "producedIn": ["assembler"],
@@ -83,18 +83,18 @@
     "name": "Alternate: Adhered Iron Plate",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "rubber",
-        "count": 1
+        "count": 1,
+        "item": "rubber"
       }
     ],
     "products": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "reinforced-iron-plate"
       }
     ],
     "producedIn": ["assembler"],
@@ -108,22 +108,22 @@
     "name": "Alternate: Automated Speed Wiring",
     "ingredients": [
       {
-        "item": "stator",
-        "count": 2
+        "count": 2,
+        "item": "stator"
       },
       {
-        "item": "wire",
-        "count": 40
+        "count": 40,
+        "item": "wire"
       },
       {
-        "item": "high-speed-connector",
-        "count": 1
+        "count": 1,
+        "item": "high-speed-connector"
       }
     ],
     "products": [
       {
-        "item": "automated-wiring",
-        "count": 4
+        "count": 4,
+        "item": "automated-wiring"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -137,14 +137,14 @@
     "name": "Alternate: Biocoal",
     "ingredients": [
       {
-        "item": "biomass",
-        "count": 5
+        "count": 5,
+        "item": "biomass"
       }
     ],
     "products": [
       {
-        "item": "coal",
-        "count": 6
+        "count": 6,
+        "item": "coal"
       }
     ],
     "producedIn": ["constructor"],
@@ -158,18 +158,18 @@
     "name": "Alternate: Bolted Frame",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "screw",
-        "count": 56
+        "count": 56,
+        "item": "screw"
       }
     ],
     "products": [
       {
-        "item": "modular-frame",
-        "count": 2
+        "count": 2,
+        "item": "modular-frame"
       }
     ],
     "producedIn": ["assembler"],
@@ -183,18 +183,18 @@
     "name": "Alternate: Bolted Iron Plate",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 18
+        "count": 18,
+        "item": "iron-plate"
       },
       {
-        "item": "screw",
-        "count": 50
+        "count": 50,
+        "item": "screw"
       }
     ],
     "products": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "reinforced-iron-plate"
       }
     ],
     "producedIn": ["assembler"],
@@ -208,14 +208,14 @@
     "name": "Alternate: Casted Screw",
     "ingredients": [
       {
-        "item": "iron-ingot",
-        "count": 5
+        "count": 5,
+        "item": "iron-ingot"
       }
     ],
     "products": [
       {
-        "item": "screw",
-        "count": 20
+        "count": 20,
+        "item": "screw"
       }
     ],
     "producedIn": ["constructor"],
@@ -229,18 +229,18 @@
     "name": "Alternate: Caterium Circuit Board",
     "ingredients": [
       {
-        "item": "plastic",
-        "count": 10
+        "count": 10,
+        "item": "plastic"
       },
       {
-        "item": "quickwire",
-        "count": 30
+        "count": 30,
+        "item": "quickwire"
       }
     ],
     "products": [
       {
-        "item": "circuit-board",
-        "count": 7
+        "count": 7,
+        "item": "circuit-board"
       }
     ],
     "producedIn": ["assembler"],
@@ -254,22 +254,22 @@
     "name": "Alternate: Caterium Computer",
     "ingredients": [
       {
-        "item": "circuit-board",
-        "count": 7
+        "count": 7,
+        "item": "circuit-board"
       },
       {
-        "item": "quickwire",
-        "count": 28
+        "count": 28,
+        "item": "quickwire"
       },
       {
-        "item": "rubber",
-        "count": 12
+        "count": 12,
+        "item": "rubber"
       }
     ],
     "products": [
       {
-        "item": "computer",
-        "count": 1
+        "count": 1,
+        "item": "computer"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -283,14 +283,14 @@
     "name": "Alternate: Caterium Wire",
     "ingredients": [
       {
-        "item": "caterium-ingot",
-        "count": 1
+        "count": 1,
+        "item": "caterium-ingot"
       }
     ],
     "products": [
       {
-        "item": "wire",
-        "count": 8
+        "count": 8,
+        "item": "wire"
       }
     ],
     "producedIn": ["constructor"],
@@ -304,14 +304,14 @@
     "name": "Alternate: Charcoal",
     "ingredients": [
       {
-        "item": "wood",
-        "count": 1
+        "count": 1,
+        "item": "wood"
       }
     ],
     "products": [
       {
-        "item": "coal",
-        "count": 10
+        "count": 10,
+        "item": "coal"
       }
     ],
     "producedIn": ["constructor"],
@@ -325,18 +325,18 @@
     "name": "Alternate: Cheap Silica",
     "ingredients": [
       {
-        "item": "raw-quartz",
-        "count": 3
+        "count": 3,
+        "item": "raw-quartz"
       },
       {
-        "item": "limestone",
-        "count": 5
+        "count": 5,
+        "item": "limestone"
       }
     ],
     "products": [
       {
-        "item": "silica",
-        "count": 7
+        "count": 7,
+        "item": "silica"
       }
     ],
     "producedIn": ["assembler"],
@@ -350,18 +350,18 @@
     "name": "Alternate: Coated Cable",
     "ingredients": [
       {
-        "item": "wire",
-        "count": 5
+        "count": 5,
+        "item": "wire"
       },
       {
-        "item": "heavy-oil-residue",
-        "count": 2000
+        "count": 2,
+        "item": "heavy-oil-residue"
       }
     ],
     "products": [
       {
-        "item": "cable",
-        "count": 9
+        "count": 9,
+        "item": "cable"
       }
     ],
     "producedIn": ["refinery"],
@@ -375,18 +375,18 @@
     "name": "Alternate: Coated Iron Plate",
     "ingredients": [
       {
-        "item": "iron-ingot",
-        "count": 10
+        "count": 10,
+        "item": "iron-ingot"
       },
       {
-        "item": "plastic",
-        "count": 2
+        "count": 2,
+        "item": "plastic"
       }
     ],
     "products": [
       {
-        "item": "iron-plate",
-        "count": 15
+        "count": 15,
+        "item": "iron-plate"
       }
     ],
     "producedIn": ["assembler"],
@@ -400,18 +400,18 @@
     "name": "Alternate: Coke Steel Ingot",
     "ingredients": [
       {
-        "item": "iron-ore",
-        "count": 15
+        "count": 15,
+        "item": "iron-ore"
       },
       {
-        "item": "petroleum-coke",
-        "count": 15
+        "count": 15,
+        "item": "petroleum-coke"
       }
     ],
     "products": [
       {
-        "item": "steel-ingot",
-        "count": 20
+        "count": 20,
+        "item": "steel-ingot"
       }
     ],
     "producedIn": ["foundry"],
@@ -425,18 +425,18 @@
     "name": "Alternate: Compacted Coal",
     "ingredients": [
       {
-        "item": "coal",
-        "count": 5
+        "count": 5,
+        "item": "coal"
       },
       {
-        "item": "sulfur",
-        "count": 5
+        "count": 5,
+        "item": "sulfur"
       }
     ],
     "products": [
       {
-        "item": "compacted-coal",
-        "count": 5
+        "count": 5,
+        "item": "compacted-coal"
       }
     ],
     "producedIn": ["assembler"],
@@ -450,18 +450,18 @@
     "name": "Alternate: Compacted Steel Ingot",
     "ingredients": [
       {
-        "item": "iron-ore",
-        "count": 6
+        "count": 6,
+        "item": "iron-ore"
       },
       {
-        "item": "compacted-coal",
-        "count": 3
+        "count": 3,
+        "item": "compacted-coal"
       }
     ],
     "products": [
       {
-        "item": "steel-ingot",
-        "count": 10
+        "count": 10,
+        "item": "steel-ingot"
       }
     ],
     "producedIn": ["foundry"],
@@ -475,18 +475,18 @@
     "name": "Alternate: Copper Alloy Ingot",
     "ingredients": [
       {
-        "item": "copper-ore",
-        "count": 10
+        "count": 10,
+        "item": "copper-ore"
       },
       {
-        "item": "iron-ore",
-        "count": 5
+        "count": 5,
+        "item": "iron-ore"
       }
     ],
     "products": [
       {
-        "item": "copper-ingot",
-        "count": 20
+        "count": 20,
+        "item": "copper-ingot"
       }
     ],
     "producedIn": ["foundry"],
@@ -500,18 +500,18 @@
     "name": "Alternate: Copper Rotor",
     "ingredients": [
       {
-        "item": "copper-sheet",
-        "count": 6
+        "count": 6,
+        "item": "copper-sheet"
       },
       {
-        "item": "screw",
-        "count": 52
+        "count": 52,
+        "item": "screw"
       }
     ],
     "products": [
       {
-        "item": "rotor",
-        "count": 3
+        "count": 3,
+        "item": "rotor"
       }
     ],
     "producedIn": ["assembler"],
@@ -525,22 +525,22 @@
     "name": "Alternate: Crystal Beacon",
     "ingredients": [
       {
-        "item": "steel-beam",
-        "count": 4
+        "count": 4,
+        "item": "steel-beam"
       },
       {
-        "item": "steel-pipe",
-        "count": 16
+        "count": 16,
+        "item": "steel-pipe"
       },
       {
-        "item": "crystal-oscillator",
-        "count": 1
+        "count": 1,
+        "item": "crystal-oscillator"
       }
     ],
     "products": [
       {
-        "item": "beacon",
-        "count": 20
+        "count": 20,
+        "item": "beacon"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -554,18 +554,18 @@
     "name": "Alternate: Crystal Computer",
     "ingredients": [
       {
-        "item": "circuit-board",
-        "count": 8
+        "count": 8,
+        "item": "circuit-board"
       },
       {
-        "item": "crystal-oscillator",
-        "count": 3
+        "count": 3,
+        "item": "crystal-oscillator"
       }
     ],
     "products": [
       {
-        "item": "computer",
-        "count": 3
+        "count": 3,
+        "item": "computer"
       }
     ],
     "producedIn": ["assembler"],
@@ -579,18 +579,18 @@
     "name": "Alternate: Diluted Packaged Fuel",
     "ingredients": [
       {
-        "item": "heavy-oil-residue",
-        "count": 1000
+        "count": 1,
+        "item": "heavy-oil-residue"
       },
       {
-        "item": "packaged-water",
-        "count": 2
+        "count": 2,
+        "item": "packaged-water"
       }
     ],
     "products": [
       {
-        "item": "packaged-fuel",
-        "count": 2
+        "count": 2,
+        "item": "packaged-fuel"
       }
     ],
     "producedIn": ["refinery"],
@@ -604,22 +604,22 @@
     "name": "Alternate: Electrode - Aluminum Scrap",
     "ingredients": [
       {
-        "item": "alumina-solution",
-        "count": 3000
+        "count": 3,
+        "item": "alumina-solution"
       },
       {
-        "item": "coal",
-        "count": 1
+        "count": 1,
+        "item": "coal"
       }
     ],
     "products": [
       {
-        "item": "aluminum-scrap",
-        "count": 5
+        "count": 5,
+        "item": "aluminum-scrap"
       },
       {
-        "item": "water",
-        "count": 1000
+        "count": 1,
+        "item": "water"
       }
     ],
     "producedIn": ["refinery"],
@@ -633,18 +633,18 @@
     "name": "Alternate: Electrode Circuit Board",
     "ingredients": [
       {
-        "item": "rubber",
-        "count": 6
+        "count": 6,
+        "item": "rubber"
       },
       {
-        "item": "petroleum-coke",
-        "count": 9
+        "count": 9,
+        "item": "petroleum-coke"
       }
     ],
     "products": [
       {
-        "item": "circuit-board",
-        "count": 1
+        "count": 1,
+        "item": "circuit-board"
       }
     ],
     "producedIn": ["assembler"],
@@ -658,18 +658,18 @@
     "name": "Alternate: Electromagnetic Connection Rod",
     "ingredients": [
       {
-        "item": "stator",
-        "count": 10
+        "count": 10,
+        "item": "stator"
       },
       {
-        "item": "high-speed-connector",
-        "count": 5
+        "count": 5,
+        "item": "high-speed-connector"
       }
     ],
     "products": [
       {
-        "item": "electromagnetic-control-rod",
-        "count": 10
+        "count": 10,
+        "item": "electromagnetic-control-rod"
       }
     ],
     "producedIn": ["assembler"],
@@ -683,18 +683,18 @@
     "name": "Alternate: Encased Industrial Pipe",
     "ingredients": [
       {
-        "item": "steel-pipe",
-        "count": 7
+        "count": 7,
+        "item": "steel-pipe"
       },
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "encased-industrial-beam",
-        "count": 1
+        "count": 1,
+        "item": "encased-industrial-beam"
       }
     ],
     "producedIn": ["assembler"],
@@ -708,18 +708,18 @@
     "name": "Alternate: Fine Black Powder",
     "ingredients": [
       {
-        "item": "sulfur",
-        "count": 2
+        "count": 2,
+        "item": "sulfur"
       },
       {
-        "item": "compacted-coal",
-        "count": 1
+        "count": 1,
+        "item": "compacted-coal"
       }
     ],
     "products": [
       {
-        "item": "black-powder",
-        "count": 4
+        "count": 4,
+        "item": "black-powder"
       }
     ],
     "producedIn": ["assembler"],
@@ -733,18 +733,18 @@
     "name": "Alternate: Fine Concrete",
     "ingredients": [
       {
-        "item": "silica",
-        "count": 3
+        "count": 3,
+        "item": "silica"
       },
       {
-        "item": "limestone",
-        "count": 12
+        "count": 12,
+        "item": "limestone"
       }
     ],
     "products": [
       {
-        "item": "concrete",
-        "count": 10
+        "count": 10,
+        "item": "concrete"
       }
     ],
     "producedIn": ["assembler"],
@@ -758,22 +758,22 @@
     "name": "Alternate: Flexible Framework",
     "ingredients": [
       {
-        "item": "modular-frame",
-        "count": 1
+        "count": 1,
+        "item": "modular-frame"
       },
       {
-        "item": "steel-beam",
-        "count": 6
+        "count": 6,
+        "item": "steel-beam"
       },
       {
-        "item": "rubber",
-        "count": 8
+        "count": 8,
+        "item": "rubber"
       }
     ],
     "products": [
       {
-        "item": "versatile-framework",
-        "count": 2
+        "count": 2,
+        "item": "versatile-framework"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -787,18 +787,18 @@
     "name": "Alternate: Fused Quckwire",
     "ingredients": [
       {
-        "item": "caterium-ingot",
-        "count": 1
+        "count": 1,
+        "item": "caterium-ingot"
       },
       {
-        "item": "copper-ingot",
-        "count": 5
+        "count": 5,
+        "item": "copper-ingot"
       }
     ],
     "products": [
       {
-        "item": "quickwire",
-        "count": 12
+        "count": 12,
+        "item": "quickwire"
       }
     ],
     "producedIn": ["assembler"],
@@ -812,18 +812,18 @@
     "name": "Alternate: Fused Wire",
     "ingredients": [
       {
-        "item": "copper-ingot",
-        "count": 4
+        "count": 4,
+        "item": "copper-ingot"
       },
       {
-        "item": "caterium-ingot",
-        "count": 1
+        "count": 1,
+        "item": "caterium-ingot"
       }
     ],
     "products": [
       {
-        "item": "wire",
-        "count": 30
+        "count": 30,
+        "item": "wire"
       }
     ],
     "producedIn": ["assembler"],
@@ -837,18 +837,18 @@
     "name": "Alternate: Heat Exchanger",
     "ingredients": [
       {
-        "item": "alclad-aluminum-sheet",
-        "count": 20
+        "count": 20,
+        "item": "alclad-aluminum-sheet"
       },
       {
-        "item": "copper-sheet",
-        "count": 30
+        "count": 30,
+        "item": "copper-sheet"
       }
     ],
     "products": [
       {
-        "item": "heat-sink",
-        "count": 7
+        "count": 7,
+        "item": "heat-sink"
       }
     ],
     "producedIn": ["assembler"],
@@ -862,26 +862,26 @@
     "name": "Alternate: Heavy Encased Frame",
     "ingredients": [
       {
-        "item": "modular-frame",
-        "count": 8
+        "count": 8,
+        "item": "modular-frame"
       },
       {
-        "item": "encased-industrial-beam",
-        "count": 10
+        "count": 10,
+        "item": "encased-industrial-beam"
       },
       {
-        "item": "steel-pipe",
-        "count": 36
+        "count": 36,
+        "item": "steel-pipe"
       },
       {
-        "item": "concrete",
-        "count": 22
+        "count": 22,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "heavy-modular-frame",
-        "count": 3
+        "count": 3,
+        "item": "heavy-modular-frame"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -895,26 +895,26 @@
     "name": "Alternate: Heavy Flexible Frame",
     "ingredients": [
       {
-        "item": "modular-frame",
-        "count": 5
+        "count": 5,
+        "item": "modular-frame"
       },
       {
-        "item": "encased-industrial-beam",
-        "count": 3
+        "count": 3,
+        "item": "encased-industrial-beam"
       },
       {
-        "item": "rubber",
-        "count": 20
+        "count": 20,
+        "item": "rubber"
       },
       {
-        "item": "screw",
-        "count": 104
+        "count": 104,
+        "item": "screw"
       }
     ],
     "products": [
       {
-        "item": "heavy-modular-frame",
-        "count": 1
+        "count": 1,
+        "item": "heavy-modular-frame"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -928,18 +928,18 @@
     "name": "Alternate: Heavy Oil Residue",
     "ingredients": [
       {
-        "item": "crude-oil",
-        "count": 3000
+        "count": 3,
+        "item": "crude-oil"
       }
     ],
     "products": [
       {
-        "item": "heavy-oil-residue",
-        "count": 4000
+        "count": 4,
+        "item": "heavy-oil-residue"
       },
       {
-        "item": "polymer-resin",
-        "count": 2
+        "count": 2,
+        "item": "polymer-resin"
       }
     ],
     "producedIn": ["refinery"],
@@ -953,26 +953,26 @@
     "name": "Alternate: Infused Uranium Cell",
     "ingredients": [
       {
-        "item": "uranium-pellet",
-        "count": 40
+        "count": 40,
+        "item": "uranium-pellet"
       },
       {
-        "item": "sulfur",
-        "count": 45
+        "count": 45,
+        "item": "sulfur"
       },
       {
-        "item": "silica",
-        "count": 45
+        "count": 45,
+        "item": "silica"
       },
       {
-        "item": "quickwire",
-        "count": 75
+        "count": 75,
+        "item": "quickwire"
       }
     ],
     "products": [
       {
-        "item": "encased-uranium-cell",
-        "count": 35
+        "count": 35,
+        "item": "encased-uranium-cell"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -986,18 +986,18 @@
     "name": "Alternate: Insulated Cable",
     "ingredients": [
       {
-        "item": "wire",
-        "count": 9
+        "count": 9,
+        "item": "wire"
       },
       {
-        "item": "rubber",
-        "count": 6
+        "count": 6,
+        "item": "rubber"
       }
     ],
     "products": [
       {
-        "item": "cable",
-        "count": 20
+        "count": 20,
+        "item": "cable"
       }
     ],
     "producedIn": ["assembler"],
@@ -1011,22 +1011,22 @@
     "name": "Alternate: Insulated Crystal Oscillator",
     "ingredients": [
       {
-        "item": "quartz-crystal",
-        "count": 10
+        "count": 10,
+        "item": "quartz-crystal"
       },
       {
-        "item": "rubber",
-        "count": 7
+        "count": 7,
+        "item": "rubber"
       },
       {
-        "item": "ai-limiter",
-        "count": 1
+        "count": 1,
+        "item": "ai-limiter"
       }
     ],
     "products": [
       {
-        "item": "crystal-oscillator",
-        "count": 1
+        "count": 1,
+        "item": "crystal-oscillator"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -1040,18 +1040,18 @@
     "name": "Alternate: Iron Alloy Ingot",
     "ingredients": [
       {
-        "item": "iron-ore",
-        "count": 2
+        "count": 2,
+        "item": "iron-ore"
       },
       {
-        "item": "copper-ore",
-        "count": 2
+        "count": 2,
+        "item": "copper-ore"
       }
     ],
     "products": [
       {
-        "item": "iron-ingot",
-        "count": 5
+        "count": 5,
+        "item": "iron-ingot"
       }
     ],
     "producedIn": ["foundry"],
@@ -1065,14 +1065,14 @@
     "name": "Alternate: Iron Wire",
     "ingredients": [
       {
-        "item": "iron-ingot",
-        "count": 5
+        "count": 5,
+        "item": "iron-ingot"
       }
     ],
     "products": [
       {
-        "item": "wire",
-        "count": 9
+        "count": 9,
+        "item": "wire"
       }
     ],
     "producedIn": ["constructor"],
@@ -1086,26 +1086,26 @@
     "name": "Alternate: Nuclear Fuel Unit",
     "ingredients": [
       {
-        "item": "encased-uranium-cell",
-        "count": 50
+        "count": 50,
+        "item": "encased-uranium-cell"
       },
       {
-        "item": "electromagnetic-control-rod",
-        "count": 10
+        "count": 10,
+        "item": "electromagnetic-control-rod"
       },
       {
-        "item": "crystal-oscillator",
-        "count": 3
+        "count": 3,
+        "item": "crystal-oscillator"
       },
       {
-        "item": "beacon",
-        "count": 6
+        "count": 6,
+        "item": "beacon"
       }
     ],
     "products": [
       {
-        "item": "nuclear-fuel-rod",
-        "count": 3
+        "count": 3,
+        "item": "nuclear-fuel-rod"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -1119,22 +1119,22 @@
     "name": "Alternate: Plastic Smart Plating",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "rotor",
-        "count": 1
+        "count": 1,
+        "item": "rotor"
       },
       {
-        "item": "plastic",
-        "count": 3
+        "count": 3,
+        "item": "plastic"
       }
     ],
     "products": [
       {
-        "item": "smart-plating",
-        "count": 2
+        "count": 2,
+        "item": "smart-plating"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -1148,18 +1148,18 @@
     "name": "Alternate: Polyester Fabric",
     "ingredients": [
       {
-        "item": "polymer-resin",
-        "count": 16
+        "count": 16,
+        "item": "polymer-resin"
       },
       {
-        "item": "water",
-        "count": 10000
+        "count": 10,
+        "item": "water"
       }
     ],
     "products": [
       {
-        "item": "fabric",
-        "count": 1
+        "count": 1,
+        "item": "fabric"
       }
     ],
     "producedIn": ["refinery"],
@@ -1173,18 +1173,18 @@
     "name": "Alternate: Polymer Resin",
     "ingredients": [
       {
-        "item": "crude-oil",
-        "count": 6000
+        "count": 6,
+        "item": "crude-oil"
       }
     ],
     "products": [
       {
-        "item": "polymer-resin",
-        "count": 13
+        "count": 13,
+        "item": "polymer-resin"
       },
       {
-        "item": "heavy-oil-residue",
-        "count": 2000
+        "count": 2,
+        "item": "heavy-oil-residue"
       }
     ],
     "producedIn": ["refinery"],
@@ -1198,14 +1198,14 @@
     "name": "Alternate: Pure Aluminum Ingot",
     "ingredients": [
       {
-        "item": "aluminum-scrap",
-        "count": 12
+        "count": 12,
+        "item": "aluminum-scrap"
       }
     ],
     "products": [
       {
-        "item": "aluminum-ingot",
-        "count": 3
+        "count": 3,
+        "item": "aluminum-ingot"
       }
     ],
     "producedIn": ["smelter"],
@@ -1219,18 +1219,18 @@
     "name": "Alternate: Pure Caterium Ingot",
     "ingredients": [
       {
-        "item": "caterium-ore",
-        "count": 2
+        "count": 2,
+        "item": "caterium-ore"
       },
       {
-        "item": "water",
-        "count": 2000
+        "count": 2,
+        "item": "water"
       }
     ],
     "products": [
       {
-        "item": "caterium-ingot",
-        "count": 1
+        "count": 1,
+        "item": "caterium-ingot"
       }
     ],
     "producedIn": ["refinery"],
@@ -1244,18 +1244,18 @@
     "name": "Alternate: Pure Copper Ingot",
     "ingredients": [
       {
-        "item": "copper-ore",
-        "count": 6
+        "count": 6,
+        "item": "copper-ore"
       },
       {
-        "item": "water",
-        "count": 4000
+        "count": 4,
+        "item": "water"
       }
     ],
     "products": [
       {
-        "item": "copper-ingot",
-        "count": 15
+        "count": 15,
+        "item": "copper-ingot"
       }
     ],
     "producedIn": ["refinery"],
@@ -1269,18 +1269,18 @@
     "name": "Alternate: Pure Iron Ingot",
     "ingredients": [
       {
-        "item": "iron-ore",
-        "count": 7
+        "count": 7,
+        "item": "iron-ore"
       },
       {
-        "item": "water",
-        "count": 4000
+        "count": 4,
+        "item": "water"
       }
     ],
     "products": [
       {
-        "item": "iron-ingot",
-        "count": 13
+        "count": 13,
+        "item": "iron-ingot"
       }
     ],
     "producedIn": ["refinery"],
@@ -1294,18 +1294,18 @@
     "name": "Alternate: Pure Quartz Crystal",
     "ingredients": [
       {
-        "item": "raw-quartz",
-        "count": 9
+        "count": 9,
+        "item": "raw-quartz"
       },
       {
-        "item": "water",
-        "count": 5000
+        "count": 5,
+        "item": "water"
       }
     ],
     "products": [
       {
-        "item": "quartz-crystal",
-        "count": 7
+        "count": 7,
+        "item": "quartz-crystal"
       }
     ],
     "producedIn": ["refinery"],
@@ -1319,18 +1319,18 @@
     "name": "Alternate: Quickwire Cable",
     "ingredients": [
       {
-        "item": "quickwire",
-        "count": 3
+        "count": 3,
+        "item": "quickwire"
       },
       {
-        "item": "rubber",
-        "count": 2
+        "count": 2,
+        "item": "rubber"
       }
     ],
     "products": [
       {
-        "item": "cable",
-        "count": 11
+        "count": 11,
+        "item": "cable"
       }
     ],
     "producedIn": ["assembler"],
@@ -1344,18 +1344,18 @@
     "name": "Alternate: Quickwire Stator",
     "ingredients": [
       {
-        "item": "steel-pipe",
-        "count": 4
+        "count": 4,
+        "item": "steel-pipe"
       },
       {
-        "item": "quickwire",
-        "count": 15
+        "count": 15,
+        "item": "quickwire"
       }
     ],
     "products": [
       {
-        "item": "stator",
-        "count": 2
+        "count": 2,
+        "item": "stator"
       }
     ],
     "producedIn": ["assembler"],
@@ -1369,22 +1369,22 @@
     "name": "Alternate: Radio Control System",
     "ingredients": [
       {
-        "item": "heat-sink",
-        "count": 10
+        "count": 10,
+        "item": "heat-sink"
       },
       {
-        "item": "supercomputer",
-        "count": 1
+        "count": 1,
+        "item": "supercomputer"
       },
       {
-        "item": "quartz-crystal",
-        "count": 30
+        "count": 30,
+        "item": "quartz-crystal"
       }
     ],
     "products": [
       {
-        "item": "radio-control-unit",
-        "count": 3
+        "count": 3,
+        "item": "radio-control-unit"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -1398,18 +1398,18 @@
     "name": "Alternate: Recycled Plastic",
     "ingredients": [
       {
-        "item": "rubber",
-        "count": 6
+        "count": 6,
+        "item": "rubber"
       },
       {
-        "item": "fuel",
-        "count": 6000
+        "count": 6,
+        "item": "fuel"
       }
     ],
     "products": [
       {
-        "item": "plastic",
-        "count": 12
+        "count": 12,
+        "item": "plastic"
       }
     ],
     "producedIn": ["refinery"],
@@ -1423,18 +1423,18 @@
     "name": "Alternate: Recycled Rubber",
     "ingredients": [
       {
-        "item": "plastic",
-        "count": 6
+        "count": 6,
+        "item": "plastic"
       },
       {
-        "item": "fuel",
-        "count": 6000
+        "count": 6,
+        "item": "fuel"
       }
     ],
     "products": [
       {
-        "item": "rubber",
-        "count": 12
+        "count": 12,
+        "item": "rubber"
       }
     ],
     "producedIn": ["refinery"],
@@ -1448,22 +1448,22 @@
     "name": "Alternate: Rigour Motor",
     "ingredients": [
       {
-        "item": "rotor",
-        "count": 3
+        "count": 3,
+        "item": "rotor"
       },
       {
-        "item": "stator",
-        "count": 3
+        "count": 3,
+        "item": "stator"
       },
       {
-        "item": "crystal-oscillator",
-        "count": 1
+        "count": 1,
+        "item": "crystal-oscillator"
       }
     ],
     "products": [
       {
-        "item": "motor",
-        "count": 6
+        "count": 6,
+        "item": "motor"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -1477,18 +1477,18 @@
     "name": "Alternate: Rubber Concrete",
     "ingredients": [
       {
-        "item": "limestone",
-        "count": 10
+        "count": 10,
+        "item": "limestone"
       },
       {
-        "item": "rubber",
-        "count": 2
+        "count": 2,
+        "item": "rubber"
       }
     ],
     "products": [
       {
-        "item": "concrete",
-        "count": 9
+        "count": 9,
+        "item": "concrete"
       }
     ],
     "producedIn": ["assembler"],
@@ -1502,22 +1502,22 @@
     "name": "Alternate: Seismic Nobelisk",
     "ingredients": [
       {
-        "item": "black-powder",
-        "count": 8
+        "count": 8,
+        "item": "black-powder"
       },
       {
-        "item": "steel-pipe",
-        "count": 8
+        "count": 8,
+        "item": "steel-pipe"
       },
       {
-        "item": "crystal-oscillator",
-        "count": 1
+        "count": 1,
+        "item": "crystal-oscillator"
       }
     ],
     "products": [
       {
-        "item": "nobelisk",
-        "count": 4
+        "count": 4,
+        "item": "nobelisk"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -1531,18 +1531,18 @@
     "name": "Alternate: Silicone Circuit Board",
     "ingredients": [
       {
-        "item": "copper-sheet",
-        "count": 11
+        "count": 11,
+        "item": "copper-sheet"
       },
       {
-        "item": "silica",
-        "count": 11
+        "count": 11,
+        "item": "silica"
       }
     ],
     "products": [
       {
-        "item": "circuit-board",
-        "count": 5
+        "count": 5,
+        "item": "circuit-board"
       }
     ],
     "producedIn": ["assembler"],
@@ -1556,22 +1556,22 @@
     "name": "Alternate: Silicone High-Speed Connector",
     "ingredients": [
       {
-        "item": "quickwire",
-        "count": 60
+        "count": 60,
+        "item": "quickwire"
       },
       {
-        "item": "silica",
-        "count": 25
+        "count": 25,
+        "item": "silica"
       },
       {
-        "item": "circuit-board",
-        "count": 2
+        "count": 2,
+        "item": "circuit-board"
       }
     ],
     "products": [
       {
-        "item": "high-speed-connector",
-        "count": 2
+        "count": 2,
+        "item": "high-speed-connector"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -1585,18 +1585,18 @@
     "name": "Alternate: Solid Steel Ingot",
     "ingredients": [
       {
-        "item": "iron-ingot",
-        "count": 2
+        "count": 2,
+        "item": "iron-ingot"
       },
       {
-        "item": "coal",
-        "count": 2
+        "count": 2,
+        "item": "coal"
       }
     ],
     "products": [
       {
-        "item": "steel-ingot",
-        "count": 3
+        "count": 3,
+        "item": "steel-ingot"
       }
     ],
     "producedIn": ["foundry"],
@@ -1610,18 +1610,18 @@
     "name": "Alternate: Steamed Copper Sheet",
     "ingredients": [
       {
-        "item": "copper-ingot",
-        "count": 3
+        "count": 3,
+        "item": "copper-ingot"
       },
       {
-        "item": "water",
-        "count": 3000
+        "count": 3,
+        "item": "water"
       }
     ],
     "products": [
       {
-        "item": "copper-sheet",
-        "count": 3
+        "count": 3,
+        "item": "copper-sheet"
       }
     ],
     "producedIn": ["refinery"],
@@ -1635,18 +1635,18 @@
     "name": "Alternate: Steel Coated Plate",
     "ingredients": [
       {
-        "item": "steel-ingot",
-        "count": 3
+        "count": 3,
+        "item": "steel-ingot"
       },
       {
-        "item": "plastic",
-        "count": 2
+        "count": 2,
+        "item": "plastic"
       }
     ],
     "products": [
       {
-        "item": "iron-plate",
-        "count": 18
+        "count": 18,
+        "item": "iron-plate"
       }
     ],
     "producedIn": ["assembler"],
@@ -1660,14 +1660,14 @@
     "name": "Alternate: Steel Rod",
     "ingredients": [
       {
-        "item": "steel-ingot",
-        "count": 1
+        "count": 1,
+        "item": "steel-ingot"
       }
     ],
     "products": [
       {
-        "item": "iron-rod",
-        "count": 4
+        "count": 4,
+        "item": "iron-rod"
       }
     ],
     "producedIn": ["constructor"],
@@ -1681,18 +1681,18 @@
     "name": "Alternate: Steel Rotor",
     "ingredients": [
       {
-        "item": "steel-pipe",
-        "count": 2
+        "count": 2,
+        "item": "steel-pipe"
       },
       {
-        "item": "wire",
-        "count": 6
+        "count": 6,
+        "item": "wire"
       }
     ],
     "products": [
       {
-        "item": "rotor",
-        "count": 1
+        "count": 1,
+        "item": "rotor"
       }
     ],
     "producedIn": ["assembler"],
@@ -1706,14 +1706,14 @@
     "name": "Alternate: Steel Screw",
     "ingredients": [
       {
-        "item": "steel-beam",
-        "count": 1
+        "count": 1,
+        "item": "steel-beam"
       }
     ],
     "products": [
       {
-        "item": "screw",
-        "count": 52
+        "count": 52,
+        "item": "screw"
       }
     ],
     "producedIn": ["constructor"],
@@ -1727,18 +1727,18 @@
     "name": "Alternate: Steeled Frame",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "steel-pipe",
-        "count": 10
+        "count": 10,
+        "item": "steel-pipe"
       }
     ],
     "products": [
       {
-        "item": "modular-frame",
-        "count": 3
+        "count": 3,
+        "item": "modular-frame"
       }
     ],
     "producedIn": ["assembler"],
@@ -1752,18 +1752,18 @@
     "name": "Alternate: Stitched Iron Plate",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 10
+        "count": 10,
+        "item": "iron-plate"
       },
       {
-        "item": "wire",
-        "count": 20
+        "count": 20,
+        "item": "wire"
       }
     ],
     "products": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "reinforced-iron-plate"
       }
     ],
     "producedIn": ["assembler"],
@@ -1777,18 +1777,18 @@
     "name": "Alternate: Turbo Heavy Fuel",
     "ingredients": [
       {
-        "item": "heavy-oil-residue",
-        "count": 5000
+        "count": 5,
+        "item": "heavy-oil-residue"
       },
       {
-        "item": "compacted-coal",
-        "count": 4
+        "count": 4,
+        "item": "compacted-coal"
       }
     ],
     "products": [
       {
-        "item": "turbofuel",
-        "count": 4000
+        "count": 4,
+        "item": "turbofuel"
       }
     ],
     "producedIn": ["refinery"],
@@ -1802,26 +1802,26 @@
     "name": "Alternate: Turbo Rigour Motor",
     "ingredients": [
       {
-        "item": "motor",
-        "count": 7
+        "count": 7,
+        "item": "motor"
       },
       {
-        "item": "radio-control-unit",
-        "count": 5
+        "count": 5,
+        "item": "radio-control-unit"
       },
       {
-        "item": "ai-limiter",
-        "count": 9
+        "count": 9,
+        "item": "ai-limiter"
       },
       {
-        "item": "stator",
-        "count": 7
+        "count": 7,
+        "item": "stator"
       }
     ],
     "products": [
       {
-        "item": "turbo-motor",
-        "count": 3
+        "count": 3,
+        "item": "turbo-motor"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -1835,18 +1835,18 @@
     "name": "Alternate: Wet Concrete",
     "ingredients": [
       {
-        "item": "limestone",
-        "count": 6
+        "count": 6,
+        "item": "limestone"
       },
       {
-        "item": "water",
-        "count": 5000
+        "count": 5,
+        "item": "water"
       }
     ],
     "products": [
       {
-        "item": "concrete",
-        "count": 4
+        "count": 4,
+        "item": "concrete"
       }
     ],
     "producedIn": ["refinery"],
@@ -1860,22 +1860,22 @@
     "name": "Alumina Solution",
     "ingredients": [
       {
-        "item": "bauxite",
-        "count": 7
+        "count": 7,
+        "item": "bauxite"
       },
       {
-        "item": "water",
-        "count": 10000
+        "count": 10,
+        "item": "water"
       }
     ],
     "products": [
       {
-        "item": "alumina-solution",
-        "count": 8000
+        "count": 8,
+        "item": "alumina-solution"
       },
       {
-        "item": "silica",
-        "count": 2
+        "count": 2,
+        "item": "silica"
       }
     ],
     "producedIn": ["refinery"],
@@ -1888,18 +1888,18 @@
     "name": "Aluminum Ingot",
     "ingredients": [
       {
-        "item": "aluminum-scrap",
-        "count": 12
+        "count": 12,
+        "item": "aluminum-scrap"
       },
       {
-        "item": "silica",
-        "count": 7
+        "count": 7,
+        "item": "silica"
       }
     ],
     "products": [
       {
-        "item": "aluminum-ingot",
-        "count": 4
+        "count": 4,
+        "item": "aluminum-ingot"
       }
     ],
     "producedIn": ["foundry"],
@@ -1912,22 +1912,22 @@
     "name": "Aluminum Scrap",
     "ingredients": [
       {
-        "item": "alumina-solution",
-        "count": 4000
+        "count": 4,
+        "item": "alumina-solution"
       },
       {
-        "item": "petroleum-coke",
-        "count": 1
+        "count": 1,
+        "item": "petroleum-coke"
       }
     ],
     "products": [
       {
-        "item": "aluminum-scrap",
-        "count": 6
+        "count": 6,
+        "item": "aluminum-scrap"
       },
       {
-        "item": "water",
-        "count": 1000
+        "count": 1,
+        "item": "water"
       }
     ],
     "producedIn": ["refinery"],
@@ -1940,22 +1940,22 @@
     "name": "Assembler",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 8
+        "count": 8,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "rotor",
-        "count": 4
+        "count": 4,
+        "item": "rotor"
       },
       {
-        "item": "cable",
-        "count": 10
+        "count": 10,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "assembler",
-        "count": 1
+        "count": 1,
+        "item": "assembler"
       }
     ],
     "producedIn": [],
@@ -1969,18 +1969,18 @@
     "name": "Automated Wiring",
     "ingredients": [
       {
-        "item": "stator",
-        "count": 1
+        "count": 1,
+        "item": "stator"
       },
       {
-        "item": "cable",
-        "count": 20
+        "count": 20,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "automated-wiring",
-        "count": 1
+        "count": 1,
+        "item": "automated-wiring"
       }
     ],
     "producedIn": ["assembler"],
@@ -1993,22 +1993,22 @@
     "name": "AWESOME Shop",
     "ingredients": [
       {
-        "item": "screw",
-        "count": 200
+        "count": 200,
+        "item": "screw"
       },
       {
-        "item": "iron-plate",
-        "count": 10
+        "count": 10,
+        "item": "iron-plate"
       },
       {
-        "item": "cable",
-        "count": 10
+        "count": 10,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "awesome-shop",
-        "count": 1
+        "count": 1,
+        "item": "awesome-shop"
       }
     ],
     "producedIn": [],
@@ -2022,22 +2022,22 @@
     "name": "AWESOME Sink",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 15
+        "count": 15,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "cable",
-        "count": 30
+        "count": 30,
+        "item": "cable"
       },
       {
-        "item": "concrete",
-        "count": 45
+        "count": 45,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "awesome-sink",
-        "count": 1
+        "count": 1,
+        "item": "awesome-sink"
       }
     ],
     "producedIn": [],
@@ -2051,26 +2051,26 @@
     "name": "Battery",
     "ingredients": [
       {
-        "item": "alclad-aluminum-sheet",
-        "count": 8
+        "count": 8,
+        "item": "alclad-aluminum-sheet"
       },
       {
-        "item": "wire",
-        "count": 16
+        "count": 16,
+        "item": "wire"
       },
       {
-        "item": "sulfur",
-        "count": 20
+        "count": 20,
+        "item": "sulfur"
       },
       {
-        "item": "plastic",
-        "count": 8
+        "count": 8,
+        "item": "plastic"
       }
     ],
     "products": [
       {
-        "item": "battery",
-        "count": 3
+        "count": 3,
+        "item": "battery"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -2083,26 +2083,26 @@
     "name": "Beacon",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 1
+        "count": 1,
+        "item": "iron-rod"
       },
       {
-        "item": "wire",
-        "count": 15
+        "count": 15,
+        "item": "wire"
       },
       {
-        "item": "cable",
-        "count": 2
+        "count": 2,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "beacon",
-        "count": 1
+        "count": 1,
+        "item": "beacon"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -2115,14 +2115,14 @@
     "name": "Biomass (Alien Carapace)",
     "ingredients": [
       {
-        "item": "alien-carapace",
-        "count": 1
+        "count": 1,
+        "item": "alien-carapace"
       }
     ],
     "products": [
       {
-        "item": "biomass",
-        "count": 100
+        "count": 100,
+        "item": "biomass"
       }
     ],
     "producedIn": ["constructor"],
@@ -2135,14 +2135,14 @@
     "name": "Biomass (Alien Organs)",
     "ingredients": [
       {
-        "item": "alien-organs",
-        "count": 1
+        "count": 1,
+        "item": "alien-organs"
       }
     ],
     "products": [
       {
-        "item": "biomass",
-        "count": 200
+        "count": 200,
+        "item": "biomass"
       }
     ],
     "producedIn": ["constructor"],
@@ -2155,22 +2155,22 @@
     "name": "Biomass Burner",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 15
+        "count": 15,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 15
+        "count": 15,
+        "item": "iron-rod"
       },
       {
-        "item": "wire",
-        "count": 25
+        "count": 25,
+        "item": "wire"
       }
     ],
     "products": [
       {
-        "item": "biomass-burner",
-        "count": 1
+        "count": 1,
+        "item": "biomass-burner"
       }
     ],
     "producedIn": [],
@@ -2184,14 +2184,14 @@
     "name": "Biomass (Leaves)",
     "ingredients": [
       {
-        "item": "leaves",
-        "count": 10
+        "count": 10,
+        "item": "leaves"
       }
     ],
     "products": [
       {
-        "item": "biomass",
-        "count": 5
+        "count": 5,
+        "item": "biomass"
       }
     ],
     "producedIn": ["constructor"],
@@ -2204,14 +2204,14 @@
     "name": "Biomass (Mycelia)",
     "ingredients": [
       {
-        "item": "mycelia",
-        "count": 10
+        "count": 10,
+        "item": "mycelia"
       }
     ],
     "products": [
       {
-        "item": "biomass",
-        "count": 10
+        "count": 10,
+        "item": "biomass"
       }
     ],
     "producedIn": ["constructor"],
@@ -2224,14 +2224,14 @@
     "name": "Biomass (Wood)",
     "ingredients": [
       {
-        "item": "wood",
-        "count": 4
+        "count": 4,
+        "item": "wood"
       }
     ],
     "products": [
       {
-        "item": "biomass",
-        "count": 20
+        "count": 20,
+        "item": "biomass"
       }
     ],
     "producedIn": ["constructor"],
@@ -2244,18 +2244,18 @@
     "name": "Black Powder",
     "ingredients": [
       {
-        "item": "coal",
-        "count": 1
+        "count": 1,
+        "item": "coal"
       },
       {
-        "item": "sulfur",
-        "count": 2
+        "count": 2,
+        "item": "sulfur"
       }
     ],
     "products": [
       {
-        "item": "black-powder",
-        "count": 1
+        "count": 1,
+        "item": "black-powder"
       }
     ],
     "producedIn": ["assembler"],
@@ -2268,22 +2268,22 @@
     "name": "Blade Runners",
     "ingredients": [
       {
-        "item": "quickwire",
-        "count": 50
+        "count": 50,
+        "item": "quickwire"
       },
       {
-        "item": "modular-frame",
-        "count": 3
+        "count": 3,
+        "item": "modular-frame"
       },
       {
-        "item": "rotor",
-        "count": 3
+        "count": 3,
+        "item": "rotor"
       }
     ],
     "products": [
       {
-        "item": "blade-runners",
-        "count": 1
+        "count": 1,
+        "item": "blade-runners"
       }
     ],
     "producedIn": [],
@@ -2296,14 +2296,14 @@
     "name": "Cable",
     "ingredients": [
       {
-        "item": "wire",
-        "count": 2
+        "count": 2,
+        "item": "wire"
       }
     ],
     "products": [
       {
-        "item": "cable",
-        "count": 1
+        "count": 1,
+        "item": "cable"
       }
     ],
     "producedIn": ["constructor"],
@@ -2316,26 +2316,26 @@
     "name": "Cartridge",
     "ingredients": [
       {
-        "item": "beacon",
-        "count": 1
+        "count": 1,
+        "item": "beacon"
       },
       {
-        "item": "steel-pipe",
-        "count": 10
+        "count": 10,
+        "item": "steel-pipe"
       },
       {
-        "item": "black-powder",
-        "count": 10
+        "count": 10,
+        "item": "black-powder"
       },
       {
-        "item": "rubber",
-        "count": 10
+        "count": 10,
+        "item": "rubber"
       }
     ],
     "products": [
       {
-        "item": "cartridge",
-        "count": 5
+        "count": 5,
+        "item": "cartridge"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -2348,14 +2348,14 @@
     "name": "Caterium Ingot",
     "ingredients": [
       {
-        "item": "caterium-ore",
-        "count": 3
+        "count": 3,
+        "item": "caterium-ore"
       }
     ],
     "products": [
       {
-        "item": "caterium-ingot",
-        "count": 1
+        "count": 1,
+        "item": "caterium-ingot"
       }
     ],
     "producedIn": ["smelter"],
@@ -2368,26 +2368,26 @@
     "name": "Chainsaw",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 5
+        "count": 5,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 25
+        "count": 25,
+        "item": "iron-rod"
       },
       {
-        "item": "screw",
-        "count": 160
+        "count": 160,
+        "item": "screw"
       },
       {
-        "item": "cable",
-        "count": 15
+        "count": 15,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "chainsaw",
-        "count": 1
+        "count": 1,
+        "item": "chainsaw"
       }
     ],
     "producedIn": [],
@@ -2400,18 +2400,18 @@
     "name": "Circuit Board",
     "ingredients": [
       {
-        "item": "copper-sheet",
-        "count": 2
+        "count": 2,
+        "item": "copper-sheet"
       },
       {
-        "item": "plastic",
-        "count": 4
+        "count": 4,
+        "item": "plastic"
       }
     ],
     "products": [
       {
-        "item": "circuit-board",
-        "count": 1
+        "count": 1,
+        "item": "circuit-board"
       }
     ],
     "producedIn": ["assembler"],
@@ -2424,22 +2424,22 @@
     "name": "Coal Generator",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 20
+        "count": 20,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "rotor",
-        "count": 10
+        "count": 10,
+        "item": "rotor"
       },
       {
-        "item": "cable",
-        "count": 30
+        "count": 30,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "coal-generator",
-        "count": 1
+        "count": 1,
+        "item": "coal-generator"
       }
     ],
     "producedIn": [],
@@ -2453,14 +2453,14 @@
     "name": "Color Cartridge",
     "ingredients": [
       {
-        "item": "flower-petals",
-        "count": 25
+        "count": 25,
+        "item": "flower-petals"
       }
     ],
     "products": [
       {
-        "item": "color-cartridge",
-        "count": 50
+        "count": 50,
+        "item": "color-cartridge"
       }
     ],
     "producedIn": ["constructor"],
@@ -2473,22 +2473,22 @@
     "name": "Color Gun",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 5
+        "count": 5,
+        "item": "iron-plate"
       },
       {
-        "item": "screw",
-        "count": 80
+        "count": 80,
+        "item": "screw"
       },
       {
-        "item": "wire",
-        "count": 40
+        "count": 40,
+        "item": "wire"
       }
     ],
     "products": [
       {
-        "item": "color-gun",
-        "count": 1
+        "count": 1,
+        "item": "color-gun"
       }
     ],
     "producedIn": [],
@@ -2501,26 +2501,26 @@
     "name": "Computer",
     "ingredients": [
       {
-        "item": "circuit-board",
-        "count": 10
+        "count": 10,
+        "item": "circuit-board"
       },
       {
-        "item": "cable",
-        "count": 9
+        "count": 9,
+        "item": "cable"
       },
       {
-        "item": "plastic",
-        "count": 18
+        "count": 18,
+        "item": "plastic"
       },
       {
-        "item": "screw",
-        "count": 52
+        "count": 52,
+        "item": "screw"
       }
     ],
     "products": [
       {
-        "item": "computer",
-        "count": 1
+        "count": 1,
+        "item": "computer"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -2533,14 +2533,14 @@
     "name": "Concrete",
     "ingredients": [
       {
-        "item": "limestone",
-        "count": 3
+        "count": 3,
+        "item": "limestone"
       }
     ],
     "products": [
       {
-        "item": "concrete",
-        "count": 1
+        "count": 1,
+        "item": "concrete"
       }
     ],
     "producedIn": ["constructor"],
@@ -2553,18 +2553,18 @@
     "name": "Constructor",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "cable",
-        "count": 8
+        "count": 8,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "constructor",
-        "count": 1
+        "count": 1,
+        "item": "constructor"
       }
     ],
     "producedIn": [],
@@ -2578,14 +2578,14 @@
     "name": "Conveyor Belt",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "iron-plate"
       }
     ],
     "products": [
       {
-        "item": "conveyor-belt",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-belt"
       }
     ],
     "producedIn": [],
@@ -2599,14 +2599,14 @@
     "name": "Conveyor Belt Mk.2",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "reinforced-iron-plate"
       }
     ],
     "products": [
       {
-        "item": "conveyor-belt-mk2",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-belt-mk2"
       }
     ],
     "producedIn": [],
@@ -2620,14 +2620,14 @@
     "name": "Conveyor Belt Mk.3",
     "ingredients": [
       {
-        "item": "steel-beam",
-        "count": 1
+        "count": 1,
+        "item": "steel-beam"
       }
     ],
     "products": [
       {
-        "item": "conveyor-belt-mk3",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-belt-mk3"
       }
     ],
     "producedIn": [],
@@ -2641,14 +2641,14 @@
     "name": "Conveyor Belt Mk.4",
     "ingredients": [
       {
-        "item": "encased-industrial-beam",
-        "count": 1
+        "count": 1,
+        "item": "encased-industrial-beam"
       }
     ],
     "products": [
       {
-        "item": "conveyor-belt-mk4",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-belt-mk4"
       }
     ],
     "producedIn": [],
@@ -2662,14 +2662,14 @@
     "name": "Conveyor Belt Mk.5",
     "ingredients": [
       {
-        "item": "alclad-aluminum-sheet",
-        "count": 1
+        "count": 1,
+        "item": "alclad-aluminum-sheet"
       }
     ],
     "products": [
       {
-        "item": "conveyor-belt-mk5",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-belt-mk5"
       }
     ],
     "producedIn": [],
@@ -2683,14 +2683,14 @@
     "name": "Conveyor Lift",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "iron-plate"
       }
     ],
     "products": [
       {
-        "item": "conveyor-lift",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-lift"
       }
     ],
     "producedIn": [],
@@ -2704,14 +2704,14 @@
     "name": "Conveyor Lift Mk.2",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "reinforced-iron-plate"
       }
     ],
     "products": [
       {
-        "item": "conveyor-lift-mk2",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-lift-mk2"
       }
     ],
     "producedIn": [],
@@ -2725,14 +2725,14 @@
     "name": "Conveyor Lift Mk.3",
     "ingredients": [
       {
-        "item": "steel-beam",
-        "count": 2
+        "count": 2,
+        "item": "steel-beam"
       }
     ],
     "products": [
       {
-        "item": "conveyor-lift-mk3",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-lift-mk3"
       }
     ],
     "producedIn": [],
@@ -2746,14 +2746,14 @@
     "name": "Conveyor Lift Mk.4",
     "ingredients": [
       {
-        "item": "encased-industrial-beam",
-        "count": 2
+        "count": 2,
+        "item": "encased-industrial-beam"
       }
     ],
     "products": [
       {
-        "item": "conveyor-lift-mk4",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-lift-mk4"
       }
     ],
     "producedIn": [],
@@ -2767,14 +2767,14 @@
     "name": "Conveyor Lift Mk.5",
     "ingredients": [
       {
-        "item": "alclad-aluminum-sheet",
-        "count": 2
+        "count": 2,
+        "item": "alclad-aluminum-sheet"
       }
     ],
     "products": [
       {
-        "item": "conveyor-lift-mk5",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-lift-mk5"
       }
     ],
     "producedIn": [],
@@ -2788,18 +2788,18 @@
     "name": "Conveyor Merger",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "conveyor-merger",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-merger"
       }
     ],
     "producedIn": [],
@@ -2813,22 +2813,22 @@
     "name": "Conveyor Pole",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 1
+        "count": 1,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 1
+        "count": 1,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "conveyor-pole",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-pole"
       }
     ],
     "producedIn": [],
@@ -2842,22 +2842,22 @@
     "name": "Conveyor Pole Stackable",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 2
+        "count": 2,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "conveyor-pole-stackable",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-pole-stackable"
       }
     ],
     "producedIn": [],
@@ -2871,18 +2871,18 @@
     "name": "Conveyor Splitter",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "iron-plate"
       },
       {
-        "item": "cable",
-        "count": 2
+        "count": 2,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "conveyor-splitter",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-splitter"
       }
     ],
     "producedIn": [],
@@ -2896,22 +2896,22 @@
     "name": "Conveyor Wall Mount",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 2
+        "count": 2,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "conveyor-wall-mount",
-        "count": 1
+        "count": 1,
+        "item": "conveyor-wall-mount"
       }
     ],
     "producedIn": [],
@@ -2925,14 +2925,14 @@
     "name": "Copper Ingot",
     "ingredients": [
       {
-        "item": "copper-ore",
-        "count": 1
+        "count": 1,
+        "item": "copper-ore"
       }
     ],
     "products": [
       {
-        "item": "copper-ingot",
-        "count": 1
+        "count": 1,
+        "item": "copper-ingot"
       }
     ],
     "producedIn": ["smelter"],
@@ -2945,14 +2945,14 @@
     "name": "Copper Sheet",
     "ingredients": [
       {
-        "item": "copper-ingot",
-        "count": 2
+        "count": 2,
+        "item": "copper-ingot"
       }
     ],
     "products": [
       {
-        "item": "copper-sheet",
-        "count": 1
+        "count": 1,
+        "item": "copper-sheet"
       }
     ],
     "producedIn": ["constructor"],
@@ -2965,14 +2965,14 @@
     "name": "Corner Ramp Down 8m x 1m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 2
+        "count": 2,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "corner-ramp-down-8m-x-1m",
-        "count": 1
+        "count": 1,
+        "item": "corner-ramp-down-8m-x-1m"
       }
     ],
     "producedIn": [],
@@ -2986,14 +2986,14 @@
     "name": "Corner Ramp Down 8m x 2m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "corner-ramp-down-8m-x-2m",
-        "count": 1
+        "count": 1,
+        "item": "corner-ramp-down-8m-x-2m"
       }
     ],
     "producedIn": [],
@@ -3007,14 +3007,14 @@
     "name": "Corner Ramp Down 8m x 4m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 4
+        "count": 4,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "corner-ramp-down-8m-x-4m",
-        "count": 1
+        "count": 1,
+        "item": "corner-ramp-down-8m-x-4m"
       }
     ],
     "producedIn": [],
@@ -3028,14 +3028,14 @@
     "name": "Corner Ramp Up 8m x 1m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 2
+        "count": 2,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "corner-ramp-up-8m-x-1m",
-        "count": 1
+        "count": 1,
+        "item": "corner-ramp-up-8m-x-1m"
       }
     ],
     "producedIn": [],
@@ -3049,14 +3049,14 @@
     "name": "Corner Ramp Up 8m x 2m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "corner-ramp-up-8m-x-2m",
-        "count": 1
+        "count": 1,
+        "item": "corner-ramp-up-8m-x-2m"
       }
     ],
     "producedIn": [],
@@ -3070,14 +3070,14 @@
     "name": "Corner Ramp Up 8m x 4m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 4
+        "count": 4,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "corner-ramp-up-8m-x-4m",
-        "count": 1
+        "count": 1,
+        "item": "corner-ramp-up-8m-x-4m"
       }
     ],
     "producedIn": [],
@@ -3091,18 +3091,18 @@
     "name": "Craft Bench",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 3
+        "count": 3,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "craft-bench",
-        "count": 1
+        "count": 1,
+        "item": "craft-bench"
       }
     ],
     "producedIn": [],
@@ -3116,22 +3116,22 @@
     "name": "Crystal Oscillator",
     "ingredients": [
       {
-        "item": "quartz-crystal",
-        "count": 36
+        "count": 36,
+        "item": "quartz-crystal"
       },
       {
-        "item": "cable",
-        "count": 28
+        "count": 28,
+        "item": "cable"
       },
       {
-        "item": "reinforced-iron-plate",
-        "count": 5
+        "count": 5,
+        "item": "reinforced-iron-plate"
       }
     ],
     "products": [
       {
-        "item": "crystal-oscillator",
-        "count": 2
+        "count": 2,
+        "item": "crystal-oscillator"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -3144,14 +3144,14 @@
     "name": "Double Ramp 8m x 2m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "double-ramp-8m-x-2m",
-        "count": 1
+        "count": 1,
+        "item": "double-ramp-8m-x-2m"
       }
     ],
     "producedIn": [],
@@ -3165,14 +3165,14 @@
     "name": "Double Ramp 8m x 4m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "double-ramp-8m-x-4m",
-        "count": 1
+        "count": 1,
+        "item": "double-ramp-8m-x-4m"
       }
     ],
     "producedIn": [],
@@ -3186,14 +3186,14 @@
     "name": "Double Ramp 8m x 8m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "double-ramp-8m-x-8m",
-        "count": 1
+        "count": 1,
+        "item": "double-ramp-8m-x-8m"
       }
     ],
     "producedIn": [],
@@ -3207,18 +3207,18 @@
     "name": "Double-sided Wall Power Pole",
     "ingredients": [
       {
-        "item": "wire",
-        "count": 8
+        "count": 8,
+        "item": "wire"
       },
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "double-sided-wall-power-pole",
-        "count": 1
+        "count": 1,
+        "item": "double-sided-wall-power-pole"
       }
     ],
     "producedIn": [],
@@ -3232,18 +3232,18 @@
     "name": "Double-sided Wall Power Pole Mk.2",
     "ingredients": [
       {
-        "item": "quickwire",
-        "count": 16
+        "count": 16,
+        "item": "quickwire"
       },
       {
-        "item": "iron-rod",
-        "count": 4
+        "count": 4,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "--BAD REFERENCE: Desc_PowerPoleWallDoubleMk2_C--",
-        "count": 1
+        "count": 1,
+        "item": "--BAD REFERENCE: Desc_PowerPoleWallDoubleMk2_C--"
       }
     ],
     "producedIn": [],
@@ -3257,18 +3257,18 @@
     "name": "Double-sided Wall Power Pole Mk.3",
     "ingredients": [
       {
-        "item": "high-speed-connector",
-        "count": 6
+        "count": 6,
+        "item": "high-speed-connector"
       },
       {
-        "item": "steel-pipe",
-        "count": 6
+        "count": 6,
+        "item": "steel-pipe"
       }
     ],
     "products": [
       {
-        "item": "--BAD REFERENCE: Desc_PowerPoleWallDoubleMk3_C--",
-        "count": 1
+        "count": 1,
+        "item": "--BAD REFERENCE: Desc_PowerPoleWallDoubleMk3_C--"
       }
     ],
     "producedIn": [],
@@ -3282,18 +3282,18 @@
     "name": "Electromagnetic Control Rod",
     "ingredients": [
       {
-        "item": "stator",
-        "count": 3
+        "count": 3,
+        "item": "stator"
       },
       {
-        "item": "ai-limiter",
-        "count": 2
+        "count": 2,
+        "item": "ai-limiter"
       }
     ],
     "products": [
       {
-        "item": "electromagnetic-control-rod",
-        "count": 2
+        "count": 2,
+        "item": "electromagnetic-control-rod"
       }
     ],
     "producedIn": ["assembler"],
@@ -3306,14 +3306,14 @@
     "name": "Empty Canister",
     "ingredients": [
       {
-        "item": "plastic",
-        "count": 2
+        "count": 2,
+        "item": "plastic"
       }
     ],
     "products": [
       {
-        "item": "empty-canister",
-        "count": 4
+        "count": 4,
+        "item": "empty-canister"
       }
     ],
     "producedIn": ["constructor"],
@@ -3326,18 +3326,18 @@
     "name": "Empty Platform",
     "ingredients": [
       {
-        "item": "heavy-modular-frame",
-        "count": 6
+        "count": 6,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "concrete",
-        "count": 50
+        "count": 50,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "empty-platform",
-        "count": 1
+        "count": 1,
+        "item": "empty-platform"
       }
     ],
     "producedIn": [],
@@ -3351,18 +3351,18 @@
     "name": "Encased Industrial Beam",
     "ingredients": [
       {
-        "item": "steel-beam",
-        "count": 4
+        "count": 4,
+        "item": "steel-beam"
       },
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "encased-industrial-beam",
-        "count": 1
+        "count": 1,
+        "item": "encased-industrial-beam"
       }
     ],
     "producedIn": ["assembler"],
@@ -3375,18 +3375,18 @@
     "name": "Encased Uranium Cell",
     "ingredients": [
       {
-        "item": "uranium-pellet",
-        "count": 40
+        "count": 40,
+        "item": "uranium-pellet"
       },
       {
-        "item": "concrete",
-        "count": 9
+        "count": 9,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "encased-uranium-cell",
-        "count": 10
+        "count": 10,
+        "item": "encased-uranium-cell"
       }
     ],
     "producedIn": ["assembler"],
@@ -3399,18 +3399,18 @@
     "name": "Equipment Workshop",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 5
+        "count": 5,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 5
+        "count": 5,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "equipment-workshop",
-        "count": 1
+        "count": 1,
+        "item": "equipment-workshop"
       }
     ],
     "producedIn": [],
@@ -3424,18 +3424,18 @@
     "name": "Fabric",
     "ingredients": [
       {
-        "item": "mycelia",
-        "count": 1
+        "count": 1,
+        "item": "mycelia"
       },
       {
-        "item": "biomass",
-        "count": 5
+        "count": 5,
+        "item": "biomass"
       }
     ],
     "products": [
       {
-        "item": "fabric",
-        "count": 1
+        "count": 1,
+        "item": "fabric"
       }
     ],
     "producedIn": ["assembler"],
@@ -3448,22 +3448,22 @@
     "name": "Factory CartT",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 4
+        "count": 4,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 4
+        "count": 4,
+        "item": "iron-rod"
       },
       {
-        "item": "rotor",
-        "count": 2
+        "count": 2,
+        "item": "rotor"
       }
     ],
     "products": [
       {
-        "item": "factory-cart-t",
-        "count": 1
+        "count": 1,
+        "item": "factory-cart-t"
       }
     ],
     "producedIn": [],
@@ -3476,14 +3476,14 @@
     "name": "Fence 1",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 5
+        "count": 5,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "fence",
-        "count": 1
+        "count": 1,
+        "item": "fence"
       }
     ],
     "producedIn": [],
@@ -3497,22 +3497,22 @@
     "name": "Filter",
     "ingredients": [
       {
-        "item": "coal",
-        "count": 5
+        "count": 5,
+        "item": "coal"
       },
       {
-        "item": "rubber",
-        "count": 2
+        "count": 2,
+        "item": "rubber"
       },
       {
-        "item": "fabric",
-        "count": 2
+        "count": 2,
+        "item": "fabric"
       }
     ],
     "products": [
       {
-        "item": "filter",
-        "count": 1
+        "count": 1,
+        "item": "filter"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -3525,30 +3525,30 @@
     "name": "Fluid Freight Platform",
     "ingredients": [
       {
-        "item": "heavy-modular-frame",
-        "count": 6
+        "count": 6,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "computer",
-        "count": 2
+        "count": 2,
+        "item": "computer"
       },
       {
-        "item": "concrete",
-        "count": 50
+        "count": 50,
+        "item": "concrete"
       },
       {
-        "item": "cable",
-        "count": 25
+        "count": 25,
+        "item": "cable"
       },
       {
-        "item": "motor",
-        "count": 5
+        "count": 5,
+        "item": "motor"
       }
     ],
     "products": [
       {
-        "item": "fluid-freight-platform",
-        "count": 1
+        "count": 1,
+        "item": "fluid-freight-platform"
       }
     ],
     "producedIn": [],
@@ -3562,14 +3562,14 @@
     "name": "Foundation 8m x 1m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "foundation-8m-x-1m",
-        "count": 1
+        "count": 1,
+        "item": "foundation-8m-x-1m"
       }
     ],
     "producedIn": [],
@@ -3583,14 +3583,14 @@
     "name": "Foundation 8m x 2m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "foundation-8m-x-2m",
-        "count": 1
+        "count": 1,
+        "item": "foundation-8m-x-2m"
       }
     ],
     "producedIn": [],
@@ -3604,14 +3604,14 @@
     "name": "Foundation 8m x 4m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "foundation-8m-x-4m",
-        "count": 1
+        "count": 1,
+        "item": "foundation-8m-x-4m"
       }
     ],
     "producedIn": [],
@@ -3625,14 +3625,14 @@
     "name": "Foundation Frame",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "foundation-frame",
-        "count": 1
+        "count": 1,
+        "item": "foundation-frame"
       }
     ],
     "producedIn": [],
@@ -3646,22 +3646,22 @@
     "name": "Foundry",
     "ingredients": [
       {
-        "item": "modular-frame",
-        "count": 10
+        "count": 10,
+        "item": "modular-frame"
       },
       {
-        "item": "rotor",
-        "count": 10
+        "count": 10,
+        "item": "rotor"
       },
       {
-        "item": "concrete",
-        "count": 20
+        "count": 20,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "foundry",
-        "count": 1
+        "count": 1,
+        "item": "foundry"
       }
     ],
     "producedIn": [],
@@ -3675,30 +3675,30 @@
     "name": "Freight Platform",
     "ingredients": [
       {
-        "item": "heavy-modular-frame",
-        "count": 6
+        "count": 6,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "computer",
-        "count": 2
+        "count": 2,
+        "item": "computer"
       },
       {
-        "item": "concrete",
-        "count": 50
+        "count": 50,
+        "item": "concrete"
       },
       {
-        "item": "cable",
-        "count": 25
+        "count": 25,
+        "item": "cable"
       },
       {
-        "item": "motor",
-        "count": 5
+        "count": 5,
+        "item": "motor"
       }
     ],
     "products": [
       {
-        "item": "freight-platform",
-        "count": 1
+        "count": 1,
+        "item": "freight-platform"
       }
     ],
     "producedIn": [],
@@ -3712,18 +3712,18 @@
     "name": "Fuel",
     "ingredients": [
       {
-        "item": "crude-oil",
-        "count": 6000
+        "count": 6,
+        "item": "crude-oil"
       }
     ],
     "products": [
       {
-        "item": "fuel",
-        "count": 4000
+        "count": 4,
+        "item": "fuel"
       },
       {
-        "item": "polymer-resin",
-        "count": 3
+        "count": 3,
+        "item": "polymer-resin"
       }
     ],
     "producedIn": ["refinery"],
@@ -3736,30 +3736,30 @@
     "name": "Fuel Generator",
     "ingredients": [
       {
-        "item": "computer",
-        "count": 5
+        "count": 5,
+        "item": "computer"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 10
+        "count": 10,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "motor",
-        "count": 15
+        "count": 15,
+        "item": "motor"
       },
       {
-        "item": "rubber",
-        "count": 50
+        "count": 50,
+        "item": "rubber"
       },
       {
-        "item": "quickwire",
-        "count": 50
+        "count": 50,
+        "item": "quickwire"
       }
     ],
     "products": [
       {
-        "item": "fuel-generator",
-        "count": 1
+        "count": 1,
+        "item": "fuel-generator"
       }
     ],
     "producedIn": [],
@@ -3773,22 +3773,22 @@
     "name": "Gas mask",
     "ingredients": [
       {
-        "item": "rubber",
-        "count": 100
+        "count": 100,
+        "item": "rubber"
       },
       {
-        "item": "plastic",
-        "count": 100
+        "count": 100,
+        "item": "plastic"
       },
       {
-        "item": "fabric",
-        "count": 100
+        "count": 100,
+        "item": "fabric"
       }
     ],
     "products": [
       {
-        "item": "gas-mask",
-        "count": 1
+        "count": 1,
+        "item": "gas-mask"
       }
     ],
     "producedIn": [],
@@ -3801,18 +3801,18 @@
     "name": "Gate 8m x 4m",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "gate-8m-x-4m",
-        "count": 1
+        "count": 1,
+        "item": "gate-8m-x-4m"
       }
     ],
     "producedIn": [],
@@ -3826,30 +3826,30 @@
     "name": "Geo Thermal Generator",
     "ingredients": [
       {
-        "item": "supercomputer",
-        "count": 8
+        "count": 8,
+        "item": "supercomputer"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 16
+        "count": 16,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "high-speed-connector",
-        "count": 16
+        "count": 16,
+        "item": "high-speed-connector"
       },
       {
-        "item": "copper-sheet",
-        "count": 40
+        "count": 40,
+        "item": "copper-sheet"
       },
       {
-        "item": "rubber",
-        "count": 80
+        "count": 80,
+        "item": "rubber"
       }
     ],
     "products": [
       {
-        "item": "geo-thermal-generator",
-        "count": 1
+        "count": 1,
+        "item": "geo-thermal-generator"
       }
     ],
     "producedIn": [],
@@ -3863,14 +3863,14 @@
     "name": "Glass Foundation 8m x 1m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "glass-foundation-8m-x-1m",
-        "count": 1
+        "count": 1,
+        "item": "glass-foundation-8m-x-1m"
       }
     ],
     "producedIn": [],
@@ -3884,26 +3884,26 @@
     "name": "Hazmat Suit",
     "ingredients": [
       {
-        "item": "rubber",
-        "count": 50
+        "count": 50,
+        "item": "rubber"
       },
       {
-        "item": "plastic",
-        "count": 50
+        "count": 50,
+        "item": "plastic"
       },
       {
-        "item": "alclad-aluminum-sheet",
-        "count": 50
+        "count": 50,
+        "item": "alclad-aluminum-sheet"
       },
       {
-        "item": "fabric",
-        "count": 50
+        "count": 50,
+        "item": "fabric"
       }
     ],
     "products": [
       {
-        "item": "hazmat-suit",
-        "count": 1
+        "count": 1,
+        "item": "hazmat-suit"
       }
     ],
     "producedIn": [],
@@ -3916,18 +3916,18 @@
     "name": "Heat Sink",
     "ingredients": [
       {
-        "item": "alclad-aluminum-sheet",
-        "count": 8
+        "count": 8,
+        "item": "alclad-aluminum-sheet"
       },
       {
-        "item": "rubber",
-        "count": 14
+        "count": 14,
+        "item": "rubber"
       }
     ],
     "products": [
       {
-        "item": "heat-sink",
-        "count": 2
+        "count": 2,
+        "item": "heat-sink"
       }
     ],
     "producedIn": ["assembler"],
@@ -3940,26 +3940,26 @@
     "name": "Heavy Modular Frame",
     "ingredients": [
       {
-        "item": "modular-frame",
-        "count": 5
+        "count": 5,
+        "item": "modular-frame"
       },
       {
-        "item": "steel-pipe",
-        "count": 15
+        "count": 15,
+        "item": "steel-pipe"
       },
       {
-        "item": "encased-industrial-beam",
-        "count": 5
+        "count": 5,
+        "item": "encased-industrial-beam"
       },
       {
-        "item": "screw",
-        "count": 100
+        "count": 100,
+        "item": "screw"
       }
     ],
     "products": [
       {
-        "item": "heavy-modular-frame",
-        "count": 1
+        "count": 1,
+        "item": "heavy-modular-frame"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -3972,22 +3972,22 @@
     "name": "High-Speed Connector",
     "ingredients": [
       {
-        "item": "quickwire",
-        "count": 56
+        "count": 56,
+        "item": "quickwire"
       },
       {
-        "item": "cable",
-        "count": 10
+        "count": 10,
+        "item": "cable"
       },
       {
-        "item": "circuit-board",
-        "count": 1
+        "count": 1,
+        "item": "circuit-board"
       }
     ],
     "products": [
       {
-        "item": "high-speed-connector",
-        "count": 1
+        "count": 1,
+        "item": "high-speed-connector"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -4000,18 +4000,18 @@
     "name": "Hyper Tube",
     "ingredients": [
       {
-        "item": "copper-sheet",
-        "count": 1
+        "count": 1,
+        "item": "copper-sheet"
       },
       {
-        "item": "steel-pipe",
-        "count": 1
+        "count": 1,
+        "item": "steel-pipe"
       }
     ],
     "products": [
       {
-        "item": "hyper-tube",
-        "count": 1
+        "count": 1,
+        "item": "hyper-tube"
       }
     ],
     "producedIn": [],
@@ -4025,22 +4025,22 @@
     "name": "Hyper Tube Entrance",
     "ingredients": [
       {
-        "item": "encased-industrial-beam",
-        "count": 4
+        "count": 4,
+        "item": "encased-industrial-beam"
       },
       {
-        "item": "rotor",
-        "count": 4
+        "count": 4,
+        "item": "rotor"
       },
       {
-        "item": "steel-pipe",
-        "count": 10
+        "count": 10,
+        "item": "steel-pipe"
       }
     ],
     "products": [
       {
-        "item": "hyper-tube-entrance",
-        "count": 1
+        "count": 1,
+        "item": "hyper-tube-entrance"
       }
     ],
     "producedIn": [],
@@ -4054,18 +4054,18 @@
     "name": "Hyper Tube Support",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 2
+        "count": 2,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "hyper-tube-support",
-        "count": 1
+        "count": 1,
+        "item": "hyper-tube-support"
       }
     ],
     "producedIn": [],
@@ -4079,18 +4079,18 @@
     "name": "Hyper Tube Wall Hole",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 2
+        "count": 2,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "hyper-tube-wall-hole",
-        "count": 1
+        "count": 1,
+        "item": "hyper-tube-wall-hole"
       }
     ],
     "producedIn": [],
@@ -4104,18 +4104,18 @@
     "name": "Hyper Tube Wall Support",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 2
+        "count": 2,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "hyper-tube-wall-support",
-        "count": 1
+        "count": 1,
+        "item": "hyper-tube-wall-support"
       }
     ],
     "producedIn": [],
@@ -4129,18 +4129,18 @@
     "name": "Industrial Fluid Buffer",
     "ingredients": [
       {
-        "item": "copper-sheet",
-        "count": 10
+        "count": 10,
+        "item": "copper-sheet"
       },
       {
-        "item": "modular-frame",
-        "count": 5
+        "count": 5,
+        "item": "modular-frame"
       }
     ],
     "products": [
       {
-        "item": "industrial-fluid-buffer-1",
-        "count": 1
+        "count": 1,
+        "item": "industrial-fluid-buffer-1"
       }
     ],
     "producedIn": [],
@@ -4154,18 +4154,18 @@
     "name": "Industrial Fluid Buffer",
     "ingredients": [
       {
-        "item": "plastic",
-        "count": 30
+        "count": 30,
+        "item": "plastic"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 3
+        "count": 3,
+        "item": "heavy-modular-frame"
       }
     ],
     "products": [
       {
-        "item": "industrial-fluid-buffer-2",
-        "count": 1
+        "count": 1,
+        "item": "industrial-fluid-buffer-2"
       }
     ],
     "producedIn": [],
@@ -4179,18 +4179,18 @@
     "name": "Industrial Storage Container",
     "ingredients": [
       {
-        "item": "steel-beam",
-        "count": 20
+        "count": 20,
+        "item": "steel-beam"
       },
       {
-        "item": "steel-pipe",
-        "count": 20
+        "count": 20,
+        "item": "steel-pipe"
       }
     ],
     "products": [
       {
-        "item": "industrial-storage-container",
-        "count": 1
+        "count": 1,
+        "item": "industrial-storage-container"
       }
     ],
     "producedIn": [],
@@ -4204,14 +4204,14 @@
     "name": "Inner-Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "inner-corner-quarter-pipe",
-        "count": 1
+        "count": 1,
+        "item": "inner-corner-quarter-pipe"
       }
     ],
     "producedIn": [],
@@ -4225,14 +4225,14 @@
     "name": "Inverted Inner-Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "inverted-inner-corner-quarter-pipe",
-        "count": 1
+        "count": 1,
+        "item": "inverted-inner-corner-quarter-pipe"
       }
     ],
     "producedIn": [],
@@ -4246,14 +4246,14 @@
     "name": "Inverted Outer-Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "inverted-outer-corner-quarter-pipe",
-        "count": 1
+        "count": 1,
+        "item": "inverted-outer-corner-quarter-pipe"
       }
     ],
     "producedIn": [],
@@ -4267,14 +4267,14 @@
     "name": "Inverted Quarter Pipe",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "inverted-quarter-pipe",
-        "count": 1
+        "count": 1,
+        "item": "inverted-quarter-pipe"
       }
     ],
     "producedIn": [],
@@ -4288,14 +4288,14 @@
     "name": "Inverted Ramp 8m x 1m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "inverted-ramp-8m-x-1m",
-        "count": 1
+        "count": 1,
+        "item": "inverted-ramp-8m-x-1m"
       }
     ],
     "producedIn": [],
@@ -4309,14 +4309,14 @@
     "name": "Inverted Ramp 8m x 2m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "inverted-ramp-8m-x-2m",
-        "count": 1
+        "count": 1,
+        "item": "inverted-ramp-8m-x-2m"
       }
     ],
     "producedIn": [],
@@ -4330,14 +4330,14 @@
     "name": "Inverted Ramp 8m x 4m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "inverted-ramp-8m-x-4m",
-        "count": 1
+        "count": 1,
+        "item": "inverted-ramp-8m-x-4m"
       }
     ],
     "producedIn": [],
@@ -4351,14 +4351,14 @@
     "name": "Inverted Ramp Corner 8m x 1m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "inverted-ramp-corner-8m-x-1m",
-        "count": 1
+        "count": 1,
+        "item": "inverted-ramp-corner-8m-x-1m"
       }
     ],
     "producedIn": [],
@@ -4372,14 +4372,14 @@
     "name": "Inverted Ramp Corner 8m x 2m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "inverted-ramp-corner-8m-x-2m",
-        "count": 1
+        "count": 1,
+        "item": "inverted-ramp-corner-8m-x-2m"
       }
     ],
     "producedIn": [],
@@ -4393,14 +4393,14 @@
     "name": "Inverted Ramp Corner 8m x 4m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "inverted-ramp-corner-8m-x-4m",
-        "count": 1
+        "count": 1,
+        "item": "inverted-ramp-corner-8m-x-4m"
       }
     ],
     "producedIn": [],
@@ -4414,22 +4414,22 @@
     "name": "Iodine Infused Filter",
     "ingredients": [
       {
-        "item": "filter",
-        "count": 1
+        "count": 1,
+        "item": "filter"
       },
       {
-        "item": "quickwire",
-        "count": 8
+        "count": 8,
+        "item": "quickwire"
       },
       {
-        "item": "rubber",
-        "count": 2
+        "count": 2,
+        "item": "rubber"
       }
     ],
     "products": [
       {
-        "item": "iodine-infused-filter",
-        "count": 1
+        "count": 1,
+        "item": "iodine-infused-filter"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -4442,14 +4442,14 @@
     "name": "Iron Ingot",
     "ingredients": [
       {
-        "item": "iron-ore",
-        "count": 1
+        "count": 1,
+        "item": "iron-ore"
       }
     ],
     "products": [
       {
-        "item": "iron-ingot",
-        "count": 1
+        "count": 1,
+        "item": "iron-ingot"
       }
     ],
     "producedIn": ["smelter"],
@@ -4462,14 +4462,14 @@
     "name": "Iron Plate",
     "ingredients": [
       {
-        "item": "iron-ingot",
-        "count": 3
+        "count": 3,
+        "item": "iron-ingot"
       }
     ],
     "products": [
       {
-        "item": "iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "iron-plate"
       }
     ],
     "producedIn": ["constructor"],
@@ -4482,14 +4482,14 @@
     "name": "Iron Rod",
     "ingredients": [
       {
-        "item": "iron-ingot",
-        "count": 1
+        "count": 1,
+        "item": "iron-ingot"
       }
     ],
     "products": [
       {
-        "item": "iron-rod",
-        "count": 1
+        "count": 1,
+        "item": "iron-rod"
       }
     ],
     "producedIn": ["constructor"],
@@ -4502,26 +4502,26 @@
     "name": "Jetpack",
     "ingredients": [
       {
-        "item": "plastic",
-        "count": 50
+        "count": 50,
+        "item": "plastic"
       },
       {
-        "item": "circuit-board",
-        "count": 15
+        "count": 15,
+        "item": "circuit-board"
       },
       {
-        "item": "rubber",
-        "count": 50
+        "count": 50,
+        "item": "rubber"
       },
       {
-        "item": "cable",
-        "count": 25
+        "count": 25,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "jetpack",
-        "count": 1
+        "count": 1,
+        "item": "jetpack"
       }
     ],
     "producedIn": [],
@@ -4534,22 +4534,22 @@
     "name": "Jump Pad",
     "ingredients": [
       {
-        "item": "rotor",
-        "count": 2
+        "count": 2,
+        "item": "rotor"
       },
       {
-        "item": "iron-plate",
-        "count": 15
+        "count": 15,
+        "item": "iron-plate"
       },
       {
-        "item": "cable",
-        "count": 10
+        "count": 10,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "jump-pad",
-        "count": 1
+        "count": 1,
+        "item": "jump-pad"
       }
     ],
     "producedIn": [],
@@ -4563,18 +4563,18 @@
     "name": "Liquid Biofuel",
     "ingredients": [
       {
-        "item": "solid-biofuel",
-        "count": 6
+        "count": 6,
+        "item": "solid-biofuel"
       },
       {
-        "item": "water",
-        "count": 3000
+        "count": 3,
+        "item": "water"
       }
     ],
     "products": [
       {
-        "item": "liquid-biofuel",
-        "count": 4000
+        "count": 4,
+        "item": "liquid-biofuel"
       }
     ],
     "producedIn": ["refinery"],
@@ -4587,18 +4587,18 @@
     "name": "Lookout Tower",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 5
+        "count": 5,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 5
+        "count": 5,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "lookout-tower",
-        "count": 1
+        "count": 1,
+        "item": "lookout-tower"
       }
     ],
     "producedIn": [],
@@ -4612,22 +4612,22 @@
     "name": "M.A.M.",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 5
+        "count": 5,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "cable",
-        "count": 15
+        "count": 15,
+        "item": "cable"
       },
       {
-        "item": "wire",
-        "count": 45
+        "count": 45,
+        "item": "wire"
       }
     ],
     "products": [
       {
-        "item": "mam",
-        "count": 1
+        "count": 1,
+        "item": "mam"
       }
     ],
     "producedIn": [],
@@ -4641,26 +4641,26 @@
     "name": "Manufacturer",
     "ingredients": [
       {
-        "item": "motor",
-        "count": 5
+        "count": 5,
+        "item": "motor"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 10
+        "count": 10,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "cable",
-        "count": 50
+        "count": 50,
+        "item": "cable"
       },
       {
-        "item": "plastic",
-        "count": 50
+        "count": 50,
+        "item": "plastic"
       }
     ],
     "products": [
       {
-        "item": "manufacturer",
-        "count": 1
+        "count": 1,
+        "item": "manufacturer"
       }
     ],
     "producedIn": [],
@@ -4674,22 +4674,22 @@
     "name": "Medicinal Inhaler",
     "ingredients": [
       {
-        "item": "bacon-agaric",
-        "count": 1
+        "count": 1,
+        "item": "bacon-agaric"
       },
       {
-        "item": "paleberry",
-        "count": 3
+        "count": 3,
+        "item": "paleberry"
       },
       {
-        "item": "beryl-nut",
-        "count": 7
+        "count": 7,
+        "item": "beryl-nut"
       }
     ],
     "products": [
       {
-        "item": "medicinal-inhaler",
-        "count": 1
+        "count": 1,
+        "item": "medicinal-inhaler"
       }
     ],
     "producedIn": [],
@@ -4702,18 +4702,18 @@
     "name": "Medicinal Inhaler: Alien Organs",
     "ingredients": [
       {
-        "item": "alien-organs",
-        "count": 3
+        "count": 3,
+        "item": "alien-organs"
       },
       {
-        "item": "mycelia",
-        "count": 5
+        "count": 5,
+        "item": "mycelia"
       }
     ],
     "products": [
       {
-        "item": "medicinal-inhaler",
-        "count": 1
+        "count": 1,
+        "item": "medicinal-inhaler"
       }
     ],
     "producedIn": [],
@@ -4726,22 +4726,22 @@
     "name": "Miner Mk.1",
     "ingredients": [
       {
-        "item": "portable-miner",
-        "count": 1
+        "count": 1,
+        "item": "portable-miner"
       },
       {
-        "item": "iron-plate",
-        "count": 10
+        "count": 10,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 10
+        "count": 10,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "miner-mk1",
-        "count": 1
+        "count": 1,
+        "item": "miner-mk1"
       }
     ],
     "producedIn": [],
@@ -4755,26 +4755,26 @@
     "name": "Miner Mk.2",
     "ingredients": [
       {
-        "item": "portable-miner",
-        "count": 2
+        "count": 2,
+        "item": "portable-miner"
       },
       {
-        "item": "encased-industrial-beam",
-        "count": 10
+        "count": 10,
+        "item": "encased-industrial-beam"
       },
       {
-        "item": "steel-pipe",
-        "count": 20
+        "count": 20,
+        "item": "steel-pipe"
       },
       {
-        "item": "modular-frame",
-        "count": 10
+        "count": 10,
+        "item": "modular-frame"
       }
     ],
     "products": [
       {
-        "item": "miner-mk2",
-        "count": 1
+        "count": 1,
+        "item": "miner-mk2"
       }
     ],
     "producedIn": [],
@@ -4788,30 +4788,30 @@
     "name": "Miner Mk.3",
     "ingredients": [
       {
-        "item": "portable-miner",
-        "count": 3
+        "count": 3,
+        "item": "portable-miner"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 4
+        "count": 4,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "steel-pipe",
-        "count": 20
+        "count": 20,
+        "item": "steel-pipe"
       },
       {
-        "item": "turbo-motor",
-        "count": 5
+        "count": 5,
+        "item": "turbo-motor"
       },
       {
-        "item": "computer",
-        "count": 5
+        "count": 5,
+        "item": "computer"
       }
     ],
     "products": [
       {
-        "item": "miner-mk3",
-        "count": 1
+        "count": 1,
+        "item": "miner-mk3"
       }
     ],
     "producedIn": [],
@@ -4825,22 +4825,22 @@
     "name": "Modular Engine",
     "ingredients": [
       {
-        "item": "motor",
-        "count": 2
+        "count": 2,
+        "item": "motor"
       },
       {
-        "item": "rubber",
-        "count": 15
+        "count": 15,
+        "item": "rubber"
       },
       {
-        "item": "smart-plating",
-        "count": 2
+        "count": 2,
+        "item": "smart-plating"
       }
     ],
     "products": [
       {
-        "item": "modular-engine",
-        "count": 1
+        "count": 1,
+        "item": "modular-engine"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -4853,18 +4853,18 @@
     "name": "Modular Frame",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 12
+        "count": 12,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "modular-frame",
-        "count": 2
+        "count": 2,
+        "item": "modular-frame"
       }
     ],
     "producedIn": ["assembler"],
@@ -4877,18 +4877,18 @@
     "name": "Motor",
     "ingredients": [
       {
-        "item": "rotor",
-        "count": 2
+        "count": 2,
+        "item": "rotor"
       },
       {
-        "item": "stator",
-        "count": 2
+        "count": 2,
+        "item": "stator"
       }
     ],
     "products": [
       {
-        "item": "motor",
-        "count": 1
+        "count": 1,
+        "item": "motor"
       }
     ],
     "producedIn": ["assembler"],
@@ -4901,18 +4901,18 @@
     "name": "Nobelisk",
     "ingredients": [
       {
-        "item": "black-powder",
-        "count": 5
+        "count": 5,
+        "item": "black-powder"
       },
       {
-        "item": "steel-pipe",
-        "count": 10
+        "count": 10,
+        "item": "steel-pipe"
       }
     ],
     "products": [
       {
-        "item": "nobelisk",
-        "count": 1
+        "count": 1,
+        "item": "nobelisk"
       }
     ],
     "producedIn": ["assembler"],
@@ -4925,22 +4925,22 @@
     "name": "Nobelisk Detonator",
     "ingredients": [
       {
-        "item": "object-scanner",
-        "count": 5
+        "count": 5,
+        "item": "object-scanner"
       },
       {
-        "item": "encased-industrial-beam",
-        "count": 5
+        "count": 5,
+        "item": "encased-industrial-beam"
       },
       {
-        "item": "cable",
-        "count": 50
+        "count": 50,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "nobelisk-detonator",
-        "count": 1
+        "count": 1,
+        "item": "nobelisk-detonator"
       }
     ],
     "producedIn": [],
@@ -4953,22 +4953,22 @@
     "name": "Nuclear Fuel Rod",
     "ingredients": [
       {
-        "item": "encased-uranium-cell",
-        "count": 25
+        "count": 25,
+        "item": "encased-uranium-cell"
       },
       {
-        "item": "encased-industrial-beam",
-        "count": 3
+        "count": 3,
+        "item": "encased-industrial-beam"
       },
       {
-        "item": "electromagnetic-control-rod",
-        "count": 5
+        "count": 5,
+        "item": "electromagnetic-control-rod"
       }
     ],
     "products": [
       {
-        "item": "nuclear-fuel-rod",
-        "count": 1
+        "count": 1,
+        "item": "nuclear-fuel-rod"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -4981,30 +4981,30 @@
     "name": "Nuclear Power Plant",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 150
+        "count": 150,
+        "item": "concrete"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 10
+        "count": 10,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "supercomputer",
-        "count": 5
+        "count": 5,
+        "item": "supercomputer"
       },
       {
-        "item": "cable",
-        "count": 50
+        "count": 50,
+        "item": "cable"
       },
       {
-        "item": "high-speed-connector",
-        "count": 15
+        "count": 15,
+        "item": "high-speed-connector"
       }
     ],
     "products": [
       {
-        "item": "nuclear-power-plant",
-        "count": 1
+        "count": 1,
+        "item": "nuclear-power-plant"
       }
     ],
     "producedIn": [],
@@ -5018,26 +5018,26 @@
     "name": "Nutritional Inhaler",
     "ingredients": [
       {
-        "item": "bacon-agaric",
-        "count": 1
+        "count": 1,
+        "item": "bacon-agaric"
       },
       {
-        "item": "paleberry",
-        "count": 2
+        "count": 2,
+        "item": "paleberry"
       },
       {
-        "item": "beryl-nut",
-        "count": 3
+        "count": 3,
+        "item": "beryl-nut"
       },
       {
-        "item": "mycelia",
-        "count": 5
+        "count": 5,
+        "item": "mycelia"
       }
     ],
     "products": [
       {
-        "item": "medicinal-inhaler",
-        "count": 1
+        "count": 1,
+        "item": "medicinal-inhaler"
       }
     ],
     "producedIn": [],
@@ -5050,22 +5050,22 @@
     "name": "Object Scanner",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 4
+        "count": 4,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "beacon",
-        "count": 3
+        "count": 3,
+        "item": "beacon"
       },
       {
-        "item": "screw",
-        "count": 50
+        "count": 50,
+        "item": "screw"
       }
     ],
     "products": [
       {
-        "item": "object-scanner",
-        "count": 1
+        "count": 1,
+        "item": "object-scanner"
       }
     ],
     "producedIn": [],
@@ -5078,22 +5078,22 @@
     "name": "Oil Extractor",
     "ingredients": [
       {
-        "item": "motor",
-        "count": 15
+        "count": 15,
+        "item": "motor"
       },
       {
-        "item": "encased-industrial-beam",
-        "count": 20
+        "count": 20,
+        "item": "encased-industrial-beam"
       },
       {
-        "item": "cable",
-        "count": 60
+        "count": 60,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "oil-extractor",
-        "count": 1
+        "count": 1,
+        "item": "oil-extractor"
       }
     ],
     "producedIn": [],
@@ -5107,14 +5107,14 @@
     "name": "Outer-Corner Quarter Pipe",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "outer-corner-quarter-pipe",
-        "count": 1
+        "count": 1,
+        "item": "outer-corner-quarter-pipe"
       }
     ],
     "producedIn": [],
@@ -5128,18 +5128,18 @@
     "name": "Packaged Fuel",
     "ingredients": [
       {
-        "item": "fuel",
-        "count": 2000
+        "count": 2,
+        "item": "fuel"
       },
       {
-        "item": "empty-canister",
-        "count": 2
+        "count": 2,
+        "item": "empty-canister"
       }
     ],
     "products": [
       {
-        "item": "packaged-fuel",
-        "count": 2
+        "count": 2,
+        "item": "packaged-fuel"
       }
     ],
     "producedIn": ["refinery"],
@@ -5152,18 +5152,18 @@
     "name": "Packaged Heavy Oil Residue",
     "ingredients": [
       {
-        "item": "heavy-oil-residue",
-        "count": 2000
+        "count": 2,
+        "item": "heavy-oil-residue"
       },
       {
-        "item": "empty-canister",
-        "count": 2
+        "count": 2,
+        "item": "empty-canister"
       }
     ],
     "products": [
       {
-        "item": "packaged-heavy-oil-residue",
-        "count": 2
+        "count": 2,
+        "item": "packaged-heavy-oil-residue"
       }
     ],
     "producedIn": ["refinery"],
@@ -5176,18 +5176,18 @@
     "name": "Packaged Liquid Biofuel",
     "ingredients": [
       {
-        "item": "liquid-biofuel",
-        "count": 2000
+        "count": 2,
+        "item": "liquid-biofuel"
       },
       {
-        "item": "empty-canister",
-        "count": 2
+        "count": 2,
+        "item": "empty-canister"
       }
     ],
     "products": [
       {
-        "item": "packaged-liquid-biofuel",
-        "count": 2
+        "count": 2,
+        "item": "packaged-liquid-biofuel"
       }
     ],
     "producedIn": ["refinery"],
@@ -5200,18 +5200,18 @@
     "name": "Packaged Oil",
     "ingredients": [
       {
-        "item": "crude-oil",
-        "count": 2000
+        "count": 2,
+        "item": "crude-oil"
       },
       {
-        "item": "empty-canister",
-        "count": 2
+        "count": 2,
+        "item": "empty-canister"
       }
     ],
     "products": [
       {
-        "item": "packaged-oil",
-        "count": 2
+        "count": 2,
+        "item": "packaged-oil"
       }
     ],
     "producedIn": ["refinery"],
@@ -5224,18 +5224,18 @@
     "name": "Packaged Turbofuel",
     "ingredients": [
       {
-        "item": "turbofuel",
-        "count": 2000
+        "count": 2,
+        "item": "turbofuel"
       },
       {
-        "item": "empty-canister",
-        "count": 2
+        "count": 2,
+        "item": "empty-canister"
       }
     ],
     "products": [
       {
-        "item": "packaged-turbofuel",
-        "count": 2
+        "count": 2,
+        "item": "packaged-turbofuel"
       }
     ],
     "producedIn": ["refinery"],
@@ -5248,18 +5248,18 @@
     "name": "Packaged Water",
     "ingredients": [
       {
-        "item": "water",
-        "count": 2000
+        "count": 2,
+        "item": "water"
       },
       {
-        "item": "empty-canister",
-        "count": 2
+        "count": 2,
+        "item": "empty-canister"
       }
     ],
     "products": [
       {
-        "item": "packaged-water",
-        "count": 2
+        "count": 2,
+        "item": "packaged-water"
       }
     ],
     "producedIn": ["refinery"],
@@ -5272,18 +5272,18 @@
     "name": "Parachute",
     "ingredients": [
       {
-        "item": "fabric",
-        "count": 10
+        "count": 10,
+        "item": "fabric"
       },
       {
-        "item": "cable",
-        "count": 5
+        "count": 5,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "parachute",
-        "count": 5
+        "count": 5,
+        "item": "parachute"
       }
     ],
     "producedIn": [],
@@ -5296,18 +5296,18 @@
     "name": "Personal Storage Box",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 6
+        "count": 6,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 6
+        "count": 6,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "personal-storage-box",
-        "count": 1
+        "count": 1,
+        "item": "personal-storage-box"
       }
     ],
     "producedIn": [],
@@ -5321,14 +5321,14 @@
     "name": "Petroleum Coke",
     "ingredients": [
       {
-        "item": "heavy-oil-residue",
-        "count": 4000
+        "count": 4,
+        "item": "heavy-oil-residue"
       }
     ],
     "products": [
       {
-        "item": "petroleum-coke",
-        "count": 12
+        "count": 12,
+        "item": "petroleum-coke"
       }
     ],
     "producedIn": ["refinery"],
@@ -5341,14 +5341,14 @@
     "name": "Pillar Base",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "pillar-base",
-        "count": 1
+        "count": 1,
+        "item": "pillar-base"
       }
     ],
     "producedIn": [],
@@ -5362,14 +5362,14 @@
     "name": "Pillar Middle",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "pillar-middle",
-        "count": 1
+        "count": 1,
+        "item": "pillar-middle"
       }
     ],
     "producedIn": [],
@@ -5383,14 +5383,14 @@
     "name": "Pillar Top",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "pillar-top",
-        "count": 1
+        "count": 1,
+        "item": "pillar-top"
       }
     ],
     "producedIn": [],
@@ -5404,14 +5404,14 @@
     "name": "Pipeline",
     "ingredients": [
       {
-        "item": "copper-sheet",
-        "count": 1
+        "count": 1,
+        "item": "copper-sheet"
       }
     ],
     "products": [
       {
-        "item": "pipeline",
-        "count": 1
+        "count": 1,
+        "item": "pipeline"
       }
     ],
     "producedIn": [],
@@ -5425,14 +5425,14 @@
     "name": "Pipeline Junction Cross",
     "ingredients": [
       {
-        "item": "copper-sheet",
-        "count": 5
+        "count": 5,
+        "item": "copper-sheet"
       }
     ],
     "products": [
       {
-        "item": "pipeline-junction-cross",
-        "count": 1
+        "count": 1,
+        "item": "pipeline-junction-cross"
       }
     ],
     "producedIn": [],
@@ -5446,18 +5446,18 @@
     "name": "Pipeline Pump",
     "ingredients": [
       {
-        "item": "copper-sheet",
-        "count": 2
+        "count": 2,
+        "item": "copper-sheet"
       },
       {
-        "item": "rotor",
-        "count": 2
+        "count": 2,
+        "item": "rotor"
       }
     ],
     "products": [
       {
-        "item": "pipeline-pump",
-        "count": 1
+        "count": 1,
+        "item": "pipeline-pump"
       }
     ],
     "producedIn": [],
@@ -5471,18 +5471,18 @@
     "name": "Pipeline Support",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 2
+        "count": 2,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "pipeline-support",
-        "count": 1
+        "count": 1,
+        "item": "pipeline-support"
       }
     ],
     "producedIn": [],
@@ -5496,22 +5496,22 @@
     "name": "Pipeline Wall Hole",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 2
+        "count": 2,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "pipeline-wall-hole",
-        "count": 1
+        "count": 1,
+        "item": "pipeline-wall-hole"
       }
     ],
     "producedIn": [],
@@ -5525,22 +5525,22 @@
     "name": "Pipeline Wall Support",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 2
+        "count": 2,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "pipeline-wall-support",
-        "count": 1
+        "count": 1,
+        "item": "pipeline-wall-support"
       }
     ],
     "producedIn": [],
@@ -5554,18 +5554,18 @@
     "name": "Plastic",
     "ingredients": [
       {
-        "item": "crude-oil",
-        "count": 3000
+        "count": 3,
+        "item": "crude-oil"
       }
     ],
     "products": [
       {
-        "item": "plastic",
-        "count": 2
+        "count": 2,
+        "item": "plastic"
       },
       {
-        "item": "heavy-oil-residue",
-        "count": 1000
+        "count": 1,
+        "item": "heavy-oil-residue"
       }
     ],
     "producedIn": ["refinery"],
@@ -5578,18 +5578,18 @@
     "name": "Portable Miner",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 3
+        "count": 3,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "portable-miner",
-        "count": 1
+        "count": 1,
+        "item": "portable-miner"
       }
     ],
     "producedIn": [],
@@ -5602,14 +5602,14 @@
     "name": "Power Line",
     "ingredients": [
       {
-        "item": "cable",
-        "count": 1
+        "count": 1,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "power-line",
-        "count": 1
+        "count": 1,
+        "item": "power-line"
       }
     ],
     "producedIn": [],
@@ -5623,22 +5623,22 @@
     "name": "Power Pole",
     "ingredients": [
       {
-        "item": "wire",
-        "count": 3
+        "count": 3,
+        "item": "wire"
       },
       {
-        "item": "iron-rod",
-        "count": 1
+        "count": 1,
+        "item": "iron-rod"
       },
       {
-        "item": "concrete",
-        "count": 1
+        "count": 1,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "power-pole",
-        "count": 1
+        "count": 1,
+        "item": "power-pole"
       }
     ],
     "producedIn": [],
@@ -5652,22 +5652,22 @@
     "name": "Power Pole Mk.2",
     "ingredients": [
       {
-        "item": "quickwire",
-        "count": 6
+        "count": 6,
+        "item": "quickwire"
       },
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       },
       {
-        "item": "concrete",
-        "count": 2
+        "count": 2,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "power-pole-mk2",
-        "count": 1
+        "count": 1,
+        "item": "power-pole-mk2"
       }
     ],
     "producedIn": [],
@@ -5681,22 +5681,22 @@
     "name": "Power Pole Mk.3",
     "ingredients": [
       {
-        "item": "high-speed-connector",
-        "count": 2
+        "count": 2,
+        "item": "high-speed-connector"
       },
       {
-        "item": "steel-pipe",
-        "count": 2
+        "count": 2,
+        "item": "steel-pipe"
       },
       {
-        "item": "rubber",
-        "count": 3
+        "count": 3,
+        "item": "rubber"
       }
     ],
     "products": [
       {
-        "item": "power-pole-mk3",
-        "count": 1
+        "count": 1,
+        "item": "power-pole-mk3"
       }
     ],
     "producedIn": [],
@@ -5710,14 +5710,14 @@
     "name": "Power Shard (1)",
     "ingredients": [
       {
-        "item": "green-power-slug",
-        "count": 1
+        "count": 1,
+        "item": "green-power-slug"
       }
     ],
     "products": [
       {
-        "item": "power-shard",
-        "count": 1
+        "count": 1,
+        "item": "power-shard"
       }
     ],
     "producedIn": ["constructor"],
@@ -5730,14 +5730,14 @@
     "name": "Power Shard (2)",
     "ingredients": [
       {
-        "item": "yellow-power-slug",
-        "count": 1
+        "count": 1,
+        "item": "yellow-power-slug"
       }
     ],
     "products": [
       {
-        "item": "power-shard",
-        "count": 2
+        "count": 2,
+        "item": "power-shard"
       }
     ],
     "producedIn": ["constructor"],
@@ -5750,14 +5750,14 @@
     "name": "Power Shard (5)",
     "ingredients": [
       {
-        "item": "purple-power-slug",
-        "count": 1
+        "count": 1,
+        "item": "purple-power-slug"
       }
     ],
     "products": [
       {
-        "item": "power-shard",
-        "count": 5
+        "count": 5,
+        "item": "power-shard"
       }
     ],
     "producedIn": ["constructor"],
@@ -5770,22 +5770,22 @@
     "name": "Programmable Splitter",
     "ingredients": [
       {
-        "item": "heavy-modular-frame",
-        "count": 1
+        "count": 1,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "motor",
-        "count": 1
+        "count": 1,
+        "item": "motor"
       },
       {
-        "item": "supercomputer",
-        "count": 1
+        "count": 1,
+        "item": "supercomputer"
       }
     ],
     "products": [
       {
-        "item": "programmable-splitter",
-        "count": 1
+        "count": 1,
+        "item": "programmable-splitter"
       }
     ],
     "producedIn": [],
@@ -5799,14 +5799,14 @@
     "name": "Quarter Pipe",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 6
+        "count": 6,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "quarter-pipe",
-        "count": 1
+        "count": 1,
+        "item": "quarter-pipe"
       }
     ],
     "producedIn": [],
@@ -5820,14 +5820,14 @@
     "name": "Quartz Crystal",
     "ingredients": [
       {
-        "item": "raw-quartz",
-        "count": 5
+        "count": 5,
+        "item": "raw-quartz"
       }
     ],
     "products": [
       {
-        "item": "quartz-crystal",
-        "count": 3
+        "count": 3,
+        "item": "quartz-crystal"
       }
     ],
     "producedIn": ["constructor"],
@@ -5840,14 +5840,14 @@
     "name": "Quickwire",
     "ingredients": [
       {
-        "item": "caterium-ingot",
-        "count": 1
+        "count": 1,
+        "item": "caterium-ingot"
       }
     ],
     "products": [
       {
-        "item": "quickwire",
-        "count": 5
+        "count": 5,
+        "item": "quickwire"
       }
     ],
     "producedIn": ["constructor"],
@@ -5860,26 +5860,26 @@
     "name": "Radar Tower",
     "ingredients": [
       {
-        "item": "heavy-modular-frame",
-        "count": 30
+        "count": 30,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "crystal-oscillator",
-        "count": 30
+        "count": 30,
+        "item": "crystal-oscillator"
       },
       {
-        "item": "beacon",
-        "count": 20
+        "count": 20,
+        "item": "beacon"
       },
       {
-        "item": "cable",
-        "count": 100
+        "count": 100,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "--BAD REFERENCE: Desc_RadarTower_C--",
-        "count": 1
+        "count": 1,
+        "item": "--BAD REFERENCE: Desc_RadarTower_C--"
       }
     ],
     "producedIn": [],
@@ -5893,26 +5893,26 @@
     "name": "Radio Control Unit",
     "ingredients": [
       {
-        "item": "heat-sink",
-        "count": 4
+        "count": 4,
+        "item": "heat-sink"
       },
       {
-        "item": "rubber",
-        "count": 16
+        "count": 16,
+        "item": "rubber"
       },
       {
-        "item": "crystal-oscillator",
-        "count": 1
+        "count": 1,
+        "item": "crystal-oscillator"
       },
       {
-        "item": "computer",
-        "count": 1
+        "count": 1,
+        "item": "computer"
       }
     ],
     "products": [
       {
-        "item": "radio-control-unit",
-        "count": 1
+        "count": 1,
+        "item": "radio-control-unit"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -5925,18 +5925,18 @@
     "name": "Railway",
     "ingredients": [
       {
-        "item": "steel-pipe",
-        "count": 1
+        "count": 1,
+        "item": "steel-pipe"
       },
       {
-        "item": "steel-beam",
-        "count": 1
+        "count": 1,
+        "item": "steel-beam"
       }
     ],
     "products": [
       {
-        "item": "railway",
-        "count": 1
+        "count": 1,
+        "item": "railway"
       }
     ],
     "producedIn": [],
@@ -5950,14 +5950,14 @@
     "name": "Ramp 8m x 1m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "ramp-8m-x-1m",
-        "count": 1
+        "count": 1,
+        "item": "ramp-8m-x-1m"
       }
     ],
     "producedIn": [],
@@ -5971,14 +5971,14 @@
     "name": "Ramp 8m x 2m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 4
+        "count": 4,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "ramp-8m-x-2m",
-        "count": 1
+        "count": 1,
+        "item": "ramp-8m-x-2m"
       }
     ],
     "producedIn": [],
@@ -5992,14 +5992,14 @@
     "name": "Ramp 8m x 4m",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "ramp-8m-x-4m",
-        "count": 1
+        "count": 1,
+        "item": "ramp-8m-x-4m"
       }
     ],
     "producedIn": [],
@@ -6013,22 +6013,22 @@
     "name": "Rebar Gun",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 6
+        "count": 6,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 16
+        "count": 16,
+        "item": "iron-rod"
       },
       {
-        "item": "screw",
-        "count": 100
+        "count": 100,
+        "item": "screw"
       }
     ],
     "products": [
       {
-        "item": "rebar-gun",
-        "count": 1
+        "count": 1,
+        "item": "rebar-gun"
       }
     ],
     "producedIn": [],
@@ -6041,26 +6041,26 @@
     "name": "Refinery",
     "ingredients": [
       {
-        "item": "motor",
-        "count": 10
+        "count": 10,
+        "item": "motor"
       },
       {
-        "item": "encased-industrial-beam",
-        "count": 10
+        "count": 10,
+        "item": "encased-industrial-beam"
       },
       {
-        "item": "steel-pipe",
-        "count": 30
+        "count": 30,
+        "item": "steel-pipe"
       },
       {
-        "item": "copper-sheet",
-        "count": 20
+        "count": 20,
+        "item": "copper-sheet"
       }
     ],
     "products": [
       {
-        "item": "refinery",
-        "count": 1
+        "count": 1,
+        "item": "refinery"
       }
     ],
     "producedIn": [],
@@ -6074,18 +6074,18 @@
     "name": "Reinforced Iron Plate",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 6
+        "count": 6,
+        "item": "iron-plate"
       },
       {
-        "item": "screw",
-        "count": 12
+        "count": 12,
+        "item": "screw"
       }
     ],
     "products": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "reinforced-iron-plate"
       }
     ],
     "producedIn": ["assembler"],
@@ -6098,14 +6098,14 @@
     "name": "Residual Fuel",
     "ingredients": [
       {
-        "item": "heavy-oil-residue",
-        "count": 6000
+        "count": 6,
+        "item": "heavy-oil-residue"
       }
     ],
     "products": [
       {
-        "item": "fuel",
-        "count": 4000
+        "count": 4,
+        "item": "fuel"
       }
     ],
     "producedIn": ["refinery"],
@@ -6118,18 +6118,18 @@
     "name": "Residual Plastic",
     "ingredients": [
       {
-        "item": "polymer-resin",
-        "count": 6
+        "count": 6,
+        "item": "polymer-resin"
       },
       {
-        "item": "water",
-        "count": 2000
+        "count": 2,
+        "item": "water"
       }
     ],
     "products": [
       {
-        "item": "plastic",
-        "count": 2
+        "count": 2,
+        "item": "plastic"
       }
     ],
     "producedIn": ["refinery"],
@@ -6142,18 +6142,18 @@
     "name": "Residual Rubber",
     "ingredients": [
       {
-        "item": "polymer-resin",
-        "count": 4
+        "count": 4,
+        "item": "polymer-resin"
       },
       {
-        "item": "water",
-        "count": 4000
+        "count": 4,
+        "item": "water"
       }
     ],
     "products": [
       {
-        "item": "rubber",
-        "count": 2
+        "count": 2,
+        "item": "rubber"
       }
     ],
     "producedIn": ["refinery"],
@@ -6166,26 +6166,26 @@
     "name": "Rifle",
     "ingredients": [
       {
-        "item": "steel-pipe",
-        "count": 25
+        "count": 25,
+        "item": "steel-pipe"
       },
       {
-        "item": "heavy-modular-frame",
-        "count": 3
+        "count": 3,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "circuit-board",
-        "count": 20
+        "count": 20,
+        "item": "circuit-board"
       },
       {
-        "item": "screw",
-        "count": 250
+        "count": 250,
+        "item": "screw"
       }
     ],
     "products": [
       {
-        "item": "rifle",
-        "count": 1
+        "count": 1,
+        "item": "rifle"
       }
     ],
     "producedIn": [],
@@ -6198,18 +6198,18 @@
     "name": "Rotor",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 5
+        "count": 5,
+        "item": "iron-rod"
       },
       {
-        "item": "screw",
-        "count": 25
+        "count": 25,
+        "item": "screw"
       }
     ],
     "products": [
       {
-        "item": "rotor",
-        "count": 1
+        "count": 1,
+        "item": "rotor"
       }
     ],
     "producedIn": ["assembler"],
@@ -6222,18 +6222,18 @@
     "name": "Rubber",
     "ingredients": [
       {
-        "item": "crude-oil",
-        "count": 3000
+        "count": 3,
+        "item": "crude-oil"
       }
     ],
     "products": [
       {
-        "item": "rubber",
-        "count": 2
+        "count": 2,
+        "item": "rubber"
       },
       {
-        "item": "heavy-oil-residue",
-        "count": 2000
+        "count": 2,
+        "item": "heavy-oil-residue"
       }
     ],
     "producedIn": ["refinery"],
@@ -6246,14 +6246,14 @@
     "name": "Screw",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 1
+        "count": 1,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "screw",
-        "count": 4
+        "count": 4,
+        "item": "screw"
       }
     ],
     "producedIn": ["constructor"],
@@ -6266,14 +6266,14 @@
     "name": "Silica",
     "ingredients": [
       {
-        "item": "raw-quartz",
-        "count": 3
+        "count": 3,
+        "item": "raw-quartz"
       }
     ],
     "products": [
       {
-        "item": "silica",
-        "count": 5
+        "count": 5,
+        "item": "silica"
       }
     ],
     "producedIn": ["constructor"],
@@ -6286,18 +6286,18 @@
     "name": "Smart Plating",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "rotor",
-        "count": 1
+        "count": 1,
+        "item": "rotor"
       }
     ],
     "products": [
       {
-        "item": "smart-plating",
-        "count": 1
+        "count": 1,
+        "item": "smart-plating"
       }
     ],
     "producedIn": ["assembler"],
@@ -6310,22 +6310,22 @@
     "name": "Smart Splitter",
     "ingredients": [
       {
-        "item": "reinforced-iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "rotor",
-        "count": 2
+        "count": 2,
+        "item": "rotor"
       },
       {
-        "item": "ai-limiter",
-        "count": 1
+        "count": 1,
+        "item": "ai-limiter"
       }
     ],
     "products": [
       {
-        "item": "smart-splitter",
-        "count": 1
+        "count": 1,
+        "item": "smart-splitter"
       }
     ],
     "producedIn": [],
@@ -6339,18 +6339,18 @@
     "name": "Smelter",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 5
+        "count": 5,
+        "item": "iron-rod"
       },
       {
-        "item": "wire",
-        "count": 8
+        "count": 8,
+        "item": "wire"
       }
     ],
     "products": [
       {
-        "item": "smelter",
-        "count": 1
+        "count": 1,
+        "item": "smelter"
       }
     ],
     "producedIn": [],
@@ -6364,14 +6364,14 @@
     "name": "Solid Biofuel",
     "ingredients": [
       {
-        "item": "biomass",
-        "count": 8
+        "count": 8,
+        "item": "biomass"
       }
     ],
     "products": [
       {
-        "item": "solid-biofuel",
-        "count": 4
+        "count": 4,
+        "item": "solid-biofuel"
       }
     ],
     "producedIn": ["constructor"],
@@ -6387,26 +6387,26 @@
     "name": "Space Elevator",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 500
+        "count": 500,
+        "item": "concrete"
       },
       {
-        "item": "iron-plate",
-        "count": 250
+        "count": 250,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 400
+        "count": 400,
+        "item": "iron-rod"
       },
       {
-        "item": "wire",
-        "count": 1500
+        "count": 1500,
+        "item": "wire"
       }
     ],
     "products": [
       {
-        "item": "space-elevator",
-        "count": 1
+        "count": 1,
+        "item": "space-elevator"
       }
     ],
     "producedIn": [],
@@ -6419,14 +6419,14 @@
     "name": "Spiked Rebar",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 1
+        "count": 1,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "spiked-rebar",
-        "count": 1
+        "count": 1,
+        "item": "spiked-rebar"
       }
     ],
     "producedIn": ["constructor"],
@@ -6439,22 +6439,22 @@
     "name": "Stackable Pipeline Support",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 4
+        "count": 4,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       },
       {
-        "item": "concrete",
-        "count": 2
+        "count": 2,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "stackable-pipeline-support",
-        "count": 1
+        "count": 1,
+        "item": "stackable-pipeline-support"
       }
     ],
     "producedIn": [],
@@ -6468,18 +6468,18 @@
     "name": "Stairs",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 4
+        "count": 4,
+        "item": "concrete"
       },
       {
-        "item": "iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "iron-plate"
       }
     ],
     "products": [
       {
-        "item": "stairs",
-        "count": 1
+        "count": 1,
+        "item": "stairs"
       }
     ],
     "producedIn": [],
@@ -6493,18 +6493,18 @@
     "name": "Stairs Left",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       },
       {
-        "item": "iron-plate",
-        "count": 4
+        "count": 4,
+        "item": "iron-plate"
       }
     ],
     "products": [
       {
-        "item": "stairs-left",
-        "count": 1
+        "count": 1,
+        "item": "stairs-left"
       }
     ],
     "producedIn": [],
@@ -6518,18 +6518,18 @@
     "name": "Stairs Right",
     "ingredients": [
       {
-        "item": "concrete",
-        "count": 5
+        "count": 5,
+        "item": "concrete"
       },
       {
-        "item": "iron-plate",
-        "count": 4
+        "count": 4,
+        "item": "iron-plate"
       }
     ],
     "products": [
       {
-        "item": "stairs-right",
-        "count": 1
+        "count": 1,
+        "item": "stairs-right"
       }
     ],
     "producedIn": [],
@@ -6543,18 +6543,18 @@
     "name": "Stator",
     "ingredients": [
       {
-        "item": "steel-pipe",
-        "count": 3
+        "count": 3,
+        "item": "steel-pipe"
       },
       {
-        "item": "wire",
-        "count": 8
+        "count": 8,
+        "item": "wire"
       }
     ],
     "products": [
       {
-        "item": "stator",
-        "count": 1
+        "count": 1,
+        "item": "stator"
       }
     ],
     "producedIn": ["assembler"],
@@ -6567,14 +6567,14 @@
     "name": "Steel Beam",
     "ingredients": [
       {
-        "item": "steel-ingot",
-        "count": 4
+        "count": 4,
+        "item": "steel-ingot"
       }
     ],
     "products": [
       {
-        "item": "steel-beam",
-        "count": 1
+        "count": 1,
+        "item": "steel-beam"
       }
     ],
     "producedIn": ["constructor"],
@@ -6587,18 +6587,18 @@
     "name": "Steel Ingot",
     "ingredients": [
       {
-        "item": "iron-ore",
-        "count": 3
+        "count": 3,
+        "item": "iron-ore"
       },
       {
-        "item": "coal",
-        "count": 3
+        "count": 3,
+        "item": "coal"
       }
     ],
     "products": [
       {
-        "item": "steel-ingot",
-        "count": 3
+        "count": 3,
+        "item": "steel-ingot"
       }
     ],
     "producedIn": ["foundry"],
@@ -6611,14 +6611,14 @@
     "name": "Steel Pipe",
     "ingredients": [
       {
-        "item": "steel-ingot",
-        "count": 3
+        "count": 3,
+        "item": "steel-ingot"
       }
     ],
     "products": [
       {
-        "item": "steel-pipe",
-        "count": 2
+        "count": 2,
+        "item": "steel-pipe"
       }
     ],
     "producedIn": ["constructor"],
@@ -6631,18 +6631,18 @@
     "name": "Storage Container",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 10
+        "count": 10,
+        "item": "iron-plate"
       },
       {
-        "item": "iron-rod",
-        "count": 10
+        "count": 10,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "storage-container",
-        "count": 1
+        "count": 1,
+        "item": "storage-container"
       }
     ],
     "producedIn": [],
@@ -6656,18 +6656,18 @@
     "name": "Sulfuric Acid",
     "ingredients": [
       {
-        "item": "sulfur",
-        "count": 5
+        "count": 5,
+        "item": "sulfur"
       },
       {
-        "item": "water",
-        "count": 5000
+        "count": 5,
+        "item": "water"
       }
     ],
     "products": [
       {
-        "item": "sulfuric-acid",
-        "count": 10000
+        "count": 10,
+        "item": "sulfuric-acid"
       }
     ],
     "producedIn": ["refinery"],
@@ -6680,26 +6680,26 @@
     "name": "Supercomputer",
     "ingredients": [
       {
-        "item": "computer",
-        "count": 2
+        "count": 2,
+        "item": "computer"
       },
       {
-        "item": "ai-limiter",
-        "count": 2
+        "count": 2,
+        "item": "ai-limiter"
       },
       {
-        "item": "high-speed-connector",
-        "count": 3
+        "count": 3,
+        "item": "high-speed-connector"
       },
       {
-        "item": "plastic",
-        "count": 28
+        "count": 28,
+        "item": "plastic"
       }
     ],
     "products": [
       {
-        "item": "supercomputer",
-        "count": 1
+        "count": 1,
+        "item": "supercomputer"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -6712,14 +6712,14 @@
     "name": "The HUB",
     "ingredients": [
       {
-        "item": "hub-parts",
-        "count": 1
+        "count": 1,
+        "item": "hub-parts"
       }
     ],
     "products": [
       {
-        "item": "the-hub",
-        "count": 1
+        "count": 1,
+        "item": "the-hub"
       }
     ],
     "producedIn": [],
@@ -6733,22 +6733,22 @@
     "name": "Tilted Jump Pad",
     "ingredients": [
       {
-        "item": "rotor",
-        "count": 2
+        "count": 2,
+        "item": "rotor"
       },
       {
-        "item": "iron-plate",
-        "count": 15
+        "count": 15,
+        "item": "iron-plate"
       },
       {
-        "item": "cable",
-        "count": 10
+        "count": 10,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "tilted-jump-pad",
-        "count": 1
+        "count": 1,
+        "item": "tilted-jump-pad"
       }
     ],
     "producedIn": [],
@@ -6762,26 +6762,26 @@
     "name": "Train Station",
     "ingredients": [
       {
-        "item": "heavy-modular-frame",
-        "count": 4
+        "count": 4,
+        "item": "heavy-modular-frame"
       },
       {
-        "item": "computer",
-        "count": 8
+        "count": 8,
+        "item": "computer"
       },
       {
-        "item": "concrete",
-        "count": 50
+        "count": 50,
+        "item": "concrete"
       },
       {
-        "item": "cable",
-        "count": 25
+        "count": 25,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "train-station",
-        "count": 1
+        "count": 1,
+        "item": "train-station"
       }
     ],
     "producedIn": [],
@@ -6795,22 +6795,22 @@
     "name": "Truck Station",
     "ingredients": [
       {
-        "item": "modular-frame",
-        "count": 15
+        "count": 15,
+        "item": "modular-frame"
       },
       {
-        "item": "rotor",
-        "count": 20
+        "count": 20,
+        "item": "rotor"
       },
       {
-        "item": "cable",
-        "count": 50
+        "count": 50,
+        "item": "cable"
       }
     ],
     "products": [
       {
-        "item": "truck-station",
-        "count": 1
+        "count": 1,
+        "item": "truck-station"
       }
     ],
     "producedIn": [],
@@ -6824,26 +6824,26 @@
     "name": "Turbo Motor",
     "ingredients": [
       {
-        "item": "heat-sink",
-        "count": 4
+        "count": 4,
+        "item": "heat-sink"
       },
       {
-        "item": "radio-control-unit",
-        "count": 2
+        "count": 2,
+        "item": "radio-control-unit"
       },
       {
-        "item": "motor",
-        "count": 4
+        "count": 4,
+        "item": "motor"
       },
       {
-        "item": "rubber",
-        "count": 24
+        "count": 24,
+        "item": "rubber"
       }
     ],
     "products": [
       {
-        "item": "turbo-motor",
-        "count": 1
+        "count": 1,
+        "item": "turbo-motor"
       }
     ],
     "producedIn": ["manufacturer"],
@@ -6856,18 +6856,18 @@
     "name": "Turbofuel",
     "ingredients": [
       {
-        "item": "fuel",
-        "count": 6000
+        "count": 6,
+        "item": "fuel"
       },
       {
-        "item": "compacted-coal",
-        "count": 4
+        "count": 4,
+        "item": "compacted-coal"
       }
     ],
     "products": [
       {
-        "item": "turbofuel",
-        "count": 5000
+        "count": 5,
+        "item": "turbofuel"
       }
     ],
     "producedIn": ["refinery"],
@@ -6880,22 +6880,22 @@
     "name": "U-Jelly Landing Pad",
     "ingredients": [
       {
-        "item": "rotor",
-        "count": 2
+        "count": 2,
+        "item": "rotor"
       },
       {
-        "item": "cable",
-        "count": 20
+        "count": 20,
+        "item": "cable"
       },
       {
-        "item": "biomass",
-        "count": 200
+        "count": 200,
+        "item": "biomass"
       }
     ],
     "products": [
       {
-        "item": "u-jelly-landing-pad",
-        "count": 1
+        "count": 1,
+        "item": "u-jelly-landing-pad"
       }
     ],
     "producedIn": [],
@@ -6909,18 +6909,18 @@
     "name": "Unpackage Fuel",
     "ingredients": [
       {
-        "item": "packaged-fuel",
-        "count": 2
+        "count": 2,
+        "item": "packaged-fuel"
       }
     ],
     "products": [
       {
-        "item": "fuel",
-        "count": 2000
+        "count": 2,
+        "item": "fuel"
       },
       {
-        "item": "empty-canister",
-        "count": 2
+        "count": 2,
+        "item": "empty-canister"
       }
     ],
     "producedIn": ["refinery"],
@@ -6933,18 +6933,18 @@
     "name": "Unpackage Heavy Oil Residue",
     "ingredients": [
       {
-        "item": "packaged-heavy-oil-residue",
-        "count": 2
+        "count": 2,
+        "item": "packaged-heavy-oil-residue"
       }
     ],
     "products": [
       {
-        "item": "heavy-oil-residue",
-        "count": 2000
+        "count": 2,
+        "item": "heavy-oil-residue"
       },
       {
-        "item": "empty-canister",
-        "count": 1
+        "count": 1,
+        "item": "empty-canister"
       }
     ],
     "producedIn": ["refinery"],
@@ -6957,18 +6957,18 @@
     "name": "Unpackage Liquid Biofuel",
     "ingredients": [
       {
-        "item": "packaged-liquid-biofuel",
-        "count": 2
+        "count": 2,
+        "item": "packaged-liquid-biofuel"
       }
     ],
     "products": [
       {
-        "item": "liquid-biofuel",
-        "count": 2000
+        "count": 2,
+        "item": "liquid-biofuel"
       },
       {
-        "item": "empty-canister",
-        "count": 2
+        "count": 2,
+        "item": "empty-canister"
       }
     ],
     "producedIn": ["refinery"],
@@ -6981,18 +6981,18 @@
     "name": "Unpackage Oil",
     "ingredients": [
       {
-        "item": "packaged-oil",
-        "count": 2
+        "count": 2,
+        "item": "packaged-oil"
       }
     ],
     "products": [
       {
-        "item": "crude-oil",
-        "count": 2000
+        "count": 2,
+        "item": "crude-oil"
       },
       {
-        "item": "empty-canister",
-        "count": 2
+        "count": 2,
+        "item": "empty-canister"
       }
     ],
     "producedIn": ["refinery"],
@@ -7005,18 +7005,18 @@
     "name": "Unpackage Turbo Fuel",
     "ingredients": [
       {
-        "item": "packaged-turbofuel",
-        "count": 2
+        "count": 2,
+        "item": "packaged-turbofuel"
       }
     ],
     "products": [
       {
-        "item": "turbofuel",
-        "count": 2000
+        "count": 2,
+        "item": "turbofuel"
       },
       {
-        "item": "empty-canister",
-        "count": 2
+        "count": 2,
+        "item": "empty-canister"
       }
     ],
     "producedIn": ["refinery"],
@@ -7029,18 +7029,18 @@
     "name": "Unpackage Water",
     "ingredients": [
       {
-        "item": "packaged-water",
-        "count": 2
+        "count": 2,
+        "item": "packaged-water"
       }
     ],
     "products": [
       {
-        "item": "water",
-        "count": 2000
+        "count": 2,
+        "item": "water"
       },
       {
-        "item": "empty-canister",
-        "count": 2
+        "count": 2,
+        "item": "empty-canister"
       }
     ],
     "producedIn": ["refinery"],
@@ -7053,22 +7053,22 @@
     "name": "Uranium Pellet",
     "ingredients": [
       {
-        "item": "uranium",
-        "count": 5
+        "count": 5,
+        "item": "uranium"
       },
       {
-        "item": "sulfuric-acid",
-        "count": 8000
+        "count": 8,
+        "item": "sulfuric-acid"
       }
     ],
     "products": [
       {
-        "item": "uranium-pellet",
-        "count": 5
+        "count": 5,
+        "item": "uranium-pellet"
       },
       {
-        "item": "sulfuric-acid",
-        "count": 2000
+        "count": 2,
+        "item": "sulfuric-acid"
       }
     ],
     "producedIn": ["refinery"],
@@ -7081,18 +7081,18 @@
     "name": "Versatile Framework",
     "ingredients": [
       {
-        "item": "modular-frame",
-        "count": 1
+        "count": 1,
+        "item": "modular-frame"
       },
       {
-        "item": "steel-beam",
-        "count": 12
+        "count": 12,
+        "item": "steel-beam"
       }
     ],
     "products": [
       {
-        "item": "versatile-framework",
-        "count": 2
+        "count": 2,
+        "item": "versatile-framework"
       }
     ],
     "producedIn": ["assembler"],
@@ -7105,18 +7105,18 @@
     "name": "Walkway Crossing",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "iron-plate"
       }
     ],
     "products": [
       {
-        "item": "walkway-crossing",
-        "count": 1
+        "count": 1,
+        "item": "walkway-crossing"
       }
     ],
     "producedIn": [],
@@ -7130,18 +7130,18 @@
     "name": "Walkway Ramp",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "iron-plate"
       }
     ],
     "products": [
       {
-        "item": "walkway-ramp",
-        "count": 1
+        "count": 1,
+        "item": "walkway-ramp"
       }
     ],
     "producedIn": [],
@@ -7155,18 +7155,18 @@
     "name": "Walkway Straight",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "iron-plate"
       }
     ],
     "products": [
       {
-        "item": "walkway-straight",
-        "count": 1
+        "count": 1,
+        "item": "walkway-straight"
       }
     ],
     "producedIn": [],
@@ -7180,18 +7180,18 @@
     "name": "Walkway T-Crossing",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "iron-plate"
       }
     ],
     "products": [
       {
-        "item": "walkway-t-crossing",
-        "count": 1
+        "count": 1,
+        "item": "walkway-t-crossing"
       }
     ],
     "producedIn": [],
@@ -7205,18 +7205,18 @@
     "name": "Walkway Turn",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       },
       {
-        "item": "iron-plate",
-        "count": 1
+        "count": 1,
+        "item": "iron-plate"
       }
     ],
     "products": [
       {
-        "item": "--BAD REFERENCE: Desc_WalkwayTurn_C--",
-        "count": 1
+        "count": 1,
+        "item": "--BAD REFERENCE: Desc_WalkwayTurn_C--"
       }
     ],
     "producedIn": [],
@@ -7230,18 +7230,18 @@
     "name": "Wall 8m x 4m",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-8m-x-4m-1",
-        "count": 1
+        "count": 1,
+        "item": "wall-8m-x-4m-1"
       }
     ],
     "producedIn": [],
@@ -7255,18 +7255,18 @@
     "name": "Wall 8m x 4m",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-8m-x-4m-2",
-        "count": 1
+        "count": 1,
+        "item": "wall-8m-x-4m-2"
       }
     ],
     "producedIn": [],
@@ -7280,18 +7280,18 @@
     "name": "Wall Conveyor Perpendicular",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-conveyor-perpendicular-1",
-        "count": 1
+        "count": 1,
+        "item": "wall-conveyor-perpendicular-1"
       }
     ],
     "producedIn": [],
@@ -7305,18 +7305,18 @@
     "name": "Wall Conveyor Perpendicular",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-conveyor-perpendicular-2",
-        "count": 1
+        "count": 1,
+        "item": "wall-conveyor-perpendicular-2"
       }
     ],
     "producedIn": [],
@@ -7330,18 +7330,18 @@
     "name": "Wall Conveyor x1",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-conveyor-x1-1",
-        "count": 1
+        "count": 1,
+        "item": "wall-conveyor-x1-1"
       }
     ],
     "producedIn": [],
@@ -7355,18 +7355,18 @@
     "name": "Wall Conveyor x1",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-conveyor-x1-2",
-        "count": 1
+        "count": 1,
+        "item": "wall-conveyor-x1-2"
       }
     ],
     "producedIn": [],
@@ -7380,18 +7380,18 @@
     "name": "Wall Conveyor x2",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-conveyor-x2-1",
-        "count": 1
+        "count": 1,
+        "item": "wall-conveyor-x2-1"
       }
     ],
     "producedIn": [],
@@ -7405,18 +7405,18 @@
     "name": "Wall Conveyor x2",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-conveyor-x2-2",
-        "count": 1
+        "count": 1,
+        "item": "wall-conveyor-x2-2"
       }
     ],
     "producedIn": [],
@@ -7430,18 +7430,18 @@
     "name": "Wall Conveyor x3",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-conveyor-x3-1",
-        "count": 1
+        "count": 1,
+        "item": "wall-conveyor-x3-1"
       }
     ],
     "producedIn": [],
@@ -7455,18 +7455,18 @@
     "name": "Wall Conveyor x3",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-conveyor-x3-2",
-        "count": 1
+        "count": 1,
+        "item": "wall-conveyor-x3-2"
       }
     ],
     "producedIn": [],
@@ -7480,18 +7480,18 @@
     "name": "Wall Door Center",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-door-center-1",
-        "count": 1
+        "count": 1,
+        "item": "wall-door-center-1"
       }
     ],
     "producedIn": [],
@@ -7505,18 +7505,18 @@
     "name": "Wall Door Center",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-door-center-2",
-        "count": 1
+        "count": 1,
+        "item": "wall-door-center-2"
       }
     ],
     "producedIn": [],
@@ -7530,18 +7530,18 @@
     "name": "Wall Door Left",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-door-left-1",
-        "count": 1
+        "count": 1,
+        "item": "wall-door-left-1"
       }
     ],
     "producedIn": [],
@@ -7555,18 +7555,18 @@
     "name": "Wall Door Left",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-door-left-2",
-        "count": 1
+        "count": 1,
+        "item": "wall-door-left-2"
       }
     ],
     "producedIn": [],
@@ -7580,18 +7580,18 @@
     "name": "Wall Door Right",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-door-right-1",
-        "count": 1
+        "count": 1,
+        "item": "wall-door-right-1"
       }
     ],
     "producedIn": [],
@@ -7605,18 +7605,18 @@
     "name": "Wall Door Right",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-door-right-2",
-        "count": 1
+        "count": 1,
+        "item": "wall-door-right-2"
       }
     ],
     "producedIn": [],
@@ -7630,18 +7630,18 @@
     "name": "Wall Power Pole",
     "ingredients": [
       {
-        "item": "wire",
-        "count": 4
+        "count": 4,
+        "item": "wire"
       },
       {
-        "item": "iron-rod",
-        "count": 1
+        "count": 1,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "wall-power-pole",
-        "count": 1
+        "count": 1,
+        "item": "wall-power-pole"
       }
     ],
     "producedIn": [],
@@ -7655,18 +7655,18 @@
     "name": "Wall Power Pole Mk.2",
     "ingredients": [
       {
-        "item": "quickwire",
-        "count": 8
+        "count": 8,
+        "item": "quickwire"
       },
       {
-        "item": "iron-rod",
-        "count": 2
+        "count": 2,
+        "item": "iron-rod"
       }
     ],
     "products": [
       {
-        "item": "--BAD REFERENCE: Desc_PowerPoleWallMk2_C--",
-        "count": 1
+        "count": 1,
+        "item": "--BAD REFERENCE: Desc_PowerPoleWallMk2_C--"
       }
     ],
     "producedIn": [],
@@ -7680,18 +7680,18 @@
     "name": "Wall Power Pole Mk.3",
     "ingredients": [
       {
-        "item": "high-speed-connector",
-        "count": 3
+        "count": 3,
+        "item": "high-speed-connector"
       },
       {
-        "item": "steel-pipe",
-        "count": 3
+        "count": 3,
+        "item": "steel-pipe"
       }
     ],
     "products": [
       {
-        "item": "--BAD REFERENCE: Desc_PowerPoleWallMk3_C--",
-        "count": 1
+        "count": 1,
+        "item": "--BAD REFERENCE: Desc_PowerPoleWallMk3_C--"
       }
     ],
     "producedIn": [],
@@ -7705,18 +7705,18 @@
     "name": "Wall Window 8m x 4m 01",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-window-8m-x-4m-01",
-        "count": 1
+        "count": 1,
+        "item": "wall-window-8m-x-4m-01"
       }
     ],
     "producedIn": [],
@@ -7730,18 +7730,18 @@
     "name": "Wall Window 8m x 4m 02",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-window-8m-x-4m-02",
-        "count": 1
+        "count": 1,
+        "item": "wall-window-8m-x-4m-02"
       }
     ],
     "producedIn": [],
@@ -7755,18 +7755,18 @@
     "name": "Wall Window 8m x 4m 04",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "wall-window-8m-x-4m-04",
-        "count": 1
+        "count": 1,
+        "item": "wall-window-8m-x-4m-04"
       }
     ],
     "producedIn": [],
@@ -7780,22 +7780,22 @@
     "name": "Water Extractor",
     "ingredients": [
       {
-        "item": "copper-sheet",
-        "count": 20
+        "count": 20,
+        "item": "copper-sheet"
       },
       {
-        "item": "reinforced-iron-plate",
-        "count": 10
+        "count": 10,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "rotor",
-        "count": 10
+        "count": 10,
+        "item": "rotor"
       }
     ],
     "products": [
       {
-        "item": "water-extractor",
-        "count": 1
+        "count": 1,
+        "item": "water-extractor"
       }
     ],
     "producedIn": [],
@@ -7809,18 +7809,18 @@
     "name": "Window 8m x 4m 03",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "window-8m-x-4m-03",
-        "count": 1
+        "count": 1,
+        "item": "window-8m-x-4m-03"
       }
     ],
     "producedIn": [],
@@ -7834,18 +7834,18 @@
     "name": "Window 8m x 4m 03",
     "ingredients": [
       {
-        "item": "iron-plate",
-        "count": 3
+        "count": 3,
+        "item": "iron-plate"
       },
       {
-        "item": "concrete",
-        "count": 3
+        "count": 3,
+        "item": "concrete"
       }
     ],
     "products": [
       {
-        "item": "--BAD REFERENCE: Desc_Wall_Window_8x4_03_Steel_C--",
-        "count": 1
+        "count": 1,
+        "item": "--BAD REFERENCE: Desc_Wall_Window_8x4_03_Steel_C--"
       }
     ],
     "producedIn": [],
@@ -7859,14 +7859,14 @@
     "name": "Wire",
     "ingredients": [
       {
-        "item": "copper-ingot",
-        "count": 1
+        "count": 1,
+        "item": "copper-ingot"
       }
     ],
     "products": [
       {
-        "item": "wire",
-        "count": 2
+        "count": 2,
+        "item": "wire"
       }
     ],
     "producedIn": ["constructor"],
@@ -7879,26 +7879,26 @@
     "name": "Xeno-Basher",
     "ingredients": [
       {
-        "item": "modular-frame",
-        "count": 5
+        "count": 5,
+        "item": "modular-frame"
       },
       {
-        "item": "xeno-zapper",
-        "count": 2
+        "count": 2,
+        "item": "xeno-zapper"
       },
       {
-        "item": "cable",
-        "count": 25
+        "count": 25,
+        "item": "cable"
       },
       {
-        "item": "wire",
-        "count": 500
+        "count": 500,
+        "item": "wire"
       }
     ],
     "products": [
       {
-        "item": "xeno-basher",
-        "count": 1
+        "count": 1,
+        "item": "xeno-basher"
       }
     ],
     "producedIn": [],
@@ -7911,26 +7911,26 @@
     "name": "Xeno-Zapper",
     "ingredients": [
       {
-        "item": "iron-rod",
-        "count": 10
+        "count": 10,
+        "item": "iron-rod"
       },
       {
-        "item": "reinforced-iron-plate",
-        "count": 2
+        "count": 2,
+        "item": "reinforced-iron-plate"
       },
       {
-        "item": "cable",
-        "count": 15
+        "count": 15,
+        "item": "cable"
       },
       {
-        "item": "wire",
-        "count": 50
+        "count": 50,
+        "item": "wire"
       }
     ],
     "products": [
       {
-        "item": "xeno-zapper",
-        "count": 1
+        "count": 1,
+        "item": "xeno-zapper"
       }
     ],
     "producedIn": [],

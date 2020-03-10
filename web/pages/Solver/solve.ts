@@ -170,9 +170,6 @@ function _addConstraints(context: SolverContext) {
       );
     }
 
-    console.log(
-      `adding constraint: ${expression} ${operator} ${value} ${strength}`,
-    );
     context.addConstraint(expression, operator, value, strength);
   }
 }

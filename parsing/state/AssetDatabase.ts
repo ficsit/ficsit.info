@@ -1,4 +1,12 @@
-import { inlineIconSize, navButtonIconSize, navListIconSize, pixelDensities, EntityKind, entityPosterIconSizes, entityMaxIconSize } from '@local/schema';
+import {
+  inlineIconSize,
+  navButtonIconSize,
+  navListIconSize,
+  pixelDensities,
+  EntityKind,
+  entityPosterIconSizes,
+  entityMaxIconSize,
+} from '@local/schema';
 import { imageHash } from '@lolpants/image-hash';
 import * as base62 from 'base62';
 import * as crypto from 'crypto';
@@ -8,11 +16,7 @@ import { assetMap } from './assetMap';
 import { FileSystem } from './FileSystem';
 import { EntityDatabase } from './EntityDatabase';
 
-const commonImageSizes = [
-  inlineIconSize,
-  navButtonIconSize,
-  navListIconSize,
-];
+const commonImageSizes = [inlineIconSize, navButtonIconSize, navListIconSize];
 
 /**
  * A container for assets (e.g. images) and metadata about them.
@@ -22,25 +26,35 @@ export class AssetDatabase {
 
   constructor(private _resources: FileSystem, private _output: FileSystem) {}
 
-  async findLargestEntityIcon({ entity }: EntityDatabase.Info): Promise<string | undefined> {
-    const baseName = /^[^_]+_(.+)_C$/.exec(entity.ClassName)![1]
+  async findLargestEntityIcon({
+    entity,
+  }: EntityDatabase.Info): Promise<string | undefined> {
+    const baseName = /^[^_]+_(.+)_C$/
+      .exec(entity.ClassName)![1]
       .replace(/([^_])(Mk\d)$/, '$1_$2');
 
-    return await this._findLargestEntityIcon(baseName, (entity as any).mDisplayName);
+    return await this._findLargestEntityIcon(
+      baseName,
+      (entity as any).mDisplayName,
+    );
   }
 
   async _findLargestEntityIcon(baseName: string, name: string) {
     if (!this._found[baseName]) {
       const basePath = assetMap[baseName];
       if (!basePath) {
-        console.warn(`No asset path for ${baseName} (${name}), please add it to parsing/state/assetMap`);
+        console.warn(
+          `No asset path for ${baseName} (${name}), please add it to parsing/state/assetMap`,
+        );
         return undefined;
       }
-  
+
       const paths = await this._resources.glob(`${basePath}_+([0-9]).png`);
       const foundPath = paths.sort((a, b) => _iconSize(b) - _iconSize(a))[0];
       if (!foundPath) {
-        console.warn(`Expected assets for ${baseName} to exist at ${basePath}, but found none`);
+        console.warn(
+          `Expected assets for ${baseName} to exist at ${basePath}, but found none`,
+        );
       }
       this._found[baseName] = foundPath;
     }
@@ -54,26 +68,28 @@ export class AssetDatabase {
     const hash = _hashImage(source);
     const image = sharp(source);
 
-    await Promise.all(sizes.flatMap(size => {
-      const resized = image.clone().resize(size, size, { fit: 'cover' });
-      return [
-        this._writeImage(resized, `${hash}.${size}.png`),
-        this._writeImage(resized, `${hash}.${size}.webp`),
-      ];
-    }));
+    await Promise.all(
+      sizes.flatMap(size => {
+        const resized = image.clone().resize(size, size, { fit: 'cover' });
+        return [
+          this._writeImage(resized, `${hash}.${size}.png`),
+          this._writeImage(resized, `${hash}.${size}.webp`),
+        ];
+      }),
+    );
 
     return hash;
   }
 
   async _writeImage(image: sharp.Sharp, baseName: string) {
-    const path = this._output.path('icons', baseName)
+    const path = this._output.path('icons', baseName);
     if (await this._output.readable(path)) return;
 
     await this._output.mkdirFor(path);
     image = image.clone();
 
     if (baseName.endsWith('.png')) {
-      image = image.png({ 
+      image = image.png({
         // We get a decent amount (~5%) of additional compression from this.
         adaptiveFiltering: true,
       });
@@ -111,7 +127,9 @@ function _hashImage(image: Buffer) {
 
 function _expandSizes(kind: EntityKind) {
   const sizes = [...commonImageSizes, entityPosterIconSizes[kind]];
-  const expanded = sizes.flatMap(baseSize => pixelDensities.map(density => baseSize * density));
+  const expanded = sizes.flatMap(baseSize =>
+    pixelDensities.map(density => baseSize * density),
+  );
   const unique = Array.from(new Set(expanded));
   return unique
     .filter(size => size <= entityMaxIconSize[kind])

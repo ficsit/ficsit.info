@@ -86,7 +86,7 @@ const badgeStyles = css({
 
 export interface EntityReferenceProps {
   slug: string;
-  badge?: string | number;
+  badge?: string | number | false;
   size?: number;
 }
 

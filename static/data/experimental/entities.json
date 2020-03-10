@@ -881,7 +881,7 @@
       "color": "#19019ff"
     },
     "fuel": {
-      "energy": 0.32
+      "energy": 320
     },
     "categories": [
       "Fluids"
@@ -1081,6 +1081,20 @@
     "icon": "73gqlchc3Ki8MGwsAeMe2I7l1BTyG1RSWo84ACUaISuA",
     "slug": "fence"
   },
+  "fics-it-coupon": {
+    "kind": "item",
+    "name": "FicsIt Coupon",
+    "description": "A special FicsIt bonus program Coupon, obtained through the AWESOME Sink. Can be redeemed in the AWESOME Shop for bonus milestones and rewards.",
+    "icon": "1T4Q6ubV1Cw0Mwo2Icw26A4GMTwBja0oGagua22sCaQm",
+    "categories": [
+      "Gathered"
+    ],
+    "form": "solid",
+    "resource": {
+      "gatherable": true
+    },
+    "slug": "fics-it-coupon"
+  },
   "filter": {
     "kind": "item",
     "name": "Filter",
@@ -1218,7 +1232,7 @@
       "color": "#eb7d15ff"
     },
     "fuel": {
-      "energy": 0.6
+      "energy": 600
     },
     "categories": [
       "Fluids"
@@ -1315,6 +1329,20 @@
     ],
     "slug": "green-power-slug"
   },
+  "hard-drive": {
+    "kind": "item",
+    "name": "Hard Drive",
+    "description": "A hard drive with Ficsit data. Analyze it in the M.A.M. to salvage its contents.",
+    "icon": "5YViCjNy9OIwMcyyqS8Ug5VKJujbHhYM8myWWiGUiiq",
+    "categories": [
+      "Gathered"
+    ],
+    "form": "solid",
+    "resource": {
+      "gatherable": true
+    },
+    "slug": "hard-drive"
+  },
   "hazmat-suit": {
     "kind": "item",
     "name": "Hazmat Suit",
@@ -1370,7 +1398,7 @@
       "color": "#6d2d78ff"
     },
     "fuel": {
-      "energy": 0.4
+      "energy": 400
     },
     "categories": [
       "Fluids"
@@ -1779,7 +1807,7 @@
       "color": "#3b532cff"
     },
     "fuel": {
-      "energy": 0.75
+      "energy": 750
     },
     "categories": [
       "Fluids"
@@ -2089,7 +2117,7 @@
     },
     "extraction": {
       "cycleTime": 1,
-      "itemsPerCycle": 2000,
+      "itemsPerCycle": 2,
       "resources": [
         "crude-oil"
       ]
@@ -3035,7 +3063,7 @@
       "color": "#d4292eff"
     },
     "fuel": {
-      "energy": 2
+      "energy": 2000
     },
     "categories": [
       "Fluids"
@@ -3452,7 +3480,7 @@
     },
     "extraction": {
       "cycleTime": 1,
-      "itemsPerCycle": 2000,
+      "itemsPerCycle": 2,
       "resources": [
         "water"
       ]

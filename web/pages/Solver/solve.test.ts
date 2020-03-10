@@ -93,7 +93,7 @@ describe(`solve`, () => {
       Object {
         "inputs": Array [
           Object {
-            "perMinute": 135000,
+            "perMinute": 135,
             "slug": "crude-oil",
           },
         ],
@@ -111,7 +111,7 @@ describe(`solve`, () => {
         ],
         "residuals": Array [
           Object {
-            "perMinute": 45000,
+            "perMinute": 45,
             "slug": "heavy-oil-residue",
           },
         ],
@@ -131,11 +131,11 @@ describe(`solve`, () => {
       Object {
         "inputs": Array [
           Object {
-            "perMinute": 86250,
+            "perMinute": 86.25,
             "slug": "crude-oil",
           },
           Object {
-            "perMinute": 15000,
+            "perMinute": 15,
             "slug": "water",
           },
         ],
@@ -182,7 +182,7 @@ describe(`solve`, () => {
             slug: 'water',
           },
           type: SolverConstraintType.Limit,
-          value: 5000,
+          value: 5,
         },
       ],
       optimizeResiduals: true,
@@ -190,56 +190,56 @@ describe(`solve`, () => {
     });
 
     expect(result).toMatchInlineSnapshot(`
-      Object {
-        "inputs": Array [
-          Object {
-            "perMinute": 93250,
-            "slug": "crude-oil",
-          },
-          Object {
-            "perMinute": 5000,
-            "slug": "water",
-          },
-        ],
-        "outputs": Array [
-          Object {
-            "perMinute": 90,
-            "slug": "plastic",
-          },
-        ],
-        "recipes": Array [
-          Object {
-            "multiple": 0.10000002384185791,
-            "slug": "recipe-alternate-polyester-fabric",
-          },
-          Object {
-            "multiple": 1.5,
-            "slug": "recipe-alternate-recycled-plastic",
-          },
-          Object {
-            "multiple": 0.2666666507720947,
-            "slug": "recipe-fuel",
-          },
-          Object {
-            "multiple": 0.8583333492279053,
-            "slug": "recipe-residual-fuel",
-          },
-          Object {
-            "multiple": 2.574999988079071,
-            "slug": "recipe-rubber",
-          },
-        ],
-        "residuals": Array [
-          Object {
-            "perMinute": 6.5,
-            "slug": "rubber",
-          },
-          Object {
-            "perMinute": 0.5,
-            "slug": "fabric",
-          },
-        ],
-      }
-    `);
+Object {
+  "inputs": Array [
+    Object {
+      "perMinute": 93.25,
+      "slug": "crude-oil",
+    },
+    Object {
+      "perMinute": 5,
+      "slug": "water",
+    },
+  ],
+  "outputs": Array [
+    Object {
+      "perMinute": 90,
+      "slug": "plastic",
+    },
+  ],
+  "recipes": Array [
+    Object {
+      "multiple": 0.10000002384185791,
+      "slug": "recipe-alternate-polyester-fabric",
+    },
+    Object {
+      "multiple": 1.5,
+      "slug": "recipe-alternate-recycled-plastic",
+    },
+    Object {
+      "multiple": 0.2666666507720947,
+      "slug": "recipe-fuel",
+    },
+    Object {
+      "multiple": 0.8583333492279053,
+      "slug": "recipe-residual-fuel",
+    },
+    Object {
+      "multiple": 2.574999988079071,
+      "slug": "recipe-rubber",
+    },
+  ],
+  "residuals": Array [
+    Object {
+      "perMinute": 6.5,
+      "slug": "rubber",
+    },
+    Object {
+      "perMinute": 0.5,
+      "slug": "fabric",
+    },
+  ],
+}
+`);
   });
 });

@@ -84,11 +84,19 @@ export function expandReferences(
 
 export function mapItemAmount(
   outputDb: OutputDatabase,
+  entityDb: EntityDatabase,
   itemAmount: ItemAmount,
 ) {
+  const classPath = itemAmount.ItemClass!.path;
+  const item = entityDb.get<'FGItemDescriptor'>(classPath);
+  let count = itemAmount.Amount;
+  if (item?.entity?.mForm === 'RF_LIQUID') {
+    count /= 1e3;
+  }
+
   return {
-    item: outputDb.slugOrDie(itemAmount.ItemClass!.path),
-    count: itemAmount.Amount,
+    count,
+    item: outputDb.slugOrDie(classPath),
   };
 }
 
