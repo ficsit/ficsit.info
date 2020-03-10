@@ -20,5 +20,6 @@
   "typescript.tsc.autoDetect": "off",
   "typescript.tsdk": "node_modules/typescript/lib",
   "editor.formatOnSave": true,
-  "jest.enableSnapshotUpdateMessages": false
+  "jest.enableSnapshotUpdateMessages": false,
+  "emmet.excludeLanguages": ["markdown", "typescriptreact"]
 }

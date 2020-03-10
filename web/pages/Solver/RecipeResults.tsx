@@ -1,10 +1,9 @@
 import { css } from '@emotion/core';
-import { Recipe, Item, Building } from '@local/schema';
+import { Recipe } from '@local/schema';
 
-import { useRecipes, useBuilding, useEntities } from '~/data';
+import { useRecipes, usePoweredBuilding, useEntities } from '~/data';
 import {
   RecipeTable,
-  Extraction,
   ExtractionDetails,
   isExtraction,
 } from '~/components/RecipeTable';
@@ -13,6 +12,8 @@ import { sizing, colors } from '~/style';
 
 import { SolverResult } from './solve';
 import { Value, ValueUnit } from '~/components/Value';
+import { groupPowerConsumption } from '~/calc/power';
+import { extractionsFromInputs } from './helpers';
 
 const itemHeight = sizing.navListIconSize + sizing.Padding.Small * 2;
 
@@ -67,21 +68,9 @@ export function RecipeResults({ result }: RecipeResultsProps) {
   const multiples = new Map(
     result.recipes.map(({ slug, multiple }) => [slug, multiple] as const),
   );
-
-  const extractions = [] as Extraction[];
-  for (const { slug, perMinute } of result.inputs) {
-    const item = entities[slug] as Item;
-    const extractedBy = item.resource?.extractedBy;
-    if (!extractedBy) continue;
-
-    const buildingSlug = extractedBy[extractedBy.length - 1];
-    const building = entities[buildingSlug] as Building;
-    if (!building.extraction) continue;
-
-    const { cycleTime, itemsPerCycle } = building.extraction;
-    const perBuilding = (60 / cycleTime) * itemsPerCycle;
-    multiples.set(buildingSlug, perMinute / perBuilding);
-    extractions.push({ building: buildingSlug, item: slug });
+  const extractions = extractionsFromInputs(entities, result.inputs);
+  for (const { building, multiple } of extractions) {
+    multiples.set(building, multiple);
   }
 
   return (
@@ -111,26 +100,25 @@ interface _BeforeProps {
 }
 
 function _Before({ recipe, multiple }: _BeforeProps) {
-  const building = useBuilding(
+  const building = usePoweredBuilding(
     isExtraction(recipe) ? recipe.slug : recipe.producedIn[0],
   );
   if (!building) return null;
-
-  const count = Math.ceil(multiple);
-  const clockSpeed = multiple / count;
-  const { amount, exponent } = building.powerConsumption!;
-  const powerUsage = count * amount * Math.pow(clockSpeed, exponent);
+  const { numBuildings, clockSpeed, totalPower } = groupPowerConsumption(
+    building,
+    multiple,
+  );
 
   return (
     <div css={beforeStyles}>
       <div>
         <EntityReference slug={building.slug} size={sizing.navListIconSize} />
         <div css={beforeCountStyles}>
-          {count} @ {Math.ceil(clockSpeed * 100)}%
+          {numBuildings} @ {Math.ceil(clockSpeed * 100)}%
         </div>
       </div>
       <div css={powerUsageStyles}>
-        <Value unit={ValueUnit.Megawatts} value={powerUsage} showIcon />
+        <Value unit={ValueUnit.Megawatts} value={totalPower} showIcon />
       </div>
       <div css={beforeDividerStyles}>:</div>
     </div>

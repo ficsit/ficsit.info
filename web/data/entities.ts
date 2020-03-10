@@ -1,4 +1,4 @@
-import { AnyEntity, EntityKind } from '@local/schema';
+import { AnyEntity, EntityKind, PoweredBuilding } from '@local/schema';
 import { makeDataHook } from './fetch';
 
 export function useEntities() {
@@ -13,6 +13,13 @@ export function useEntity(slug?: string) {
 export function useBuilding(slug?: string) {
   const entity = useEntity(slug);
   return entity?.kind === EntityKind.Building ? entity : undefined;
+}
+
+export function usePoweredBuilding(slug?: string) {
+  const building = useBuilding(slug);
+  if (!building) return;
+  if (!building.powerConsumption) return;
+  return building as PoweredBuilding;
 }
 
 export function useItem(slug?: string) {
