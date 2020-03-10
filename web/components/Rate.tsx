@@ -23,7 +23,7 @@ export function Rate({ rate, isLiquid, ...props }: RateProps) {
     <Value
       value={rate}
       unit={valueUnit}
-      denominator={ValueUnit.Seconds}
+      denominator={ValueUnit.Minutes}
       {...props}
     />
   );

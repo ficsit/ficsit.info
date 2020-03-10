@@ -53,7 +53,7 @@ export function RecipeManufacturerDetails({
         <EntityImage entity={manufacturer} size={sizing.navListIconSize} />
       </NavLink>
       <div css={statsContainerStyles}>
-        <Value unit={ValueUnit.Seconds} value={duration} showIcon />
+        <Value unit={ValueUnit.Minutes} value={duration} showIcon />
         <Value unit={ValueUnit.Megawatts} value={powerUsage} showIcon />
       </div>
       <div css={overclockContainerStyles}>

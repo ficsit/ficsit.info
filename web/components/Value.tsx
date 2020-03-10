@@ -8,14 +8,14 @@ import PowerIcon from '~/assets/images/power.svg';
 export const enum ValueUnit {
   None,
   CubitMeters = 'm³',
-  Seconds = 'sec',
+  Minutes = 'min',
   Megawatts = 'MW',
 }
 
 export interface ValueProps {
   value: number;
   unit: ValueUnit;
-  denominator?: ValueUnit.Seconds;
+  denominator?: ValueUnit.Minutes;
   showIcon?: boolean;
 }
 
@@ -67,7 +67,7 @@ export function Value({
 
   let Icon;
   if (showIcon) {
-    if (unit === ValueUnit.Seconds) {
+    if (unit === ValueUnit.Minutes) {
       Icon = CycleTimeIcon;
     } else if (unit === ValueUnit.Megawatts) {
       Icon = PowerIcon;
