@@ -29,11 +29,11 @@ export function registerRoutes(router: Router) {
     networkTimeoutSeconds: 2.5,
     plugins: [
       new RedirectPlugin('/', {
+        cache: 'no-cache',
         redirect: 'follow',
         credentials: 'same-origin',
       }),
       new ResponseChangedPlugin(({ oldResponse }) => {
-        log.info('index changed');
         if (!oldResponse) return; // Skip; we're installing.
         prefetchData(router);
       }),
