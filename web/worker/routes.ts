@@ -9,7 +9,6 @@ import {
 } from 'workbox-strategies';
 
 import { RedirectPlugin, ResponseChangedPlugin } from './handlers';
-import * as log from './log';
 import { prefetchData } from './prefetch';
 
 export function buildRouter() {
