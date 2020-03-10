@@ -1,9 +1,7 @@
 import { Recipe, ItemAmount, AnyEntity, ItemForm } from '@local/schema';
 import { css } from '@emotion/core';
-import { NavLink } from 'react-router-dom';
 
 import { colors, sizing } from '~/style';
-import { recipeUrl, buildingUrl } from '~/routing';
 import { ItemCount } from '~/components/ItemCount';
 import { Rate } from './Rate';
 import { useEntities } from '~/data';
@@ -21,17 +19,12 @@ const contentStyles = css({
 const recipeTitleStyles = css({
   gridColumn: '1 / -1',
   margin: 0,
-  color: 'inherit',
-  textDecoration: 'none',
   fontWeight: 'lighter',
   borderTop: `1px solid ${colors.Light.N100}`,
   paddingTop: sizing.Padding.Medium,
   '&:first-of-type': {
     paddingTop: 0,
     border: 'none',
-  },
-  ':hover, &.active': {
-    color: colors.Primary.N500,
   },
 });
 
@@ -134,11 +127,7 @@ function _renderExtraction(
 
   return (
     <React.Fragment key={`${building}-${item}`}>
-      {!!title && (
-        <NavLink to={buildingUrl(building)} css={recipeTitleStyles}>
-          {title}
-        </NavLink>
-      )}
+      {!!title && <span css={recipeTitleStyles}>{title}</span>}
       {!!props.renderBefore && (
         <div css={beforeStyles}>{props.renderBefore(details)}</div>
       )}
@@ -168,11 +157,7 @@ function _renderRecipe(
 
   return (
     <React.Fragment key={recipe.slug}>
-      {!!title && (
-        <NavLink to={recipeUrl(recipe)} css={recipeTitleStyles}>
-          {title}
-        </NavLink>
-      )}
+      {!!title && <span css={recipeTitleStyles}>{title}</span>}
       {!!props.renderBefore && (
         <div css={beforeStyles}>{props.renderBefore(recipe)}</div>
       )}

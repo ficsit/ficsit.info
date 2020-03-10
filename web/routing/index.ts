@@ -2,8 +2,10 @@ import { EntityKind, Recipe, Schematic, AnyEntity } from '@local/schema';
 
 export function entityUrl({ kind, slug }: AnyEntity) {
   switch (kind) {
-    case EntityKind.Building: return buildingUrl(slug);
-    case EntityKind.Item: return itemUrl(slug);
+    case EntityKind.Building:
+      return buildingUrl(slug);
+    case EntityKind.Item:
+      return itemUrl(slug);
   }
 }
 
