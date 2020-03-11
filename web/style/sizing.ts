@@ -7,7 +7,7 @@ export const enum Padding {
   Small = 4,
   Medium = 8,
   Normal = 16,
-};
+}
 
 export const sectionPadding = Padding.Normal / 2;
 
@@ -15,4 +15,4 @@ export const enum FontSize {
   Tiny = 10,
   Small = 12,
   Normal = 16,
-};
+}

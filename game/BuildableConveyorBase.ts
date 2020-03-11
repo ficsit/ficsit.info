@@ -5,9 +5,9 @@ import { declareOptional } from './declare/optional';
 /**
  * Schema for `FGBuildableConveyorBase`.
  *
- * Base class for factory machines like miners, conveyors, assemblers, storages 
+ * Base class for factory machines like miners, conveyors, assemblers, storages
  * etc.
- * 
+ *
  * @see https://github.com/ficsit/community-resources/blob/master/Headers/Buildables/FGBuildableConveyorBase.h
  */
 export const BuildableConveyorBaseSchema = declareClass('FGBuildableConveyorBase', BuildableSchema, {

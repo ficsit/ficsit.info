@@ -9,9 +9,7 @@ const noCache: RequestInit = { cache: 'no-cache' };
 
 export async function prefetchPackagedAssets(router: Router) {
   const endGroup = log.startGroup('Prefetching packaged assets');
-  const assetsToPrefetch = __precacheManifest.filter(({ url }) =>
-    /\.[0-9a-f]{8}\./.test(url),
-  );
+  const assetsToPrefetch = __precacheManifest.filter(({ url }) => /\.[0-9a-f]{8}\./.test(url));
 
   try {
     await Promise.all([
@@ -21,9 +19,7 @@ export async function prefetchPackagedAssets(router: Router) {
       router.handleRequest({
         request: new Request('/site.webmanifest', noCache),
       }),
-      ...assetsToPrefetch.map(({ url }) =>
-        router.handleRequest({ request: new Request(url) }),
-      ),
+      ...assetsToPrefetch.map(({ url }) => router.handleRequest({ request: new Request(url) })),
     ]);
   } catch (error) {
     console.warn(`Failed to prefetch packaged assets:`, error);

@@ -33,20 +33,14 @@ export function useEntitiesByKind<TKind extends EntityKind>(kind: TKind) {
 
 // Raw Data
 
-export const useEntityData = makeDataHook(
-  'experimental/entities',
-  (bySlug: Record<string, AnyEntity>) => {
-    const byKindBySlug = {} as {
-      [TKind in EntityKind]: Record<
-        string,
-        Extract<AnyEntity, { kind: TKind }>
-      >;
-    };
-    for (const entity of Object.values(bySlug)) {
-      if (!byKindBySlug[entity.kind]) byKindBySlug[entity.kind] = {};
-      byKindBySlug[entity.kind][entity.slug] = entity;
-    }
+export const useEntityData = makeDataHook('experimental/entities', (bySlug: Record<string, AnyEntity>) => {
+  const byKindBySlug = {} as {
+    [TKind in EntityKind]: Record<string, Extract<AnyEntity, { kind: TKind }>>;
+  };
+  for (const entity of Object.values(bySlug)) {
+    if (!byKindBySlug[entity.kind]) byKindBySlug[entity.kind] = {};
+    byKindBySlug[entity.kind][entity.slug] = entity;
+  }
 
-    return { bySlug, byKindBySlug: byKindBySlug };
-  },
-);
+  return { bySlug, byKindBySlug: byKindBySlug };
+});

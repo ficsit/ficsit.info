@@ -9,13 +9,17 @@ import { BuildableFactorySchema } from './BuildableFactory';
  *
  * @see https://github.com/ficsit/community-resources/blob/master/Headers/Buildables/FGBuildableDockingStation.h
  */
-export const BuildableDockingStationSchema = declareClass('FGBuildableDockingStation', BuildableFactorySchema, {
-  mFuelTransferSpeed: declareFloat(),
-  mMapText: declareString(),
-  mStackTransferSize: declareFloat(),
-  mStorageSizeX: declareInteger(),
-  mStorageSizeY: declareInteger(),
-  mTransferSpeed: declareFloat(),
-});
+export const BuildableDockingStationSchema = declareClass(
+  'FGBuildableDockingStation',
+  BuildableFactorySchema,
+  {
+    mFuelTransferSpeed: declareFloat(),
+    mMapText: declareString(),
+    mStackTransferSize: declareFloat(),
+    mStorageSizeX: declareInteger(),
+    mStorageSizeY: declareInteger(),
+    mTransferSpeed: declareFloat(),
+  },
+);
 
 export type BuildableDockingStation = DeclarationShape<typeof BuildableDockingStationSchema>;

@@ -1,12 +1,5 @@
 import { Recipe, Item, AnyEntity } from '@local/schema';
-import {
-  Solver,
-  Variable,
-  Expression,
-  Constraint,
-  Operator,
-  Strength,
-} from 'kiwi.js';
+import { Solver, Variable, Expression, Constraint, Operator, Strength } from 'kiwi.js';
 
 export interface SolverOptions {
   optimizeResiduals?: boolean;
@@ -85,13 +78,7 @@ function _addResources(context: SolverContext) {
 }
 
 function _addRecipes(context: SolverContext) {
-  for (const {
-    duration,
-    slug,
-    ingredients,
-    products,
-    producedIn,
-  } of context.recipes) {
+  for (const { duration, slug, ingredients, products, producedIn } of context.recipes) {
     const runsPerMin = 60 / duration;
 
     const variable = context.variable(VariableKind.Recipe, slug);
@@ -100,14 +87,9 @@ function _addRecipes(context: SolverContext) {
     // When we're trying to optimize away residuals, we bias towards recipes
     // that have a target product, by minimizing recipes that don't.
     if (context.config.optimizeResiduals) {
-      const hasTargetProduct = products.some(({ item }) =>
-        context.targets.has(item),
-      );
+      const hasTargetProduct = products.some(({ item }) => context.targets.has(item));
 
-      context.solver.addEditVariable(
-        variable,
-        hasTargetProduct ? Strength.strong : Strength.medium,
-      );
+      context.solver.addEditVariable(variable, hasTargetProduct ? Strength.strong : Strength.medium);
     }
 
     // TODO: Drop this?
@@ -126,9 +108,7 @@ function _addRecipes(context: SolverContext) {
 }
 
 function _addExpressions(context: SolverContext) {
-  for (const [slug, expression] of context.getExpressions(
-    ExpressionKind.Item,
-  )) {
+  for (const [slug, expression] of context.getExpressions(ExpressionKind.Item)) {
     const target = context.targets.get(slug);
     if (target) {
       context.addConstraint(expression, Operator.Eq, target, Strength.required);
@@ -165,9 +145,7 @@ function _addConstraints(context: SolverContext) {
       if (!operator) missing.push('operator');
       if (!strength) missing.push('strength');
       const details = JSON.stringify(constraint);
-      throw new Error(
-        `Invalid constraint: ${details} (missing ${missing.join(', ')})`,
-      );
+      throw new Error(`Invalid constraint: ${details} (missing ${missing.join(', ')})`);
     }
 
     context.addConstraint(expression, operator, value, strength);
@@ -213,9 +191,7 @@ function _collectOutputResults(context: SolverContext) {
   const outputs = [];
   const residuals = [];
 
-  for (const [slug, expression] of context.getExpressions(
-    ExpressionKind.Item,
-  )) {
+  for (const [slug, expression] of context.getExpressions(ExpressionKind.Item)) {
     const value = _round(expression.value());
     if (value === 0) continue;
 
@@ -247,9 +223,7 @@ export class SolverContext {
   ) {}
 
   public solver = new Solver();
-  public targets = new Map(
-    this.config.targets.map(({ slug, perMinute: perMin }) => [slug, perMin]),
-  );
+  public targets = new Map(this.config.targets.map(({ slug, perMinute: perMin }) => [slug, perMin]));
   public recipes = Object.values(this._recipesBySlug).filter(recipe => {
     if (!recipe.producedIn.length) return false;
     if (!this.config.includeAlternateRecipes && recipe.alternate) return false;
@@ -259,18 +233,11 @@ export class SolverContext {
     entity => entity.kind === 'item' && entity.resource,
   ) as Item[];
 
-  private _variablesByKindBySlug = new Map<
-    VariableKind,
-    Map<string, Variable>
-  >();
-  private _expressionsByKindBySlug = new Map<
-    ExpressionKind,
-    Map<string, Expression>
-  >();
+  private _variablesByKindBySlug = new Map<VariableKind, Map<string, Variable>>();
+  private _expressionsByKindBySlug = new Map<ExpressionKind, Map<string, Expression>>();
 
   variable(kind: VariableKind, slug: string) {
-    if (!this._variablesByKindBySlug.has(kind))
-      this._variablesByKindBySlug.set(kind, new Map());
+    if (!this._variablesByKindBySlug.has(kind)) this._variablesByKindBySlug.set(kind, new Map());
     const bySlug = this._variablesByKindBySlug.get(kind)!;
     if (!bySlug.has(slug)) {
       bySlug.set(slug, new Variable(`[${kind}] ${slug}`));
@@ -280,8 +247,7 @@ export class SolverContext {
   }
 
   expression(kind: ExpressionKind, slug: string) {
-    if (!this._expressionsByKindBySlug.has(kind))
-      this._expressionsByKindBySlug.set(kind, new Map());
+    if (!this._expressionsByKindBySlug.has(kind)) this._expressionsByKindBySlug.set(kind, new Map());
     const bySlug = this._expressionsByKindBySlug.get(kind)!;
     if (!bySlug.has(slug)) {
       bySlug.set(slug, new Expression());
@@ -290,22 +256,13 @@ export class SolverContext {
     return bySlug.get(slug)!;
   }
 
-  addTo(
-    kind: ExpressionKind,
-    slug: string,
-    value: Variable | Expression | number,
-  ) {
+  addTo(kind: ExpressionKind, slug: string, value: Variable | Expression | number) {
     const expression = this.expression(kind, slug);
     const bySlug = this._expressionsByKindBySlug.get(kind)!;
     bySlug.set(slug, expression.plus(value));
   }
 
-  addConstraint(
-    expression: Expression | Variable,
-    operator: Operator,
-    value: number,
-    strength: number,
-  ) {
+  addConstraint(expression: Expression | Variable, operator: Operator, value: number, strength: number) {
     const constraint = new Constraint(expression, operator, value, strength);
     this.solver.addConstraint(constraint);
     return constraint;
@@ -316,9 +273,7 @@ export class SolverContext {
   }
 
   getExpressions(kind: ExpressionKind) {
-    return (
-      this._expressionsByKindBySlug.get(kind) || new Map<string, Expression>()
-    );
+    return this._expressionsByKindBySlug.get(kind) || new Map<string, Expression>();
   }
 }
 

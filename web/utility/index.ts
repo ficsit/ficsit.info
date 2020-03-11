@@ -1,6 +1,4 @@
-export function memoize<TFunction extends (arg: any) => any>(
-  originalFunction: TFunction,
-): TFunction {
+export function memoize<TFunction extends (arg: any) => any>(originalFunction: TFunction): TFunction {
   // TODO: WeakMap.
   const results = new Map<any, any>();
 

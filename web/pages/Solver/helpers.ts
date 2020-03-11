@@ -1,10 +1,7 @@
 import { ItemRate } from './solve';
 import { AnyEntity, Item, Building } from '@local/schema';
 
-export function extractionsFromInputs(
-  allEntities: Record<string, AnyEntity>,
-  inputs: ItemRate[],
-) {
+export function extractionsFromInputs(allEntities: Record<string, AnyEntity>, inputs: ItemRate[]) {
   const results = [];
   for (const { slug, perMinute } of inputs) {
     const item = allEntities[slug] as Item;

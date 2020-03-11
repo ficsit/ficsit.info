@@ -1,10 +1,6 @@
 import { AnyEntity, Recipe } from '@local/schema';
 
-import {
-  solveFor,
-  SolverConstraintSubjectKind,
-  SolverConstraintType,
-} from './solve';
+import { solveFor, SolverConstraintSubjectKind, SolverConstraintType } from './solve';
 
 import rawEntities from './__fixtures__/entities.json';
 import rawRecipes from './__fixtures__/recipes.json';

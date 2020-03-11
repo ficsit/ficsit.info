@@ -1,29 +1,15 @@
 import { Item, EntityKind, ItemResourceDetails } from '@local/schema';
 import * as game from '@local/game';
 
-import {
-  AssetDatabase,
-  EntityDatabase,
-  OutputDatabase,
-  WithoutSlug,
-} from '../state';
+import { AssetDatabase, EntityDatabase, OutputDatabase, WithoutSlug } from '../state';
 
-import {
-  mapItemForm,
-  mapEquipmentSlot,
-  mapStackSize,
-  itemsExtractedBy,
-} from './_util';
+import { mapItemForm, mapEquipmentSlot, mapStackSize, itemsExtractedBy } from './_util';
 import { isResourceSource } from './recipes';
 
 type BuiltItem = WithoutSlug<Item>;
 type RawInfo = EntityDatabase.Info<'FGItemDescriptor'>;
 
-export async function fillItems(
-  outputDb: OutputDatabase,
-  entityDb: EntityDatabase,
-  assetDb: AssetDatabase,
-) {
+export async function fillItems(outputDb: OutputDatabase, entityDb: EntityDatabase, assetDb: AssetDatabase) {
   for (const raw of entityDb.findByClass('FGItemDescriptor')) {
     if (entityDb.isKind(raw, 'FGBuildDescriptor')) continue;
 
@@ -83,9 +69,7 @@ async function _buildItem(
     _assign(item, 'fuel', { energy });
   }
 
-  const baseName = /^[^_]+_(.+)_C$/
-    .exec(raw.entity.ClassName)![1]
-    .replace('EquipmentDescriptor', '');
+  const baseName = /^[^_]+_(.+)_C$/.exec(raw.entity.ClassName)![1].replace('EquipmentDescriptor', '');
   const equipment = entityDb.get<'FGEquipment'>(`Equip_${baseName}_C`);
   if (equipment) {
     let cost;
@@ -105,15 +89,11 @@ async function _buildItem(
   // TODO: Post pass.
   const recipes = entityDb.findInboundByClass(raw.entity.ClassName, 'FGRecipe');
   const isProduced = recipes.some(({ entity: { mProduct } }) => {
-    return mProduct.some(
-      ({ ItemClass }) => ItemClass?.className === raw.entity.ClassName,
-    );
+    return mProduct.some(({ ItemClass }) => ItemClass?.className === raw.entity.ClassName);
   });
   const IsMined = recipes.some(rawRecipe => {
     if (!isResourceSource(rawRecipe)) return false;
-    return (
-      rawRecipe.entity.mProduct[0].ItemClass?.className === raw.entity.ClassName
-    );
+    return rawRecipe.entity.mProduct[0].ItemClass?.className === raw.entity.ClassName;
   });
 
   if (!isProduced || raw.entity.ClassName === 'Desc_Water_C') {
@@ -139,16 +119,10 @@ async function _buildItem(
 }
 
 function _toColor(color: game.Color) {
-  return `#${color.R.toString(16)}${color.G.toString(16)}${color.B.toString(
-    16,
-  )}${color.A.toString(16)}`;
+  return `#${color.R.toString(16)}${color.G.toString(16)}${color.B.toString(16)}${color.A.toString(16)}`;
 }
 
-function _assign<
-  TTarget extends object,
-  TKey extends keyof BuiltItem,
-  TValue extends BuiltItem[TKey]
->(
+function _assign<TTarget extends object, TKey extends keyof BuiltItem, TValue extends BuiltItem[TKey]>(
   target: TTarget,
   key: TKey,
   value: TValue,

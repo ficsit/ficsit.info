@@ -1,4 +1,11 @@
-import { declareClass, DeclarationShape, declareString, declareArray, declareFloat, declareReference } from './declare';
+import {
+  declareClass,
+  DeclarationShape,
+  declareString,
+  declareArray,
+  declareFloat,
+  declareReference,
+} from './declare';
 import { ItemAmountSchema } from './ItemAmount';
 
 /**
@@ -6,7 +13,7 @@ import { ItemAmountSchema } from './ItemAmount';
  *
  * This is a class describing a recipe, subclass this in blueprint to make a new
  * recipe.
- * 
+ *
  * @see https://github.com/ficsit/community-resources/blob/master/Headers/FGRecipe.h
  */
 export const RecipeSchema = declareClass('FGRecipe', {

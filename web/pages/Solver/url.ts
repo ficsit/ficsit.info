@@ -1,8 +1,4 @@
-import {
-  SolverConfiguration,
-  SolverConstraintSubjectKind,
-  SolverConstraintType,
-} from './solve';
+import { SolverConfiguration, SolverConstraintSubjectKind, SolverConstraintType } from './solve';
 
 export function encodeConfig(config: SolverConfiguration) {
   const parts = [];

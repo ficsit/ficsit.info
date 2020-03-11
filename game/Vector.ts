@@ -1,4 +1,4 @@
-import { declareStruct, declareFloat, DeclarationShape } from "./declare";
+import { declareStruct, declareFloat, DeclarationShape } from './declare';
 
 /**
  * Schema for `FVector`.

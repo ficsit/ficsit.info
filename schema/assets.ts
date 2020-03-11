@@ -26,7 +26,7 @@ export const navListIconSize = 48;
 export const entityPosterIconSizes: Record<EntityKind, number> = {
   [EntityKind.Building]: 256,
   [EntityKind.Item]: 128,
-}
+};
 
 /**
  * The maximum size (in px, not dp) of an icon.
@@ -34,4 +34,4 @@ export const entityPosterIconSizes: Record<EntityKind, number> = {
 export const entityMaxIconSize: Record<EntityKind, number> = {
   [EntityKind.Building]: 512,
   [EntityKind.Item]: 256,
-}
+};

@@ -4,9 +4,9 @@ import { BuildableSchema } from './Buildable';
 /**
  * Schema for `FGBuildableFactory`.
  *
- * Base class for factory machines like miners, conveyors, assemblers, storages 
+ * Base class for factory machines like miners, conveyors, assemblers, storages
  * etc.
- * 
+ *
  * @see https://github.com/ficsit/community-resources/blob/master/Headers/Buildables/FGBuildableFactory.h
  */
 export const BuildableFactorySchema = declareClass('FGBuildableFactory', BuildableSchema, {

@@ -1,4 +1,12 @@
-import { declareClass, DeclarationShape, declareReference, declareArray, declareBoolean, declareFloat, declareInteger } from './declare';
+import {
+  declareClass,
+  DeclarationShape,
+  declareReference,
+  declareArray,
+  declareBoolean,
+  declareFloat,
+  declareInteger,
+} from './declare';
 import { BuildableFactorySchema } from './BuildableFactory';
 import { ResourceFormSchema } from './ItemDescriptor';
 import { declareOptional } from './declare/optional';

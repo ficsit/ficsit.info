@@ -1,12 +1,14 @@
-import { declareClass, declareString, declareArray, declareEnum, declareBoolean, DeclarationShape } from './declare';
+import {
+  declareClass,
+  declareString,
+  declareArray,
+  declareEnum,
+  declareBoolean,
+  DeclarationShape,
+} from './declare';
 import { ItemAmountSchema } from './ItemAmount';
 
-export const EquipmentSlotSchema = declareEnum([
-  'ES_NONE',
-	'ES_ARMS',
-	'ES_BACK',
-	'ES_MAX'
-] as const);
+export const EquipmentSlotSchema = declareEnum(['ES_NONE', 'ES_ARMS', 'ES_BACK', 'ES_MAX'] as const);
 
 /**
  * Schema for `FGEquipment`.

@@ -2,11 +2,7 @@ import { NavigationRoute, Router, Route } from 'workbox-routing';
 import { BroadcastUpdatePlugin } from 'workbox-broadcast-update';
 import { Handler } from 'workbox-routing/_types';
 import { HTTPMethod } from 'workbox-routing/utils/constants';
-import {
-  CacheFirst,
-  NetworkFirst,
-  StaleWhileRevalidate,
-} from 'workbox-strategies';
+import { CacheFirst, NetworkFirst, StaleWhileRevalidate } from 'workbox-strategies';
 
 import { RedirectPlugin, ResponseChangedPlugin } from './handlers';
 import { prefetchData } from './prefetch';
@@ -60,11 +56,7 @@ export function registerRoutes(router: Router) {
   router.registerRoute(path(new RegExp('^/data/'), dataCache));
 }
 
-function path(
-  pathMatch: string | RegExp,
-  handler: Handler,
-  method?: HTTPMethod,
-) {
+function path(pathMatch: string | RegExp, handler: Handler, method?: HTTPMethod) {
   let match;
   if (typeof pathMatch === 'string') {
     match = ({ url: { pathname } }: { url: URL }) => pathMatch === pathname;

@@ -1,9 +1,5 @@
 export class Reference {
-  constructor(
-    public path: string, 
-    public kind?: string,
-    public className = normalizeClassName(path),
-  ) {}
+  constructor(public path: string, public kind?: string, public className = normalizeClassName(path)) {}
 
   toJSON() {
     return `<reference:${this.className}>`;
@@ -11,5 +7,5 @@ export class Reference {
 }
 
 export function normalizeClassName(nameOrPath: string) {
-  return nameOrPath.match(/([^.'"]+)'?"?$/)![1]
+  return nameOrPath.match(/([^.'"]+)'?"?$/)![1];
 }

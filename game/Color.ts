@@ -1,4 +1,4 @@
-import { declareStruct, DeclarationShape, declareInteger } from "./declare";
+import { declareStruct, DeclarationShape, declareInteger } from './declare';
 
 /**
  * Schema for `FColor`.

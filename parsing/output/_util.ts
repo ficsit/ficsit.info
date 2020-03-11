@@ -3,15 +3,10 @@ import { ItemAmount, Reference } from '@local/game';
 
 import { EntityDatabase, OutputDatabase, SlugReferenceString } from '../state';
 
-export function enumMapper<TValues>(
-  description: string,
-  mapping: Record<any, TValues>,
-) {
+export function enumMapper<TValues>(description: string, mapping: Record<any, TValues>) {
   return function mapEnum(sourceValue: any) {
     if (!(sourceValue in mapping)) {
-      throw new Error(
-        `Unable to convert ${description}. Unknown source value: ${sourceValue}`,
-      );
+      throw new Error(`Unable to convert ${description}. Unknown source value: ${sourceValue}`);
     }
     return mapping[sourceValue];
   };
@@ -82,11 +77,7 @@ export function expandReferences(
   return Array.from(classNames.values()).map(c => outputDb.slugOrDie(c));
 }
 
-export function mapItemAmount(
-  outputDb: OutputDatabase,
-  entityDb: EntityDatabase,
-  itemAmount: ItemAmount,
-) {
+export function mapItemAmount(outputDb: OutputDatabase, entityDb: EntityDatabase, itemAmount: ItemAmount) {
   const classPath = itemAmount.ItemClass!.path;
   const item = entityDb.get<'FGItemDescriptor'>(classPath);
   let count = itemAmount.Amount;

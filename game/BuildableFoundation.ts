@@ -6,19 +6,19 @@ import { declareOptional } from './declare/optional';
  * Disable snapping on specific sides.
  */
 export const FoundationSideSelectionFlagsSchema = declareStruct({
-	Front: declareOptional(declareBoolean()),
-	Right: declareOptional(declareBoolean()),
-	Back: declareOptional(declareBoolean()),
-	Left: declareOptional(declareBoolean()),
-	Top: declareOptional(declareBoolean()),
-	Bottom: declareOptional(declareBoolean()),
+  Front: declareOptional(declareBoolean()),
+  Right: declareOptional(declareBoolean()),
+  Back: declareOptional(declareBoolean()),
+  Left: declareOptional(declareBoolean()),
+  Top: declareOptional(declareBoolean()),
+  Bottom: declareOptional(declareBoolean()),
 });
 
 /**
  * Schema for `FGBuildableFoundation`.
  *
  * A foundation to build your factory walls and floors on.
- * 
+ *
  * @see https://github.com/ficsit/community-resources/blob/master/Headers/Buildables/FGBuildableFoundation.h
  */
 export const BuildableFoundationSchema = declareClass('FGBuildableFoundation', BuildableSchema, {

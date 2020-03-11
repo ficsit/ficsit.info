@@ -54,8 +54,6 @@ export class HeaderDatabase {
       const childResult = this.findAncestor(extension, callback);
       if (childResult) return childResult;
     }
-
-    
   }
 
   async _loadHeader(path: string) {
@@ -63,7 +61,9 @@ export class HeaderDatabase {
     const source = data.replace(/\r\n/g, '\n');
 
     const classes = [];
-    for (const [, name, rawExtensions] of source.matchAll(/[\s\n]+class.*?\s+(\w+)(?:\s*:\s*(.+)\s*)?\n\{/gm)) {
+    for (const [, name, rawExtensions] of source.matchAll(
+      /[\s\n]+class.*?\s+(\w+)(?:\s*:\s*(.+)\s*)?\n\{/gm,
+    )) {
       let extensions = [] as string[];
       if (rawExtensions) {
         extensions = rawExtensions
@@ -73,7 +73,7 @@ export class HeaderDatabase {
       }
 
       const classInfo = { name, extensions };
-      classes.push(classInfo)
+      classes.push(classInfo);
       this._indexClassInfo(classInfo);
     }
 
@@ -98,9 +98,8 @@ export class HeaderDatabase {
 
     this._classes[withoutPrefix] = classInfo;
   }
-
 }
 
 export function normalizeClassName(nameOrPath: string) {
-  return nameOrPath.match(/([^.'"]+)'?"?$/)![1]
+  return nameOrPath.match(/([^.'"]+)'?"?$/)![1];
 }

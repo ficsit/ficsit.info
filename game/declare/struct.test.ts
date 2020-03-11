@@ -5,12 +5,10 @@ import { declareReference } from './reference';
 import { declareOptional } from './optional';
 
 describe(`schema.declare.struct`, () => {
-
   describe(`declareStruct`, () => {
-
     const schema = declareStruct({
       ClassName: declareReference(),
-      Amount: declareInteger()
+      Amount: declareInteger(),
     });
 
     it(`passes simple items`, () => {
@@ -52,10 +50,9 @@ describe(`schema.declare.struct`, () => {
     });
 
     describe(`with arrays`, () => {
-
       const schema = declareStruct({
         foo: declareArray(declareInteger()),
-        bar: declareInteger()
+        bar: declareInteger(),
       });
 
       it(`passes items with array values`, () => {
@@ -67,11 +64,9 @@ describe(`schema.declare.struct`, () => {
         const result = schema.parse(`(foo=(),bar=4)`);
         expect(result).toEqual({ foo: [], bar: 4 });
       });
-
     });
 
     describe(`with optional values`, () => {
-
       const schema = declareStruct({
         foo: declareOptional(declareInteger()),
         bar: declareOptional(declareBoolean()),
@@ -91,9 +86,6 @@ describe(`schema.declare.struct`, () => {
         const result = schema.parse(`()`);
         expect(result).toEqual({});
       });
-
     });
-
   });
-
 });

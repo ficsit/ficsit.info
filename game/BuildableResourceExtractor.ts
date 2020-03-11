@@ -40,6 +40,4 @@ export const BuildableResourceExtractorSchema = declareClass(
   },
 );
 
-export type BuildableResourceExtractor = DeclarationShape<
-  typeof BuildableResourceExtractorSchema
->;
+export type BuildableResourceExtractor = DeclarationShape<typeof BuildableResourceExtractorSchema>;

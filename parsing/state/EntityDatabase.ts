@@ -6,10 +6,7 @@ import { HeaderDatabase, normalizeClassName } from './HeaderDatabase';
 type AllSchema = typeof game[keyof typeof game];
 type ClassSchema = Extract<AllSchema, { className: string }>;
 type ClassSchemaByName = {
-  [TName in ClassSchema['className']]: Extract<
-    ClassSchema,
-    { className: TName }
-  >;
+  [TName in ClassSchema['className']]: Extract<ClassSchema, { className: TName }>;
 };
 
 const schemaByClass = {} as Record<string, ClassSchema>;
@@ -32,10 +29,7 @@ type Docs = {
 export class EntityDatabase {
   _entities = {} as Record<string, EntityDatabase.Info>;
 
-  constructor(
-    private readonly _fs: FileSystem,
-    private readonly _headers: HeaderDatabase,
-  ) {}
+  constructor(private readonly _fs: FileSystem, private readonly _headers: HeaderDatabase) {}
 
   async load() {
     const docsData = await this._fs.read('Docs.json');
@@ -43,10 +37,7 @@ export class EntityDatabase {
 
     for (const { NativeClass, Classes } of docs) {
       const className = normalizeClassName(NativeClass);
-      const schema = this._headers.findAncestor(
-        className,
-        n => schemaByClass[n],
-      );
+      const schema = this._headers.findAncestor(className, n => schemaByClass[n]);
       if (!schema) {
         console.warn(`Unable to find a matching schema for ${className}`);
         continue;
@@ -73,9 +64,7 @@ export class EntityDatabase {
       for (const entityReference of info.outbound) {
         const target = this.get(entityReference.className);
         if (!target) {
-          console.warn(
-            `Missing reference target: ${entityReference.className}`,
-          );
+          console.warn(`Missing reference target: ${entityReference.className}`);
           continue;
         }
         target.inbound.push({
@@ -87,9 +76,7 @@ export class EntityDatabase {
     }
   }
 
-  get<TClass extends string = string>(
-    instanceName: string,
-  ): EntityDatabase.Info<TClass> | undefined {
+  get<TClass extends string = string>(instanceName: string): EntityDatabase.Info<TClass> | undefined {
     instanceName = normalizeClassName(instanceName);
     return this._entities[instanceName] as any;
   }
@@ -110,9 +97,7 @@ export class EntityDatabase {
     return entity;
   }
 
-  *findByClass<TClass extends string>(
-    className: TClass,
-  ): Generator<EntityDatabase.Info<TClass>> {
+  *findByClass<TClass extends string>(className: TClass): Generator<EntityDatabase.Info<TClass>> {
     for (const entity of Object.values(this._entities)) {
       if (this._headers.findAncestor(entity.className, n => n === className)) {
         yield entity as any;
@@ -128,12 +113,7 @@ export class EntityDatabase {
 
     this.getOrDie(instanceName).inbound.filter(({ className }) => {
       const inboundEntity = this.getOrDie(className);
-      if (
-        this._headers.findAncestor(
-          inboundEntity.className,
-          n => n === targetClass,
-        )
-      ) {
+      if (this._headers.findAncestor(inboundEntity.className, n => n === targetClass)) {
         inbound.push(inboundEntity as any);
       }
     });
@@ -152,14 +132,9 @@ export class EntityDatabase {
     return this._entities;
   }
 
-  _findReferences(
-    value: any,
-    path: (number | string)[] = [],
-  ): EntityDatabase.EntityReference[] {
+  _findReferences(value: any, path: (number | string)[] = []): EntityDatabase.EntityReference[] {
     if (value instanceof game.Reference) {
-      return [
-        { path, className: normalizeClassName(value.path), reference: value },
-      ];
+      return [{ path, className: normalizeClassName(value.path), reference: value }];
     } else if (Array.isArray(value)) {
       return value.flatMap((v, i) => this._findReferences(v, [...path, i]));
     } else if (typeof value === 'object' && value !== null) {

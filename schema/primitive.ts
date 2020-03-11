@@ -14,7 +14,7 @@ export type ImageId = string;
 
 /**
  * A string, containing content displayable to humans, in English.
- * 
+ *
  * E.g. this is something we could translate, later.
  */
 export type HumanReadableString = string;

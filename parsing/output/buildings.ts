@@ -1,11 +1,6 @@
 import { Building, EntityKind } from '@local/schema';
 
-import {
-  AssetDatabase,
-  EntityDatabase,
-  OutputDatabase,
-  WithoutSlug,
-} from '../state';
+import { AssetDatabase, EntityDatabase, OutputDatabase, WithoutSlug } from '../state';
 
 import { mapItemForm, expandReferences, itemsExtractedBy } from './_util';
 
@@ -20,18 +15,9 @@ export async function fillBuildings(
 ) {
   for (const raw of entityDb.findByClass('FGBuildable')) {
     const descriptor = _findDescriptor(entityDb, raw);
-    const building = await _buildBuilding(
-      outputDb,
-      entityDb,
-      assetDb,
-      raw,
-      descriptor,
-    );
+    const building = await _buildBuilding(outputDb, entityDb, assetDb, raw, descriptor);
 
-    outputDb.register('entity', building, [
-      raw.entity.ClassName,
-      descriptor?.entity.ClassName,
-    ]);
+    outputDb.register('entity', building, [raw.entity.ClassName, descriptor?.entity.ClassName]);
   }
 }
 
@@ -40,9 +26,7 @@ function _findDescriptor(entityDb: EntityDatabase, raw: RawInfo) {
   const descriptorClass = `Desc_${baseClass}_C`;
   const descriptor = entityDb.get(descriptorClass);
   if (!descriptor) {
-    console.warn(
-      `Unable to find item descriptor ${descriptorClass} for building ${raw.entity.ClassName}`,
-    );
+    console.warn(`Unable to find item descriptor ${descriptorClass} for building ${raw.entity.ClassName}`);
     return;
   }
   if (!entityDb.isKind(descriptor, 'FGBuildDescriptor')) {
@@ -107,23 +91,15 @@ async function _buildBuilding(
     _assign(building, 'powerProduction', {
       amount: raw.entity.mPowerProduction,
       exponent: raw.entity.mPowerProductionExponent,
-      fuelForm: raw.entity.mFuelResourceForm
-        ? mapItemForm(raw.entity.mFuelResourceForm)
-        : undefined,
-      fuels: expandReferences(
-        outputDb,
-        entityDb,
-        raw.entity.mDefaultFuelClasses,
-      ),
+      fuelForm: raw.entity.mFuelResourceForm ? mapItemForm(raw.entity.mFuelResourceForm) : undefined,
+      fuels: expandReferences(outputDb, entityDb, raw.entity.mDefaultFuelClasses),
     });
   }
 
   if (entityDb.isKind(raw, 'FGBuildableResourceExtractor')) {
     let itemsPerCycle = raw.entity.mItemsPerCycle;
     if (raw.entity.mAllowedResourceForms.length !== 1) {
-      throw new Error(
-        `We expect all extractors to support only a single resource form.`,
-      );
+      throw new Error(`We expect all extractors to support only a single resource form.`);
     }
     if (raw.entity.mAllowedResourceForms[0] === 'RF_LIQUID') {
       itemsPerCycle /= 1e3;
@@ -132,9 +108,7 @@ async function _buildBuilding(
     _assign(building, 'extraction', {
       cycleTime: raw.entity.mExtractCycleTime,
       itemsPerCycle,
-      resources: itemsExtractedBy(raw, entityDb).map(name =>
-        outputDb.slugOrDie(name),
-      ),
+      resources: itemsExtractedBy(raw, entityDb).map(name => outputDb.slugOrDie(name)),
     });
   }
 
@@ -158,11 +132,7 @@ function _extractCategories(descriptor?: Descriptor) {
   if (!descriptor) return;
   const categories = descriptor.entity.mSubCategories;
   if (categories.length > 1) {
-    console.warn(
-      `build descriptor had more than one category!? ${JSON.stringify(
-        categories,
-      )}`,
-    );
+    console.warn(`build descriptor had more than one category!? ${JSON.stringify(categories)}`);
   }
 
   const match = /\/Sub_([^\/]+)\/SC_([^.]+)\./.exec(categories[0]!.path);
@@ -179,10 +149,6 @@ function _assign<
   TTarget extends object,
   TKey extends keyof BuiltBuilding,
   TValue extends BuiltBuilding[TKey]
->(
-  target: TTarget,
-  key: TKey,
-  value: TValue,
-): asserts target is TTarget & Record<TKey, TValue> {
+>(target: TTarget, key: TKey, value: TValue): asserts target is TTarget & Record<TKey, TValue> {
   (target as any)[key] = value;
 }

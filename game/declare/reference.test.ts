@@ -1,9 +1,7 @@
 import { declareReference } from './reference';
 
 describe(`schema.declare.reference`, () => {
-
   describe(`declareReference`, () => {
-
     const schema = declareReference();
 
     it(`parses Class references`, () => {
@@ -13,15 +11,23 @@ describe(`schema.declare.reference`, () => {
     });
 
     it(`parses nested references`, () => {
-      const reference = schema.parse(`ParticleSystem'"/Game/FactoryGame/Buildable/Factory/MinerMk2/Particle/MiningCoal.MiningCoal"'`)!;
+      const reference = schema.parse(
+        `ParticleSystem'"/Game/FactoryGame/Buildable/Factory/MinerMk2/Particle/MiningCoal.MiningCoal"'`,
+      )!;
       expect(reference.kind).toEqual('ParticleSystem');
-      expect(reference.path).toEqual('/Game/FactoryGame/Buildable/Factory/MinerMk2/Particle/MiningCoal.MiningCoal');
+      expect(reference.path).toEqual(
+        '/Game/FactoryGame/Buildable/Factory/MinerMk2/Particle/MiningCoal.MiningCoal',
+      );
     });
 
     it(`parses bare paths`, () => {
-      const reference = schema.parse(`/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C`)!;
+      const reference = schema.parse(
+        `/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C`,
+      )!;
       expect(reference.kind).toEqual(undefined);
-      expect(reference.path).toEqual('/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C');
+      expect(reference.path).toEqual(
+        '/Game/FactoryGame/Buildable/Factory/AssemblerMk1/Build_AssemblerMk1.Build_AssemblerMk1_C',
+      );
     });
 
     it(`throws for unknown formats`, () => {
@@ -41,7 +47,5 @@ describe(`schema.declare.reference`, () => {
         schema.parse(undefined);
       }).toThrowError(/undefined/);
     });
-
   });
-
 });

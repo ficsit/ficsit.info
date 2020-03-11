@@ -15,10 +15,7 @@ const handcraftingEntities = new Set([
 type BuiltRecipe = WithoutSlug<Recipe>;
 type RawInfo = EntityDatabase.Info<'FGRecipe'>;
 
-export async function fillRecipes(
-  outputDb: OutputDatabase,
-  entityDb: EntityDatabase,
-) {
+export async function fillRecipes(outputDb: OutputDatabase, entityDb: EntityDatabase) {
   for (const raw of entityDb.findByClass('FGRecipe')) {
     const recipe = await _buildRecipe(outputDb, entityDb, raw);
     if (!recipe) continue;
@@ -38,11 +35,7 @@ async function _buildRecipe(
   let placedByPlayer: undefined | true = undefined;
   const producedIn = [] as string[];
   const handcraftedIn = [] as string[];
-  for (const building of expandReferences(
-    outputDb,
-    entityDb,
-    raw.entity.mProducedIn,
-  )) {
+  for (const building of expandReferences(outputDb, entityDb, raw.entity.mProducedIn)) {
     if (handcraftingEntities.has(building.className)) {
       handcraftedIn.push(building);
     } else if (playerPlacingEntities.has(building.className)) {
@@ -58,12 +51,8 @@ async function _buildRecipe(
 
   const recipe = {
     name: raw.entity.mDisplayName,
-    ingredients: raw.entity.mIngredients.map(a =>
-      mapItemAmount(outputDb, entityDb, a),
-    ),
-    products: raw.entity.mProduct.map(a =>
-      mapItemAmount(outputDb, entityDb, a),
-    ),
+    ingredients: raw.entity.mIngredients.map(a => mapItemAmount(outputDb, entityDb, a)),
+    products: raw.entity.mProduct.map(a => mapItemAmount(outputDb, entityDb, a)),
     producedIn,
     handcraftedIn,
     placedByPlayer,
@@ -71,9 +60,7 @@ async function _buildRecipe(
     manualMultiplier: raw.entity.mManualManufacturingMultiplier,
   } as const;
 
-  const firstProduct = entityDb.getOrDie(
-    raw.entity.mProduct[0].ItemClass!.path,
-  );
+  const firstProduct = entityDb.getOrDie(raw.entity.mProduct[0].ItemClass!.path);
   // TODO: support vehicles
   if (entityDb.isKind<any>(firstProduct, 'FGVehicleDescriptor')) return;
 
@@ -85,11 +72,7 @@ async function _buildRecipe(
   return recipe;
 }
 
-function _assign<
-  TTarget extends object,
-  TKey extends keyof BuiltRecipe,
-  TValue extends BuiltRecipe[TKey]
->(
+function _assign<TTarget extends object, TKey extends keyof BuiltRecipe, TValue extends BuiltRecipe[TKey]>(
   target: TTarget,
   key: TKey,
   value: TValue,
@@ -97,9 +80,7 @@ function _assign<
   (target as any)[key] = value;
 }
 
-export function isResourceSource({
-  entity: { mProducedIn, mIngredients, mProduct },
-}: RawInfo) {
+export function isResourceSource({ entity: { mProducedIn, mIngredients, mProduct } }: RawInfo) {
   return (
     mProducedIn.length === 1 &&
     mProducedIn[0]?.className === 'Build_Converter_C' &&

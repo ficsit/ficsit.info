@@ -20,13 +20,13 @@ export function assertRegexp(value: any, regexp: RegExp): asserts value is strin
 
 export function assertOneOf<TValue>(value: any, range: readonly TValue[]): asserts value is TValue {
   if (!range.includes(value)) {
-    throw new TypeAssertionError(value, `be one of ${format(range)}` )
+    throw new TypeAssertionError(value, `be one of ${format(range)}`);
   }
 }
 
 function _assertType(value: any, expected: any) {
   if (typeof value !== expected) {
-    throw new TypeAssertionError(value, `be typeof ${expected}`)
+    throw new TypeAssertionError(value, `be typeof ${expected}`);
   }
 }
 

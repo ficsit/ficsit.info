@@ -5,11 +5,7 @@ import * as parsing from '@local/parsing';
 
 const DATA_ROOT = path.resolve(__dirname, '..', 'static', 'data');
 const ASSETS = path.resolve(__dirname, '..', 'static', 'assets');
-const COMMUNITY_RESOURCES = path.resolve(
-  __dirname,
-  '..',
-  '.community-resources',
-);
+const COMMUNITY_RESOURCES = path.resolve(__dirname, '..', '.community-resources');
 
 main(process.argv[2]);
 async function main(version: string) {
@@ -19,24 +15,14 @@ async function main(version: string) {
   const destination = new parsing.FileSystem(destinationPath);
   const assets = new parsing.FileSystem(ASSETS);
 
-  const headerDb = new parsing.HeaderDatabase(
-    new parsing.FileSystem(COMMUNITY_RESOURCES, 'headers'),
-  );
+  const headerDb = new parsing.HeaderDatabase(new parsing.FileSystem(COMMUNITY_RESOURCES, 'headers'));
   await headerDb.load();
 
-  const entityDb = new parsing.EntityDatabase(
-    new parsing.FileSystem(COMMUNITY_RESOURCES, 'data'),
-    headerDb,
-  );
+  const entityDb = new parsing.EntityDatabase(new parsing.FileSystem(COMMUNITY_RESOURCES, 'data'), headerDb);
   await entityDb.load();
 
   const assetDb = new parsing.AssetDatabase(
-    new parsing.FileSystem(
-      COMMUNITY_RESOURCES,
-      'assets',
-      'Game',
-      'FactoryGame',
-    ),
+    new parsing.FileSystem(COMMUNITY_RESOURCES, 'assets', 'Game', 'FactoryGame'),
     assets,
   );
   const outputDb = new parsing.OutputDatabase();
@@ -52,9 +38,6 @@ async function main(version: string) {
   await Promise.all([
     destination.writeJson(outputDb.getAllByType('entity'), 'entities.json'),
     destination.writeJson(outputDb.getAllByType('recipe'), 'recipes.json'),
-    destination.writeJson(
-      outputDb.getAllByType('schematic'),
-      'schematics.json',
-    ),
+    destination.writeJson(outputDb.getAllByType('schematic'), 'schematics.json'),
   ]);
 }

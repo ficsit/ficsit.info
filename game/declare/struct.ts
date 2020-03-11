@@ -5,7 +5,7 @@ import { assertString, assertRegexp, TypeAssertionError } from './assert';
 import { OptionalDeclaration } from './optional';
 
 export function declareStruct<TStruct extends Record<string, Declaration | OptionalDeclaration>>(
-  declaration: TStruct
+  declaration: TStruct,
 ): StructDeclaration<TStruct> {
   const requiredKeys = new Set();
   for (const [key, itemDeclaration] of Object.entries(declaration)) {
@@ -23,7 +23,10 @@ export function declareStruct<TStruct extends Record<string, Declaration | Optio
       for (const [key, itemDeclaration] of Object.entries(declaration)) {
         if (!(key in rawValues)) {
           if (requiredKeys.has(key)) {
-            throw new TypeAssertionError(raw, `to have keys: ${format(Array.from(requiredKeys))} (missing ${key})`);
+            throw new TypeAssertionError(
+              raw,
+              `to have keys: ${format(Array.from(requiredKeys))} (missing ${key})`,
+            );
           } else {
             continue;
           }
@@ -33,7 +36,7 @@ export function declareStruct<TStruct extends Record<string, Declaration | Optio
       }
 
       return values;
-    }
+    },
   };
 }
 
@@ -78,5 +81,5 @@ function parseRawObject(raw: string) {
     throw new TypeAssertionError(raw, `be a valid object`);
   }
 
-  return values;   
+  return values;
 }

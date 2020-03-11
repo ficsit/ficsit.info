@@ -1,4 +1,12 @@
-import { declareClass, declareArray, declareReference, declareString, declareFloat, declareInteger, declareEnum } from './declare';
+import {
+  declareClass,
+  declareArray,
+  declareReference,
+  declareString,
+  declareFloat,
+  declareInteger,
+  declareEnum,
+} from './declare';
 import { ItemAmountSchema } from './ItemAmount';
 
 /**
@@ -21,9 +29,9 @@ export const SchematicTypeSchema = declareEnum([
 
 /**
  * Schema for `FGSchematic`.
- * 
+ *
  * This is a schematic. It is purchased in the trading post and grants the player resources and/or recipes.
- * 
+ *
  * @see https://github.com/ficsit/community-resources/blob/master/Headers/FGSchematic.h
  */
 export const SchematicSchema = declareClass('FGSchematic', {

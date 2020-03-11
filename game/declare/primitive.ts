@@ -6,8 +6,8 @@ export function declareString(): Declaration<string> {
     parse(raw: any) {
       assertString(raw);
       return raw.replace(/\r\n/g, '\n');
-    }
-  }
+    },
+  };
 }
 
 export function declareInteger(): Declaration<number> {
@@ -15,8 +15,8 @@ export function declareInteger(): Declaration<number> {
     parse(raw: any) {
       assertRegexp(raw, /^-?\d+$/);
       return parseInt(raw);
-    }
-  }
+    },
+  };
 }
 
 export function declareFloat(): Declaration<number> {
@@ -24,8 +24,8 @@ export function declareFloat(): Declaration<number> {
     parse(raw: any) {
       assertRegexp(raw, /^-?\d+\.\d+$/);
       return parseFloat(raw);
-    }
-  }
+    },
+  };
 }
 
 export function declareBoolean(): Declaration<boolean> {
@@ -33,6 +33,6 @@ export function declareBoolean(): Declaration<boolean> {
     parse(raw: any) {
       assertOneOf(raw, ['True', 'False']);
       return raw === 'True';
-    }
-  }
+    },
+  };
 }

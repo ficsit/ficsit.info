@@ -1,9 +1,7 @@
 import { declareEnum } from './enum';
 
 describe(`schema.declare.enum`, () => {
-
   describe(`declareEnum`, () => {
-
     const schema = declareEnum(['ONE', 'TWO', 'THREE']);
 
     it(`passes matching values`, () => {
@@ -35,7 +33,5 @@ describe(`schema.declare.enum`, () => {
         schema.parse(undefined);
       }).toThrowError(/undefined/);
     });
-
   });
-
 });

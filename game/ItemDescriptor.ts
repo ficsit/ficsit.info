@@ -1,4 +1,11 @@
-import { declareClass, DeclarationShape, declareBoolean, declareString, declareFloat, declareEnum } from './declare';
+import {
+  declareClass,
+  DeclarationShape,
+  declareBoolean,
+  declareString,
+  declareFloat,
+  declareEnum,
+} from './declare';
 import { ColorSchema } from './Color';
 
 /**
@@ -22,16 +29,16 @@ export const StackSizeSchema = declareEnum([
   'SS_MEDIUM',
   'SS_BIG',
   'SS_HUGE',
-  'SS_LAST_ENUM',	
+  'SS_LAST_ENUM',
   // Missing in the headers.
   'SS_FLUID',
 ] as const);
 
 /**
  * Schema for `FGItemDescriptor`.
- * 
+ *
  * Base for all descriptors in the game like resource, equipment etc.
- * 
+ *
  * @see https://github.com/ficsit/community-resources/blob/master/Headers/Resources/FGItemDescriptor.h
  */
 export const ItemDescriptorSchema = declareClass('FGItemDescriptor', {

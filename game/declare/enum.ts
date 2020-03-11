@@ -6,6 +6,6 @@ export function declareEnum<TValues>(values: readonly TValues[]): Declaration<TV
     parse(raw: any) {
       assertOneOf(raw, values);
       return raw;
-    }
-  }  
+    },
+  };
 }

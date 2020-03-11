@@ -1,10 +1,7 @@
 import { OutputDatabase, AssetDatabase } from '../state';
 import { EntityKind, ItemForm, Item } from '@local/schema';
 
-export async function fillStaticEntries(
-  outputDb: OutputDatabase,
-  assetDb: AssetDatabase,
-) {
+export async function fillStaticEntries(outputDb: OutputDatabase, assetDb: AssetDatabase) {
   // Wat.
   outputDb.register(
     'entity',

@@ -26,35 +26,24 @@ export class AssetDatabase {
 
   constructor(private _resources: FileSystem, private _output: FileSystem) {}
 
-  async findLargestEntityIcon({
-    entity,
-  }: EntityDatabase.Info): Promise<string | undefined> {
-    const baseName = /^[^_]+_(.+)_C$/
-      .exec(entity.ClassName)![1]
-      .replace(/([^_])(Mk\d)$/, '$1_$2');
+  async findLargestEntityIcon({ entity }: EntityDatabase.Info): Promise<string | undefined> {
+    const baseName = /^[^_]+_(.+)_C$/.exec(entity.ClassName)![1].replace(/([^_])(Mk\d)$/, '$1_$2');
 
-    return await this._findLargestEntityIcon(
-      baseName,
-      (entity as any).mDisplayName,
-    );
+    return await this._findLargestEntityIcon(baseName, (entity as any).mDisplayName);
   }
 
   async _findLargestEntityIcon(baseName: string, name: string) {
     if (!this._found[baseName]) {
       const basePath = assetMap[baseName];
       if (!basePath) {
-        console.warn(
-          `No asset path for ${baseName} (${name}), please add it to parsing/state/assetMap`,
-        );
+        console.warn(`No asset path for ${baseName} (${name}), please add it to parsing/state/assetMap`);
         return undefined;
       }
 
       const paths = await this._resources.glob(`${basePath}_+([0-9]).png`);
       const foundPath = paths.sort((a, b) => _iconSize(b) - _iconSize(a))[0];
       if (!foundPath) {
-        console.warn(
-          `Expected assets for ${baseName} to exist at ${basePath}, but found none`,
-        );
+        console.warn(`Expected assets for ${baseName} to exist at ${basePath}, but found none`);
       }
       this._found[baseName] = foundPath;
     }
@@ -127,11 +116,7 @@ function _hashImage(image: Buffer) {
 
 function _expandSizes(kind: EntityKind) {
   const sizes = [...commonImageSizes, entityPosterIconSizes[kind]];
-  const expanded = sizes.flatMap(baseSize =>
-    pixelDensities.map(density => baseSize * density),
-  );
+  const expanded = sizes.flatMap(baseSize => pixelDensities.map(density => baseSize * density));
   const unique = Array.from(new Set(expanded));
-  return unique
-    .filter(size => size <= entityMaxIconSize[kind])
-    .sort((a, b) => a - b);
+  return unique.filter(size => size <= entityMaxIconSize[kind]).sort((a, b) => a - b);
 }

@@ -25,7 +25,7 @@ export class FileSystem {
   async readable(...pathParts: string[]) {
     return new Promise(resolve => {
       const fullPath = this.path(...pathParts);
-      fs.access(fullPath, fs.constants.R_OK, (error) => {
+      fs.access(fullPath, fs.constants.R_OK, error => {
         error ? resolve(false) : resolve(true);
       });
     });
@@ -63,7 +63,7 @@ export class FileSystem {
   }
 
   async glob(expression: string) {
-    return await glob(expression, { 
+    return await glob(expression, {
       cwd: this._root,
     });
   }

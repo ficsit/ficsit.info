@@ -14,7 +14,7 @@ export type Data = DataTypes[DataType];
 export type WithoutSlug<TData extends Data> = Omit<TData, 'slug'>;
 
 /**
- * Database that maintains a set of all entities that should be outputted, and 
+ * Database that maintains a set of all entities that should be outputted, and
  * handles references from internal class names to them.
  */
 export class OutputDatabase {
@@ -22,7 +22,12 @@ export class OutputDatabase {
   _dataByBaseSlug = new Map<string, Data[]>();
   _dataByType = new Map<string, Data[]>();
 
-  register<TType extends DataType>(type: TType, data: WithoutSlug<DataTypes[TType]>, classNames: (string | undefined)[], slugPrefix?: string) {
+  register<TType extends DataType>(
+    type: TType,
+    data: WithoutSlug<DataTypes[TType]>,
+    classNames: (string | undefined)[],
+    slugPrefix?: string,
+  ) {
     this._assignBySlug(data, slugPrefix);
     this._assignByType(type, data);
     for (const className of classNames) {
@@ -51,10 +56,11 @@ export class OutputDatabase {
   }
 
   getAllByType<TType extends DataType>(type: TType): Record<string, DataTypes[TType]> {
-    const entries = this._dataByType.get(type)!
-      .map((data) => [data.slug, data as DataTypes[TType]] as const)
+    const entries = this._dataByType
+      .get(type)!
+      .map(data => [data.slug, data as DataTypes[TType]] as const)
       .sort((a, b) => a[0].localeCompare(b[0]));
-    
+
     return Object.fromEntries(entries);
   }
 
@@ -74,7 +80,7 @@ export class OutputDatabase {
       this._dataByBaseSlug.set(baseSlug, dataArray);
     }
     dataArray.push(data);
-    
+
     if (dataArray.length === 1) {
       data.slug = baseSlug;
     } else {

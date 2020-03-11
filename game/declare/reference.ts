@@ -15,6 +15,6 @@ export function declareReference(): Declaration<Reference | undefined> {
       if (raw.startsWith('/')) return new Reference(raw);
 
       throw new TypeAssertionError(raw, `to match a known reference format`);
-    }
-  }
+    },
+  };
 }

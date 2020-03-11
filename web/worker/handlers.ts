@@ -16,17 +16,10 @@ export class RedirectPlugin implements WorkboxPlugin {
 export class ResponseChangedPlugin implements WorkboxPlugin {
   private _headers = ['content-length', 'etag', 'last-modified'];
 
-  constructor(
-    private _callback: (
-      details: CacheDidUpdateCallbackParam,
-    ) => void | Promise<void>,
-  ) {}
+  constructor(private _callback: (details: CacheDidUpdateCallbackParam) => void | Promise<void>) {}
 
   async cacheDidUpdate(details: CacheDidUpdateCallbackParam) {
-    if (
-      !details.oldResponse ||
-      !responsesAreSame(details.oldResponse, details.newResponse, this._headers)
-    ) {
+    if (!details.oldResponse || !responsesAreSame(details.oldResponse, details.newResponse, this._headers)) {
       return await this._callback(details);
     }
   }

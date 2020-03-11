@@ -18,22 +18,35 @@ describe(`schema.Recipe`, () => {
       mDisplayName: 'Fuel',
       mIngredients: [
         {
-          ItemClass: new Reference('/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C', 'BlueprintGeneratedClass'),
+          ItemClass: new Reference(
+            '/Game/FactoryGame/Resource/RawResources/CrudeOil/Desc_LiquidOil.Desc_LiquidOil_C',
+            'BlueprintGeneratedClass',
+          ),
           Amount: 6000,
         },
       ],
       mManualManufacturingMultiplier: 1.0,
       mManufactoringDuration: 6.0,
-      mProducedIn: [new Reference('/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C')],
+      mProducedIn: [
+        new Reference(
+          '/Game/FactoryGame/Buildable/Factory/OilRefinery/Build_OilRefinery.Build_OilRefinery_C',
+        ),
+      ],
       mProduct: [
         {
-          ItemClass: new Reference('/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C', 'BlueprintGeneratedClass'),
+          ItemClass: new Reference(
+            '/Game/FactoryGame/Resource/Parts/Fuel/Desc_LiquidFuel.Desc_LiquidFuel_C',
+            'BlueprintGeneratedClass',
+          ),
           Amount: 4000,
         },
         {
-          ItemClass: new Reference('/Game/FactoryGame/Resource/Parts/PolymerResin/Desc_PolymerResin.Desc_PolymerResin_C', 'BlueprintGeneratedClass'),
+          ItemClass: new Reference(
+            '/Game/FactoryGame/Resource/Parts/PolymerResin/Desc_PolymerResin.Desc_PolymerResin_C',
+            'BlueprintGeneratedClass',
+          ),
           Amount: 3,
-        }
+        },
       ],
     });
   });

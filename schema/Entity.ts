@@ -3,7 +3,7 @@ import { ImageId, HumanReadableString } from './primitive';
 
 /**
  * The broad categorization of an entity.
- * 
+ *
  * Note that there are many sub types under each entity.
  */
 export enum EntityKind {
@@ -13,7 +13,7 @@ export enum EntityKind {
 
 /**
  * Any entity which should be indexed (e.g. for search, links, etc).
- * 
+ *
  * Most entities extend this.
  */
 export interface Entity extends Data {
@@ -29,7 +29,7 @@ export interface Entity extends Data {
 
   /**
    * Any categories (within its kind) this entity is contained within.
-   * 
+   *
    * Categories are in order of specificity (and imply a hierarchy).
    */
   categories?: HumanReadableString[];

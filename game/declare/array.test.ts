@@ -5,11 +5,8 @@ import { declareInteger, declareString } from './primitive';
 import { Declaration } from './Declaration';
 
 describe(`schema.declare.array`, () => {
-
   describe(`declareArray`, () => {
-
     function itFollowsCommonBehavior(schema: Declaration<any[]>) {
-
       it(`handles empty arrays`, () => {
         const array = schema.parse(`()`);
         expect(array).toEqual([]);
@@ -20,29 +17,26 @@ describe(`schema.declare.array`, () => {
         expect(array).toEqual([]);
       });
 
-
       it(`throws for broken formats`, () => {
         expect(() => {
           schema.parse(`((foobar)`);
         }).toThrowError(/\(\(foobar\)/);
       });
-  
+
       it(`throws for values of the wrong type`, () => {
         expect(() => {
           schema.parse(1);
         }).toThrowError(/1/);
       });
-  
+
       it(`throws for undefined`, () => {
         expect(() => {
           schema.parse(undefined);
         }).toThrowError(/undefined/);
       });
-
     }
 
     describe(`with a reference item`, () => {
-
       const schema = declareArray(declareReference());
       itFollowsCommonBehavior(schema);
 
@@ -55,15 +49,15 @@ describe(`schema.declare.array`, () => {
         const array = schema.parse(`(/foo/bar,Class'/fizz/buzz',FizzClass'"/fdsa/asdf"')`);
         expect(array.map(e => e!.path)).toEqual(['/foo/bar', '/fizz/buzz', '/fdsa/asdf']);
       });
-
     });
 
     describe(`with a struct item`, () => {
-
-      const schema = declareArray(declareStruct({
-        foo: declareInteger(),
-        bar: declareString(),
-      }));
+      const schema = declareArray(
+        declareStruct({
+          foo: declareInteger(),
+          bar: declareString(),
+        }),
+      );
       itFollowsCommonBehavior(schema);
 
       it(`passes single items`, () => {
@@ -73,11 +67,11 @@ describe(`schema.declare.array`, () => {
 
       it(`passes multiple items`, () => {
         const array = schema.parse(`((foo=123,bar=asdf),(foo=1,bar=hi))`);
-        expect(array).toEqual([{ foo: 123, bar: 'asdf' }, { foo: 1, bar: 'hi' }]);
+        expect(array).toEqual([
+          { foo: 123, bar: 'asdf' },
+          { foo: 1, bar: 'hi' },
+        ]);
       });
-
     });
-
   });
-
 });

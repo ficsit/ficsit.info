@@ -6,7 +6,7 @@ import { VectorSchema } from './Vector';
  *
  * Base for everything buildable, buildable things can have factory connections,
  * power connections etc.
- * 
+ *
  * @see https://github.com/ficsit/community-resources/blob/master/Headers/Buildables/FGBuildable.h
  */
 export const BuildableSchema = declareClass('FGBuildable', {

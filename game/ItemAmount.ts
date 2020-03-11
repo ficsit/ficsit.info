@@ -5,7 +5,7 @@ import { declareStruct, declareReference, declareInteger, DeclarationShape } fro
  *
  * Struct used to specify an amount of items. E.g. a cost, a recipe product or
  * ingredient.
- * 
+ *
  * @see https://github.com/ficsit/community-resources/blob/master/Headers/ItemAmount.h
  */
 export const ItemAmountSchema = declareStruct({

@@ -10,7 +10,7 @@ export function declareArray<TItem>(itemDeclaration: Declaration<TItem>): Declar
 
       const items = parseRawArray(raw);
       return items.map(i => itemDeclaration.parse(i));
-    }
+    },
   };
 }
 

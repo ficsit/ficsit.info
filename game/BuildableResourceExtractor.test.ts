@@ -56,10 +56,8 @@ describe(`schema.BuildableResourceExtractor`, () => {
       mWaterpumpTimeline__Direction_B8FA6F944E717E3B7A286E84901F620E: 'Forward',
       mWaterpumpTimeline_RTPC_B8FA6F944E717E3B7A286E84901F620E: '0.000000',
       OnReplicationDetailActorCreatedEvent: '()',
-      PlayPitchAndVolumeRTPCTimeline__Direction_2B435F41466C37D2AD809A88AA21BA89:
-        'Forward',
-      PlayPitchAndVolumeRTPCTimeline_RTPC_2B435F41466C37D2AD809A88AA21BA89:
-        '0.000000',
+      PlayPitchAndVolumeRTPCTimeline__Direction_2B435F41466C37D2AD809A88AA21BA89: 'Forward',
+      PlayPitchAndVolumeRTPCTimeline_RTPC_2B435F41466C37D2AD809A88AA21BA89: '0.000000',
     });
 
     expect(result).toMatchInlineSnapshot(`

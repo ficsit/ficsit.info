@@ -3,9 +3,7 @@ import { declareClass } from './class';
 import { declareInteger, declareString } from './primitive';
 
 describe(`schema.declare.class`, () => {
-
   describe(`declareClass`, () => {
-
     const schema = declareClass('FGFooBar', {
       foo: declareInteger(),
       bar: declareArray(declareInteger()),
@@ -68,7 +66,6 @@ describe(`schema.declare.class`, () => {
     });
 
     describe(`with a parent class`, () => {
-
       const childSchema = declareClass('FGChild', schema, {
         one: declareString(),
         two: declareArray(declareInteger()),
@@ -77,7 +74,7 @@ describe(`schema.declare.class`, () => {
       it(`annotates the schema with the class name`, () => {
         expect(childSchema.className).toEqual('FGChild');
       });
-  
+
       it(`passes simple items`, () => {
         const result = childSchema.parse({
           ClassName: 'abc123',
@@ -87,7 +84,7 @@ describe(`schema.declare.class`, () => {
           one: '1',
           two: '(1,2,3)',
         });
-  
+
         expect(result).toEqual({
           ClassName: 'abc123',
           foo: 123,
@@ -97,10 +94,10 @@ describe(`schema.declare.class`, () => {
           two: [1, 2, 3],
         });
       });
-  
+
       it(`throws for missing keys in the child`, () => {
         expect(() => {
-          childSchema.parse({ 
+          childSchema.parse({
             ClassName: 'abc123',
             foo: '123',
             bar: '(1,2,3)',
@@ -108,9 +105,6 @@ describe(`schema.declare.class`, () => {
           });
         }).toThrowError(/keys.*one.*two/);
       });
-
     });
-
   });
-
 });

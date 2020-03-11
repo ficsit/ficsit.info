@@ -1,7 +1,6 @@
-import { EquipmentSchema } from "./Equipment";
+import { EquipmentSchema } from './Equipment';
 
 describe(`schema.Equipment`, () => {
-
   it(`parses Equip_JumpingStilts_C from v114480`, () => {
     const result = EquipmentSchema.parse({
       ClassName: 'Equip_JumpingStilts_C',
@@ -27,5 +26,4 @@ describe(`schema.Equipment`, () => {
       mUseDefaultPrimaryFire: false,
     });
   });
-
 });

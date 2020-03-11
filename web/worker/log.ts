@@ -57,9 +57,7 @@ export class LifecycleLoggingPlugin implements WorkboxPlugin {
     return details.response;
   }
 
-  async cachedResponseWillBeUsed(
-    details: CachedResponseWillBeUsedCallbackParam,
-  ) {
+  async cachedResponseWillBeUsed(details: CachedResponseWillBeUsedCallbackParam) {
     console.debug(...this._prefix, `cachedResponseWillBeUsed`, details);
     return details.cachedResponse;
   }

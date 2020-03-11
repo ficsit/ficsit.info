@@ -1,9 +1,7 @@
-import { declareString, declareInteger, declareBoolean, declareFloat } from "./primitive";
+import { declareString, declareInteger, declareBoolean, declareFloat } from './primitive';
 
 describe(`schema.declare.primitive`, () => {
-
   describe(`declareString`, () => {
-
     const schema = declareString();
 
     it(`passes string values`, () => {
@@ -25,11 +23,9 @@ describe(`schema.declare.primitive`, () => {
         schema.parse(undefined);
       }).toThrowError(/undefined/);
     });
-
   });
 
   describe(`declareInteger`, () => {
-
     const schema = declareInteger();
 
     it(`passes integer values`, () => {
@@ -53,11 +49,9 @@ describe(`schema.declare.primitive`, () => {
         schema.parse(undefined);
       }).toThrowError(/undefined/);
     });
-
   });
 
   describe(`declareFloat`, () => {
-
     const schema = declareFloat();
 
     it(`passes float values`, () => {
@@ -81,11 +75,9 @@ describe(`schema.declare.primitive`, () => {
         schema.parse(undefined);
       }).toThrowError(/undefined/);
     });
-
   });
 
   describe(`declareBoolean`, () => {
-
     const schema = declareBoolean();
 
     it(`passes True`, () => {
@@ -107,7 +99,5 @@ describe(`schema.declare.primitive`, () => {
         schema.parse(undefined);
       }).toThrowError(/undefined/);
     });
-
   });
-
 });

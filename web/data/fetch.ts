@@ -1,9 +1,6 @@
 import { useState } from 'react';
 
-export function makeDataHook<TResult extends object>(
-  path: string,
-  transform: (data: any) => TResult,
-) {
+export function makeDataHook<TResult extends object>(path: string, transform: (data: any) => TResult) {
   let promise: Promise<TResult> | undefined;
   let transformed: TResult | undefined;
 
