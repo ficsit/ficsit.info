@@ -32,6 +32,7 @@
     "babel-plugin-jsx-pragmatic": "^1.0.2",
     "babel-plugin-transform-inline-environment-variables": "^0.4.3",
     "base62": "^2.0.1",
+    "eslint": "^6.8.0",
     "firebase-tools": "^7.12.1",
     "glob": "^7.1.6",
     "history": "^5.0.0-beta.5",
@@ -62,5 +63,8 @@
     "workbox-precaching": "^5.0.0",
     "workbox-routing": "^5.0.0",
     "workbox-strategies": "^5.0.0"
+  },
+  "dependencies": {
+    "@ficsit/code-style": "^1.0.2"
   }
 }
