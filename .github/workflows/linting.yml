@@ -1,0 +1,28 @@
+name: Linting
+
+on: [push, pull_request]
+
+jobs:
+  test-style:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+          registry-url: 'https://registry.npmjs.org'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: yarn test-style
+        run: yarn test-style --output-file eslint.json --format json
+        continue-on-error: true
+
+      - name: Report Lint Failures
+        uses: ataylorme/eslint-annotate-action@1.0.4
+        with:
+          repo-token: '${{ secrets.GITHUB_TOKEN }}'
+          report-json: 'eslint.json'
