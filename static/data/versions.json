@@ -1,4 +1,12 @@
 {
-  "experimental": 116395,
-  "master": 117050
+  "branches": {
+    "experimental": 116395,
+    "master": 117050
+  },
+  "builds": {
+    "117050": {
+      "public": "0.3.3.3",
+      "patchNotes": "https://www.reddit.com/r/SatisfactoryGame/comments/fgx4x8/update_3_patch_notes_now_out_on_early_access/"
+    }
+  }
 }

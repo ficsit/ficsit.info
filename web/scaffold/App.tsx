@@ -100,8 +100,8 @@ const navigationStyles = css({
 const versionStyles = css({
   position: 'absolute',
   top: 20,
-  right: -38,
-  display: 'flex',
+  right: -41,
+  display: 'flex !important',
   flexDirection: 'column',
   alignItems: 'center',
   transform: 'rotate(45deg)',
@@ -174,16 +174,17 @@ export class App extends PureComponent {
 
 function Version() {
   const versions = useVersions();
-  let branch = 'master';
-  const version = versions?.[branch] || '???';
-  if (branch === 'master') {
-    branch = 'Early Access';
-  }
+  if (!versions) return null;
+
+  const build = versions.branches.master;
+  const buildInfo = versions.builds[build];
 
   return (
-    <div css={versionStyles}>
-      <span className='branch'>{branch}</span>
-      <span className='version'>v{version}</span>
-    </div>
+    <a href={buildInfo.patchNotes} target='_new' css={versionStyles}>
+      <span className='branch'>Early Access</span>
+      <span className='version'>
+        v{buildInfo.public} ({build})
+      </span>
+    </a>
   );
 }

@@ -1,5 +1,16 @@
 import { makeDataHook } from './fetch';
 
-export const useVersionsData = makeDataHook('versions', (versions: Record<string, number>) => versions);
+interface Versions {
+  branches: Record<string, number>;
+  builds: Record<
+    number,
+    {
+      public: string;
+      patchNotes: string;
+    }
+  >;
+}
+
+export const useVersionsData = makeDataHook('versions', (versions: Versions) => versions);
 
 export const useVersions = useVersionsData;
