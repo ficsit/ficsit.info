@@ -174,12 +174,16 @@ export class App extends PureComponent {
 
 function Version() {
   const versions = useVersions();
-  const branch = 'experimental';
+  let branch = 'master';
+  const version = versions?.[branch] || '???';
+  if (branch === 'master') {
+    branch = 'Early Access';
+  }
 
   return (
     <div css={versionStyles}>
       <span className='branch'>{branch}</span>
-      <span className='version'>v{versions?.[branch] || '???'}</span>
+      <span className='version'>v{version}</span>
     </div>
   );
 }

@@ -21,7 +21,7 @@ export function useRecipesByIngredient() {
 
 // Raw Data
 
-export const useRecipeData = makeDataHook('experimental/recipes', (bySlug: Record<string, Recipe>) => {
+export const useRecipeData = makeDataHook('master/recipes', (bySlug: Record<string, Recipe>) => {
   const recipes = Object.values(bySlug);
   return {
     bySlug,

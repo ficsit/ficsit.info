@@ -33,13 +33,13 @@ export async function prefetchData(router: Router) {
   try {
     await Promise.all([
       router.handleRequest({
-        request: new Request('/data/experimental/entities.json', noCache),
+        request: new Request('/data/master/entities.json', noCache),
       }),
       router.handleRequest({
-        request: new Request('/data/experimental/recipes.json', noCache),
+        request: new Request('/data/master/recipes.json', noCache),
       }),
       router.handleRequest({
-        request: new Request('/data/experimental/schematics.json', noCache),
+        request: new Request('/data/master/schematics.json', noCache),
       }),
       router.handleRequest({
         request: new Request('/data/versions.json', noCache),

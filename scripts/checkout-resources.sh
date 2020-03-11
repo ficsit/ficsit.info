@@ -16,4 +16,4 @@ fi
 cd "${DESTINATION}"
 git fetch --quiet --tags --force --prune-tags origin
 git checkout --quiet "${TARGET_REF}"
-
+git pull
