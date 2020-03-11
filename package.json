@@ -11,6 +11,8 @@
     "deploy": "firebase deploy",
     "dev": "parcel serve ./web/index.html",
     "extract": "./scripts/extract.ts",
+    "fix-style": "git ls-tree --name-only HEAD | xargs eslint --no-error-on-unmatched-pattern --fix",
+    "test-style": "git ls-tree --name-only HEAD | xargs eslint --no-error-on-unmatched-pattern",
     "test": "jest"
   },
   "devDependencies": {
