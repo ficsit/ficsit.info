@@ -27,8 +27,8 @@ export async function fillStaticEntries(outputDb: OutputDatabase, assetDb: Asset
     'entity',
     {
       kind: EntityKind.Item,
-      name: `FicsIt Coupon`,
-      description: `A special FicsIt bonus program Coupon, obtained through the AWESOME Sink. Can be redeemed in the AWESOME Shop for bonus milestones and rewards.`,
+      name: `FICSIT Coupon`,
+      description: `A special FICSIT bonus program Coupon, obtained through the AWESOME Sink. Can be redeemed in the AWESOME Shop for bonus milestones and rewards.`,
       icon: await assetDb.saveEntityIcon(
         'Resource/Parts/ResourceSinkCoupon/UI/Ficsit_Coupon_256.png',
         EntityKind.Item,

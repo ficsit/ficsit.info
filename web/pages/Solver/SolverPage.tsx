@@ -121,7 +121,7 @@ function _renderResult(result?: SolverResult | { error: any }) {
         <p>Something went wrong when embettening™ your production line!</p>
         <p css={errorMessageStyles}>{error.message || error}</p>
         <p>
-          …look—this is FicsIt—if we had a checklist for every problem, you probably wouldn't have a job. Try
+          …look—this is FICSIT—if we had a checklist for every problem, you probably wouldn't have a job. Try
           pressing some buttons until it works.
         </p>
       </Section>
