@@ -1,15 +1,15 @@
 import { css } from '@emotion/core';
 import { Recipe } from '@local/schema';
 
-import { useRecipes, usePoweredBuilding, useEntities } from '~/data';
-import { RecipeTable, ExtractionDetails, isExtraction } from '~/components/RecipeTable';
+import { groupPowerConsumption } from '~/calc/power';
 import { EntityReference } from '~/components/EntityReference';
+import { RecipeTable, ExtractionDetails, isExtraction } from '~/components/RecipeTable';
+import { Value, ValueUnit } from '~/components/Value';
+import { useRecipes, usePoweredBuilding, useEntities } from '~/data';
 import { sizing, colors } from '~/style';
 
-import { SolverResult } from './solve';
-import { Value, ValueUnit } from '~/components/Value';
-import { groupPowerConsumption } from '~/calc/power';
 import { extractionsFromInputs } from './helpers';
+import { SolverResult } from './solve';
 
 const itemHeight = sizing.navListIconSize + sizing.Padding.Small * 2;
 

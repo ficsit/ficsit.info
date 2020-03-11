@@ -1,5 +1,5 @@
-import { assertOneOf, assertRegexp, assertString } from './assert';
 import { Declaration } from './Declaration';
+import { assertOneOf, assertRegexp, assertString } from './assert';
 
 export function declareString(): Declaration<string> {
   return {

@@ -1,3 +1,5 @@
+import { BuildableFactorySchema } from './BuildableFactory';
+import { ResourceFormSchema } from './ItemDescriptor';
 import {
   declareClass,
   DeclarationShape,
@@ -7,8 +9,6 @@ import {
   declareFloat,
   declareInteger,
 } from './declare';
-import { BuildableFactorySchema } from './BuildableFactory';
-import { ResourceFormSchema } from './ItemDescriptor';
 import { declareOptional } from './declare/optional';
 
 /**

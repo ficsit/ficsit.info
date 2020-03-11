@@ -1,14 +1,14 @@
+import { css } from '@emotion/core';
 import { PureComponent } from 'react';
 import { NavLink } from 'react-router-dom';
-import { css } from '@emotion/core';
 
 import { Image } from '~/components/Image';
+import { useVersions } from '~/data/versions';
 import { colors, sizing } from '~/style';
 
-import { AppRoutes } from './AppRoutes';
-
 import logoImage from '../assets/images/ficsit-logo@*.*';
-import { useVersions } from '~/data/versions';
+
+import { AppRoutes } from './AppRoutes';
 
 const globalStyles = css({
   WebkitFontSmoothing: 'antialiased',

@@ -1,5 +1,5 @@
-import { declareClass, declareBoolean, declareFloat, DeclarationShape, declareInteger } from './declare';
 import { BuildableSchema } from './Buildable';
+import { declareClass, declareBoolean, declareFloat, DeclarationShape, declareInteger } from './declare';
 
 /**
  * Schema for `FGBuildableFactory`.

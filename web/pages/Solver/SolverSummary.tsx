@@ -1,15 +1,15 @@
-import { AnyEntity, EntityKind, ItemForm, PoweredBuilding, Recipe } from '@local/schema';
 import { css } from '@emotion/core';
+import { AnyEntity, EntityKind, ItemForm, PoweredBuilding, Recipe } from '@local/schema';
 
-import { EntityLink } from '~/components/EntityLink';
-import { useEntities, useRecipes } from '~/data';
-import { Rate } from '~/components/Rate';
-import { sizing, colors } from '~/style';
 import { groupPowerConsumption } from '~/calc/power';
+import { EntityLink } from '~/components/EntityLink';
+import { Rate } from '~/components/Rate';
 import { Value, ValueUnit } from '~/components/Value';
+import { useEntities, useRecipes } from '~/data';
+import { sizing, colors } from '~/style';
 
-import { SolverResult, ItemRate } from './solve';
 import { extractionsFromInputs } from './helpers';
+import { SolverResult, ItemRate } from './solve';
 
 const rootStyles = css({
   display: 'grid',

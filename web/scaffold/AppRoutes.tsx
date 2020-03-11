@@ -1,10 +1,10 @@
 import { Routes, Route } from 'react-router-dom';
 
 import { BuildingPage } from '~/pages/Building';
-import { SolverPage } from '~/pages/Solver';
 import { HomePage } from '~/pages/Home';
 import { ItemPage } from '~/pages/Item';
 import { RecipePage } from '~/pages/Recipe';
+import { SolverPage } from '~/pages/Solver';
 
 export function AppRoutes() {
   return (

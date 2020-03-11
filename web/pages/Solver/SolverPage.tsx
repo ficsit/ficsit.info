@@ -1,18 +1,18 @@
 import { css } from '@emotion/core';
+import { useMemo } from 'react';
+import { useLocation, useNavigate } from 'react-router';
 
 import { Section } from '~/components/Section';
-import { sizing, colors } from '~/style';
 import { useRecipes, useEntities } from '~/data';
+import { sizing, colors } from '~/style';
 
-import { solveFor, SolverResult, SolverConfiguration } from './solve';
-import { useMemo } from 'react';
-import { RecipeResults } from './RecipeResults';
-import { TargetsChooser } from './TargetsChooser';
-import { OptionsChooser } from './OptionsChooser';
-import { SolverSummary } from './SolverSummary';
-import { useLocation, useNavigate } from 'react-router';
-import { encodeConfig, decodeConfig } from './url';
 import { ConstraintsChooser } from './ConstraintsChooser';
+import { OptionsChooser } from './OptionsChooser';
+import { RecipeResults } from './RecipeResults';
+import { SolverSummary } from './SolverSummary';
+import { TargetsChooser } from './TargetsChooser';
+import { solveFor, SolverResult, SolverConfiguration } from './solve';
+import { encodeConfig, decodeConfig } from './url';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,

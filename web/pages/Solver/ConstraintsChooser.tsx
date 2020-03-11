@@ -1,7 +1,9 @@
-import { SolverConstraint, ItemRate, SolverConstraintSubjectKind, SolverConstraintType } from './solve';
 import { css } from '@emotion/core';
-import { sizing, colors } from '~/style';
+
 import { EntityAndRateChooser } from '~/components/EntityAndRateChooser';
+import { sizing, colors } from '~/style';
+
+import { SolverConstraint, ItemRate, SolverConstraintSubjectKind, SolverConstraintType } from './solve';
 
 const constraintStyles = css({
   paddingTop: sizing.Padding.Medium,

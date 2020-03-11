@@ -1,5 +1,5 @@
-import { WorkboxPlugin, CacheDidUpdateCallbackParam } from 'workbox-core';
 import { responsesAreSame } from 'workbox-broadcast-update';
+import { WorkboxPlugin, CacheDidUpdateCallbackParam } from 'workbox-core';
 
 export class RedirectPlugin implements WorkboxPlugin {
   constructor(private _info: RequestInfo, private _init?: RequestInit) {}

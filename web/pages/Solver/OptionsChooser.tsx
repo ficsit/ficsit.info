@@ -1,5 +1,7 @@
 import { css } from '@emotion/core';
+
 import { sizing } from '~/style';
+
 import { SolverOptions } from './solve';
 
 const rootStyles = css({

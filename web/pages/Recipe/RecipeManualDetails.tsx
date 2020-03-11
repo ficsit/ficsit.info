@@ -1,10 +1,9 @@
-import { Recipe, ItemAmount } from '@local/schema';
 import { css } from '@emotion/core';
+import { Recipe, ItemAmount } from '@local/schema';
 
 import CraftingIcon from '~/assets/images/crafting.svg';
-
-import { colors, sizing } from '~/style';
 import { EntityReference } from '~/components/EntityReference';
+import { colors, sizing } from '~/style';
 
 const secondsPerClick = 0.25;
 const clicksPerMinute = 60 / secondsPerClick;

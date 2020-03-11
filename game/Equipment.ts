@@ -1,3 +1,4 @@
+import { ItemAmountSchema } from './ItemAmount';
 import {
   declareClass,
   declareString,
@@ -6,7 +7,6 @@ import {
   declareBoolean,
   DeclarationShape,
 } from './declare';
-import { ItemAmountSchema } from './ItemAmount';
 
 export const EquipmentSlotSchema = declareEnum(['ES_NONE', 'ES_ARMS', 'ES_BACK', 'ES_MAX'] as const);
 

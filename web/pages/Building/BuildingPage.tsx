@@ -1,14 +1,14 @@
+import { css } from '@emotion/core';
+import { EntityKind, Building } from '@local/schema';
 import { useState } from 'react';
 import { useParams, useNavigate } from 'react-router';
-import { EntityKind, Building } from '@local/schema';
-import { css } from '@emotion/core';
 
-import { useBuilding } from '~/data';
-import { sizing } from '~/style';
-import { MasterDetailLayout } from '~/layouts';
 import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
+import { useBuilding } from '~/data';
+import { MasterDetailLayout } from '~/layouts';
 import { buildingUrl } from '~/routing';
+import { sizing } from '~/style';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,

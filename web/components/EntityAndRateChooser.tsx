@@ -1,12 +1,11 @@
 import { css } from '@emotion/core';
 import { EntityKind } from '@local/schema';
 
+import CancelIcon from '~/assets/images/cancel.svg';
 import { ItemRate } from '~/pages/Solver/solve';
 import { colors, sizing } from '~/style';
 
 import { EntityChooser } from './EntityChooser';
-
-import CancelIcon from '~/assets/images/cancel.svg';
 
 const chooserWidth = 250;
 const rateWidth = 40;

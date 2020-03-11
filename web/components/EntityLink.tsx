@@ -1,6 +1,6 @@
+import { css, SerializedStyles } from '@emotion/core';
 import { AnyEntity } from '@local/schema';
 import { NavLink } from 'react-router-dom';
-import { css, SerializedStyles } from '@emotion/core';
 
 import { entityUrl } from '~/routing';
 import { colors } from '~/style';

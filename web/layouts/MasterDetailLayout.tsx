@@ -1,5 +1,5 @@
-import { ReactNode } from 'react';
 import { css } from '@emotion/core';
+import { ReactNode } from 'react';
 
 import { colors, sizing } from '../style';
 

@@ -1,12 +1,12 @@
-import { NavLink } from 'react-router-dom';
 import { css } from '@emotion/core';
+import { ItemForm, EntityKind } from '@local/schema';
+import { NavLink } from 'react-router-dom';
 
 import { useEntity, useItem } from '~/data';
 import { entityUrl } from '~/routing';
 import { colors, sizing } from '~/style';
 
 import { EntityImage } from './EntityImage';
-import { ItemForm, EntityKind } from '@local/schema';
 
 const padding = sizing.Padding.Small;
 

@@ -1,9 +1,8 @@
 import { AnyEntity, Recipe } from '@local/schema';
 
-import { solveFor, SolverConstraintSubjectKind, SolverConstraintType } from './solve';
-
 import rawEntities from './__fixtures__/entities.json';
 import rawRecipes from './__fixtures__/recipes.json';
+import { solveFor, SolverConstraintSubjectKind, SolverConstraintType } from './solve';
 
 const entities = rawEntities as Record<string, AnyEntity>;
 const recipes = rawRecipes as Record<string, Recipe>;

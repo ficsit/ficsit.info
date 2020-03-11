@@ -1,16 +1,17 @@
-import { useParams, useNavigate } from 'react-router';
-import { EntityKind, Item, ItemForm } from '@local/schema';
 import { css } from '@emotion/core';
+import { EntityKind, Item, ItemForm } from '@local/schema';
+import { useParams, useNavigate } from 'react-router';
 
-import { useItem } from '~/data';
-import { sizing } from '~/style';
-import { MasterDetailLayout } from '~/layouts';
 import { EntityList } from '~/components/EntityList';
 import { EntitySummary } from '~/components/EntitySummary';
+import { ValueUnit } from '~/components/Value';
+import { useItem } from '~/data';
+import { MasterDetailLayout } from '~/layouts';
+import { itemUrl } from '~/routing';
+import { sizing } from '~/style';
+
 import { ItemSources } from './ItemSources';
 import { ItemUses } from './ItemUses';
-import { itemUrl } from '~/routing';
-import { ValueUnit } from '~/components/Value';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,

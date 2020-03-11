@@ -1,8 +1,8 @@
 import { format } from 'util';
 
 import { Declaration, StructDeclaration } from './Declaration';
-import { declareString } from './primitive';
 import { assertObject, TypeAssertionError } from './assert';
+import { declareString } from './primitive';
 
 type ClassStruct<TClass> = TClass & { ClassName: Declaration<string> };
 

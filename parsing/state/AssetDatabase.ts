@@ -12,9 +12,9 @@ import * as base62 from 'base62';
 import * as crypto from 'crypto';
 import sharp from 'sharp';
 
-import { assetMap } from './assetMap';
-import { FileSystem } from './FileSystem';
 import { EntityDatabase } from './EntityDatabase';
+import { FileSystem } from './FileSystem';
+import { assetMap } from './assetMap';
 
 const commonImageSizes = [inlineIconSize, navButtonIconSize, navListIconSize];
 

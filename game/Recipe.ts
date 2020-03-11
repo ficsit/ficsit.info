@@ -1,3 +1,4 @@
+import { ItemAmountSchema } from './ItemAmount';
 import {
   declareClass,
   DeclarationShape,
@@ -6,7 +7,6 @@ import {
   declareFloat,
   declareReference,
 } from './declare';
-import { ItemAmountSchema } from './ItemAmount';
 
 /**
  * Schema for `FGRecipe`.

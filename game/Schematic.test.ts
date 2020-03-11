@@ -1,5 +1,5 @@
-import { SchematicSchema } from './Schematic';
 import { Reference } from './Reference';
+import { SchematicSchema } from './Schematic';
 
 describe(`schema.Schematic`, () => {
   it(`parses Research_Mycelia_2_C from v114480`, () => {

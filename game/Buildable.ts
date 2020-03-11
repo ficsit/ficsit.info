@@ -1,5 +1,5 @@
-import { declareClass, declareBoolean, declareFloat, declareString, DeclarationShape } from './declare';
 import { VectorSchema } from './Vector';
+import { declareClass, declareBoolean, declareFloat, declareString, DeclarationShape } from './declare';
 
 /**
  * Schema for `FGBuildable`.

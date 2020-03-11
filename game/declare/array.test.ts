@@ -1,8 +1,8 @@
+import { Declaration } from './Declaration';
 import { declareArray } from './array';
+import { declareInteger, declareString } from './primitive';
 import { declareReference } from './reference';
 import { declareStruct } from './struct';
-import { declareInteger, declareString } from './primitive';
-import { Declaration } from './Declaration';
 
 describe(`schema.declare.array`, () => {
   describe(`declareArray`, () => {

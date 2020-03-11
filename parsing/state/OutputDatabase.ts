@@ -1,5 +1,5 @@
-import { paramCase } from 'param-case';
 import { AnyEntity, Slug, Recipe, Schematic } from '@local/schema';
+import { paramCase } from 'param-case';
 
 import { normalizeClassName } from './HeaderDatabase';
 

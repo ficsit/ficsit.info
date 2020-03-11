@@ -1,14 +1,15 @@
+import { css } from '@emotion/core';
+import { Building } from '@local/schema';
 import { useState } from 'react';
 import { useParams } from 'react-router';
-import { css } from '@emotion/core';
 
+import { RecipeTable } from '~/components/RecipeTable';
+import { Section } from '~/components/Section';
 import { useRecipe, useEntities } from '~/data';
 import { colors, sizing } from '~/style';
-import { Section } from '~/components/Section';
-import { Building } from '@local/schema';
-import { RecipeManufacturerDetails } from './RecipeManufacturerDetails';
+
 import { RecipeManualDetails } from './RecipeManualDetails';
-import { RecipeTable } from '~/components/RecipeTable';
+import { RecipeManufacturerDetails } from './RecipeManufacturerDetails';
 
 const rootStyles = css({
   padding: sizing.sectionPadding,

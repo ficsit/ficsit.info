@@ -1,5 +1,5 @@
-import { assertOneOf } from './assert';
 import { Declaration } from './Declaration';
+import { assertOneOf } from './assert';
 
 export function declareEnum<TValues>(values: readonly TValues[]): Declaration<TValues> {
   return {

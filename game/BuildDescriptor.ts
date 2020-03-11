@@ -1,5 +1,5 @@
-import { declareClass, declareFloat, DeclarationShape, declareArray, declareReference } from './declare';
 import { ItemDescriptorSchema } from './ItemDescriptor';
+import { declareClass, declareFloat, DeclarationShape, declareArray, declareReference } from './declare';
 
 /**
  * Schema for `FGBuildDescriptor`.

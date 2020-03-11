@@ -1,5 +1,5 @@
-import { assertString, TypeAssertionError, assertRegexp } from './assert';
 import { Declaration } from './Declaration';
+import { assertString, TypeAssertionError, assertRegexp } from './assert';
 
 export function declareArray<TItem>(itemDeclaration: Declaration<TItem>): Declaration<TItem[]> {
   return {

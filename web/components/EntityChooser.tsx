@@ -1,12 +1,12 @@
-import { EntityKind } from '@local/schema';
 import { css } from '@emotion/core';
+import { EntityKind } from '@local/schema';
+import { useState } from 'react';
 
+import { useEntity } from '~/data';
 import { sizing, colors } from '~/style';
 
 import { EntityList } from './EntityList';
-import { useState } from 'react';
 import { EntityListItem } from './EntityListItem';
-import { useEntity } from '~/data';
 
 const rowHeight = 30;
 

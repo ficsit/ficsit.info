@@ -1,8 +1,8 @@
 import { declareArray } from './array';
-import { declareStruct } from './struct';
+import { declareOptional } from './optional';
 import { declareInteger, declareBoolean } from './primitive';
 import { declareReference } from './reference';
-import { declareOptional } from './optional';
+import { declareStruct } from './struct';
 
 describe(`schema.declare.struct`, () => {
   describe(`declareStruct`, () => {

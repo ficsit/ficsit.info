@@ -1,4 +1,5 @@
 import { AnyEntity, EntityKind, PoweredBuilding } from '@local/schema';
+
 import { makeDataHook } from './fetch';
 
 export function useEntities() {

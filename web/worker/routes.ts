@@ -1,5 +1,5 @@
-import { NavigationRoute, Router, Route } from 'workbox-routing';
 import { BroadcastUpdatePlugin } from 'workbox-broadcast-update';
+import { NavigationRoute, Router, Route } from 'workbox-routing';
 import { Handler } from 'workbox-routing/_types';
 import { HTTPMethod } from 'workbox-routing/utils/constants';
 import { CacheFirst, NetworkFirst, StaleWhileRevalidate } from 'workbox-strategies';

@@ -1,9 +1,8 @@
 import { css, SerializedStyles } from '@emotion/core';
 
-import { colors, fonts, sizing } from '~/style';
-
 import CycleTimeIcon from '~/assets/images/cycle-time.svg';
 import PowerIcon from '~/assets/images/power.svg';
+import { colors, fonts, sizing } from '~/style';
 
 export const enum ValueUnit {
   None,

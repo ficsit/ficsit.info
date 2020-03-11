@@ -1,7 +1,7 @@
 #!/usr/bin/env ts-node
+import * as parsing from '@local/parsing';
 import * as fs from 'fs';
 import * as path from 'path';
-import * as parsing from '@local/parsing';
 
 const DATA_ROOT = path.resolve(__dirname, '..', 'static', 'data');
 const ASSETS = path.resolve(__dirname, '..', 'static', 'assets');

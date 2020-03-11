@@ -1,3 +1,4 @@
+import { ColorSchema } from './Color';
 import {
   declareClass,
   DeclarationShape,
@@ -6,7 +7,6 @@ import {
   declareFloat,
   declareEnum,
 } from './declare';
-import { ColorSchema } from './Color';
 
 /**
  * Schema for `EResourceForm`.

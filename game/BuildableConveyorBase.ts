@@ -1,5 +1,5 @@
-import { declareClass, declareFloat, DeclarationShape } from './declare';
 import { BuildableSchema } from './Buildable';
+import { declareClass, declareFloat, DeclarationShape } from './declare';
 import { declareOptional } from './declare/optional';
 
 /**

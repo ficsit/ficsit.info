@@ -1,5 +1,6 @@
-import { OutputDatabase, AssetDatabase } from '../state';
 import { EntityKind, ItemForm, Item } from '@local/schema';
+
+import { OutputDatabase, AssetDatabase } from '../state';
 
 export async function fillStaticEntries(outputDb: OutputDatabase, assetDb: AssetDatabase) {
   // Wat.

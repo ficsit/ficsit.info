@@ -1,5 +1,5 @@
-import { Item, EntityKind, ItemResourceDetails } from '@local/schema';
 import * as game from '@local/game';
+import { Item, EntityKind, ItemResourceDetails } from '@local/schema';
 
 import { AssetDatabase, EntityDatabase, OutputDatabase, WithoutSlug } from '../state';
 

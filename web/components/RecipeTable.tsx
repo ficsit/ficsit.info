@@ -1,11 +1,12 @@
-import { Recipe, ItemAmount, AnyEntity, ItemForm } from '@local/schema';
 import { css } from '@emotion/core';
+import { Recipe, ItemAmount, AnyEntity, ItemForm } from '@local/schema';
 
-import { colors, sizing } from '~/style';
 import { ItemCount } from '~/components/ItemCount';
-import { Rate } from './Rate';
 import { useEntities } from '~/data';
+import { colors, sizing } from '~/style';
+
 import { EntityReference } from './EntityReference';
+import { Rate } from './Rate';
 
 const contentStyles = css({
   display: 'grid',

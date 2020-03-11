@@ -1,3 +1,4 @@
+import { ItemAmountSchema } from './ItemAmount';
 import {
   declareClass,
   declareArray,
@@ -7,7 +8,6 @@ import {
   declareInteger,
   declareEnum,
 } from './declare';
-import { ItemAmountSchema } from './ItemAmount';
 
 /**
  * Schema for `SchematicType`.

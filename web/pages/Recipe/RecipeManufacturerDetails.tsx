@@ -1,11 +1,11 @@
-import { Recipe, Building } from '@local/schema';
 import { css } from '@emotion/core';
+import { Recipe, Building } from '@local/schema';
 import { NavLink } from 'react-router-dom';
 
-import { colors, sizing } from '~/style';
-import { entityUrl } from '~/routing';
 import { EntityImage } from '~/components/EntityImage';
 import { ValueUnit, Value } from '~/components/Value';
+import { entityUrl } from '~/routing';
+import { colors, sizing } from '~/style';
 
 const rootStyles = css({
   fontSize: sizing.FontSize.Small,

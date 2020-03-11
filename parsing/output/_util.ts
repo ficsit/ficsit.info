@@ -1,5 +1,5 @@
-import { ItemForm, EquipmentSlot, SchematicKind } from '@local/schema';
 import { ItemAmount, Reference } from '@local/game';
+import { ItemForm, EquipmentSlot, SchematicKind } from '@local/schema';
 
 import { EntityDatabase, OutputDatabase, SlugReferenceString } from '../state';
 

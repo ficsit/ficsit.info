@@ -1,12 +1,12 @@
-import { NavLink } from 'react-router-dom';
-import { AnyEntity } from '@local/schema';
 import { css } from '@emotion/core';
+import { AnyEntity } from '@local/schema';
+import { NavLink } from 'react-router-dom';
 
 import { entityUrl } from '~/routing';
 import { colors } from '~/style';
 
-import { HighlightedText } from './HighlightedText';
 import { EntityImage } from './EntityImage';
+import { HighlightedText } from './HighlightedText';
 
 const iconScale = 0.8;
 

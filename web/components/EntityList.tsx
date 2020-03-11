@@ -1,5 +1,5 @@
-import { EntityKind, AnyEntity } from '@local/schema';
 import { css } from '@emotion/core';
+import { EntityKind, AnyEntity } from '@local/schema';
 import { useMemo, useState, useEffect } from 'react';
 import {
   AutoSizedStickyTree,
@@ -9,8 +9,8 @@ import {
   NodeId,
 } from 'react-virtualized-sticky-tree';
 
-import { colors } from '~/style';
 import { useEntitiesByKind } from '~/data';
+import { colors } from '~/style';
 
 import { EntityListItem } from './EntityListItem';
 

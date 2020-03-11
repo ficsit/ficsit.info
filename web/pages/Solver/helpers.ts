@@ -1,5 +1,6 @@
-import { ItemRate } from './solve';
 import { AnyEntity, Item, Building } from '@local/schema';
+
+import { ItemRate } from './solve';
 
 export function extractionsFromInputs(allEntities: Record<string, AnyEntity>, inputs: ItemRate[]) {
   const results = [];

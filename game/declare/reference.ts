@@ -1,6 +1,7 @@
+import { Reference } from '../Reference';
+
 import { Declaration } from './Declaration';
 import { assertString, TypeAssertionError } from './assert';
-import { Reference } from '../Reference';
 
 export function declareReference(): Declaration<Reference | undefined> {
   return {

@@ -1,8 +1,8 @@
 import { Item } from '@local/schema';
 
-import { useRecipesByIngredient } from '~/data';
-import { Section } from '~/components/Section';
 import { RecipeTable } from '~/components/RecipeTable';
+import { Section } from '~/components/Section';
+import { useRecipesByIngredient } from '~/data';
 
 export interface ItemUses {
   item: Item;
