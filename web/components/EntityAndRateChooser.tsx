@@ -86,12 +86,7 @@ interface EntityAndRateChooserProps {
   hideRate?: boolean;
 }
 
-export function EntityAndRateChooser({
-  target,
-  setTarget,
-  hideRate,
-  ...props
-}: EntityAndRateChooserProps) {
+export function EntityAndRateChooser({ target, setTarget, hideRate, ...props }: EntityAndRateChooserProps) {
   const { slug, perMinute } = target || {};
 
   return (
@@ -106,9 +101,7 @@ export function EntityAndRateChooser({
         }}
       />
       {target && (
-        <div
-          css={inputContainerStyles}
-          style={{ visibility: hideRate ? 'hidden' : undefined }}>
+        <div css={inputContainerStyles} style={{ visibility: hideRate ? 'hidden' : undefined }}>
           <input
             css={inputStyles}
             value={perMinute}
@@ -142,7 +135,8 @@ export function EntityAndRateChooser({
           css={clearStyles}
           onPointerUp={() => {
             setTarget(undefined);
-          }}>
+          }}
+        >
           <CancelIcon />
         </div>
       )}

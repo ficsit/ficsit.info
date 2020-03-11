@@ -11,8 +11,8 @@
     "deploy": "firebase deploy",
     "dev": "parcel serve ./web/index.html",
     "extract": "./scripts/extract.ts",
-    "fix-style": "git ls-tree --name-only HEAD | xargs eslint --no-error-on-unmatched-pattern --fix",
-    "test-style": "git ls-tree --name-only HEAD | xargs eslint --no-error-on-unmatched-pattern",
+    "fix-style": "git ls-tree -r --name-only HEAD | xargs eslint --no-error-on-unmatched-pattern --fix",
+    "test-style": "git ls-tree -r --name-only HEAD | xargs eslint --no-error-on-unmatched-pattern",
     "test": "jest"
   },
   "devDependencies": {
@@ -20,6 +20,7 @@
     "@babel/preset-typescript": "^7.8.3",
     "@emotion/babel-preset-css-prop": "^10.0.27",
     "@emotion/core": "^10.0.27",
+    "@ficsit/code-style": "^1.2.0",
     "@local/game": "link:./game",
     "@local/parsing": "link:./parsing",
     "@local/schema": "link:./schema",
@@ -65,8 +66,5 @@
     "workbox-precaching": "^5.0.0",
     "workbox-routing": "^5.0.0",
     "workbox-strategies": "^5.0.0"
-  },
-  "dependencies": {
-    "@ficsit/code-style": "^1.0.2"
   }
 }

@@ -6,12 +6,12 @@ declare module 'react-virtualized-sticky-tree' {
   export type Child = RegularChild | StickyChild;
 
   export interface RegularChild {
-    id: NodeId 
+    id: NodeId;
     height: number;
     isSticky?: false;
   }
   export interface StickyChild {
-    id: NodeId
+    id: NodeId;
     height: number;
     isSticky: true;
     stickyTop: number;
@@ -23,15 +23,15 @@ declare module 'react-virtualized-sticky-tree' {
     style: React.CSSProperties;
     nodeInfo: NodeInfo<TChild>;
   }
-  
+
   export type NodeInfo<TChild extends Child = Child> = TChild & BaseNodeInfo<TChild>;
   export interface BaseNodeInfo<TChild extends Child = Child> {
     top: number;
     parentIndex: number;
-    parentInfo: NodeInfo<TChild>,
+    parentInfo: NodeInfo<TChild>;
     depth: number;
     height: number;
-    index: number; 
+    index: number;
     isFirstChild: boolean;
     isLastChild: boolean;
   }
@@ -118,7 +118,7 @@ declare module 'react-virtualized-sticky-tree' {
     /**
      * if true, the root node will be rendered (by calling rowRenderer() for the root id). Otherwise no root node will be rendered.
      */
-    renderRoot?: boolean,
+    renderRoot?: boolean;
 
     /**
      * Sets the position of the tree to the specified scrollTop. To reset
@@ -151,12 +151,12 @@ declare module 'react-virtualized-sticky-tree' {
      * If true, all leaf nodes will be wrapped with a div, even when they are not sticky. this may help with certain tree structures where you need a constant key
      * for the element so that it is not recreated when React dom diffing occurs.
      */
-    wrapAllLeafNodes?: boolean,
+    wrapAllLeafNodes?: boolean;
 
     /**
      * If true, we can make some assumptions about the results returned by getChildren() which improve rendering performance.
      */
-    isModelImmutable?: boolean,
+    isModelImmutable?: boolean;
   }
 
   export class StickyTree<TChild extends Child = Child> extends React.Component<StickyTreeProps<TChild>> {

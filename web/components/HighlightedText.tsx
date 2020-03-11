@@ -14,9 +14,7 @@ export function HighlightedText({ text, search }: HighlightedTextProps) {
   for (const character of characters) {
     const index = searchText.indexOf(character, start);
     parts.push(cleanText.slice(start, index));
-    parts.push(
-      <strong key={index}>{cleanText.slice(index, index + 1)}</strong>,
-    );
+    parts.push(<strong key={index}>{cleanText.slice(index, index + 1)}</strong>);
     start = index + 1;
   }
   parts.push(cleanText.slice(start));

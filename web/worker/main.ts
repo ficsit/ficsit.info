@@ -1,4 +1,4 @@
-declare var self: ServiceWorkerGlobalScope & typeof globalThis;
+declare let self: ServiceWorkerGlobalScope & typeof globalThis;
 
 import * as log from './log';
 import { prefetchData, prefetchPackagedAssets } from './prefetch';

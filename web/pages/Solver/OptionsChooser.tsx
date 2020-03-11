@@ -26,18 +26,8 @@ export function OptionsChooser({ options, setOptions }: OptionsChooserProps) {
   return (
     <div css={rootStyles}>
       <h3>Options</h3>
-      {_renderOption(
-        options,
-        setOptions,
-        'includeAlternateRecipes',
-        `Include Alternative Recipes`,
-      )}
-      {_renderOption(
-        options,
-        setOptions,
-        'optimizeResiduals',
-        `Minimize Residual Outputs`,
-      )}
+      {_renderOption(options, setOptions, 'includeAlternateRecipes', `Include Alternative Recipes`)}
+      {_renderOption(options, setOptions, 'optimizeResiduals', `Minimize Residual Outputs`)}
     </div>
   );
 }

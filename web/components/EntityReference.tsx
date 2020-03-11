@@ -90,11 +90,7 @@ export interface EntityReferenceProps {
   size?: number;
 }
 
-export function EntityReference({
-  slug,
-  badge,
-  size = 32,
-}: EntityReferenceProps) {
+export function EntityReference({ slug, badge, size = 32 }: EntityReferenceProps) {
   const entity = useEntity(slug);
   // TODO: make liquids their own entity type.
   const item = useItem(slug);
@@ -110,10 +106,7 @@ export function EntityReference({
   const style = { height: size, width: size };
 
   return (
-    <NavLink
-      to={entityUrl(entity)}
-      css={[rootStyles, shapeStyles[shape]]}
-      style={style}>
+    <NavLink to={entityUrl(entity)} css={[rootStyles, shapeStyles[shape]]} style={style}>
       <EntityImage entity={entity} size={size} />
       {!!badge && <div css={badgeStyles}>{badge}</div>}
     </NavLink>

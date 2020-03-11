@@ -137,13 +137,7 @@ export class App extends PureComponent {
       <header css={headerStyles}>
         <h1 css={titleStyles}>
           <NavLink to='/'>
-            <Image
-              paths={logoImage}
-              alt='FicsIt'
-              height={36}
-              width={144}
-              css={logoStyles}
-            />
+            <Image paths={logoImage} alt='FicsIt' height={36} width={144} css={logoStyles} />
             Employee Portal
           </NavLink>
         </h1>
@@ -164,7 +158,7 @@ export class App extends PureComponent {
             {/* <li><NavLink to='/research'>Research</NavLink></li> */}
           </ul>
         </nav>
-        <_Version />
+        <Version />
       </header>
     );
   }
@@ -178,7 +172,7 @@ export class App extends PureComponent {
   }
 }
 
-function _Version() {
+function Version() {
   const versions = useVersions();
   const branch = 'experimental';
 

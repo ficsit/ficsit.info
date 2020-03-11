@@ -32,19 +32,13 @@ const imageStyles = css({
   marginRight: '0.25em',
 });
 
-export interface EntityLinkProps
-  extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
+export interface EntityLinkProps extends React.AnchorHTMLAttributes<HTMLAnchorElement> {
   entity: AnyEntity;
   imageCss?: SerializedStyles;
   size?: number;
 }
 
-export function EntityLink({
-  entity,
-  imageCss,
-  size = 24,
-  ...props
-}: EntityLinkProps) {
+export function EntityLink({ entity, imageCss, size = 24, ...props }: EntityLinkProps) {
   const inlineStyle = {
     marginTop: size / -2,
     marginBottom: size / -2,
@@ -52,11 +46,7 @@ export function EntityLink({
 
   return (
     <NavLink {...props} to={entityUrl(entity)} css={rootStyles}>
-      <EntityImage
-        entity={entity}
-        size={size}
-        css={[imageStyles, imageCss, inlineStyle]}
-      />
+      <EntityImage entity={entity} size={size} css={[imageStyles, imageCss, inlineStyle]} />
       {entity.name}
     </NavLink>
   );

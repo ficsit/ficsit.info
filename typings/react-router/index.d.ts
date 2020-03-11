@@ -8,7 +8,7 @@ declare module 'react-router' {
   }
 
   export interface NavigateFunction {
-    (to: string, options?: { replace?: boolean, state?: any }): void;
+    (to: string, options?: { replace?: boolean; state?: any }): void;
   }
 
   /**

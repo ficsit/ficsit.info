@@ -9,7 +9,17 @@ export interface EntityImageProps extends React.ImgHTMLAttributes<HTMLImageEleme
 export function EntityImage({ entity, size, ...props }: EntityImageProps) {
   const paths = _pathsForEntity(size, entity);
 
-  return <Image {...props} key={entity.slug} paths={paths} title={entity.name} alt={entity.name} height={size} width={size} />;
+  return (
+    <Image
+      {...props}
+      key={entity.slug}
+      paths={paths}
+      title={entity.name}
+      alt={entity.name}
+      height={size}
+      width={size}
+    />
+  );
 }
 
 function _pathsForEntity(size: number, entity: Entity) {

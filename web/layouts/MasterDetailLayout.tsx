@@ -43,10 +43,8 @@ export interface MasterDetailLayoutProps {
 export const MasterDetailLayout = ({ master, detail }: MasterDetailLayoutProps) => {
   return (
     <div css={containerStyles}>
-      {!!detail && 
-        <main css={detailStyles}>{detail}</main>
-      }
+      {!!detail && <main css={detailStyles}>{detail}</main>}
       <nav css={masterStyles}>{master}</nav>
     </div>
   );
-}
+};

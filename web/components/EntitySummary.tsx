@@ -16,8 +16,7 @@ const getHeaderStyles = memoize((imageSize: number) =>
     flexDirection: 'column',
     justifyContent: 'flex-end',
     paddingLeft: imageSize + basePadding,
-    minHeight:
-      imageSize * insetAmount - basePadding - sizing.sectionPadding * 2,
+    minHeight: imageSize * insetAmount - basePadding - sizing.sectionPadding * 2,
     [`@media(max-width: ${sizing.minContentWidth}px)`]: {
       paddingLeft: 0,
       minHeight: 'auto',
@@ -87,21 +86,12 @@ export interface EntitySummaryParams {
   statistics?: Record<string, React.ReactNode>;
 }
 
-export function EntitySummary({
-  entity,
-  imageSize,
-  description,
-  statistics,
-  ...props
-}: EntitySummaryParams) {
+export function EntitySummary({ entity, imageSize, description, statistics, ...props }: EntitySummaryParams) {
   const headerStyles = getHeaderStyles(imageSize);
   const entityImageStyles = getEntityImageStyles(imageSize);
 
   return (
-    <Section
-      title={<h1 css={headerStyles}>{entity.name}</h1>}
-      allowOverflow
-      {...props}>
+    <Section title={<h1 css={headerStyles}>{entity.name}</h1>} allowOverflow {...props}>
       <div css={summaryStyles}>
         <EntityImage entity={entity} size={imageSize} css={entityImageStyles} />
         <p css={descriptionStyles}>{description || entity.description}</p>

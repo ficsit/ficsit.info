@@ -2,11 +2,7 @@ import { css } from '@emotion/core';
 import { Recipe } from '@local/schema';
 
 import { useRecipes, usePoweredBuilding, useEntities } from '~/data';
-import {
-  RecipeTable,
-  ExtractionDetails,
-  isExtraction,
-} from '~/components/RecipeTable';
+import { RecipeTable, ExtractionDetails, isExtraction } from '~/components/RecipeTable';
 import { EntityReference } from '~/components/EntityReference';
 import { sizing, colors } from '~/style';
 
@@ -19,8 +15,7 @@ const itemHeight = sizing.navListIconSize + sizing.Padding.Small * 2;
 
 const multipleStyles = css({
   display: 'inline-block',
-  minWidth:
-    sizing.navListIconSize + sizing.Padding.Normal + sizing.Padding.Small * 2,
+  minWidth: sizing.navListIconSize + sizing.Padding.Normal + sizing.Padding.Small * 2,
   textAlign: 'right',
   paddingRight: sizing.Padding.Normal,
   color: colors.Dark.N500,
@@ -65,9 +60,7 @@ export function RecipeResults({ result }: RecipeResultsProps) {
   if (!recipes || !entities) return null;
 
   const recipesToList = result.recipes.map(({ slug }) => recipes[slug]);
-  const multiples = new Map(
-    result.recipes.map(({ slug, multiple }) => [slug, multiple] as const),
-  );
+  const multiples = new Map(result.recipes.map(({ slug, multiple }) => [slug, multiple] as const));
   const extractions = extractionsFromInputs(entities, result.inputs);
   for (const { building, multiple } of extractions) {
     multiples.set(building, multiple);
@@ -86,28 +79,21 @@ export function RecipeResults({ result }: RecipeResultsProps) {
         )}
         showRates={({ slug }) => multiples.get(slug)!}
         size={sizing.navListIconSize}
-        renderBefore={recipe => (
-          <_Before recipe={recipe} multiple={multiples.get(recipe.slug)!} />
-        )}
+        renderBefore={recipe => <Before recipe={recipe} multiple={multiples.get(recipe.slug)!} />}
       />
     </div>
   );
 }
 
-interface _BeforeProps {
+interface BeforeProps {
   recipe: Recipe | ExtractionDetails;
   multiple: number;
 }
 
-function _Before({ recipe, multiple }: _BeforeProps) {
-  const building = usePoweredBuilding(
-    isExtraction(recipe) ? recipe.slug : recipe.producedIn[0],
-  );
+function Before({ recipe, multiple }: BeforeProps) {
+  const building = usePoweredBuilding(isExtraction(recipe) ? recipe.slug : recipe.producedIn[0]);
   if (!building) return null;
-  const { numBuildings, clockSpeed, totalPower } = groupPowerConsumption(
-    building,
-    multiple,
-  );
+  const { numBuildings, clockSpeed, totalPower } = groupPowerConsumption(building, multiple);
 
   return (
     <div css={beforeStyles}>

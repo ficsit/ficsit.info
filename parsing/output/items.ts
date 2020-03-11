@@ -23,8 +23,8 @@ export async function fillItems(outputDb: OutputDatabase, entityDb: EntityDataba
     for (const className of items) {
       const item = outputDb.getOrDie<Item>(className);
       if (!item.resource) item.resource = {};
-      if (!item.resource!.extractedBy) item.resource!.extractedBy = [];
-      item.resource!.extractedBy!.push(extractorSlug);
+      if (!item.resource.extractedBy) item.resource.extractedBy = [];
+      item.resource.extractedBy.push(extractorSlug);
     }
   }
 }

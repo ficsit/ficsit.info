@@ -32,7 +32,9 @@ export const BuildableResourceExtractorSchema = declareClass(
     mParticleMap: declareOptional(
       declareArray(
         declareStruct({
+          // eslint-disable-next-line @typescript-eslint/camelcase
           ResourceNode_16_2100B5C34EE8DF7958D78A974512F3C3: declareReference(),
+          // eslint-disable-next-line @typescript-eslint/camelcase
           ParticleSystem1_9_F0CF81514E1E1C5007AC99B0C59C63CD: declareReference(),
         }),
       ),

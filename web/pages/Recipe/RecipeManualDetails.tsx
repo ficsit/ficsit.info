@@ -64,9 +64,7 @@ export function RecipeManualDetails({ recipe }: RecipeManualDetailsProps) {
           <CraftingIcon css={iconStyles} />
           <div>{clicks}</div>
         </div>
-        {recipe.products.map(itemAmount =>
-          _renderProductsPerMinute(clicks, itemAmount),
-        )}
+        {recipe.products.map(itemAmount => _renderProductsPerMinute(clicks, itemAmount))}
       </div>
     </div>
   );

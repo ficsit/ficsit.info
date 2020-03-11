@@ -49,13 +49,7 @@ const iconAdjustmentStyles: Record<any, SerializedStyles> = {
   }),
 };
 
-export function Value({
-  value,
-  unit,
-  denominator,
-  showIcon,
-  ...props
-}: ValueProps) {
+export function Value({ value, unit, denominator, showIcon, ...props }: ValueProps) {
   let title = `${value} ${unit}`;
   if (denominator) {
     title += ` / ${denominator}`;

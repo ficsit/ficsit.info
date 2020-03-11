@@ -19,12 +19,5 @@ export function Rate({ rate, isLiquid, ...props }: RateProps) {
 
   const valueUnit = isLiquid ? ValueUnit.CubitMeters : ValueUnit.None;
 
-  return (
-    <Value
-      value={rate}
-      unit={valueUnit}
-      denominator={ValueUnit.Minutes}
-      {...props}
-    />
-  );
+  return <Value value={rate} unit={valueUnit} denominator={ValueUnit.Minutes} {...props} />;
 }

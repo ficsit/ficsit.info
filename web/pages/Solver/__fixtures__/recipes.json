@@ -6375,10 +6375,7 @@
       }
     ],
     "producedIn": ["constructor"],
-    "handcraftedIn": [
-      "craft-bench",
-      "--BAD REFERENCE: Build_AutomatedWorkBench_C--"
-    ],
+    "handcraftedIn": ["craft-bench", "--BAD REFERENCE: Build_AutomatedWorkBench_C--"],
     "duration": 4,
     "manualMultiplier": 5,
     "slug": "recipe-solid-biofuel"

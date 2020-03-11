@@ -1,9 +1,4 @@
-import {
-  SolverConstraint,
-  ItemRate,
-  SolverConstraintSubjectKind,
-  SolverConstraintType,
-} from './solve';
+import { SolverConstraint, ItemRate, SolverConstraintSubjectKind, SolverConstraintType } from './solve';
 import { css } from '@emotion/core';
 import { sizing, colors } from '~/style';
 import { EntityAndRateChooser } from '~/components/EntityAndRateChooser';
@@ -30,19 +25,19 @@ export function ConstraintsChooser(props: ConstraintsChooserProps) {
       <h3>Optimize</h3>
       <div>
         {props.constraints.map((_constraint, index) => (
-          <_Constraint key={index} {...props} index={index} />
+          <Constraint key={index} {...props} index={index} />
         ))}
-        <_Constraint {...props} index={numConstraints} />
+        <Constraint {...props} index={numConstraints} />
       </div>
     </div>
   );
 }
 
-interface _ConstraintProps extends ConstraintsChooserProps {
+interface ConstraintProps extends ConstraintsChooserProps {
   index: number;
 }
 
-function _Constraint({ constraints, setConstraints, index }: _ConstraintProps) {
+function Constraint({ constraints, setConstraints, index }: ConstraintProps) {
   const constraint = constraints[index] as SolverConstraint | undefined;
   let target: ItemRate | undefined;
   if (constraint) {
@@ -63,11 +58,10 @@ function _Constraint({ constraints, setConstraints, index }: _ConstraintProps) {
             type: event.target.value,
           } as SolverConstraint;
           setConstraints(newConstraints);
-        }}>
+        }}
+      >
         <option value={SolverConstraintType.Limit}>Limit Resource:</option>
-        <option value={SolverConstraintType.Minimize}>
-          Minimize Resource:
-        </option>
+        <option value={SolverConstraintType.Minimize}>Minimize Resource:</option>
       </select>
       <EntityAndRateChooser
         target={target}

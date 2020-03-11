@@ -12,6 +12,7 @@ export function enumMapper<TValues>(description: string, mapping: Record<any, TV
   };
 }
 
+/* eslint-disable @typescript-eslint/camelcase */
 export const mapItemForm = enumMapper('ItemForm', {
   RF_SOLID: ItemForm.Solid,
   RF_LIQUID: ItemForm.Liquid,
@@ -41,6 +42,7 @@ export const mapSchematicKind = enumMapper('SchematicKind', {
   EST_Milestone: SchematicKind.Milestone,
   EST_ResourceSink: SchematicKind.ResourceSink,
 });
+/* eslint-enable @typescript-eslint/camelcase */
 
 export function expandReferences(
   outputDb: OutputDatabase,

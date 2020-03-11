@@ -60,6 +60,7 @@ export function RecipePage() {
 function _Detail({ slug }: { slug?: string }) {
   const entities = useEntities();
   const recipe = useRecipe(slug);
+  // eslint-disable-next-line prefer-const
   let [clockSpeed, setClockSpeed] = useState(1.0);
 
   if (!recipe || !entities) return <div>…</div>;

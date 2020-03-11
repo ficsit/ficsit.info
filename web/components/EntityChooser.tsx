@@ -63,13 +63,7 @@ export interface EntityChooserProps {
   placeholder?: string;
 }
 
-export function EntityChooser({
-  kind,
-  slug,
-  setSlug,
-  placeholder,
-  ...props
-}: EntityChooserProps) {
+export function EntityChooser({ kind, slug, setSlug, placeholder, ...props }: EntityChooserProps) {
   const [editing, setEditing] = useState(false);
   const entity = useEntity(slug);
 
@@ -77,11 +71,7 @@ export function EntityChooser({
 
   if (editing) {
     return (
-      <div
-        ref={ref}
-        css={rootStyles}
-        onBlur={() => setEditing(false)}
-        {...props}>
+      <div ref={ref} css={rootStyles} onBlur={() => setEditing(false)} {...props}>
         <EntityList
           autoFocus
           kind={kind}
@@ -114,7 +104,8 @@ export function EntityChooser({
         <div
           css={[selectedEntityStyles, placeholderStyles]}
           className={'placeholder'}
-          onPointerUp={() => setEditing(true)}>
+          onPointerUp={() => setEditing(true)}
+        >
           {placeholder}
         </div>
       </div>

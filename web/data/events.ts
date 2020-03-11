@@ -11,24 +11,28 @@ const categories = {
 type Category = keyof typeof categories;
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.addEventListener('message', async event => {
-    if (event.data.meta !== 'workbox-broadcast-update') return;
-    if (event.data.payload.cacheName !== 'data') return;
-    const { updatedURL } = event.data.payload;
+  navigator.serviceWorker.addEventListener('message', event => {
+    (async () => {
+      if (event.data.meta !== 'workbox-broadcast-update') return;
+      if (event.data.payload.cacheName !== 'data') return;
+      const { updatedURL } = event.data.payload;
 
-    if (/\/versions\.json$/.test(updatedURL)) {
-      useVersionsData.invalidate();
-      return;
-    }
+      if (updatedURL.endsWith('/versions.json')) {
+        useVersionsData.invalidate();
+        return;
+      }
 
-    const match = /\/([^/]+)\/([^/.]+)\.json$/.exec(updatedURL);
-    if (!match) return;
+      const match = /\/([^/]+)\/([^/.]+)\.json$/.exec(updatedURL);
+      if (!match) return;
 
-    const [, version, category] = match;
-    console.log(`data updated:`, { version, category });
+      const [, version, category] = match;
+      console.log(`data updated:`, { version, category });
 
-    if (category in categories) {
-      categories[category as Category].invalidate();
-    }
+      if (category in categories) {
+        categories[category as Category].invalidate();
+      }
+    })().catch(error => {
+      console.error(error);
+    });
   });
 }

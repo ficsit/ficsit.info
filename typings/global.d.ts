@@ -17,7 +17,7 @@ declare module '*.webp' {
 }
 
 declare module '*.svg' {
-  interface SvgComponentProps extends React.SVGAttributes<SVGElement> {}
+  type SvgComponentProps = React.SVGAttributes<SVGElement>;
   function SvgComponent(props: SvgComponentProps): React.ReactSVGElement;
   export default SvgComponent;
 }

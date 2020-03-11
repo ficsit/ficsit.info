@@ -9,7 +9,7 @@
       "webRoot": "${workspaceFolder}/web",
       "preLaunchTask": "dev",
       "timeout": 30000,
-      "auto": true,
-    } 
+      "auto": true
+    }
   ]
 }

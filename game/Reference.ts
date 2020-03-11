@@ -7,5 +7,5 @@ export class Reference {
 }
 
 export function normalizeClassName(nameOrPath: string) {
-  return nameOrPath.match(/([^.'"]+)'?"?$/)![1];
+  return /([^.'"]+)'?"?$/.exec(nameOrPath)![1];
 }

@@ -16,8 +16,8 @@
         "background": {
           "activeOnStart": true,
           "beginsPattern": "Building in",
-          "endsPattern": "Built in",
-        },
+          "endsPattern": "Built in"
+        }
       },
       "presentation": {
         "reveal": "always",

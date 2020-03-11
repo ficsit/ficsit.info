@@ -1,1 +1,6 @@
 extends: '@ficsit/code-style'
+
+overrides:
+  - files: ['web/worker/**/*.{ts,tsx,js,jsx}', 'web/worker.ts']
+    parserOptions:
+      project: ['web/worker/tsconfig.json']

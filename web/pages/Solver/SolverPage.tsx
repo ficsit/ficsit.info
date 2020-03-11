@@ -80,11 +80,11 @@ export function SolverPage() {
           <span>
             <h1>Embetterer™</h1>
             <span css={taglineStyles}>
-              The Embetterer™ makes your production line better by optimizing
-              the crap out of it!
+              The Embetterer™ makes your production line better by optimizing the crap out of it!
             </span>
           </span>
-        }>
+        }
+      >
         <div css={chooserStyles}>
           <TargetsChooser
             targets={config.targets}
@@ -121,9 +121,8 @@ function _renderResult(result?: SolverResult | { error: any }) {
         <p>Something went wrong when embettening™ your production line!</p>
         <p css={errorMessageStyles}>{error.message || error}</p>
         <p>
-          …look—this is FicsIt—if we had a checklist for every problem, you
-          probably wouldn't have a job. Try pressing some buttons until it
-          works.
+          …look—this is FicsIt—if we had a checklist for every problem, you probably wouldn't have a job. Try
+          pressing some buttons until it works.
         </p>
       </Section>
     );

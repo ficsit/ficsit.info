@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/camelcase */
 export const assetMap: Record<string, string | undefined> = {
   AluminaSolution: 'Resource/Parts/Alumina/UI/LiquidAlumina_Pipe',
   AluminumIngot: 'Resource/Parts/AluminumIngot/UI/AluminiumIngot',
@@ -257,3 +258,4 @@ export const assetMap: Record<string, string | undefined> = {
   WorkBench: 'Buildable/Factory/WorkBench/UI/Workbench',
   Workshop: 'Buildable/Factory/Workshop/UI/Workshop',
 };
+/* eslint-enable @typescript-eslint/camelcase */

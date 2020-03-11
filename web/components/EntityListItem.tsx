@@ -81,7 +81,8 @@ export function EntityListItem({
         if (event.metaKey || event.ctrlKey) return;
         event.preventDefault();
         onTap();
-      }}>
+      }}
+    >
       <EntityImage entity={entity} size={height * iconScale} />
       <span>
         <HighlightedText text={entity.name} search={filter} />

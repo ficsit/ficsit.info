@@ -31,13 +31,13 @@ declare module 'react-router-dom' {
    * The public API for rendering a history-aware <a>.
    */
   export function Link<TComponentProps = DefaultLinkComponentProps>(
-    props: LinkProps<TComponentProps>
+    props: LinkProps<TComponentProps>,
   ): React.ElementType<TComponentProps>;
 
   export type LinkProps<TComponentProps = DefaultLinkComponentProps> = {
-    as?: React.ComponentType<TComponentProps>,
-    children?: React.ReactNode,
-    onClick?: MouseEventHandler,
+    as?: React.ComponentType<TComponentProps>;
+    children?: React.ReactNode;
+    onClick?: MouseEventHandler;
     replace?: boolean;
     state?: any;
     target?: string;
@@ -48,15 +48,15 @@ declare module 'react-router-dom' {
    * A <Link> wrapper that knows if it's "active" or not.
    */
   export function NavLink<TComponentProps = DefaultLinkComponentProps>(
-    props: NavLinkProps<TComponentProps>
+    props: NavLinkProps<TComponentProps>,
   ): React.ReactElement<TComponentProps>;
 
   export type NavLinkProps<TComponentProps = DefaultLinkComponentProps> = {
-    'aria-current'?: DefaultLinkComponentProps['aria-current'],
-    activeClassName?: string,
-    activeStyle?: object,
-    className?: string,
-    style?: object,
+    'aria-current'?: DefaultLinkComponentProps['aria-current'];
+    activeClassName?: string;
+    activeStyle?: object;
+    className?: string;
+    style?: object;
   } & LinkProps<TComponentProps>;
 
   /**

@@ -69,7 +69,7 @@ export class HeaderDatabase {
         extensions = rawExtensions
           .replace(/\/\/.+$/, '')
           .split(/\s*,\s*/g)
-          .map(e => e.match(/(\w+)$/)![0]);
+          .map(e => /(\w+)$/.exec(e)![0]);
       }
 
       const classInfo = { name, extensions };
@@ -101,5 +101,5 @@ export class HeaderDatabase {
 }
 
 export function normalizeClassName(nameOrPath: string) {
-  return nameOrPath.match(/([^.'"]+)'?"?$/)![1];
+  return /([^.'"]+)'?"?$/.exec(nameOrPath)![1];
 }

@@ -33,12 +33,13 @@ export function Image({ paths, alt, height, width, style, className, ...props }:
 
   return (
     <picture css={pictureStyle} style={inlineStyles} className={className}>
-      {!!srcSets && Object.entries(srcSets).map(([format, srcSet]) =>
-        <source key={format} type={`image/${format}`} srcSet={srcSet.join(', ')} />
-      )}
+      {!!srcSets &&
+        Object.entries(srcSets).map(([format, srcSet]) => (
+          <source key={format} type={`image/${format}`} srcSet={srcSet.join(', ')} />
+        ))}
       {!!paths && <img {...props} src={paths['1x']['png']} decoding='async' alt={alt} css={imageStyle} />}
     </picture>
-  )
+  );
 }
 
 function _collectSrcSets(paths?: ImagePaths) {

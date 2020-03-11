@@ -53,10 +53,14 @@ describe(`schema.BuildableResourceExtractor`, () => {
       mSignificanceBias: '0.000000',
       mSignificanceRange: '18000.000000',
       mSkipBuildEffect: 'False',
+      // eslint-disable-next-line @typescript-eslint/camelcase
       mWaterpumpTimeline__Direction_B8FA6F944E717E3B7A286E84901F620E: 'Forward',
+      // eslint-disable-next-line @typescript-eslint/camelcase
       mWaterpumpTimeline_RTPC_B8FA6F944E717E3B7A286E84901F620E: '0.000000',
       OnReplicationDetailActorCreatedEvent: '()',
+      // eslint-disable-next-line @typescript-eslint/camelcase
       PlayPitchAndVolumeRTPCTimeline__Direction_2B435F41466C37D2AD809A88AA21BA89: 'Forward',
+      // eslint-disable-next-line @typescript-eslint/camelcase
       PlayPitchAndVolumeRTPCTimeline_RTPC_2B435F41466C37D2AD809A88AA21BA89: '0.000000',
     });
 

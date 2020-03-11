@@ -135,7 +135,7 @@ function _extractCategories(descriptor?: Descriptor) {
     console.warn(`build descriptor had more than one category!? ${JSON.stringify(categories)}`);
   }
 
-  const match = /\/Sub_([^\/]+)\/SC_([^.]+)\./.exec(categories[0]!.path);
+  const match = /\/Sub_([^/]+)\/SC_([^.]+)\./.exec(categories[0]!.path);
   if (!match) {
     console.warn(`Unable to extract categories from ${categories[0]!.path}`);
     return;

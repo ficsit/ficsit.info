@@ -1,10 +1,4 @@
-import {
-  AnyEntity,
-  EntityKind,
-  ItemForm,
-  PoweredBuilding,
-  Recipe,
-} from '@local/schema';
+import { AnyEntity, EntityKind, ItemForm, PoweredBuilding, Recipe } from '@local/schema';
 import { css } from '@emotion/core';
 
 import { EntityLink } from '~/components/EntityLink';
@@ -92,41 +86,37 @@ export function SolverSummary({ result }: SolverSummaryProps) {
     <div css={rootStyles}>
       <div>
         <h3>Inputs</h3>
-        <_RateTable rates={result.inputs} entities={entities} />
+        <RateTable rates={result.inputs} entities={entities} />
       </div>
       <div>
         <h3>Outputs</h3>
-        <_RateTable rates={result.outputs} entities={entities} />
+        <RateTable rates={result.outputs} entities={entities} />
       </div>
       {!!result.residuals.length && (
         <div>
           <h3>Residuals</h3>
-          <_RateTable rates={result.residuals} entities={entities} />
+          <RateTable rates={result.residuals} entities={entities} />
         </div>
       )}
       <div>
         <h3>Buildings</h3>
-        <_Buildings result={result} entities={entities} />
+        <Buildings result={result} entities={entities} />
       </div>
     </div>
   );
 }
 
-interface _RateTableProps {
+interface RateTableProps {
   rates: ItemRate[];
   entities: Record<string, AnyEntity>;
 }
 
-function _RateTable({ rates, entities }: _RateTableProps) {
+function RateTable({ rates, entities }: RateTableProps) {
   return (
     <div css={tableStyles}>
       {rates.map(({ slug, perMinute }) => (
         <React.Fragment key={slug}>
-          <Rate
-            css={rateStyles}
-            rate={perMinute}
-            isLiquid={isLiquid(entities[slug])}
-          />
+          <Rate css={rateStyles} rate={perMinute} isLiquid={isLiquid(entities[slug])} />
           <EntityLink css={entityStyles} entity={entities[slug]} />
         </React.Fragment>
       ))}
@@ -139,14 +129,11 @@ function isLiquid(entity: AnyEntity) {
   return entity.form === ItemForm.Liquid;
 }
 
-interface _BuildingsProps {
+interface BuildingsProps {
   entities: Record<string, AnyEntity>;
   result: SolverResult;
 }
-function _Buildings({
-  entities,
-  result: { recipes, inputs },
-}: _BuildingsProps) {
+function Buildings({ entities, result: { recipes, inputs } }: BuildingsProps) {
   const allRecipes = useRecipes();
   if (!allRecipes || !entities) return null;
 
@@ -163,18 +150,11 @@ function _Buildings({
           <React.Fragment key={slug}>
             <div css={buildingCountStyles}>{count}x</div>
             <EntityLink css={buildingStyles} entity={entities[slug]} />
-            <Value
-              css={buildingRateStyles}
-              unit={ValueUnit.Megawatts}
-              value={power}
-              showIcon
-            />
+            <Value css={buildingRateStyles} unit={ValueUnit.Megawatts} value={power} showIcon />
           </React.Fragment>
         ))}
 
-      <div css={[buildingCountStyles, lastRowStyles]}>
-        {results['__total__'].count}x
-      </div>
+      <div css={[buildingCountStyles, lastRowStyles]}>{results['__total__'].count}x</div>
       <div css={[buildingTotalStyles, lastRowStyles]}>Total</div>
       <Value
         css={[buildingRateStyles, lastRowStyles]}
@@ -198,10 +178,7 @@ function _collectBuildingsFromRecipes(
     const recipe = allRecipes[slug];
     const buildingSlug = recipe.producedIn[0];
     const building = entities[recipe.producedIn[0]] as PoweredBuilding;
-    const { totalPower, numBuildings } = groupPowerConsumption(
-      building,
-      multiple,
-    );
+    const { totalPower, numBuildings } = groupPowerConsumption(building, multiple);
 
     results.__total__.power += totalPower;
     results.__total__.count += numBuildings;
@@ -219,10 +196,7 @@ function _collectExtractionsFromInputs(
   const extractions = extractionsFromInputs(entities, inputs);
   for (const { building: buildingSlug, multiple } of extractions) {
     const building = entities[buildingSlug] as PoweredBuilding;
-    const { totalPower, numBuildings } = groupPowerConsumption(
-      building,
-      multiple,
-    );
+    const { totalPower, numBuildings } = groupPowerConsumption(building, multiple);
 
     results.__total__.power += totalPower;
     results.__total__.count += numBuildings;

@@ -18,5 +18,5 @@ export function AppRoutes() {
       <Route path='/recipes/:slug' element={<RecipePage />} />
       <Route path='/embetterer/' element={<SolverPage />} />
     </Routes>
-  )
+  );
 }

@@ -1,7 +1,3 @@
 export function HomePage() {
-  return (
-    <React.Fragment>
-      
-    </React.Fragment>
-  );
+  return <React.Fragment></React.Fragment>;
 }

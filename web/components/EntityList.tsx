@@ -113,16 +113,9 @@ export function EntityList({
   const [filter, setFilter] = useState('');
   const [scrolled, setScrolled] = useState(false);
   const entities = useEntitiesByKind(kind);
-  const fullTree = useMemo(() => _dataSource(depth, rowHeight, entities), [
-    depth,
-    rowHeight,
-    entities,
-  ]);
+  const fullTree = useMemo(() => _dataSource(depth, rowHeight, entities), [depth, rowHeight, entities]);
   const [focused, setFocused] = useState(selected);
-  const focusedId = useMemo(() => _findId(fullTree, focused), [
-    fullTree,
-    focused,
-  ]);
+  const focusedId = useMemo(() => _findId(fullTree, focused), [fullTree, focused]);
 
   const tree = useMemo(() => _filterTree(fullTree, filter), [fullTree, filter]);
 
@@ -147,10 +140,9 @@ export function EntityList({
         // Give a brief delay before focusing in case we're navigating on
         // mobile.
         const input = inputRef.current;
-        requestAnimationFrame(() =>
-          requestAnimationFrame(() => input?.focus()),
-        );
-      }}>
+        requestAnimationFrame(() => requestAnimationFrame(() => input?.focus()));
+      }}
+    >
       <input
         css={inputStyles}
         ref={inputRef}
@@ -178,11 +170,7 @@ export function EntityList({
           let newNodeIndex;
           if (event.key === 'ArrowDown') {
             if (focusedId) {
-              newNodeIndex = _findAdjacentEntityIndex(
-                current,
-                focusedId,
-                'down',
-              );
+              newNodeIndex = _findAdjacentEntityIndex(current, focusedId, 'down');
             } else {
               newNodeIndex = current.nodes.findIndex(n => n.kind === 'entity');
             }
@@ -206,15 +194,7 @@ export function EntityList({
         isModelImmutable={true}
         getChildren={(_id, parent: AnyNode) => (parent as any).childNodes}
         rowRenderer={nodeInfo =>
-          _renderNode(
-            nodeInfo,
-            filter,
-            rowHeight,
-            setFocused,
-            onChange,
-            selected,
-            focused,
-          )
+          _renderNode(nodeInfo, filter, rowHeight, setFocused, onChange, selected, focused)
         }
         renderRoot={false}
         overscanRowCount={5}
@@ -265,11 +245,7 @@ function _renderNode(
   }
 }
 
-function _dataSource(
-  depth: number,
-  rowHeight: number,
-  entities?: Record<string, AnyEntity>,
-) {
+function _dataSource(depth: number, rowHeight: number, entities?: Record<string, AnyEntity>) {
   if (!entities) return;
 
   const tree = _entityTree(entities);
@@ -330,9 +306,7 @@ function _entityTree(entities: Record<string, AnyEntity>) {
   const allEntities = Object.values(entities);
   const indexed: EntityTree = new Map();
   for (const entity of allEntities.sort(
-    (a, b) =>
-      (a.listOrder || Number.MAX_SAFE_INTEGER) -
-      (b.listOrder || Number.MAX_SAFE_INTEGER),
+    (a, b) => (a.listOrder || Number.MAX_SAFE_INTEGER) - (b.listOrder || Number.MAX_SAFE_INTEGER),
   )) {
     let [category, subCategory] = entity.categories || [];
     category = category || 'Miscellaneous';
@@ -356,9 +330,7 @@ function _filterTree(tree?: RootNode, filterText?: string) {
   for (const category of tree.childNodes) {
     const newSubCategories = [] as SubCategoryNode[];
     for (const subCategory of category.childNodes) {
-      const newEntities = subCategory.childNodes.filter(({ entity }) =>
-        filter.test(entity.name),
-      );
+      const newEntities = subCategory.childNodes.filter(({ entity }) => filter.test(entity.name));
 
       if (!newEntities.length) continue;
       newSubCategories.push({ ...subCategory, childNodes: newEntities });
@@ -375,7 +347,7 @@ function _compileFilter(filterText: string) {
   const source = filterText
     .split('')
     .map(char => {
-      if (/([\[\](){}\\+*?.|^:<>=&])/.test(char)) {
+      if (/([[\](){}\\+*?.|^:<>=&])/.test(char)) {
         return `\\${char}`;
       } else {
         return char;
@@ -406,6 +378,7 @@ function _findAdjacentEntityIndex(
   if (!currentNode) return tree.nodes.findIndex(n => n.kind === 'entity');
 
   const move = direction === 'down' ? 'getNextNodeId' : 'getPreviousNodeId';
+  // eslint-disable-next-line no-constant-condition
   while (true) {
     const newId = tree[move](currentId);
     if (newId === undefined) return;

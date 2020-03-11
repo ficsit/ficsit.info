@@ -35,6 +35,7 @@ export function BuildingPage() {
 }
 
 function _Detail({ building }: { building: Building }) {
+  // eslint-disable-next-line prefer-const
   let [clockSpeed, setClockSpeed] = useState(1.0);
   const statistics = {} as Record<string, React.ReactNode>;
 
@@ -81,11 +82,7 @@ function _Detail({ building }: { building: Building }) {
 
   return (
     <article css={rootStyles}>
-      <EntitySummary
-        entity={building}
-        imageSize={256}
-        statistics={statistics}
-      />
+      <EntitySummary entity={building} imageSize={256} statistics={statistics} />
     </article>
   );
 }

@@ -1,5 +1,5 @@
 // for parcel-plugin-service-worker-manifest
-declare var __precacheManifest: { url: string; revision: string }[];
+declare let __precacheManifest: { url: string; revision: string }[];
 
 import { Router } from 'workbox-routing';
 

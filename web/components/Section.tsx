@@ -42,12 +42,7 @@ const allowContentOverflow = css({
   overflow: 'visible !important',
 });
 
-export function Section({
-  children,
-  title,
-  allowOverflow,
-  ...props
-}: SectionProps) {
+export function Section({ children, title, allowOverflow, ...props }: SectionProps) {
   if (typeof title === 'string') title = <h2>{title}</h2>;
 
   const contentCss = [contentStyles];

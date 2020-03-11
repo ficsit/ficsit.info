@@ -95,8 +95,7 @@ export function RecipeTable(props: RecipeTableProps) {
 
   return (
     <div css={contentStyles}>
-      {extractions &&
-        extractions.map(e => _renderExtraction(e, props, entities))}
+      {extractions && extractions.map(e => _renderExtraction(e, props, entities))}
       {recipes && recipes.map(r => _renderRecipe(r, props, entities))}
     </div>
   );
@@ -108,13 +107,8 @@ function _renderExtraction(
   entities: Record<string, AnyEntity>,
 ) {
   const buildingData = entities[building];
-  if (
-    !buildingData ||
-    buildingData.kind !== 'building' ||
-    !buildingData.extraction
-  )
-    return null;
-  const { cycleTime, itemsPerCycle } = buildingData.extraction!;
+  if (!buildingData || buildingData.kind !== 'building' || !buildingData.extraction) return null;
+  const { cycleTime, itemsPerCycle } = buildingData.extraction;
 
   const details: ExtractionDetails = {
     kind: 'extraction',
@@ -128,9 +122,7 @@ function _renderExtraction(
   return (
     <React.Fragment key={`${building}-${item}`}>
       {!!title && <span css={recipeTitleStyles}>{title}</span>}
-      {!!props.renderBefore && (
-        <div css={beforeStyles}>{props.renderBefore(details)}</div>
-      )}
+      {!!props.renderBefore && <div css={beforeStyles}>{props.renderBefore(details)}</div>}
       <div css={ingredientsStyles}>
         <EntityReference slug={building} size={props.size} />
       </div>
@@ -140,40 +132,26 @@ function _renderExtraction(
           ...props,
           showCounts: false,
         })}
-        {!!props.renderAfter && (
-          <div css={afterStyles}>{props.renderAfter(details)}</div>
-        )}
+        {!!props.renderAfter && <div css={afterStyles}>{props.renderAfter(details)}</div>}
       </div>
     </React.Fragment>
   );
 }
 
-function _renderRecipe(
-  recipe: Recipe,
-  props: RecipeTableProps,
-  entities: Record<string, AnyEntity>,
-) {
+function _renderRecipe(recipe: Recipe, props: RecipeTableProps, entities: Record<string, AnyEntity>) {
   const title = props.renderTitle ? props.renderTitle(recipe) : recipe.name;
 
   return (
     <React.Fragment key={recipe.slug}>
       {!!title && <span css={recipeTitleStyles}>{title}</span>}
-      {!!props.renderBefore && (
-        <div css={beforeStyles}>{props.renderBefore(recipe)}</div>
-      )}
+      {!!props.renderBefore && <div css={beforeStyles}>{props.renderBefore(recipe)}</div>}
       <div css={ingredientsStyles}>
-        {recipe.ingredients.map(i =>
-          _renderEntity(recipe, entities[i.item], i, props),
-        )}
+        {recipe.ingredients.map(i => _renderEntity(recipe, entities[i.item], i, props))}
       </div>
       {_renderArrow(props.size)}
       <div css={productsStyles}>
-        {recipe.products.map(i =>
-          _renderEntity(recipe, entities[i.item], i, props),
-        )}
-        {!!props.renderAfter && (
-          <div css={afterStyles}>{props.renderAfter(recipe)}</div>
-        )}
+        {recipe.products.map(i => _renderEntity(recipe, entities[i.item], i, props))}
+        {!!props.renderAfter && <div css={afterStyles}>{props.renderAfter(recipe)}</div>}
       </div>
     </React.Fragment>
   );
@@ -191,22 +169,18 @@ function _renderEntity(
     multiple = showRates(recipe);
   }
 
-  const isLiquid =
-    entity && 'form' in entity && entity.form === ItemForm.Liquid;
+  const isLiquid = entity && 'form' in entity && entity.form === ItemForm.Liquid;
 
   return (
     <div key={item} css={entityStyles}>
       <ItemCount slug={item} count={showCounts && count} size={size} />
-      {!!showRates && (
-        <Rate rate={{ count, duration, multiple }} isLiquid={isLiquid} />
-      )}
+      {!!showRates && <Rate rate={{ count, duration, multiple }} isLiquid={isLiquid} />}
     </div>
   );
 }
 
 function _renderArrow(size?: number) {
-  const itemHeight =
-    (size || sizing.navButtonIconSize) + sizing.Padding.Small * 2;
+  const itemHeight = (size || sizing.navButtonIconSize) + sizing.Padding.Small * 2;
 
   return (
     <div css={arrowStyles} style={{ height: itemHeight }}>
@@ -215,8 +189,6 @@ function _renderArrow(size?: number) {
   );
 }
 
-export function isExtraction(
-  value: Recipe | ExtractionDetails,
-): value is ExtractionDetails {
+export function isExtraction(value: Recipe | ExtractionDetails): value is ExtractionDetails {
   return (value as any).kind === 'extraction';
 }
