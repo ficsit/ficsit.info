@@ -1,5 +1,6 @@
 {
   "recommendations": [
+    "dbaeumer.vscode-eslint",
     "eamodio.toggle-excluded-files",
     "msjsdiag.debugger-for-chrome",
     "philfontaine.autolaunch"
