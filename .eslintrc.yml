@@ -1,6 +1,10 @@
 extends: '@ficsit/code-style'
 
 overrides:
+  - files: ['**/*.{ts,tsx,js,jsx}']
+    globals:
+      React: readonly
+
   - files: ['web/worker/**/*.{ts,tsx,js,jsx}', 'web/worker.ts']
     parserOptions:
       project: ['web/worker/tsconfig.json']
