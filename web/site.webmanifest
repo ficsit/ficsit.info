@@ -3,8 +3,8 @@
   "short_name": "FICSIT",
   "icons": [
     {
-      "src": "./assets/site-icons/icon-196.png",
-      "sizes": "196x196",
+      "src": "./assets/site-icons/icon-192.png",
+      "sizes": "192x192",
       "type": "image/png"
     },
     {
@@ -14,8 +14,8 @@
     },
     {
       "purpose": "maskable",
-      "src": "./assets/site-icons/maskable-196.png",
-      "sizes": "196x196",
+      "src": "./assets/site-icons/maskable-192.png",
+      "sizes": "192x192",
       "type": "image/png"
     },
     {
